@@ -286,11 +286,12 @@ export function sizeLegend(values, r, fmt = String, label = "") {
   const H = Math.ceil(Math.max(...rs) * 2 + 4);
   let x = 4;
   const circles = values.map((v, i) => {
-    const cx = x + rs[i];
-    x += rs[i] * 2 + 26;
-    return `<circle cx="${cx.toFixed(1)}" cy="${(H - rs[i] - 2).toFixed(1)}" r="${rs[i].toFixed(1)}"/><text x="${(cx + rs[i] + 3).toFixed(1)}" y="${H - 3}">${esc(fmt(v))}</text>`;
+    const cx = x + rs[i], txt = fmt(v);
+    // ponytail: label width estimated at 6 px a character (10 px legend font); measure with canvas if a font change breaks it
+    x += rs[i] * 2 + 3 + txt.length * 6 + 10;
+    return `<circle cx="${cx.toFixed(1)}" cy="${(H - rs[i] - 2).toFixed(1)}" r="${rs[i].toFixed(1)}"/><text x="${(cx + rs[i] + 3).toFixed(1)}" y="${H - 3}">${esc(txt)}</text>`;
   }).join("");
-  return `<div class="adv-legend size">${label ? `<span class="t">${esc(label)}</span>` : ""}<svg width="${x + 20}" height="${H}" aria-hidden="true">${circles}</svg></div>`;
+  return `<div class="adv-legend size">${label ? `<span class="t">${esc(label)}</span>` : ""}<svg width="${Math.ceil(x)}" height="${H}" aria-hidden="true">${circles}</svg></div>`;
 }
 
 export { rampColor };

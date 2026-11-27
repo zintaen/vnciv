@@ -281,4 +281,5 @@ export default {
   "Place names": "Địa danh",
   "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners": "Các đảo (kể cả Hoàng Sa và Trường Sa) và các thị xã, thị trấn ngoài các thành phố trên bản đồ",
   "({owner}, Vietnam)": "({owner}, Việt Nam)",
+  "Show or hide resources (R)": "Hiện/ẩn tài nguyên (R)",
 };

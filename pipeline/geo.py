@@ -41,7 +41,7 @@ class Albers:
         return math.degrees(self.lon0 + theta / self.n), math.degrees(math.asin(max(-1.0, min(1.0, s))))
 
 
-HEX_KM = 8.0  # true size (km) of a hex's radius
+HEX_KM = 5.0  # true size (km) of a hex's radius
 UNIT = 25.0 / HEX_KM  # map units per km: the art is tuned for a 25-unit hex, so 1 km = UNIT map units
 
 

@@ -417,5 +417,9 @@
  "ACV passengers via Wikipedia": "Hành khách của ACV, tổng hợp trên Wikipedia",
  "PCI 2022 (2024 where published)": "PCI 2022 (2024 nếu có công bố)",
  "World Bank official exchange rate, 2024": "Tỷ giá chính thức của Ngân hàng Thế giới, 2024",
- "Coordinates and facts for World Heritage sites, national parks, universities, ports, landmarks and the islands of Hoàng Sa and Trường Sa, by SPARQL query.": "Tọa độ và thông tin về các di sản thế giới, vườn quốc gia, trường đại học, cảng, địa danh và các đảo của Hoàng Sa, Trường Sa, truy vấn bằng SPARQL."
+ "Coordinates and facts for World Heritage sites, national parks, universities, ports, landmarks and the islands of Hoàng Sa and Trường Sa, by SPARQL query.": "Tọa độ và thông tin về các di sản thế giới, vườn quốc gia, trường đại học, cảng, địa danh và các đảo của Hoàng Sa, Trường Sa, truy vấn bằng SPARQL.",
+ "WorldPop 2025 estimated residents in the hex (1 km pixels, constrained to built-up areas, adjusted to UN totals) ÷ the hex's 65 km².": "Số dân ước tính năm 2025 của WorldPop trong ô (điểm ảnh 1 km, giới hạn trong khu vực xây dựng, điều chỉnh theo tổng số của Liên Hợp Quốc) ÷ 65 km² của ô.",
+ "Elevation standard deviation inside the hex under 55 m, or a valley floor (the lower 60% of samples within 60 m of each other and under 400 m) eased down one class.": "Độ lệch chuẩn độ cao trong ô dưới 55 m, hoặc là đáy thung lũng (60% mẫu thấp nhất chênh nhau không quá 60 m và dưới 400 m) được hạ xuống một bậc.",
+ "Elevation standard deviation ≥ 55 m.": "Độ lệch chuẩn độ cao ≥ 55 m.",
+ "Elevation standard deviation ≥ 150 m, or mean elevation ≥ 1,500 m.": "Độ lệch chuẩn độ cao ≥ 150 m, hoặc độ cao trung bình ≥ 1.500 m."
 }

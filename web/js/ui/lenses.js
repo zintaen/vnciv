@@ -100,12 +100,14 @@ export function initLensDock(opts) {
     `<button class="lens-btn ${isActive(l) ? "active" : ""}" data-id="${esc(l.id ?? "")}" aria-pressed="${isActive(l)}"
       title="${esc(l.id ? t("{name} lens", { name: t(l.name) }) : t("{name} (no lens)", { name: t(l.name) }))}">${glyph(l, 15)}<span>${esc(t(l.name))}</span></button>`;
 
+  // The dock shows one button naming the current lens (Terrain by default); every lens is in its picker, so the
+  // old quick row of recent lenses is not shown (it duplicated the picker).
   function renderQuick() {
-    const row = [TERRAIN, ...recent.map((id) => byId.get(id)).filter(Boolean)];
-    quick.innerHTML = row.map(quickBtn).join("");
-    const inRow = !active || recent.includes(active.id);
-    moreBtn.classList.toggle("active", !inRow);
-    moreBtn.innerHTML = `${icon("map", "▤", { size: 15 })}<span>${inRow ? t("Lenses") : esc(t(active.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
+    quick.innerHTML = "";
+    quick.hidden = true;
+    const cur = active || TERRAIN;
+    moreBtn.classList.toggle("active", !!active);
+    moreBtn.innerHTML = `${icon("map", "▤", { size: 15 })}<span>${esc(t(cur.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
     moreBtn.title = t("All lenses (L cycles)");
     moreBtn.hidden = !lenses.length;
     clipCheck();

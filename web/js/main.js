@@ -906,6 +906,15 @@ async function main() {
   ui.addMapToggle = mapToggles.add;
   ui.mapToggles = mapToggles.list;
   ui.setMapToggle = mapToggles.set;
+  // Resources are a switch in the Layers menu (the R key and old links still go through the hidden button).
+  if (resBtn && w.resources) {
+    resBtn.hidden = true;
+    ui.addMapToggle({
+      id: "resources", label: t("Resources"), icon: "resources", title: t("Show or hide resources (R)"), default: true,
+      get: () => state.showResources,
+      set: (v) => { if (!!v !== state.showResources) resBtn.click(); },
+    });
+  }
 
   // --- input -----------------------------------------------------------------------------------------------------
   const hitCity = (mx, my) => hits.find((h) => mx >= h.x && mx <= h.x + h.w && my >= h.y && my <= h.y + h.h)?.city;

@@ -37,7 +37,7 @@ COVER_STEP = 1.0 * UNIT  # cover lattice spacing: 1 km
 URBAN_MIN_PCT = 25
 
 # relief thresholds (m) for 8 km hexes; ETOPO1 gives ~50 samples per hex
-HILLS_SD, MOUNT_SD, MOUNT_MEAN, PEAK_MAX = 70, 190, 1500, 2600
+HILLS_SD, MOUNT_SD, MOUNT_MEAN, PEAK_MAX = 55, 150, 1500, 2600
 
 WATER_TABLE = [
     {"id": LAND, "name": "Land", "rule": "At least 4 of the hex's 7 sample points (centre + 6) fall on province or neighbouring-country outlines, unless the centre is sea and the hex is mostly at or below sea level in ETOPO1. Islands of at least 3 km² (and every Hoàng Sa and Trường Sa island) keep at least the hex at their centre."},

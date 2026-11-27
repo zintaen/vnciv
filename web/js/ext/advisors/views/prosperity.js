@@ -63,7 +63,7 @@ export function mount(ctx) {
       { key: "name", label: tr("Place"), align: "l", value: (r) => r.name, html: (r) => `${esc(r.name)} <span class="sub">${esc(r.sub)}</span>` },
       { key: "inc", label: tr("Income"), value: inc, text: (r) => dollars(inc(r)) },
       { key: "poverty", label: tr("Poverty"), value: (r) => r.v.poverty, text: (r) => pct(r.v.poverty) },
-      { key: "gini", label: "Gini", value: (r) => r.v.gini, html: (r) => fin(r.v.gini) ? `<span class="dot" style="background:${giniColor(r.v.gini)}"></span>${r.v.gini.toFixed(3)}` : "–" },
+      { key: "gini", label: "Gini", value: (r) => r.v.gini, html: (r) => fin(r.v.gini) ? `<span class="dot" style="background:${giniColor(r.v.gini)}"></span>${fixed(r.v.gini, 3)}` : "–" },
     ],
     sort: { key: "inc", dir: "desc" },
     onHover: (r) => { link.hover(r ? rowsHighlight(lv(), [r]) : null); scatter.setHot(r ? r.key : null); },

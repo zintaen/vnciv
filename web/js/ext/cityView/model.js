@@ -2,6 +2,7 @@
 // nation.json, lenses.json, world.json and resources.json. Pure functions over app.data / app.w (no DOM).
 
 import { t } from "../../i18n.js";
+import { fixed } from "../../format.js";
 
 // Industry → short label, district colour (the medallion behind its icon) and icon id (icons.js i-<key>).
 export const INDUSTRY = {
@@ -236,7 +237,7 @@ export function resourceValue(item, type, compact) {
   const v = item.value;
   if (!Number.isFinite(v)) return "";
   const u = type?.unit || "";
-  if (u === "MW") return v >= 1000 ? `${(v / 1000).toFixed(v >= 10000 ? 0 : 1)} GW` : `${Math.round(v)} MW`;
+  if (u === "MW") return v >= 1000 ? `${fixed(v / 1000, v >= 10000 ? 0 : 1)} GW` : `${Math.round(v)} MW`;
   if (u === "employees") return t("{n} workers", { n: compact(v) });
   if (/tons/.test(u)) return t("{n} t/yr", { n: compact(v) });
   if (/km²/.test(u)) return t("{n} km² play", { n: compact(v) });

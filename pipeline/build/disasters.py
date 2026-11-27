@@ -48,7 +48,7 @@ def build():
                     f"hexes are left out of these counts), {since}–{last}. 'Strong' = typhoon strength "
                     f"({STRONG_KT} kt or more, Beaufort 12+) at some point near Vietnam's coast or inland.",
             "counties": {"columns": ["geoid", "total", "strong", "last_date"], "rows": rows},
-            "states": dict(by_state),
+            "states": {a: by_state[a] for a in W.states if a in by_state},
             "national": {"storms": len(storms), "strong": sum(st["max_kt"] >= STRONG_KT for st in storms.values()),
                          "by_year": [{"year": y, "storms": years.get(y, 0)} for y in range(since, last + 1)],
                          "strongest": [brief(st) for st in ranked[:10]], "recent": [brief(st) for st in recent]},

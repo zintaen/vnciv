@@ -134,8 +134,8 @@ export function shareBar(host, opts) {
   const tot = parts.reduce((a, p) => a + p.value, 0) || 1;
   const root = document.createElement("div");
   root.className = "adv-share";
-  root.innerHTML = `<div class="adv-share-bar" role="img" aria-label="${esc(parts.map((p) => `${p.label} ${((p.value / tot) * 100).toFixed(0)}%`).join(", "))}">
-    ${parts.map((p) => `<i data-key="${esc(p.key)}" style="width:${((p.value / tot) * 100).toFixed(3)}%;background:${esc(p.color)}" title="${esc(`${p.label}: ${p.text ?? ""} (${((p.value / tot) * 100).toFixed(1)}%)`)}"></i>`).join("")}
+  root.innerHTML = `<div class="adv-share-bar" role="img" aria-label="${esc(parts.map((p) => `${p.label} ${fixed((p.value / tot) * 100, 0)}%`).join(", "))}">
+    ${parts.map((p) => `<i data-key="${esc(p.key)}" style="width:${((p.value / tot) * 100).toFixed(3)}%;background:${esc(p.color)}" title="${esc(`${p.label}: ${p.text ?? ""} (${fixed((p.value / tot) * 100, 1)}%)`)}"></i>`).join("")}
   </div>
   ${opts.legend === false ? "" : `<div class="adv-swatches" role="list">${parts.map((p) => `<button type="button" role="listitem" class="adv-sw${p.key === opts.selected ? " sel" : ""}" data-key="${esc(p.key)}">
     <i style="background:${esc(p.color)}"></i>${p.icon ? `<span class="ic" aria-hidden="true">${p.icon}</span>` : ""}<span class="lb">${esc(p.label)}</span>
@@ -168,11 +168,11 @@ export function donut(host, opts) {
     const a0 = a, a1 = a + (p.value / tot) * Math.PI * 2 - (parts.length > 1 ? 0.012 : 0);
     a += (p.value / tot) * Math.PI * 2;
     const d = parts.length === 1 ? `M${R},1A${R - 1},${R - 1} 0 1 1 ${R - 0.01},1ZM${R},${th + 1}A${r0},${r0} 0 1 0 ${R + 0.01},${th + 1}Z` : arc(a0, a1);
-    return `<path ${opts.interactive === false ? "data-part" : "data-key"}="${esc(p.key)}" d="${d}" fill="${esc(p.color)}" fill-rule="evenodd" tabindex="-1"><title>${esc(`${p.label}: ${((p.value / tot) * 100).toFixed(1)}%`)}</title></path>`;
+    return `<path ${opts.interactive === false ? "data-part" : "data-key"}="${esc(p.key)}" d="${d}" fill="${esc(p.color)}" fill-rule="evenodd" tabindex="-1"><title>${esc(`${p.label}: ${fixed((p.value / tot) * 100, 1)}%`)}</title></path>`;
   }).join("");
   const root = document.createElement("div");
   root.className = "adv-donut";
-  root.innerHTML = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${esc(opts.ariaLabel || parts.map((p) => `${p.label} ${((p.value / tot) * 100).toFixed(0)}%`).join(", "))}">
+  root.innerHTML = `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" role="img" aria-label="${esc(opts.ariaLabel || parts.map((p) => `${p.label} ${fixed((p.value / tot) * 100, 0)}%`).join(", "))}">
     ${segs}
     ${opts.center ? `<text x="${R}" y="${R - 2}" text-anchor="middle" class="big">${esc(opts.center.big || "")}</text><text x="${R}" y="${R + 14}" text-anchor="middle" class="small">${esc(opts.center.small || "")}</text>` : ""}
   </svg>`;

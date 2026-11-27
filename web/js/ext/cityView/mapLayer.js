@@ -185,16 +185,15 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
     const obstacles = banner ? [{ x: banner.x - 2, y: banner.y - 2, w: banner.w + 4, h: banner.h + 4 }] : [];
     const plaques = []; // laid out first (they win every collision), drawn after the pills
     const plaque = (d, sx, sy, r, label) => plaques.push([d, sx, sy, r, label]);
-    const drawPlaque = (d, sx, sy, r, label) => {
-      let txt = "", tw = 0;
-      if (label) {
-        ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
-        txt = `${clip(d.short || "", 18)}${d.lq != null ? ` ×${fixed(d.lq, 1)}` : ""}`;
-        tw = ctx.measureText(txt).width + 10;
-      }
-      const rect = label
-        ? { x: Math.min(sx - r, sx - tw / 2), y: sy - r, w: Math.max(2 * r, tw), h: r * 0.98 + 7 + r }
-        : { x: sx - r, y: sy - r, w: 2 * r, h: 2 * r };
+    // A plaque's screen rect with its label text ("" = icon only), and its label width.
+    const plaqueBox = (sx, sy, r, txt) => {
+      if (!txt) return { rect: { x: sx - r, y: sy - r, w: 2 * r, h: 2 * r }, tw: 0 };
+      ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
+      const tw = ctx.measureText(txt).width + 10;
+      return { rect: { x: Math.min(sx - r, sx - tw / 2), y: sy - r, w: Math.max(2 * r, tw), h: r * 0.98 + 7 + r }, tw };
+    };
+    const drawPlaque = (d, sx, sy, r, txt, rect, tw) => {
+      const label = !!txt;
       if (!mine(rect)) return;
       hexScreen(ctx, sx, sy, r);
       const grd = ctx.createLinearGradient(sx, sy - r, sx, sy + r);
@@ -213,6 +212,7 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
       const iy = sy - (label ? r * 0.08 : 0);
       if (!(d.icon && hasIcon(d.icon) && drawIcon(ctx, d.icon, sx, iy, r * 1.05, { bg: d.color }))) tentMark(ctx, sx, iy, r);
       if (label) {
+        ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
         const ty = sy + r * 0.98;
         roundRect(ctx, sx - tw / 2, ty - 7, tw, 14, 7);
         ctx.fillStyle = "rgba(8,12,18,.92)";
@@ -244,12 +244,20 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
       }
     }
 
-    const plaqueRects = plaques.map(([d, sx, sy, r, label]) => {
-      if (!label) return { x: sx - r, y: sy - r, w: 2 * r, h: 2 * r };
-      ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
-      const tw = ctx.measureText(`${clip(d.short || "", 18)}${d.lq != null ? ` ×${fixed(d.lq, 1)}` : ""}`).width + 10;
-      return { x: Math.min(sx - r, sx - tw / 2), y: sy - r, w: Math.max(2 * r, tw), h: r * 0.98 + 7 + r };
-    });
+    // Plaques collide with each other (in rank order): a label that would run into an earlier plaque shortens to
+    // its LQ ("×4,2"), then to the icon alone.
+    const laid = [];
+    for (const [d, sx, sy, r, label] of plaques) {
+      const lq = d.lq != null ? `×${fixed(d.lq, 1)}` : "";
+      const tries = label ? [`${clip(d.short || "", 18)}${lq ? ` ${lq}` : ""}`, lq, ""] : [""];
+      let box;
+      for (const txt of tries) {
+        box = { txt, ...plaqueBox(sx, sy, r, txt) };
+        if (!txt || !laid.some((o) => overlaps(o.rect, box.rect))) break;
+      }
+      laid.push({ d, sx, sy, r, ...box });
+    }
+    const plaqueRects = laid.map((o) => o.rect);
 
     // 1. Tile yields: [people ≈12K | land 41%] under each footprint hex (not the city's own hex: its banner). They
     //    give way to the plaques and to each other; on phones only the five most populous hexes get one.
@@ -265,13 +273,13 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
         const sy = sy0 + Rpx * (m.placed.some((d) => d.cell === t.cell) ? 0.74 : 0.56);
         const W = pillWidth(ctx, t, full), h = full ? 16 : 13;
         const rect = { x: sx - W / 2 - 2, y: sy - h / 2 - 2, w: W + 4, h: h + 4 };
-        if (taken.some((o) => overlaps(o, rect)) || plaqueRects.some((o) => overlaps(o, rect))) continue;
+        if ((banner && overlaps(rect, banner)) || taken.some((o) => overlaps(o, rect)) || plaqueRects.some((o) => overlaps(o, rect))) continue;
         taken.push(rect);
         obstacles.push(rect);
         if (mine(rect)) pill(ctx, sx, sy, t, full);
       }
     }
-    for (const q of plaques) drawPlaque(...q);
+    for (const o of laid) drawPlaque(o.d, o.sx, o.sy, o.r, o.txt, o.rect, o.tw);
     obstacles.push(...plaqueRects);
 
     // 3. Resource sites of the metro: a label per hex (the biggest site, "+N" more). Each label tries a few spots

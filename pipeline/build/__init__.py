@@ -4,7 +4,7 @@ import sys
 import time
 
 ORDER = ["world", "stats", "resources", "cities", "infrastructure", "wonders", "lenses", "districts",
-         "citizens", "disasters", "military", "trade", "catalog"]
+         "citizens", "disasters", "military", "trade", "places", "catalog"]
 
 
 def main():

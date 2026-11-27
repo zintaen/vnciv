@@ -21,7 +21,7 @@ const DEFAULT_XY = {
 };
 // Table headers: short enough for a ~60 px column (they wrap to two lines; &shy; marks where a long word may break).
 const SHORT = {
-  population: tr("People"), gdp_pc: tr("GRDP/<wbr>person"), median_income: tr("Income"), unemployment: tr("Unemploy&shy;ment"), land_km2: tr("Area"),
+  population: tr("Population"), gdp_pc: tr("GRDP/<wbr>person"), median_income: tr("Income"), unemployment: tr("Unemploy&shy;ment"), land_km2: tr("Area"),
   area_km2: tr("Area"), energy_mw: tr("Mapped power"), labour_force: tr("Labour force"), income_worker: tr("Worker income"), productivity: tr("Produc&shy;tivity"),
   literacy: tr("Liter&shy;acy"), fdi_projects: tr("FDI projects"), students: tr("Students"), lecturers: tr("Lec&shy;turers"), disasters: tr("Ty&shy;phoons"),
   former: tr("Merged from"), city_type: tr("City type"), n_districts: tr("Districts (n)"), top_lq: tr("Top LQ"), cz_specialist: tr("Stands out in"),
@@ -33,6 +33,8 @@ const opLabel = (o) => (o === "contains" ? tr("contains") : o);
 // Remember the explorer's setup per viewer (a convenience; the page works without it).
 const STORE = "advisors.explorer.vn1";
 const load = () => { try { return JSON.parse(localStorage.getItem(STORE) || "null"); } catch { return null; } };
+// Keep only entries of the expected shape (a saved setup from an older version, or another page on the same origin).
+const objOf = (o, ok) => (o && typeof o === "object" && !Array.isArray(o) ? Object.fromEntries(Object.entries(o).filter(([, v]) => ok(v))) : {});
 const save = (s) => { try { localStorage.setItem(STORE, JSON.stringify(s)); } catch { /* private mode */ } };
 
 export async function mount(ctx) {
@@ -44,8 +46,8 @@ export async function mount(ctx) {
   const saved = load() || {};
   const st = {
     level: avail.includes(ctx.params.level) ? ctx.params.level : avail.includes(saved.level) ? saved.level : "metros",
-    cols: { ...DEFAULT_COLS, ...(saved.cols || {}) },
-    xy: { ...DEFAULT_XY, ...(saved.xy || {}) },
+    cols: { ...DEFAULT_COLS, ...objOf(saved.cols, (v) => Array.isArray(v) && v.every((x) => typeof x === "string")) },
+    xy: { ...DEFAULT_XY, ...objOf(saved.xy, (v) => v && typeof v === "object" && !Array.isArray(v)) },
     filters: [],
     onlySel: false,
     sel: null,
@@ -200,7 +202,7 @@ export async function mount(ctx) {
     // quick presets
     const presets = document.createElement("span");
     presets.className = "adv-presets";
-    const P = st.level === "states" ? [["population", "≥", 3e6, tr("3M+ people")], ["population", "≥", 1e6, "1M+"]] : [["population", "≥", 1.5e6, tr("1.5M+ people")], ["population", "≥", 1e6, "1M+"]];
+    const P = st.level === "states" ? [["population", "≥", 3e6, tr("3M+ people")], ["population", "≥", 1e6, tr("1M+ people")]] : [["population", "≥", 1.5e6, tr("1.5M+ people")], ["population", "≥", 1e6, tr("1M+ people")]];
     presets.innerHTML = P.map((p, i) => `<button type="button" class="adv-mini" data-preset="${i}">${esc(p[3])}</button>`).join("");
     presets.addEventListener("click", (e) => {
       const i = e.target.closest("[data-preset]")?.dataset.preset;

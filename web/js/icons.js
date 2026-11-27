@@ -948,7 +948,7 @@ export const ALIASES = {
 export const ICONS = { ...RAW };
 for (const [a, t] of Object.entries(ALIASES)) ICONS[a] = RAW[t];
 
-const resolve = (id) => (RAW[id] ? id : ALIASES[id] && RAW[ALIASES[id]] ? ALIASES[id] : null);
+const resolve = (id) => (Object.hasOwn(RAW, id) ? id : Object.hasOwn(ALIASES, id) && Object.hasOwn(RAW, ALIASES[id]) ? ALIASES[id] : null);
 
 export function hasIcon(id) {
   return resolve(id) !== null;

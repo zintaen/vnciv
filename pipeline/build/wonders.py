@@ -37,6 +37,8 @@ INSCRIBED = {"678": 1993, "672": 1994, "948": 1999, "949": 1999, "951": 2003, "1
              "1732": 2025}
 # national parks inside a World Heritage site (Cát Bà joined Hạ Long Bay's site 672 in 2023)
 PARK_IN_WH = {"Q1537215"}
+# Củ Chi tunnels are in TP. Hồ Chí Minh; geoBoundaries' simplified border puts the point in Bình Dương
+WONDER_PROVINCE = {"Q192721": "SG"}
 NATURAL_WH = {"672", "951", "1438"}  # Hạ Long Bay–Cát Bà, Phong Nha–Kẻ Bàng, Tràng An (mixed)
 SHORT = {"672": "Vịnh Hạ Long", "951": "Phong Nha–Kẻ Bàng", "1438": "Tràng An", "678": "Cố đô Huế", "948": "Phố cổ Hội An",
          "949": "Mỹ Sơn", "1328": "Hoàng thành Thăng Long", "1358": "Thành nhà Hồ", "1732": "Yên Tử"}
@@ -53,6 +55,8 @@ def build():
     def add(id_, name, short, kind, rule, lon, lat, metrics, en=None, curated=False):
         x, y = W.proj(lon, lat)
         cell, k = W.place(lon, lat, rings=2)
+        if id_.split("-", 1)[1] in WONDER_PROVINCE:  # generalised outlines put a border site in the neighbour
+            k = W.counties.index(WONDER_PROVINCE[id_.split("-", 1)[1]])
         if cell is None:
             print(f"    ! {name}: no land hex")
             return

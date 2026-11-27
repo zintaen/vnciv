@@ -22,6 +22,17 @@ Q_HERITAGE = f"""SELECT ?s ?sLabel ?enLabel ?c ?ref ?year WHERE {{
   OPTIONAL {{ ?s p:P1435 ?st. ?st ps:P1435 wd:Q9259; pq:P580 ?year. }}
   OPTIONAL {{ ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }}
   {WD_LABEL} }}"""
+# Islands and reefs of the Hoàng Sa (Đà Nẵng) and Trường Sa (Khánh Hòa) archipelagos, looked up by Vietnamese name
+HOANG_SA = ["Phú Lâm", "Hoàng Sa", "Quang Hòa", "Hữu Nhật", "Duy Mộng", "Quang Ảnh", "Tri Tôn", "Linh Côn", "Đảo Cây",
+            "Đảo Trung", "Đảo Đá", "Ốc Hoa"]
+TRUONG_SA = ["Trường Sa Lớn", "Đảo Song Tử Tây", "Đảo Song Tử Đông", "Đảo Nam Yết", "Đảo Sơn Ca", "Đảo Sinh Tồn",
+             "Đảo Sinh Tồn Đông", "An Bang", "Phan Vinh", "Trường Sa Đông", "Đảo Ba Bình", "Đảo Thị Tứ", "Đảo Loại Ta",
+             "Đảo Bến Lạc", "Vĩnh Viễn", "Bình Nguyên", "Đá Lớn", "Đá Tây", "Đá Đông", "Đá Nam", "Đá Bắc", "Cô Lin",
+             "Châu Viên", "Tốc Tan"]
+Q_ARCHIPELAGO = f"""SELECT ?s ?l ?c ?en WHERE {{
+  VALUES ?l {{ {" ".join(f'"{n}"@vi' for n in HOANG_SA + TRUONG_SA)} }}
+  ?s rdfs:label ?l; wdt:P625 ?c.
+  OPTIONAL {{ ?s rdfs:label ?en FILTER(lang(?en) = "en") }} }}"""
 LANDMARKS = ["Lăng Chủ tịch Hồ Chí Minh", "Văn Miếu – Quốc Tử Giám", "Dinh Độc Lập", "Địa đạo Củ Chi",
              "Nhà thờ chính tòa Đức Bà Sài Gòn", "Cầu Long Biên", "Đền Hùng", "Tòa thánh Tây Ninh", "Cầu Vàng",
              "Landmark 81", "Chùa Một Cột", "Cột cờ Lũng Cú"]
@@ -45,12 +56,6 @@ Q_PORTS = f"""SELECT ?s ?sLabel ?enLabel ?c WHERE {{
   ?s wdt:P31/wdt:P279* wd:Q44782; wdt:P17 wd:Q881; wdt:P625 ?c.
   OPTIONAL {{ ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }}
   {WD_LABEL} }}"""
-Q_ISLANDS = f"""SELECT ?s ?sLabel ?enLabel ?c ?part WHERE {{
-  VALUES ?part {{ wd:Q274388 wd:Q215664 }}
-  ?s wdt:P361 ?part; wdt:P625 ?c.
-  OPTIONAL {{ ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }}
-  {WD_LABEL} }}"""
-
 SOURCES = [
     dict(id="geoboundaries", title="geoBoundaries VNM ADM1 (gbOpen)", publisher="William & Mary geoLab",
          homepage="https://www.geoboundaries.org/", license="CC BY 4.0",
@@ -139,11 +144,11 @@ SOURCES = [
                  "&prop=wikitext&format=json&formatversion=2", "busiest_airports.json")]),
     dict(id="wikidata", title="Wikidata", publisher="Wikimedia Foundation", homepage="https://www.wikidata.org/",
          license="CC0", description="Coordinates and facts for World Heritage sites, national parks, universities, "
-         "ports and landmarks, by SPARQL query.",
+         "ports, landmarks and the islands of Hoàng Sa and Trường Sa, by SPARQL query.",
          used_for=["Wonders", "Universities", "Ports"],
          files=[(sparql(Q_HERITAGE), "heritage.json"), (sparql(Q_PARKS), "parks.json"), (sparql(Q_UNIS), "universities.json"),
-                (sparql(Q_PORTS), "ports.json"), (sparql(Q_ISLANDS), "islands.json"),
-                (sparql(Q_LANDMARKS), "landmarks.json")]),
+                (sparql(Q_PORTS), "ports.json"),
+                (sparql(Q_LANDMARKS), "landmarks.json"), (sparql(Q_ARCHIPELAGO), "archipelago.json")]),
 ]
 
 BY_ID = {s["id"]: s for s in SOURCES}

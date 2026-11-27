@@ -16,7 +16,7 @@ export function mount(ctx) {
 
   el.insertAdjacentHTML("beforeend", tiles([
     { label: tr("Residents"), value: count3(n.population), sub: tr(data.vintage) },
-    { label: tr("Growth {yrs}", { yrs: yrs.join("–") }), value: signedPct(n.growth, 2), sub: tr("NSO average population") },
+    { label: tr("Growth {yrs}", { yrs: yrs.map(Number).join("–") }), value: signedPct(n.growth, 2), sub: tr("NSO average population") },
     { label: tr("Urban"), value: pct(n.urban), sub: tr("{p} provinces · {c} cities", { p: int(states.rows.length), c: int(metros.rows.length) }) },
   ]));
 
@@ -123,7 +123,7 @@ export function mount(ctx) {
     height: 310,
     points: counties.rows.map((r) => ({ key: r.key, x: r.v.urban, y: r.v.growth, s: r.v.population, c: r.v.density, label: r.name, sub: r.sub, row: r })),
     x: { label: tr("Urban share"), fmt: (v) => fmtShort("pct", v) },
-    y: { label: tr("Growth {yrs}", { yrs: yrs.join("–") }), fmt: (v) => fmtShort("signed", v) },
+    y: { label: tr("Growth {yrs}", { yrs: yrs.map(Number).join("–") }), fmt: (v) => fmtShort("signed", v) },
     size: { label: tr("Population"), fmt: count3, max: 16, min: 3 },
     color: (c) => dColor(c), colorLabel: tr("Density"), colorFmt: (v) => `${fmtValue("float", v)} /km²`,
     labels: big,

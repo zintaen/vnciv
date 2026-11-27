@@ -22,6 +22,8 @@ export function count3(n) {
 }
 
 export const mw = (v) => (fin(v) ? (Math.abs(v) >= 10000 ? `${fixed(v / 1000, v >= 1e5 ? 0 : 1)} GW` : `${int(v)} MW`) : "–");
+/** One unit for a whole list of capacities: GW when its largest is 10 GW or more ("0,16 GW", "13,5 GW"), else MW. */
+export const mwFor = (max) => (v) => (!fin(v) ? "–" : max >= 10000 ? `${fixed(v / 1000, Math.abs(v) < 1000 ? 2 : 1)} GW` : `${int(v)} MW`);
 
 /** Full-ish text for a value in a given format (tables, tooltips). */
 export function fmtValue(format, v, unit) {
@@ -80,9 +82,9 @@ export function fmtShort(format, v) {
  *  a lone "." that is not a thousands group ("1.5M") still reads as a decimal point. */
 export function parseNum(text, format, l = lang) {
   if (text == null) return null;
-  let s = String(text).trim().replace(/[$\s]/g, "").replace(/^−/, "-");
+  let s = String(text).trim().replace(/[$\s]/g, "").replace(/^−/, "-").replace(/^\+/, "");
   if (l === "vi") {
-    if (/^-?\d{1,3}(\.\d{3})+(,\d+)?(?!\d)/.test(s)) s = s.replace(/\./g, "");
+    if (/^-?\d{1,3}(\.\d{3})+(,\d+)?(?![\d.kmbt])/i.test(s)) s = s.replace(/\./g, "");
     s = s.replace(/,/g, ".");
   } else s = s.replace(/,/g, "");
   if (!s) return null;

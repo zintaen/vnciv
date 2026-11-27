@@ -108,7 +108,7 @@ def build():
         if cell is None or k < 0:
             continue
         x, y = W.proj(lon, lat)
-        raw.append({"osm": f"{el['type'][0]}{el['id']}", "name": name or "Military area", "named": bool(name),
+        raw.append({"osm": f"{el['type'][0]}{el['id']}", "name": name or "Khu quân sự", "named": bool(name),
                     "kind": tags.get("military") or "landuse", "component": component(tags), "area": a,
                     "rings": rings, "x": x, "y": y, "cell": cell, "k": k})
     # fold several features in one hex and branch into the largest (named first)

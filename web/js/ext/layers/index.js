@@ -7,6 +7,7 @@
 import { createModel } from "./model.js";
 import { makeLayers } from "./layers.js";
 import { tips } from "./tips.js";
+import { placesLayer } from "./places.js";
 import { t as tr } from "../../i18n.js";
 
 const TOGGLES = [
@@ -15,6 +16,7 @@ const TOGGLES = [
   { id: "hubs", label: "Ports & airports", icon: "d-harbor", def: true, title: "Seaports (Wikidata) and airports with scheduled flights, sized by passengers (ACV)", layers: ["hubs"] },
   { id: "military", label: "Military", icon: "m-army", def: true, title: "People's Army sites mapped in OpenStreetMap as forts; the largest as restricted ground", layers: ["forts", "restricted", "plates"] },
   { id: "wonders", label: "Wonders", icon: "w-landmark", def: true, title: "UNESCO World Heritage sites, national parks, the national and regional universities, landmarks", layers: ["wonders", "protected", "plates"] },
+  { id: "places", label: "Place names", icon: "pedia", def: true, title: "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners", layers: ["places"] },
   { id: "trade", label: "Air routes", icon: "t-trade", def: false, title: "The 30 domestic air routes flown by the most airlines (OpenFlights, 2014)", layers: ["trade"] },
 ];
 
@@ -23,6 +25,10 @@ export function install(app) {
   const on = Object.fromEntries(TOGGLES.map((t) => [t.id, t.def]));
   const layers = makeLayers(model, on, { tips, app });
   for (const l of layers) app.registerStaticLayer(l);
+  // Place names; the archipelago names and the slogan stay on even when the switch is off.
+  let places;
+  app.registerStaticLayer(placesLayer(() => places, on));
+  app.loadData("places").then((d) => { places = d; app.requestDraw(); }, (err) => console.warn("map layers: places failed to load", err));
 
   for (const t of TOGGLES) {
     app.ui.addMapToggle({

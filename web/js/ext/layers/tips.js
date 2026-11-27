@@ -1,9 +1,9 @@
 // Hover tooltips for the map-art layers (HTML strings; every data value is escaped). Each says where the number comes
 // from and the caveat that matters for it (ports have no open tonnage; curated landmarks are an editorial pick).
-import { esc, compact, fixed, int, pct, dollars } from "../../format.js";
+import { airportName, esc, compact, fixed, int, pct, dollars } from "../../format.js";
 import { FORT_KINDS, fortKind, WONDER_KINDS } from "../../render/art/sites.js";
 import { MODE_STYLE } from "../../render/art/improvements.js";
-import { t } from "../../i18n.js";
+import { t, lang } from "../../i18n.js";
 
 const muted = (s) => `<span class="muted">${s}</span>`;
 const num = (n, d = 1) => (n == null || !Number.isFinite(n) ? "–" : compact(n));
@@ -31,7 +31,7 @@ export const tips = {
     ].filter(Boolean).join("<br>");
   },
   airport(a, m) {
-    const lines = [`<b>${esc(a.id)} · ${esc(a.name)}</b> ${muted(esc([a.city, prov(m, a.state)].filter(Boolean).join(", ")))}`];
+    const lines = [`<b>${esc(a.id)} · ${esc(airportName(a.name))}</b> ${muted(esc([a.city, prov(m, a.state)].filter(Boolean).join(", ")))}`];
     if (a.hub) lines.push(esc(t(HUB_NAME[a.hub] || a.hub)));
     if (a.enplanements != null) lines.push(t("<b>{n}</b> passengers in {year}", { n: num(a.enplanements), year: esc(a.year) }));
     lines.push(muted(t("Passengers: Airports Corporation of Vietnam (ACV) figures compiled on Wikipedia. Location: OurAirports.")));
@@ -60,7 +60,7 @@ export const tips = {
     const rule = m.data.wonders?.rules?.find((r) => r.id === x.rule);
     const mt = x.metrics || {};
     const lines = [`<b>${esc(x.name)}</b> ${muted(esc(prov(m, x.state)))}`];
-    if (x.name_en && x.name_en !== x.name) lines.push(muted(esc(x.name_en)));
+    if (lang !== "vi" && x.name_en && x.name_en !== x.name) lines.push(muted(esc(x.name_en)));
     if (x.rule === "world_heritage") {
       lines.push(mt.inscribed ? t("UNESCO World Heritage site since {year}", { year: esc(mt.inscribed) }) : t("UNESCO World Heritage site"));
     } else if (x.rule === "national_park") {

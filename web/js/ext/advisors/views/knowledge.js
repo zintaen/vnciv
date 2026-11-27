@@ -57,7 +57,7 @@ export function mount(ctx) {
     const list = mode === "abs" ? topBy(metros.rows, (r) => r.v.students, { n: 12 }) : topBy(metros.rows, share, { n: 12 });
     barList(sHost, {
       rank: true, ariaLabel: tr("University cities"),
-      rows: list.map((x) => ({ key: x.r.key, label: x.r.name, sub: mode === "abs" ? tr("{n} per 1,000", { n: fixed((share(x.r) * 1000), 0) }) : `×${fixed((share(x.r) / vnShare), 1)} VN`, value: x.v, text: mode === "abs" ? count3(x.v) : `${fixed((x.v * 1000), 0)} / 1,000`, color: sci?.color, row: x.r })),
+      rows: list.map((x) => ({ key: x.r.key, label: x.r.name, sub: mode === "abs" ? tr("{n} per 1,000", { n: fixed((share(x.r) * 1000), 0) }) : `×${fixed((share(x.r) / vnShare), 1)} VN`, value: x.v, text: mode === "abs" ? count3(x.v) : tr("{n} per 1,000", { n: fixed((x.v * 1000), 0) }), color: sci?.color, row: x.r })),
       onHover: (r) => link.hover(r ? rowsHighlight(metros, [r.row]) : null),
       onClick: (r) => metros.focus(r.row),
     });

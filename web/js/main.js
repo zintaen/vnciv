@@ -32,6 +32,8 @@ import { t, lang, setLang } from "./i18n.js";
   }
   const ld = document.getElementById("loading");
   if (ld) ld.textContent = t(ld.textContent);
+  const at = document.getElementById("map-attrib");
+  if (at) at.textContent = t(at.textContent);
 }
 
 const { drawStatic, drawOverlay, OCEAN_BG } = mapRender;
@@ -68,7 +70,7 @@ async function loadJSON(name, optional = false) {
 
 // Optional data files (docs/DATA_CONTRACTS.md). Small map-layer files are fetched right after the first frame; the
 // others only when something asks for them (app.loadData(name)). A missing file (404) loads as null.
-const EAGER_DATA = ["infrastructure", "military", "wonders", "trade"];
+const EAGER_DATA = ["infrastructure", "military", "wonders", "trade", "places"];
 const DATA_NAME = /^[a-z0-9_-]+$/;
 
 // render/snapshot.js draws a whole view into any canvas; optional, with a local fallback.
@@ -852,7 +854,7 @@ async function main() {
 
   // National reports under the top-bar stats.
   const reports = initYieldReports({
-    nation, states, cities, lenses: lensFile.lenses, lensVintage: lensFile.vintage,
+    nation, states, cities, lenses: lensFile.lenses, lensVintage: (sources || []).find((s) => s.id === "nso_yearbook")?.vintage || "",
     // A row picked from a report opens the place's panel; keyboard focus follows it there.
     onState: (idx) => { selectState(idx, { fly: true }); focusPanel(); },
     onCity: (city) => { selectCity(city, { fly: true }); focusPanel(); },

@@ -7,6 +7,7 @@ import re
 from collections import defaultdict
 
 from ..fetch import RAW
+from ..names import accent
 from ..geo import geojson_lines
 from ..store import save_interim, write_web
 from .common import World, site_cell, wkt_point
@@ -124,7 +125,7 @@ def build():
         pl = place(W, lon, lat)
         if not pl:
             continue
-        ports.append({"id": r["s"]["value"].rsplit("/", 1)[1], "name": name, "type": "coastal", "rank": None,
+        ports.append({"id": r["s"]["value"].rsplit("/", 1)[1], "name": accent(name), "type": "coastal", "rank": None,
                       "tons": None, "domestic": None, "foreign": None, "imports": None, "exports": None, "year": None, **pl})
     # one port per hex: keep the first listed
     by_cell = {}

@@ -1,0 +1,4 @@
+indicator,value,year,unit,source_url,note
+hdi,0.752,2024,index 0-1,https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf,"Overview: 'Chỉ số phát triển con người năm 2024 đạt 0,752'"
+gini,0.372,2024,index 0-1,https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf,"Overview: 'năm 2024 hệ số GINI là 0,372'"
+poverty,2.3,2024 (prel.),% of households (MPI standard 2022-2025),https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf,"Overview: 'Tỷ lệ hộ nghèo tiếp cận đa chiều năm 2024 của cả nước sơ bộ là 2,3%'"

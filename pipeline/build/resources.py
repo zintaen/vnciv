@@ -5,6 +5,7 @@ import csv
 from collections import defaultdict
 
 from ..fetch import RAW
+from ..names import accent
 from .common import World, site_cell
 from ..store import save_interim, write_web
 
@@ -56,12 +57,12 @@ def build():
         if mw < PLANT_MIN[t]:
             continue
         year = int(r["commissioning_year"][:4]) if r["commissioning_year"] else None
-        items.append({"type": t, "name": r["name"], "x": round(x, 1), "y": round(y, 1), "cell": cell,
+        items.append({"type": t, "name": accent(r["name"]), "x": round(x, 1), "y": round(y, 1), "cell": cell,
                       "value": round(mw), "detail": r["owner"].strip() or None, "since": year, "_k": k})
     for (t, cell), c in clusters.items():
         if c["mw"] >= CLUSTER_MIN[t]:
             names = c["names"]
-            items.append({"type": t, "name": names[0] if len(names) == 1 else f"{names[0]} + {len(names) - 1} more",
+            items.append({"type": t, "name": accent(names[0]),
                           "x": round(c["x"], 1), "y": round(c["y"], 1), "cell": cell, "value": round(c["mw"]),
                           "detail": None, "farms": len(names), "_k": c["k"]})
     for it in items:

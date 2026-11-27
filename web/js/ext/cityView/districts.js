@@ -8,7 +8,7 @@
 //   badgeOf(ddata, id) → {label, text, color, icon, district} | null | undefined   the city-type badge
 //   districtsHtml(m, ddata, mil, trade) → HTML   the section body
 //   badgeHtml(m, ddata) → HTML              the header badge
-import { dec, esc, fixed, int } from "../../format.js";
+import { airportName, dec, esc, fixed, int } from "../../format.js";
 import { compact, money } from "./fmt.js";
 import { icon } from "../../ui/icon.js";
 import { hasIcon } from "../../icons.js";
@@ -39,10 +39,7 @@ const MEASURE = {
 // districts.json `text` is written in English per city ("5.6× Vietnam's university students per resident", an
 // airport with its passengers, a power total); the known patterns are rebuilt here so they translate. Anything else
 // is place names (ports, heritage sites), shown as they are.
-const airport = (s) => s.split(" / ").map((p) => {
-  const m = /^(.+?) (International Airport|Air Base|Airport)$/.exec(p);
-  return m ? t(`{name} ${m[2]}`, { name: m[1] }) : p;
-}).join(" / ");
+const airport = airportName;
 export function districtText(s) {
   if (!s) return "";
   let m = /^([\d.]+)× Vietnam's (.+?) per resident(?: \((.+)\))?$/.exec(s);

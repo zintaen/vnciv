@@ -164,7 +164,7 @@ export default {
   "Zoom in on a spot": "Phóng to vào một điểm",
   "Pinch to zoom, drag to pan (touch)": "Chụm để thu phóng, kéo để di chuyển (cảm ứng)",
   "Click or drag to jump": "Bấm hoặc kéo để di chuyển tới",
-  "Open the city screen": "Mở màn hình thành phố",
+  "Open the city screen": "Mở Góc nhìn thành phố",
   "Open that province": "Mở tỉnh đó",
   "Search cities and provinces": "Tìm thành phố và tỉnh",
   "Next / previous lens": "Bản đồ chủ đề tiếp theo / trước đó",
@@ -183,10 +183,10 @@ export default {
 
   // --- share dialog and image ---
   "A strategy-map atlas of the real economy": "Tập bản đồ chiến thuật về nền kinh tế thật",
-  "Land cover, relief, rivers and resources": "Địa hình, sông ngòi và tài nguyên",
+  "Land cover, relief, rivers and resources": "Lớp phủ đất, địa hình, sông ngòi và tài nguyên",
   "CITY": "THÀNH PHỐ",
-  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth":
-    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth",
+  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, geoBoundaries, GeoNames, OpenFlights, © OpenStreetMap contributors":
+    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, geoBoundaries, GeoNames, OpenFlights, © những người đóng góp OpenStreetMap",
   "Copy link": "Sao chép liên kết",
   "Download image": "Tải ảnh",
   "Link to this view": "Liên kết tới góc nhìn này",
@@ -198,7 +198,7 @@ export default {
   "Could not create the image in this browser.": "Không thể tạo ảnh trên trình duyệt này.",
 
   // --- map layers menu (app/api.js, ext/layers) ---
-  "Map layers: roads, rail, military and more": "Lớp bản đồ: đường bộ, đường sắt, quân sự và hơn nữa",
+  "Map layers: roads, rail, military and more": "Lớp bản đồ: đường bộ, đường sắt, quân sự và các lớp khác",
   "Map layers": "Lớp bản đồ",
   "Map layers ({n} of {total} on)": "Lớp bản đồ ({n}/{total} đang bật)",
   "Map": "Bản đồ",
@@ -227,8 +227,8 @@ export default {
   "${n} trillion": "{n} nghìn tỷ $",
   "${n} billion": "{n} tỷ $",
   "${n} million": "{n} triệu $",
-  "Medium hub (2–10M passengers)": "Sân bay trung tâm vừa (2–10 triệu hành khách)",
-  "Small hub (0.5–2M passengers)": "Sân bay trung tâm nhỏ (0,5–2 triệu hành khách)",
+  "Medium hub (2–10M passengers)": "Sân bay vừa (2–10 triệu khách)",
+  "Small hub (0.5–2M passengers)": "Sân bay nhỏ (0,5–2 triệu khách)",
   "Local airport": "Sân bay địa phương",
   "Seaport": "Cảng biển",
   "River port": "Cảng sông",
@@ -277,4 +277,8 @@ export default {
   "since {y}": "từ năm {y}",
   "1 farm": "1 trang trại",
   "{n} farms": "{n} trang trại",
+  "© OpenStreetMap contributors · Natural Earth · geoBoundaries": "© những người đóng góp OpenStreetMap · Natural Earth · geoBoundaries",
+  "Place names": "Địa danh",
+  "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners": "Các đảo (kể cả Hoàng Sa và Trường Sa) và các thị xã, thị trấn ngoài các thành phố trên bản đồ",
+  "({owner}, Vietnam)": "({owner}, Việt Nam)",
 };

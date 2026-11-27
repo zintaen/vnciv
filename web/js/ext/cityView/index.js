@@ -45,7 +45,7 @@ export async function install(app) {
   const layer = createMapLayer(app, { focusRect: banners.focusRect });
   const cv = {
     city: null, model: null, dock: null, legend: null, highlight: null,
-    pinned: -1, prevCam: null, fromPreview: false, restoreCam: true, exiting: false, resForced: false, timer: 0,
+    pinned: -1, keepCam: false, prevCam: null, fromPreview: false, restoreCam: true, exiting: false, resForced: false, timer: 0,
   };
   const origCityPanel = app.panels.city;
   let lastCtx = null;
@@ -111,6 +111,17 @@ export async function install(app) {
     layer.focus(-1);
 
     cv.dock = app.ui.dock("right", { width: dockWidth(), label: t("City View: {name}", { name: city.name }) });
+    // Entered from a link with a camera (at=): once the panel has made way for the dock, put the URL's point back in
+    // the middle of the map beside it (the at= was applied beside the city panel).
+    const at = cv.keepCam ? (app.hash.value("at") || "").split(",").map(Number) : null;
+    if (at?.length === 3 && at.every(Number.isFinite)) requestAnimationFrame(() => {
+      if (cv.model !== m) return;
+      const a = app.visibleArea(), c = app.cam;
+      c.stop();
+      c.x = at[0] - ((a.x0 + a.x1) / 2 - c.w / 2) / c.scale;
+      c.y = at[1] - ((a.y0 + a.y1) / 2 - c.h / 2) / c.scale;
+      app.requestDraw();
+    });
     if (!same) {
       render(cv.dock, m, {
         onClose: () => leave(true),
@@ -144,7 +155,9 @@ export async function install(app) {
     updateLegend(m);
     // After the caller's own camera move (main.js selectCity(…, {fly: true}) flies to the city right after
     // calling the panel), so the footprint framing wins.
-    if (fit) queueMicrotask(() => { if (cv.model === m) fitMetro(m); });
+    // Entered from a link with a camera (at=): the URL's camera wins over the footprint framing.
+    if (fit && !cv.keepCam) queueMicrotask(() => { if (cv.model === m) fitMetro(m); });
+    cv.keepCam = false;
     app.hash.update();
     app.requestDraw();
     if (!cv.timer) startAnim();
@@ -415,6 +428,7 @@ export async function install(app) {
       if (v === "city") {
         const city = app.state.selectedCity;
         if (!city) return;
+        cv.keepCam = !!app.hash.value("at");
         if (app.mode !== MODE) app.setMode(MODE, { id: city.id });
         else if (cv.city !== city) show(city);
       } else if (app.mode === MODE) {

@@ -3,6 +3,7 @@
 // publishes no open freight-flow or port-tonnage data, so there are no freight routes.
 import { esc, fin, el as mk } from "../core/util.js";
 import { int, count3 } from "../core/fmt.js";
+import { airportName } from "../../../format.js";
 import { barList, sizeLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { section, tiles, segmented, sourcesHtml } from "../core/view.js";
@@ -11,7 +12,7 @@ import { prepareRoutes } from "../../../render/art/improvements.js";
 import { t as tr } from "../../../i18n.js";
 
 const PORT_COLOR = "#4f9ad6", AIR_COLOR = "#e6cf86";
-const HUB_SHORT = { L: tr("Major hub"), M: tr("Medium hub"), S: tr("Small hub"), N: tr("Local") };
+const HUB_SHORT = { L: tr("Major hub"), M: tr("Medium hub"), S: tr("Small hub"), N: tr("Local airport") };
 
 export async function mount(ctx) {
   const { app, el, link, data } = ctx;
@@ -61,13 +62,13 @@ export async function mount(ctx) {
   // --- airports ---------------------------------------------------------------------------------------------------
   const aBody = section(el, { title: tr("Airports"), kicker: esc(tr(v.airports || "")), note: esc(tr(infra.rules?.airports || "")) });
   const airHover = (a) => {
-    link.hover(a ? { cells: new Set(a.cell != null ? [a.cell] : []), label: `${a.id} · ${a.name}` } : null);
+    link.hover(a ? { cells: new Set(a.cell != null ? [a.cell] : []), label: `${a.id} · ${airportName(a.name)}` } : null);
     airBubbles?.setHot(a ? a.key : null);
   };
   airBars = barList(aBody, {
     rank: true, ariaLabel: tr("Busiest airports by passengers"),
     rows: airports.filter((a) => fin(a.enplanements)).map((a) => ({
-      key: a.key, label: `${a.id} ${a.city || a.name}`, full: a.name, value: a.enplanements,
+      key: a.key, label: `${a.id} ${a.city || airportName(a.name)}`, full: airportName(a.name), value: a.enplanements,
       text: count3(a.enplanements), sub: HUB_SHORT[a.hub] || "", color: AIR_COLOR,
     })),
     onHover: (r) => airHover(r ? airports.find((a) => a.key === r.key) : null),

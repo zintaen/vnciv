@@ -99,7 +99,7 @@ export const gdpRow = (o) =>
         o.population ? `<span class="cmp">${t("{v} per person", { v: money(o.gdp / o.population) })}</span>` : ""}</span></div>`
     : "";
 
-// " · ▲ 3.4% since 2019" from growth / growth_years (cities and provinces), compared with Vietnam in the tooltip.
+// "▲ 3.4% since 2019" (its own line under the population) from growth / growth_years (cities and provinces), compared with Vietnam in the tooltip.
 // Empty when growth is missing (null means "not measured", never zero).
 export function growthSpan(o, n = null) {
   if (!Number.isFinite(o?.growth)) return "";
@@ -109,8 +109,8 @@ export function growthSpan(o, n = null) {
   const vn = Number.isFinite(n?.growth) ? ` (${t("Vietnam {v}", { v: p(n.growth) })})` : "";
   const tip = t("Population change {period}, NSO average population: {v}", { period, v: p(o.growth) }) + vn;
   const cls = o.growth >= 0 ? "good" : "bad";
-  return ` <span class="gsep">· <span class="growth ${cls}" title="${esc(tip)}">${o.growth >= 0 ? "▲" : "▼"} ${fixed(Math.abs(o.growth * 100), 1)}%${
-    yrs ? ` <span class="since">${t("since {y}", { y: yrs[0] })}</span>` : ""}</span></span>`; // "·" wraps with it
+  return `<span class="gsep"><span class="growth ${cls}" title="${esc(tip)}">${o.growth >= 0 ? "▲" : "▼"} ${fixed(Math.abs(o.growth * 100), 1)}%${
+    yrs ? ` <span class="since">${t("since {y}", { y: yrs[0] })}</span>` : ""}</span></span>`;
 }
 
 export const popLine = (o, extra = "") =>

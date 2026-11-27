@@ -15,7 +15,7 @@ from .common import World
 
 TOP = 30
 RULE = (f"The {TOP} domestic air routes flown by the most airlines in the OpenFlights route database (June 2014, its "
-        "last update), both directions together; ties are broken by the two airports' 2025 passengers (ACV). Each "
+        "last update), both directions together; ties are broken by the passengers of the route's airports (latest ACV year compiled on Wikipedia). Each "
         "route links the cities whose former provinces hold the two airports.")
 PATH_NOTE = ("Drawn as an arc between the two cities: OpenFlights lists which airports are linked, not how many "
              "passengers fly each route, and routes opened since 2014 are missing.")

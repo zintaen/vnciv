@@ -23,8 +23,12 @@ Unit: the 63 provinces as they stood before the July 2025 merger. Regional and n
 - API root: https://pxweb.nso.gov.vn/api/v1/vi/ . A GET on a table returns its metadata; a POST returns the data as JSON (`pipeline/nso/pxget.py`).
   The local DNS often fails for this host, so the script pins 210.245.31.110.
 - population_series.csv comes from `Dân số và lao động/V02.03-07.px`: average population, total and urban, 2019-2024 plus "Sơ bộ 2025".
-- Also downloaded raw to data/stats/px/ but not turned into CSVs, because the yearbook already covers them: V02.01, V02.20, V02.21-23 (migration), V02.25 (life expectancy),
-  V02.27, V02.37, V02.45, V02.51 (informal employment), V02.55, V02.58, V02.63, V07.02 (industrial production index).
+- Kept as raw JSON in data/stats/px/ and read directly by the pipeline (no CSV): V02.21-23 (migration), V02.25 (life
+  expectancy) and V02.51 (informal employment) by `pipeline/build/stats.py`, including NSO's national rows; V02.42
+  (employed by industry, national) by `pipeline/build/cities.py`. Also downloaded but unused: V02.01, V02.20, V02.27,
+  V02.37, V02.45, V02.55, V02.58, V02.63, V07.02.
+- national.csv: NSO's own national HDI, Gini and multidimensional poverty rate for 2024, quoted from the yearbook's
+  overview chapter (used for the nation instead of averaging provinces).
 - Not on this server: national accounts (GRDP), living standards, investment. The "Đầu tư" and "Giáo dục" databases return 404.
 
 ## 3. VCCI Provincial Competitiveness Index (PCI)

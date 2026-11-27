@@ -8,7 +8,7 @@ from ..store import write_web
 EXTRA = [
     dict(id="nso_yearbook", title="Statistical Yearbook of Vietnam 2024 and PX-Web database",
          publisher="National Statistics Office of Vietnam (NSO, formerly GSO)", homepage="https://www.nso.gov.vn/",
-         license="Official statistics, free to reuse with attribution",
+         license="No licence stated; official statistics, reused with attribution",
          description="Province population, area, GRDP per person, labour force, employment, unemployment, trained "
          "labour, literacy, income, HDI, Gini, poverty, FDI, paddy rice, retail sales, travel turnover, university "
          "students (2024, preliminary; students 2023), plus PX-Web tables for population 2019–2025, informal employment, "
@@ -16,11 +16,12 @@ EXTRA = [
          used_for=["Yields", "City and province panels", "Province lenses", "Districts", "Citizens"],
          files=[{"file": "NG-TONG-CUC-2024_OKIN_Final.pdf", "url": "https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf"},
                 {"file": "PX-Web API", "url": "https://pxweb.nso.gov.vn/api/v1/vi/"}]),
-    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022", publisher="VCCI",
+    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022 (2024 where published)", publisher="VCCI",
          homepage="https://pcivietnam.vn/", license="Free to reuse with attribution",
          description="Survey-based business-climate score per province; 2022 is the last year scored for all 63.",
          used_for=["Business climate lens"],
-         files=[{"file": "Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1681152283-Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx"}]),
+         files=[{"file": "Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1681152283-Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx"},
+                {"file": "Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1746527576-Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx"}]),
     dict(id="worldbank_fx", title="Official exchange rate (PA.NUS.FCRF)", publisher="World Bank",
          homepage="https://data.worldbank.org/indicator/PA.NUS.FCRF", license="CC BY 4.0",
          description="VND per USD, period average; every dong figure is converted at the 2024 rate.",
@@ -29,12 +30,28 @@ EXTRA = [
 ]
 
 
+# What edition of each source the map shows.
+VINTAGE = {
+    "geoboundaries": "geoBoundaries VNM ADM1 (63 provinces, before July 2025)", "natural_earth": "Natural Earth v5.1.2",
+    "etopo": "ETOPO1", "worldcover": "ESA WorldCover 2021 v200", "worldpop": "WorldPop 2025 (R2025A)",
+    "gppd": "WRI Global Power Plant Database v1.3.0 (2021)", "ourairports": "OurAirports", "geonames": "GeoNames",
+    "ibtracs": "IBTrACS v04r01", "wikidata": "Wikidata", "osm_rivers": "OpenStreetMap", "osm_military": "OpenStreetMap",
+    "openflights_routes": "OpenFlights routes (June 2014)", "wikipedia_airports": "ACV passengers via Wikipedia",
+    "nso_yearbook": "NSO Statistical Yearbook 2024", "pci": "PCI 2022 (2024 where published)",
+    "worldbank_fx": "World Bank official exchange rate, 2024",
+}
+
+
+def vintage(sid, files):
+    return VINTAGE.get(sid)  # download dates are listed per file (files[].retrieved), so this string stays stable
+
+
 def build():
     out = []
     for s in SOURCES:
         man = manifest(s["id"])
         files = [{"file": k, **v} for k, v in man.items()]
-        out.append({k: v for k, v in s.items() if k != "files"} | {"vintage": None, "files": files})
+        out.append({k: v for k, v in s.items() if k != "files"} | {"vintage": vintage(s["id"], files), "files": files})
     for s in EXTRA:
-        out.append(s | {"vintage": None, "files": [f | {"retrieved": None, "sha256": None, "bytes": None} for f in s["files"]]})
+        out.append(s | {"vintage": VINTAGE.get(s["id"]), "files": [f | {"retrieved": None, "sha256": None, "bytes": None} for f in s["files"]]})
     write_web("sources.json", out)

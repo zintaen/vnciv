@@ -1,6 +1,6 @@
 // Energy advisor: the mapped power plants (WRI Global Power Plant Database, data as of 2021).
 import { esc, fin } from "../core/util.js";
-import { fmtValue, mw, int, count3 } from "../core/fmt.js";
+import { fmtValue, mw, mwFor, int, count3 } from "../core/fmt.js";
 import { kindOf, siteDetail, siteDetailHtml } from "../../../format.js";
 import { barList, shareBar, stackedBars, sizeLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
@@ -50,7 +50,8 @@ export function mount(ctx) {
 
   // --- national mix ---------------------------------------------------------------------------------------------
   const mixBody = section(el, { title: tr("The national power mix"), kicker: tr("Mapped sites above thresholds"), note: tr("Capacity of the power sites on the map, by type. Small plants are not mapped, so this is <b>not</b> the country's total generating capacity: it shows where the large sites are and what they run on.") });
-  const mixParts = mwTypes.map((t) => ({ key: t.id, label: tr(t.name), value: nat[t.id]?.value || 0, color: t.color, text: mw(nat[t.id]?.value), icon: glyph(t, 14) })).sort((a, b) => b.value - a.value);
+  const mixMW = mwFor(Math.max(0, ...mwTypes.map((t) => nat[t.id]?.value || 0)));
+  const mixParts = mwTypes.map((t) => ({ key: t.id, label: tr(t.name), value: nat[t.id]?.value || 0, color: t.color, text: mixMW(nat[t.id]?.value), icon: glyph(t, 14) })).sort((a, b) => b.value - a.value);
   const mixHover = (p) => {
     if (!p) { link.hover(null); bubbles.setSelected(null); return; }
     const set = new Set(visible().filter((it) => it.type === p.key).map((it) => it.idx));
@@ -131,10 +132,11 @@ export function mount(ctx) {
     },
     onClick: (r) => flyTo(r),
   });
+  const siteMW = mwFor(Math.max(0, ...items.filter((it) => isMW(it.type) && fin(it.value)).map((it) => it.value)));
   function sizeText(r) {
     const t = typeById.get(r.type);
     if (!fin(r.value)) return "–";
-    if (t?.unit === "MW") return mw(r.value);
+    if (t?.unit === "MW") return siteMW(r.value);
     if (t?.unit === "employees") return tr("{n} staff", { n: int(r.value) });
     if (/tons/.test(t?.unit || "")) return tr("{n} t/yr", { n: count3(r.value) });
     if (/km/.test(t?.unit || "")) return `${count3(r.value)} km²`;
@@ -146,12 +148,13 @@ export function mount(ctx) {
 
   // --- per state ------------------------------------------------------------------------------------------------
   const sBody = section(el, { title: tr("Power by province"), note: tr("Mapped capacity per 2025 province, by type. Click a province to filter everything to it; click it again to clear.") });
+  const stateMW = mwFor(Math.max(0, ...states.map((s) => s.energy?.total || 0)));
   const stateRows = states
-    .map((s, i) => ({ key: s.abbr, label: s.name, idx: i, parts: s.energy?.by_type || {}, total: s.energy?.total || 0, text: mw(s.energy?.total) }))
+    .map((s, i) => ({ key: s.abbr, label: s.name, idx: i, parts: s.energy?.by_type || {}, total: s.energy?.total || 0, text: stateMW(s.energy?.total) }))
     .filter((r) => r.total > 0)
     .sort((a, b) => b.total - a.total);
   const stacks = stackedBars(sBody, {
-    rows: stateRows, keys: mwTypes.map((t) => ({ key: t.id, label: tr(t.name), color: t.color })), fmt: (v) => mw(v),
+    rows: stateRows, keys: mwTypes.map((t) => ({ key: t.id, label: tr(t.name), color: t.color })), fmt: (v) => stateMW(v),
     ariaLabel: tr("Mapped power capacity by province"),
     onHover: (x) => {
       if (!x) return link.hover(null);

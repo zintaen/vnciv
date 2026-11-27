@@ -347,7 +347,7 @@ function boardHtml(rows) {
 
 /**
  * Wire the top-bar buttons (rendered by topbar.js with data-report="<key>") to the dropdown #yield-report.
- * opts: {nation, states, cities, lenses (array), lensVintage, onState(index), onCity(city), onLens(lensId)}
+ * opts: {nation, states, cities, lenses (array), lensVintage (the NSO source's own vintage), onState(index), onCity(city), onLens(lensId)}
  */
 export function initYieldReports(opts) {
   const bar = document.getElementById("yields");

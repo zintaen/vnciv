@@ -157,6 +157,27 @@ def ring_area_km2(ring, proj):
     return abs(a) / 2 / UNIT / UNIT
 
 
+HOANG_SA_BOX = (15.5, 17.5, 110.8, 113.0)  # lat0, lat1, lon0, lon1
+TRUONG_SA_BOX = (6.0, 12.5, 111.0, 118.0)
+
+
+def archipelago_islands():
+    """[{name, en, lon, lat, group}] from the Wikidata archipelago query, inside each archipelago's box."""
+    from ..sources import HOANG_SA, TRUONG_SA
+    d = json.loads((RAW / "wikidata" / "archipelago.json").read_text())["results"]["bindings"]
+    out, seen = [], set()
+    for r in d:
+        name = r["l"]["value"]
+        c = r["c"]["value"]
+        lon, lat = (float(v) for v in c[c.index("(") + 1: c.index(")")].split())
+        for group, names, (a0, a1, o0, o1) in (("hoang_sa", HOANG_SA, HOANG_SA_BOX), ("truong_sa", TRUONG_SA, TRUONG_SA_BOX)):
+            if name in names and a0 < lat < a1 and o0 < lon < o1 and name not in seen:
+                seen.add(name)
+                label = name if name.startswith(("Đảo", "Đá")) else ("Đảo " + name if name != "Hoàng Sa" else "Đảo Hoàng Sa")
+                out.append({"name": label, "en": r.get("en", {}).get("value"), "lon": lon, "lat": lat, "group": group})
+    return out
+
+
 def build():
     olds, news = old_units(), new_units()
     old_idx = {u["iso"]: k for k, u in enumerate(olds)}
@@ -307,7 +328,21 @@ def build():
             forced += 1
             if offshore:
                 islands.append(i)
-    print(f"    {forced} island hexes kept ({len(islands)} offshore: Hoàng Sa, Trường Sa)")
+    # every Hoàng Sa (Đà Nẵng) and Trường Sa (Khánh Hòa) island and reef Wikidata places, by Vietnamese name
+    arch = archipelago_islands()
+    old_iso = [u["iso"] for u in olds]
+    for isl in arch:
+        i = grid.cell_at(*proj(isl["lon"], isl["lat"]))
+        if i < 0:
+            continue
+        k = old_iso.index("DN" if isl["group"] == "hoang_sa" else "34")
+        if water[i] != LAND:
+            owner[i], water[i] = old_new[k], LAND
+            county_samples[i] = [k]
+            forced += 1
+        if i not in islands and isl["lon"] > 109.6:
+            islands.append(i)
+    print(f"    {forced} island hexes kept ({len(islands)} offshore: Hoàng Sa, Trường Sa; {len(arch)} named islands)")
 
     # county (former province) per hex: centre sample if in the owner province, else the commonest in-province one
     for i, smp in enumerate(county_samples):

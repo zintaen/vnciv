@@ -38,7 +38,7 @@ export function formatLensTick(lens, pos, k = -1) {
     && !(lens.format === "int" && lens.unit.startsWith("people")) ? { ...lens, unit: null } : lens;
   let s = formatLensValue(short, v);
   const zero = Number.isFinite(v) && Math.abs(v) < 1e-9;
-  if (zero) s = s.replace(/^(\$?)0\.0+(?!\d)/, (_, d) => d + "0");
+  if (zero) s = s.replace(/^(\$?)0[.,]0+(?!\d)/, (_, d) => d + "0");
   if (k === 0 && !zero) s = "≤ " + s;
   else if (k === 4) s = "≥ " + s;
   return s;
@@ -207,7 +207,7 @@ export function initLensDock(opts) {
   function sourceLine(lens) {
     const src = sources.find((s) => s.id === lens.source);
     const name = src ? src.publisher && src.title.length > 44 ? src.publisher : src.title : lens.source;
-    const vintage = src?.vintage || lensFile?.vintage || "";
+    const vintage = src?.vintage || "";
     return [name && t(name), vintage && t(vintage)].filter(Boolean).map(esc).join(" · ");
   }
 

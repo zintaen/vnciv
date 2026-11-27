@@ -36,7 +36,7 @@ PROVINCE_LENSES = [
      "Average population 2024 ÷ 2019 − 1, by former province (NSO PX-Web V02.03-07).", None),
     ("income", "prosperity", "Income", "l-income", "💵", "income per person per year, $", "usd", "linear", "good", NSO, "income", "income",
      "Average monthly income per person (Vietnam Household Living Standards Survey, 2024) × 12, converted at the World Bank 2024 rate.",
-     "Income per person, not per household: not comparable with a US median household income."),
+     "Income per person, not per household."),
     ("gdp_pc", "prosperity", "GRDP per person", "l-home", "💰", "GRDP per person, $", "usd", "log", "good", NSO, "home", "gdp_pc",
      "Gross regional domestic product per person, 2024, current prices (NSO), converted at the World Bank 2024 rate.",
      "Counted where output is made: oil, mining and industrial provinces score high even where incomes are modest."),
@@ -102,6 +102,8 @@ def typhoons(W):
     """Distinct tropical cyclones (≥ 34 kt) passing within STORM_RADIUS_KM of each land hex centre since STORM_SINCE."""
     land = [i for i in range(len(W.owner)) if W.owner[i] >= 0]
     centers = np.array([W.center(i) for i in land])
+    remote_set = set(W.raw["islands"])
+    rem = np.array([i in remote_set for i in land])  # Hoàng Sa, Trường Sa: hexes counted, but not for wind or date
     tracks = defaultdict(list)
     names = {}
     with open(RAW / "ibtracs" / "ibtracs.WP.list.v04r01.csv", newline="") as f:
@@ -124,8 +126,8 @@ def typhoons(W):
     per_storm = {}
     for sid, pts in tracks.items():
         hit = np.zeros(len(land), bool)
-        maxkt = 0
-        for (lo0, la0, k0, _), (lo1, la1, k1, _) in zip(pts, pts[1:]):
+        maxkt, first = 0, None
+        for (lo0, la0, k0, t0), (lo1, la1, k1, _) in zip(pts, pts[1:]):
             if max(k0, k1) < STORM_MIN_KT:
                 continue
             p0, p1 = np.array(W.proj(lo0, la0)), np.array(W.proj(lo1, la1))
@@ -136,11 +138,13 @@ def typhoons(W):
                 near = d2 <= rad * rad
                 if near.any():
                     hit |= near
-                    maxkt = max(maxkt, k0, k1)
+                    if (near & ~rem).any():
+                        maxkt = max(maxkt, k0, k1)
+                        first = first or t0
         if hit.any():
             count += hit
             per_storm[sid] = {"name": names[sid][0], "season": names[sid][1], "max_kt": maxkt,
-                              "first": pts[0][3][:10], "cells": [land[k] for k in np.nonzero(hit)[0]]}
+                              "first": (first or pts[0][3])[:10], "cells": [land[k] for k in np.nonzero(hit)[0]]}
     vals = [None] * len(W.owner)
     for k, i in enumerate(land):
         vals[i] = int(count[k])
@@ -252,7 +256,7 @@ def build():
     rows = []
     for k, u in enumerate(olds):
         r = st[u["iso"]]
-        cells = cells_of.get(k, [])
+        cells = [i for i in cells_of.get(k, []) if W.raw["cover"][i] > 0 and i not in remote]
         share = lambda key: round(sum(W.pct[key][i] for i in cells) / len(cells) / 100, 3) if cells else None
         rows.append([u["iso"], u["name"], W.states[W.old_new[k]], r["population"], r["area_km2"],
                      round(r["population"] / r["area_km2"], 1), r["income"], r["gdp_pc"], r["poverty"],

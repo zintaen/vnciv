@@ -7,7 +7,7 @@
 // the figure. Each row: N figures, a caption ("each figure ≈ 950K residents"), a read-out line that a hovered or
 // focused figure fills ("8 in 10 residents in X are city dwellers (VN: 4 in 10)") and a thin Vietnam bar for
 // comparison. Below: life expectancy and migration. A row NSO has no figure for is said so, never drawn as zeros.
-import { esc, fixed, int, pct } from "../../format.js";
+import { dec, esc, fixed, int, pct } from "../../format.js";
 import { compact } from "./fmt.js";
 import { t } from "../../i18n.js";
 import { CATEGORY_COLOR, figureCanvas, loadPainter } from "./figures.js";
@@ -132,7 +132,7 @@ export function citizensHtml(m, data) {
     ${great}
     ${unreliable}
     <div class="cv-cz${row0.reliable === false ? " unreliable" : ""}">${html}</div>
-    <p class="cv-note">${esc(t(data.vintage || "NSO"))}. ${esc(t(data.note || ""))} ${t("Figures are rounded (largest remainder) so each row adds up; hover or tap a figure for its share.")} ${t("▲▼ = at least {hi}× or at most {lo}× Vietnam's share.", { hi: data.rule?.specialist_high ?? 1.5, lo: data.rule?.specialist_low ?? 0.67 })}</p>`;
+    <p class="cv-note">${esc(t(data.vintage || "NSO"))}. ${esc(t(data.note || ""))} ${t("Figures are rounded (largest remainder) so each row adds up; hover or tap a figure for its share.")} ${t("▲▼ = at least {hi}× or at most {lo}× Vietnam's share.", { hi: dec(data.rule?.specialist_high ?? 1.5), lo: dec(data.rule?.specialist_low ?? 0.67) })}</p>`;
 }
 
 function paintInto(el, rid, k, iconOf, dpr) {

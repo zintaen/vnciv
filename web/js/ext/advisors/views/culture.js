@@ -115,7 +115,7 @@ export async function mount(ctx) {
     srcEl.innerHTML = sourcesHtml(data, [...(won?.sources || []), ...(dis?.sources || ["ibtracs"])], [
       tr("Wonders come from Wikidata, so a site's coordinates and the list of parks are only as good as Wikidata's records. Landmarks are an editorial choice."),
       tr("Vietnam publishes no visitor counts per park or site, so wonders are not ranked by visits."),
-      tr("A storm counts for a place when its best track passed within {km} km of it: a count of storms that came close, not of damage. Floods and landslides from storms that stayed offshore are not counted.", { km: dis?.typhoons?.radius_km || 100 }),
+      tr("A storm counts for a place when its best track passed within {km} km of it: a count of storms that came close, not of damage. Floods and landslides from storms that stayed offshore are not counted.", { km: Number(dis?.typhoons?.radius_km) || 100 }),
       tr("Former-province counts are the mean over the province's hexes, so a large province reads lower than its most exposed coast."),
     ]);
   };
@@ -236,7 +236,7 @@ function columnChart(items, val, label) {
   div.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="none" role="img" aria-label="${esc(tr("Storms per year"))}">
     ${items.map((it, i) => { const h = (val(it) / max) * (H - m.t - m.b); return `<g class="bin"><rect class="hit" x="${(m.l + i * bw).toFixed(2)}" y="${m.t}" width="${bw.toFixed(2)}" height="${H - m.t - m.b}"/><rect class="bar" x="${(m.l + i * bw + 0.4).toFixed(2)}" y="${(H - m.b - h).toFixed(2)}" width="${Math.max(0.5, bw - 0.8).toFixed(2)}" height="${h.toFixed(2)}" fill="#4f9ad6"/><title>${esc(label(it))}</title></g>`; }).join("")}
     <line x1="${m.l}" x2="${W - m.r}" y1="${H - m.b + 0.5}" y2="${H - m.b + 0.5}" class="axis"/>
-    <text x="${m.l}" y="${H - 5}" class="tick">${first ?? ""}</text><text x="${W - m.r}" y="${H - 5}" text-anchor="end" class="tick">${last ?? ""}</text>
+    <text x="${m.l}" y="${H - 5}" class="tick">${esc(first ?? "")}</text><text x="${W - m.r}" y="${H - 5}" text-anchor="end" class="tick">${esc(last ?? "")}</text>
     <text x="${m.l + 2}" y="${m.t + 9}" class="tick">${esc(tr("{n} max", { n: max }))}</text>
   </svg>`;
   return div;

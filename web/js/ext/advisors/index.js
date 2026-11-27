@@ -333,7 +333,11 @@ export function install(app) {
     set(v) {
       if (v) {
         const id = byId.has(v) ? v : null;
-        if (app.mode !== "advisor" || (id || "council") !== current) app.setMode("advisor", { id });
+        if (app.mode !== "advisor" || (id || "council") !== current) {
+          // A link with a camera (at=) keeps it: mark the advisor as framed so show() does not frame the nation.
+          if (app.hash.value("at")) framedFor = id || "council";
+          app.setMode("advisor", { id });
+        }
       } else if (app.mode === "advisor") app.setMode(null);
     },
   });

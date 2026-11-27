@@ -81,6 +81,26 @@ class TestData(unittest.TestCase):
             self.assertIn(r["b"], zones)
             self.assertGreater(r["airlines"], 0)
 
+    def test_typhoons_and_land_exclude_remote_islands(self):
+        ty = load("disasters")["typhoons"]
+        # province keys follow the map's province order (deterministic output)
+        order = [s["abbr"] for s in self.world["states"]]
+        self.assertEqual(list(ty["states"]), [a for a in order if a in ty["states"]])
+        self.assertLessEqual(ty["national"]["strong"], ty["national"]["storms"])
+        # land shares are over hexes with land cover only: a province's forest share can't be dragged down by
+        # the cover-less Hoàng Sa / Trường Sa hexes (Đà Nẵng's mainland is about 70% forest)
+        dn = next(s for s in self.states if s["abbr"] == "DNA")
+        self.assertGreater(dn["land"]["forest"], 0.7)
+        lens = next(l for l in load("lenses")["lenses"] if l["id"] == "disasters")
+        remote = set(self.world["remote"])
+        self.assertEqual(lens["domain"][1], max(v for i, v in enumerate(lens["values"]) if v is not None and i not in remote))
+
+    def test_no_generated_english_names(self):
+        for it in load("military")["installations"]:
+            self.assertNotEqual(it["name"], "Military area")
+        for it in load("resources")["items"]:
+            self.assertNotIn(" more", it["name"])
+
     def test_city_keyed_files(self):
         ids = {c["id"] for c in self.cities}
         self.assertEqual(set(load("districts")["cities"]), ids)

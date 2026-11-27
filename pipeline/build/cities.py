@@ -196,9 +196,10 @@ def build():
     # --- states: the 34 provinces of 2025 ---
     res = load_interim("_resources") if (ROOT / "data" / "interim" / "_resources.json").exists() else None
     states = []
+    remote = set(W.raw["islands"])  # far-offshore island hexes: no land-cover data, left out of land shares
     for k, n in enumerate(news):
         members = [rows[u["iso"]] for u in olds if u["new"] == n["name"]]
-        cells = [i for i in range(len(W.owner)) if W.owner[i] == k and W.raw["cover"][i] > 0]
+        cells = [i for i in range(len(W.owner)) if W.owner[i] == k and W.raw["cover"][i] > 0 and i not in remote]
         land = {key: round(sum(W.pct[key][i] for i in cells) / len(cells) / 100, 3) for key in W.pct} if cells else None
         energy = None
         if res:
@@ -220,6 +221,10 @@ def build():
 
     jobs, employed_total = national_jobs()
     nation = econ(list(rows.values()), GROWTH_YEARS)
+    import csv
+    for r in csv.DictReader(open(ROOT / "data" / "stats" / "national.csv", encoding="utf-8")):
+        v = float(r["value"])  # NSO's own national figure, not an average of provinces (inequality between them counts)
+        nation[r["indicator"]] = round(v / 100, 4) if r["indicator"] == "poverty" else v
     nation["jobs"] = jobs
     nation["employed_lfs"] = employed_total
     write_web("nation.json", {

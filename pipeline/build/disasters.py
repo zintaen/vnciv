@@ -27,7 +27,7 @@ def build():
             b = by_county[W.counties[k]]
             b["total"] += 1
             b["strong"] += strong
-            b["last"] = max(b["last"] or "", st["first"])
+            b["last"] = max(b["last"] or "", st["county_first"][str(k)])  # when it came within reach of this province
         for a in {W.states[W.owner[c]] for c in st["cells"]}:
             by_state[a]["total"] += 1
             by_state[a]["strong"] += strong

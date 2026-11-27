@@ -93,8 +93,10 @@ export function install(app) {
         <nav class="adv-tabs" role="tablist" aria-label="${tr("Advisors")}">${ADVISORS.map((a) => `<button type="button" role="tab" data-adv="${a.id}" aria-selected="false" title="${esc(`${a.name}: ${a.role}`)}" style="--adv:${a.color}">${emblem(a, 30)}<span class="sr-only">${esc(a.name)}</span></button>`).join("")}</nav>
         <button type="button" class="icon-btn adv-close" aria-label="${tr("Close the advisors (Esc)")}" title="${tr("Close (Esc)")}">${icon("close", "✕", { size: 12 })}</button>
       </header>
+      <p class="adv-yearnote" role="status" hidden></p>
       <div class="adv-main" tabindex="-1"></div>`;
     dock.appendChild(root);
+    yearNote(root);
     root.addEventListener("click", (e) => {
       const t = e.target.closest("button");
       if (!t) return;
@@ -114,6 +116,15 @@ export function install(app) {
     });
     return root;
   }
+
+  // The advisors' figures are the latest published ones whatever the timeline's year: say so while a year is shown.
+  function yearNote(root = dock?.querySelector(".adv-root")) {
+    const n = root?.querySelector(".adv-yearnote"), y = app.timeline?.year;
+    if (!n) return;
+    n.hidden = y == null;
+    n.textContent = y == null ? "" : tr("The advisors show the latest published figures, not {year}. The map legend says which year a lens shows.", { year: y });
+  }
+  app.on("year", () => yearNote());
 
   function switchTo(id, params = {}) {
     if (app.mode === "advisor" && (id || "council") === current && !Object.keys(params).length) return;

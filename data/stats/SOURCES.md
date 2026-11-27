@@ -84,6 +84,9 @@ each row's `source_url`. Regional and national rows are dropped (NSO's national 
   2025; the appendix 2020–2025; VHLSS-based tables (electricity) 2016–2024 every two years; internet/phone/IT-skill
   tables 2024–2025; enterprise tables 2020–2024. Single-year files added: income per person (63: 2024 from the 2024
   yearbook, 2025; 34: 2025), HDI (63: 2024), FDI capital and projects (63: 2024; 34: 2025), quintile ratio (2025).
+- `status` is read from each table's column header ("Sơ bộ" → prel, "Ước tính" → est); for the single-year files it
+  comes from the file's year column. Income per person (2024 and 2025) and the quintile ratio are preliminary: their
+  tables' footnote reads "(*) Số sơ bộ - Preliminary data".
 - Missing years are absent (no row; never filled). Short table rows whose blank cell cannot be placed are skipped
   (sugarcane 4, tourism 2, shrimp 4, shopping centres 1). Raw NSO units as in the latest-year files; money is in VND
   (convert each year at that year's World Bank rate, `wb_fx.json`).
@@ -106,7 +109,7 @@ NSO's own national figures (the "CẢ NƯỚC" rows of the 2025 yearbook tables;
 0.765, Gini 0.323, multidimensional poverty 1.3%, income 6,005 thousand VND per person per month, income per worker,
 life expectancy, informal, trained and unemployment rates, GRDP growth, FDI 2025, enterprises per 1,000, internet
 users, IT skills, clean water, permanent housing (2024), State-sector doctors, forest cover, road deaths per 100,000,
-pupils per teacher; plus hdi_2024 (0.752, yearbook 2024 overview) for comparing with the former provinces' 2024 HDI.
+pupils per teacher; gdp, NSO's national GDP 2025 at current prices (12,847,571 billion VND, estimate, table 76 p.229 — nation.json `gdp`; the provinces' GRDP sum is kept as `gdp_provinces`); plus hdi_2024 (0.752, yearbook 2024 overview) for comparing with the former provinces' 2024 HDI.
 
 ## 7. VCCI Provincial Competitiveness Index (PCI)
 - 2022, the last year with a composite score for all 63 provinces:

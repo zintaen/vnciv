@@ -6,8 +6,8 @@ export default {
     "Việt Nam thật, vẽ như bản đồ trò chơi chiến thuật 4X: địa hình ô lục giác, tỉnh, thành phố với sản lượng, bản đồ chủ đề và tài nguyên, tất cả từ dữ liệu công khai.",
   "Việt Nam": "Việt Nam",
   "National yields": "Sản lượng quốc gia",
-  "Search places, communes, provinces": "Tìm địa danh, xã phường, tỉnh",
-  "Search cities and provinces (/ or Ctrl K)": "Tìm thành phố và tỉnh (/ hoặc Ctrl K)",
+  "Search places, communes, provinces": "Tìm địa danh, xã, tỉnh",
+  "Search places, communes and provinces (/ or Ctrl K)": "Tìm địa danh, xã phường và tỉnh (/ hoặc Ctrl K)",
   "Share this view": "Chia sẻ góc nhìn này",
   "Share: copy a link or download an image": "Chia sẻ: sao chép liên kết hoặc tải ảnh",
   "Language": "Ngôn ngữ",
@@ -62,9 +62,9 @@ export default {
     "Các loại sản lượng kiểu Civilization được gắn với những chỉ số thật mà Cục Thống kê công bố cho từng tỉnh. <b>Vàng là GDP</b> (GRDP): giá trị sản xuất mỗi năm, tính tại nơi làm ra.",
   "Work &amp; income": "Việc làm &amp; thu nhập",
   "Unemployment = unemployed ÷ labour force in working age (Labour Force Survey). Income is the average monthly income per person from the Household Living Standards Survey, × 12: per person, not per household.":
-    "Thất nghiệp = số người thất nghiệp ÷ lực lượng lao động trong độ tuổi lao động (Điều tra Lao động – Việc làm). Thu nhập là thu nhập bình quân đầu người một tháng từ Khảo sát Mức sống Hộ gia đình, × 12: tính theo người, không theo hộ.",
+    "Thất nghiệp = số người thất nghiệp ÷ lực lượng lao động trong độ tuổi lao động (Điều tra Lao động – Việc làm). Thu nhập là thu nhập bình quân đầu người một tháng từ Khảo sát Mức sống Dân cư, × 12: tính theo người, không theo hộ.",
   "<b>Ranks</b> (\"#3 of {n}\") compare the {n} provinces; 1 is the largest.":
-    "<b>Thứ hạng</b> (\"#3/{n}\") so sánh {n} tỉnh; hạng 1 là lớn nhất.",
+    "<b>Thứ hạng</b> (\"#3/{n}\") so sánh {n} tỉnh/thành; hạng 1 là lớn nhất.",
   "This data build has no states.json, so province panels show names and cities only.":
     "Bản dữ liệu này không có states.json, nên bảng tỉnh chỉ hiện tên và các thành phố.",
   "Terrain": "Địa hình",
@@ -81,8 +81,8 @@ export default {
   "Neighbouring land (China, Laos, Cambodia, Thailand and beyond) is drawn under a light fog: it is shown for context and not mapped in detail.":
     "Lãnh thổ lân cận (Trung Quốc, Lào, Campuchia, Thái Lan và xa hơn) được vẽ dưới một lớp sương mờ: chỉ để làm bối cảnh, không được lập bản đồ chi tiết.",
   "Lenses": "Bản đồ chủ đề",
-  "Lenses recolour the map by one measure ({vintage}). Population density, land cover and typhoons are measured hex by hex from gridded data. The province lenses spread each former province's figure over its hexes; a hex on a border averages its 7 sample points (centre + 6), so borders blend a little.":
-    "Bản đồ chủ đề tô lại bản đồ theo một chỉ số ({vintage}). Mật độ dân số, lớp phủ đất và bão được đo theo từng ô từ dữ liệu dạng lưới. Các bản đồ chủ đề theo tỉnh trải số liệu của mỗi tỉnh cũ lên các ô của nó; một ô nằm trên ranh giới lấy trung bình 7 điểm mẫu (tâm + 6), nên ranh giới hơi hòa vào nhau.",
+  "Lenses recolour the map by one measure ({vintage}). Population, land cover, climate, forest loss, low-lying land, typhoons and mapped schools are measured hex by hex from gridded or point data. The other lenses spread a province's figure over its hexes: most use the 63 former provinces, where a hex on a border averages its 7 sample points (centre + 6), so borders blend a little; the indicators NSO publishes only for the 34 provinces give every hex of a province its value.":
+    "Bản đồ chủ đề tô lại bản đồ theo một chỉ số ({vintage}). Dân số, lớp phủ đất, khí hậu, mất rừng, vùng đất thấp, bão và số trường học trên OpenStreetMap được đo theo từng ô từ dữ liệu dạng lưới hoặc dạng điểm. Các bản đồ chủ đề còn lại trải số liệu của tỉnh lên các ô của nó: phần lớn dùng 63 tỉnh cũ, trong đó một ô nằm trên ranh giới lấy trung bình 7 điểm mẫu (tâm + 6), nên ranh giới hơi hòa vào nhau; các chỉ tiêu Cục Thống kê chỉ công bố cho 34 tỉnh/thành gán giá trị của tỉnh cho mọi ô thuộc tỉnh đó.",
   "The legend shows how many hexes fall at each value. Hover or drag on it to show only that range on the map.":
     "Chú giải cho biết có bao nhiêu ô ở mỗi giá trị. Rê chuột hoặc kéo trên đó để chỉ hiện khoảng giá trị ấy trên bản đồ.",
   "Scale: {scale}, {lo}–{hi} {unit}": "Thang: {scale}, {lo}–{hi} {unit}",
@@ -155,9 +155,10 @@ export default {
   "Click or drag to jump": "Bấm hoặc kéo để di chuyển tới",
   "Open the city screen": "Mở Góc nhìn thành phố",
   "Open that province": "Mở tỉnh đó",
-  "Search cities and provinces": "Tìm thành phố và tỉnh",
+  "Search places, communes and provinces": "Tìm địa danh, xã phường và tỉnh",
+  "Previous / next year on the timeline": "Năm trước / năm sau trên dòng thời gian",
+  "Turn on roads, rail, communes and other map layers": "Bật đường bộ, đường sắt, xã phường và các lớp bản đồ khác",
   "Next / previous lens": "Bản đồ chủ đề tiếp theo / trước đó",
-  "Show or hide resources": "Hiện hoặc ẩn tài nguyên",
   "This help": "Trợ giúp này",
   "Close help, search, Almanac, then the panel": "Đóng trợ giúp, tìm kiếm, Niên giám, rồi đến bảng thông tin",
   "Every number traces back to public data: open the <b>Almanac</b> for sources. The link in the address bar always reopens this exact view.":
@@ -209,9 +210,9 @@ export default {
     "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong ô thành phố {name}.",
   "Drawn on the next hex so it stays visible; its true location falls in a city hex.":
     "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong một ô thành phố.",
-  "${n} trillion": "{n} nghìn tỷ $",
-  "${n} billion": "{n} tỷ $",
-  "${n} million": "{n} triệu $",
+  "${n} trillion": "{n} nghìn tỷ USD",
+  "${n} billion": "{n} tỷ USD",
+  "${n} million": "{n} triệu USD",
   "Medium hub (2–10M passengers)": "Sân bay vừa (2–10 triệu khách)",
   "Small hub (0.5–2M passengers)": "Sân bay nhỏ (0,5–2 triệu khách)",
   "Local airport": "Sân bay địa phương",
@@ -273,8 +274,8 @@ export default {
   "This data build has no power plants layer.": "Bản dữ liệu này không có lớp nhà máy điện.",
   "This layer marks the country's biggest power plants on the tiles where they are. Only large plants are shown: each type's threshold is in its description. When zoomed out, a hex shows its largest plant; zoom in to see more. Press <b>R</b> to show or hide them.":
     "Lớp này đánh dấu các nhà máy điện lớn nhất cả nước trên ô nơi chúng đặt. Chỉ hiện những nhà máy lớn: ngưỡng của mỗi loại ghi trong phần mô tả. Khi thu nhỏ, mỗi ô chỉ hiện nhà máy lớn nhất; phóng to để xem thêm. Nhấn <b>R</b> để hiện hoặc ẩn.",
-  "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide power plants · ? for all shortcuts · Esc to close.":
-    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm · L để chuyển bản đồ chủ đề · R để hiện hoặc ẩn nhà máy điện · ? để xem mọi phím tắt · Esc để đóng.",
+  "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search places, communes and provinces · L to cycle lenses · [ and ] to step the timeline's years · <i>Layers</i> for roads, rail, communes and more · R to show or hide power plants · ? for all shortcuts · Esc to close.":
+    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm địa danh, xã phường và tỉnh · L để chuyển bản đồ chủ đề · [ và ] để chuyển năm trên dòng thời gian · <i>Lớp</i> để bật đường bộ, đường sắt, xã phường và hơn nữa · R để hiện hoặc ẩn nhà máy điện · ? để xem mọi phím tắt · Esc để đóng.",
   "Land cover, relief, rivers and power plants": "Lớp phủ đất, địa hình, sông ngòi và nhà máy điện",
   "Air routes (2014)": "Đường bay (2014)",
   "The 30 domestic air routes flown by the most airlines, from the OpenFlights route database (last updated June 2014)":

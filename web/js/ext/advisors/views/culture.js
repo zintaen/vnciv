@@ -61,7 +61,7 @@ export async function mount(ctx) {
     onClick: (b) => flyTo(b.it),
   });
   if (won && wonders.length) {
-    const wBody = section(el, { title: tr("Wonders"), kicker: tr("Each chosen by a published rule"), note: tr("Hover a wonder to find it on the map; click to fly there. World Heritage sites are listed by year of inscription, national parks by area, universities by founding year; landmarks are a hand-picked list.") });
+    const wBody = section(el, { title: tr("Wonders"), kicker: tr("Each chosen by a published rule"), note: tr("Hover a wonder to find it on the map; click to fly there. World Heritage sites are listed by year of inscription, national parks by area, universities national first, then regional; landmarks are a hand-picked list.") });
     let kind = "all";
     segmented(wBody, {
       label: tr("Kind"), value: kind,
@@ -221,6 +221,7 @@ function metricText(w) {
   if (fin(m.inscribed)) return tr("inscribed {year}", { year: m.inscribed });
   if (fin(m.area_km2)) return `${int(m.area_km2)} km²`;
   if (fin(m.founded)) return tr("founded {year}", { year: m.founded });
+  if ("founded" in m) return tr("founding year not in Wikidata"); // Đại học Thái Nguyên: its item has no inception date
   return w.curated ? tr("hand-picked") : "–";
 }
 const w0curated = (list) => list.every((w) => w.curated);

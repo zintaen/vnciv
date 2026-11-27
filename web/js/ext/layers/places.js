@@ -6,6 +6,7 @@ import { t, lang } from "../../i18n.js";
 const SERIF = '"Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif';
 const SANS = '-apple-system, "Segoe UI", system-ui, sans-serif';
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const SLOGAN_W = 3600; // map units (720 km): the slogan's widest line never spans more of the sea than this
 
 // Zoom (hex radius in css px) from which each kind of label appears.
 const MIN_RPX = { archipelago: 0, slogan: 0, arch_island: 9, coastal: 5, tourist: 7, town: 11 };
@@ -40,15 +41,23 @@ export function placesLayer(getData, on) {
       if (s) {
         const [x, y] = o.toScreen(s.x, s.y);
         if (onScreen(x, y, 400)) {
-          const px = clamp(o.Rpx * 3.2, 24, 60);
+          let px = clamp(o.Rpx * 3.2, 24, 60);
           const [l1, l2] = s.text.split(/,\s*/);
-          ctx.font = `bold ${px}px ${SERIF}`;
           const lines = [l1 + ",", l2];
-          const wMax = Math.max(...lines.map((l) => ctx.measureText(l).width));
+          ctx.font = `bold ${px}px ${SERIF}`;
+          let wMax = Math.max(...lines.map((l) => ctx.measureText(l).width));
+          // Zoomed out below the home view (a phone's widest zoom, a docked advisor) the 24 px floor ran over the
+          // archipelago names and the city banners: keep it inside SLOGAN_W of sea.
+          const fit = (SLOGAN_W * o.s) / wMax;
+          if (fit < 1) {
+            px = Math.max(9, Math.floor(px * fit));
+            ctx.font = `bold ${px}px ${SERIF}`;
+            wMax = Math.max(...lines.map((l) => ctx.measureText(l).width));
+          }
           lines.forEach((l, k) => halo(ctx, l, x, y + (k - 0.5) * px * 1.15, { fill: "#d6202f", stroke: "rgba(255,236,170,.95)", width: Math.max(3, px * 0.16) }));
           const box = [x - wMax / 2 - 6, y - px * 1.2, x + wMax / 2 + 6, y + px * 1.2];
           if (lang !== "vi" && s.en) {
-            const sub = clamp(px * 0.42, 10, 16);
+            const sub = clamp(px * 0.42, 8, 16);
             ctx.font = `italic ${sub}px ${SERIF}`;
             halo(ctx, s.en, x, y + px * 1.25 + sub * 0.6, { fill: "#fff6dc", stroke: "rgba(20,30,45,.85)", width: 3 });
             box[3] += sub * 1.4;

@@ -498,11 +498,14 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     const order = Object.keys(GROUPS);
     const rank = (g) => (!g ? Infinity : order.includes(g) ? order.indexOf(g) : order.length);
     const groups = [...new Set(list.map((t) => t.group))].sort((a, b) => rank(a) - rank(b));
+    // Re-rendering replaces the rows: keep keyboard focus on the row that had it (Space/Enter toggles in place).
+    const focusId = pop.contains(document.activeElement) ? document.activeElement.dataset?.toggle : null;
     pop.innerHTML = `<div class="ml-head">${tr("Map layers")}</div>` + groups.map((g) => {
       const items = list.filter((t) => t.group === g);
       const head = g ? `<div class="ml-sec" role="presentation">${esc(tr(GROUPS[g] || g))}</div>` : (groups.length > 1 ? `<div class="ml-sec ml-sep" role="separator"></div>` : "");
       return head + items.map(row).join("");
     }).join("");
+    if (focusId) pop.querySelector(`[data-toggle="${CSS.escape(focusId)}"]`)?.focus();
   }
 
   function open() {

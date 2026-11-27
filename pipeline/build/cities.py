@@ -245,7 +245,9 @@ def build():
     conv = {"income": ("median_income", lambda v: round(v * 1000 * 12 / rate)),
             "income_worker": ("income_worker", lambda v: round(v * 1000 * 12 / rate)),
             "fdi": ("fdi", lambda v: v * 1e6), "fdi_projects": ("fdi_projects", int),
-            "grdp_growth": ("grdp_growth", lambda v: round(v / 100 - 1, 4))}
+            "grdp_growth": ("grdp_growth", lambda v: round(v / 100 - 1, 4)),
+            "gdp": ("gdp", lambda v: round(v * 1e9 / rate))}  # NSO's national GDP (bn VND); the province sum is kept
+    nation["gdp_provinces"] = nation["gdp"]  # sum of the 63 former provinces' GRDP (per person × population)
     pcts = {"poverty", "informal", "trained", "unemployment", "internet", "it_skills", "clean_water", "housing", "forest_cover"}
     nat_years = {}
     for key, v in st["national"].items():
@@ -256,14 +258,16 @@ def build():
             continue
         out, f = conv.get(key, (key, (lambda x: round(x / 100, 4)) if key in pcts else (lambda x: x)))
         nation[out] = f(v)
-        nat_years[out] = st["national"]["_years"][key]
+        nat_years[out] = nat_years[key] = st["national"]["_years"][key]  # "income" too: the UI reads that key
     nation["doctors_pk"] = round(nation["doctors"] / nation["population"] * 1e4, 2)
     nation["years"] = {**{k: v for k, v in st["state_years"].items() if v}, **nat_years,
                        "growth_9m2026": None, "industry_jobs_2026": None}
     nation["jobs"] = jobs
     nation["employed_lfs"] = employed_total
     write_web("nation.json", {
-        "vintage": VINTAGE, "year": YEAR, "gdp_vintage": "NSO GRDP per person (2025 estimate) × average population 2025 (preliminary)",
+        "vintage": VINTAGE, "year": YEAR, "gdp_vintage": "Vietnam: NSO's national GDP 2025 at current prices (estimate); provinces and cities: NSO GRDP per "
+                       "person (2025 estimate) × average population 2025 (preliminary), which add up to "
+                       f"{1 - nation['gdp_provinces'] / nation['gdp']:.1%} less",
         "currency": {"code": "USD", "fx": round(st["fx"], 2), "fx_year": st["fx_year"],
                      "note": f"VND converted at the World Bank official rate for {st['fx_year']}: {st['fx']:,.0f} VND per USD"
                              + ("." if st["fx_year"] == str(YEAR) else

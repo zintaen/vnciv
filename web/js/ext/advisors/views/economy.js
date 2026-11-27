@@ -25,9 +25,9 @@ export function mount(ctx) {
 
   // --- headline -------------------------------------------------------------------------------------------------
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: `GRDP ${n.gdp_year || ""}`, value: money(n.gdp), sub: tr("US dollars, current prices") },
-    { label: tr("Per person"), value: money(ratio(n.gdp, n.population)), sub: tr("GRDP ÷ residents") },
-    ...(fin(n.grdp_growth) ? [{ label: tr("GRDP growth {y}", { y: yearPlain(yearOf(n, "grdp_growth")) }), value: signedPct(n.grdp_growth), sub: tr("constant prices, NSO estimate") }] : []),
+    { label: `GDP ${yearPlain(yearOf(n, "gdp")) || n.gdp_year || ""}`, value: money(n.gdp), sub: tr("US dollars, current prices") },
+    { label: tr("Per person"), value: money(ratio(n.gdp, n.population)), sub: tr("GDP ÷ residents") },
+    ...(fin(n.grdp_growth) ? [{ label: tr("GDP growth {y}", { y: yearPlain(yearOf(n, "grdp_growth")) }), value: signedPct(n.grdp_growth), sub: tr("constant prices, NSO estimate") }] : []),
     { label: `FDI ${yearPlain(yearOf(n, "fdi"))}`, value: money(n.fdi), sub: (n.fdi < 0 ? tr("net reduction of registered capital") + " · " : "") + tr("{n} new projects", { n: count3(n.fdi_projects) }) },
     ...(fin(n.enterprises_pk) ? [{ label: tr("Enterprises"), value: fixed(n.enterprises_pk, 1), sub: tr("active per 1,000 residents, {y}", { y: yearPlain(yearOf(n, "enterprises_pk")) }) }] : []),
   ]));
@@ -174,7 +174,7 @@ export function mount(ctx) {
   function brushSummary(sel) {
     const pop = sel.reduce((a, r) => a + (r.v.population || 0), 0);
     const gdp = sel.reduce((a, r) => a + (r.v.gdp || 0), 0);
-    return `${tr("<b>{n}</b> former provinces selected · {pop} people · {gdp} GRDP ({share} of Vietnam)", { n: sel.length, pop: count3(pop), gdp: money(gdp), share: pct(gdp / n.gdp) })} ${frameBtn()}<button type="button" class="adv-mini" data-clear>${tr("Clear")}</button>`;
+    return `${tr("<b>{n}</b> former provinces selected · {pop} people · {gdp} GRDP ({share} of Vietnam)", { n: sel.length, pop: count3(pop), gdp: money(gdp), share: pct(gdp / (n.gdp_provinces || n.gdp)) })} ${frameBtn()}<button type="button" class="adv-mini" data-clear>${tr("Clear")}</button>`;
   }
   const clearBrush = () => { scatter.setSelected(null); link.base(null); bubbles.setSelected(null); brushInfo.innerHTML = ""; };
   brushInfo.addEventListener("click", (e) => { if (e.target.closest("[data-clear]")) clearBrush(); });
@@ -205,7 +205,7 @@ export function mount(ctx) {
   drawScatter();
 
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "nso_monthly_2026", "worldbank_fx"], [
-    tr("GRDP is {v}. The Vietnam figure here is the sum of the provinces' GRDP; NSO's official national GDP is compiled separately and differs slightly.", { v: esc(tr(nation.gdp_vintage || "NSO GRDP")) }),
+    tr("GRDP is {v}. A selection's share of Vietnam is its share of the provinces' summed GRDP ({sum}), so the shares add up to 100%.", { v: esc(tr(nation.gdp_vintage || "NSO GRDP")), sum: money(n.gdp_provinces || n.gdp) }),
     tr("Dong are converted to US dollars at the World Bank official rate for {year} ({fx} ₫ per $): no adjustment for prices, which are lower than in richer countries.", { year: esc(nation.currency?.fx_year || ""), fx: esc(count3(nation.currency?.fx)) }),
     tr("Jobs by industry are national only; workers are counted where they live."),
     tr("FDI is capital newly registered in the year ({sy} for the 34 provinces, {cy} for the 63 former provinces), not money actually disbursed, and it lands where the investor's project is licensed.", { sy: yearText(data.levels.states.field("fdi")?.year), cy: yearText(metros.field("fdi")?.year) }),

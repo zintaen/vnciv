@@ -427,6 +427,35 @@ def strip_wiki(s):
     return re.sub(r"\s+", " ", s).strip(" ,;")
 
 
+# typos in the list's wikitext (shown as names on the map): {as written: as the relic's own article spells it}
+TYPOS = {"Tây6)ơn": "Tây Sơn",  # "Quần thể di tích Tây Sơn Thượng Đạo" (Đợt 15, 2022)
+         "khảo cố": "khảo cổ"}  # Cát Tiên's category (Đợt 7, 2014)
+
+
+def fix_typos(s):
+    for a, b in TYPOS.items():
+        s = s.replace(a, b)
+    return s
+
+
+def relic_category(s):
+    """One spelling for the list's category cells: kinds joined by ", " ("Di tích lịch sử - kiến trúc nghệ thuật",
+    "… và Khảo cổ" → "…, kiến trúc nghệ thuật", "…, khảo cổ"), as the map's English labels expect."""
+    s = re.sub(r"\s+(?:-|–|và)\s+", ", ", fix_typos(s).strip())
+    return s[:1] + s[1:].lower()
+
+
+def relic_link(cell):
+    """The relic's own article in its name cell: a link that starts the name ("[[Chùa Tây Phương]]"), is the whole
+    name after a generic prefix ("Khu di tích [[Phố Hiến]]"), or gives its other name in brackets ("Quần thể Hương
+    Sơn ([[Chùa Hương]])"). A link to only part of the name ("Tây Thiên - [[Tam Đảo]]", "Khu đền thờ [[Tây Sơn Tam
+    Kiệt]]": the people) is not the relic's article."""
+    c = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>", "", cell, flags=re.S).strip()
+    return (re.match(r"\[\[([^\]|#]+)", c)
+            or re.fullmatch(r"(?:Khu di tích|Quần thể)\s+\[\[([^\]|#]+)[^\]]*\]\]", c)
+            or re.search(r"\(\[\[([^\]|#]+)[^\]]*\]\]\)$", c))
+
+
 def relic_rows():
     """[{name, article, location, category, round, year, coord}] from the list's per-round tables."""
     text = json.loads((RAW / "wikipedia_vi_relics" / "relics_list.json").read_text())["parse"]["wikitext"]
@@ -442,11 +471,11 @@ def relic_rows():
             if len(cells) < 4:
                 continue
             name_cell, loc_cell, cat_cell = cells[0], cells[2], cells[3]
-            link = re.match(r"\s*\[\[([^\]|#]+)", name_cell)
+            link = relic_link(name_cell)
             cm = COORD.search(row)
             provs = re.findall(r"(?:tỉnh|thành phố|Thành phố|Tỉnh)\s*\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", loc_cell)
-            out.append({"name": strip_wiki(name_cell), "article": link.group(1).strip() if link else None,
-                        "location": strip_wiki(loc_cell), "category": strip_wiki(cat_cell), "round": rnd, "year": year,
+            out.append({"name": fix_typos(strip_wiki(name_cell)), "article": link.group(1).strip() if link else None,
+                        "location": strip_wiki(loc_cell), "category": relic_category(strip_wiki(cat_cell)), "round": rnd, "year": year,
                         "coord": parse_coord(cm.group(1)) if cm else None, "provinces": provs})
     return out
 

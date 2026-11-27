@@ -44,7 +44,8 @@ def build():
     years = load_interim("_stats")["years"]
     pop = {c["id"]: c["pop_series"] for c in cities}
     popof = lambda cid, k: pop[cid][years[k][:4]]
-    nat = {k: sum(r[k] or 0 for r in st.values()) / sum(popof(cid, k) for cid in st)
+    # unknown figures (Bắc Kạn's blank 2025 tourism cell) leave the province out of the baseline, not count as 0
+    nat = {k: sum(r[k] for r in st.values() if r[k] is not None) / sum(popof(cid, k) for cid in st if st[cid][k] is not None)
            for k in ("students", "retail", "fdi", "tourism")}
     sites = {"port": {}, "airport": {}, "heritage": {}, "power": {}}
     for p in infra["ports"]:
@@ -92,7 +93,7 @@ def build():
         "rule": {"min_lq": MIN_LQ, "max_per_city": MAX_PER_CITY, "text": RULE},
         "catalog": [{"id": i, "name": n, "icon": ic, "color": col, "measure": m, "badge": {"label": b}, "description": d}
                     for i, n, ic, col, m, b, d in CATALOG],
-        "national": {k: round(v, 2) for k, v in nat.items()},
+        "national": {k: round(v, 4) for k, v in nat.items()},
         "cities": out})
     n = sum(1 for v in out.values() if v["districts"])
     print(f"    {n} of {len(out)} cities have at least one district")

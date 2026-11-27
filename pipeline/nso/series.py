@@ -14,11 +14,14 @@ URL='https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf'
 SWAPPED={'cereal_production','paddy_area','paddy_production'}   # rebuilt from level 63; A76/A78 (per capita, yield) dropped
 DROP={'cereal_per_capita','paddy_yield'}
 # indicator: [(csv relative to data/stats, level, year, status)] single-year values from other files
-EXTRA={'income_per_capita_monthly':[('2024/income_per_capita_monthly.csv',63,2024,'final'),('2025/income_per_capita_monthly.csv',63,2025,'final'),('p34/income_per_capita_monthly.csv',34,2025,'final')],
-       'hdi':[('2024/hdi.csv',63,2024,'prel')],
-       'fdi_registered_capital':[('2024/fdi_registered_capital_2024.csv',63,2024,'final'),('p34/fdi_registered_capital_2025.csv',34,2025,'final')],
-       'fdi_projects':[('2024/fdi_projects_2024.csv',63,2024,'final'),('p34/fdi_projects_2025.csv',34,2025,'final')],
-       'income_quintile_ratio':[('2025/income_quintile_ratio.csv',63,2025,'final'),('p34/income_quintile_ratio.csv',34,2025,'final')]}
+# indicator: [(csv relative to data/stats, level, year)] single-year values from other files; the status comes from each
+# file's year column ("2025 (prel.)" → prel), as its table's footnote says
+EXTRA={'income_per_capita_monthly':[('2024/income_per_capita_monthly.csv',63,2024),('2025/income_per_capita_monthly.csv',63,2025),('p34/income_per_capita_monthly.csv',34,2025)],
+       'hdi':[('2024/hdi.csv',63,2024)],
+       'fdi_registered_capital':[('2024/fdi_registered_capital_2024.csv',63,2024),('p34/fdi_registered_capital_2025.csv',34,2025)],
+       'fdi_projects':[('2024/fdi_projects_2024.csv',63,2024),('p34/fdi_projects_2025.csv',34,2025)],
+       'income_quintile_ratio':[('2025/income_quintile_ratio.csv',63,2025),('p34/income_quintile_ratio.csv',34,2025)]}
+def status_of(year_label): return 'prel' if 'prel' in year_label else 'est' if 'est' in year_label else 'final'
 pages={};cur=None
 for l in open(TXT,encoding='utf-8'):
     m=re.match(r'=====PAGE (\d+)$',l.strip())
@@ -73,11 +76,11 @@ for name in SWAPPED:
     rep.append(f"{name} L34 rebuilt from L63 years={sorted(y for y,rs in by.items() if len(rs)==63)}")
 for name,srcs in EXTRA.items():
     have={(r[1],r[2]) for r in out.get(name,[])}
-    for f,level,y,stt in srcs:
+    for f,level,y in srcs:
         if (level,y) in have: continue
         for r in csv.DictReader(open(f'{ST}/{f}',encoding='utf-8')):
-            out.setdefault(name,[]).append([r['province_std'],level,y,float(r['value']),r['unit'],r['source_url'],stt])
-    rep.append(f"{name} extra {[(l,y) for _,l,y,_ in srcs]}")
+            out.setdefault(name,[]).append([r['province_std'],level,y,float(r['value']),r['unit'],r['source_url'],status_of(r['year'])])
+    rep.append(f"{name} extra {[(l,y) for _,l,y in srcs]}")
 os.makedirs(f'{ST}/series',exist_ok=True)
 for name,rows in sorted(out.items()):
     rows.sort(key=lambda r:(-r[1],r[0],r[2]))

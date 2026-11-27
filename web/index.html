@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -32,12 +32,12 @@
 <body>
   <header id="topbar">
     <div class="brand" title="Việt Nam"><svg class="brand-emblem" aria-hidden="true" viewBox="0 0 30 20" width="27" height="18"><rect width="30" height="20" fill="#DA251D"/><polygon fill="#FFFF00" points="15,4 16.35,8.15 20.71,8.15 17.18,10.71 18.53,14.85 15,12.29 11.47,14.85 12.82,10.71 9.29,8.15 13.65,8.15"/></svg><span class="brand-text">Việt Nam</span></div>
-    <div id="yields" class="yields" aria-label="National yields"></div>
+    <div id="yields" class="yields" role="group" aria-label="National yields"></div>
     <div class="spacer"></div>
     <div class="search" role="search">
       <span class="search-ic" aria-hidden="true"></span>
       <input id="search-input" type="search" placeholder="Search" autocomplete="off" spellcheck="false"
-        role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search cities and provinces (/ or Ctrl K)">
+        role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search places, communes and provinces (/ or Ctrl K)">
       <kbd class="search-kbd" aria-hidden="true">/</kbd>
     </div>
     <div id="turn" class="turn"></div>
@@ -86,7 +86,7 @@
     <div class="help-card panel" role="dialog" aria-modal="true" aria-labelledby="help-title"></div>
   </div>
 
-  <div id="loading">Surveying the land…</div>
+  <div id="loading">Đang khảo sát đất đai…</div>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>

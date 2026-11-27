@@ -9,6 +9,8 @@ export default {
   "Ward": "Phường",
   "Special zone": "Đặc khu",
   "Area": "Diện tích",
+  "Outline area": "Diện tích theo đường bao",
+  "(includes reefs and lagoons, not only land)": "(gồm cả rạn san hô và đầm phá, không chỉ đất liền)",
   "Units of 1 July 2025 (two-tier local government); outlines from the official reference map (sapnhap.bando.com.vn).":
     "Đơn vị hành chính từ ngày 1/7/2025 (chính quyền địa phương hai cấp); ranh giới theo bản đồ tham khảo chính thức (sapnhap.bando.com.vn).",
   // Search

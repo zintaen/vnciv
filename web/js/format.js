@@ -26,9 +26,12 @@ function compactEn(n) {
   if (a >= 1e3) return (n / 1e3).toFixed(a >= 1e5 ? 0 : 1).replace(/\.0$/, "") + "K";
   return String(Math.round(n));
 }
+// Vietnamese reads million/billion as words: 1,5 tr (triệu), 529 tỷ; non-breaking spaces keep a figure on one line; input parsing still takes K/M/B.
+const VI_UNIT = { K: "K", M: "\u00a0tr", B: "\u00a0tỷ", T: "\u00a0nghìn\u00a0tỷ" }; // K stays: "50K" is everyday Vietnamese
+const viUnits = (s) => (VI ? s.replace(/([KMBT])$/, (u) => VI_UNIT[u]) : s);
 export function compact(n) {
   if (n == null || Number.isNaN(n)) return "–";
-  return dec(rollover(n, compactEn));
+  return viUnits(dec(rollover(n, compactEn)));
 }
 
 const neg = (n, f) => (n < 0 ? "−" + f(-n) : f(n)); // "−$2", not "$-2"
@@ -38,7 +41,7 @@ export const dollars = (n) => (n == null || Number.isNaN(n) ? "–" : neg(Math.r
 export const pct = (x, d = 1) => (x == null ? "–" : fixed(x * 100, d) + "%");
 
 export function yieldValue(y, v) {
-  return y.unit === "usd" ? money(v) : y.unit === "tonnes" ? (v == null ? "–" : compact(v) + " t") : compact(v);
+  return y.unit === "usd" ? money(v) : y.unit === "tonnes" ? (v == null ? "–" : compact(v) + (VI ? "\u00a0tấn" : " t")) : compact(v);
 }
 
 function popShortEn(n) {
@@ -46,7 +49,7 @@ function popShortEn(n) {
   if (n >= 1e6) return (n / 1e6).toFixed(1) + "M";
   return Math.round(n / 1e3) + "K";
 }
-export const popShort = (n) => dec(rollover(n, popShortEn));
+export const popShort = (n) => viUnits(dec(rollover(n, popShortEn)));
 
 /** A resource site's second line: operator, opening year, farm count (data fields, words via t()). Plain text;
  *  siteDetailHtml marks the operator (a proper name) translate="no". */

@@ -136,12 +136,16 @@ def build():
         m = re.fullmatch(r"(\d+)(bis)?", ref)
         if m:
             s = sites.setdefault(m.group(1), {"name": r["sLabel"]["value"], "en": r.get("enLabel", {}).get("value"),
-                                              "c": None, "year": None})
+                                              "c": None, "year": None, "date": None})
             if r.get("c"):
                 s["c"] = wkt_point(r["c"]["value"])
             if r.get("year"):
                 y = int(r["year"]["value"][:4])
                 s["year"] = min(s["year"] or y, y)
+                # Wikidata stores a year-precision date as 1 January: only other days are real inscription dates
+                d = r["year"]["value"][:10]
+                if not d.endswith("-01-01") and (s["date"] is None or d < s["date"]):
+                    s["date"] = d
         elif "-" in ref and r.get("c"):
             parts.setdefault(ref.split("-")[0], []).append(wkt_point(r["c"]["value"]))
     for ref, s in sites.items():
@@ -149,7 +153,8 @@ def build():
         if not c:
             continue
         add(f"wh-{ref}", s["name"], SHORT.get(ref, s["name"]), "natural" if ref in NATURAL_WH else "landmark",
-            "world_heritage", *c, {"inscribed": s["year"] or INSCRIBED.get(ref), "whc_ref": ref}, en=s["en"])
+            "world_heritage", *c, {"inscribed": s["year"] or INSCRIBED.get(ref),
+             "inscribed_date": s["date"] if s["date"] and int(s["date"][:4]) == s["year"] else None, "whc_ref": ref}, en=s["en"])
     wh_names = {w["name"] for w in wonders}
 
     for q, name, short, area, en, lonlat in national_parks():

@@ -47,9 +47,12 @@ class TestData(unittest.TestCase):
 
     def test_totals_add_up(self):
         nat = self.nation["nation"]
-        for k in ("population", "gdp", "employed"):
-            self.assertAlmostEqual(sum(s[k] for s in self.states), nat[k], delta=nat[k] * 1e-6, msg=k)
-            self.assertAlmostEqual(sum(c[k] for c in self.cities), nat[k], delta=nat[k] * 1e-6, msg=k)
+        # nation.gdp is NSO's national GDP; the provinces' GRDP add up to gdp_provinces (labelled in gdp_vintage)
+        for k, nk in (("population", "population"), ("gdp", "gdp_provinces"), ("employed", "employed")):
+            self.assertAlmostEqual(sum(s[k] for s in self.states), nat[nk], delta=nat[nk] * 1e-6, msg=k)
+            self.assertAlmostEqual(sum(c[k] for c in self.cities), nat[nk], delta=nat[nk] * 1e-6, msg=k)
+        self.assertLess(abs(nat["gdp"] / nat["gdp_provinces"] - 1), 0.02)
+        self.assertIn("national GDP", self.nation["gdp_vintage"])
         self.assertTrue(95e6 < nat["population"] < 110e6)
 
     def test_lenses(self):

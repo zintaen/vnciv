@@ -119,7 +119,10 @@ export async function install(app) {
       for (const loss of forest.loss_ha) loss.forEach((v, j) => { const f = forest.forest2000_ha[j]; if (f > 0 && v / f > hi) hi = v / f; });
       forestDomain = [0, hi || 1];
     }
+    // the lens's own name and description are the 2001–2025 total: a year's view says it is that year alone
     return { ...lens, id: `${lens.id}@${y}`, values, domain: forestDomain, scale: "linear", format: "pct", year: y,
+      name: t("Forest loss in {year}", { year: y }),
+      description: t("Share of the hex's year-2000 forest (tree canopy ≥ 30%) with stand-replacing loss in {year} alone (Hansen Global Forest Change v1.13, Landsat). Sensors and method changed over the years, so a step from one year to the next can be an artefact.", { year: y }),
       unit: "share of the 2000 forest lost that year",
       note: noteOf([t("Year {year}", { year: y }), k < 0 ? t("no data for this year") : ""], lens) };
   }
@@ -358,6 +361,7 @@ export async function install(app) {
     renderControl();
     renderCard();
     app.requestDraw();
+    if (changed) app.emit("year", { year }); // the advisors label their (latest) figures against it
     if (!fromHash) app.hash.update();
   }
   const step = (d) => {
@@ -384,8 +388,8 @@ export async function install(app) {
   playBtn.onclick = () => play(!playing);
   $(".tl-hist-btn").onclick = () => (card?.kind === "history" ? (card = null, renderCard()) : showHistory(-1));
   rangeEl.addEventListener("input", () => {
+    const v = +rangeEl.value, [, b] = range(); // before play(false): its renderControl writes the old year back
     play(false);
-    const v = +rangeEl.value, [, b] = range();
     setYear(v > b ? null : v);
   });
   // Any other interaction pauses the play.
@@ -454,7 +458,7 @@ function injectStyle() {
 #yields .yield.tl-latest { opacity: .62; }
 .tl-fade { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; opacity: 1; transition: opacity .7s ease; }
 .tl-fade.out { opacity: 0; }
-.tl-card { position: fixed; top: calc(var(--topbar-h) + 10px); left: 12px; width: 300px; max-height: min(60vh, 460px); overflow: auto;
+.tl-card { position: fixed; top: calc(var(--topbar-h) + 10px); left: calc(12px + var(--dock-left, 0px)); width: 300px; max-height: min(60vh, 460px); overflow: auto;
   z-index: 20; padding: 8px 10px 10px; font-size: 13px; color: var(--ink); }
 .tl-card-head { display: flex; justify-content: space-between; align-items: center; font-family: var(--serif); color: var(--gold-bright);
   font-size: 14px; margin-bottom: 6px; }
@@ -473,7 +477,7 @@ function injectStyle() {
 .tl-foot { margin-top: 8px; color: var(--ink-dim); font-size: 11px; line-height: 1.35; }
 /* Below ~1600 px the bar has no room left (yields + search + buttons): the control floats as a pill just under it. */
 @media (max-width: 1600px) {
-  #turn.tl { position: fixed; top: calc(var(--topbar-h) + 6px); left: 12px; z-index: 12; padding: 3px 4px;
+  #turn.tl { position: fixed; top: calc(var(--topbar-h) + 6px); left: calc(12px + var(--dock-left, 0px)); z-index: 12; padding: 3px 4px;
     background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.4); }
   .tl-card { top: calc(var(--topbar-h) + 46px); }
 }

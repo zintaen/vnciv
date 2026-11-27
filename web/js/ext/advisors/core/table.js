@@ -42,7 +42,23 @@ export function createTable(host, opts) {
   const input = root.querySelector(".adv-tsearch input");
   const cnt = root.querySelector(".adv-tsearch .cnt");
 
-  const template = () => `${opts.rank ? "26px " : ""}${cols.map((c) => c.width || (c.align === "l" ? "minmax(0,1.6fr)" : "minmax(0,1fr)")).join(" ")}`;
+  // A number column never shrinks below its longest value (measured in the table's font): on a narrow phone the
+  // name column gives way (its full text is in the tooltip) instead of "3.975 MW" losing digits.
+  let meter = null;
+  const minPx = (c) => {
+    if (c.align === "l" || !c.text) return 0;
+    meter ??= document.createElement("canvas").getContext("2d");
+    const cs = getComputedStyle(root);
+    meter.font = `${cs.fontWeight} ${cs.fontSize} ${cs.fontFamily}`;
+    let w = 0;
+    for (const r of all) w = Math.max(w, meter.measureText(String(c.text(r) ?? "")).width);
+    return w ? Math.ceil(w) + 3 : 0;
+  };
+  const colTrack = (c) => {
+    const w = c.width || (c.align === "l" ? "minmax(0,1.6fr)" : "minmax(0,1fr)"), m = minPx(c);
+    return m && /^minmax\(0,/.test(w) ? w.replace("minmax(0,", `minmax(${m}px,`) : w;
+  };
+  const template = () => `${opts.rank ? "26px " : ""}${cols.map(colTrack).join(" ")}`;
 
   function renderHead() {
     root.style.setProperty("--cols", template());
@@ -186,7 +202,7 @@ export function createTable(host, opts) {
 
   return {
     el: root,
-    setRows(rows) { all = rows || []; compute(); },
+    setRows(rows) { all = rows || []; root.style.setProperty("--cols", template()); compute(); },
     setColumns(c, s) { allCols = c; cols = visibleCols(); if (s !== undefined) sort = s; renderHead(); compute(); },
     setHot(key, scroll = true) { if (!hovered) setHotKey(key, scroll); },
     setSelected(set) { sel = set && set.size ? set : null; renderRows(true); },

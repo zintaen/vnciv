@@ -46,10 +46,10 @@ export function initPedia(data) {
       <p>${t("<b>Provinces</b> are the 34 provinces and centrally-run cities created on 1 July 2025. The 2025 yearbook publishes most statistics both for them and for the 63 <b>former provinces</b> they were merged from, and some only for the 34 provinces (see <i>Provinces</i>).")}</p>
       <p>${t("<b>Cities</b> are the 63 seats of the former provinces. Like a metro area in a strategy game, each city stands for its whole former province: its banner numbers cover the province, not just the town.")}</p>
       <h4>${t("Years and sources")}</h4>
-      <p>${t("The numbers come from the NSO Statistical Yearbook 2025 (published July 2026): its Part I for the 63 former provinces and its appendix for the 34 provinces, where 2025 values are preliminary and GRDP 2025 is an estimate. The 2026 figures (GRDP growth in the first 9 months, industrial jobs on 1 October) are estimates from NSO's monthly reports. A few tables stop earlier (housing 2024, university students 2023). Every panel shows the year of each figure and compares it only with Vietnam's figure for the same year.")}</p>
+      <p>${t("The numbers come from the NSO Statistical Yearbook 2025 (published July 2026): its Part I for the 63 former provinces and its appendix for the 34 provinces, where 2025 values are preliminary and GRDP 2025 is an estimate. The 2026 figures (GRDP growth in the first 9 months, industrial jobs on 1 October) are estimates from NSO's monthly reports. A few tables stop earlier (housing and literacy 2024, university students 2023). Every panel shows the year of each figure and compares it only with Vietnam's figure for the same year.")}</p>
       <p>${t("Money is shown in US dollars.")} ${esc(t(data.nation.currency?.note || ""))}</p>
       <h4>${t("Controls")}</h4>
-      <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide power plants · ? for all shortcuts · Esc to close.")}</p>
+      <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search places, communes and provinces · L to cycle lenses · [ and ] to step the timeline's years · <i>Layers</i> for roads, rail, communes and more · R to show or hide power plants · ? for all shortcuts · Esc to close.")}</p>
       <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>`;
     },
     Yields: () => `
@@ -91,7 +91,7 @@ export function initPedia(data) {
     },
     Lenses: () => `
       ${h2("layers", "▤", t("Lenses"))}
-      <p>${t("Lenses recolour the map by one measure ({vintage}). Population density, land cover and typhoons are measured hex by hex from gridded data. The province lenses spread each former province's figure over its hexes; a hex on a border averages its 7 sample points (centre + 6), so borders blend a little.", { vintage: esc(t(data.lenses.vintage || "")) })}</p>
+      <p>${t("Lenses recolour the map by one measure ({vintage}). Population, land cover, climate, forest loss, low-lying land, typhoons and mapped schools are measured hex by hex from gridded or point data. The other lenses spread a province's figure over its hexes: most use the 63 former provinces, where a hex on a border averages its 7 sample points (centre + 6), so borders blend a little; the indicators NSO publishes only for the 34 provinces give every hex of a province its value.", { vintage: esc(t(data.lenses.vintage || "")) })}</p>
       <p>${t("The legend shows how many hexes fall at each value. Hover or drag on it to show only that range on the map.")}</p>
       ${(data.lenses.groups || [{ id: null, name: "" }]).map((g) => {
         const ls = data.lenses.lenses.filter((l) => !g.id || l.group === g.id);

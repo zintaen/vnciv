@@ -7,6 +7,10 @@
 .adv-root .sub { color: var(--ink-dim); font-size: 11px; font-weight: normal; }
 .adv-grip { display: none; }
 
+/* The timeline is on a past year: the advisors' figures are still the latest. */
+.adv-yearnote { margin: 0; padding: 5px 12px; font-size: 11.5px; line-height: 1.35; color: var(--ink-dim);
+  background: rgba(201,164,92,.1); border-bottom: 1px solid var(--line); }
+
 /* ---------- header: council button, advisor tabs, close ---------- */
 .adv-head {
   position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 6px; padding: 7px 10px 7px 10px;
@@ -250,8 +254,9 @@
   text-transform: uppercase; font-weight: 600; width: 100%; white-space: normal; hyphens: manual; overflow-wrap: normal;
   display: flex; align-items: flex-end; gap: 2px;
 }
-/* The label clamps to two lines; the sort arrow sits outside it so it is never the part cut off. */
-.adv-thead .th button .tl { min-width: 0; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+/* The label wraps in full (a word wider than its column breaks where it must: "TỈNH/THÀNH", "31/12/2025"); the sort
+   arrow sits outside it. */
+.adv-thead .th button .tl { min-width: 0; overflow-wrap: anywhere; }
 .adv-thead .th.r button { text-align: right; justify-content: flex-end; }
 .adv-thead .th.l button { text-align: left; }
 .adv-thead .th[aria-sort="ascending"] button, .adv-thead .th[aria-sort="descending"] button { color: var(--gold-bright); }

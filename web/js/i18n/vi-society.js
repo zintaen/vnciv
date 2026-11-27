@@ -1,6 +1,7 @@
 // Vietnamese translations (society). Keys are the exact English strings passed to t().
 // History event titles and texts (web/data/history.json) are here too, for the timeline.
 export default {
+  "Dates before about 1000 CE follow tradition and chronicles (e.g. the Hùng kings); the text says so.": "Các mốc trước khoảng năm 1000 Công nguyên dựa theo truyền thuyết và sử biên niên (như thời các vua Hùng); phần mô tả có ghi rõ điều này.",
   "Ethnic groups · 2019 census": "Dân tộc · Tổng điều tra 2019",
   "Ethnic minorities": "Dân tộc thiểu số",
   "Census of 1 April 2019 (NSO), the {n} largest groups.": "Tổng điều tra ngày 1/4/2019 (Cục Thống kê), {n} dân tộc đông nhất.",

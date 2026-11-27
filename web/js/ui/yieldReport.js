@@ -5,7 +5,7 @@
 // lenses.json, no DOM, so it is easy to check from the console (`window.__app.reports`). The second half renders.
 // "States" in the data are Vietnam's 34 provinces of 2025; "cities" are the seats of the 63 former provinces, each
 // standing for its whole former province.
-import { compact, dollars, esc, fixed, int, money, pct } from "../format.js";
+import { compact, dollars, esc, fixed, int, money, pct, yieldValue } from "../format.js";
 import { hasIcon } from "../icons.js";
 import { icon, glyph } from "./icon.js";
 import { DISTRICT_ICON, yearOf, yearNum, fmtYear } from "./infoPanel.js";
@@ -43,7 +43,7 @@ const popIn = (o, y) => {
 };
 // "2025 (prel.)" or a 2025 figure → a note that it is preliminary / an estimate (NSO revises them).
 function statusNote(key, y) {
-  if (key === "gold") return t("GRDP 2025 is an NSO estimate (GRDP per person × average population); NSO revises it in the next yearbook.");
+  if (key === "gold") return t("Vietnam's total is NSO's national GDP 2025 (estimate); each province's GRDP 2025 is NSO's GRDP per person (estimate) × average population, and they add up to slightly less. NSO revises both in the next yearbook.");
   if (/\(est\.\)/.test(y || "")) return t("{y} is an NSO estimate; NSO revises it in the next yearbook.", { y: yearNum(y) });
   if (/\(prel\.\)/.test(y || "") || yearNum(y) === "2025") return t("{y} figures are preliminary (NSO); NSO revises them in the next yearbook.", { y: yearNum(y) });
   return "";
@@ -68,7 +68,7 @@ export function fmtStat(def, v) {
   if (!fin(v)) return "–";
   if (def.unit === "usd") return money(v);
   if (def.unit === "rate") return pct(v);
-  if (def.unit === "tonnes") return `${compact(v)} t`;
+  if (def.unit === "tonnes") return yieldValue({ unit: "tonnes" }, v);
   return compact(v);
 }
 

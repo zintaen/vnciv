@@ -31,7 +31,7 @@ SPECS=[
  ('tourism_travel_turnover',(752,753),5,4,'2024 (prel.)','billion VND (travel agency turnover, current prices)','T294'),
  ('university_students',(933,934),5,4,'2023','persons','T381'),
  ('university_lecturers',(931,932),5,4,'2023','persons','T380'),
- ('income_per_capita_monthly',(1007,1009),None,0,'2024','thousand VND per person per month','T403'),
+ ('income_per_capita_monthly',(1007,1009),None,0,'2024 (prel.)','thousand VND per person per month','T403'),
  ('income_per_employee_monthly',(1022,1023),5,4,'2024 (prel.)','thousand VND per month','T411'),
  ('hdi',(1024,1025),5,4,'2024 (prel.)','index 0-1','T412'),
  ('gini',(1027,1028),5,4,'2024 (prel.)','index 0-1','T414'),

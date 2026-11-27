@@ -169,7 +169,7 @@ export function industries(o, nation, limit = 0) {
 
 export const gdpRow = (o) =>
   o.gdp != null
-    ? `<div class="stat-row"><span class="sl">${icon("y-gold", "💰", { size: 14 })}GRDP${yearOf(o, "gdp") ? ` <span class="muted sy" style="font-size:11px">${esc(fmtYear(yearOf(o, "gdp")))}</span>` : ""}</span><span><b>${money(o.gdp)}</b>${
+    ? `<div class="stat-row"><span class="sl">${icon("y-gold", "💰", { size: 14 })}${o.gdp_provinces != null ? "GDP" : "GRDP"}${yearOf(o, "gdp") ? ` <span class="muted sy" style="font-size:11px">${esc(fmtYear(yearOf(o, "gdp")))}</span>` : ""}</span><span><b>${money(o.gdp)}</b>${
         o.population ? `<span class="cmp">${t("{v} per person", { v: money(o.gdp / o.population) })}</span>` : ""}</span></div>`
     : "";
 

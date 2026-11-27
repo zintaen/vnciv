@@ -2,7 +2,7 @@ indicator,value,year,unit,source_url,note
 hdi,0.765,2025 (prel.),index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (A164, p.1484)","CẢ NƯỚC row, appendix (34 provinces)"
 gini,0.323,2025 (prel.),index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P358, p.926)","CẢ NƯỚC row, Part I"
 poverty,1.3,2025 (prel.),% of households (MPI standard 2022-2025),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P366, p.935)","CẢ NƯỚC row, Part I"
-income,6005,2025,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P348, p.908)","CẢ NƯỚC row (total column), Part I"
+income,6005,2025 (prel.),thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P348, p.908)","CẢ NƯỚC row (total column), Part I"
 income_worker,8426.4,2025 (prel.),thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P356, p.923)","CẢ NƯỚC row, Part I"
 life_exp,74.7,2025 (prel.),years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P39, p.143)","CẢ NƯỚC row, Part I"
 informal,63.1,2025 (prel.),% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P58, p.169)","CẢ NƯỚC row, Part I"
@@ -21,3 +21,4 @@ road_deaths,9.1,2025,"road traffic deaths per 100,000 people","https://www.nso.g
 pupils_per_teacher,23.0,2025-09-30,pupils per teacher (general education),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (A147, p.1448)","CẢ NƯỚC row, appendix"
 grdp_growth,108.02,2025 (est.),"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P84, p.242)","CẢ NƯỚC row, Part I"
 hdi_2024,0.752,2024,index 0-1,https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf,"Overview: 'Chỉ số phát triển con người năm 2024 đạt 0,752' (the year of the 63-province HDI)"
+gdp,12847571,2025 (est.),"billion VND, current prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (table 76, p.229)","Tổng số (total) of ""Tổng sản phẩm trong nước theo giá hiện hành phân theo khu vực kinh tế"", row ""Ước tính - Est. 2025""; NSO's national GDP, not a sum of the provinces' GRDP"

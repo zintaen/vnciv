@@ -127,7 +127,7 @@ export async function mount(ctx) {
   const toggles = (() => { try { return app.ui.mapToggles?.() || []; } catch { return []; } })();
   nBody.innerHTML = `<p class="adv-note">${(infra.road_classes || []).map((c, i) => `<b>${esc(tr(c.name))}</b>: ${tr("{n} hex links", { n: int(nRoad[i] || 0) })}`).join(" · ")}<br>${(infra.rail_tiers || []).map((c, i) => `<b>${esc(tr(c.name))}</b>: ${tr("{n} hex links", { n: int(nRail[i] || 0) })}`).join(" · ")}</p>
     <p class="adv-note">${esc(tr(infra.rules?.roads || ""))}</p><p class="adv-note">${esc(tr(infra.rules?.rail || ""))}</p>
-    ${toggles.length ? `<p class="adv-note">${tr("Switch the road, rail and site art on or off from the <b>Map</b> menu beside Resources.")}</p>` : ""}`;
+    ${toggles.length ? `<p class="adv-note">${tr("Switch the road, rail and site art on or off from the <b>Layers</b> menu beside the lens picker.")}</p>` : ""}`;
 
   function flyTo(p) {
     if (!p) return;

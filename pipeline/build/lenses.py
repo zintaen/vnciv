@@ -173,25 +173,28 @@ def typhoons(W):
     per_storm = {}
     for sid, pts in tracks.items():
         hit = np.zeros(len(land), bool)
-        maxkt, first = 0, None
+        maxkt, first, county_first = 0, None, {}
         for (lo0, la0, k0, t0), (lo1, la1, k1, _) in zip(pts, pts[1:]):
             if max(k0, k1) < STORM_MIN_KT:
                 continue
             p0, p1 = np.array(W.proj(lo0, la0)), np.array(W.proj(lo1, la1))
-            n = max(1, int(np.linalg.norm(p1 - p0) / (rad / 3)))
-            for t in np.linspace(0, 1, n + 1):
-                q = p0 + (p1 - p0) * t
-                d2 = ((centers - q) ** 2).sum(1)
-                near = d2 <= rad * rad
-                if near.any():
-                    hit |= near
-                    if (near & ~rem).any():
-                        maxkt = max(maxkt, k0, k1)
-                        first = first or t0
+            v = p1 - p0
+            # exact distance from each hex centre to the segment (sampling it missed close passes between fixes)
+            t = np.clip((centers - p0) @ v / (v @ v), 0, 1) if v @ v > 0 else np.zeros(len(centers))
+            near = ((centers - (p0 + t[:, None] * v)) ** 2).sum(1) <= rad * rad
+            if near.any():
+                for k in np.nonzero(near & ~hit)[0]:
+                    if W.county[land[k]] >= 0 and not rem[k]:  # date it first came near each former province (mainland)
+                        county_first.setdefault(int(W.county[land[k]]), t0[:10])
+                hit |= near
+                if (near & ~rem).any():
+                    maxkt = max(maxkt, k0, k1)
+                    first = first or t0
         if hit.any():
             count += hit
             per_storm[sid] = {"name": names[sid][0], "season": names[sid][1], "max_kt": maxkt,
-                              "first": (first or pts[0][3])[:10], "cells": [land[k] for k in np.nonzero(hit)[0]]}
+                              "first": (first or pts[0][3])[:10], "cells": [land[k] for k in np.nonzero(hit)[0]],
+                              "county_first": {str(k): d for k, d in county_first.items()}}
     vals = [None] * len(W.owner)
     for k, i in enumerate(land):
         vals[i] = int(count[k])
@@ -274,7 +277,9 @@ def build():
     order = {g["id"]: k for k, g in enumerate(GROUPS)}
     lenses.sort(key=lambda l: order[l["group"]])  # stable: keeps each group's own order
     write_web("lenses.json", {"vintage": "NSO Statistical Yearbook 2025 (some lenses 2024 or earlier; each lens states its year); "
-                                         "NSO monthly report Oct 2026; WorldPop 2025; ESA WorldCover 2021; IBTrACS",
+                                         "NSO monthly report Oct 2026; NSO 2019 census; VCCI PCI 2022; WorldPop 2025; ESA WorldCover 2021; "
+                                         "IBTrACS; CHELSA V2.1 (1981–2010); Hansen Global Forest Change 2001–2025; ETOPO1; "
+                                         "OpenStreetMap",
                               "groups": GROUPS, "lenses": lenses})
 
     # --- counties.json: the 63 former provinces ---

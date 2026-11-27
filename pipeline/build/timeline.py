@@ -22,7 +22,7 @@ STATS = ROOT / "data" / "stats"
 FIRST_YEAR = 2019
 NAME_FIX = {"Bà Rịa - Vũng Tàu": "Bà Rịa–Vũng Tàu"}
 EVENTS = [
-    {"date": "2025-07-01", "id": "merger_2025", "title": "34 provinces from 1 July 2025",
+    {"date": "2025-07-01", "id": "merger_2025", "title": "34 provinces from 1 July 2025", "source": "Resolution 202/2025/QH15",
      "text": "Resolution 202/2025/QH15 merged Vietnam's 63 provinces and centrally-run cities into 34; district-level "
              "government was abolished. Statistics before mid-2025 are published for the 63 former provinces."},
 ]
@@ -69,7 +69,8 @@ def read_series(fx):
             continue
         lens, conv = lens_of.get(f.stem, (None, None))
         s = out.setdefault(f.stem, {"unit": rows[0].get("unit", ""), "source": rows[0].get("source_url", ""),
-                                    "lens": lens, "levels": {}, "lens_values": {} if lens else None, "status": {}})
+                                    "lens": lens, "levels": {}, "lens_values": {} if lens else None, "status": {},
+                                    "status_levels": {}})
         for r in rows:
             lvl = r["level"]
             name = NAME_FIX.get(r["province_std"], r["province_std"])
@@ -82,7 +83,16 @@ def read_series(fx):
             if conv:
                 s["lens_values"].setdefault(lvl, {}).setdefault(key, {})[year] = round(conv(v, int(year)), 6)
             if r.get("status"):
-                s["status"][year] = r["status"]
+                s["status_levels"].setdefault(lvl, {})[year] = r["status"]
+    # "status" (what the timeline shows) is the status of the level it draws: the lens's own level when it has the
+    # year, else the other one (HDI 2024 is preliminary for the 63 former provinces, final for the 34)
+    levels = {l["id"]: str(l.get("level") or "63")
+              for l in json.loads((ROOT / "web" / "data" / "lenses.json").read_text())["lenses"]}
+    for s in out.values():
+        pref = levels.get(s["lens"], "63")
+        order = [pref, "34" if pref == "63" else "63"]
+        sl = s["status_levels"]
+        s["status"] = {y: next(sl[l][y] for l in order if y in sl.get(l, {})) for y in sorted({y for v in sl.values() for y in v})}
     return out
 
 
@@ -111,8 +121,8 @@ def build():
                   for s in sorted(storms.values(), key=lambda s: s["first"])]
     wonders = json.loads((ROOT / "web" / "data" / "wonders.json").read_text())["wonders"]
     events = list(EVENTS) + [
-        {"date": f"{w['metrics']['inscribed']}-07-01", "id": f"unesco_{w['id']}", "title": "UNESCO World Heritage",
-         "text": w["name"], "wonder": w["id"]}
+        {"date": w["metrics"].get("inscribed_date") or str(w["metrics"]["inscribed"]), "id": f"unesco_{w['id']}", "title": "UNESCO World Heritage",
+         "text": w["name"], "wonder": w["id"], "source": "wikidata" if w["metrics"].get("inscribed_date") else None}
         for w in wonders if w["rule"] == "world_heritage" and w["metrics"].get("inscribed")]
     events.sort(key=lambda e: e["date"])
     last_year = max(years + [s["season"] for s in storm_list])

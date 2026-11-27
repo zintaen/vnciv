@@ -16,8 +16,10 @@ const ROWS = [
   ["Explore", [
     [["Click city"], "Open the city screen"],
     [["Click land"], "Open that province"],
-    [["/", `${MOD} K`], "Search cities and provinces"],
+    [["/", `${MOD} K`], "Search places, communes and provinces"],
     [["L", "Shift L"], "Next / previous lens"],
+    [["[", "]"], "Previous / next year on the timeline"],
+    [["Layers"], "Turn on roads, rail, communes and other map layers"],
     [["Legend"], "Hover or drag the scale to show only that range"],
     [["R"], "Show or hide power plants"],
   ]],

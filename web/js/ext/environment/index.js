@@ -111,7 +111,7 @@ export function install(app) {
   document.head.appendChild(style);
 
   app.ui.addMapToggle({
-    id: "sealevel", label: t("Sea level rise"), icon: "🌊", group: "Environment", default: false,
+    id: "sealevel", label: t("Sea level rise"), icon: "l-wave", group: "Environment", default: false,
     title: t("Land hexes at or below a chosen sea level (ETOPO1): an exposure indicator, not a forecast"),
     get: () => on,
     set(v) {

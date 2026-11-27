@@ -154,19 +154,28 @@ function pointLayer(app, spec, get, on) {
       const rows = spec.kind === "relic" ? d.relics : d.points[spec.kind];
       const s = o.Rpx / R();
       const size = clamp(o.Rpx * (spec.id === "relics" ? 0.7 : 0.55), spec.id === "relics" ? 7 : 9, 20);
-      const cellPx = size * (o.Rpx < 14 ? 1.7 : 1.25); // sparser when zoomed out
-      const pad = size / s;
-      const taken = new Set();
+      // Declutter: a glyph is drawn only if no glyph already placed (earlier = higher priority) has its centre within
+      // gap px. Bucketed on a world-anchored grid of gap-sized cells (3×3 neighbours checked), so a pan doesn't
+      // reshuffle the winners. (A plain one-glyph-per-cell grid let two glyphs either side of a cell edge overlap.)
+      const gap = size * (o.Rpx < 14 ? 1.7 : 1.15); // sparser when zoomed out
+      const pad = (gap + size) / s;
+      const cells = new Map();
+      const near = (gx, gy, px, py) => {
+        for (let i = gx - 1; i <= gx + 1; i++) for (let j = gy - 1; j <= gy + 1; j++) {
+          for (const q of cells.get(i * 100003 + j) || []) if ((q[0] - px) ** 2 + (q[1] - py) ** 2 < gap * gap) return true;
+        }
+        return false;
+      };
       drawn = [];
       o.screen();
       for (const r of rows) {
         if (r[0] < vp.x0 - pad || r[0] > vp.x1 + pad || r[1] < vp.y0 - pad || r[1] > vp.y1 + pad) continue;
         const st = spec.style(r, d);
         if (st.minRpx && o.Rpx < st.minRpx) continue;
-        // world-anchored grid so a pan doesn't reshuffle which glyph wins a slot
-        const key = Math.floor((r[0] * s) / cellPx) * 100003 + Math.floor((r[1] * s) / cellPx);
-        if (taken.has(key)) continue;
-        taken.add(key);
+        const px = r[0] * s, py = r[1] * s, gx = Math.floor(px / gap), gy = Math.floor(py / gap);
+        if (near(gx, gy, px, py)) continue;
+        const key = gx * 100003 + gy;
+        if (cells.has(key)) cells.get(key).push([px, py]); else cells.set(key, [[px, py]]);
         const [sx, sy] = o.toScreen(r[0], r[1]);
         medallion(ctx, st, sx, sy, size, o.dpr || 1);
         drawn.push({ row: r, x: r[0], y: r[1], r: (size / 2 + 2) / s, kind: spec.kind });
@@ -181,6 +190,7 @@ function pointLayer(app, spec, get, on) {
       }
       return best;
     },
+    drawn: () => drawn,
     tooltip: (it) => tip(app, it, get()),
     click(it) {
       app.flyTo(it.x, it.y, Math.max(app.cam.scale, 22 / R()), 700);
@@ -320,7 +330,7 @@ function tip(app, it, d) {
 export function install(app) {
   const on = Object.fromEntries(KINDS.map((k) => [k.id, k.def]));
   let poi = null, relics = null, asked = false;
-  const getPoi = () => poi, getRelics = () => relics;
+  const getPoi = () => poi, getRelics = () => relics, layers = [];
   const loadPoi = () => {
     if (asked) return;
     asked = true;
@@ -330,7 +340,9 @@ export function install(app) {
 
   for (const k of KINDS) {
     const get = k.kind === "relic" ? getRelics : getPoi;
-    app.registerStaticLayer(k.kind === "metro" ? lineLayer(app, k, get, on) : pointLayer(app, k, get, on));
+    const l = k.kind === "metro" ? lineLayer(app, k, get, on) : pointLayer(app, k, get, on);
+    layers.push(l);
+    app.registerStaticLayer(l);
   }
   app.registerStaticLayer(bridgeSpans(app, getPoi, on));
 
@@ -346,5 +358,5 @@ export function install(app) {
     });
     if (on[k.id] && k.kind !== "relic") loadPoi();
   }
-  app.poi = { on, data: () => ({ poi, relics }) }; // debugging
+  app.poi = { on, data: () => ({ poi, relics }), drawn: () => layers.map((l) => [l.id, l.drawn?.() || []]) }; // debugging
 }

@@ -3,6 +3,7 @@ import { drawIcon, hasIcon } from "../icons.js";
 import { icon } from "../ui/icon.js";
 import { t, lang } from "../i18n.js";
 import { kindOf } from "../format.js";
+import { fmtYear, yearNum } from "../ui/infoPanel.js";
 
 // The address printed on shared images. Set it to the published site (e.g. "example.com/vnciv"); when left
 // empty, the page's own host and path are used, except on a local dev server, where SITE_FALLBACK is printed.
@@ -148,7 +149,10 @@ export function composeImage(info, { height = IMG_H } = {}) {
   ctx.font = `24px ${SERIF}`;
   spaced(ctx, 1.5);
   // The year shown (the lens's data year, or the timeline's year) always survives the truncation of a long name.
-  const yr = info.year != null && info.year !== "" ? ` · ${info.year}` : "";
+  // (as the tooltip does: "31/12/2025", "Jan–Sep 2026", left out when the name already holds that year; a timeline
+  // view, id "forest_loss@2001", always keeps its year)
+  const inName = lens && !String(lens.id).includes("@") && t(lens.name).includes(yearNum(info.year));
+  const yr = info.year != null && info.year !== "" && !inName ? ` · ${fmtYear(info.year)}` : "";
   let title = (lens ? t("{name} lens", { name: t(lens.name) }) : t("Terrain")).toUpperCase();
   // ...and stops short of the selection's name on the right.
   const selName = info.selection?.name || "";
@@ -156,11 +160,33 @@ export function composeImage(info, { height = IMG_H } = {}) {
   const selW = selName ? Math.min(460, ctx.measureText(selName).width) + 24 : 0;
   ctx.font = `24px ${SERIF}`;
   const titleW = Math.min(520, IMG_W - 44 - selW - (mx + 50));
-  const nameW = titleW - ctx.measureText(yr).width;
-  if (lens && ctx.measureText(title).width > nameW) title = t(lens.name).toUpperCase(); // drop "lens" before the name
-  ctx.fillText(fit(ctx, title, nameW) + yr, mx + 50, cy - 8);
+  if (lens && ctx.measureText(title + yr).width > titleW) title = t(lens.name).toUpperCase(); // drop "lens" before the name
+  // A long name ("TĂNG TRƯỞNG 9 THÁNG 2026 (ƯỚC TÍNH)") steps the font down to 18 px before it is cut.
+  for (let px = 23; px >= 18 && ctx.measureText(title + yr).width > titleW; px--) ctx.font = `${px}px ${SERIF}`;
+  ctx.fillText(fit(ctx, title, titleW - ctx.measureText(yr).width) + yr, mx + 50, cy - 8);
   spaced(ctx, 0);
-  if (lens?.ramp?.length) {
+  const cats = lens?.format === "category" && Array.isArray(lens.categories) && lens.categories.length ? lens.categories : null;
+  if (cats) {
+    // A categorical lens: one block per category, its name under it (as the dock's legend).
+    // Each block is as wide as its name (plus a gap), scaled to the legend's width.
+    const rx = mx + 50, ry = cy + 4, rw = Math.max(200, Math.min(330, room)), rh = 12;
+    ctx.fillStyle = "rgba(0,0,0,.6)";
+    ctx.fillRect(rx - 1, ry - 1, rw + 2, rh + 2);
+    ctx.font = `12px ${SANS}`;
+    const nw = cats.map((c) => ctx.measureText(t(c.name)).width + 8), k = rw / nw.reduce((a, b) => a + b, 0);
+    if (k < 1) ctx.font = `11px ${SANS}`;
+    ctx.textAlign = "center";
+    let bx = rx;
+    cats.forEach((c, i) => {
+      const bw = nw[i] * k;
+      ctx.fillStyle = c.color || lens.ramp?.[i] || "#888888";
+      ctx.fillRect(bx, ry, bw, rh);
+      ctx.fillStyle = "#d8cba8";
+      ctx.fillText(fit(ctx, t(c.name), bw - 2), bx + bw / 2, ry + rh + 18);
+      bx += bw;
+    });
+    ctx.textAlign = "left";
+  } else if (lens?.ramp?.length) {
     const rx = mx + 50, ry = cy + 4, rw = Math.max(200, Math.min(330, room)), rh = 12;
     const rg = ctx.createLinearGradient(rx, 0, rx + rw, 0);
     lens.ramp.forEach((c, i) => rg.addColorStop(i / (lens.ramp.length - 1), c));
@@ -185,7 +211,13 @@ export function composeImage(info, { height = IMG_H } = {}) {
   } else {
     ctx.font = `15px ${SANS}`;
     ctx.fillStyle = "#b9ab88";
-    ctx.fillText(fit(ctx, t("Land cover, relief, rivers and power plants"), room), mx + 50, cy + 16);
+    // Two lines when one does not fit left of the credit.
+    const words = t("Land cover, relief, rivers and power plants").split(" ");
+    let k = words.length;
+    while (k > 1 && ctx.measureText(words.slice(0, k).join(" ")).width > room) k--;
+    const rest = words.slice(k).join(" ");
+    ctx.fillText(words.slice(0, k).join(" "), mx + 50, rest ? cy + 10 : cy + 16);
+    if (rest) ctx.fillText(fit(ctx, rest, room), mx + 50, cy + 29);
   }
 
   // Selection, credits, site

@@ -42,7 +42,15 @@ RULES = {
     "geometry": f"Vertices snapped to 1e-5°; borders split where the neighbours change and kept once (arcs); each arc "
                 f"simplified (Douglas–Peucker, {TOL * 0.2:.2f} km) with its ends fixed, so shared borders stay shared. "
                 f"Coordinates are map units × {Q}, delta-encoded.",
-    "area": "Computed from the full-resolution outline in the map's equal-area (Albers) projection.",
+    "area": "Computed from the full-resolution outline in the map's equal-area (Albers) projection. It agrees with "
+            "the source's stated areaKm2 within 5% for about 94% of units. The rest differ because the source's stated "
+            "area is out of date for some merged units (most Cà Mau communes, e.g. Giá Rai 105 km² outlined vs 11.8 "
+            "stated; the outlines sum to 7,618 km² for Cà Mau, NSO's area is 7,887), coastal units' official areas "
+            "include tidal flats the outline leaves out (Gò Công Đông), outlines miss small islets (Vân Đồn, Cô Tô), "
+            "and the Trường Sa and Hoàng Sa outlines enclose whole reefs and lagoons, not just land (4,226 and 636 km² "
+            "outlined vs 496 and 350 stated).",
+    "names": "Names exactly as the source spells them, including its older tone placement (Hoà, Thuỷ, Hoá: about "
+             "200 names), which differs from the newer style the provinces use (Hòa); search treats both as equal.",
     "label": "Centroid of the commune's largest part; if that falls outside it, the middle of the widest span "
              "through the part at the centroid's latitude.",
 }

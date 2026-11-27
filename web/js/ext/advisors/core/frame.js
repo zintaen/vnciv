@@ -71,6 +71,8 @@ export function focusPoint(app, x, y, scale = app.cam.scale) {
 }
 
 export function frameNation(app, ms = 750) {
+  // The app's home framing knows about open docks and keeps the archipelagos and the slogan in view.
+  if (app.home) return app.home(ms);
   return frameBox(app, landBox(app), { pad: 16, maxScale: Infinity, ms });
 }
 

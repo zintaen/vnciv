@@ -286,7 +286,7 @@ function economy(m) {
       <div><span class="lbl">GRDP${c.gdp_year ? ` (${esc(c.gdp_year)})` : ""}</span><b>${money(c.gdp)}</b>${r.gdp != null ? `<small>${t("#{r} of {n}", { r: r.gdp, n: countOf(cities, "gdp") })}</small>` : ""}</div>
       <div><span class="lbl">${t("GRDP per person")}</span><b>${money(perCap)}</b>${
         vnPerCap ? `<small class="${perCap >= vnPerCap ? "good" : "bad"}">VN ${money(vnPerCap)}</small>` : ""}</div>
-      <div><span class="lbl">${t("Share of Vietnam's GDP")}</span><b>${c.gdp != null && n.gdp ? pct(c.gdp / n.gdp, 2) : "–"}</b><small>${t("{p} of people", { p: pct(c.population / n.population, 2) })}</small></div>
+      <div><span class="lbl">${t("Share of the provinces' total GRDP")}</span><b>${c.gdp != null && (n.gdp_provinces || n.gdp) ? pct(c.gdp / (n.gdp_provinces || n.gdp), 2) : "–"}</b><small>${t("{p} of people", { p: pct(c.population / n.population, 2) })}</small></div>
     </div>
     <h4 class="cv-h4">${t("Yields")} <span class="muted">${t("rank among former provinces")}</span></h4>
     <div class="cv-yields">${yields}</div>

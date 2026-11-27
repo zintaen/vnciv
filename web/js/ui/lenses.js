@@ -35,8 +35,8 @@ export function formatLensValue(lens, v) {
 export function formatLensTick(lens, pos, k = -1) {
   const raw = lensValueAt(lens, pos);
   const v = lens.format === "int" && Number.isFinite(raw) ? Math.round(raw) : raw; // a count never reads "4.5"
-  const short = (lens.format === "int" || lens.format === "float") && lens.unit && lens.unit.length > 4
-    && !(lens.format === "int" && lens.unit.startsWith("people")) ? { ...lens, unit: null } : lens;
+  // (density's "/km²" too: five "1,8K /km²" ticks overprint; the unit line under the scale names it)
+  const short = (lens.format === "int" || lens.format === "float") && lens.unit && lens.unit.length > 4 ? { ...lens, unit: null } : lens;
   let s = formatLensValue(short, v);
   const zero = Number.isFinite(v) && Math.abs(v) < 1e-9;
   if (zero) s = s.replace(/^(\$?)0[.,]0+(?!\d)/, (_, d) => d + "0");
@@ -110,6 +110,7 @@ export function initLensDock(opts) {
     moreBtn.classList.toggle("active", !!active);
     moreBtn.innerHTML = `${icon("map", "▤", { size: 15 })}<span>${esc(t(cur.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
     moreBtn.title = t("All lenses (L cycles)");
+    moreBtn.setAttribute("aria-label", `${t(cur.name)} · ${t("Choose a lens")}`); // the bare lens name alone doesn't say what the button does
     moreBtn.hidden = !lenses.length;
     clipCheck();
   }

@@ -33,7 +33,7 @@ import { esc, setAirportNames } from "./format.js";
     for (const a of ["title", "aria-label", "placeholder"]) if (el.hasAttribute(a)) el.setAttribute(a, t(el.getAttribute(a)));
   }
   const ld = document.getElementById("loading");
-  if (ld) ld.textContent = t(ld.textContent);
+  if (ld) ld.textContent = t("Surveying the land…"); // index.html holds the Vietnamese default, shown while modules load
   // Map attribution: OpenStreetMap's credit links to its copyright page (ODbL).
   const OSM = `<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">${esc(t("© OpenStreetMap contributors"))}</a>`;
   const at = document.getElementById("map-attrib");
@@ -125,6 +125,11 @@ async function main() {
   const canvas = document.getElementById("map");
   const ctx = canvas.getContext("2d");
   const cam = new Camera(world.width, world.height);
+  {
+    // prefers-reduced-motion: flights (up to 2.4 s of zooming out and back in) land on the next frame instead.
+    const fly = cam.flyTo.bind(cam), reduce = matchMedia("(prefers-reduced-motion: reduce)");
+    cam.flyTo = (...args) => { fly(...args); if (reduce.matches && cam.flight) cam.flight.ms = 1; };
+  }
   let dpr = 1;
   let hits = [];
   let queued = false;
@@ -139,7 +144,10 @@ async function main() {
 
   const minimap = new Minimap(document.getElementById("minimap"), w, cam, (x, y) => {
     userMoved = true;
-    cam.centerOn(x, y);
+    dockFramed = false;
+    // The clicked point goes to the middle of the map left free by docks and panels, not of the whole canvas.
+    const a = visibleArea(), s = cam.scale;
+    cam.centerOn(x - ((a.x0 + a.x1) / 2 - cam.w / 2) / s, y - ((a.y0 + a.y1) / 2 - cam.h / 2) / s);
     requestDraw();
     url.schedule();
   });
@@ -398,11 +406,11 @@ async function main() {
     const docked = d.open ? fitIn(visibleArea(false, d), 0.08) * 0.9 : Infinity;
     cam.minScale = Math.min(base, docked);
   }
-  // Centre and scale of the home view.
-  function homeView() {
+  // Centre and scale of the home view; with an area and a scale (open docks), the same framing inside that area.
+  // legendW: what the lens legend takes off the right edge (beside open docks it is a strip at the top right).
+  function homeView(a = visibleArea(false, false), s = null, legendW = LEGEND_W) {
     const fs = fitScale();
-    let s = isPortraitPhone() ? fs * PORTRAIT_ZOOM : fs;
-    const a = visibleArea(false, false);
+    if (s == null) s = isPortraitPhone() ? fs * PORTRAIT_ZOOM : fs;
     const tb = territoryBox, fits = (tb.x1 - tb.x0) * s <= a.x1 - a.x0 - 2 * Math.min(HOME_PAD_X, (a.x1 - a.x0) * 0.1);
     let cx = fits ? (tb.x0 + tb.x1) / 2 : (landBox.x0 + landBox.x1) / 2;
     const cy = (landBox.y0 + landBox.y1) / 2;
@@ -414,7 +422,7 @@ async function main() {
       const mid = (a.x0 + a.x1) / 2, R = w.grid.R;
       const mm = document.getElementById("minimap-wrap")?.getBoundingClientRect();
       const bounds = (sc) => {
-        const lo = tb.x1 - (a.x1 - LEGEND_W - 60 - mid) / sc; // cx at least this: islands + slogan clear the legend
+        const lo = tb.x1 - (a.x1 - legendW - 60 - mid) / sc; // cx at least this: islands + slogan clear the legend
         const edge = landBox.x0 - (a.x0 + HOME_PAD_Y - mid) / sc; // cx at most this: the mainland on screen
         let hi = edge;
         if (mm?.width) {
@@ -488,24 +496,17 @@ async function main() {
     // A Back / Forward link's camera (at=) was aimed before the link's advisor / City view opened its dock: re-aim
     // that flight at the new usable area, or the place lands under the dock.
     if (linkFlight && cam.flight === linkFlight.f) return flyLinkAt(linkFlight.at, cam.flight.ms);
+    // Likewise a home flight started just before the docks changed (an advisor closing calls app.home()).
+    if (homeFlight && cam.flight === homeFlight) return goHome(cam.flight.ms);
     if (cam.moving || !(cam.w > 160 && cam.h > 160) || !(cam.scale > 0)) return;
     const panel = panelShown();
     const a = visibleArea(panel, now);
     const acx = (a.x0 + a.x1) / 2, acy = (a.y0 + a.y1) / 2;
     if (!userMoved || dockFramed) {
       if (now.open) {
-        const h = homeView();
-        const fit = fitIn(a, 0.08);
-        const s = cam.clampScale(Math.min(h.s, fit));
-        const cx = (landBox.x0 + landBox.x1) / 2, cy = (landBox.y0 + landBox.y1) / 2;
-        cam.flyTo(cx - (acx - cam.w / 2) / s, cy - (acy - cam.h / 2) / s, s, 450);
-        userMoved = true;
-        dockFramed = true;
+        goHome(450);
       } else if (dockFramed) {
-        const h = homeView();
-        cam.flyTo(h.x, h.y, h.s, 450);
-        userMoved = false;
-        dockFramed = false;
+        goHome(450);
       }
     } else {
       const p = visibleArea(panel, prevD);
@@ -513,6 +514,31 @@ async function main() {
       const s = cam.scale;
       cam.flyTo(wx - (acx - cam.w / 2) / s, wy - (acy - cam.h / 2) / s, s, 350);
     }
+    requestDraw();
+  }
+  // Fly to the home view; with docks open, the same framing (archipelagos and slogan in view when they fit) inside
+  // what the docks leave, zoomed out on desktop (down to the docked minimum) until the whole territory fits.
+  let homeFlight = null;
+  function goHome(ms = 750) {
+    let h = homeView();
+    const d = dockState();
+    if (d.open) {
+      updateMinScale();
+      const a = visibleArea(panelShown(), d), tb = territoryBox, fit = Math.min(h.s, fitIn(a, 0.08));
+      if (isMobile()) {
+        // Phones: the mainland above the sheet (the slogan is wider than the screen at this zoom).
+        const sc = cam.clampScale(fit);
+        h = { x: (landBox.x0 + landBox.x1) / 2 - ((a.x0 + a.x1) / 2 - cam.w / 2) / sc, y: (landBox.y0 + landBox.y1) / 2 - ((a.y0 + a.y1) / 2 - cam.h / 2) / sc, s: sc };
+      } else {
+        const tfit = (a.x1 - a.x0 - 2 * Math.min(HOME_PAD_X, (a.x1 - a.x0) * 0.1) - 60) / (tb.x1 - tb.x0);
+        h = homeView(a, cam.clampScale(Math.min(fit, tfit)), 24);
+      }
+    }
+    hideTooltip();
+    cam.flyTo(h.x, h.y, h.s, ms);
+    homeFlight = cam.flight;
+    userMoved = d.open;
+    dockFramed = d.open;
     requestDraw();
   }
   // `docks`: true = the docks as they are now, false = none, or a dockState()-shaped object.
@@ -847,7 +873,8 @@ async function main() {
     const sContain = Math.min(cssW / vw, cssH / vh), sCover = Math.max(cssW / vw, cssH / vh);
     // ...and, zoomed out, keep the whole height of the land (with the northern banners) in the frame.
     const sNoFog = Math.min(cssW / (world.width * 1.2), (cssH - 16) / (landBox.y1 - landBox.y0));
-    snap.scale = Math.min(sCover, Math.max(sContain, sNoFog));
+    // (A view zoomed out past the world is mostly fog: then sCover < sNoFog and sNoFog wins.)
+    snap.scale = Math.max(sNoFog, Math.min(sCover, Math.max(sContain, sNoFog)));
     // Keep the frame (nearly) inside the world rectangle: it may overhang by a tenth of its size, which the
     // vignette turns into open water, so a coastal selection is not shoved against the image edge.
     const fw = cssW / snap.scale, fh = cssH / snap.scale;
@@ -1387,7 +1414,7 @@ async function main() {
     },
     flyTo(x, y, scale = cam.scale, ms = 750) { flyToVisible(x, y, scale, ms); },
     fitBounds,
-    home() { const h = homeView(); cam.flyTo(h.x, h.y, h.s, 750); userMoved = false; requestDraw(); },
+    home: (ms) => goHome(ms),
     visibleArea: () => visibleArea(),
     isMobile,
     // hit testing (screen css px)

@@ -4,13 +4,15 @@
 // Search: adds communes, towns and islands (places.json) and wonders (wonders.json) to the top-bar search through
 // app.search.addEntries(entries) when main provides it (see the stream report for the proposed hook).
 import { t, lang } from "../../i18n.js";
-import { esc, fixed } from "../../format.js";
+import { esc, fixed, int } from "../../format.js";
 
 const KIND_EN = ["Commune", "Ward", "Special zone"];
 const BORDER_MIN_RPX = 12; // hex radius in css px from which borders are drawn (communes are ~2 hexes across)
 const NAME_MIN_RPX = 34;   // ... and names
 const STYLE = { under: "#fff8e666", line: "#2b2116c0", sel: "#d6202f", name: "#3a2e20", halo: "#fff8e6e0" };
 const SANS = '-apple-system, "Segoe UI", system-ui, sans-serif';
+// The two archipelago special zones: their official outlines take in reefs, shoals and lagoons, so the area is not land.
+const REEF_ZONES = new Set(["Trường Sa", "Hoàng Sa"]);
 
 // --- model ----------------------------------------------------------------------------------------------------
 
@@ -159,7 +161,9 @@ export function install(app) {
     },
     tooltip(c) {
       return `<b>${esc(c.full)}</b><br>${esc(lang === "vi" ? provName(c.p) : `${t(KIND_EN[c.k])} · ${provName(c.p)}`)}<br>`
-        + `${esc(t("Area"))}: ${esc(fixed(c.a, c.a < 10 ? 1 : 0))} km²<br>`
+        + (REEF_ZONES.has(c.n) && c.k === 2
+          ? `${esc(t("Outline area"))}: ${esc(int(c.a))} km² <span class="muted">${esc(t("(includes reefs and lagoons, not only land)"))}</span><br>`
+          : `${esc(t("Area"))}: ${esc(c.a < 10 ? fixed(c.a, 1) : int(c.a))} km²<br>`)
         + `<span class="muted">${esc(t("Units of 1 July 2025 (two-tier local government); outlines from the official reference map (sapnhap.bando.com.vn)."))}</span>`;
     },
   });

@@ -134,9 +134,9 @@ export function mount(ctx) {
     columns: [
       { key: "name", label: tr("Former province"), align: "l", value: (r) => r.name, html: (r) => `${esc(r.name)} <span class="sub">${esc(r.sub)}</span>` },
       { key: "population", label: tr("People"), value: (r) => r.v.population, text: (r) => count3(r.v.population) },
-      { key: "literacy", label: tr("Literacy"), value: (r) => r.v.literacy, text: (r) => pct(r.v.literacy), bar: { max: 1, color: "rgba(74,134,214,.4)" } },
+      { key: "literacy", label: counties.field("literacy")?.label || tr("Literacy"), value: (r) => r.v.literacy, text: (r) => pct(r.v.literacy), bar: { max: 1, color: "rgba(74,134,214,.4)" } },
       { key: "trained", label: tr("Trained"), value: (r) => r.v.trained, text: (r) => pct(r.v.trained) },
-      { key: "hdi", label: counties.field("hdi")?.label || "HDI", short: "HDI", value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? fixed(r.v.hdi, 3) : "–") },
+      { key: "hdi", label: counties.field("hdi")?.label || "HDI", value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? fixed(r.v.hdi, 3) : "–") },
     ],
     sort: { key: "literacy", dir: "asc" },
     onHover: (r) => link.hover(r ? rowsHighlight(counties, [r]) : null),

@@ -70,7 +70,7 @@ GROUPS = {"forest": (10,), "scrub": (20,), "grassland": (30,), "cropland": (40,)
 GROUP_ID = {"scrub": 4, "grassland": 5, "cropland": 7, "wetland": 8, "barren": 10, "ice": 11}
 PCT = {"forest": (10,), "crop": (40,), "pasture": (), "grass": (30,), "shrub": (20,), "wetland": (90, 95), "developed": (50,)}
 COVER_NOTE = (
-    "From ESA WorldCover 2021, read at about 280 m pixels and sampled on a 1 km lattice inside each hex (about 160 "
+    "From ESA WorldCover 2021, read at about 280 m pixels and sampled on a 1 km lattice inside each hex ({n} "
     "points). Permanent water and no-data pixels are ignored; shares are of the remaining land points. Neighbouring "
     "countries have cover 0 (none); far-offshore island hexes are drawn as grassland (5), as WorldCover's tiles stop at 111° E. Perennial tree crops such as coffee, rubber and cashew are "
     "often classed as tree cover, so the Central Highlands look more forested than they are."
@@ -535,7 +535,7 @@ def build():
         {"id": cid, "key": key, "name": name, "color": color, "worldcover": codes, "rule": rule}
         for cid, key, name, color, codes, rule in COVER]
     tables = {"water": WATER_TABLE, "relief": RELIEF_TABLE, "cover": cover_table,
-              "notes": {"water": WATER_NOTE, "relief": RELIEF_NOTE, "cover": COVER_NOTE, "provinces": OUTLINE_RULE}}
+              "notes": {"water": WATER_NOTE, "relief": RELIEF_NOTE, "cover": COVER_NOTE.format(n=len(lattice)), "provinces": OUTLINE_RULE}}
     states_out = [{"fips": f"{k + 1:02d}", "abbr": u["abbr"], "name": u["name"]} for k, u in enumerate(news)]
     counties_out = [{"geoid": u["iso"], "name": u["name"]} for u in olds]
     write_web("world.json", {

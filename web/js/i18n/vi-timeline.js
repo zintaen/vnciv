@@ -1,8 +1,8 @@
 // Vietnamese translations (timeline). Keys are the exact English strings passed to t().
 export default {
   "34 provinces (2025 borders)": "34 tỉnh, thành (địa giới 2025)",
-  "63 former provinces": "63 tỉnh, thành cũ",
-  "Average population in {year} (NSO), sum of the 63 former provinces": "Dân số trung bình năm {year} (Cục Thống kê), tổng của 63 tỉnh, thành cũ",
+  "63 former provinces": "63 tỉnh cũ",
+  "Average population in {year} (NSO), sum of the 63 former provinces": "Dân số trung bình năm {year} (Cục Thống kê), tổng của 63 tỉnh cũ",
   "Event": "Sự kiện",
   "History": "Lịch sử",
   "History: dated events with sources": "Lịch sử: các sự kiện có ngày tháng và nguồn",
@@ -10,7 +10,7 @@ export default {
     "Quỹ đạo IBTrACS đi qua trong vòng 100 km của một ô; sức gió lớn nhất khi bão ở trong vòng 100 km của đất liền (gió 10 phút của JMA; gió 1 phút của JTWC chỉ khi JMA không có số liệu).",
   "Next year (])": "Năm sau (])",
   "No storm touched Vietnam this year.": "Năm này không có cơn bão nào đi qua Việt Nam.",
-  "No yearly series: this lens shows {when}": "Không có chuỗi số liệu theo năm: lớp này hiển thị {when}",
+  "No yearly series: this lens shows {when}": "Không có chuỗi số liệu theo năm: bản đồ chủ đề này hiển thị {when}",
   "Now": "Hiện tại",
   "Pause": "Tạm dừng",
   "Play the years": "Chạy qua các năm",
@@ -20,6 +20,8 @@ export default {
   "Storms of {year}": "Các cơn bão năm {year}",
   "These values are the latest published, not {year}": "Các số liệu này là số mới nhất đã công bố, không phải năm {year}",
   "Year {year}": "Năm {year}",
+  "Forest loss in {year}": "Mất rừng năm {year}",
+  "Share of the hex's year-2000 forest (tree canopy ≥ 30%) with stand-replacing loss in {year} alone (Hansen Global Forest Change v1.13, Landsat). Sensors and method changed over the years, so a step from one year to the next can be an artefact.": "Tỷ lệ diện tích rừng năm 2000 của ô (độ che phủ tán cây ≥ 30%) bị mất hoàn toàn riêng trong năm {year} (Hansen Global Forest Change v1.13, ảnh Landsat). Cảm biến và phương pháp đã thay đổi qua các năm, nên chênh lệch giữa hai năm liền nhau có thể chỉ là sai lệch kỹ thuật.",
   "Year": "Năm",
   "borders shown are the 63 provinces of 2008–2025": "ranh giới hiển thị là 63 tỉnh, thành giai đoạn 2008–2025",
   "its latest data": "số liệu mới nhất",
@@ -37,6 +39,6 @@ export default {
   // timeline.json event strings (that file is not scanned by tools/i18n/gen.py)
   "34 provinces from 1 July 2025": "34 tỉnh, thành từ ngày 1/7/2025",
   "Resolution 202/2025/QH15 merged Vietnam's 63 provinces and centrally-run cities into 34; district-level government was abolished. Statistics before mid-2025 are published for the 63 former provinces.":
-    "Nghị quyết 202/2025/QH15 sắp xếp 63 tỉnh, thành phố trực thuộc trung ương của Việt Nam thành 34; bỏ cấp huyện. Số liệu thống kê trước giữa năm 2025 được công bố theo 63 tỉnh, thành cũ.",
-  "UNESCO World Heritage": "Di sản Thế giới UNESCO",
+    "Nghị quyết 202/2025/QH15 sắp xếp 63 tỉnh, thành phố trực thuộc trung ương của Việt Nam thành 34; bỏ cấp huyện. Số liệu thống kê trước giữa năm 2025 được công bố theo 63 tỉnh cũ.",
+  "UNESCO World Heritage": "Di sản thế giới UNESCO",
 };

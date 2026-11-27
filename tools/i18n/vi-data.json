@@ -423,5 +423,8 @@
  "WorldPop 2025 estimated residents in the hex (1 km pixels, constrained to built-up areas, adjusted to UN totals) ÷ the hex's 65 km².": "Số dân ước tính năm 2025 của WorldPop trong ô (điểm ảnh 1 km, giới hạn trong khu vực xây dựng, điều chỉnh theo tổng số của Liên Hợp Quốc) ÷ 65 km² của ô.",
  "Elevation standard deviation inside the hex under 55 m, or a valley floor (the lower 60% of samples within 60 m of each other and under 400 m) eased down one class.": "Độ lệch chuẩn độ cao trong ô dưới 55 m, hoặc là đáy thung lũng (60% mẫu thấp nhất chênh nhau không quá 60 m và dưới 400 m) được hạ xuống một bậc.",
  "Elevation standard deviation ≥ 55 m.": "Độ lệch chuẩn độ cao ≥ 55 m.",
- "Elevation standard deviation ≥ 150 m, or mean elevation ≥ 1,500 m.": "Độ lệch chuẩn độ cao ≥ 150 m, hoặc độ cao trung bình ≥ 1.500 m."
+ "Elevation standard deviation ≥ 150 m, or mean elevation ≥ 1,500 m.": "Độ lệch chuẩn độ cao ≥ 150 m, hoặc độ cao trung bình ≥ 1.500 m.",
+ "Distinct tropical cyclones of at least tropical-storm strength (34 kt, JMA 10-minute winds; JTWC where JMA has none) whose IBTrACS best track passed within 100 km of the hex centre, 1980 to today.": "Số xoáy thuận nhiệt đới riêng biệt đạt ít nhất cấp bão nhiệt đới (34 kt, gió 10 phút theo JMA; theo JTWC khi JMA không có số liệu) có đường đi thực tế (best track) IBTrACS qua trong phạm vi 100 km của tâm ô, từ 1980 đến nay.",
+ "ODbL 1.0 (© OpenStreetMap contributors)": "ODbL 1.0 (© những người đóng góp OpenStreetMap)",
+ "CC BY 4.0 (© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium)": "CC BY 4.0 (© Dự án ESA WorldCover 2021 / Có chứa dữ liệu Copernicus Sentinel (2021) đã được hiệu chỉnh, do liên danh ESA WorldCover xử lý)"
 }

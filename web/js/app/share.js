@@ -29,6 +29,16 @@ const SERIF = '"Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif';
 const SANS = '-apple-system, "Segoe UI", system-ui, sans-serif';
 const CREDIT = "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors";
 
+/** "CHELSA" / "Hansen/UMD/Google/USGS/NASA" for a lens source ({title, publisher}) that CREDIT does not already
+ *  name (by any of its capitalised words: NOAA, WorldPop, NSO...), else "". */
+export function lensCredit(src) {
+  if (!src?.publisher) return "";
+  const acro = /^([A-Z][A-Z0-9]{2,})\b/.exec(src.title || "")?.[1];
+  const words = [...(src.publisher.match(/[A-Z]\w{2,}/g) || []), ...(acro ? [acro] : [])];
+  if (words.some((w) => new RegExp(`\\b${w}\\b`).test(CREDIT))) return "";
+  return acro || src.publisher.replace(/\s*\(.*?\)/g, "").trim();
+}
+
 async function copyText(text) {
   try {
     if (navigator.clipboard?.writeText) {
@@ -122,7 +132,15 @@ export function composeImage(info, { height = IMG_H } = {}) {
   const lens = info.lens;
   // Room left of the right-hand credit line (translations run longer than the English).
   ctx.font = `14px ${SANS}`;
-  const room = IMG_W - 44 - ctx.measureText(t(CREDIT)).width - 24 - (mx + 50);
+  // A credit line too long to leave the legend 200 px (the Vietnamese one) breaks at the comma nearest its middle.
+  let credit = [t(CREDIT)];
+  if (IMG_W - 44 - ctx.measureText(credit[0]).width - 24 - (mx + 50) < 200) {
+    const parts = credit[0].split(", "), half = ctx.measureText(credit[0]).width / 2;
+    let k = 1;
+    while (k < parts.length - 1 && ctx.measureText(parts.slice(0, k + 1).join(", ")).width < half) k++;
+    credit = [parts.slice(0, k).join(", ") + ",", parts.slice(k).join(", ")];
+  }
+  const room = IMG_W - 44 - Math.max(...credit.map((l) => ctx.measureText(l).width)) - 24 - (mx + 50);
   const iconOk = (id) => id && hasIcon(id);
   const lensIcon = lens ? (iconOk(lens.icon) ? lens.icon : null) : "terrain";
   if (lensIcon) drawIcon(ctx, lensIcon, mx + 20, cy - 16, 40, { shadow: true });
@@ -168,12 +186,24 @@ export function composeImage(info, { height = IMG_H } = {}) {
   }
   ctx.font = `14px ${SANS}`;
   ctx.fillStyle = "#b9ab88";
-  ctx.fillText(t(CREDIT), rx, cy + 20);
+  if (credit.length > 1) {
+    ctx.fillText(credit[0], rx, cy + 12);
+    ctx.fillText(credit[1], rx, cy + 27);
+  } else ctx.fillText(credit[0], rx, cy + 20);
   ctx.font = `bold 17px ${SERIF}`;
   ctx.fillStyle = "#c9a45c";
   spaced(ctx, 1);
   ctx.fillText(siteLabel(), rx, cy + 42);
+  const siteW = ctx.measureText(siteLabel()).width;
   spaced(ctx, 0);
+  // The lens's own source when the fixed credit line does not name it (e.g. Hansen/UMD/Google/USGS/NASA, CC BY),
+  // on the site line so the legend's room is unchanged.
+  const extra = lensCredit(info.lensSource);
+  if (extra) {
+    ctx.font = `14px ${SANS}`;
+    ctx.fillStyle = "#b9ab88";
+    ctx.fillText(fit(ctx, extra + " ·", Math.max(0, rx - siteW - 12 - (mx + 50 + 340))), rx - siteW - 8, cy + 42);
+  }
   ctx.textAlign = "left";
 
   // Thin gold frame around the whole picture

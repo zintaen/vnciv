@@ -305,15 +305,15 @@ def build():
     CL = ("CHELSA V2.1, averages of 1981–2010 downscaled from the ERA5 reanalysis with terrain (30 arc-second "
           "pixels, ~0.9 km, averaged per hex). Karger et al. 2017, Scientific Data 4: 170122; CC0 1.0.")
     new = [
-        lens("rainfall", "Rainfall", "🌧️", "l-commute", "mm per year", "int", "bachelors", "neutral", "chelsa",
+        lens("rainfall", "Rainfall", "🌧️", "l-rain", "mm per year", "int", "bachelors", "neutral", "chelsa",
              "1981–2010", "Average annual precipitation (CHELSA BIO12). " + CL, cv["bio12"],
              note="Climate normals of 1981–2010, not recent years."),
-        lens("temperature", "Temperature", "🌡️", "l-disasters", "°C", "float", "uninsured", "neutral", "chelsa",
+        lens("temperature", "Temperature", "🌡️", "l-thermo", "°C", "float", "uninsured", "neutral", "chelsa",
              "1981–2010", "Mean annual air temperature (CHELSA BIO1). " + CL, cv["bio1"],
              note="Climate normals of 1981–2010; Vietnam has warmed since."),
-        lens("hot_month", "Hottest-month highs", "☀️", "l-disasters", "°C", "float", "poverty", "neutral", "chelsa",
+        lens("hot_month", "Hottest-month highs", "☀️", "l-sun", "°C", "float", "poverty", "neutral", "chelsa",
              "1981–2010", "Average daily maximum temperature of the warmest month (CHELSA BIO5). " + CL, cv["bio5"]),
-        lens("cold_month", "Coldest-month lows", "❄️", "l-disasters", "°C", "float", "bachelors", "neutral", "chelsa",
+        lens("cold_month", "Coldest-month lows", "❄️", "l-snow", "°C", "float", "bachelors", "neutral", "chelsa",
              "1981–2010", "Average daily minimum temperature of the coldest month (CHELSA BIO6). " + CL, cv["bio6"]),
         lens("forest_loss", "Forest loss since 2001", "🪓", "l-forest", "share of the 2000 forest lost", "pct",
              "poverty", "bad", "hansen_gfc", "2001–2025",
@@ -321,7 +321,7 @@ def build():
              f"2001–2025 (Hansen Global Forest Change v1.13, Landsat). Hexes with under {FOREST_MIN_KM2:g} km² of "
              "forest in 2000 are blank.", share, domain=[0, pctl([v for v in share if v is not None])[1]],
              note="Gross loss, including plantation harvests that are replanted; regrowth is not counted."),
-        lens("low_lying", "Low-lying land (≤ 2 m)", "🌊", "l-disasters", "share of land at or below 2 m", "pct",
+        lens("low_lying", "Low-lying land (≤ 2 m)", "🌊", "l-wave", "share of land at or below 2 m", "pct",
              "foreign_born", "bad", "etopo", None,
              "Share of the hex's land samples (ETOPO1, 1 arc-minute, ~1.8 km) at or below 2 m above sea level.",
              low2, domain=[0, 1],

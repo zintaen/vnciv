@@ -155,7 +155,7 @@ function districtCard(d, m, ddata, mil) {
   if (d.via === "measure" && ms && Number.isFinite(d.value)) {
     const pop = m.city.population;
     const nat = ddata.national?.[c.measure];
-    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${esc(yearText(yearOf(m.city, c.measure)))}</small></div>`);
+    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${yearText(yearOf(m.city, c.measure))}</small></div>`);
     if (pop > 0) facts.push(`<div><span>${t("Per resident")}</span><b>${ms.per(d.value / pop)}</b><small>${Number.isFinite(nat) ? `VN ${ms.per(nat)}` : ""}</small></div>`);
   }
   if (d.military) return encampmentCard(d, mil);

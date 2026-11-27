@@ -82,7 +82,7 @@ SOURCES = [
                  f"%5B({BBOX['lat'][0]}):1:({BBOX['lat'][1]})%5D%5B({BBOX['lon'][0]}):1:({BBOX['lon'][1]})%5D",
                  "etopo_vn.csv")]),
     dict(id="worldcover", title="ESA WorldCover 10 m 2021 v200", publisher="European Space Agency",
-         homepage="https://esa-worldcover.org/", license="CC BY 4.0",
+         homepage="https://esa-worldcover.org/", license="CC BY 4.0 (© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium)",
          description="Global land cover from Sentinel-1 and -2. Read from the cloud-optimised tiles' overviews "
          "(about 280 m pixels) and sampled on a lattice inside each hex.",
          used_for=["Land cover (forest, cropland, rice paddies' cropland, wetland, urban)"], files=[]),
@@ -114,7 +114,7 @@ SOURCES = [
          files=[("https://www.ncei.noaa.gov/data/international-best-track-archive-for-climate-stewardship-ibtracs/"
                  "v04r01/access/csv/ibtracs.WP.list.v04r01.csv", "ibtracs.WP.list.v04r01.csv")]),
     dict(id="osm_rivers", title="OpenStreetMap rivers of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Every river relation in Vietnam that carries a Wikidata link (the notable rivers), with its "
          "geometry. Drawn as map art in place of Natural Earth's sparser lines inside Vietnam; width follows length.",
          used_for=["Rivers"],
@@ -122,7 +122,7 @@ SOURCES = [
              '[out:json][timeout:300];area["ISO3166-1"="VN"][admin_level=2]->.vn;'
              'relation["waterway"="river"]["wikidata"](area.vn);out geom(8,101.5,23.6,110);'), "rivers.json")]),
     dict(id="osm_military", title="OpenStreetMap military land of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Areas mapped as military land (landuse=military or a military=* tag: airfields, naval bases, "
          "barracks, training areas, ranges), with their outlines. Vietnam publishes no list of installations; OSM "
          "shows what mappers have drawn, so coverage is uneven and most sites have no name.",
@@ -132,14 +132,14 @@ SOURCES = [
              '(way["landuse"="military"](area.vn);relation["landuse"="military"](area.vn);'
              'way["military"](area.vn);relation["military"](area.vn););out geom;'), "military.json")]),
     dict(id="osm_power", title="OpenStreetMap power plants of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Every feature mapped as a power plant (power=plant) in Vietnam, with its source (plant:source), "
          "capacity (plant:output:electricity) and name. Coverage depends on mappers: most large plants and many solar "
          "and wind farms are mapped, but some lack a capacity tag and rooftop solar is not mapped as plants.",
          used_for=["Power plants", "Energy by province"],
          files=[(overpass('nwr["power"="plant"](area.vn);out center tags;', 300), "power_plants.json")]),
     dict(id="osm_ports", title="OpenStreetMap port areas of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Port land, harbours and port terminals mapped in Vietnam (landuse=port, industrial=port, "
          "harbour=*, seamark:type=harbour), and features named Cảng… or Bến cảng…, with their centres; used to position the listed seaports.",
          used_for=["Seaports (positions)"],
@@ -148,19 +148,19 @@ SOURCES = [
                 (overpass('nwr["name"~"^(Cảng|Bến cảng|Tân Cảng|Khu bến|Cảng biển|Thương cảng)"](area.vn);out center tags;', 300),
                  "named_ports.json")]),
     dict(id="osm_roads", title="OpenStreetMap expressways and national roads of Vietnam",
-         publisher="OpenStreetMap contributors (via Overpass API)", homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         publisher="OpenStreetMap contributors (via Overpass API)", homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Every way mapped as highway=motorway (expressways, cao tốc) or highway=trunk (national roads, quốc "
          "lộ) in Vietnam, with its route number (ref) and geometry. Slip roads (motorway_link) are left out.",
          used_for=["Roads"],
          files=[(overpass('way["highway"~"^(motorway|trunk)$"](area.vn);out tags geom;'), "roads.json")]),
     dict(id="osm_rail", title="OpenStreetMap railways of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Every way mapped as railway=rail in Vietnam (service tracks such as sidings and yards excluded), "
          "with its usage tag and geometry.",
          used_for=["Railways"],
          files=[(overpass('way["railway"="rail"][!"service"](area.vn);out tags geom;'), "rail.json")]),
     dict(id="osm_parks", title="OpenStreetMap national parks of Vietnam", publisher="OpenStreetMap contributors (via Overpass API)",
-         homepage="https://www.openstreetmap.org/", license="ODbL 1.0",
+         homepage="https://www.openstreetmap.org/", license="ODbL 1.0 (© OpenStreetMap contributors)",
          description="Areas mapped as national parks in Vietnam (boundary=national_park, or protected areas of IUCN class "
          "2), with their centres; used to place a park that Wikidata has no coordinates for.",
          used_for=["National parks (positions)"],

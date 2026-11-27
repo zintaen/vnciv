@@ -36,7 +36,7 @@
     <div class="spacer"></div>
     <div class="search" role="search">
       <span class="search-ic" aria-hidden="true"></span>
-      <input id="search-input" type="search" placeholder="Search cities &amp; provinces" autocomplete="off" spellcheck="false"
+      <input id="search-input" type="search" placeholder="Search" autocomplete="off" spellcheck="false"
         role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search cities and provinces (/ or Ctrl K)">
       <kbd class="search-kbd" aria-hidden="true">/</kbd>
     </div>
@@ -65,6 +65,7 @@
   </div>
 
   <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · OCHA COD-AB</div></div>
+  <a id="attrib-mini" class="attrib-mini" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" hidden>© OpenStreetMap</a>
   <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
 
   <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>

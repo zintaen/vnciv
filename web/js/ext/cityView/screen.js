@@ -15,6 +15,9 @@ import { jobIndustries, popSeries, rankCount, resourceValue, LAND } from "./mode
 import { citizensHtml, mountCitizens } from "./citizens.js";
 import { badgeHtml, cityDistricts, districtsHtml } from "./districts.js";
 import { yearOf, yearText, plainYear, vnRef, vnLabel, popIn } from "../advisors/core/years.js";
+// yearText() returns HTML (escaped); labels, tooltips and titles here are plain text escaped once where they are written.
+const UNESC = { amp: "&", lt: "<", gt: ">", quot: '"', "#39": "'" };
+const yearPlain = (y, o) => yearText(y, o).replace(/&(amp|lt|gt|quot|#39);/g, (_, e) => UNESC[e]);
 
 const TABS = [
   ["citizens", "Citizens", "pop"],
@@ -63,7 +66,7 @@ function header(m) {
     : `<span class="chip">${esc(s.abbr)}</span>`)).join("");
   const g = Number.isFinite(c.growth) ? c.growth : null;
   const yrs = Array.isArray(c.growth_years) ? c.growth_years : null;
-  const growth = g == null ? "" : `<span class="cv-growth ${g >= 0 ? "good" : "bad"}" title="${esc(t("Population change {period}, NSO average population. Vietnam: {v}", { period: yrs ? `${yrs[0]}–${yrs[1]}` : "", v: signed(n.growth) }))}">${g >= 0 ? "▲" : "▼"} ${fixed(Math.abs(g * 100), 1)}%${yrs ? ` <small>${t("since {y}", { y: yrs[0] })}</small>` : ""}</span>`;
+  const growth = g == null ? "" : `<span class="cv-growth ${g >= 0 ? "good" : "bad"}" title="${esc(t("Population change {period}, NSO average population. Vietnam: {v}", { period: yrs ? `${yrs[0]}–${yrs[1]}` : "", v: signed(n.growth) }))}">${g >= 0 ? "▲" : "▼"} ${fixed(Math.abs(g * 100), 1)}%${yrs ? ` <small>${t("since {y}", { y: esc(yrs[0]) })}</small>` : ""}</span>`;
   const perCap = c.gdp != null && c.population ? c.gdp / c.population : null;
   const r = c.ranks || {};
   const N = (k) => countOf(cities, k);
@@ -84,14 +87,14 @@ function header(m) {
     </div>
     <div class="cv-headline">
       <div class="cv-big"><span class="lbl">${icon("pop", "👥", { size: 13 })} ${t("Population")}</span><b>${int(c.population)}</b>${growth}</div>
-      <div class="cv-big"><span class="lbl">${icon("y-gold", "💰", { size: 13 })} GRDP${c.gdp_year ? ` ${c.gdp_year}` : ""}</span><b>${money(c.gdp)}</b>${
+      <div class="cv-big"><span class="lbl">${icon("y-gold", "💰", { size: 13 })} GRDP${c.gdp_year ? ` ${esc(c.gdp_year)}` : ""}</span><b>${money(c.gdp)}</b>${
         perCap != null ? `<span class="cv-sub">${t("{v} per person", { v: money(perCap) })}</span>` : ""}</div>
     </div>
     <div class="cv-ranks" aria-label="${t("Ranks among {n} former provinces", { n: cities.length })}">
-      ${rankBadge(r.population, N("population"), t("Population"), "", yearText(yearOf(c, "population")))}
-      ${rankBadge(r.gdp, N("gdp"), "GRDP", "", yearText(yearOf(c, "gdp")))}
-      ${rankBadge(r.gdp_per_capita, N("gdp_per_capita"), t("GRDP / person"), "", yearText(yearOf(c, "gdp_pc")))}
-      ${rankBadge(r.growth, N("growth"), t("Growth"), r.growth != null ? t("Growth {y}: #{r} of {n} (1 = fastest growing)", { y: yearText(yearOf(c, "growth")), r: r.growth, n: N("growth") }) : "", yearText(yearOf(c, "growth")))}
+      ${rankBadge(r.population, N("population"), t("Population"), "", yearPlain(yearOf(c, "population")))}
+      ${rankBadge(r.gdp, N("gdp"), "GRDP", "", yearPlain(yearOf(c, "gdp")))}
+      ${rankBadge(r.gdp_per_capita, N("gdp_per_capita"), t("GRDP / person"), "", yearPlain(yearOf(c, "gdp_pc")))}
+      ${rankBadge(r.growth, N("growth"), t("Growth"), r.growth != null ? t("Growth {y}: #{r} of {n} (1 = fastest growing)", { y: yearPlain(yearOf(c, "growth")), r: r.growth, n: N("growth") }) : "", yearPlain(yearOf(c, "growth")))}
     </div>
   </header>
   <nav class="cv-tabs" aria-label="${t("City View sections")}">
@@ -120,7 +123,7 @@ function fieldStat(m, rec, key, ic, fb, label, fmt, better, max, tip = "", o = {
   const ref = o.noVn ? null : vnRef(m.nation, rec, key);
   const v = o.value !== undefined ? o.value : rec?.[key] ?? null;
   const vn = ref ? (o.vn ? o.vn(ref) : ref.v) : null;
-  const text = o.label ? t(label, o.label) : y && !o.noTag && plainYear(y) !== String(m.nation.year) ? `${t(label)} (${yearText(y)})` : t(label);
+  const text = o.label ? t(label, o.label) : y && !o.noTag && plainYear(y) !== String(m.nation.year) ? `${t(label)} (${yearPlain(y)})` : t(label);
   const sub = o.sub !== undefined ? o.sub : vn != null ? `${vnLabel(ref)} ${fmt(vn)}` : "";
   return statRow(ic, fb, { text }, Number.isFinite(v) ? v : null, vn, fmt, better, max, sub, vn, tip);
 }
@@ -165,14 +168,14 @@ function citizens(m) {
     <div class="cv-citizens" data-citizens>${citizensHtml(m, undefined)}</div>
     <h4 class="cv-h4">${t("Population")}</h4>
     <div class="cv-card">
-      <div class="cv-card-h"><span>${t("Population")} ${series.length ? `${series[0].year}–${series.at(-1).year}` : ""}</span>${
+      <div class="cv-card-h"><span>${t("Population")} ${series.length ? esc(`${series[0].year}–${series.at(-1).year}`) : ""}</span>${
         ch != null ? `<span class="${ch >= 0 ? "good" : "bad"}">${signed(ch)}</span>` : ""}</div>
       ${sparkline(series, { fmt: (v) => popShort(v), title: t("Population of {name} by year", { name: c.name }) })}
       <p class="cv-note">${t("NSO average population by year (PX-Web), on the former province's borders.")}</p>
     </div>
     <h4 class="cv-h4">${t("Living standards")}</h4>
     <div class="cv-stats">
-      ${fieldStat(m, c, "median_income", "l-income", "💵", "Income per person / year", usd, "high", null, t("Average income per person (VHLSS {y} × 12), USD at the World Bank {fx} rate. Per person, not per household.", { y: yearText(yearOf(c, "income")), fx: fx(m) }))}
+      ${fieldStat(m, c, "median_income", "l-income", "💵", "Income per person / year", usd, "high", null, t("Average income per person (VHLSS {y} × 12), USD at the World Bank {fx} rate. Per person, not per household.", { y: yearPlain(yearOf(c, "income")), fx: fx(m) }))}
       ${fieldStat(m, c, "hdi", "l-amenities", "🌱", "Human development (HDI)", (x) => fixed(x, 3), "high", 1, t("The last HDI NSO published for the 63 former provinces; the 2025 HDI of the province is below."))}
       ${fieldStat(m, c, "poverty", "l-poverty", "🥣", "Households in poverty", share, "low", null, t("Multidimensional poverty standard 2022–2025 (NSO)"))}
       ${fieldStat(m, c, "gini", null, "⚖️", "Inequality (Gini)", (x) => fixed(x, 3), "low", 0.6)}
@@ -246,7 +249,7 @@ function fdiRow(m, rec, max) {
   const per = (v, r) => { const p = popIn(r, y); return Number.isFinite(v) && p > 0 ? v / p : null; };
   const pr = per(rec.fdi, rec), vpr = ref ? per(ref.v, m.nation.nation) : null;
   const sub = `${rec.fdi < 0 ? `${t("net reduction of registered capital")} · ` : ""}${rec.fdi_projects != null ? `${t("{n} projects", { n: int(rec.fdi_projects) })} · ` : ""}${pr != null ? t("{v} per resident", { v: money(pr) }) : ""}${vpr != null ? ` · ${vnLabel(ref)} ${money(vpr)}` : ""}`;
-  return fieldStat(m, rec, "fdi", "l-income", "🏗️", "FDI registered", money, null, max, t("Newly registered plus added foreign direct investment capital in {y} (NSO). Registered, not disbursed.", { y: yearText(y) }), { noVn: true, sub });
+  return fieldStat(m, rec, "fdi", "l-income", "🏗️", "FDI registered", money, null, max, t("Newly registered plus added foreign direct investment capital in {y} (NSO). Registered, not disbursed.", { y: yearPlain(y) }), { noVn: true, sub });
 }
 
 // --- economy -------------------------------------------------------------------------------------------------------
@@ -280,7 +283,7 @@ function economy(m) {
   <section class="cv-sec" id="cv-economy" data-sec="economy" aria-labelledby="cv-h-economy">
     <h3 id="cv-h-economy">${icon("y-gold", "💰", { size: 15 })}${t("Economy")}</h3>
     <div class="cv-gdp">
-      <div><span class="lbl">GRDP${c.gdp_year ? ` (${c.gdp_year})` : ""}</span><b>${money(c.gdp)}</b>${r.gdp != null ? `<small>${t("#{r} of {n}", { r: r.gdp, n: countOf(cities, "gdp") })}</small>` : ""}</div>
+      <div><span class="lbl">GRDP${c.gdp_year ? ` (${esc(c.gdp_year)})` : ""}</span><b>${money(c.gdp)}</b>${r.gdp != null ? `<small>${t("#{r} of {n}", { r: r.gdp, n: countOf(cities, "gdp") })}</small>` : ""}</div>
       <div><span class="lbl">${t("GRDP per person")}</span><b>${money(perCap)}</b>${
         vnPerCap ? `<small class="${perCap >= vnPerCap ? "good" : "bad"}">VN ${money(vnPerCap)}</small>` : ""}</div>
       <div><span class="lbl">${t("Share of Vietnam's GDP")}</span><b>${c.gdp != null && n.gdp ? pct(c.gdp / n.gdp, 2) : "–"}</b><small>${t("{p} of people", { p: pct(c.population / n.population, 2) })}</small></div>
@@ -294,14 +297,14 @@ function economy(m) {
       ${fieldStat(m, c, "grdp_growth", "y-gold", "📈", "GRDP growth", (x) => signed(x), "high", topIn(m.cityList, "grdp_growth"), t("Over the year before, constant prices (NSO estimate)"))}
       ${fdiRow(m, c, topOf(m, "fdi"))}
       ${fieldStat(m, c, "enterprises_pk", "l-amenities", "🏢", "Enterprises per 1,000 residents", (x) => fixed(x, 1), "high", topOf(m, "enterprises_pk"), t("Active enterprises (NSO). Vietnam's figure for the same year is not in the data, so there is no comparison."))}
-      ${fieldStat(m, c, "retail", "i-retail", "🛍️", "Retail sales per resident", money, null, null, t("Retail sales of goods and services ({y}, NSO)", { y: yearText(yearOf(c, "retail")) }), { value: perRes(c.retail, "retail"), vn: (ref) => vnPerRes(ref.v, ref.year) })}
+      ${fieldStat(m, c, "retail", "i-retail", "🛍️", "Retail sales per resident", money, null, null, t("Retail sales of goods and services ({y}, NSO)", { y: yearPlain(yearOf(c, "retail")) }), { value: perRes(c.retail, "retail"), vn: (ref) => vnPerRes(ref.v, ref.year) })}
       ${pci != null ? fieldStat(m, c, "pci", "l-amenities", "🤝", "Business climate (PCI)", (x) => fixed(x, 1), "high", 100, t("Provincial Competitiveness Index (VCCI), 0–100"), { noVn: true, sub: Number.isFinite(c.pci_2024) ? `${yearText(yearOf(c, "pci_2024"))} ${fixed(c.pci_2024, 1)}` : "" }) : ""}
     </div>
     ${provinceBlock(m, [
       m.province ? fdiRow(m, m.province, topState(m, "fdi")) : "",
       fieldStat(m, m.province, "enterprises_pk", "l-amenities", "🏢", "Enterprises per 1,000 residents", (x) => fixed(x, 1), "high", topState(m, "enterprises_pk"), t("Active enterprises (NSO)")),
       fieldStat(m, m.province, "growth_9m2026", "y-gold", "🚀", "GRDP growth, 9 months 2026 (est.)", (x) => signed(x), "high", topState(m, "growth_9m2026"), t("January–September 2026 over the same months of 2025, constant prices (NSO estimate)"), { noTag: true }),
-      fieldStat(m, m.province, "industry_jobs_2026", "y-production", "🏭", "Factory jobs at {y} vs a year earlier (est.)", (x) => signed(x), "high", topState(m, "industry_jobs_2026"), t("Workers in industrial enterprises compared with a year earlier (NSO estimate)"), { noTag: true, label: { y: yearText(yearOf(m.province, "industry_jobs_2026")) } }),
+      fieldStat(m, m.province, "industry_jobs_2026", "y-production", "🏭", "Factory jobs at {y} vs a year earlier (est.)", (x) => signed(x), "high", topState(m, "industry_jobs_2026"), t("Workers in industrial enterprises compared with a year earlier (NSO estimate)"), { noTag: true, label: { y: yearPlain(yearOf(m.province, "industry_jobs_2026")) } }),
     ], provNote(m))}
     <p class="cv-note">${esc(t(nat.gdp_vintage || "NSO GRDP"))}${t(", current prices.")} ${esc(t(nat.currency?.note || ""))} ${t("NSO publishes no GRDP by industry for each province.")}</p>
   </section>`;
@@ -331,7 +334,7 @@ function workforce(m) {
       ${statRow("pop", "👥", "Labour force (15+)", c.labour_force, null, int, null, c.population, c.population > 0 && c.labour_force != null ? t("{p} of residents", { p: pct(c.labour_force / c.population) }) : "")}
       ${statRow("pop", "👥", "Employed", c.employed, null, int, null, c.population, empShare == null ? "" : `${t("{p} of residents", { p: pct(empShare) })}${vnEmpShare != null ? ` · VN ${pct(vnEmpShare)}` : ""}`, vnEmpShare != null ? vnEmpShare * c.population : null)}
       ${fieldStat(m, c, "unemployment", "unemployment", "😐", "Unemployment", share, "low")}
-      ${fieldStat(m, c, "trained", "l-degrees", "🎓", "Trained workers", share, "high", 1, t("Labour force with a vocational certificate, college or university degree (NSO Labour Force Survey {y})", { y: yearText(yearOf(c, "trained")) }))}
+      ${fieldStat(m, c, "trained", "l-degrees", "🎓", "Trained workers", share, "high", 1, t("Labour force with a vocational certificate, college or university degree (NSO Labour Force Survey {y})", { y: yearPlain(yearOf(c, "trained")) }))}
       ${fieldStat(m, c, "it_skills", "l-broadband", "💻", "IT skills", share, "high", 1, t("People with at least one information-technology skill (NSO)"))}
       ${fieldStat(m, c, "income_worker", "l-income", "💵", "Income per worker / year", usd, "high")}
       ${fieldStat(m, c, "lecturers", "y-science", "🔬", "University lecturers", int, null, topOf(m, "lecturers"), "", { noVn: true, sub: c.students != null ? t("{n} students", { n: compact(c.students) }) : "" })}
@@ -393,7 +396,7 @@ export function compareTable(m, set = "size") {
   const cols = COMPARE[set] || COMPARE.size;
   const max = cols.map(([, f]) => Math.max(...rows.map((c) => Math.abs(f(c) ?? 0))) || 1);
   return `<div class="cv-cmp" role="table" aria-label="${esc(t("{name} and its peers", { name: m.city.name }))}">
-    <div class="cv-cmp-r cv-cmp-h" role="row"><span role="columnheader">${t("City")}</span>${cols.map(([l, , , k]) => { const y = yearOf(m.city, k); return `<span role="columnheader">${esc(t(l))}${y && plainYear(y) !== String(m.nation.year) ? ` <small>${esc(yearText(y))}</small>` : ""}</span>`; }).join("")}</div>
+    <div class="cv-cmp-r cv-cmp-h" role="row"><span role="columnheader">${t("City")}</span>${cols.map(([l, , , k]) => { const y = yearOf(m.city, k); return `<span role="columnheader">${esc(t(l))}${y && plainYear(y) !== String(m.nation.year) ? ` <small>${yearText(y)}</small>` : ""}</span>`; }).join("")}</div>
     ${rows.map((c, k) => `<div class="cv-cmp-r${k === 0 ? " me" : ""}" role="row">
       <span role="cell">${k === 0 ? `<b class="cv-cmp-n">${esc(c.name)}</b>` : `<button type="button" class="cv-cmp-n" data-peer="${esc(c.id)}" title="${esc(t("Open {name} in the City View", { name: fullName(c) }))}">${esc(c.name)}</button>`}${c.province_old && c.province_old !== c.name ? `<small>${esc(c.province_old)}</small>` : ""}</span>
       ${cols.map(([, f, fmt], j) => {

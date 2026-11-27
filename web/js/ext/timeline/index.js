@@ -229,7 +229,7 @@ export async function install(app) {
     return `<div class="tl-ev-date">${esc(fmtDate(e))}</div><div class="tl-ev-title">${esc(t(e.title))}</div>
       <div class="tl-ev-text">${esc(t(e.text || ""))}</div>
       ${cite ? `<a class="tl-ev-cite" href="${esc(cite)}" target="_blank" rel="noopener noreferrer">${esc(t("Source"))}: ${esc(host)}</a>` : ""}
-      ${e.x != null ? `<button type="button" class="tl-link tl-fly" data-x="${e.x}" data-y="${e.y}">${esc(t("Show on the map"))}</button>` : ""}`;
+      ${e.x != null ? `<button type="button" class="tl-link tl-fly" data-x="${esc(e.x)}" data-y="${esc(e.y)}">${esc(t("Show on the map"))}</button>` : ""}`;
   }
 
   // --- card (storms of the year, an event, the history list) ----------------------------------------------------
@@ -255,7 +255,7 @@ export async function install(app) {
       body = list.length ? `<ul class="tl-storms">${list.map((s) => `<li><b>${esc(s.name && s.name !== "Unnamed" ? s.name : t("Unnamed"))}</b>
           <span>${esc(fmtDate({ date: s.date, year: s.season }))}</span><span>${s.max_kt ? esc(t("{kt} kt max", { kt: int(s.max_kt) })) : esc(t("wind not recorded"))}</span></li>`).join("")}</ul>`
         : `<div class="tl-ev-text">${esc(t("No storm touched Vietnam this year."))}</div>`;
-      body += `<div class="tl-foot">${esc(t("IBTrACS best tracks passing within 100 km of a hex; max wind over the storm's life (WMO or JTWC)."))}</div>`;
+      body += `<div class="tl-foot">${esc(t("IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none)."))}</div>`;
     } else {
       head = t("History");
       const evs = allEvents();

@@ -87,7 +87,7 @@ export async function mount(ctx) {
 
   // --- installations --------------------------------------------------------------------------------------------
   const iBody = section(el, {
-    title: tr("Largest installations"), kicker: esc(tr(mil.vintage?.installations || "OpenStreetMap")),
+    title: tr("Largest installations"), kicker: tr(mil.vintage?.installations || "OpenStreetMap"),
     note: tr("{rule} Hover a row to find it on the map; click to fly there.", { rule: esc(tr(mil.rules?.installations || "")) }),
   });
   const counts = new Map();

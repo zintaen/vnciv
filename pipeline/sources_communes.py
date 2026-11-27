@@ -6,7 +6,7 @@ SOURCES = [
     dict(id="vn_wards_gis", title="Vietnamese Provinces Database v5.2.0: wards GIS (GeoJSON)",
          publisher="Thang Le Quoc (GitHub), from the Vietnam Administrative Units Reference Map (sapnhap.bando.com.vn, "
                    "Vietnam Natural Resources, Environment and Cartography Publishing House) and the NSO/GSO unit codes",
-         homepage="https://github.com/ThangLeQuoc/vietnamese-provinces-database", license="MIT",
+         homepage="https://github.com/ThangLeQuoc/vietnamese-provinces-database", license="MIT (Copyright (c) 2021 Thang Le Quoc)",
          description="Boundaries, names, kinds and official codes of the 34 provinces and 3,321 communes, wards and "
                      "special zones of the two-tier local government that took effect on 1 July 2025, as updated to "
                      "Resolution 388/NQ-UBTVQH16 (September 2026: twelve Bắc Ninh communes became wards; the count of "

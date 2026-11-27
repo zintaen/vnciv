@@ -136,6 +136,16 @@ def worldpop(W):
     return pop
 
 
+def wind_kt(row, ix):
+    """Max sustained wind (kt): JMA's 10-minute wind (TOKYO_WIND is filled at the 3-hourly rows too, WMO_WIND only
+    6-hourly); JTWC's 1-minute wind only for a storm JMA did not estimate. Mixing them row by row lets the higher
+    1-minute wind set a storm's maximum (Yagi 2024: 128 kt instead of JMA's 105)."""
+    for k in ("TOKYO_WIND", "WMO_WIND", "USA_WIND"):
+        if row[ix[k]].strip():
+            return float(row[ix[k]])
+    return 0
+
+
 def typhoons(W):
     """Distinct tropical cyclones (≥ 34 kt) passing within STORM_RADIUS_KM of each land hex centre since STORM_SINCE."""
     land = [i for i in range(len(W.owner)) if W.owner[i] >= 0]
@@ -148,15 +158,14 @@ def typhoons(W):
         r = csv.reader(f)
         head = next(r)
         next(r)
-        ix = {k: head.index(k) for k in ("SID", "SEASON", "NAME", "LAT", "LON", "WMO_WIND", "USA_WIND", "ISO_TIME")}
+        ix = {k: head.index(k) for k in ("SID", "SEASON", "NAME", "LAT", "LON", "TOKYO_WIND", "WMO_WIND", "USA_WIND", "ISO_TIME")}
         for row in r:
             if int(row[ix["SEASON"]]) < STORM_SINCE:
                 continue
             lat, lon = float(row[ix["LAT"]]), float(row[ix["LON"]])
             if not (3 < lat < 27 and 98 < lon < 122):
                 continue
-            wind = row[ix["WMO_WIND"]].strip() or row[ix["USA_WIND"]].strip()
-            kt = float(wind) if wind else 0
+            kt = wind_kt(row, ix)
             tracks[row[ix["SID"]]].append((lon, lat, kt, row[ix["ISO_TIME"]]))
             names[row[ix["SID"]]] = (row[ix["NAME"]], int(row[ix["SEASON"]]))
     count = np.zeros(len(land), int)
@@ -245,7 +254,7 @@ def build():
                    "ramp": ramp("disasters"),
                    "higher_is": "bad", "source": "ibtracs",
                    "description": f"Distinct tropical cyclones of at least tropical-storm strength ({STORM_MIN_KT} kt, "
-                                  f"WMO or JTWC winds) whose IBTrACS best track passed within {STORM_RADIUS_KM} km of the "
+                                  f"JMA 10-minute winds; JTWC where JMA has none) whose IBTrACS best track passed within {STORM_RADIUS_KM} km of the "
                                   f"hex centre, {STORM_SINCE} to today.",
                    "note": "Counts storm passages, not damage: floods and landslides from storms that pass further away are not counted.",
                    "values": storm_vals})

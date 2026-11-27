@@ -101,6 +101,8 @@ export function lensButton(app, lensId, label) {
     b.innerHTML = `${icon(lens.icon || "layers", lens.emoji || "🗺️", { size: 14 })}<span>${esc(on ? tr("Showing {name} lens", { name: tr(lens.name) }) : label || tr("Show {name} lens on map", { name: tr(lens.name) }))}</span>`;
   };
   sync();
+  // Follow lens changes made elsewhere (another lens button, the picker, the dock); unsubscribes once the button is gone.
+  const off = app.on("lens", () => (b.isConnected ? sync() : off()));
   b.addEventListener("click", () => {
     app.setLens(app.state.lens?.id === lensId ? null : lensId);
     sync();

@@ -9,7 +9,7 @@ import { fin, ratio } from "./util.js";
 import { frameBox } from "./frame.js";
 import { fixed } from "../../../format.js";
 import { t as tr } from "../../../i18n.js";
-import { yearOf, yearText, plainYear, vnRef } from "./years.js";
+import { yearOf, yearPlain, plainYear, vnRef } from "./years.js";
 
 // The three levels for Vietnam: "states" = the 34 provinces of 2025, "metros" = the 63 cities, each standing for its
 // whole former province (pre-July 2025), and "counties" = those 63 former provinces (counties.json). Level ids keep
@@ -101,7 +101,7 @@ export function buildData(app) {
     // f(key, label, format, o): o.d = description template with {v} (the year and NSO), or o.lensDesc to use the lens's.
     const f = (key, label, format, o = {}) => {
       const y = yearOf(rec, key);
-      const yt = yearText(y);
+      const yt = yearPlain(y);
       const l = lensFor(key);
       const tag = y && !o.noTag && (plainYear(y) !== mainYear || varies(key)) ? ` (${yt})` : "";
       const description = o.lensDesc && l ? tr(l.description) : o.d ? tr(o.d, { v: yt ? tr("NSO, {y}", { y: yt }) : tr("NSO") }) : "";

@@ -3,7 +3,7 @@
 // with a switch in the Layers menu. Glyphs are small canvas medallions drawn in screen space, zoom-gated per kind and
 // decluttered on a screen grid (first in priority order wins a slot), so a few thousand points cost about a millisecond.
 // relics.json (small) loads at start because relics are on by default; poi.json loads when any other switch turns on.
-import { t } from "../../i18n.js";
+import { t, lang } from "../../i18n.js";
 import { esc, int, fixed } from "../../format.js";
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
@@ -46,6 +46,17 @@ const KINDS = [
     title: "Named road bridges 500 m or longer on expressways, national and primary roads, mapped in OpenStreetMap",
     style: () => ({ color: "#5b6670", glyph: "arch" }) },
 ];
+
+// Relic categories come in Vietnamese from the list ("Di tích lịch sử, khảo cổ"); English mode names each part.
+const RELIC_CAT_EN = { "lịch sử": "history", "kiến trúc nghệ thuật": "architecture and art", "khảo cổ": "archaeology",
+  "khảo cố": "archaeology", "danh lam thắng cảnh": "scenic landscape" };
+function relicCategory(s) {
+  if (!s || lang === "vi") return s || "";
+  const parts = s.toLowerCase().replace(/^di tích /, "").split(/,\s*/).map((p) => RELIC_CAT_EN[p]);
+  if (parts.some((p) => !p)) return s;
+  const en = parts.join(", ");
+  return en[0].toUpperCase() + en.slice(1);
+}
 
 const KIND_LABEL = {
   relic: "Special national relic", hospital: "Hospital", university: "University", market: "Market", beach: "Beach",
@@ -293,10 +304,13 @@ function tip(app, it, d) {
   } else if (it.kind === "bridge") {
     lines.push(t("About {n} m end to end", { n: int(r[4]) }));
   } else if (it.kind === "relic") {
-    lines.push(esc(r[5] || ""));
+    lines.push(esc(relicCategory(r[5])));
     lines.push(t("Ranked in {year}", { year: esc(r[4]) }));
-    src = r[7] === "list" ? t("Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the list.")
-      : t("Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the relic's article.");
+    src = t({
+      list: "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the list.",
+      wikidata: "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the relic's Wikidata item (CC0).",
+      osm: "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from a matching OpenStreetMap feature (ODbL).",
+    }[r[7]] || "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the relic's article.");
   }
   const name = r[2] || kind;
   return [`<b>${esc(name)}</b> ${muted(place)}`, esc(kind), ...lines.filter(Boolean), muted(src)].join("<br>");

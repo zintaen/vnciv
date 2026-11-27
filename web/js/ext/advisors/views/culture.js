@@ -56,7 +56,7 @@ export async function mount(ctx) {
   let wonderBars = [];
   const bubbles = ctx.bubbles("wonders", {
     rMax: 9, minR: 9, alpha: 0.28,
-    tip: (b) => `<b>${esc(b.it.name)}</b><br>${esc(RULE_TITLE[b.it.rule] || b.it.kind)} #${b.it.rank} · ${esc(metricText(b.it))}${b.it.curated ? `<br><span class="sub">${esc(tr("hand-picked, not ranked by data"))}</span>` : ""}`,
+    tip: (b) => `<b>${esc(b.it.name)}</b><br>${esc(RULE_TITLE[b.it.rule] || b.it.kind)} #${esc(b.it.rank)} · ${esc(metricText(b.it))}${b.it.curated ? `<br><span class="sub">${esc(tr("hand-picked, not ranked by data"))}</span>` : ""}`,
     onHover: (b) => { for (const w of wonderBars) w.setHot(b ? b.key : null); },
     onClick: (b) => flyTo(b.it),
   });

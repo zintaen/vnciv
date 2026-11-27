@@ -64,4 +64,8 @@ export default {
     "Danh sách di tích quốc gia đặc biệt trên Wikipedia tiếng Việt (CC BY-SA); vị trí theo danh sách.",
   "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the relic's article.":
     "Danh sách di tích quốc gia đặc biệt trên Wikipedia tiếng Việt (CC BY-SA); vị trí theo bài viết về di tích.",
+  "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from the relic's Wikidata item (CC0).":
+    "Danh sách di tích quốc gia đặc biệt trên Wikipedia tiếng Việt (CC BY-SA); vị trí theo mục Wikidata của di tích (CC0).",
+  "Vietnamese Wikipedia list of special national relics (CC BY-SA); position from a matching OpenStreetMap feature (ODbL).":
+    "Danh sách di tích quốc gia đặc biệt trên Wikipedia tiếng Việt (CC BY-SA); vị trí theo địa điểm tương ứng trên OpenStreetMap (ODbL).",
 };

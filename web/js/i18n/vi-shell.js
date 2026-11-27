@@ -276,7 +276,7 @@ export default {
   "since {y}": "từ năm {y}",
   "1 farm": "1 trang trại",
   "{n} farms": "{n} trang trại",
-  "© OpenStreetMap contributors · Natural Earth · OCHA COD-AB": "© những người đóng góp OpenStreetMap · Natural Earth · OCHA COD-AB",
+  "© OpenStreetMap contributors": "© những người đóng góp OpenStreetMap",
   "Place names": "Địa danh",
   "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners": "Các đảo (kể cả Hoàng Sa và Trường Sa) và các thị xã, thị trấn ngoài các thành phố trên bản đồ",
   "({owner}, Vietnam)": "({owner}, Việt Nam)",

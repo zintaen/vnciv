@@ -6,8 +6,8 @@ export default {
   "Event": "Sự kiện",
   "History": "Lịch sử",
   "History: dated events with sources": "Lịch sử: các sự kiện có ngày tháng và nguồn",
-  "IBTrACS best tracks passing within 100 km of a hex; max wind over the storm's life (WMO or JTWC).":
-    "Quỹ đạo IBTrACS đi qua trong vòng 100 km của một ô; sức gió lớn nhất trong suốt vòng đời cơn bão (WMO hoặc JTWC).",
+  "IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none).":
+    "Quỹ đạo IBTrACS đi qua trong vòng 100 km của một ô; sức gió lớn nhất khi bão ở trong vòng 100 km của đất liền (gió 10 phút của JMA; gió 1 phút của JTWC chỉ khi JMA không có số liệu).",
   "Next year (])": "Năm sau (])",
   "No storm touched Vietnam this year.": "Năm này không có cơn bão nào đi qua Việt Nam.",
   "No yearly series: this lens shows {when}": "Không có chuỗi số liệu theo năm: lớp này hiển thị {when}",

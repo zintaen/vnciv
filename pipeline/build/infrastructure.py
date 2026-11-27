@@ -52,7 +52,9 @@ SEAPORTS = [
     ("Bến Tre", "III", [("Giao Long", r"giao long")]),
     ("Đồng Tháp", "II", [("Sa Đéc", r"sa dec"), ("Cao Lãnh", r"cao lanh")]),
     ("Sóc Trăng", "III", [("Đại Ngãi", r"dai ngai|^cang soc trang$"), ("Trần Đề", r"tran de")]),
-    ("Hậu Giang", "II", [("Vĩnh Thái", r"vinh thai")]),
+    # 1579 names no port area for Hậu Giang (its scope is the Hậu river bank from the Cái Cui to the Cái Côn channel);
+    # "Vĩnh Thái" is a Vĩnh Long area
+    ("Hậu Giang", "II", [("Cái Côn", r"cai con")]),
     ("Cần Thơ", "I", [("Cái Cui", r"cai cui"), ("Trà Nóc", r"^cang can tho$|can tho port|tra noc")]),
     ("An Giang", "III", [("Mỹ Thới", r"my thoi")]),
     ("Vĩnh Long", "III", [("Vĩnh Long", r"vinh long")]),

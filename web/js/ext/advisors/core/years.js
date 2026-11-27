@@ -2,6 +2,7 @@
 // "2025-12-31", "9M2026", "2026-10-01"); growth spans `growth_years`. nation.cities_basis holds Vietnam's 2024 HDI
 // and FDI, to compare the cities' (63 former provinces') 2024 values with. Shared by the advisors and the City View.
 import { t as tr, lang } from "../../../i18n.js";
+import { esc } from "../../../format.js";
 
 const fin = Number.isFinite;
 const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
@@ -21,8 +22,9 @@ export function yearOf(rec, key) {
 /** A year label without its "(prel.)"/"(est.)" note: the part two labels must share to be compared. */
 export const plainYear = (y) => (y == null ? "" : String(y).replace(/\s*\(.*\)\s*$/, ""));
 
-/** A year label for display: "31/12/2025" (vi) or "31 Dec 2025" (en), "9 months 2026", "2025 (prel.)". */
-export function yearText(y, { note = false } = {}) {
+/** A year label for display as plain text (for textContent, or text that is escaped later): "31/12/2025" (vi) or
+ *  "31 Dec 2025" (en), "9 months 2026", "2025 (prel.)". */
+export function yearPlain(y, { note = false } = {}) {
   if (y == null || y === "") return "";
   const raw = String(y);
   let s = plainYear(raw), m;
@@ -31,6 +33,9 @@ export function yearText(y, { note = false } = {}) {
   const nm = /\((prel|est)\.\)/.exec(raw);
   return note && nm ? `${s} (${tr(nm[1] === "prel" ? "preliminary" : "estimate")})` : s;
 }
+
+/** yearPlain, HTML-escaped (the label is data): for building innerHTML. */
+export const yearText = (y, o) => esc(yearPlain(y, o));
 
 /** The calendar year a label falls in ("2025-12-31" → "2025"), for picking a population of the same year. */
 export const calYear = (y) => (/(\d{4})/.exec(String(y ?? "")) || [])[1] || null;

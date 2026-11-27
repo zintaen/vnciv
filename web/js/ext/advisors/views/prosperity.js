@@ -6,7 +6,7 @@ import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
 import { section, tiles, segmented, lensButton, sourcesHtml, topBy, frameBtn } from "../core/view.js";
 import { rowsHighlight } from "../core/data.js";
-import { yearOf, yearText, vnLabel } from "../core/years.js";
+import { yearOf, yearText, yearPlain, vnLabel } from "../core/years.js";
 import { t as tr } from "../../../i18n.js";
 
 export function mount(ctx) {
@@ -18,7 +18,7 @@ export function mount(ctx) {
     { label: tr("Income"), value: dollars(n.median_income), sub: tr("per person per year") },
     { label: tr("Worker income"), value: dollars(n.income_worker), sub: tr("per worker per year") },
     { label: tr("Poverty"), value: pct(n.poverty), sub: tr("of households · Gini {g}", { g: fin(n.gini) ? fixed(n.gini, 2) : "–" }) },
-    ...(fin(n.hdi) ? [{ label: `HDI ${yearText(yearOf(n, "hdi"))}`, value: fixed(n.hdi, 3), sub: tr("Human Development Index") }] : []),
+    ...(fin(n.hdi) ? [{ label: `HDI ${yearPlain(yearOf(n, "hdi"))}`, value: fixed(n.hdi, 3), sub: tr("Human Development Index") }] : []),
   ]));
 
   // --- income vs poverty ----------------------------------------------------------------------------------------
@@ -177,7 +177,7 @@ export function mount(ctx) {
       lensSlot.innerHTML = "";
       const b = lensButton(app, lensId, tr("Show on map"));
       if (b) lensSlot.appendChild(b);
-      qHost.innerHTML = `<p class="adv-note">${esc(f.unit || "")} · ${esc(yearText(f.year))}${lvQ === metros ? ` · ${esc(tr("63 former provinces"))}` : ` · ${esc(tr("34 provinces"))}`}</p>`;
+      qHost.innerHTML = `<p class="adv-note">${esc(f.unit || "")} · ${yearText(f.year)}${lvQ === metros ? ` · ${esc(tr("63 former provinces"))}` : ` · ${esc(tr("34 provinces"))}`}</p>`;
       const ref = data.vn(lvQ.rows[0], k);
       const best = topBy(lvQ.rows, (r) => r.v[k], { n: 8, asc: !good });
       const worst = topBy(lvQ.rows, (r) => r.v[k], { n: 8, asc: good });
@@ -189,14 +189,14 @@ export function mount(ctx) {
       barList(qHost, { ...o, rows: mk(best), ariaLabel: tr("Best") });
       qHost.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Lagging")}</h4>`);
       barList(qHost, { ...o, rows: mk(worst), ariaLabel: tr("Lagging") });
-      if (ref) qHost.insertAdjacentHTML("beforeend", `<p class="adv-note">${esc(vnLabel(ref))}: ${fmt(ref.v)}</p>`);
+      if (ref) qHost.insertAdjacentHTML("beforeend", `<p class="adv-note">${vnLabel(ref)}: ${fmt(ref.v)}</p>`);
       if (lensId === "clean_water") qHost.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Above 95% almost everywhere; the lists show the few that lag.")}</p>`);
     }
     drawQ();
   }
 
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "worldbank_fx"], [
-    tr("Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published for the 63 former provinces (the 2025 provinces combine them); HDI {hy}, doctors and road deaths only for the 34 provinces.", { y: esc(data.mainYear), hy: esc(yearText(states.field("hdi")?.year)) }),
+    tr("Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published for the 63 former provinces (the 2025 provinces combine them); HDI {hy}, doctors and road deaths only for the 34 provinces.", { y: esc(data.mainYear), hy: yearText(states.field("hdi")?.year) }),
     ...[
     "Income per person comes from the household living standards survey; worker income from the labour force survey. They are different surveys and do not divide into each other.",
     "Poverty is the multidimensional standard for 2022–2025: a household is poor on low income or on missing basic services.",

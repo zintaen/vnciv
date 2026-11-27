@@ -104,4 +104,9 @@ they are shown by the hexes at their named islands' centres.
 - **Selections are rules.** Wonders, districts and badges come from rules published in the data files.
 
 The code is MIT-licensed (see [LICENSE](LICENSE)); the data keep their publishers' terms (the Almanac lists them).
+Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), ODbL 1.0: the files in `web/data`
+derived from OpenStreetMap (or OpenFlights) are released under the ODbL too. Text and lists from Wikipedia are
+CC BY-SA 4.0 (each history event links its article). WorldPop, ESA WorldCover, GeoNames, WRI, World Bank and Hansen /
+UMD / Google / USGS / NASA Global Forest Change are CC BY 4.0; OCHA COD-AB is CC BY-IGO; the Vietnamese Provinces
+Database is © 2021 Thang Le Quoc, MIT licence.
 The look is inspired by turn-based 4X strategy games; every glyph and texture is drawn in code.

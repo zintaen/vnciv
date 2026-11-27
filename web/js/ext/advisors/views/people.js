@@ -5,7 +5,7 @@ import { barList, histogram, rampLegend } from "../core/charts.js";
 import { createScatter } from "../core/scatter.js";
 import { section, tiles, segmented, mapPicker, frameBtn, sourcesHtml, topBy } from "../core/view.js";
 import { rowsHighlight, extendData } from "../core/data.js";
-import { yearOf, yearText } from "../core/years.js";
+import { yearOf, yearText, yearPlain } from "../core/years.js";
 import { growthLens } from "../core/lenses.js";
 import { t as tr } from "../../../i18n.js";
 
@@ -17,9 +17,9 @@ export async function mount(ctx) {
   await extendData(data, ["citizens"]); // net migration per former province (citizens.json)
 
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("Residents"), value: count3(n.population), sub: tr("NSO average population {y}", { y: yearText(yearOf(n, "population")) }) },
+    { label: tr("Residents"), value: count3(n.population), sub: tr("NSO average population {y}", { y: yearPlain(yearOf(n, "population")) }) },
     { label: tr("Growth {yrs}", { yrs: yrs.map(Number).join("–") }), value: signedPct(n.growth, 2), sub: tr("NSO average population") },
-    ...(fin(n.life_exp) ? [{ label: tr("Life expectancy"), value: tr("{v} yrs", { v: fixed(n.life_exp, 1) }), sub: tr("at birth, {y}", { y: yearText(yearOf(n, "life_exp")) }) }] : []),
+    ...(fin(n.life_exp) ? [{ label: tr("Life expectancy"), value: tr("{v} yrs", { v: fixed(n.life_exp, 1) }), sub: tr("at birth, {y}", { y: yearPlain(yearOf(n, "life_exp")) }) }] : []),
     { label: tr("Urban"), value: pct(n.urban), sub: tr("{p} provinces · {c} cities", { p: int(states.rows.length), c: int(metros.rows.length) }) },
   ]));
 
@@ -39,7 +39,7 @@ export async function mount(ctx) {
   });
 
   // --- growth ---------------------------------------------------------------------------------------------------
-  const gBody = section(el, { title: tr("Who is growing, who is shrinking"), note: tr("Population change {yrs} in NSO average population. Former provinces are shown by the city that stands for each; provinces are the 34 of 2025.", { yrs: yrs.join("–") }) });
+  const gBody = section(el, { title: tr("Who is growing, who is shrinking"), note: tr("Population change {yrs} in NSO average population. Former provinces are shown by the city that stands for each; provinces are the 34 of 2025.", { yrs: esc(yrs.join("–")) }) });
   const gHost = document.createElement("div");
   segmented(gBody, { label: tr("Areas"), value: gLevel, options: [{ value: "metros", label: tr("Former provinces") }, { value: "states", label: tr("Provinces") }], onChange: (v) => { gLevel = v; drawGrowth(); if (picker.value === "growth") picker.refresh(); } });
   gBody.appendChild(gHost);
@@ -66,7 +66,7 @@ export async function mount(ctx) {
   const migRows = metros.rows.filter((r) => fin(r.v.cz_net_migration));
   if (migRows.length) {
     const my = yearText(yearOf(metros.rows[0].ref, "migration"));
-    const mBody = section(el, { title: tr("Who moves"), note: tr("Net migration in {y}: people who moved in minus people who moved out, per 1,000 residents, by former province (NSO).", { y: esc(my) }) });
+    const mBody = section(el, { title: tr("Who moves"), note: tr("Net migration in {y}: people who moved in minus people who moved out, per 1,000 residents, by former province (NSO).", { y: my }) });
     const sg = (v) => `${v > 0 ? "+" : v < 0 ? "−" : ""}${fixed(Math.abs(v), 1)}`;
     const inn = topBy(migRows, (r) => r.v.cz_net_migration, { n: 8 });
     const out = topBy(migRows, (r) => r.v.cz_net_migration, { n: 8, asc: true });

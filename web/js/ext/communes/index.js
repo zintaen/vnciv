@@ -211,14 +211,14 @@ export function install(app) {
   app.on("camera", (c) => { if (c.Rpx >= BORDER_MIN_RPX && !c.moving) load(); });
 
   // --- search ---------------------------------------------------------------------------------------------------
-  function flyToBox(x0, y0, x1, y1) {
+  function flyToBox(x0, y0, x1, y1, maxScale = 3) {
     const pad = 0.6 * Math.max(x1 - x0, y1 - y0, 20);
-    app.fitBounds(x0 - pad, y0 - pad, x1 + pad, y1 + pad, { maxScale: 3 });
+    app.fitBounds(x0 - pad, y0 - pad, x1 + pad, y1 + pad, { maxScale });
   }
   function pickCommune(c) {
     state.sel = c;
     if (!state.on) app.ui.setMapToggle("communes", true);
-    flyToBox(c.x0, c.y0, c.x1, c.y1);
+    flyToBox(c.x0, c.y0, c.x1, c.y1, 6); // closer than towns: an inner-city ward is only 1–3 km across
   }
 
   let communesAdded = false;

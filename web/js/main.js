@@ -21,6 +21,7 @@ import { initShare } from "./app/share.js";
 import { initHelp } from "./app/help.js";
 import { initDonate } from "./app/donate.js";
 import { t, lang, setLang } from "./i18n.js";
+import { esc } from "./format.js";
 
 // Static text in index.html (titles, aria-labels, placeholders, the loading line, <title>, meta description) goes
 // through t() once, before anything else touches the DOM.
@@ -33,8 +34,18 @@ import { t, lang, setLang } from "./i18n.js";
   }
   const ld = document.getElementById("loading");
   if (ld) ld.textContent = t(ld.textContent);
+  // Map attribution: OpenStreetMap's credit links to its copyright page (ODbL).
+  const OSM = `<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">${esc(t("© OpenStreetMap contributors"))}</a>`;
   const at = document.getElementById("map-attrib");
-  if (at) at.textContent = t(at.textContent);
+  if (at) at.innerHTML = `${OSM} · Natural Earth · OCHA COD-AB`;
+  // The small "© OpenStreetMap" link stands in while the minimap (and the line above) is hidden: phones, open docks / panels.
+  const mini = document.getElementById("attrib-mini"), wrap = document.getElementById("minimap-wrap");
+  if (mini && wrap) {
+    mini.title = t("© OpenStreetMap contributors") + " · Natural Earth · OCHA COD-AB";
+    const sync = () => { mini.hidden = wrap.offsetWidth > 0; }; // (offsetParent is null for a fixed element)
+    if (typeof ResizeObserver === "function") new ResizeObserver(sync).observe(wrap); // fires on display: none too
+    sync();
+  }
 }
 
 const { drawStatic, drawOverlay, OCEAN_BG } = mapRender;
@@ -134,7 +145,7 @@ async function main() {
   });
   const pedia = initPedia({ world, nation, lenses: lensFile, sources: sources || [], w, resources, states });
   const help = initHelp();
-  initDonate();
+  const donate = initDonate();
 
   // --- static layer cache ----------------------------------------------------------------------------------------
   // Tiles, glyphs, rivers, borders, labels and resources are rendered into an offscreen canvas covering the view
@@ -437,6 +448,9 @@ async function main() {
     lastDocks = now;
     if (prevD.l === now.l && prevD.r === now.r && prevD.open === now.open) return;
     updateMinScale();
+    // A Back / Forward link's camera (at=) was aimed before the link's advisor / City view opened its dock: re-aim
+    // that flight at the new usable area, or the place lands under the dock.
+    if (linkFlight && cam.flight === linkFlight.f) return flyLinkAt(linkFlight.at, cam.flight.ms);
     if (cam.moving || !(cam.w > 160 && cam.h > 160) || !(cam.scale > 0)) return;
     const panel = panelShown();
     const a = visibleArea(panel, now);
@@ -666,6 +680,16 @@ async function main() {
     const a = visibleArea();
     return [cx + ((a.x0 + a.x1) / 2 - cam.w / 2) / s, cy + ((a.y0 + a.y1) / 2 - cam.h / 2) / s, Math.log2(s / fitScale())];
   }
+  // The flight a link's at= started (Back / Forward), so onDocksChanged can re-aim it: {f: cam.flight, at}.
+  let linkFlight = null;
+  function flyLinkAt(at, ms) {
+    const [vx, vy, z] = at;
+    const s = cam.clampScale(fitScale() * 2 ** z);
+    const a = visibleArea();
+    cam.flyTo(vx - ((a.x0 + a.x1) / 2 - cam.w / 2) / s, vy - ((a.y0 + a.y1) / 2 - cam.h / 2) / s, s, ms);
+    linkFlight = { f: cam.flight, at };
+    requestDraw();
+  }
   let stateHashRef = null; // {idx, raw}: the form of the #state value the current selection came from
   const url = createHashState({
     // A flight is not "busy": read() reports its destination. Pans and wheel zooms are, until they settle.
@@ -707,7 +731,7 @@ async function main() {
           cam.y = y;
           cam.scale = s;
           cam.clamp();
-        } else cam.flyTo(x, y, s, 650);
+        } else flyLinkAt(p.at, 650);
         userMoved = true;
       } else if (!initial && !city && sIdx < 0) {
         const h = homeView();
@@ -850,6 +874,7 @@ async function main() {
   const shareInfo = () => ({
     renderMap: renderShareMap,
     lens: shownLens(),
+    lensSource: (sources || []).find((x) => x.id === state.lens?.source) || null,
     formatValue: (lens, t) => formatLensValue(lens, lensValueAt(lens, t)),
     selection: state.selectedCity ? { kind: "city", name: state.selectedCity.name }
       : state.selectedState != null ? { kind: "state", name: stateName(state.selectedState), abbr: w.raw.states[state.selectedState]?.abbr } : null,
@@ -1172,6 +1197,7 @@ async function main() {
 
   // Esc closes the topmost thing: help, search, share, a top-bar report, lens picker, Almanac, then the panel.
   function escape() {
+    if (donate?.isOpen) return donate.close();
     if (help.isOpen) return help.close();
     if (search.isOpen) return search.close();
     if (share.isOpen) return share.close();
@@ -1189,13 +1215,13 @@ async function main() {
     const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
     if ((e.metaKey || e.ctrlKey) && !e.altKey && k === "k") {
       e.preventDefault();
-      if (!help.isOpen && !pedia.isOpen) search.focus();
+      if (!help.isOpen && !pedia.isOpen && !donate?.isOpen) search.focus();
       return;
     }
     if (k === "Escape") { escape(); return; }
     if (e.metaKey || e.ctrlKey || e.altKey || typing(e.target)) return;
-    if (k === "?") { e.preventDefault(); help.toggle(); return; }
-    if (help.isOpen || pedia.isOpen) return;
+    if (k === "?") { e.preventDefault(); if (!donate?.isOpen) help.toggle(); return; }
+    if (help.isOpen || pedia.isOpen || donate?.isOpen) return; // a dialog is up: no map shortcuts behind it
     if (k === "/") {
       e.preventDefault();
       search.focus();

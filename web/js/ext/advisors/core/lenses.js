@@ -3,6 +3,7 @@
 // accepts; they are built once per data model and cached, so the lens dock's histogram cache stays valid.
 import { fin, quantile } from "./util.js";
 import { t as tr } from "../../../i18n.js";
+import { popIn, yearOf } from "./years.js";
 // Names and units stay English (the lens dock translates them where it shows them); descriptions built from data
 // (years, yield labels) are translated here, since no dictionary key could match the filled-in sentence.
 
@@ -64,7 +65,7 @@ export function scienceLens(data) {
     const { app, cellMetro } = data;
     const n = app.w.grid.size, owner = app.w.raw.owner;
     const values = new Array(n).fill(null);
-    const share = (c) => (fin(c.yields?.science) && c.population > 0 ? c.yields.science / c.population : null);
+    const share = (c) => { const p = popIn(c, yearOf(c, "students")); return fin(c.yields?.science) && p > 0 ? c.yields.science / p : null; };
     for (const [cell, city] of cellMetro) if (owner[cell] >= 0) values[cell] = share(city);
     const sci = app.data.nation?.yields?.find((y) => y.key === "science");
     return {

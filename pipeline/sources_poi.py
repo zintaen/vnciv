@@ -22,7 +22,7 @@ def _relic_qids():
 
 
 OSM = dict(publisher="OpenStreetMap contributors (via Overpass API)", homepage="https://www.openstreetmap.org/",
-           license="ODbL 1.0")
+           license="ODbL 1.0 (© OpenStreetMap contributors)")
 
 SOURCES = [
     dict(id="osm_poi", title="OpenStreetMap everyday places of Vietnam", **OSM,

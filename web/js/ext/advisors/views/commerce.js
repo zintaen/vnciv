@@ -40,13 +40,13 @@ export async function mount(ctx) {
     { label: tr("Air passengers"), value: count3(totalPax), sub: `${tr("{n} airports, {year}", { n: airports.length, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
     // With the air routes, the busiest airport moves into the passengers tile so the headline stays one row.
     trade?.routes?.length
-      ? { label: tr("Air routes"), value: int(trade.routes.length), sub: tr("domestic, OpenFlights {year}", { year: esc(String(trade.year || 2014)) }) }
+      ? { label: tr("Air routes"), value: int(trade.routes.length), sub: tr("domestic, OpenFlights {year}", { year: String(trade.year || 2014) }) }
       : { label: tr("Busiest airport"), value: topAir ? count3(topAir.enplanements) : "–", sub: topAir ? tr("{id} passengers", { id: topAir.id }) : "" },
   ]));
 
   // --- ports ------------------------------------------------------------------------------------------------------
   let portTable = null, airBars = null, portBubbles = null, airBubbles = null;
-  const pBody = section(el, { title: tr("Seaports"), kicker: esc(tr(v.ports || "")), note: tr("{rule} Hover a port to find it on the map; click to fly there.", { rule: esc(tr(infra.rules?.ports || "")) }) });
+  const pBody = section(el, { title: tr("Seaports"), kicker: tr(v.ports || ""), note: tr("{rule} Hover a port to find it on the map; click to fly there.", { rule: esc(tr(infra.rules?.ports || "")) }) });
   const portHover = (p) => {
     link.hover(p ? { cells: new Set(p.cell != null ? [p.cell] : []), label: p.name } : null);
     portBubbles?.setHot(p ? p.key : null);
@@ -67,7 +67,7 @@ export async function mount(ctx) {
   if (byClass.length) pBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${byClass.map(([c, k]) => `<b>${esc(tr(c.name))}</b>: ${int(k)}`).join(" · ")}. ${tr("Port areas placed at the town they are named after (no mapped port found): {n}.", { n: int(ports.filter((p) => p.placed === "town").length) })}</p>`);
 
   // --- airports ---------------------------------------------------------------------------------------------------
-  const aBody = section(el, { title: tr("Airports"), kicker: esc(tr(v.airports || "")), note: esc(tr(infra.rules?.airports || "")) });
+  const aBody = section(el, { title: tr("Airports"), kicker: tr(v.airports || ""), note: esc(tr(infra.rules?.airports || "")) });
   const airHover = (a) => {
     link.hover(a ? { cells: new Set(a.cell != null ? [a.cell] : []), label: `${a.id} · ${airportName(a.name)}` } : null);
     airBubbles?.setHot(a ? a.key : null);
@@ -104,7 +104,7 @@ export async function mount(ctx) {
   });
   airBubbles = ctx.bubbles("airports", {
     rMax: 18, alpha: 0.5,
-    tip: (b) => `<b>${esc(b.it.id)} · ${esc(b.it.name)}</b><br>${esc(tr(infra.hubs?.[b.it.hub] || "Airport"))} · ${tr("<b>{n}</b> passengers ({year})", { n: count3(b.it.enplanements), year: b.it.year })}`,
+    tip: (b) => `<b>${esc(b.it.id)} · ${esc(b.it.name)}</b><br>${esc(tr(infra.hubs?.[b.it.hub] || "Airport"))} · ${tr("<b>{n}</b> passengers ({year})", { n: count3(b.it.enplanements), year: esc(b.it.year) })}`,
     onHover: (b) => airBars?.setHot(b ? b.key : null),
     onClick: (b) => { airBars?.setHot(b.key); flyTo(b.it); },
   });
@@ -176,7 +176,7 @@ function airRoutes(ctx, trade) {
   const st = { zone: null, route: null, hot: null };
 
   const body = section(el, {
-    title: tr("Air routes"), kicker: esc(trade.vintage ? tr(trade.vintage) : tr("OpenFlights routes, June 2014")),
+    title: tr("Air routes"), kicker: trade.vintage ? tr(trade.vintage) : tr("OpenFlights routes, June 2014"),
     note: `${esc(tr(trade.rule || ""))} ${esc(tr(trade.path_note || ""))} ${tr("Hover a route to light it up on the map; click to pin it.")}`,
   });
   const ctl = mk("div", "adv-row");

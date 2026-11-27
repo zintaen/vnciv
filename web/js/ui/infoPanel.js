@@ -184,7 +184,7 @@ export function growthSpan(o, n = null) {
   const tip = t("Population change {period}, NSO average population: {v}", { period, v: p(o.growth) }) + vn;
   const cls = o.growth >= 0 ? "good" : "bad";
   return `<span class="gsep"><span class="growth ${cls}" title="${esc(tip)}">${o.growth >= 0 ? "▲" : "▼"} ${fixed(Math.abs(o.growth * 100), 1)}%${
-    yrs ? ` <span class="since">${t("since {y}", { y: yrs[0] })}</span>` : ""}</span></span>`;
+    yrs ? ` <span class="since">${esc(t("since {y}", { y: yrs[0] }))}</span>` : ""}</span></span>`;
 }
 
 export const popLine = (o, extra = "") =>

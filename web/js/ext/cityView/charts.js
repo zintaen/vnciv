@@ -26,9 +26,9 @@ export function sparkline(series, { fmt, color = "#ecd08e", height = 92, title =
   const up = last.value >= first.value;
   const lineCol = up ? color : "#f08a6a";
   const dots = pts.map(([x, y], k) =>
-    `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${k === pts.length - 1 ? 4 : 2.6}" fill="${k === pts.length - 1 ? lineCol : "#16212d"}" stroke="${lineCol}" stroke-width="1.6"><title>${series[k].year}: ${esc(fmt(series[k].value))}</title></circle>`).join("");
+    `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${k === pts.length - 1 ? 4 : 2.6}" fill="${k === pts.length - 1 ? lineCol : "#16212d"}" stroke="${lineCol}" stroke-width="1.6"><title>${esc(series[k].year)}: ${esc(fmt(series[k].value))}</title></circle>`).join("");
   const years = series.map((p, k) =>
-    `<text x="${X(k).toFixed(1)}" y="${H - 5}" text-anchor="${k === 0 ? "start" : k === series.length - 1 ? "end" : "middle"}" class="cv-ax">${p.year}</text>`).join("");
+    `<text x="${X(k).toFixed(1)}" y="${H - 5}" text-anchor="${k === 0 ? "start" : k === series.length - 1 ? "end" : "middle"}" class="cv-ax">${esc(p.year)}</text>`).join("");
   const grid = [0.25, 0.5, 0.75].map((f) => {
     const y = (padT + f * (H - padT - padB)).toFixed(1);
     return `<line x1="${padL}" x2="${W - padR}" y1="${y}" y2="${y}" class="cv-grid"/>`;

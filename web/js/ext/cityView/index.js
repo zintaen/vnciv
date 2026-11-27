@@ -283,14 +283,26 @@ export async function install(app) {
   // The hover tooltip says "Click to open the city"; inside the City View that is wrong for the open city (it is
   // already open: the line goes) and for its neighbours (a click switches the view). The tooltip belongs to the
   // core, so this rewrites its line after the core has drawn it.
-  let hoverCity = null;
-  app.on("hover", (h) => { hoverCity = h?.city || null; });
+  // A province line ("Click to open Phú Thọ") is wrong too: a click inside the footprint does nothing and one outside
+  // only closes the City View (see "mapclick" below), so the line goes or says so.
+  let hoverCity = null, hoverCell = -1;
+  app.on("hover", (h) => { hoverCity = h?.city || null; hoverCell = h?.cell ?? -1; });
+  const stateLine = t("Click to open {name}", { name: "\u0000" }).split("\u0000");
   const tipObserver = new MutationObserver(() => {
     if (app.mode !== MODE || !cv.city) return;
     const tip = document.getElementById("tooltip");
     if (!tip) return;
     for (const s of tip.querySelectorAll("span.muted")) {
-      if (s.textContent !== t("Click to open the city")) continue;
+      const tx = s.textContent;
+      if (!hoverCity && tx.startsWith(stateLine[0]) && tx.endsWith(stateLine[1]) && tx !== t("Click to open the city")) {
+        if (cv.model?.mask.has(hoverCell)) {
+          const br = s.previousSibling;
+          if (br && br.nodeName === "BR") br.remove();
+          s.remove();
+        } else s.textContent = t("Close the City View (Esc)");
+        continue;
+      }
+      if (tx !== t("Click to open the city")) continue;
       if (hoverCity === cv.city) {
         const br = s.previousSibling;
         if (br && br.nodeName === "BR") br.remove();

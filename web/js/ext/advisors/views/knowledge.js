@@ -1,6 +1,6 @@
 // Knowledge advisor: university students (the Science yield), trained workers, literacy and HDI.
 import { esc, fin, ratio, colorScale, robustDomain, RAMPS } from "../core/util.js";
-import { money, pct, int, count3, fmtShort } from "../core/fmt.js";
+import { money, pct, int, count3, fmtShort, fixed } from "../core/fmt.js";
 import { barList, histogram, rampLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
@@ -19,9 +19,9 @@ export function mount(ctx) {
   const vnShare = ratio(vnSci, n.population);
 
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("University students"), value: count3(vnSci), sub: tr("{n} per 1,000 residents", { n: fin(vnShare) ? (vnShare * 1000).toFixed(1) : "–" }), color: sci?.color },
+    { label: tr("University students"), value: count3(vnSci), sub: tr("{n} per 1,000 residents", { n: fin(vnShare) ? fixed((vnShare * 1000), 1) : "–" }), color: sci?.color },
     { label: tr("Trained workers"), value: pct(n.trained), sub: tr("of the labour force") },
-    { label: tr("Literacy"), value: pct(n.literacy), sub: tr("people 15+ · HDI {hdi}", { hdi: fin(n.hdi) ? n.hdi.toFixed(3) : "–" }) },
+    { label: tr("Literacy"), value: pct(n.literacy), sub: tr("people 15+ · HDI {hdi}", { hdi: fin(n.hdi) ? fixed(n.hdi, 3) : "–" }) },
   ]));
 
   // --- the map: trained workers by default (the scatter's x axis), or students, literacy, HDI -----------------------
@@ -57,7 +57,7 @@ export function mount(ctx) {
     const list = mode === "abs" ? topBy(metros.rows, (r) => r.v.students, { n: 12 }) : topBy(metros.rows, share, { n: 12 });
     barList(sHost, {
       rank: true, ariaLabel: tr("University cities"),
-      rows: list.map((x) => ({ key: x.r.key, label: x.r.name, sub: mode === "abs" ? tr("{n} per 1,000", { n: (share(x.r) * 1000).toFixed(0) }) : `×${(share(x.r) / vnShare).toFixed(1)} VN`, value: x.v, text: mode === "abs" ? count3(x.v) : `${(x.v * 1000).toFixed(0)} / 1,000`, color: sci?.color, row: x.r })),
+      rows: list.map((x) => ({ key: x.r.key, label: x.r.name, sub: mode === "abs" ? tr("{n} per 1,000", { n: fixed((share(x.r) * 1000), 0) }) : `×${fixed((share(x.r) / vnShare), 1)} VN`, value: x.v, text: mode === "abs" ? count3(x.v) : `${fixed((x.v * 1000), 0)} / 1,000`, color: sci?.color, row: x.r })),
       onHover: (r) => link.hover(r ? rowsHighlight(metros, [r.row]) : null),
       onClick: (r) => metros.focus(r.row),
     });
@@ -88,7 +88,7 @@ export function mount(ctx) {
     x: { label: tr("Trained workers"), fmt: (v) => fmtShort("pct", v) },
     y: { label: tr("Income per person per year"), fmt: money, log: true },
     size: { label: tr("Population"), fmt: count3, max: 14, min: 2 },
-    color: (c) => hdiColor(c), colorLabel: tr("HDI"), colorFmt: (v) => v.toFixed(3),
+    color: (c) => hdiColor(c), colorLabel: tr("HDI"), colorFmt: (v) => fixed(v, 3),
     onHover: (p) => link.hover(p ? rowsHighlight(lv(), [p.row]) : null),
     onClick: (p) => lv().focus(p.row),
     onBrush: (set) => {
@@ -97,7 +97,7 @@ export function mount(ctx) {
       selInfo.innerHTML = sel.length ? `${tr("<b>{n}</b> {places} · {people} people", { n: int(sel.length), places: esc(lv().label.toLowerCase()), people: count3(sel.reduce((a, r) => a + (r.v.population || 0), 0)) })} ${frameBtn()}<button type="button" class="adv-mini" data-clear>${tr("Clear")}</button>` : "";
     },
   });
-  dBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.seq, domain: hdiDom, fmt: (v) => v.toFixed(2), label: tr("Human Development Index") }));
+  dBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.seq, domain: hdiDom, fmt: (v) => fixed(v, 2), label: tr("Human Development Index") }));
   const selInfo = document.createElement("div");
   selInfo.className = "adv-brushinfo";
   dBody.appendChild(selInfo);
@@ -131,7 +131,7 @@ export function mount(ctx) {
       { key: "population", label: tr("People"), value: (r) => r.v.population, text: (r) => count3(r.v.population) },
       { key: "literacy", label: tr("Literacy"), value: (r) => r.v.literacy, text: (r) => pct(r.v.literacy), bar: { max: 1, color: "rgba(74,134,214,.4)" } },
       { key: "trained", label: tr("Trained"), value: (r) => r.v.trained, text: (r) => pct(r.v.trained) },
-      { key: "hdi", label: tr("HDI"), value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? r.v.hdi.toFixed(3) : "–") },
+      { key: "hdi", label: tr("HDI"), value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? fixed(r.v.hdi, 3) : "–") },
     ],
     sort: { key: "literacy", dir: "asc" },
     onHover: (r) => link.hover(r ? rowsHighlight(counties, [r]) : null),

@@ -10,6 +10,7 @@
 // Every chart calls opts.onHover(item | null) and opts.onClick(item) and returns {setHot(key), el, ...}.
 import { esc, fin, clamp, scale, ticks, logTicks, rampColor } from "./util.js";
 import { t as tr } from "../../../i18n.js";
+import { fixed } from "../../../format.js";
 
 /** Delegated hover / focus / click on [data-key] children. */
 function wire(root, find, { onHover, onClick }) {
@@ -138,7 +139,7 @@ export function shareBar(host, opts) {
   </div>
   ${opts.legend === false ? "" : `<div class="adv-swatches" role="list">${parts.map((p) => `<button type="button" role="listitem" class="adv-sw${p.key === opts.selected ? " sel" : ""}" data-key="${esc(p.key)}">
     <i style="background:${esc(p.color)}"></i>${p.icon ? `<span class="ic" aria-hidden="true">${p.icon}</span>` : ""}<span class="lb">${esc(p.label)}</span>
-    <span class="vl">${((p.value / tot) * 100).toFixed(p.value / tot < 0.01 ? 1 : 0)}%</span></button>`).join("")}</div>`}`;
+    <span class="vl">${fixed(((p.value / tot) * 100), p.value / tot < 0.01 ? 1 : 0)}%</span></button>`).join("")}</div>`}`;
   host.appendChild(root);
   const byKey = new Map(parts.map((p) => [String(p.key), p]));
   wire(root, (t) => byKey.get(t.dataset.key), opts);

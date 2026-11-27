@@ -477,7 +477,7 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     const nOn = list.filter(isOn).length;
     btn.classList.toggle("active", nOn > 0);
     btn.setAttribute("aria-label", tr("Map layers ({n} of {total} on)", { n: nOn, total: list.length }));
-    btn.innerHTML = `${glyph("terrain", 15)}<span>${tr("Map")}</span>${nOn ? `<b class="ml-count">${nOn}</b>` : ""}`;
+    btn.innerHTML = `${glyph("layers", 15)}<span>${tr("Layers")}</span>${nOn ? `<b class="ml-count">${nOn}</b>` : ""}`;
     if (pop.hidden) return;
     pop.innerHTML = `<div class="ml-head">${tr("Map layers")}</div>` + list.map((t) => {
       const on = isOn(t);

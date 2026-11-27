@@ -5,7 +5,7 @@
 // lenses.json, no DOM, so it is easy to check from the console (`window.__app.reports`). The second half renders.
 // "States" in the data are Vietnam's 34 provinces of 2025; "cities" are the seats of the 63 former provinces, each
 // standing for its whole former province.
-import { compact, dollars, esc, int, money, pct } from "../format.js";
+import { compact, dollars, esc, fixed, int, money, pct } from "../format.js";
 import { hasIcon } from "../icons.js";
 import { icon, glyph } from "./icon.js";
 import { DISTRICT_ICON } from "./infoPanel.js";
@@ -33,13 +33,13 @@ const advisorApp = () => (typeof window !== "undefined" && window.__app?.hasMode
 
 const fin = Number.isFinite;
 const ratio = (a, b) => (fin(a) && fin(b) && b > 0 ? a / b : null);
-export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${Math.abs(g * 100).toFixed(d)}%` : "–");
+export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${fixed(Math.abs(g * 100), d)}%` : "–");
 
 // Counts to three significant figures (leaderboards: 1.12M vs 1.11M rather than 1.1M twice).
 export function count3(n) {
   if (!fin(n)) return "–";
   const a = Math.abs(n);
-  const sig = (d, unit) => (n / d).toFixed(a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
+  const sig = (d, unit) => fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
   if (a >= 1e12) return sig(1e12, "T");
   if (a >= 1e9) return sig(1e9, "B");
   if (a >= 1e6) return sig(1e6, "M");
@@ -249,10 +249,10 @@ function reportMoney(rep, nation, n, st, metros) {
 
 // Per-resident reading of a count yield: rice in kg per person, workers as a share of residents, others per 1,000.
 function perResident(def) {
-  if (def.unit === "tonnes") return { f: 1000, fmt: (v) => `${int(v)} kg`, exact: (v) => `${v.toFixed(1)} kg`, hint: t("kilograms per resident"), ctx: (v) => t("{n} kg per resident", { n: int(v) }) };
+  if (def.unit === "tonnes") return { f: 1000, fmt: (v) => `${int(v)} kg`, exact: (v) => `${fixed(v, 1)} kg`, hint: t("kilograms per resident"), ctx: (v) => t("{n} kg per resident", { n: int(v) }) };
   if (def.unit === "workers") return { f: 1, fmt: (v) => pct(v), exact: (v) => pct(v, 2), hint: t("share of residents"), ctx: (v) => t("{p} of residents", { p: pct(v) }) };
   const u = t(def.unit || "count");
-  return { f: 1000, fmt: (v) => v.toFixed(1), exact: (v) => v.toFixed(2), hint: t("{u} per 1,000 residents", { u }), ctx: (v) => t("{n} {u} per 1,000 residents", { n: v.toFixed(1), u }) };
+  return { f: 1000, fmt: (v) => fixed(v, 1), exact: (v) => fixed(v, 2), hint: t("{u} per 1,000 residents", { u }), ctx: (v) => t("{n} {u} per 1,000 residents", { n: fixed(v, 1), u }) };
 }
 
 // Count yields (Food: rice tonnes, Production: workers, Science: students).

@@ -1,7 +1,8 @@
 // Share popover: copy a link to the current view, or download a 1600×900 PNG of it with a caption strip.
 import { drawIcon, hasIcon } from "../icons.js";
 import { icon } from "../ui/icon.js";
-import { t } from "../i18n.js";
+import { t, lang } from "../i18n.js";
+import { kindOf } from "../format.js";
 
 // The address printed on shared images. Set it to the published site (e.g. "example.com/vnciv"); when left
 // empty, the page's own host and path are used, except on a local dev server, where SITE_FALLBACK is printed.
@@ -165,7 +166,7 @@ export function composeImage(info, { height = IMG_H } = {}) {
     ctx.font = `13px ${SANS}`;
     ctx.fillStyle = "#b9ab88";
     spaced(ctx, 2);
-    ctx.fillText(t(sel.kind === "state" ? "STATE" : "CITY"), rx, cy - 30);
+    ctx.fillText(sel.kind === "state" ? kindOf(sel.abbr).toLocaleUpperCase(lang) : t("CITY"), rx, cy - 30);
     spaced(ctx, 0);
     ctx.font = `bold 24px ${SERIF}`;
     ctx.fillStyle = "#f3e6c4";

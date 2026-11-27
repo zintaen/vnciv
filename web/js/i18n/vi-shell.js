@@ -3,7 +3,7 @@ export default {
   // --- index.html (titles, aria-labels, placeholders, loading) ---
   "vnciv — Vietnam as a strategy game": "vnciv — Việt Nam như một trò chơi chiến thuật",
   "The real Vietnam drawn like a 4X strategy map: hex terrain, provinces, cities with yields, lenses and resources, all from public data.":
-    "Việt Nam thật, vẽ như bản đồ trò chơi chiến thuật 4X: địa hình ô lục giác, tỉnh, thành phố với sản lượng, lớp bản đồ và tài nguyên, tất cả từ dữ liệu công khai.",
+    "Việt Nam thật, vẽ như bản đồ trò chơi chiến thuật 4X: địa hình ô lục giác, tỉnh, thành phố với sản lượng, bản đồ chủ đề và tài nguyên, tất cả từ dữ liệu công khai.",
   "Việt Nam": "Việt Nam",
   "National yields": "Sản lượng quốc gia",
   "Search cities & provinces": "Tìm thành phố, tỉnh",
@@ -17,9 +17,9 @@ export default {
   "What every number means and where it comes from": "Ý nghĩa và nguồn gốc của mọi con số",
   "Hex map of Vietnam": "Bản đồ ô lục giác Việt Nam",
   "Details": "Chi tiết",
-  "Choose a lens": "Chọn lớp bản đồ",
-  "Lens legend": "Chú giải lớp bản đồ",
-  "Map lenses": "Các lớp bản đồ",
+  "Choose a lens": "Chọn bản đồ chủ đề",
+  "Lens legend": "Chú giải bản đồ chủ đề",
+  "Map lenses": "Các bản đồ chủ đề",
   "Resources on tiles (R)": "Tài nguyên trên ô (R)",
   "Show or hide resources on tiles (R)": "Hiện hoặc ẩn tài nguyên trên ô (R)",
   "Minimap: click to jump": "Bản đồ nhỏ: bấm để di chuyển tới",
@@ -27,15 +27,14 @@ export default {
   "Hide the minimap": "Ẩn bản đồ nhỏ",
   "Search results": "Kết quả tìm kiếm",
   "Share": "Chia sẻ",
-  "National report": "Báo cáo quốc gia",
   "Almanac": "Niên giám",
   "Close the Almanac": "Đóng Niên giám",
   "Almanac pages": "Các trang Niên giám",
   "Surveying the land…": "Đang khảo sát đất đai…",
 
   // --- main.js ---
-  "State": "Tỉnh",
-  "coloured by the {lens} lens": "tô màu theo lớp {lens}",
+  "State": "Tỉnh/thành",
+  "coloured by the {lens} lens": "tô màu theo bản đồ chủ đề {lens}",
   "showing terrain": "hiển thị địa hình",
   "{name} selected": "đã chọn {name}",
   "{name} selected.": "Đã chọn {name}.",
@@ -61,16 +60,15 @@ export default {
     "Tiền được tính bằng đô la Mỹ, quy đổi theo tỷ giá chính thức của Ngân hàng Thế giới năm {year} ({fx} ₫ mỗi $).",
   "Controls": "Điều khiển",
   "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide resources · ? for all shortcuts · Esc to close.":
-    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm · L để chuyển lớp bản đồ · R để hiện hoặc ẩn tài nguyên · ? để xem mọi phím tắt · Esc để đóng.",
+    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm · L để chuyển bản đồ chủ đề · R để hiện hoặc ẩn tài nguyên · ? để xem mọi phím tắt · Esc để đóng.",
   "The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.":
-    "Thanh địa chỉ luôn chứa liên kết tới những gì bạn đang xem (lớp bản đồ, lựa chọn và góc nhìn); dùng <i>Chia sẻ</i> để sao chép liên kết hoặc tải ảnh.",
+    "Thanh địa chỉ luôn chứa liên kết tới những gì bạn đang xem (bản đồ chủ đề, lựa chọn và góc nhìn); dùng <i>Chia sẻ</i> để sao chép liên kết hoặc tải ảnh.",
   "Yields": "Sản lượng",
   "Civilization's yields mapped onto real measures that Vietnam's statistics office publishes for every province. <b>Gold is GDP</b> (GRDP): output per year, counted where the work is done.":
     "Các loại sản lượng kiểu Civilization được gắn với những chỉ số thật mà Cục Thống kê công bố cho từng tỉnh. <b>Vàng là GDP</b> (GRDP): giá trị sản xuất mỗi năm, tính tại nơi làm ra.",
   "Work &amp; income": "Việc làm &amp; thu nhập",
   "Unemployment = unemployed ÷ labour force in working age (Labour Force Survey). Income is the average monthly income per person from the Household Living Standards Survey, × 12: per person, not per household.":
     "Thất nghiệp = số người thất nghiệp ÷ lực lượng lao động trong độ tuổi lao động (Điều tra Lao động – Việc làm). Thu nhập là thu nhập bình quân đầu người một tháng từ Khảo sát Mức sống Hộ gia đình, × 12: tính theo người, không theo hộ.",
-  "Provinces": "Tỉnh",
   "Click any land hex without a city to open its province. A province's numbers add up its former provinces ({vintage}); rates are averages weighted by population (or by labour force for work rates).":
     "Bấm vào ô đất liền không có thành phố để mở tỉnh của ô đó. Số liệu của tỉnh là tổng các tỉnh cũ ({vintage}); các tỷ lệ là trung bình có trọng số theo dân số (hoặc theo lực lượng lao động với các tỷ lệ việc làm).",
   "<b>Ranks</b> (\"#3 of {n}\") compare the {n} provinces; 1 is the largest.":
@@ -90,9 +88,9 @@ export default {
   "Beyond the borders": "Bên kia biên giới",
   "Neighbouring land (China, Laos, Cambodia, Thailand and beyond) is drawn under a light fog: it is shown for context and not mapped in detail.":
     "Lãnh thổ lân cận (Trung Quốc, Lào, Campuchia, Thái Lan và xa hơn) được vẽ dưới một lớp sương mờ: chỉ để làm bối cảnh, không được lập bản đồ chi tiết.",
-  "Lenses": "Lớp bản đồ",
+  "Lenses": "Bản đồ chủ đề",
   "Lenses recolour the map by one measure ({vintage}). Population density, land cover and typhoons are measured hex by hex from gridded data. The province lenses spread each former province's figure over its hexes; a hex on a border averages its 7 sample points (centre + 6), so borders blend a little.":
-    "Lớp bản đồ tô lại bản đồ theo một chỉ số ({vintage}). Mật độ dân số, lớp phủ đất và bão được đo theo từng ô từ dữ liệu dạng lưới. Các lớp theo tỉnh trải số liệu của mỗi tỉnh cũ lên các ô của nó; một ô nằm trên ranh giới lấy trung bình 7 điểm mẫu (tâm + 6), nên ranh giới hơi hòa vào nhau.",
+    "Bản đồ chủ đề tô lại bản đồ theo một chỉ số ({vintage}). Mật độ dân số, lớp phủ đất và bão được đo theo từng ô từ dữ liệu dạng lưới. Các bản đồ chủ đề theo tỉnh trải số liệu của mỗi tỉnh cũ lên các ô của nó; một ô nằm trên ranh giới lấy trung bình 7 điểm mẫu (tâm + 6), nên ranh giới hơi hòa vào nhau.",
   "The legend shows how many hexes fall at each value. Hover or drag on it to show only that range on the map.":
     "Chú giải cho biết có bao nhiêu ô ở mỗi giá trị. Rê chuột hoặc kéo trên đó để chỉ hiện khoảng giá trị ấy trên bản đồ.",
   "Scale: {scale}, {lo}–{hi} {unit}": "Thang: {scale}, {lo}–{hi} {unit}",
@@ -109,7 +107,7 @@ export default {
   "other": "khác",
   "Type": "Loại",
   "What counts": "Tiêu chí",
-  "Sites": "Số điểm",
+  "Sites": "Địa điểm",
   "value in {unit}": "giá trị tính bằng {unit}",
   "Source: {source}": "Nguồn: {source}",
   "Sources": "Nguồn",
@@ -119,15 +117,15 @@ export default {
   "no data": "không có dữ liệu",
   "{n} min": "{n} phút",
   "{n} yrs": "{n} năm",
-  "{name} lens": "Lớp {name}",
-  "{name} (no lens)": "{name} (không có lớp)",
-  "All lenses (L cycles)": "Tất cả lớp bản đồ (L để chuyển)",
-  "Close lens picker": "Đóng bảng chọn lớp bản đồ",
+  "{name} lens": "Bản đồ chủ đề {name}",
+  "{name} (no lens)": "{name} (không tô màu chủ đề)",
+  "All lenses (L cycles)": "Tất cả bản đồ chủ đề (L để chuyển)",
+  "Close lens picker": "Đóng bảng chọn bản đồ chủ đề",
   "Base map": "Bản đồ nền",
   "Other": "Khác",
   "{name} ({n} hexes)": "{name} ({n} ô)",
   "Show the full legend": "Hiện đầy đủ chú giải",
-  "Turn the lens off (back to terrain)": "Tắt lớp bản đồ (về địa hình)",
+  "Turn the lens off (back to terrain)": "Tắt bản đồ chủ đề (về địa hình)",
   "Back to terrain": "Về địa hình",
   "{name} categories: click one to show only it": "Các nhóm của {name}: bấm một nhóm để chỉ hiện nhóm đó",
   "Click a category to show only it": "Bấm một nhóm để chỉ hiện nhóm đó",
@@ -148,7 +146,7 @@ export default {
   "Close help": "Đóng trợ giúp",
   "Move": "Di chuyển",
   "Explore": "Khám phá",
-  "Panels": "Bảng",
+  "Panels": "Khung thông tin",
   "Drag": "Kéo",
   "WASD": "WASD",
   "Scroll": "Cuộn",
@@ -169,7 +167,7 @@ export default {
   "Open the city screen": "Mở màn hình thành phố",
   "Open that province": "Mở tỉnh đó",
   "Search cities and provinces": "Tìm thành phố và tỉnh",
-  "Next / previous lens": "Lớp bản đồ tiếp theo / trước đó",
+  "Next / previous lens": "Bản đồ chủ đề tiếp theo / trước đó",
   "Show or hide resources": "Hiện hoặc ẩn tài nguyên",
   "This help": "Trợ giúp này",
   "Close help, search, Almanac, then the panel": "Đóng trợ giúp, tìm kiếm, Niên giám, rồi đến bảng thông tin",
@@ -180,13 +178,12 @@ export default {
 
   // --- search ---
   "Search": "Tìm kiếm",
-  "Province": "Tỉnh",
+  "Province": "Tỉnh/thành",
   "No city or province matches “{q}”": "Không có thành phố hay tỉnh nào khớp “{q}”",
 
   // --- share dialog and image ---
   "A strategy-map atlas of the real economy": "Tập bản đồ chiến thuật về nền kinh tế thật",
   "Land cover, relief, rivers and resources": "Địa hình, sông ngòi và tài nguyên",
-  "STATE": "TỈNH",
   "CITY": "THÀNH PHỐ",
   "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth":
     "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth",
@@ -201,10 +198,11 @@ export default {
   "Could not create the image in this browser.": "Không thể tạo ảnh trên trình duyệt này.",
 
   // --- map layers menu (app/api.js, ext/layers) ---
-  "Map layers: roads, rail, military and more": "Lớp hiển thị: đường bộ, đường sắt, quân sự và hơn nữa",
-  "Map layers": "Lớp hiển thị",
-  "Map layers ({n} of {total} on)": "Lớp hiển thị ({n}/{total} đang bật)",
+  "Map layers: roads, rail, military and more": "Lớp bản đồ: đường bộ, đường sắt, quân sự và hơn nữa",
+  "Map layers": "Lớp bản đồ",
+  "Map layers ({n} of {total} on)": "Lớp bản đồ ({n}/{total} đang bật)",
   "Map": "Bản đồ",
+  "Layers": "Lớp",
   "Roads": "Đường bộ",
   "Railways": "Đường sắt",
   "Ports & airports": "Cảng & sân bay",
@@ -222,10 +220,13 @@ export default {
   "The 30 domestic air routes flown by the most airlines (OpenFlights, 2014)": "30 đường bay nội địa có nhiều hãng khai thác nhất (OpenFlights, 2014)",
 
   // --- map tooltips (ext/layers/tips.js) ---
+  "Drawn on the next hex so it stays visible; its true location falls in the city hex of {name}.":
+    "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong ô thành phố {name}.",
+  "Drawn on the next hex so it stays visible; its true location falls in a city hex.":
+    "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong một ô thành phố.",
   "${n} trillion": "{n} nghìn tỷ $",
   "${n} billion": "{n} tỷ $",
   "${n} million": "{n} triệu $",
-  "Major hub (10M+ passengers)": "Sân bay trung tâm lớn (trên 10 triệu hành khách)",
   "Medium hub (2–10M passengers)": "Sân bay trung tâm vừa (2–10 triệu hành khách)",
   "Small hub (0.5–2M passengers)": "Sân bay trung tâm nhỏ (0,5–2 triệu hành khách)",
   "Local airport": "Sân bay địa phương",

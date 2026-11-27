@@ -16,7 +16,7 @@ EXTRA = [
          used_for=["Yields", "City and province panels", "Province lenses", "Districts", "Citizens"],
          files=[{"file": "NG-TONG-CUC-2024_OKIN_Final.pdf", "url": "https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf"},
                 {"file": "PX-Web API", "url": "https://pxweb.nso.gov.vn/api/v1/vi/"}]),
-    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022 and 2024", publisher="VCCI",
+    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022", publisher="VCCI",
          homepage="https://pcivietnam.vn/", license="Free to reuse with attribution",
          description="Survey-based business-climate score per province; 2022 is the last year scored for all 63.",
          used_for=["Business climate lens"],

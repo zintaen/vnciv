@@ -165,8 +165,9 @@ export function mount(ctx) {
   }
   drawFood();
 
+  const hexR = w.grid.R * (w.raw.km_per_unit || 1); // hex corner radius, km
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["worldcover", "nso_yearbook"], [
-    tr("Land cover is ESA WorldCover 2021 (10 m) averaged into hexes of about 2 km, so small features (a valley's paddies, a small town) blur into their surroundings."),
+    tr("Land cover is ESA WorldCover 2021 (10 m) averaged into hexes of about {area} km² ({d} km corner to corner), so small features (a valley's paddies, a small town) blur into their surroundings.", { area: int(hexR ** 2 * 1.5 * Math.sqrt(3)), d: Math.round(2 * hexR) }),
     tr("WorldCover maps what the ground looks like from space: plantations of acacia, rubber or coffee can read as forest, and flooded paddies can read as wetland."),
     tr("Paddy output is NSO's preliminary 2024 harvest, by the 2025 provinces and by the 63 provinces before the July 2025 merger."),
   ]));

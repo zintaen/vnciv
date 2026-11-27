@@ -4,6 +4,7 @@
 // city's own (see drawMarks). Share images get both (snapshot: true).
 import { drawIcon, hasIcon } from "../../icons.js";
 import { compact } from "./fmt.js";
+import { fixed } from "../../format.js";
 import { css } from "../../color.js";
 import { LAND, resourceValue } from "./model.js";
 import { t } from "../../i18n.js";
@@ -188,7 +189,7 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
       let txt = "", tw = 0;
       if (label) {
         ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
-        txt = `${clip(d.short || "", 18)}${d.lq != null ? ` ×${d.lq.toFixed(1)}` : ""}`;
+        txt = `${clip(d.short || "", 18)}${d.lq != null ? ` ×${fixed(d.lq, 1)}` : ""}`;
         tw = ctx.measureText(txt).width + 10;
       }
       const rect = label
@@ -246,7 +247,7 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
     const plaqueRects = plaques.map(([d, sx, sy, r, label]) => {
       if (!label) return { x: sx - r, y: sy - r, w: 2 * r, h: 2 * r };
       ctx.font = `600 ${Math.round(Math.min(11, Math.max(9, r * 0.32)))}px ${SANS}`;
-      const tw = ctx.measureText(`${clip(d.short || "", 18)}${d.lq != null ? ` ×${d.lq.toFixed(1)}` : ""}`).width + 10;
+      const tw = ctx.measureText(`${clip(d.short || "", 18)}${d.lq != null ? ` ×${fixed(d.lq, 1)}` : ""}`).width + 10;
       return { x: Math.min(sx - r, sx - tw / 2), y: sy - r, w: Math.max(2 * r, tw), h: r * 0.98 + 7 + r };
     });
 
@@ -255,7 +256,7 @@ export function createMapLayer(app, { focusRect = () => null } = {}) {
     if (Rpx >= 18) {
       const full = Rpx >= 30;
       const phone = cam.w <= 700;
-      let tiles = m.tiles.filter((t) => !t.isCity);
+      let tiles = m.tiles.filter((t) => !t.isCity && !t.remote);
       if (phone) tiles = [...tiles].sort((a, b) => (b.residents || 0) - (a.residents || 0)).slice(0, 5);
       const taken = [];
       for (const t of tiles) {

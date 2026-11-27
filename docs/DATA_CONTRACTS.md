@@ -21,6 +21,9 @@
 >   value?, text}], badge}}` (location quotients of per-resident figures, plus mapped sites).
 >   **citizens.json v2**: rows residence / work / skills / households, plus `life_expectancy` and `migration`.
 >   **disasters.json v2**: `typhoons` (IBTrACS) instead of FEMA/NOAA.
+> * **Pipeline.** The "Pipeline conventions" section below describes usaciv's pipeline. vnciv's is simpler: builders in
+>   `pipeline/build/*.py` run in the order of `pipeline/build/__init__.py`, sources are listed in `pipeline/sources.py`, and it
+>   uses numpy, rasterio and openpyxl (not the standard library only).
 > * **military.json** comes from OpenStreetMap military land: components army / navy / air_force / other; tiers by mapped
 >   area; personnel, spending and veterans are null (not published). **trade.json** holds domestic air routes
 >   (OpenFlights 2014): routes carry `airlines`, `airline_codes`, `airports`, `dist_km`; `value_musd`/`tons_k` are null.

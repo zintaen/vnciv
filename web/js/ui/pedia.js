@@ -1,8 +1,9 @@
 // The Almanac: what every number means and exactly where it comes from.
 import { resolveTables } from "../terrain.js";
-import { esc } from "../format.js";
+import { esc, fixed, int } from "../format.js";
 import { parseHex, luminance } from "../color.js";
 import { icon, glyph } from "./icon.js";
+import { formatLensValue } from "./lenses.js";
 import { t } from "../i18n.js";
 
 const COVER_ICON = { forest_deciduous: "l-forest", forest_evergreen: "l-forest", forest_mixed: "l-forest", cropland: "l-farmland", pasture: "l-farmland", urban: "l-developed" };
@@ -37,7 +38,7 @@ export function initPedia(data) {
       <p>${t("<b>Cities</b> are the 63 seats of the former provinces. Like a metro area in a strategy game, each city stands for its whole former province: its banner numbers cover the province, not just the town.")}</p>
       <p>${t("Money is shown in US dollars, converted at the World Bank's official rate for {year} ({fx} ₫ per $).", {
         year: esc(data.nation.currency?.fx_year || "2024"),
-        fx: esc((data.nation.currency?.fx || 0).toLocaleString("en-US", { maximumFractionDigits: 0 })) })}</p>
+        fx: esc(int(data.nation.currency?.fx || 0)) })}</p>
       <h4>${t("Controls")}</h4>
       <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide resources · ? for all shortcuts · Esc to close.")}</p>
       <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>`;
@@ -51,7 +52,7 @@ export function initPedia(data) {
     Provinces: () => `
       ${h2("terrain", "🗺️", t("Provinces"))}
       <p>${t("Click any land hex without a city to open its province. A province's numbers add up its former provinces ({vintage}); rates are averages weighted by population (or by labour force for work rates).", {
-        vintage: esc(data.nation.vintage) + (data.nation.gdp_vintage ? `; GRDP: ${esc(t(data.nation.gdp_vintage))}` : "") })}</p>
+        vintage: esc(t(data.nation.vintage)) + (data.nation.gdp_vintage ? `; GRDP: ${esc(t(data.nation.gdp_vintage))}` : "") })}</p>
       <p>${t("<b>Ranks</b> (\"#3 of {n}\") compare the {n} provinces; 1 is the largest.", { n: data.world.states.length })}</p>
       ${data.states ? "" : `<p class="muted">${t("This data build has no states.json, so province panels show names and cities only.")}</p>`}`,
     Terrain: () => {
@@ -85,7 +86,7 @@ export function initPedia(data) {
           <div class="lens-entry"><div class="le-ic">${glyph(l, 26)}</div><div>
           <h4>${esc(t(l.name))}</h4><p>${esc(t(l.description))}<br>
           <i class="le-ramp" style="background:linear-gradient(90deg, ${(l.ramp || []).map(esc).join(",")})"></i>
-          <span class="muted">${t("Scale: {scale}, {lo}–{hi} {unit}", { scale: esc(t(l.scale)), lo: l.domain[0].toLocaleString("en-US"), hi: l.domain[1].toLocaleString("en-US"), unit: esc(t(l.unit)) })}${
+          <span class="muted">${t("Scale: {scale}, {lo}–{hi} {unit}", { scale: esc(t(l.scale)), lo: esc(formatLensValue({ ...l, unit: null }, l.domain[0])), hi: esc(formatLensValue({ ...l, unit: null }, l.domain[1])), unit: esc(t(l.unit)) })}${
             l.higher_is === "good" ? " · " + t("higher is better") : l.higher_is === "bad" ? " · " + t("higher is worse") : ""}${l.source ? " · " + esc(t(srcName(l.source))) : ""}</span></p></div></div>`).join("")}`;
       }).join("")}`,
     Resources: () => {
@@ -111,8 +112,8 @@ export function initPedia(data) {
         <h4>${esc(t(s.title))}</h4>
         <p>${esc(t(s.description))}<br>
         <span class="muted">${esc(t(s.publisher))} · ${esc(t(s.license))}${s.vintage ? " · " + esc(s.vintage) : ""} ·
-        <a href="${esc(s.homepage)}" target="_blank" rel="noopener">${t("homepage")}</a></span></p>
-        <table>${(s.files || []).map((f) => `<tr><td><code>${esc(f.url)}</code></td><td class="muted" style="white-space:nowrap">${esc((f.retrieved || "").slice(0, 10))}${f.bytes ? `<br>${(f.bytes / 1e6).toFixed(1)} MB` : ""}</td></tr>`).join("")}</table>`).join("")}`,
+        <a href="${/^https?:\/\//i.test(s.homepage || "") ? esc(s.homepage) : "#"}" target="_blank" rel="noopener">${t("homepage")}</a></span></p>
+        <table>${(s.files || []).map((f) => `<tr><td><code>${esc(f.url)}</code></td><td class="muted" style="white-space:nowrap">${esc((f.retrieved || "").slice(0, 10))}${f.bytes ? `<br>${fixed(f.bytes / 1e6, 1)} MB` : ""}</td></tr>`).join("")}</table>`).join("")}`,
   };
 
   const show = (name) => {

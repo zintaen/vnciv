@@ -1,19 +1,19 @@
 // Number formatting for the advisor kit, built on web/js/format.js.
 // Formats follow lenses.json / counties.json: int | usd | pct (0..1 fraction) | float | minutes | years | km2 | text,
 // plus a few of our own: money (compact $), signed (signed %), lq (×1.23), mw, count, ratio (×4.2).
-import { compact, dollars, int, money, pct } from "../../../format.js";
+import { compact, dec, dollars, fixed, int, money, pct } from "../../../format.js";
 import { fin } from "./util.js";
-import { t as tr } from "../../../i18n.js";
+import { t as tr, lang } from "../../../i18n.js";
 
-export { compact, dollars, int, money, pct };
+export { compact, dollars, fixed, int, money, pct };
 
-export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${Math.abs(g * 100).toFixed(d)}%` : "–");
+export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${fixed(Math.abs(g * 100), d)}%` : "–");
 
 // Counts to three significant figures (1.12M vs 1.11M rather than 1.1M twice).
 export function count3(n) {
   if (!fin(n)) return "–";
   const a = Math.abs(n);
-  const sig = (d, unit) => (n / d).toFixed(a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
+  const sig = (d, unit) => fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
   if (a >= 1e12) return sig(1e12, "T");
   if (a >= 1e9) return sig(1e9, "B");
   if (a >= 1e6) return sig(1e6, "M");
@@ -21,7 +21,7 @@ export function count3(n) {
   return int(n);
 }
 
-export const mw = (v) => (fin(v) ? (Math.abs(v) >= 10000 ? `${(v / 1000).toFixed(v >= 1e5 ? 0 : 1)} GW` : `${int(v)} MW`) : "–");
+export const mw = (v) => (fin(v) ? (Math.abs(v) >= 10000 ? `${fixed(v / 1000, v >= 1e5 ? 0 : 1)} GW` : `${int(v)} MW`) : "–");
 
 /** Full-ish text for a value in a given format (tables, tooltips). */
 export function fmtValue(format, v, unit) {
@@ -33,16 +33,16 @@ export function fmtValue(format, v, unit) {
     case "money": return money(v);
     case "pct": return pct(v);
     case "signed": return signedPct(v);
-    case "lq": return `×${v.toFixed(2)}`;
-    case "ratio": return `×${v.toFixed(1)}`;
-    case "minutes": return tr("{v} min", { v: v.toFixed(1) });
-    case "years": return tr("{v} yrs", { v: v.toFixed(1) });
+    case "lq": return `×${fixed(v, 2)}`;
+    case "ratio": return `×${fixed(v, 1)}`;
+    case "minutes": return tr("{v} min", { v: fixed(v, 1) });
+    case "years": return tr("{v} yrs", { v: fixed(v, 1) });
     case "km2": return `${int(v)} km²`;
     case "mw": return mw(v);
-    case "float": return Math.abs(v) >= 100 ? int(v) : Math.abs(v) >= 10 ? v.toFixed(1) : v.toFixed(2);
+    case "float": return Math.abs(v) >= 100 ? int(v) : Math.abs(v) >= 10 ? fixed(v, 1) : fixed(v, 2);
     default:
       if (unit === "MW") return mw(v);
-      return Math.abs(v) >= 1e4 ? count3(v) : Math.abs(v) >= 100 ? int(v) : v.toFixed(2);
+      return Math.abs(v) >= 1e4 ? count3(v) : Math.abs(v) >= 100 ? int(v) : fixed(v, 2);
   }
 }
 
@@ -66,25 +66,32 @@ export function fmtShort(format, v) {
   if (!fin(v)) return "–";
   switch (format) {
     case "usd": case "money": return money(v);
-    case "pct": return `${+(v * 100).toFixed(Math.abs(v) < 0.1 && v !== 0 ? 1 : 0)}%`;
-    case "signed": return `${v > 0 ? "+" : v < 0 ? "−" : ""}${+Math.abs(v * 100).toFixed(1)}%`;
-    case "lq": case "ratio": return `×${+v.toFixed(1)}`;
+    case "pct": return `${dec(+(v * 100).toFixed(Math.abs(v) < 0.1 && v !== 0 ? 1 : 0))}%`;
+    case "signed": return `${v > 0 ? "+" : v < 0 ? "−" : ""}${dec(+Math.abs(v * 100).toFixed(1))}%`;
+    case "lq": case "ratio": return `×${dec(+v.toFixed(1))}`;
     case "mw": return mw(v);
     case "minutes": case "years": return String(+v.toFixed(0));
-    default: return Math.abs(v) >= 1000 ? compact(v) : String(+v.toPrecision(3));
+    default: return Math.abs(v) >= 1000 ? compact(v) : dec(+v.toPrecision(3));
   }
 }
 
-/** Parse "1.5M", "250k", "12%", "$80K", "-3%" into a number in the field's units (pct → fraction). */
-export function parseNum(text, format) {
+/** Parse "1.5M", "250k", "12%", "$80K", "-3%" into a number in the field's units (pct → fraction).
+ *  English: "," groups thousands. Vietnamese: "." groups thousands and "," is the decimal mark ("1.234.567", "1,5");
+ *  a lone "." that is not a thousands group ("1.5M") still reads as a decimal point. */
+export function parseNum(text, format, l = lang) {
   if (text == null) return null;
-  let s = String(text).trim().replace(/[,$\s]/g, "").replace(/^−/, "-");
+  let s = String(text).trim().replace(/[$\s]/g, "").replace(/^−/, "-");
+  if (l === "vi") {
+    if (/^-?\d{1,3}(\.\d{3})+(,\d+)?(?!\d)/.test(s)) s = s.replace(/\./g, "");
+    s = s.replace(/,/g, ".");
+  } else s = s.replace(/,/g, "");
   if (!s) return null;
   let isPct = false;
   if (s.endsWith("%")) { isPct = true; s = s.slice(0, -1); }
   const m = /^(-?\d*\.?\d+)([kmbt]?)$/i.exec(s);
   if (!m) return null;
   let v = parseFloat(m[1]) * ({ "": 1, k: 1e3, m: 1e6, b: 1e9, t: 1e12 })[m[2].toLowerCase()];
-  if ((format === "pct" || format === "signed") && (isPct || Math.abs(v) > 1)) v /= 100;
+  // On % fields a bare number is a percent ("2" = 2%, "1" = 1%); only a typed fraction below 1 ("0.25") stays as is.
+  if ((format === "pct" || format === "signed") && (isPct || Math.abs(v) >= 1)) v /= 100;
   return v;
 }

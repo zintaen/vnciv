@@ -185,9 +185,11 @@ def build():
 
     # --- hazards: typhoons ---
     storm_vals, storms = typhoons(W)
+    remote = set(W.raw["islands"])  # Hoàng Sa, Trường Sa: shown on their hexes, left out of province figures
     lenses.append({"id": "disasters", "group": "hazards", "name": "Typhoons", "icon": "l-disasters", "emoji": "🌀",
                    "unit": f"storms since {STORM_SINCE}", "format": "int", "scale": "linear",
-                   "domain": [0, max(v for v in storm_vals if v is not None)], "ramp": ramp("disasters"),
+                   "domain": [0, max(v for i, v in enumerate(storm_vals) if v is not None and i not in remote)],
+                   "ramp": ramp("disasters"),
                    "higher_is": "bad", "source": "ibtracs",
                    "description": f"Distinct tropical cyclones of at least tropical-storm strength ({STORM_MIN_KT} kt, "
                                   f"WMO or JTWC winds) whose IBTrACS best track passed within {STORM_RADIUS_KM} km of the "
@@ -214,7 +216,7 @@ def build():
     cells_of = W.county_cells()
     storm_by_k = {}
     for k, cells in cells_of.items():
-        xs = [storm_vals[i] for i in cells if storm_vals[i] is not None]
+        xs = [storm_vals[i] for i in cells if storm_vals[i] is not None and i not in remote]
         storm_by_k[k] = round(sum(xs) / len(xs)) if xs else None
     F = lambda key, label, fmt, unit, hi, src, desc, lens=None: {"key": key, "label": label, "format": fmt, "unit": unit,
                                                                   "higher_is": hi, "source": src, "description": desc, "lens": lens}
@@ -235,7 +237,7 @@ def build():
               F("gini", "Gini", "float", "0–1", "bad", NSO, "Gini index of income, 2024.", "gini"),
               F("unemployment", "Unemployment", "pct", "labour force", "bad", NSO, "Unemployment rate, 2024.", "unemployment"),
               F("productivity", "Productivity", "usd", "$ per worker", "good", NSO, "GRDP per worker, 2024.", "productivity"),
-              F("fdi", "FDI 2024", "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024.", "fdi"),
+              F("fdi", "FDI 2024", "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024."),
               F("students", "University students", "int", "students", "neutral", NSO, "University students, 2023."),
               F("paddy", "Paddy rice", "int", "tonnes", "neutral", NSO, "Paddy production, 2024."),
               F("pci", "PCI 2022", "float", "0–100", "good", "pci", "Provincial Competitiveness Index 2022.", "pci"),
@@ -245,7 +247,7 @@ def build():
               F("crop", "Farmland", "pct", "of land", "neutral", "worldcover", "WorldCover cropland share.", "farmland"),
               F("developed", "Built-up", "pct", "of land", "neutral", "worldcover", "WorldCover built-up share.", "developed"),
               F("disasters", "Typhoons", "int", f"storms since {STORM_SINCE}", "bad", "ibtracs",
-                f"Typhoons within {STORM_RADIUS_KM} km (mean over the province's hexes).", "disasters")]
+                f"Typhoons within {STORM_RADIUS_KM} km (mean over the province's mainland hexes).", "disasters")]
     cities = {c["id"]: c for c in json.loads((ROOT / "web" / "data" / "cities.json").read_text())}
     rows = []
     for k, u in enumerate(olds):

@@ -73,7 +73,7 @@ export async function mount(ctx) {
     onHover: (r) => airHover(r ? airports.find((a) => a.key === r.key) : null),
     onClick: (r) => flyTo(airports.find((a) => a.key === r.key)),
   });
-  aBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Passengers in {year}, arriving and departing.", { year: esc(String(topAir?.year || "")) })} ${Object.entries(infra.hubs || {}).map(([k, t]) => `<b>${k}</b> ${esc(tr(t))}`).join(" · ")}.</p>`);
+  aBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Passengers in {year}, arriving and departing.", { year: esc(String(topAir?.year || "")) })} ${Object.entries(infra.hubs || {}).map(([k, t]) => `<b>${esc(k)}</b> ${esc(tr(t))}`).join(" · ")}.</p>`);
 
   // --- air routes (trade.json) -------------------------------------------------------------------------------------
   const air = trade?.routes?.length ? airRoutes(ctx, trade) : null;

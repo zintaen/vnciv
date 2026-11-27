@@ -144,6 +144,8 @@ export function buildModel(app, city) {
   const density = lenses?.lenses?.find((l) => l.id === "density");
   // Map units are not km: world.json's km_per_unit scales them (Vietnam: 0.32, a 25-unit hex ≈ 8 km radius).
   const area = HEX_AREA(grid.R * (w.raw.km_per_unit || 1)); // km²
+  // Far-offshore islands (Hoàng Sa, Trường Sa) stay in the footprint but get no plaque, pill or frame.
+  const remote = new Set(w.raw.remote || []);
   const tiles = footprint.map((cell) => {
     const d = density?.values?.[cell];
     return {
@@ -151,6 +153,7 @@ export function buildModel(app, city) {
       residents: Number.isFinite(d) ? d * area : null,
       land: landOf(w, cell),
       isCity: cell === city.cell,
+      remote: remote.has(cell),
     };
   });
 
@@ -168,12 +171,10 @@ export function buildModel(app, city) {
     return Math.hypot(dx, dy) + (dy < -0.5 * R && dy > -3.2 * R && Math.abs(dx) < 3 * R ? 3 * R : 0);
   };
   const free = footprint
-    .filter((c) => c !== city.cell && !siteCells.has(c) && !w.cityByCell.has(c))
+    .filter((c) => c !== city.cell && !remote.has(c) && !siteCells.has(c) && !w.cityByCell.has(c))
     .sort((a, b) => cost(a) - cost(b) || a - b);
 
   // Bounding box of the footprint (map units).
-  // Far-offshore islands (Hoàng Sa, Trường Sa) stay in the footprint but not in the frame.
-  const remote = new Set(w.raw.remote || []);
   const framed = footprint.filter((c) => !remote.has(c));
   let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
   for (const c of framed.length ? framed : footprint) {

@@ -1,5 +1,5 @@
 // Shared building blocks for the city and province panels (both render into #city-panel).
-import { compact, esc, int, money, pct, yieldValue } from "../format.js";
+import { compact, dollars, esc, fixed, int, money, pct, yieldValue } from "../format.js";
 import { icon, glyph } from "./icon.js";
 import { t } from "../i18n.js";
 
@@ -46,8 +46,8 @@ export function statRow(ic, fallback, label, v, nv, fmt, higherIsGood) {
   return `<div class="stat-row"><span class="sl">${icon(ic, fallback, { size: 14 })}${esc(t(label))}</span><span><b>${v == null ? "–" : fmt(v)}</b>${cmp}</span></div>`;
 }
 
-const usd = (x) => "$" + int(x);
-const dec3 = (x) => x.toFixed(3);
+const usd = dollars;
+const dec3 = (x) => fixed(x, 3);
 
 // Living standards (cities and provinces share the fields; a missing one shows "–").
 export function amenities(o, n) {
@@ -83,9 +83,9 @@ export function industries(o, nation, limit = 0) {
       const share = v / total;
       const nShare = (n.jobs?.[k] || 0) / nTotal;
       const lq = nShare > 0 ? share / nShare : 1;
-      const tip = t("Share of jobs is {n}× the national share", { n: lq.toFixed(1) });
-      const badge = lq >= 1.3 ? `<span class="lq hi" title="${tip}">×${lq.toFixed(1)}</span>`
-        : lq <= 0.6 ? `<span class="lq lo" title="${tip}">×${lq.toFixed(1)}</span>` : "";
+      const tip = t("Share of jobs is {n}× the national share", { n: fixed(lq, 1) });
+      const badge = lq >= 1.3 ? `<span class="lq hi" title="${tip}">×${fixed(lq, 1)}</span>`
+        : lq <= 0.6 ? `<span class="lq lo" title="${tip}">×${fixed(lq, 1)}</span>` : "";
       return `<div class="ind"><span aria-hidden="true">${icon(`i-${k}`, DISTRICT_ICON[k] || "•")}</span>
         <span>${esc(t(nation.industries?.[k] || k))}${badge}</span><span class="n">${compact(v)} · ${pct(share, 0)}</span>
         <div class="bar"><i style="width:${(share / maxShare) * 100}%;background:${lq >= 1.3 ? "#9fd76a" : "#c9a45c"}"></i></div></div>`;
@@ -104,13 +104,13 @@ export const gdpRow = (o) =>
 export function growthSpan(o, n = null) {
   if (!Number.isFinite(o?.growth)) return "";
   const yrs = Array.isArray(o.growth_years) && o.growth_years.length === 2 ? o.growth_years : null;
-  const p = (g) => `${g >= 0 ? "+" : "−"}${Math.abs(g * 100).toFixed(1)}%`;
+  const p = (g) => `${g >= 0 ? "+" : "−"}${fixed(Math.abs(g * 100), 1)}%`;
   const period = yrs ? `${yrs[0]}–${yrs[1]}` : t("the last few years");
   const vn = Number.isFinite(n?.growth) ? ` (${t("Vietnam {v}", { v: p(n.growth) })})` : "";
   const tip = t("Population change {period}, NSO average population: {v}", { period, v: p(o.growth) }) + vn;
   const cls = o.growth >= 0 ? "good" : "bad";
-  return ` · <span class="growth ${cls}" title="${esc(tip)}">${o.growth >= 0 ? "▲" : "▼"} ${Math.abs(o.growth * 100).toFixed(1)}%${
-    yrs ? ` <span class="since">${t("since {y}", { y: yrs[0] })}</span>` : ""}</span>`;
+  return ` <span class="gsep">· <span class="growth ${cls}" title="${esc(tip)}">${o.growth >= 0 ? "▲" : "▼"} ${fixed(Math.abs(o.growth * 100), 1)}%${
+    yrs ? ` <span class="since">${t("since {y}", { y: yrs[0] })}</span>` : ""}</span></span>`; // "·" wraps with it
 }
 
 export const popLine = (o, extra = "") =>
@@ -123,7 +123,7 @@ export const popLine = (o, extra = "") =>
 export function showPanel(spec) {
   const panel = panelEl();
   panel.dataset.kind = spec.kind;
-  panel.setAttribute("aria-label", `${spec.kind === "state" ? t("Province") : t("City")}: ${spec.title}`);
+  panel.setAttribute("aria-label", `${spec.kind === "state" ? spec.kindLabel ?? t("Province") : t("City")}: ${spec.title}`);
   panel.innerHTML = `
     <div class="sheet-grip" aria-hidden="true"></div>
     <div class="cp-head">

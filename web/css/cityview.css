@@ -88,10 +88,14 @@
   box-shadow: 0 4px 10px rgba(0,0,0,.35); overflow-x: auto; scrollbar-width: none;
 }
 .cv-tabs::-webkit-scrollbar { display: none; }
+/* More tabs off to one side: that edge fades (screen.js sets .fl / .fr). */
+.cv-tabs.fr { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 36px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 36px), transparent); }
+.cv-tabs.fl { -webkit-mask-image: linear-gradient(90deg, transparent, #000 36px); mask-image: linear-gradient(90deg, transparent, #000 36px); }
+.cv-tabs.fl.fr { -webkit-mask-image: linear-gradient(90deg, transparent, #000 36px, #000 calc(100% - 36px), transparent); mask-image: linear-gradient(90deg, transparent, #000 36px, #000 calc(100% - 36px), transparent); }
 .cv-tabs button {
-  flex: 1 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 5px; padding: 5px 7px; cursor: pointer;
+  flex: 1 0 auto; display: inline-flex; align-items: center; justify-content: center; gap: 4px; padding: 5px 5px; cursor: pointer;
   background: transparent; border: 1px solid transparent; border-radius: 4px; color: var(--ink-dim);
-  font: 11px var(--sans); letter-spacing: .08em; text-transform: uppercase; white-space: nowrap;
+  font: 11px var(--sans); letter-spacing: .03em; text-transform: uppercase; white-space: nowrap;
 }
 .cv-tabs button:hover { color: var(--gold-bright); border-color: rgba(201,164,92,.3); }
 .cv-tabs button.on { color: var(--gold-bright); background: linear-gradient(180deg, rgba(201,164,92,.22), rgba(201,164,92,.06)); border-color: rgba(201,164,92,.55); }

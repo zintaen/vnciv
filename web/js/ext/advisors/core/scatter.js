@@ -57,7 +57,9 @@ export function createScatter(host, opts) {
     })).sort((a, b) => b.r - a.r);
     root._count = valid.length;
     cv.setAttribute("aria-label", o.ariaLabel || tr("Scatter plot of {n} points: {y} against {x}", { n: valid.length, y: o.y?.label || "y", x: o.x?.label || "x" }));
-    hint.textContent = o.brush === false ? "" : tr("{n} points · drag to select", { n: valid.length.toLocaleString("en-US") });
+    const dropped = (o.points || []).filter((p) => fin(p.x) && fin(p.y)).length - valid.length;
+    hint.textContent = (o.brush === false ? "" : tr("{n} points · drag to select", { n: valid.length.toLocaleString("en-US") }))
+      + (dropped > 0 ? (o.brush === false ? "" : " · ") + tr("{n} at zero or below, off the log scale", { n: dropped }) : "");
     draw();
   }
 

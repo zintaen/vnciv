@@ -73,7 +73,7 @@ OLD = {
     "Yên Bái": ("06", "Yên Bái", "Yên Bái"),
 }
 
-# 2025 province: (abbr, [former provinces' display names]); the first listed holds the new seat unless SEAT says otherwise
+# 2025 province: (abbr, [former provinces' display names])
 NEW = {
     "Hà Nội": ("HN", ["Hà Nội"]),
     "Huế": ("HUE", ["Thừa Thiên Huế"]),

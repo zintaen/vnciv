@@ -21,7 +21,7 @@ const DEFAULT_XY = {
 };
 // Table headers: short enough for a ~60 px column (they wrap to two lines; &shy; marks where a long word may break).
 const SHORT = {
-  population: tr("People"), gdp_pc: tr("GRDP per person"), median_income: tr("Income"), unemployment: tr("Unemploy&shy;ment"), land_km2: tr("Area"),
+  population: tr("People"), gdp_pc: tr("GRDP/<wbr>person"), median_income: tr("Income"), unemployment: tr("Unemploy&shy;ment"), land_km2: tr("Area"),
   area_km2: tr("Area"), energy_mw: tr("Mapped power"), labour_force: tr("Labour force"), income_worker: tr("Worker income"), productivity: tr("Produc&shy;tivity"),
   literacy: tr("Liter&shy;acy"), fdi_projects: tr("FDI projects"), students: tr("Students"), lecturers: tr("Lec&shy;turers"), disasters: tr("Ty&shy;phoons"),
   former: tr("Merged from"), city_type: tr("City type"), n_districts: tr("Districts (n)"), top_lq: tr("Top LQ"), cz_specialist: tr("Stands out in"),
@@ -61,7 +61,7 @@ export async function mount(ctx) {
   segmented(lvRow, {
     label: tr("Level"), value: st.level,
     options: avail.map((k) => ({ value: k, label: data.levels[k].label })),
-    onChange: (v) => { st.level = v; st.filters = st.filters.filter((f) => L().field(f.key)); st.sel = null; persist(); rebuild(); },
+    onChange: (v) => { st.level = v; st.filters = st.filters.filter((f) => L().field(f.key)); st.sel = null; st.onlySel = false; persist(); rebuild(); },
   });
   const colsBox = document.createElement("details");
   colsBox.className = "adv-cols";
@@ -105,7 +105,7 @@ export async function mount(ctx) {
     height: 320, points: [],
     onHover: (p) => { link.hover(p ? rowsHighlight(L(), [p.row]) : null); table?.setHot(p ? p.key : null, false); },
     onClick: (p) => L().focus(p.row),
-    onBrush: (set) => { st.sel = set; applySelection(); },
+    onBrush: (set) => { st.sel = set; if (!set) st.onlySel = false; applySelection(); },
   });
   const srcEl = document.createElement("div");
   el.appendChild(srcEl);
@@ -392,6 +392,7 @@ export async function mount(ctx) {
   function refresh() {
     renderChips();
     st.sel = null;
+    st.onlySel = false;
     scatter.setSelected(null);
     refreshRows();
     drawScatter();

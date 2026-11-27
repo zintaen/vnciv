@@ -3,7 +3,7 @@ import importlib
 import sys
 import time
 
-ORDER = ["world", "stats", "cities", "resources", "infrastructure", "wonders", "lenses", "districts",
+ORDER = ["world", "stats", "resources", "cities", "infrastructure", "wonders", "lenses", "districts",
          "citizens", "disasters", "military", "trade", "catalog"]
 
 

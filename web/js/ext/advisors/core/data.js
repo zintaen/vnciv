@@ -7,6 +7,7 @@
 //   field = {key, label, format, unit, higher_is, source, description, lens?, group, derived?}
 import { fin, ratio } from "./util.js";
 import { frameBox } from "./frame.js";
+import { fixed } from "../../../format.js";
 import { t as tr } from "../../../i18n.js";
 
 // The three levels for Vietnam: "states" = the 34 provinces of 2025, "metros" = the 63 cities, each standing for its
@@ -337,7 +338,7 @@ function extendCitizens(data, cz) {
     r.v.cz_life = c?.life_expectancy ?? null;
     r.v.cz_net_migration = c?.migration?.net ?? null;
     const sp = (c?.specialists || [])[0];
-    r.v.cz_specialist = sp ? `${tr(label.get(`${sp.row}.${sp.key}`) || sp.key)} ×${sp.ratio.toFixed(2)}` : null;
+    r.v.cz_specialist = sp ? `${tr(label.get(`${sp.row}.${sp.key}`) || sp.key)} ×${fixed(sp.ratio, 2)}` : null;
   }
 }
 

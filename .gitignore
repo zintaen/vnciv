@@ -6,3 +6,4 @@ __pycache__/
 web/vnciv-source.zip
 reference/
 .DS_Store
+*.log

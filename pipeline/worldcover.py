@@ -1,4 +1,4 @@
-"""ESA WorldCover 2021 mosaic for Vietnam, read from the COG overviews (~150 m) and cached as one .npy."""
+"""ESA WorldCover 2021 mosaic for Vietnam, read from the COG overviews (~280 m pixels) and cached as one .npy."""
 from __future__ import annotations
 
 import datetime as dt

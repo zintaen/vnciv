@@ -13,6 +13,9 @@ def build():
     W = World()
     s = load_interim("_storms")
     storms = s["storms"]
+    remote = set(W.raw["islands"])  # far-offshore islands: not counted for provinces or the nation
+    storms = {k: {**v, "cells": [c for c in v["cells"] if c not in remote]} for k, v in storms.items()}
+    storms = {k: v for k, v in storms.items() if v["cells"]}
     since, radius = s["since"], s["radius_km"]
     by_county = defaultdict(lambda: {"total": 0, "strong": 0, "last": None})
     by_state = defaultdict(lambda: {"total": 0, "strong": 0})
@@ -41,7 +44,8 @@ def build():
         "typhoons": {
             "since": since, "radius_km": radius, "min_kt": s["min_kt"], "strong_kt": STRONG_KT,
             "rule": f"Tropical cyclones of at least tropical-storm strength ({s['min_kt']} kt) whose best track passed "
-                    f"within {radius} km of a Vietnamese land hex, {since}–{last}. 'Strong' = typhoon strength "
+                    f"within {radius} km of a mainland or coastal-island hex of Vietnam (the Hoàng Sa and Trường Sa "
+                    f"hexes are left out of these counts), {since}–{last}. 'Strong' = typhoon strength "
                     f"({STRONG_KT} kt or more, Beaufort 12+) at some point near Vietnam's coast or inland.",
             "counties": {"columns": ["geoid", "total", "strong", "last_date"], "rows": rows},
             "states": dict(by_state),

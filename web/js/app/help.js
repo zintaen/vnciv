@@ -54,9 +54,13 @@ export function initHelp() {
     if (e.target === modal || e.target.closest("[data-close]")) close();
   });
   modal.addEventListener("keydown", (e) => {
-    if (e.key !== "Tab") return;
-    e.preventDefault(); // the only focusable control is the close button
-    card.querySelector("[data-close]").focus();
+    if (e.key !== "Tab") return; // keep Tab inside the dialog, cycling first <-> last (as ui/pedia.js)
+    const f = [...card.querySelectorAll("button, a[href], [tabindex]:not([tabindex='-1'])")].filter((x) => x.offsetParent);
+    if (!f.length) return;
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    else if (!card.contains(document.activeElement)) { e.preventDefault(); first.focus(); }
   });
 
   return {

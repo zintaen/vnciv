@@ -58,13 +58,17 @@ def citizen_rows(r):
 
 
 def build():
-    st = load_interim("_stats")["rows"]
+    stats = load_interim("_stats")
+    st, official = stats["rows"], stats.get("national", {})
     pop = sum(r["population"] for r in st.values())
     w = lambda k, wk="population": sum(r[k] * r[wk] for r in st.values()) / sum(r[wk] for r in st.values())
     nat = {"population": pop, "urban_population": sum(r["urban_population"] for r in st.values()),
            "employed": sum(r["employed"] for r in st.values()), "labour_force": sum(r["labour_force"] for r in st.values()),
            "informal": w("informal", "employed"), "trained": w("trained", "labour_force"), "poverty": w("poverty"),
-           "life_exp": w("life_exp"), "in_migration": None, "out_migration": None, "net_migration": None}
+           "life_exp": official.get("life_exp", w("life_exp")), "in_migration": None, "out_migration": None,
+           "net_migration": None}
+    if "informal" in official:
+        nat["informal"] = official["informal"]  # NSO's national rate, not a weighted mean of provinces
     national = citizen_rows(nat)
     national["specialists"] = []
     cities = {}

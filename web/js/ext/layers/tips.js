@@ -1,6 +1,6 @@
 // Hover tooltips for the map-art layers (HTML strings; every data value is escaped). Each says where the number comes
 // from and the caveat that matters for it (ports have no open tonnage; curated landmarks are an editorial pick).
-import { esc, compact, int, pct } from "../../format.js";
+import { esc, compact, fixed, int, pct, dollars } from "../../format.js";
 import { FORT_KINDS, fortKind, WONDER_KINDS } from "../../render/art/sites.js";
 import { MODE_STYLE } from "../../render/art/improvements.js";
 import { t } from "../../i18n.js";
@@ -12,10 +12,10 @@ const sign = (x) => (x > 0 ? "+" : x < 0 ? "−" : "±");
 function usd(n) {
   if (n == null || !Number.isFinite(n)) return "–";
   const a = Math.abs(n);
-  if (a >= 1e12) return t("${n} trillion", { n: (n / 1e12).toFixed(2) });
-  if (a >= 1e9) return t("${n} billion", { n: (n / 1e9).toFixed(a >= 1e10 ? 1 : 2) });
-  if (a >= 1e6) return t("${n} million", { n: (n / 1e6).toFixed(1) });
-  return `$${int(n)}`;
+  if (a >= 1e12) return t("${n} trillion", { n: fixed(n / 1e12, 2) });
+  if (a >= 1e9) return t("${n} billion", { n: fixed(n / 1e9, a >= 1e10 ? 1 : 2) });
+  if (a >= 1e6) return t("${n} million", { n: fixed(n / 1e6, 1) });
+  return dollars(n);
 }
 
 const HUB_NAME = { L: "Major hub (10M+ passengers)", M: "Medium hub (2–10M passengers)", S: "Small hub (0.5–2M passengers)", N: "Local airport" };
@@ -42,7 +42,7 @@ export const tips = {
     const name = t(comp?.name || FORT_KINDS[fortKind(f.component)]?.name || "Military site");
     const tier = t({ major: "Major installation", base: "Base", site: "Site" }[f.tier] || "");
     const lines = [`<b>${esc(f.name)}</b> ${muted(esc(prov(m, f.state)))}`, `${esc(name)} · ${esc(tier)}`];
-    if (f.area_km2 != null) lines.push(t("Mapped outline {n} km²", { n: f.area_km2 >= 10 ? int(f.area_km2) : f.area_km2.toFixed(1) }));
+    if (f.area_km2 != null) lines.push(t("Mapped outline {n} km²", { n: f.area_km2 >= 10 ? int(f.area_km2) : fixed(f.area_km2, 1) }));
     if (f.parts?.length) lines.push(muted(t("Also in this hex: {list}", { list: esc(f.parts.slice(0, 3).join(", ")) + (f.parts.length > 3 ? "…" : "") })));
     lines.push(muted(t("OpenStreetMap military land. Sized by mapped area: no headcount is published.")));
     return lines.join("<br>");

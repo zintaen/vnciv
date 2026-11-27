@@ -20,7 +20,7 @@
 // blitted, so panning costs one drawImage per banner.
 import { css, luminance, shade } from "../color.js";
 import { drawIcon, hasIcon } from "../icons.js";
-import { compact, popShort } from "../ext/cityView/fmt.js"; // format.js plus a 1000K → 1.0M roll-over fix
+import { compact, fixed, popShort } from "../format.js";
 import { isCapital } from "../world.js";
 import { cityIsDot } from "./art/city.js";
 
@@ -39,7 +39,7 @@ const LAYOUTS = {
   },
 };
 const POINTER = 4; // height of the little pointer under the banner
-const TAB_H = 11; // the city-type tab above the plate (its foot tucks under the plate's top rim)
+const TAB_H = 13; // the city-type tab above the plate (its foot tucks under the plate's top rim)
 const TAB_FONT = `700 7.6px ${SANS}`;
 const PAD = 6; // sprite margin for the shadow and the selection glow
 const GROWTH_FLAT = 0.005; // |growth| (fraction) under this reads as flat
@@ -153,7 +153,7 @@ function measure(ctx, city, yields, nation, L) {
     return { yd, t, w: ctx.measureText(t).width };
   });
   const yieldsW = parts.reduce((a, p) => a + L.yieldIcon + 2 + p.w + L.yieldGap, 0) - L.yieldGap;
-  const growthTxt = growth == null ? "" : `${growth >= 0 ? "+" : "−"}${Math.abs(growth * 100).toFixed(1)}%`;
+  const growthTxt = growth == null ? "" : `${growth >= 0 ? "+" : "−"}${fixed(Math.abs(growth * 100), 1)}%`;
   const growthW = growthTxt ? ctx.measureText(growthTxt).width : 0;
   ctx.restore();
   const spec = specialty(city, nation);

@@ -1,7 +1,7 @@
 // Economy advisor: national jobs by industry, city GRDP on the map, leading provinces and cities, growth vs output.
 // Vietnam publishes no GRDP or jobs by industry per province, so industries are national only.
 import { esc, fin, ratio, colorScale, robustDomain, RAMPS } from "../core/util.js";
-import { money, dollars, pct, signedPct, count3, fmtShort } from "../core/fmt.js";
+import { money, dollars, pct, signedPct, count3, fmtShort, fixed } from "../core/fmt.js";
 import { barList, rampLegend, sizeLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
@@ -26,7 +26,7 @@ export function mount(ctx) {
   el.insertAdjacentHTML("beforeend", tiles([
     { label: `GRDP ${n.gdp_year || ""}`, value: money(n.gdp), sub: tr("US dollars, current prices") },
     { label: tr("Per person"), value: money(ratio(n.gdp, n.population)), sub: tr("GRDP ÷ residents") },
-    { label: tr("FDI 2024"), value: money(n.fdi), sub: tr("{n} new projects", { n: count3(n.fdi_projects) }) },
+    { label: tr("FDI 2024"), value: money(n.fdi), sub: (n.fdi < 0 ? tr("net reduction of registered capital") + " · " : "") + tr("{n} new projects", { n: count3(n.fdi_projects) }) },
   ]));
 
   // --- jobs by industry (national) ------------------------------------------------------------------------------
@@ -102,7 +102,7 @@ export function mount(ctx) {
     fdi_pc: { label: tr("FDI per person"), v: (r) => perPerson(r, "fdi"), fmt: money, ramp: RAMPS.seq, log: true },
     unemployment: { label: tr("Unemployment"), v: (r) => r.v.unemployment, fmt: pct, ramp: RAMPS.heat },
     median_income: { label: tr("Income per person"), v: (r) => r.v.median_income, fmt: dollars, ramp: RAMPS.gold },
-    pci: { label: tr("PCI 2022"), v: (r) => r.v.pci, fmt: (v) => (+v).toFixed(1), ramp: RAMPS.seq },
+    pci: { label: tr("PCI 2022"), v: (r) => r.v.pci, fmt: (v) => fixed((+v), 1), ramp: RAMPS.seq },
   };
   selectBox(scCtl, {
     label: tr("Colour"), value: colorBy,
@@ -146,6 +146,12 @@ export function mount(ctx) {
       const cs = colorScale({ type: "seq", domain: dom, log: c.log, ramp: c.ramp });
       color = (v) => cs(v);
       legend = rampLegend({ ramp: c.ramp, domain: dom, fmt: c.fmt, log: c.log, label: c.label });
+      const off = c.log ? rows.filter((r) => fin(c.v(r)) && c.v(r) <= 0) : [];
+      const negs = off.filter((r) => c.v(r) < 0), zeros = off.length - negs.length;
+      if (off.length) legend += `<p class="adv-note">${[
+        negs.length ? tr("Grey, off the log scale: {list} (a net reduction of registered capital).", { list: negs.map((r) => `${esc(r.name)} ${c.fmt(c.v(r))}`).join(", ") }) : "",
+        zeros ? tr("{n} with no FDI in 2024 are grey too.", { n: zeros }) : "",
+      ].filter(Boolean).join(" ")}</p>`;
     }
     const labels = [...rows].sort((a, b) => (b.v.population || 0) - (a.v.population || 0)).slice(0, 8).map((r) => r.key);
     scatter.update({
@@ -157,7 +163,7 @@ export function mount(ctx) {
   drawScatter();
 
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "worldbank_fx"], [
-    tr("GRDP is {v}; provincial GRDPs do not add up exactly to the national GDP.", { v: esc(tr(nation.gdp_vintage || "NSO GRDP")) }),
+    tr("GRDP is {v}. The Vietnam figure here is the sum of the provinces' GRDP; NSO's official national GDP is compiled separately and differs slightly.", { v: esc(tr(nation.gdp_vintage || "NSO GRDP")) }),
     tr("Dong are converted to US dollars at the World Bank official rate for {year} ({fx} ₫ per $): no adjustment for prices, which are lower than in richer countries.", { year: esc(nation.currency?.fx_year || "2024"), fx: esc(count3(nation.currency?.fx)) }),
     tr("Jobs by industry are national only; workers are counted where they live."),
     tr("FDI is capital newly registered in 2024, not money actually disbursed, and it lands where the investor's project is licensed."),

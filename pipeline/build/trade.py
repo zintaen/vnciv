@@ -33,17 +33,26 @@ def build():
             a, b, al, stops = row[2], row[4], row[0], row[7]
             if a in airports and b in airports and a != b and stops == "0":
                 airlines.setdefault(tuple(sorted((a, b))), set()).add(al)
-    pax = lambda k: (airports[k[0]]["enplanements"] or 0) + (airports[k[1]]["enplanements"] or 0)
-    pairs = sorted(airlines, key=lambda k: (-len(airlines[k]), -pax(k)))
-    routes, used = [], set()
-    for a, b in pairs:
+    # merge airport pairs into city pairs (PQC and VKG both serve former Kiên Giang)
+    by_city = {}
+    for (a, b), als in airlines.items():
         ca, cb = airports[a]["cbsa"], airports[b]["cbsa"]
         if not ca or not cb or ca == cb:
             continue
+        key = tuple(sorted((ca, cb)))
+        e = by_city.setdefault(key, {"airlines": set(), "airports": set(), "pax": 0})
+        e["airlines"] |= als
+        e["airports"] |= {a, b}
+    for e in by_city.values():
+        e["pax"] = sum(airports[x]["enplanements"] or 0 for x in e["airports"])
+    pairs = sorted(by_city, key=lambda k: (-len(by_city[k]["airlines"]), -by_city[k]["pax"], k))
+    routes, used = [], set()
+    for ca, cb in pairs:
+        e = by_city[(ca, cb)]
         A, B = cities[ca], cities[cb]
         dist = math.dist(W.center(A["cell"]), W.center(B["cell"])) / UNIT
-        routes.append({"a": ca, "b": cb, "rank": len(routes) + 1, "airlines": len(airlines[(a, b)]),
-                       "airline_codes": sorted(airlines[(a, b)]), "airports": [a, b], "value_musd": None,
+        routes.append({"a": ca, "b": cb, "rank": len(routes) + 1, "airlines": len(e["airlines"]),
+                       "airline_codes": sorted(e["airlines"]), "airports": sorted(e["airports"]), "value_musd": None,
                        "tons_k": None, "modes": {"air": 1.0}, "top_mode": "air", "dist_km": round(dist),
                        "path": [A["cell"], B["cell"]]})
         used |= {ca, cb}

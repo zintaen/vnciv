@@ -4,7 +4,6 @@
 export default {
   // --- shared panel bits (infoPanel, cityPanel, statePanel) ---
   "City": "Thành phố",
-  "Province": "Tỉnh",
   "Provinces": "Tỉnh/thành",
   "Former province": "Tỉnh cũ",
   "Former provinces": "Tỉnh cũ",
@@ -12,7 +11,6 @@ export default {
   "City · former province of {name}": "Thành phố · tỉnh cũ {name}",
   "National capital": "Thủ đô",
   "Open the province of {name} (2025)": "Mở tỉnh/thành {name} (2025)",
-  "Yields": "Sản lượng",
   "Living standards": "Mức sống",
   "Economy": "Kinh tế",
   "Where people work": "Người dân làm việc ở đâu",
@@ -45,17 +43,13 @@ export default {
   "the last few years": "vài năm gần đây",
   "Vietnam {v}": "cả nước {v}",
   "Population change {period}, NSO average population: {v}": "Biến động dân số {period}, dân số trung bình (Cục Thống kê): {v}",
-  "since {y}": "từ {y}",
   "<b>{pop}</b> people · {emp} employed": "<b>{pop}</b> người · {emp} có việc làm",
   "Close panel (Esc)": "Đóng bảng (Esc)",
   "Close (Esc)": "Đóng (Esc)",
-  "Almanac": "Niên giám",
-  "(former province)": "(tỉnh cũ)",
 
   // --- tooltip ---
   "{n} people": "{n} người",
   "{n} m deep": "sâu {n} m",
-  "Water": "Mặt nước",
   "Land": "Đất đai",
   "{former} <span class=\"muted\">(former) · now</span> {prov}": "{former} <span class=\"muted\">(tỉnh cũ) · nay thuộc</span> {prov}",
   "{prov} <span class=\"muted\">province</span>": "{prov} <span class=\"muted\">· tỉnh/thành</span>",
@@ -132,7 +126,7 @@ export default {
   "Areas": "Khu vực",
   "Ranking": "Xếp hạng",
   "Related measure, not this total:": "Chỉ số liên quan, không phải tổng này:",
-  "Related map: {name} lens": "Lớp bản đồ: {name}",
+  "Related map: {name} lens": "Bản đồ chủ đề: {name}",
   "Open the {name} advisor: charts, tables and the map linked together": "Mở cố vấn {name}: biểu đồ, bảng và bản đồ liên kết với nhau",
   "Open advisor: {name}": "Mở cố vấn: {name}",
 
@@ -166,9 +160,7 @@ export default {
   "Growth: #{r} of {n} (1 = fastest growing)": "Tăng trưởng: #{r}/{n} (1 = tăng nhanh nhất)",
   "City View sections": "Các mục của Góc nhìn thành phố",
   "Citizens": "Cư dân",
-  "Districts": "Khu",
   "Workforce": "Lao động",
-  "Resources": "Tài nguyên",
   "Compare": "So sánh",
 
   // --- City View: citizens section ---
@@ -194,7 +186,6 @@ export default {
   "Income": "Thu nhập",
   "income per person per year, USD.": "thu nhập bình quân đầu người mỗi năm, USD.",
   "Built-up": "Đất xây dựng",
-  "Farmland": "Đất nông nghiệp",
   "Forest": "Rừng",
   "Open land": "Đất trống",
 
@@ -232,17 +223,14 @@ export default {
   "NSO does not publish workers by industry for each province; this is the whole country's mix.": "Cục Thống kê không công bố lao động theo ngành cho từng tỉnh; đây là cơ cấu của cả nước.",
   "No industry data.": "Không có dữ liệu ngành.",
   ", Labour Force Survey: workers 15+ counted where they live.": ", Điều tra Lao động – Việc làm: lao động 15+ được tính theo nơi cư trú.",
-  "Agriculture": "Nông nghiệp",
   "Mining": "Khai khoáng",
   "Construction": "Xây dựng",
-  "Manufacturing": "Chế biến, chế tạo",
   "Wholesale": "Bán buôn",
   "Retail": "Bán lẻ",
   "Logistics": "Vận tải, kho bãi",
   "Utilities": "Điện, nước",
   "Information": "Thông tin",
   "Finance": "Tài chính",
-  "Real estate": "Bất động sản",
   "Professional": "Chuyên môn, KH-CN",
   "Management": "Quản lý",
   "Admin services": "Dịch vụ hành chính",
@@ -261,7 +249,7 @@ export default {
   "No mapped resource sites in this former province. Only large sites are mapped (each type has a size threshold).": "Tỉnh cũ này không có địa điểm tài nguyên nào trên bản đồ. Chỉ các địa điểm lớn được vẽ (mỗi loại có một ngưỡng quy mô).",
   "Sites whose hex centre lies in the former province. Mapped sites only (power plants: WRI Global Power Plant Database, as of 2021), not its full capacity.": "Các địa điểm có tâm ô nằm trong tỉnh cũ. Chỉ gồm địa điểm trên bản đồ (nhà máy điện: WRI Global Power Plant Database, tính đến 2021), không phải toàn bộ năng lực.",
   "{n} workers": "{n} lao động",
-  "{n} t/yr": "{n} t/năm",
+  "{n} t/yr": "{n} tấn/năm",
   "{n} km² play": "{n} km² sân chơi",
 
   // --- City View: compare, footer ---
@@ -272,8 +260,6 @@ export default {
   "Size &amp; wealth": "Quy mô &amp; giàu có",
   "Living &amp; skills": "Đời sống &amp; kỹ năng",
   "HDI": "HDI",
-  "Poverty": "Nghèo",
-  "Trained": "Qua đào tạo",
   "Jobless": "Thất nghiệp",
   "Sources: {src} and PX-Web": "Nguồn: {src} và PX-Web",
   "WorldPop population; ESA WorldCover land; Wikidata sites; WRI power plants.": "Dân số WorldPop; đất ESA WorldCover; địa điểm Wikidata; nhà máy điện WRI.",
@@ -282,7 +268,6 @@ export default {
   "Vietnam's share": "Tỷ trọng cả nước",
 
   // --- City View: districts ---
-  "Campus": "Học viện",
   "Commerce": "Thương mại",
   "Industry": "Công nghiệp",
   "Harbor": "Bến cảng",
@@ -323,7 +308,6 @@ export default {
   "{n} qualifying installation in the former province.": "{n} cơ sở đạt tiêu chí trong tỉnh cũ.",
   "{n} qualifying installations in the former province.": "{n} cơ sở đạt tiêu chí trong tỉnh cũ.",
   "Vietnam publishes no troop numbers by place.": "Việt Nam không công bố quân số theo địa phương.",
-  "Air routes": "Đường bay",
   "{n} of the {k} domestic routes flown by the most airlines:": "{n} trong số {k} đường bay nội địa có nhiều hãng khai thác nhất:",
   "Number = airlines flying the route in the OpenFlights database (June 2014, its last update): no passenger counts, and newer routes are missing.": "Con số = số hãng bay khai thác đường bay trong cơ sở dữ liệu OpenFlights (tháng 6/2014, lần cập nhật cuối): không có số hành khách, và thiếu các đường bay mới hơn.",
   "A site district: it counts as LQ 2 in the ranking": "Khu theo địa điểm: được tính là LQ 2 khi xếp hạng",
@@ -343,7 +327,6 @@ export default {
   "worker": "lao động",
   "workers in the labour force": "người trong lực lượng lao động",
   "household": "hộ",
-  "households": "hộ",
   "person": "người",
   "people": "người",
   "none": "không ai",

@@ -71,7 +71,7 @@ export function mount(ctx) {
   dCtl.className = "adv-row";
   dBody.appendChild(dCtl);
   let weighted = false, pinnedBin = null;
-  segmented(dCtl, { label: tr("Count"), value: "counties", options: [{ value: "counties", label: tr("Provinces") }, { value: "people", label: tr("People") }], onChange: (v) => { weighted = v === "people"; drawHist(); } });
+  segmented(dCtl, { label: tr("Count"), value: "counties", options: [{ value: "counties", label: tr("Former provinces") }, { value: "people", label: tr("People") }], onChange: (v) => { weighted = v === "people"; drawHist(); } });
   const dLens = document.createElement("button");
   dLens.type = "button";
   dLens.className = "adv-mini";

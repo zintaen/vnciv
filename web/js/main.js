@@ -36,11 +36,30 @@ import { t, lang, setLang } from "./i18n.js";
 
 const { drawStatic, drawOverlay, OCEAN_BG } = mapRender;
 
+// Data colours end up in style="color:…" and canvas fills: keep only hex colours (anything else could add CSS
+// declarations), replaced by a neutral grey. Covers "color", "dark", "*_color" strings and "ramp" / "colors" lists.
+const HEX = /^#[0-9a-f]{3,8}$/i;
+const COLOR_KEY = /^(colou?rs?|dark|ramp|.*_colou?r)$/i;
+function safeColors(o, colorKey = false) {
+  if (Array.isArray(o)) {
+    if (!o.length || typeof o[0] === "number") return o; // the big numeric grids
+    for (let i = 0; i < o.length; i++) {
+      if (colorKey && typeof o[i] === "string") { if (!HEX.test(o[i])) o[i] = "#888888"; } else safeColors(o[i], colorKey);
+    }
+  } else if (o && typeof o === "object") {
+    for (const k of Object.keys(o)) {
+      const v = o[k], ck = COLOR_KEY.test(k);
+      if (ck && typeof v === "string") { if (!HEX.test(v)) o[k] = "#888888"; } else if (v && typeof v === "object") safeColors(v, ck);
+    }
+  }
+  return o;
+}
+
 async function loadJSON(name, optional = false) {
   try {
     const r = await fetch(`data/${name}.json`);
     if (!r.ok) throw new Error(`data/${name}.json: HTTP ${r.status}`);
-    return await r.json();
+    return safeColors(await r.json());
   } catch (err) {
     if (optional) return null;
     throw err;
@@ -619,6 +638,11 @@ async function main() {
     const name = t.toLowerCase().replace(/[_+]/g, " ");
     return w.raw.states.findIndex((st, i) => (states?.[i]?.name || st.name || "").toLowerCase() === name);
   }
+  function viewAt() {
+    const f = cam.flight, cx = f ? f.x1 : cam.x, cy = f ? f.y1 : cam.y, s = f ? f.s1 : cam.scale;
+    const a = visibleArea();
+    return [cx + ((a.x0 + a.x1) / 2 - cam.w / 2) / s, cy + ((a.y0 + a.y1) / 2 - cam.h / 2) / s, Math.log2(s / fitScale())];
+  }
   let stateHashRef = null; // {idx, raw}: the form of the #state value the current selection came from
   const url = createHashState({
     // A flight is not "busy": read() reports its destination. Pans and wheel zooms are, until they settle.
@@ -631,9 +655,10 @@ async function main() {
       return {
         lens: state.lens?.id || null,
         ...sel,
-        // at = [x km, y km, log2(scale / home-fit scale)]; during a flight, where it will land.
-        at: userMoved ? (cam.flight ? [cam.flight.x1, cam.flight.y1, Math.log2(cam.flight.s1 / fitScale())]
-          : [cam.x, cam.y, Math.log2(cam.scale / fitScale())]) : null,
+        // at = [x km, y km, log2(scale / home-fit scale)]; during a flight, where it will land. x, y is the world point
+        // in the middle of visibleArea() (not of the canvas), so a link frames the same place beside a desktop
+        // panel and above a phone's bottom sheet.
+        at: userMoved ? viewAt() : null,
       };
     },
     apply(p, { initial }) {
@@ -649,8 +674,10 @@ async function main() {
         if (sIdx !== state.selectedState) selectState(sIdx, { fly: !p.at });
       } else if (state.selectedCity || state.selectedState != null) clearSelection();
       if (p.at) {
-        const [x, y, z] = p.at;
+        const [vx, vy, z] = p.at;
         const s = cam.clampScale(fitScale() * 2 ** z);
+        const a = visibleArea(); // after the selection above opened its panel / sheet
+        const x = vx - ((a.x0 + a.x1) / 2 - cam.w / 2) / s, y = vy - ((a.y0 + a.y1) / 2 - cam.h / 2) / s;
         if (initial) {
           cam.stop();
           cam.x = x;
@@ -684,7 +711,7 @@ async function main() {
       b.textContent = other === "en" ? "EN" : "VI";
       b.title = other === "en" ? "Switch to English" : "Chuyển sang tiếng Việt";
       b.setAttribute("aria-label", b.title);
-      b.onclick = () => setLang(other);
+      b.onclick = () => { url.flush(); setLang(other); };
     }
   }
   setBtn("btn-pedia", `${icon("pedia", "📖", { size: 16 })}<span class="lbl">${t("Almanac")}</span>`);
@@ -694,7 +721,7 @@ async function main() {
 
   const search = initSearch({
     cities,
-    states: w.raw.states.map((s, i) => ({ name: states?.[i]?.name || s.name, abbr: s.abbr, population: states?.[i]?.population })),
+    states: w.raw.states.map((s, i) => ({ name: states?.[i]?.name || s.name, abbr: s.abbr, population: states?.[i]?.population, former: states?.[i]?.former })),
     onPick(r) {
       if (r.kind === "city") selectCity(r.city, { fly: true });
       else selectState(r.index, { fly: true });
@@ -802,9 +829,9 @@ async function main() {
     lens: state.lens,
     formatValue: (lens, t) => formatLensValue(lens, lensValueAt(lens, t)),
     selection: state.selectedCity ? { kind: "city", name: state.selectedCity.name }
-      : state.selectedState != null ? { kind: "state", name: stateName(state.selectedState) } : null,
+      : state.selectedState != null ? { kind: "state", name: stateName(state.selectedState), abbr: w.raw.states[state.selectedState]?.abbr } : null,
   });
-  const slug = (s) => String(s).toLowerCase().normalize("NFD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  const slug = (s) => String(s).replace(/[đĐ]/g, "d").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   const share = initShare({
     button: document.getElementById("btn-share"),
     getInfo: shareInfo,
@@ -1061,8 +1088,9 @@ async function main() {
       if (modes.mode && layerClick()) return;
       if (city) selectCity(city);
       else if (owner >= 0) {
-        // On phones the bottom sheet would hide the state, so bring it into the visible part of the map.
-        if (owner !== state.selectedState) selectState(owner, { fly: isMobile() });
+        // On phones the bottom sheet would hide the state, so bring it into the visible part of the map; not for a
+        // Hoàng Sa / Trường Sa hex, which the province's frame leaves out (it would fly away from the tapped island).
+        if (owner !== state.selectedState) selectState(owner, { fly: isMobile() && !(w.raw.remote || []).includes(cell) });
       } else if (state.selectedCity || state.selectedState != null) clearSelection();
     }, DOUBLE_MS);
     // A click changes what is on screen (a panel, a mode, a flight), so drop the tooltip until the pointer moves again.

@@ -46,7 +46,7 @@ WATER_TABLE = [
     {"id": LAKE, "name": "Lake", "color": "#3a80b0", "rule": "Water hex with Natural Earth 1:10m lake points that outnumber sea points, or above sea level."},
 ]
 RELIEF_TABLE = [
-    {"id": FLAT, "name": "Flat", "rule": f"Elevation standard deviation inside the hex under {HILLS_SD} m."},
+    {"id": FLAT, "name": "Flat", "rule": f"Elevation standard deviation inside the hex under {HILLS_SD} m, or a valley floor (the lower 60% of samples within 60 m of each other and under 400 m) eased down one class."},
     {"id": HILLS, "name": "Hills", "rule": f"Elevation standard deviation ≥ {HILLS_SD} m."},
     {"id": MOUNTAINS, "name": "Mountains", "rule": f"Elevation standard deviation ≥ {MOUNT_SD} m, or mean elevation ≥ {MOUNT_MEAN:,} m."},
     {"id": PEAKS, "name": "Peaks", "rule": f"Highest sample ≥ {PEAK_MAX:,} m with mountain relief (the Hoàng Liên Sơn range around Fansipan)."},
@@ -71,12 +71,12 @@ PCT = {"forest": (10,), "crop": (40,), "pasture": (), "grass": (30,), "shrub": (
 COVER_NOTE = (
     "From ESA WorldCover 2021, read at about 280 m pixels and sampled on a 1 km lattice inside each hex (about 160 "
     "points). Permanent water and no-data pixels are ignored; shares are of the remaining land points. Neighbouring "
-    "countries and far-offshore islands have cover 0 (none). Perennial tree crops such as coffee, rubber and cashew are "
+    "countries have cover 0 (none); far-offshore island hexes are drawn as grassland (5), as WorldCover's tiles stop at 111° E. Perennial tree crops such as coffee, rubber and cashew are "
     "often classed as tree cover, so the Central Highlands look more forested than they are."
 )
 WATER_NOTE = (
     "Province outlines (geoBoundaries) and Natural Earth 1:10m country outlines don't meet exactly. A sea hex whose ETOPO1 "
-    "mean is above sea level becomes land when at least 4 of its 6 neighbours are land, or when it touches both "
+    "mean is above sea level (and fewer than half of its samples below it) becomes land when at least 4 of its 6 neighbours are land, or when it touches both "
     "Vietnamese and foreign land. Hoàng Sa (Paracel) and Trường Sa (Spratly) islands are far smaller than a hex; each "
     "island group is shown by the hexes at its islands' centres, owned by Đà Nẵng and Khánh Hòa."
 )

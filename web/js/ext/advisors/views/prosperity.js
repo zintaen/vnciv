@@ -1,6 +1,6 @@
 // Prosperity advisor: income vs poverty, inequality, worker pay and unemployment.
 import { esc, fin, colorScale, RAMPS } from "../core/util.js";
-import { money, dollars, pct, int, count3, fmtShort } from "../core/fmt.js";
+import { money, dollars, pct, int, count3, fmtShort, fixed } from "../core/fmt.js";
 import { barList, histogram, rampLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
@@ -16,7 +16,7 @@ export function mount(ctx) {
   el.insertAdjacentHTML("beforeend", tiles([
     { label: tr("Income"), value: dollars(n.median_income), sub: tr("per person per year") },
     { label: tr("Worker income"), value: dollars(n.income_worker), sub: tr("per worker per year") },
-    { label: tr("Poverty"), value: pct(n.poverty), sub: tr("of households · Gini {g}", { g: fin(n.gini) ? n.gini.toFixed(2) : "–" }) },
+    { label: tr("Poverty"), value: pct(n.poverty), sub: tr("of households · Gini {g}", { g: fin(n.gini) ? fixed(n.gini, 2) : "–" }) },
   ]));
 
   // --- income vs poverty ----------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ export function mount(ctx) {
     y: { label: tr("Poor households"), fmt: (v) => fmtShort("pct", v) },
     size: { label: tr("Population"), fmt: count3, max: 16, min: 3 },
     refX: fin(n.median_income) ? [{ v: n.median_income, label: tr("Vietnam") }] : [],
-    color: (c) => giniColor(c), colorLabel: "Gini", colorFmt: (v) => (+v).toFixed(2),
+    color: (c) => giniColor(c), colorLabel: "Gini", colorFmt: (v) => fixed((+v), 2),
     onHover: (p) => { link.hover(p ? rowsHighlight(lv(), [p.row]) : null); affTable.setHot(p ? p.key : null, false); },
     onClick: (p) => lv().focus(p.row),
     onBrush: (set) => {
@@ -50,7 +50,7 @@ export function mount(ctx) {
       selInfo.innerHTML = sel.length ? `${tr("<b>{n}</b> {places} selected · {pop} people", { n: int(sel.length), places: esc(lv().label.toLowerCase()), pop: count3(sel.reduce((a, r) => a + (r.v.population || 0), 0)) })} ${frameBtn()}<button type="button" class="adv-mini" data-clear>${tr("Clear")}</button>` : "";
     },
   });
-  aBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.heat, domain: giniDomain, fmt: (v) => v.toFixed(2), label: tr("Gini index (higher = more unequal)") }));
+  aBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.heat, domain: giniDomain, fmt: (v) => fixed(v, 2), label: tr("Gini index (higher = more unequal)") }));
   const selInfo = document.createElement("div");
   selInfo.className = "adv-brushinfo";
   aBody.appendChild(selInfo);
@@ -139,7 +139,7 @@ export function mount(ctx) {
     const high = topBy(lvU.rows, (r) => r.v.unemployment, { n: 8 });
     const low = topBy(lvU.rows, (r) => r.v.unemployment, { n: 8, asc: true });
     const max = Math.max(...high.map((x) => x.v));
-    const mk = (list) => list.map((x) => ({ key: x.r.key, label: x.r.name, sub: uLevel === "metros" ? x.r.sub : "", value: x.v, text: pct(x.v), tone: x.v > n.unemployment * 1.03 ? "bad" : x.v < n.unemployment * 0.97 ? "good" : null, row: x.r }));
+    const mk = (list) => list.map((x) => ({ key: x.r.key, label: uLevel === "metros" ? x.r.v.former || x.r.name : x.r.name, sub: uLevel === "metros" ? x.r.sub : "", value: x.v, text: pct(x.v), tone: x.v > n.unemployment * 1.03 ? "bad" : x.v < n.unemployment * 0.97 ? "good" : null, row: x.r }));
     const o = { max, onHover: (r) => link.hover(r ? rowsHighlight(lvU, [r.row]) : null), onClick: (r) => lvU.focus(r.row) };
     uHost.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Highest")}</h4>`);
     barList(uHost, { ...o, rows: mk(high) });

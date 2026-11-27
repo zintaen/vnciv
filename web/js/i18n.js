@@ -4,7 +4,7 @@
 //   t("{n} lenses", { n: 19 })              → "19 lớp bản đồ"   (placeholders {name} are filled after lookup)
 // The choice is kept in localStorage ("vnciv-lang"); ?lang=en|vi in the URL overrides it. Switching reloads the page
 // (the hash keeps the view), so nothing has to re-render live.
-import { VI } from "./i18n/vi.js";
+import { VI, CONFLICTS } from "./i18n/vi.js";
 
 export const LANGS = ["vi", "en"];
 const STORE = "vnciv-lang";
@@ -27,6 +27,8 @@ if (typeof document !== "undefined") document.documentElement.lang = lang;
 // English keys looked up but not found while in Vietnamese (QA reads window.__i18nMissing).
 const missing = new Set();
 if (typeof window !== "undefined") window.__i18nMissing = missing;
+// Keys translated differently in several vi-*.js files (i18n/vi.js; tools/i18n/check_dups.mjs fails on them).
+if (typeof window !== "undefined") window.__i18nConflicts = CONFLICTS;
 
 export function t(s, vars) {
   if (s == null) return s;

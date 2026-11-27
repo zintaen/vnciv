@@ -1,6 +1,6 @@
 import { css } from "../color.js";
 import { t } from "../i18n.js";
-import { esc, popShort } from "../format.js";
+import { esc, kindOf, popShort } from "../format.js";
 import { isCapital } from "../world.js";
 import { yieldGrid, amenities, industries, economyRows, popLine, growthSpan, showPanel, fullName } from "./infoPanel.js";
 
@@ -36,6 +36,7 @@ export function openStatePanel(idx, ctx) {
   const hasEcon = st.population != null || st.yields;
   showPanel({
     kind: "state",
+    kindLabel: kindOf(abbr),
     stripe: css(w.stateColor[idx] || [190, 190, 190]),
     title: name,
     sub: Array.isArray(st.former) && st.former.length

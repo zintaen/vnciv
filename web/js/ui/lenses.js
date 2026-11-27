@@ -1,6 +1,6 @@
 // Lens dock: a quick row (Terrain + the 3 most recent lenses), a grouped lens picker, and a rich legend with a
 // histogram of hex values whose ramp can be hovered or dragged to highlight a band of values on the map.
-import { compact, esc } from "../format.js";
+import { compact, dec, esc, fixed, money } from "../format.js";
 import { lensScale } from "../world.js";
 import { rampColor, parseHex } from "../color.js";
 import { icon, glyph } from "./icon.js";
@@ -11,21 +11,21 @@ export { glyph };
 // Whole numbers read as integers, but a real fractional value under 10 keeps 1–2 significant digits so a sparse
 // cell (0.34 people/km²) never shows as "0".
 const intish = (v) =>
-  Number.isInteger(v) || Math.abs(v) >= 10 ? compact(v) : Math.abs(v) < 1 ? String(+v.toPrecision(1)) : v.toFixed(1);
+  Number.isInteger(v) || Math.abs(v) >= 10 ? compact(v) : Math.abs(v) < 1 ? dec(+v.toPrecision(1)) : fixed(v, 1);
 
 export function formatLensValue(lens, v) {
   if (v == null || !Number.isFinite(v)) return t("no data");
   switch (lens.format) {
     case "category": { const c = lens.categories?.[Math.round(v)]?.name; return c != null ? t(c) : t("no data"); }
-    case "usd": return "$" + compact(v);
-    case "pct": return (v * 100).toFixed(v < 0.1 ? 1 : 0) + "%";
+    case "usd": return money(v);
+    case "pct": return fixed(v * 100, v < 0.1 ? 1 : 0) + "%";
     case "int": return intish(v) + (lens.unit?.startsWith("people") ? " /km²" : lens.unit ? " " + t(lens.unit) : "");
-    case "minutes": return t("{n} min", { n: v.toFixed(0) });
-    case "years": return t("{n} yrs", { n: v.toFixed(1) });
-    case "float": return (v < 10 ? v.toFixed(1) : compact(v)) + (lens.unit ? " " + t(lens.unit) : "");
+    case "minutes": return t("{n} min", { n: fixed(v, 0) });
+    case "years": return t("{n} yrs", { n: fixed(v, 1) });
+    case "float": return (v < 10 ? fixed(v, 1) : compact(v)) + (lens.unit ? " " + t(lens.unit) : "");
   }
-  if (lens.unit?.includes("$")) return "$" + compact(v);
-  return (v < 10 ? v.toFixed(1) : compact(v)) + (lens.unit?.startsWith("people") ? " /km²" : "");
+  if (lens.unit?.includes("$")) return money(v);
+  return (v < 10 ? fixed(v, 1) : compact(v)) + (lens.unit?.startsWith("people") ? " /km²" : "");
 }
 
 // A legend tick: the number alone (a long unit such as "adherents per 100 residents" is printed once on the legend's
@@ -105,17 +105,21 @@ export function initLensDock(opts) {
     quick.innerHTML = row.map(quickBtn).join("");
     const inRow = !active || recent.includes(active.id);
     moreBtn.classList.toggle("active", !inRow);
-    moreBtn.innerHTML = `${icon("layers", "▤", { size: 15 })}<span>${inRow ? t("Lenses") : esc(t(active.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
+    moreBtn.innerHTML = `${icon("map", "▤", { size: 15 })}<span>${inRow ? t("Lenses") : esc(t(active.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
     moreBtn.title = t("All lenses (L cycles)");
     moreBtn.hidden = !lenses.length;
+    clipCheck();
   }
+  // A quick row too long for the dock scrolls; a fade on its right edge says there is more (css .lens-quick.clipped).
+  const clipCheck = () => quick.classList.toggle("clipped", quick.scrollWidth > quick.clientWidth + 1);
+  if (typeof ResizeObserver === "function") new ResizeObserver(clipCheck).observe(quick);
 
   function renderPicker() {
     const groups = [...(lensFile?.groups || [])];
     const known = new Set(groups.map((g) => g.id));
     if (lenses.some((l) => !known.has(l.group))) groups.push({ id: "__other", name: "Other" });
     const tile = (l) => `<button class="lp-tile ${isActive(l) ? "active" : ""}" data-id="${esc(l.id ?? "")}" aria-pressed="${isActive(l)}"
-        title="${esc(t(l.description || l.name))}">
+        title="${esc(l.description ? `${t(l.name)}: ${t(l.description)}` : t(l.name))}">
         <span class="lp-ic">${glyph(l, 20)}</span><span class="lp-nm">${esc(t(l.name))}</span>
         ${l.ramp ? `<i class="lp-ramp" style="background:linear-gradient(90deg, ${rampStops(l)})"></i>` : `<i class="lp-ramp terrain"></i>`}
       </button>`;

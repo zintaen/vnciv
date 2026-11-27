@@ -21,8 +21,8 @@ RULES = [
              "a serial site without its own coordinates (the Complex of Huế Monuments) is placed at the mean of its "
              "components. Ranked by year of inscription."},
     {"id": "national_park", "kind": "natural", "kinds": ["natural"], "year": 2025,
-     "text": "Every national park (vườn quốc gia) in Wikidata with coordinates, except those already a World Heritage "
-             "wonder. Ranked by area where Wikidata records it (largest first), then by name. Vietnam publishes no "
+     "text": "Every national park (vườn quốc gia) that Wikidata lists with coordinates (a few parks are missing "
+             "there), except those inside a World Heritage wonder (Cát Bà, part of Hạ Long Bay–Cát Bà since 2023). Ranked by area where Wikidata records it (largest first), then by name. Vietnam publishes no "
              "visitor counts per park, so parks are not ranked by visits."},
     {"id": "research_university", "kind": "university", "kinds": ["university"], "year": 2025,
      "text": "The two national universities and the three regional universities, the multi-campus university systems "
@@ -32,6 +32,11 @@ RULES = [
              "their Wikidata coordinates. Ranked alphabetically, not by importance."},
 ]
 MAX_PARK_KM2 = 2500  # Vietnam's largest national parks are ~1,000-2,000 km²; larger values are entry errors
+# UNESCO inscription years (whc.unesco.org), used when Wikidata lacks the qualifier
+INSCRIBED = {"678": 1993, "672": 1994, "948": 1999, "949": 1999, "951": 2003, "1328": 2010, "1358": 2011, "1438": 2014,
+             "1732": 2025}
+# national parks inside a World Heritage site (Cát Bà joined Hạ Long Bay's site 672 in 2023)
+PARK_IN_WH = {"Q1537215"}
 NATURAL_WH = {"672", "951", "1438"}  # Hạ Long Bay–Cát Bà, Phong Nha–Kẻ Bàng, Tràng An (mixed)
 SHORT = {"672": "Vịnh Hạ Long", "951": "Phong Nha–Kẻ Bàng", "1438": "Tràng An", "678": "Cố đô Huế", "948": "Phố cổ Hội An",
          "949": "Mỹ Sơn", "1328": "Hoàng thành Thăng Long", "1358": "Thành nhà Hồ", "1732": "Yên Tử"}
@@ -76,14 +81,14 @@ def build():
         if not c:
             continue
         add(f"wh-{ref}", s["name"], SHORT.get(ref, s["name"]), "natural" if ref in NATURAL_WH else "landmark",
-            "world_heritage", *c, {"inscribed": s["year"], "whc_ref": ref}, en=s["en"])
+            "world_heritage", *c, {"inscribed": s["year"] or INSCRIBED.get(ref), "whc_ref": ref}, en=s["en"])
     wh_names = {w["name"] for w in wonders}
 
     seen = set()
     for r in bindings("parks.json"):
         q = r["s"]["value"].rsplit("/", 1)[1]
         name = r["sLabel"]["value"]
-        if q in seen or name in wh_names or re.fullmatch(r"Q\d+", name):
+        if q in seen or q in PARK_IN_WH or name in wh_names or re.fullmatch(r"Q\d+", name):
             continue
         seen.add(q)
         area = float(r["area"]["value"]) / 1e6 if r.get("area") else None

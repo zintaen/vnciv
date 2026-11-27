@@ -24,8 +24,8 @@ COMPONENTS = [{"id": "army", "name": "Ground forces", "codes": []}, {"id": "navy
               {"id": "other", "name": "Border guard, coast guard & other", "codes": []}]
 RULES = {
     "installations": "Every OpenStreetMap feature in Vietnam tagged as military land (landuse=military or a military=* "
-                     "tag), except trenches, bunkers, checkpoints and offices; unnamed ones only from "
-                     f"{UNNAMED_MIN_KM2:g} km². Several features in one hex and branch are folded into the largest.",
+                     "tag), except trenches, bunkers, checkpoints, offices, danger areas and obstacle courses; unnamed ones only from "
+                     f"{UNNAMED_MIN_KM2:g} km². Several features in one hex and branch are folded into the largest (named first); its own outline sets the size.",
     "tier": f"major: outline of {MAJOR_KM2:g} km² or more; base: {BASE_KM2:g} km² or more; site: smaller or no outline. "
             "By area only: no headcount is published.",
     "components": "Branch from the tags and names: naval bases, 'Hải quân', 'Quân cảng', 'Hải đoàn' → Navy; "
@@ -119,7 +119,7 @@ def build():
     for (cell, comp), rs in groups.items():
         rs.sort(key=lambda r: (not r["named"], -r["area"]))
         head = rs[0]
-        area = sum(r["area"] for r in rs)
+        area = head["area"]  # the site's own outline; folded parts are listed, not added
         tier = "major" if area >= MAJOR_KM2 else "base" if area >= BASE_KM2 else "site"
         iso = W.counties[head["k"]]
         item = {"id": f"osm-{head['osm']}", "name": head["name"], "component": comp, "joint": False, "status": "act",

@@ -1,9 +1,11 @@
 // Top-bar search over cities and provinces: prefix matches first, then word-prefix, then substring; ties by population.
-import { esc, popShort } from "../format.js";
+import { esc, kindOf, popShort } from "../format.js";
 import { icon } from "../ui/icon.js";
 import { t } from "../i18n.js";
 
 const norm = (s) => String(s || "").replace(/[đĐ]/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+// The query as typed (lower case, diacritics kept): "Đà" should rank Đà Nẵng above Đắk Lắk.
+const exact = (s) => String(s || "").normalize("NFC").toLowerCase().trim();
 const MAX = 8;
 
 /**
@@ -21,13 +23,13 @@ export function initSearch(opts) {
 
   const entries = [];
   for (const c of opts.cities || []) {
-    entries.push({ kind: "city", city: c, name: c.name, n: norm(c.name), full: norm(c.full), pop: c.population || 0,
+    entries.push({ kind: "city", city: c, name: c.name, n: norm(c.name), x: exact(c.name), full: norm(c.full), pop: c.population || 0,
       sub: String(c.full || "").replace("(former province)", t("(former province)")), label: c.name });
   }
   (opts.states || []).forEach((s, index) => {
     if (!s) return;
-    entries.push({ kind: "state", index, name: s.name, n: norm(s.name), full: norm(s.abbr), abbr: (s.abbr || "").toLowerCase(),
-      pop: s.population || 0, sub: s.former && s.former.length > 1 ? `${t("Province")} · ${s.former.join(" + ")}` : t("Province"), label: s.name });
+    entries.push({ kind: "state", index, name: s.name, n: norm(s.name), x: exact(s.name), full: norm(s.abbr), abbr: (s.abbr || "").toLowerCase(),
+      pop: s.population || 0, sub: s.former && s.former.length > 1 ? `${kindOf(s)} · ${s.former.join(" + ")}` : kindOf(s), label: s.name });
   });
 
   let results = [];
@@ -43,16 +45,18 @@ export function initSearch(opts) {
     return -1;
   }
 
-  function query(q) {
-    q = norm(q);
+  function query(raw) {
+    const q = norm(raw), qx = exact(raw);
     if (!q) return [];
+    const marked = qx !== q; // typed with diacritics (or capitals/punctuation): prefer names spelled that way
     const out = [];
     for (const e of entries) {
       const s = score(e, q);
-      if (s >= 0) out.push([s, e]);
+      const miss = marked && !(e.x.startsWith(qx) || e.x.includes(" " + qx)) ? 1 : 0;
+      if (s >= 0) out.push([s, miss, e]);
     }
-    out.sort((a, b) => a[0] - b[0] || b[1].pop - a[1].pop);
-    return out.slice(0, MAX).map((x) => x[1]);
+    out.sort((a, b) => a[1] - b[1] || a[0] - b[0] || b[2].pop - a[2].pop);
+    return out.slice(0, MAX).map((x) => x[2]);
   }
 
   function position() {

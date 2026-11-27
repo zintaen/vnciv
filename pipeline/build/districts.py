@@ -19,7 +19,7 @@ CATALOG = [
     ("industrial_zone", "Industrial zone", "d-industrial_zone", "#b0613a", "fdi", "Factory town", "Foreign direct investment registered in 2024 per resident."),
     ("harbor", "Harbor", "d-harbor", "#3f8fc0", "site:port", "Port city", "A seaport or port terminal (Wikidata) in the province."),
     ("theater_square", "Heritage quarter", "d-theater_square", "#b07ce0", "site:heritage", "Heritage city", "A UNESCO World Heritage site in the province."),
-    ("entertainment_complex", "Tourist quarter", "d-entertainment_complex", "#e07c9a", "tourism", "Resort city", "Travel-agency and tour turnover per resident."),
+    ("entertainment_complex", "Tourist quarter", "d-entertainment_complex", "#e07c9a", "tourism", "Tourism hub", "Travel-agency and tour turnover per resident (counted where the agencies are registered)."),
     ("aerodrome", "Aerodrome", "d-aerodrome", "#8aa0b8", "site:airport", "Air hub", "An airport with 2 million or more passengers a year."),
     ("government_plaza", "Government plaza", "d-government_plaza", "#c9a45c", "site:capital", "Capital city", "The national capital."),
     ("aqueduct", "Dam & power plant", "d-aqueduct", "#5fb0a8", "site:power", "Power town", "Mapped power plants totalling 1,000 MW or more."),

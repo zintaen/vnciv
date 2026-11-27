@@ -1,7 +1,7 @@
 // Energy advisor: the mapped power plants (WRI Global Power Plant Database, data as of 2021).
 import { esc, fin } from "../core/util.js";
 import { fmtValue, mw, int, count3 } from "../core/fmt.js";
-import { siteDetail, siteDetailHtml } from "../../../format.js";
+import { kindOf, siteDetail, siteDetailHtml } from "../../../format.js";
 import { barList, shareBar, stackedBars, sizeLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { section, tiles, chips, sourcesHtml } from "../core/view.js";
@@ -220,7 +220,7 @@ export function mount(ctx) {
     const sIdx = st.state ? stateIdx.get(st.state) : null;
     link.base({ dimOthers: true, states: sIdx != null ? new Set([sIdx]) : undefined });
     stateChip.innerHTML = st.state
-      ? `<span class="adv-fchip">${tr("Province: <b>{name}</b> · {n} sites", { name: esc(states[sIdx]?.name || st.state), n: int(vis.length) })}<button type="button" data-clear-state aria-label="${esc(tr("Clear the province filter"))}">✕</button></span>`
+      ? `<span class="adv-fchip">${tr("{kind}: <b>{name}</b> · {n} sites", { kind: kindOf(st.state), name: esc(states[sIdx]?.name || st.state), n: int(vis.length) })}<button type="button" data-clear-state aria-label="${esc(tr("Clear the province filter"))}">✕</button></span>`
       : "";
     const r = (v) => 24 * Math.sqrt(v / vMax);
     legendBox.innerHTML = sizeLegend([100, 500, 2000].filter((v) => v <= vMax * 1.2), r, (v) => `${int(v)} MW`, tr("Circle area = capacity"));

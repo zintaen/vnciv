@@ -7,7 +7,7 @@
 // the figure. Each row: N figures, a caption ("each figure ≈ 950K residents"), a read-out line that a hovered or
 // focused figure fills ("8 in 10 residents in X are city dwellers (VN: 4 in 10)") and a thin Vietnam bar for
 // comparison. Below: life expectancy and migration. A row NSO has no figure for is said so, never drawn as zeros.
-import { esc, int, pct } from "../../format.js";
+import { esc, fixed, int, pct } from "../../format.js";
 import { compact } from "./fmt.js";
 import { t } from "../../i18n.js";
 import { CATEGORY_COLOR, figureCanvas, loadPainter } from "./figures.js";
@@ -71,7 +71,7 @@ export function citizensHtml(m, data) {
   const le = row0.life_expectancy, vle = nat.life_expectancy;
   const mig = row0.migration || {};
   const chip = (v, vn, fmt, lbl, tip) => (v == null ? "" : `<div class="cv-cz-chip" title="${esc(tip)}"><b>${fmt(v)}</b><span>${esc(t(lbl))}</span>${vn != null ? `<small>VN ${fmt(vn)}</small>` : ""}</div>`);
-  const sgn = (v) => `${v > 0 ? "+" : v < 0 ? "−" : ""}${Math.abs(v).toFixed(1)}`;
+  const sgn = (v) => `${v > 0 ? "+" : v < 0 ? "−" : ""}${fixed(Math.abs(v), 1)}`;
   const unit = t(mig.unit || "per 1,000 residents");
 
   // The "great person" call-out: the strongest over-represented category.
@@ -79,7 +79,7 @@ export function citizensHtml(m, data) {
   const great = top ? `<div class="cv-great" style="--fc:${esc(colorOf(top.row, top.key))}">
       <span class="cv-great-fig" data-great="${esc(top.row)}|${esc(top.key)}" aria-hidden="true"></span>
       <div><small>${t("Standout citizens")}</small><b>${esc(label(top.row, top.key))}</b>
-      <span>${esc(t("{p} of {noun} here, {vn} nationally: {r}× Vietnam's share.", { p: pct(top.share, 1), noun: noun(top.row)[1], vn: pct(top.national, 1), r: top.ratio.toFixed(1) }))}</span></div></div>` : "";
+      <span>${esc(t("{p} of {noun} here, {vn} nationally: {r}× Vietnam's share.", { p: pct(top.share, 1), noun: noun(top.row)[1], vn: pct(top.national, 1), r: fixed(top.ratio, 1) }))}</span></div></div>` : "";
 
   const html = rows.map((rid) => {
     const row = row0[rid];
@@ -103,7 +103,7 @@ export function citizensHtml(m, data) {
     const legend = keys.map((k) => {
       const sh = row.shares?.[k], v = vn?.shares?.[k];
       const sp = specs.get(`${rid}|${k}`);
-      const chev = sp ? `<em class="${sp.ratio >= 1 ? "up" : "down"}" title="${t("{r}× Vietnam's share", { r: sp.ratio.toFixed(1) })}">${sp.ratio >= 1 ? "▲" : "▼"}</em>` : "";
+      const chev = sp ? `<em class="${sp.ratio >= 1 ? "up" : "down"}" title="${t("{r}× Vietnam's share", { r: fixed(sp.ratio, 1) })}">${sp.ratio >= 1 ? "▲" : "▼"}</em>` : "";
       return `<span class="cv-cz-k${figs[k] ? "" : " zero"}" data-k="${esc(k)}" title="${esc(label(rid, k))}: ${sh != null ? pct(sh, 1) : "–"}${v != null ? ` (VN ${pct(v, 1)})` : ""}${figs[k] ? "" : ". " + t("Rounds to no figure.")}"><i style="background:${esc(colorOf(rid, k))}"></i>${esc(label(rid, k))} <small>${sh != null ? pct(sh, 0) : "–"}</small>${chev}</span>`;
     }).join("");
     const vnBar = vn?.shares ? `<div class="cv-cz-us" title="${t("Vietnam's mix, same order")}"><span>VN</span><div>${keys.map((k) => {
@@ -124,9 +124,9 @@ export function citizensHtml(m, data) {
   const unreliable = row0.reliable === false ? `<p class="cv-warn">${t("Some of these shares are survey estimates with wide margins here: read them as rough.")}</p>` : "";
   return `
     <div class="cv-cz-top">
-      ${chip(le, vle, (v) => v.toFixed(1), "life expectancy", t("Life expectancy at birth, years (NSO)"))}
-      ${chip(mig.in, nat.migration?.in, (v) => v.toFixed(1), "moved in", t("In-migrants {unit} (NSO)", { unit }))}
-      ${chip(mig.out, nat.migration?.out, (v) => v.toFixed(1), "moved out", t("Out-migrants {unit} (NSO)", { unit }))}
+      ${chip(le, vle, (v) => fixed(v, 1), "life expectancy", t("Life expectancy at birth, years (NSO)"))}
+      ${chip(mig.in, nat.migration?.in, (v) => fixed(v, 1), "moved in", t("In-migrants {unit} (NSO)", { unit }))}
+      ${chip(mig.out, nat.migration?.out, (v) => fixed(v, 1), "moved out", t("Out-migrants {unit} (NSO)", { unit }))}
       ${chip(mig.net, nat.migration?.net, sgn, "net migration", t("Net migration {unit} (NSO)", { unit }))}
     </div>
     ${great}

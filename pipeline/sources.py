@@ -78,7 +78,7 @@ SOURCES = [
     dict(id="worldcover", title="ESA WorldCover 10 m 2021 v200", publisher="European Space Agency",
          homepage="https://esa-worldcover.org/", license="CC BY 4.0",
          description="Global land cover from Sentinel-1 and -2. Read from the cloud-optimised tiles' overviews "
-         "(about 160 m pixels) and sampled on a lattice inside each hex.",
+         "(about 280 m pixels) and sampled on a lattice inside each hex.",
          used_for=["Land cover (forest, cropland, rice paddies' cropland, wetland, urban)"], files=[]),
     dict(id="worldpop", title="WorldPop population 2025, 1 km (R2025A, constrained, UN-adjusted)",
          publisher="WorldPop, University of Southampton", homepage="https://www.worldpop.org/", license="CC BY 4.0",
@@ -139,8 +139,8 @@ SOURCES = [
                  "&prop=wikitext&format=json&formatversion=2", "busiest_airports.json")]),
     dict(id="wikidata", title="Wikidata", publisher="Wikimedia Foundation", homepage="https://www.wikidata.org/",
          license="CC0", description="Coordinates and facts for World Heritage sites, national parks, universities, "
-         "ports and the Hoàng Sa and Trường Sa islands, by SPARQL query.",
-         used_for=["Wonders", "Universities", "Ports", "Islands"],
+         "ports and landmarks, by SPARQL query.",
+         used_for=["Wonders", "Universities", "Ports"],
          files=[(sparql(Q_HERITAGE), "heritage.json"), (sparql(Q_PARKS), "parks.json"), (sparql(Q_UNIS), "universities.json"),
                 (sparql(Q_PORTS), "ports.json"), (sparql(Q_ISLANDS), "islands.json"),
                 (sparql(Q_LANDMARKS), "landmarks.json")]),

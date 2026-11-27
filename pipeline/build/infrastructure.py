@@ -96,6 +96,8 @@ def airport_passengers():
         iata = cells[4]
         vals = cells[6:6 + len(head)]
         for year, v in reversed(list(zip(head, vals))):
+            if "unknown" in v.lower():  # data-sort-value="N" {{unknown}}: no figure for that year
+                continue
             n = re.sub(r"[^\d]", "", v)
             if n:
                 out[iata] = (int(n), int(year))
@@ -133,6 +135,8 @@ def build():
         p["rank"] = k + 1
 
     pax = airport_passengers()
+    from ..admin import old_units
+    SEAT = {u["iso"]: u["name"] for u in old_units()}  # where an airport is: its former province (OurAirports municipality strings are messy)
     airports = []
     for r in csv.DictReader(open(RAW / "ourairports" / "airports.csv", encoding="utf-8")):
         if r["iso_country"] != "VN" or r["scheduled_service"] != "yes" or not r["iata_code"]:
@@ -148,7 +152,7 @@ def build():
                 pl["cell"] = site_cell(W, pl["x"], pl["y"], 2, county=k) or pl["cell"]
         n, year = pax.get(r["iata_code"], (None, None))
         hub = None if n is None else "L" if n >= 1e7 else "M" if n >= 2e6 else "S" if n >= 5e5 else "N"
-        airports.append({"id": r["iata_code"], "name": r["name"], "city": r["municipality"], "hub": hub,
+        airports.append({"id": r["iata_code"], "name": r["name"], "city": SEAT[pl["cbsa"]], "hub": hub,
                          "enplanements": n, "enplanements_prev": None, "cargo_lbs": None, "year": year, **pl})
     airports.sort(key=lambda a: -(a["enplanements"] or 0))
     print(f"    {len(ports)} ports, {len(airports)} airports ({sum(a['enplanements'] is not None for a in airports)} with passengers)")

@@ -2,19 +2,20 @@
 // installations by branch and tier, provinces, restricted ground and Encampment cities. Vietnam publishes no troop,
 // spending or veteran figures, so the US version's headcount and dollar sections have nothing to show here.
 import { esc, fin, el as mk } from "../core/util.js";
-import { int } from "../core/fmt.js";
+import { fixed, int } from "../core/fmt.js";
 import { stackedBars, swatchLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { section, tiles, chips, segmented, sourcesHtml } from "../core/view.js";
 import { rowsHighlight } from "../core/data.js";
 import { frameBox, focusPoint } from "../core/frame.js";
 import { t as tr } from "../../../i18n.js";
+import { kindOf } from "../../../format.js";
 
 const COMP_COLOR = { army: "#7d9a46", navy: "#3f6fc2", air_force: "#6fb3e0", other: "#d6b04a" };
 const COMP_SHORT = { army: tr("Ground"), navy: tr("Navy"), air_force: tr("Air Def.–AF"), other: tr("Border & other") };
 const TIER_LABEL = { major: tr("Major"), base: tr("Base"), site: tr("Site") };
 const TIER_COLOR = { major: "#c24a3e", base: "#d9a457", site: "#9a9aa8" };
-const km2 = (v) => (fin(v) ? `${v >= 10 ? int(v) : v.toFixed(v >= 1 ? 1 : 2)} km²` : "–");
+const km2 = (v) => (fin(v) ? `${v >= 10 ? int(v) : fixed(v, v >= 1 ? 1 : 2)} km²` : "–");
 
 export async function mount(ctx) {
   const { app, data, el, link } = ctx;
@@ -209,7 +210,7 @@ export async function mount(ctx) {
     const row = st.state ? stLevel.byKey.get(st.state) : null;
     link.base(row ? { states: new Set([row.ref]), dimOthers: true } : null);
     stateChip.innerHTML = st.state
-      ? `<span class="adv-fchip">${tr("Province: <b>{name}</b> · {n} sites", { name: esc(provName(st.state)), n: int(vis.length) })}<button type="button" data-clear-state aria-label="${esc(tr("Clear the province filter"))}">✕</button></span>`
+      ? `<span class="adv-fchip">${tr("{kind}: <b>{name}</b> · {n} sites", { kind: kindOf(st.state), name: esc(provName(st.state)), n: int(vis.length) })}<button type="button" data-clear-state aria-label="${esc(tr("Clear the province filter"))}">✕</button></span>`
       : "";
   }
   apply();

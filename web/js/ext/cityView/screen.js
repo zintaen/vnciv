@@ -2,7 +2,7 @@
 // Citizens (figure rows from citizens.json), Districts (districts.json + military.json, air routes from trade.json),
 // Economy, Workforce, Resources and Compare. Plain HTML strings + inline SVG charts; render(el, model, handlers) fills `el`. The
 // citizens and districts files load on demand (h.loadData) and fill their sections when they arrive.
-import { esc, int, pct, siteDetail, siteDetailHtml } from "../../format.js";
+import { esc, fixed, int, kindOf, pct, siteDetail, siteDetailHtml } from "../../format.js";
 import { compact, money, popShort, yieldValue } from "./fmt.js";
 import { icon, glyph } from "../../ui/icon.js";
 import { css } from "../../color.js";
@@ -24,7 +24,7 @@ const TABS = [
   ["compare", "Compare", "layers"],
 ];
 
-const signed = (g, d = 1) => (g == null ? "–" : `${g >= 0 ? "+" : "−"}${Math.abs(g * 100).toFixed(d)}%`);
+const signed = (g, d = 1) => (g == null ? "–" : `${g >= 0 ? "+" : "−"}${fixed(Math.abs(g * 100), d)}%`);
 const rankCache = new WeakMap();
 function countOf(cities, key) {
   let m = rankCache.get(cities);
@@ -42,9 +42,9 @@ function rankBadge(rank, of, label, tip) {
 
 function lqBadge(lq) {
   if (lq == null) return "";
-  const tip = t("Location quotient: this share is {n}× Vietnam's share", { n: lq.toFixed(2) });
+  const tip = t("Location quotient: this share is {n}× Vietnam's share", { n: fixed(lq, 2) });
   const cls = lq >= 1.25 ? "hi" : lq <= 0.75 ? "lo" : "mid";
-  return `<span class="cv-lq ${cls}" title="${esc(tip)}">×${lq.toFixed(1)}</span>`;
+  return `<span class="cv-lq ${cls}" title="${esc(tip)}">×${fixed(lq, 1)}</span>`;
 }
 
 function medallion(id, fallback, bg, size = 18) {
@@ -61,7 +61,7 @@ function header(m) {
     : `<span class="chip">${esc(s.abbr)}</span>`)).join("");
   const g = Number.isFinite(c.growth) ? c.growth : null;
   const yrs = Array.isArray(c.growth_years) ? c.growth_years : null;
-  const growth = g == null ? "" : `<span class="cv-growth ${g >= 0 ? "good" : "bad"}" title="${esc(t("Population change {period}, NSO average population. Vietnam: {v}", { period: yrs ? `${yrs[0]}–${yrs[1]}` : "", v: signed(n.growth) }))}">${g >= 0 ? "▲" : "▼"} ${Math.abs(g * 100).toFixed(1)}%${yrs ? ` <small>${t("since {y}", { y: yrs[0] })}</small>` : ""}</span>`;
+  const growth = g == null ? "" : `<span class="cv-growth ${g >= 0 ? "good" : "bad"}" title="${esc(t("Population change {period}, NSO average population. Vietnam: {v}", { period: yrs ? `${yrs[0]}–${yrs[1]}` : "", v: signed(n.growth) }))}">${g >= 0 ? "▲" : "▼"} ${fixed(Math.abs(g * 100), 1)}%${yrs ? ` <small>${t("since {y}", { y: yrs[0] })}</small>` : ""}</span>`;
   const perCap = c.gdp != null && c.population ? c.gdp / c.population : null;
   const r = c.ranks || {};
   const N = (k) => countOf(cities, k);
@@ -135,15 +135,15 @@ function citizens(m) {
     <h4 class="cv-h4">${t("Living standards")}</h4>
     <div class="cv-stats">
       ${statRow("l-income", "💵", "Income per person / year", c.median_income, n.median_income, usd, "high", null, undefined, undefined, "Average income per person (VHLSS 2024 × 12), USD at the World Bank 2024 rate. Per person, not per household.")}
-      ${statRow("l-amenities", "🌱", "Human development (HDI)", c.hdi, n.hdi, (x) => x.toFixed(3), "high", 1)}
+      ${statRow("l-amenities", "🌱", "Human development (HDI)", c.hdi, n.hdi, (x) => fixed(x, 3), "high", 1)}
       ${statRow("l-poverty", "🥣", "Households in poverty", c.poverty, n.poverty, share, "low", null, undefined, undefined, "Multidimensional poverty standard 2022–2025 (NSO)")}
-      ${statRow(null, "⚖️", "Inequality (Gini)", c.gini, n.gini, (x) => x.toFixed(3), "low", 0.6)}
+      ${statRow(null, "⚖️", "Inequality (Gini)", c.gini, n.gini, (x) => fixed(x, 3), "low", 0.6)}
       ${statRow("l-developed", "🏙", "Urban residents", c.urban, n.urban, share, null, 1)}
       ${statRow("l-degrees", "📖", "Literacy (15+)", c.literacy, n.literacy, share, "high", 1)}
       ${statRow("l-people", "👥", "Density", c.density, n.density, (x) => `${int(x)} /km²`, null, null, `${c.area_km2 != null ? `${int(c.area_km2)} km² · ` : ""}VN ${int(n.density)} /km²`)}
     </div>
     <div class="cv-legend-tiles">${tileLegend(m)}<p>${tilesNote}</p></div>
-    <h4 class="cv-h4" data-counties-h>${t("Province (2025)")}</h4>
+    <h4 class="cv-h4" data-counties-h>${kindOf(m.states[0]?.abbr || "")} (2025)</h4>
     <div class="cv-counties" data-counties><p class="muted cv-note">${t("Loading former provinces…")}</p></div>
   </section>`;
 }
@@ -233,10 +233,10 @@ function economy(m) {
     <div class="cv-stats">
       ${statRow("l-income", "⚙️", "Productivity (GRDP per worker)", c.productivity, n.productivity, money, "high")}
       ${statRow("l-income", "🏗️", "FDI registered in 2024", c.fdi, null, money, null, topOf(m, "fdi"),
-        `${c.fdi_projects != null ? `${t("{n} projects", { n: int(c.fdi_projects) })} · ` : ""}${perRes(c.fdi) != null ? `${t("{v} per resident", { v: money(perRes(c.fdi)) })} · VN ${money(vnPerRes(n.fdi))}` : ""}`, null,
+        `${c.fdi < 0 ? `${t("net reduction of registered capital")} · ` : ""}${c.fdi_projects != null ? `${t("{n} projects", { n: int(c.fdi_projects) })} · ` : ""}${perRes(c.fdi) != null ? `${t("{v} per resident", { v: money(perRes(c.fdi)) })} · VN ${money(vnPerRes(n.fdi))}` : ""}`, null,
         "Newly registered plus added foreign direct investment capital, 2024 (NSO). Registered, not disbursed.")}
       ${statRow("i-retail", "🛍️", "Retail sales per resident", perRes(c.retail), vnPerRes(n.retail), money, null, null, undefined, undefined, "Retail sales of goods and services, 2024 (NSO)")}
-      ${pci != null ? statRow("l-amenities", "🤝", "Business climate (PCI)", pci, null, (x) => x.toFixed(1), "high", 100, Number.isFinite(c.pci_2024) ? `2024 ${c.pci_2024.toFixed(1)}` : "", null, "Provincial Competitiveness Index 2022 (VCCI), 0–100") : ""}
+      ${pci != null ? statRow("l-amenities", "🤝", "Business climate (PCI)", pci, null, (x) => fixed(x, 1), "high", 100, Number.isFinite(c.pci_2024) ? `2024 ${fixed(c.pci_2024, 1)}` : "", null, "Provincial Competitiveness Index 2022 (VCCI), 0–100") : ""}
     </div>
     <p class="cv-note">${esc(t(nat.gdp_vintage || "NSO GRDP"))}${t(", current prices.")} ${esc(t(nat.currency?.note || ""))} ${t("NSO publishes no GRDP by industry for each province.")}</p>
   </section>`;
@@ -294,7 +294,7 @@ function resources(m) {
   const mw = m.sites.filter((s) => s.type?.unit === "MW").reduce((a, s) => a + (s.item.value || 0), 0);
   const summary = m.sites.length
     ? `<p class="cv-lead">${m.sites.length === 1 ? tr("1 mapped site") : tr("{n} mapped sites", { n: m.sites.length })}${
-      mw ? ` · ${tr("{v} of mapped generating capacity", { v: mw >= 1000 ? `${(mw / 1000).toFixed(1)} GW` : `${Math.round(mw)} MW` })}` : ""}. ${tr("Click one to fly there.")}</p>`
+      mw ? ` · ${tr("{v} of mapped generating capacity", { v: mw >= 1000 ? `${fixed((mw / 1000), 1)} GW` : `${Math.round(mw)} MW` })}` : ""}. ${tr("Click one to fly there.")}</p>`
     : `<p class="muted cv-note">${tr("No mapped resource sites in this former province. Only large sites are mapped (each type has a size threshold).")}</p>`;
   return `
   <section class="cv-sec" id="cv-resources" data-sec="resources" aria-labelledby="cv-h-resources">
@@ -314,7 +314,7 @@ const COMPARE = {
     ["Growth", (c) => (Number.isFinite(c.growth) ? c.growth : null), (v) => signed(v)],
   ],
   living: [
-    ["HDI", (c) => c.hdi, (v) => v.toFixed(3)],
+    ["HDI", (c) => c.hdi, (v) => fixed(v, 3)],
     ["Poverty", (c) => c.poverty, (v) => pct(v)],
     ["Trained", (c) => c.trained, (v) => pct(v, 0)],
     ["Jobless", (c) => c.unemployment, (v) => pct(v)],
@@ -433,10 +433,23 @@ export function render(el, m, h) {
     let k = 0;
     secs.forEach((s, j) => { if (s.offsetTop <= y) k = j; });
     if (el.scrollTop + el.clientHeight >= el.scrollHeight - 4) k = secs.length - 1;
+    if (tabs[k]?.classList.contains("on")) return;
     tabs.forEach((t, j) => t.classList.toggle("on", j === k));
+    // Keep the active tab in view when the bar overflows (horizontal only: the panel itself must not jump).
+    const t = tabs[k], l = t.offsetLeft, pad = 36; // the sticky nav is the offsetParent
+    if (l - pad < nav.scrollLeft) nav.scrollLeft = l - pad;
+    else if (l + t.offsetWidth + pad > nav.scrollLeft + nav.clientWidth) nav.scrollLeft = l + t.offsetWidth + pad - nav.clientWidth;
+    edges();
   };
+  const edges = () => {
+    nav.classList.toggle("fl", nav.scrollLeft > 1);
+    nav.classList.toggle("fr", nav.scrollLeft + nav.clientWidth < nav.scrollWidth - 1);
+  };
+  nav.addEventListener("scroll", edges, { passive: true });
+  new ResizeObserver(edges).observe(nav);
   el.onscroll = spy;
   spy();
+  edges();
 
   // Citizens and districts arrive with their files (each loaded once, on demand).
   const czHost = el.querySelector("[data-citizens]");

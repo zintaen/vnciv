@@ -8,7 +8,7 @@
 //   badgeOf(ddata, id) → {label, text, color, icon, district} | null | undefined   the city-type badge
 //   districtsHtml(m, ddata, mil, trade) → HTML   the section body
 //   badgeHtml(m, ddata) → HTML              the header badge
-import { esc, int } from "../../format.js";
+import { dec, esc, fixed, int } from "../../format.js";
 import { compact, money } from "./fmt.js";
 import { icon } from "../../ui/icon.js";
 import { hasIcon } from "../../icons.js";
@@ -30,7 +30,7 @@ const TIER = { garrison: "Garrison", fortress: "Fortress" };
 const ENCAMPMENT = { name: "Encampment", color: "#8a4a3a", description: "Military installations mapped in OpenStreetMap." };
 // The measured figures: how a total and a per-resident value read.
 const MEASURE = {
-  students: { label: "University students", total: compact, per: (v) => t("{n} per 1,000", { n: (v * 1000).toFixed(1) }) },
+  students: { label: "University students", year: 2023, total: compact, per: (v) => t("{n} per 1,000", { n: fixed((v * 1000), 1) }) },
   retail: { label: "Retail sales", total: money, per: (v) => t("{v} each", { v: money(v) }) },
   fdi: { label: "FDI registered", total: money, per: (v) => t("{v} each", { v: money(v) }) },
   tourism: { label: "Tour turnover", total: money, per: (v) => t("{v} each", { v: money(v) }) },
@@ -45,10 +45,10 @@ const airport = (s) => s.split(" / ").map((p) => {
 }).join(" / ");
 export function districtText(s) {
   if (!s) return "";
-  let m = /^([\d.]+)× Vietnam's (.+) per resident$/.exec(s);
-  if (m) return t("{n}× Vietnam's {what} per resident", { n: m[1], what: t(m[2]) });
-  if ((m = /^([\d,]+) MW of mapped power plants$/.exec(s))) return t("{n} MW of mapped power plants", { n: m[1] });
-  if ((m = /^(.+) \(([\d.]+M) passengers\)$/.exec(s))) return t("{name} ({n} passengers)", { name: airport(m[1]), n: m[2] });
+  let m = /^([\d.]+)× Vietnam's (.+?) per resident(?: \((.+)\))?$/.exec(s);
+  if (m) return t("{n}× Vietnam's {what} per resident", { n: dec(m[1]), what: t(m[2]) }) + (m[3] ? ` (${t(m[3])})` : "");
+  if ((m = /^([\d,]+) MW of mapped power plants$/.exec(s))) return t("{n} MW of mapped power plants", { n: int(+m[1].replace(/,/g, "")) });
+  if ((m = /^(.+) \(([\d.]+M) passengers\)$/.exec(s))) return t("{name} ({n} passengers)", { name: airport(m[1]), n: dec(m[2]) });
   if (s === "Seat of the National Assembly and the Government") return t(s);
   return s;
 }
@@ -115,7 +115,7 @@ export function badgeHtml(m, ddata) {
 function lqTag(lq) {
   if (lq == null) return "";
   const cls = lq >= 1.25 ? "hi" : lq <= 0.75 ? "lo" : "mid";
-  return `<span class="cv-lq ${cls}" title="${esc(t("Location quotient: the figure per resident is {n}× Vietnam's", { n: lq.toFixed(2) }))}">×${lq.toFixed(1)}</span>`;
+  return `<span class="cv-lq ${cls}" title="${esc(t("Location quotient: the figure per resident is {n}× Vietnam's", { n: fixed(lq, 2) }))}">×${fixed(lq, 1)}</span>`;
 }
 
 function encampmentCard(d, mil) {
@@ -157,7 +157,7 @@ function districtCard(d, m, ddata, mil) {
   if (d.via === "measure" && ms && Number.isFinite(d.value)) {
     const pop = m.city.population;
     const nat = ddata.national?.[c.measure];
-    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>2024</small></div>`);
+    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${ms.year || 2024}</small></div>`);
     if (pop > 0) facts.push(`<div><span>${t("Per resident")}</span><b>${ms.per(d.value / pop)}</b><small>${Number.isFinite(nat) ? `VN ${ms.per(nat)}` : ""}</small></div>`);
   }
   if (d.military) return encampmentCard(d, mil);

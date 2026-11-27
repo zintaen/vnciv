@@ -31,7 +31,7 @@ export function showCellTooltip(mx, my, w, i, lens, showResources = true) {
     const former = raw.county[i] >= 0 ? raw.counties[raw.county[i]].name : "";
     const prov = raw.states[o].name;
     lines.push(former && former !== prov ? tr("{former} <span class=\"muted\">(former) · now</span> {prov}", { former: esc(former), prov: esc(prov) }) : tr("{prov} <span class=\"muted\">province</span>", { prov: esc(prov) }));
-    if (lens) lines.push(`${glyph(lens, 13)} ${esc(tr(lens.name))}: <b>${formatLensValue(lens, lens.values[i])}</b>`);
+    if (lens) lines.push(`${glyph(lens, 13)} ${esc(tr(lens.name))}: <b>${esc(formatLensValue(lens, lens.values[i]))}</b>`);
   } else if (o === FOREIGN) {
     lines.push(`<span class="muted">${tr("Beyond the borders (not mapped)")}</span>`);
   }

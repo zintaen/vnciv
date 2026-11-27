@@ -37,7 +37,7 @@ export function openCityPanel(city, ctx) {
       { title: t("Economy"), html: economyRows(city, n) },
       city.jobs && { title: t("Where people work"), html: industries(city, nation) },
     ],
-    foot: `${t("The city stands for its whole former province (before the July 2025 merger).")} ${t("Source: {src}", { src: esc(t(nation.vintage)) })}${nation.gdp_vintage ? `; GRDP: ${esc(t(nation.gdp_vintage))}` : ""}. ${esc(t(nation.currency?.note || ""))}`,
+    foot: `${t("The city stands for its whole former province (before the July 2025 merger).")} ${t("Each figure shows its year and is compared with Vietnam's figure for the same year (HDI and FDI 2024: NSO publishes them only for the 34 provinces since 2025). 2025 values are preliminary; GRDP 2025 is an estimate.")} ${t("Source: {src}", { src: esc(t(nation.vintage)) })}${nation.gdp_vintage ? `; GRDP: ${esc(t(nation.gdp_vintage))}` : ""}. ${esc(t(nation.currency?.note || ""))}`,
     onClose: ctx.onClose,
     onPedia: ctx.onPedia,
     wire(panel) {

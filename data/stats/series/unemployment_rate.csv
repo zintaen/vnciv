@@ -1,0 +1,520 @@
+province_std,level,year,value,unit,source_url,status
+An Giang,63,2020,2.53,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+An Giang,63,2022,3.32,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+An Giang,63,2023,3.27,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+An Giang,63,2024,3.57,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+An Giang,63,2025,3.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bà Rịa - Vũng Tàu,63,2020,3.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bà Rịa - Vũng Tàu,63,2022,2.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bà Rịa - Vũng Tàu,63,2023,2.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bà Rịa - Vũng Tàu,63,2024,2.48,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bà Rịa - Vũng Tàu,63,2025,3.01,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bình Dương,63,2020,3.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Dương,63,2022,1.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Dương,63,2023,1.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Dương,63,2024,1.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Dương,63,2025,0.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bình Phước,63,2020,2.93,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Phước,63,2022,2.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Phước,63,2023,2.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Phước,63,2024,2.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Phước,63,2025,2.04,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bình Thuận,63,2020,2.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Thuận,63,2022,3.5,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Thuận,63,2023,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Thuận,63,2024,2.18,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Thuận,63,2025,1.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bình Định,63,2020,2.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Định,63,2022,2.54,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Định,63,2023,1.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Định,63,2024,1.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bình Định,63,2025,1.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bạc Liêu,63,2020,3.48,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bạc Liêu,63,2022,2.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bạc Liêu,63,2023,2.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bạc Liêu,63,2024,2.34,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bạc Liêu,63,2025,1.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bắc Giang,63,2020,0.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Giang,63,2022,0.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Giang,63,2023,0.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Giang,63,2024,0.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Giang,63,2025,0.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bắc Kạn,63,2020,0.88,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Kạn,63,2022,3.16,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Kạn,63,2023,3.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Kạn,63,2024,3.23,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Kạn,63,2025,3.2,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bắc Ninh,63,2020,2.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Ninh,63,2022,2.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Ninh,63,2023,2.68,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Ninh,63,2024,2.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bắc Ninh,63,2025,2.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Bến Tre,63,2020,2.16,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bến Tre,63,2022,2.0,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bến Tre,63,2023,1.83,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bến Tre,63,2024,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Bến Tre,63,2025,1.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Cao Bằng,63,2020,0.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cao Bằng,63,2022,3.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cao Bằng,63,2023,3.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cao Bằng,63,2024,2.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cao Bằng,63,2025,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Cà Mau,63,2020,2.27,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cà Mau,63,2022,1.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cà Mau,63,2023,1.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cà Mau,63,2024,2.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cà Mau,63,2025,2.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Cần Thơ,63,2020,3.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cần Thơ,63,2022,3.72,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cần Thơ,63,2023,3.78,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cần Thơ,63,2024,3.82,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Cần Thơ,63,2025,3.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Gia Lai,63,2020,1.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Gia Lai,63,2022,0.52,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Gia Lai,63,2023,0.5,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Gia Lai,63,2024,0.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Gia Lai,63,2025,1.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hà Giang,63,2020,1.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Giang,63,2022,4.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Giang,63,2023,3.14,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Giang,63,2024,2.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Giang,63,2025,2.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hà Nam,63,2020,1.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nam,63,2022,0.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nam,63,2023,1.34,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nam,63,2024,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nam,63,2025,2.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hà Nội,63,2020,2.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nội,63,2022,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nội,63,2023,2.01,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nội,63,2024,1.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Nội,63,2025,1.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hà Tĩnh,63,2020,3.18,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Tĩnh,63,2022,5.43,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Tĩnh,63,2023,5.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Tĩnh,63,2024,4.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hà Tĩnh,63,2025,3.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hòa Bình,63,2020,0.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hòa Bình,63,2022,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hòa Bình,63,2023,1.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hòa Bình,63,2024,1.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hòa Bình,63,2025,0.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hưng Yên,63,2020,2.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hưng Yên,63,2022,1.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hưng Yên,63,2023,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hưng Yên,63,2024,1.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hưng Yên,63,2025,1.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hải Dương,63,2020,1.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Dương,63,2022,1.5,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Dương,63,2023,1.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Dương,63,2024,1.27,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Dương,63,2025,1.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hải Phòng,63,2020,2.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Phòng,63,2022,2.36,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Phòng,63,2023,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Phòng,63,2024,2.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hải Phòng,63,2025,2.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Hậu Giang,63,2020,3.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hậu Giang,63,2022,1.69,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hậu Giang,63,2023,2.01,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hậu Giang,63,2024,2.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Hậu Giang,63,2025,2.06,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Khánh Hòa,63,2020,4.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Khánh Hòa,63,2022,3.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Khánh Hòa,63,2023,2.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Khánh Hòa,63,2024,2.5,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Khánh Hòa,63,2025,3.2,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Kiên Giang,63,2020,4.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kiên Giang,63,2022,2.82,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kiên Giang,63,2023,2.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kiên Giang,63,2024,3.17,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kiên Giang,63,2025,3.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Kon Tum,63,2020,1.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kon Tum,63,2022,0.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kon Tum,63,2023,0.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kon Tum,63,2024,0.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Kon Tum,63,2025,0.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Lai Châu,63,2020,0.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lai Châu,63,2022,1.23,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lai Châu,63,2023,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lai Châu,63,2024,1.43,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lai Châu,63,2025,1.58,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Long An,63,2020,2.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Long An,63,2022,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Long An,63,2023,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Long An,63,2024,1.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Long An,63,2025,1.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Lào Cai,63,2020,1.62,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lào Cai,63,2022,1.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lào Cai,63,2023,1.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lào Cai,63,2024,1.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lào Cai,63,2025,1.95,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Lâm Đồng,63,2020,0.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lâm Đồng,63,2022,0.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lâm Đồng,63,2023,0.53,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lâm Đồng,63,2024,0.74,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lâm Đồng,63,2025,0.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Lạng Sơn,63,2020,1.84,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lạng Sơn,63,2022,6.34,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lạng Sơn,63,2023,4.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lạng Sơn,63,2024,4.17,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Lạng Sơn,63,2025,4.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Nam Định,63,2020,1.68,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nam Định,63,2022,1.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nam Định,63,2023,1.57,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nam Định,63,2024,1.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nam Định,63,2025,1.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Nghệ An,63,2020,1.26,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nghệ An,63,2022,1.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nghệ An,63,2023,2.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nghệ An,63,2024,2.08,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Nghệ An,63,2025,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Ninh Bình,63,2020,1.36,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Bình,63,2022,1.32,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Bình,63,2023,1.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Bình,63,2024,1.07,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Bình,63,2025,1.5,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Ninh Thuận,63,2020,3.32,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Thuận,63,2022,1.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Thuận,63,2023,2.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Thuận,63,2024,2.72,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Ninh Thuận,63,2025,3.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Phú Thọ,63,2020,1.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Thọ,63,2022,1.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Thọ,63,2023,1.29,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Thọ,63,2024,1.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Thọ,63,2025,1.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Phú Yên,63,2020,2.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Yên,63,2022,2.95,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Yên,63,2023,2.57,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Yên,63,2024,2.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Phú Yên,63,2025,3.59,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Quảng Bình,63,2020,3.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Bình,63,2022,3.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Bình,63,2023,3.16,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Bình,63,2024,3.06,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Bình,63,2025,2.58,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Quảng Nam,63,2020,4.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Nam,63,2022,4.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Nam,63,2023,4.04,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Nam,63,2024,3.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Nam,63,2025,2.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Quảng Ngãi,63,2020,3.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ngãi,63,2022,1.82,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ngãi,63,2023,2.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ngãi,63,2024,2.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ngãi,63,2025,3.06,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Quảng Ninh,63,2020,3.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ninh,63,2022,2.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ninh,63,2023,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ninh,63,2024,2.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Ninh,63,2025,2.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Quảng Trị,63,2020,3.93,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Trị,63,2022,2.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Trị,63,2023,2.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Trị,63,2024,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Quảng Trị,63,2025,2.53,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Sóc Trăng,63,2020,2.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sóc Trăng,63,2022,3.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sóc Trăng,63,2023,3.39,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sóc Trăng,63,2024,3.58,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sóc Trăng,63,2025,3.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Sơn La,63,2020,0.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sơn La,63,2022,2.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sơn La,63,2023,2.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sơn La,63,2024,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Sơn La,63,2025,1.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+TP. Hồ Chí Minh,63,2020,3.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+TP. Hồ Chí Minh,63,2022,4.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+TP. Hồ Chí Minh,63,2023,3.8,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+TP. Hồ Chí Minh,63,2024,3.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+TP. Hồ Chí Minh,63,2025,3.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Thanh Hóa,63,2020,1.87,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thanh Hóa,63,2022,1.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thanh Hóa,63,2023,1.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thanh Hóa,63,2024,1.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thanh Hóa,63,2025,1.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Thái Bình,63,2020,1.24,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Bình,63,2022,1.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Bình,63,2023,0.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Bình,63,2024,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Bình,63,2025,0.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Thái Nguyên,63,2020,1.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Nguyên,63,2022,1.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Nguyên,63,2023,1.78,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Nguyên,63,2024,1.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thái Nguyên,63,2025,1.54,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Thừa Thiên Huế,63,2020,4.29,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thừa Thiên Huế,63,2022,3.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thừa Thiên Huế,63,2023,2.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thừa Thiên Huế,63,2024,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Thừa Thiên Huế,63,2025,3.93,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Tiền Giang,63,2020,3.14,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tiền Giang,63,2022,2.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tiền Giang,63,2023,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tiền Giang,63,2024,2.63,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tiền Giang,63,2025,3.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Trà Vinh,63,2020,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Trà Vinh,63,2022,2.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Trà Vinh,63,2023,2.62,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Trà Vinh,63,2024,2.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Trà Vinh,63,2025,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Tuyên Quang,63,2020,1.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tuyên Quang,63,2022,3.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tuyên Quang,63,2023,3.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tuyên Quang,63,2024,3.54,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tuyên Quang,63,2025,3.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Tây Ninh,63,2020,1.72,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tây Ninh,63,2022,1.69,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tây Ninh,63,2023,1.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tây Ninh,63,2024,1.39,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Tây Ninh,63,2025,2.02,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Vĩnh Long,63,2020,2.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Long,63,2022,2.88,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Long,63,2023,2.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Long,63,2024,3.18,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Long,63,2025,3.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Vĩnh Phúc,63,2020,2.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Phúc,63,2022,1.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Phúc,63,2023,1.72,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Phúc,63,2024,1.71,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Vĩnh Phúc,63,2025,1.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Yên Bái,63,2020,0.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Yên Bái,63,2022,2.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Yên Bái,63,2023,2.71,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Yên Bái,63,2024,2.82,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Yên Bái,63,2025,3.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Điện Biên,63,2020,0.45,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Điện Biên,63,2022,0.39,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Điện Biên,63,2023,0.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Điện Biên,63,2024,0.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Điện Biên,63,2025,0.9,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Đà Nẵng,63,2020,9.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đà Nẵng,63,2022,2.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đà Nẵng,63,2023,1.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đà Nẵng,63,2024,1.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đà Nẵng,63,2025,1.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Đắk Lắk,63,2020,2.2,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Lắk,63,2022,0.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Lắk,63,2023,0.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Lắk,63,2024,1.24,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Lắk,63,2025,1.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Đắk Nông,63,2020,1.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Nông,63,2022,0.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Nông,63,2023,0.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Nông,63,2024,0.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đắk Nông,63,2025,0.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Đồng Nai,63,2020,1.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Nai,63,2022,1.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Nai,63,2023,2.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Nai,63,2024,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Nai,63,2025,1.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+Đồng Tháp,63,2020,2.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Tháp,63,2022,4.94,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Tháp,63,2023,4.95,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Tháp,63,2024,4.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+Đồng Tháp,63,2025,3.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+An Giang,34,2020,3.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+An Giang,34,2021,4.52,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+An Giang,34,2022,3.07,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+An Giang,34,2023,3.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+An Giang,34,2024,3.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+An Giang,34,2025,3.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Bắc Ninh,34,2020,1.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Bắc Ninh,34,2021,2.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Bắc Ninh,34,2022,1.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Bắc Ninh,34,2023,1.68,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Bắc Ninh,34,2024,1.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Bắc Ninh,34,2025,2.17,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Cao Bằng,34,2020,0.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cao Bằng,34,2021,4.29,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cao Bằng,34,2022,3.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cao Bằng,34,2023,3.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cao Bằng,34,2024,2.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cao Bằng,34,2025,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Cà Mau,34,2020,2.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cà Mau,34,2021,2.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cà Mau,34,2022,1.76,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cà Mau,34,2023,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cà Mau,34,2024,2.29,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cà Mau,34,2025,2.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Cần Thơ,34,2020,2.93,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cần Thơ,34,2021,4.0,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cần Thơ,34,2022,3.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cần Thơ,34,2023,3.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cần Thơ,34,2024,3.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Cần Thơ,34,2025,3.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Gia Lai,34,2020,2.27,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Gia Lai,34,2021,1.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Gia Lai,34,2022,1.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Gia Lai,34,2023,1.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Gia Lai,34,2024,1.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Gia Lai,34,2025,1.53,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Huế,34,2020,4.29,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Huế,34,2021,3.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Huế,34,2022,3.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Huế,34,2023,2.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Huế,34,2024,2.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Huế,34,2025,3.93,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Hà Nội,34,2020,2.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Nội,34,2021,2.68,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Nội,34,2022,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Nội,34,2023,2.01,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Nội,34,2024,1.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Nội,34,2025,1.73,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Hà Tĩnh,34,2020,3.18,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Tĩnh,34,2021,5.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Tĩnh,34,2022,5.43,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Tĩnh,34,2023,5.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Tĩnh,34,2024,4.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hà Tĩnh,34,2025,3.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Hưng Yên,34,2020,1.83,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hưng Yên,34,2021,1.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hưng Yên,34,2022,1.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hưng Yên,34,2023,1.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hưng Yên,34,2024,1.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hưng Yên,34,2025,0.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Hải Phòng,34,2020,2.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hải Phòng,34,2021,1.83,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hải Phòng,34,2022,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hải Phòng,34,2023,1.88,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hải Phòng,34,2024,1.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Hải Phòng,34,2025,1.83,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Khánh Hòa,34,2020,4.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Khánh Hòa,34,2021,4.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Khánh Hòa,34,2022,2.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Khánh Hòa,34,2023,2.43,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Khánh Hòa,34,2024,2.57,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Khánh Hòa,34,2025,3.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Lai Châu,34,2020,0.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lai Châu,34,2021,2.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lai Châu,34,2022,1.23,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lai Châu,34,2023,1.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lai Châu,34,2024,1.43,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lai Châu,34,2025,1.58,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Lào Cai,34,2020,1.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lào Cai,34,2021,2.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lào Cai,34,2022,2.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lào Cai,34,2023,2.08,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lào Cai,34,2024,2.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lào Cai,34,2025,3.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Lâm Đồng,34,2020,1.86,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lâm Đồng,34,2021,2.06,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lâm Đồng,34,2022,1.69,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lâm Đồng,34,2023,1.25,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lâm Đồng,34,2024,1.24,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lâm Đồng,34,2025,1.04,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Lạng Sơn,34,2020,1.84,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lạng Sơn,34,2021,7.82,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lạng Sơn,34,2022,6.34,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lạng Sơn,34,2023,4.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lạng Sơn,34,2024,4.17,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Lạng Sơn,34,2025,4.05,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Nghệ An,34,2020,1.26,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Nghệ An,34,2021,2.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Nghệ An,34,2022,1.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Nghệ An,34,2023,2.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Nghệ An,34,2024,2.08,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Nghệ An,34,2025,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Ninh Bình,34,2020,1.61,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Ninh Bình,34,2021,1.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Ninh Bình,34,2022,1.4,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Ninh Bình,34,2023,1.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Ninh Bình,34,2024,1.36,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Ninh Bình,34,2025,1.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Phú Thọ,34,2020,1.39,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Phú Thọ,34,2021,1.65,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Phú Thọ,34,2022,1.27,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Phú Thọ,34,2023,1.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Phú Thọ,34,2024,1.49,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Phú Thọ,34,2025,1.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Quảng Ngãi,34,2020,2.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ngãi,34,2021,1.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ngãi,34,2022,1.42,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ngãi,34,2023,1.58,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ngãi,34,2024,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ngãi,34,2025,2.08,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Quảng Ninh,34,2020,3.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ninh,34,2021,2.23,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ninh,34,2022,2.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ninh,34,2023,2.22,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ninh,34,2024,2.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Ninh,34,2025,2.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Quảng Trị,34,2020,3.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Trị,34,2021,3.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Trị,34,2022,3.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Trị,34,2023,2.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Trị,34,2024,2.7,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Quảng Trị,34,2025,2.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Sơn La,34,2020,0.67,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Sơn La,34,2021,1.03,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Sơn La,34,2022,2.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Sơn La,34,2023,2.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Sơn La,34,2024,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Sơn La,34,2025,1.96,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+TP. Hồ Chí Minh,34,2020,3.74,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+TP. Hồ Chí Minh,34,2021,5.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+TP. Hồ Chí Minh,34,2022,3.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+TP. Hồ Chí Minh,34,2023,3.11,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+TP. Hồ Chí Minh,34,2024,2.92,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+TP. Hồ Chí Minh,34,2025,2.64,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Thanh Hóa,34,2020,1.87,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thanh Hóa,34,2021,1.15,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thanh Hóa,34,2022,1.12,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thanh Hóa,34,2023,1.19,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thanh Hóa,34,2024,1.55,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thanh Hóa,34,2025,1.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Thái Nguyên,34,2020,1.52,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thái Nguyên,34,2021,1.97,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thái Nguyên,34,2022,1.79,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thái Nguyên,34,2023,2.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thái Nguyên,34,2024,1.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Thái Nguyên,34,2025,1.77,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Tuyên Quang,34,2020,1.2,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tuyên Quang,34,2021,3.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tuyên Quang,34,2022,3.91,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tuyên Quang,34,2023,3.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tuyên Quang,34,2024,3.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tuyên Quang,34,2025,3.3,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Tây Ninh,34,2020,1.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tây Ninh,34,2021,2.44,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tây Ninh,34,2022,1.81,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tây Ninh,34,2023,1.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tây Ninh,34,2024,1.75,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Tây Ninh,34,2025,1.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Vĩnh Long,34,2020,2.33,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Vĩnh Long,34,2021,3.02,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Vĩnh Long,34,2022,2.46,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Vĩnh Long,34,2023,2.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Vĩnh Long,34,2024,2.57,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Vĩnh Long,34,2025,2.26,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Điện Biên,34,2020,0.45,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Điện Biên,34,2021,0.51,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Điện Biên,34,2022,0.39,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Điện Biên,34,2023,0.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Điện Biên,34,2024,0.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Điện Biên,34,2025,0.9,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Đà Nẵng,34,2020,6.31,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đà Nẵng,34,2021,5.89,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đà Nẵng,34,2022,3.3,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đà Nẵng,34,2023,3.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đà Nẵng,34,2024,2.99,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đà Nẵng,34,2025,2.09,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Đắk Lắk,34,2020,2.37,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đắk Lắk,34,2021,1.69,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đắk Lắk,34,2022,1.45,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đắk Lắk,34,2023,1.45,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đắk Lắk,34,2024,1.6,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đắk Lắk,34,2025,2.07,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Đồng Nai,34,2020,2.13,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Nai,34,2021,2.41,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Nai,34,2022,1.87,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Nai,34,2023,2.69,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Nai,34,2024,2.38,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Nai,34,2025,1.62,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel
+Đồng Tháp,34,2020,2.98,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Tháp,34,2021,6.47,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Tháp,34,2022,3.45,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Tháp,34,2023,3.56,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Tháp,34,2024,3.35,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+Đồng Tháp,34,2025,3.62,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",prel

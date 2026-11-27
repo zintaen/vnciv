@@ -8,7 +8,7 @@
 import { compact, dollars, esc, fixed, int, money, pct } from "../format.js";
 import { hasIcon } from "../icons.js";
 import { icon, glyph } from "./icon.js";
-import { DISTRICT_ICON } from "./infoPanel.js";
+import { DISTRICT_ICON, yearOf, yearNum, fmtYear } from "./infoPanel.js";
 import { t } from "../i18n.js";
 
 export const METRO_MIN = 0; // every former province is ranked (the smallest has ~300K people)
@@ -33,6 +33,22 @@ const advisorApp = () => (typeof window !== "undefined" && window.__app?.hasMode
 
 const fin = Number.isFinite;
 const ratio = (a, b) => (fin(a) && fin(b) && b > 0 ? a / b : null);
+// The record field each yield comes from (for its year in `years`).
+const YIELD_FIELD = { food: "paddy", production: "employed", gold: "gdp", science: "students", culture: "tourism" };
+// Residents in the year of a figure (per-resident ratios never divide one year's figure by another year's population).
+const popIn = (o, y) => {
+  const yr = yearNum(y);
+  if (!yr) return o.population ?? null;
+  return o.pop_series?.[yr] ?? (yr === yearNum(yearOf(o, "population")) ? o.population ?? null : null);
+};
+// "2025 (prel.)" or a 2025 figure → a note that it is preliminary / an estimate (NSO revises them).
+function statusNote(key, y) {
+  if (key === "gold") return t("GRDP 2025 is an NSO estimate (GRDP per person × average population); NSO revises it in the next yearbook.");
+  if (/\(est\.\)/.test(y || "")) return t("{y} is an NSO estimate; NSO revises it in the next yearbook.", { y: yearNum(y) });
+  if (/\(prel\.\)/.test(y || "") || yearNum(y) === "2025") return t("{y} figures are preliminary (NSO); NSO revises them in the next yearbook.", { y: yearNum(y) });
+  return "";
+}
+
 export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${fixed(Math.abs(g * 100), d)}%` : "–");
 
 // Counts to three significant figures (leaderboards: 1.12M vs 1.11M rather than 1.1M twice).
@@ -68,17 +84,20 @@ export function statDefs(nation) {
     unit: y.unit,
     description: t(y.description || ""),
     source: t(y.key === "gold" ? nation.gdp_vintage || nation.vintage || "" : nation.vintage || ""),
+    year: yearOf(n, YIELD_FIELD[y.key]) ?? (y.key === "gold" && n.gdp_year ? String(n.gdp_year) : null),
     value: y.key === "gold" ? n.gdp ?? n.yields?.gold ?? null : n.yields?.[y.key] ?? null,
   }));
   return [
     {
       key: "population", label: t("Population"), name: t("Population"), color: "#e8dcc0", iconId: "pop", emoji: "👥", unit: "people",
-      description: t("Average population, 2024 (NSO)."), source: t(nation?.vintage || ""), value: n.population ?? null,
+      description: t("Average population, {y} (NSO).", { y: fmtYear(yearOf(n, "population")) }), source: t(nation?.vintage || ""), value: n.population ?? null,
+      year: yearOf(n, "population"),
     },
     ...yields,
     {
       key: "unemployment", label: t("Unemployment"), name: t("Unemployment rate"), color: "#e8dcc0", iconId: "unemployment", emoji: "😐",
-      unit: "rate", description: t("Unemployed share of the labour force in working age, 2024 (NSO Labour Force Survey)."), source: t(nation?.vintage || ""), value: n.unemployment ?? null,
+      unit: "rate", description: t("Unemployed share of the labour force in working age, {y} (NSO Labour Force Survey).", { y: fmtYear(yearOf(n, "unemployment")) }), source: t(nation?.vintage || ""), value: n.unemployment ?? null,
+      year: yearOf(n, "unemployment"),
     },
   ];
 }
@@ -147,7 +166,7 @@ export function buildReport(key, { nation, states, cities, lenses, lensVintage }
   const scope = stateScope(n, st);
   const fmt = (v) => fmtStat(def, v);
   const rep = {
-    key, def, total: def.value, totalText: fmt(def.value), context: [], definition: def.description, source: def.source,
+    key, def, total: def.value, totalText: fmt(def.value), year: def.year || "", status: statusNote(key, def.year), context: [], definition: def.description, source: def.source,
     breakdown: null, boards: { note: "", statesNote: scope.note, modes: [] }, lens: null, scope,
   };
   const lensId = LENS_FOR[key];
@@ -220,7 +239,7 @@ function reportUnemployment(rep, n, st, metros) {
 function reportMoney(rep, nation, n, st, metros) {
   const gold = rep.key === "gold";
   const val = gold ? (o) => o.gdp ?? o.yields?.gold ?? null : (o) => o.yields?.[rep.key] ?? null;
-  const pp = ratio(rep.total, n.population);
+  const pp = ratio(rep.total, popIn(n, rep.year));
   const what = gold ? "GRDP" : rep.def.label;
   if (pp != null) rep.context.push(gold ? t("{v} per person (GRDP ÷ residents)", { v: money(pp) }) : t("{v} per resident", { v: money(pp) }));
   if (gold && n.gdp_year) rep.context.push(t("Year {y}, current prices, in US dollars", { y: n.gdp_year }));
@@ -237,11 +256,11 @@ function reportMoney(rep, nation, n, st, metros) {
     });
   if (rows.length) rep.breakdown = { title: t("GRDP by industry"), groups: [{ rows }], collapseAfter: GDP_ROWS };
 
-  const perPerson = (o) => ratio(val(o), o.population);
+  const perPerson = (o) => ratio(val(o), popIn(o, rep.year));
   rep.boards.modes = [
     { id: "abs", label: gold ? t("Largest GRDP") : t("Largest"), states: rank(st, val, { fmt: money, exact: dollars }), metros: rank(metros, val, { fmt: money, exact: dollars }) },
     {
-      id: "rel", label: t("Per person"), hint: t("{what} ÷ residents.", { what }),
+      id: "rel", label: t("Per person"), hint: t("{what} ÷ residents ({y}).", { what, y: yearNum(rep.year) || "–" }),
       states: rank(st, perPerson, { fmt: money, exact: dollars }), metros: rank(metros, perPerson, { fmt: money, exact: dollars }),
     },
   ];
@@ -259,7 +278,7 @@ function perResident(def) {
 function reportCount(rep, def, nation, n, st, metros) {
   const key = def.key;
   const pr = perResident(def);
-  const nat = ratio(rep.total, n.population);
+  const nat = ratio(rep.total, popIn(n, rep.year));
   if (nat != null) rep.context.push(pr.ctx(nat * pr.f));
   if (key === "production" && fin(n.labour_force)) rep.context.push(t("{n} in the labour force", { n: compact(n.labour_force) }) + (fin(n.trained) ? t(", {p} of it trained", { p: pct(n.trained, 0) }) : ""));
   if (key === "science" && fin(n.lecturers)) rep.context.push(t("{n} university lecturers", { n: compact(n.lecturers) }));
@@ -286,11 +305,11 @@ function reportCount(rep, def, nation, n, st, metros) {
   }
 
   const y = (o) => o.yields?.[key];
-  const per = (o) => { const r = ratio(y(o), o.population); return r == null ? null : r * pr.f; };
+  const per = (o) => { const r = ratio(y(o), popIn(o, rep.year)); return r == null ? null : r * pr.f; };
   rep.boards.modes = [
     { id: "abs", label: t("Most"), states: rank(st, y, { fmt: (v) => fmtStat(def, v) }), metros: rank(metros, y, { fmt: (v) => fmtStat(def, v) }) },
     {
-      id: "rel", label: t("Per resident"), hint: `${def.label}: ${pr.hint}${nat != null ? ` (${t("Vietnam {v}", { v: pr.fmt(nat * pr.f) })})` : ""}.`,
+      id: "rel", label: t("Per resident"), hint: `${def.label}: ${pr.hint}${nat != null ? ` (${t("Vietnam {v}", { v: pr.fmt(nat * pr.f) })})` : ""}. ${t("{y} figures ÷ residents in {y}.", { y: yearNum(rep.year) || "–" })}`,
       states: rank(st, per, { fmt: pr.fmt, exact: pr.exact }), metros: rank(metros, per, { fmt: pr.fmt, exact: pr.exact }),
     },
   ];
@@ -398,10 +417,10 @@ export function initYieldReports(opts) {
         <div class="yr-titles"><div class="yr-kind">${t("National report")}</div><h2 id="yr-title">${esc(def.name)}</h2></div>
         <button class="icon-btn yr-close" aria-label="${t("Close report (Esc)")}" title="${t("Close (Esc)")}">${icon("close", "✕", { size: 12 })}</button>
       </div>
-      <div class="yr-total"><b style="color:${esc(def.color)}">${esc(rep.totalText)}</b>
+      <div class="yr-total"><b style="color:${esc(def.color)}">${esc(rep.totalText)}</b>${rep.year ? ` <span class="muted">${esc(t("Vietnam, {y}", { y: fmtYear(rep.year) }))}</span>` : ""}
         ${rep.context.length ? `<ul class="yr-ctx">${rep.context.map((c) => `<li>${esc(c)}</li>`).join("")}</ul>` : ""}</div>
       ${rep.definition ? `<p class="yr-def">${esc(rep.definition)}</p>` : ""}
-      ${rep.source ? `<div class="yr-src">${esc(t("Source: {src}", { src: rep.source }))}</div>` : ""}
+      ${rep.source ? `<div class="yr-src">${esc(t("Source: {src}", { src: rep.source }))}${rep.status ? `. ${esc(rep.status)}` : ""}</div>` : ""}
       ${rep.breakdown ? `<section class="yr-sec"><h3>${esc(rep.breakdown.title)}</h3>
         ${rep.breakdown.note ? `<p class="yr-note">${esc(rep.breakdown.note)}</p>` : ""}
         <div class="yr-bars">${barsHtml(rep.breakdown, expanded)}</div></section>` : ""}

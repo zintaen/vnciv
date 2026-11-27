@@ -4,9 +4,10 @@ import { money, pct, int, count3, fmtShort, fixed } from "../core/fmt.js";
 import { barList, histogram, rampLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
-import { section, tiles, segmented, mapPicker, frameBtn, sourcesHtml, topBy } from "../core/view.js";
+import { section, tiles, segmented, mapPicker, lensButton, frameBtn, sourcesHtml, topBy } from "../core/view.js";
 import { rowsHighlight } from "../core/data.js";
 import { scienceLens } from "../core/lenses.js";
+import { yearOf, yearText } from "../core/years.js";
 import { t as tr } from "../../../i18n.js";
 
 export function mount(ctx) {
@@ -19,9 +20,10 @@ export function mount(ctx) {
   const vnShare = ratio(vnSci, n.population);
 
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("University students"), value: count3(vnSci), sub: tr("{n} per 1,000 residents", { n: fin(vnShare) ? fixed((vnShare * 1000), 1) : "–" }), color: sci?.color },
-    { label: tr("Trained workers"), value: pct(n.trained), sub: tr("of the labour force") },
-    { label: tr("Literacy"), value: pct(n.literacy), sub: tr("people 15+ · HDI {hdi}", { hdi: fin(n.hdi) ? fixed(n.hdi, 3) : "–" }) },
+    { label: `${tr("University students")} ${yearText(yearOf(n, "students"))}`, value: count3(vnSci), sub: tr("{n} per 1,000 residents", { n: fin(vnShare) ? fixed((vnShare * 1000), 1) : "–" }), color: sci?.color },
+    { label: `${tr("Trained workers")} ${yearText(yearOf(n, "trained"))}`, value: pct(n.trained), sub: tr("of the labour force") },
+    { label: `${tr("Literacy")} ${yearText(yearOf(n, "literacy"))}`, value: pct(n.literacy), sub: tr("people 15+") },
+    ...(fin(n.it_skills) ? [{ label: `${tr("IT skills")} ${yearText(yearOf(n, "it_skills"))}`, value: pct(n.it_skills), sub: tr("of people") }] : []),
   ]));
 
   // --- the map: trained workers by default (the scatter's x axis), or students, literacy, HDI -----------------------
@@ -34,7 +36,8 @@ export function mount(ctx) {
       { value: "trained", label: tr("Trained"), lens: () => "trained" },
       { value: "science", label: tr("Students"), lens: () => scienceLens(data) },
       { value: "literacy", label: tr("Literacy"), lens: () => "literacy" },
-      { value: "hdi", label: tr("HDI"), lens: () => "hdi" },
+      ...(app.lensById?.get("it_skills") ? [{ value: "it_skills", label: tr("IT skills"), lens: () => "it_skills" }] : []),
+      ...(app.lensById?.get("pupils_per_teacher") ? [{ value: "pupils", label: tr("Pupils per teacher"), lens: () => "pupils_per_teacher" }] : []),
       { value: "terrain", label: tr("Terrain"), lens: () => null },
     ],
   });
@@ -88,7 +91,7 @@ export function mount(ctx) {
     x: { label: tr("Trained workers"), fmt: (v) => fmtShort("pct", v) },
     y: { label: tr("Income per person per year"), fmt: money, log: true },
     size: { label: tr("Population"), fmt: count3, max: 14, min: 2 },
-    color: (c) => hdiColor(c), colorLabel: tr("HDI"), colorFmt: (v) => fixed(v, 3),
+    color: (c) => hdiColor(c), colorLabel: counties.field("hdi")?.label || "HDI", colorFmt: (v) => fixed(v, 3),
     onHover: (p) => link.hover(p ? rowsHighlight(lv(), [p.row]) : null),
     onClick: (p) => lv().focus(p.row),
     onBrush: (set) => {
@@ -97,7 +100,7 @@ export function mount(ctx) {
       selInfo.innerHTML = sel.length ? `${tr("<b>{n}</b> {places} · {people} people", { n: int(sel.length), places: esc(lv().label.toLowerCase()), people: count3(sel.reduce((a, r) => a + (r.v.population || 0), 0)) })} ${frameBtn()}<button type="button" class="adv-mini" data-clear>${tr("Clear")}</button>` : "";
     },
   });
-  dBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.seq, domain: hdiDom, fmt: (v) => fixed(v, 2), label: tr("Human Development Index") }));
+  dBody.insertAdjacentHTML("beforeend", rampLegend({ ramp: RAMPS.seq, domain: hdiDom, fmt: (v) => fixed(v, 2), label: tr("Human Development Index (provinces {sy}, former provinces {cy})", { sy: esc(yearText(data.levels.states.field("hdi")?.year)), cy: esc(yearText(metros.field("hdi")?.year)) }) }));
   const selInfo = document.createElement("div");
   selInfo.className = "adv-brushinfo";
   dBody.appendChild(selInfo);
@@ -107,6 +110,7 @@ export function mount(ctx) {
     clearSel();
     const rows = lv().rows;
     scatter.update({
+      colorLabel: lv().field("hdi")?.label || "HDI",
       points: rows.map((r) => ({ key: r.key, x: r.v.trained, y: inc(r), s: r.v.population, c: r.v.hdi, label: r.name, sub: r.sub, row: r })),
       labels: topBy(rows, (r) => r.v.population, { n: 6 }).map((x) => x.r.key),
     });
@@ -114,7 +118,7 @@ export function mount(ctx) {
   drawDeg();
 
   // --- literacy -------------------------------------------------------------------------------------------------
-  const bBody = section(el, { title: tr("Reading and writing"), note: tr("Former provinces by the literacy rate of people aged 15+ (Vietnam: {pct}). The lowest rates are in the northern and central highlands. Hover a bar to outline those provinces.", { pct: pct(n.literacy) }) });
+  const bBody = section(el, { title: tr("Reading and writing"), note: tr("Former provinces by the literacy rate of people aged 15+ in {y}, the latest NSO publishes by province (Vietnam: {pct}). The lowest rates are in the northern and central highlands. Hover a bar to outline those provinces.", { y: esc(yearText(yearOf(n, "literacy"))), pct: pct(n.literacy) }) });
   const bHost = document.createElement("div");
   bBody.appendChild(bHost);
   const bbHist = histogram(bHost, {
@@ -131,16 +135,56 @@ export function mount(ctx) {
       { key: "population", label: tr("People"), value: (r) => r.v.population, text: (r) => count3(r.v.population) },
       { key: "literacy", label: tr("Literacy"), value: (r) => r.v.literacy, text: (r) => pct(r.v.literacy), bar: { max: 1, color: "rgba(74,134,214,.4)" } },
       { key: "trained", label: tr("Trained"), value: (r) => r.v.trained, text: (r) => pct(r.v.trained) },
-      { key: "hdi", label: tr("HDI"), value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? fixed(r.v.hdi, 3) : "–") },
+      { key: "hdi", label: counties.field("hdi")?.label || "HDI", short: "HDI", value: (r) => r.v.hdi, text: (r) => (fin(r.v.hdi) ? fixed(r.v.hdi, 3) : "–") },
     ],
     sort: { key: "literacy", dir: "asc" },
     onHover: (r) => link.hover(r ? rowsHighlight(counties, [r]) : null),
     onClick: (r) => counties.focus(r),
   });
 
+  // --- IT skills (former provinces) and pupils per teacher (provinces) --------------------------------------------
+  const st = data.levels.states;
+  const SK = [
+    ["it_skills", metros, (v) => pct(v), "it_skills", false],
+    ["pupils_per_teacher", st, (v) => fixed(v, 1), "pupils_per_teacher", true],
+  ].filter(([k, lvK]) => lvK.field(k));
+  if (SK.length) {
+    const kBody = section(el, { title: tr("Digital skills and classrooms"), note: tr("IT skills: the share of people with at least one computer skill, by former province. Pupils per teacher in general education, by the 34 provinces (fewer is better). Each list says its year.") });
+    const kCtl = document.createElement("div");
+    kCtl.className = "adv-row";
+    kBody.appendChild(kCtl);
+    const kHost = document.createElement("div");
+    let kKey = SK[0][0];
+    const slot = document.createElement("span");
+    segmented(kCtl, { label: tr("Indicator"), value: kKey, options: SK.map(([k, lvK]) => ({ value: k, label: lvK.field(k).label })), onChange: (v) => { kKey = v; drawK(); } });
+    kCtl.appendChild(slot);
+    kBody.appendChild(kHost);
+    function drawK() {
+      const [k, lvK, fmt, lensId, lowGood] = SK.find((x) => x[0] === kKey);
+      const f = lvK.field(k);
+      slot.innerHTML = "";
+      const b = lensButton(app, lensId, tr("Show on map"));
+      if (b) slot.appendChild(b);
+      const ref = data.vn(lvK.rows[0], k);
+      kHost.innerHTML = `<p class="adv-note">${esc(f.unit || "")} · ${esc(yearText(f.year))}${ref ? ` · ${esc(tr("Vietnam {v}", { v: fmt(ref.v) }))}` : ""}</p>`;
+      const max = Math.max(...lvK.rows.map((r) => r.v[k]).filter(fin));
+      const mk = (list) => list.map((x) => ({ key: x.r.key, label: lvK === metros ? x.r.v.former || x.r.name : x.r.name, sub: lvK === metros ? x.r.sub : "", value: x.v, text: fmt(x.v), row: x.r }));
+      const o = { max, onHover: (r) => link.hover(r ? rowsHighlight(lvK, [r.row]) : null), onClick: (r) => lvK.focus(r.row) };
+      kHost.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Highest")}</h4>`);
+      barList(kHost, { ...o, rows: mk(topBy(lvK.rows, (r) => r.v[k], { n: 8 })) });
+      kHost.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Lowest")}</h4>`);
+      barList(kHost, { ...o, rows: mk(topBy(lvK.rows, (r) => r.v[k], { n: 8, asc: true })) });
+      if (lowGood) kHost.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("More pupils per teacher means larger classes.")}</p>`);
+    }
+    drawK();
+  }
+
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook"], [
     tr("Students are counted where their university is, not where they come from: a province without a university counts zero even if many of its young people study in Hà Nội or TP. Hồ Chí Minh."),
-    tr("Student counts are for the 2023 school year; training, literacy and HDI are NSO 2024 figures."),
+    tr("Years: university students and lecturers {sy}; trained workers and IT skills {ty}; literacy {ly}; pupils per teacher at {py} (34 provinces only); HDI {hs} for the 34 provinces, {hc} for the former provinces.", {
+      sy: esc(yearText(yearOf(n, "students"))), ty: esc(yearText(yearOf(n, "trained"))), ly: esc(yearText(yearOf(n, "literacy"))), py: esc(yearText(yearOf(n, "pupils_per_teacher"))),
+      hs: esc(yearText(data.levels.states.field("hdi")?.year)), hc: esc(yearText(metros.field("hdi")?.year)),
+    }),
     tr("\"Trained\" means a vocational certificate, college or university degree recognised by NSO; on-the-job skills do not count."),
     tr("Province figures for 2025 are NSO's recompiled totals for the merged provinces; former-province figures are {vintage}.", { vintage: esc(tr(data.countyVintage)) }),
   ]));

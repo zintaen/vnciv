@@ -3,7 +3,9 @@
 // console.info and skipped, so an extension can be left out without breaking the app. A failing install() is logged
 // as an error and does not stop the others. Modules are fetched in parallel and installed in list order.
 // layers/: static map layers (roads, rail, ports, forts, wonders, trade routes) and their toggles.
-const MODULES = ["./cityView/index.js", "./advisors/index.js", "./layers/index.js"];
+// Feature extensions (communes, everyday places, environment, society, timeline): a missing folder is skipped.
+const MODULES = ["./cityView/index.js", "./advisors/index.js", "./layers/index.js", "./communes/index.js", "./poi/index.js",
+  "./environment/index.js", "./society/index.js", "./timeline/index.js"];
 
 export async function installExtensions(app, list = MODULES) {
   const loads = list.map((spec) => import(spec).then((m) => ({ m }), (err) => ({ err })));

@@ -68,10 +68,10 @@ export function scienceLens(data) {
     for (const [cell, city] of cellMetro) if (owner[cell] >= 0) values[cell] = share(city);
     const sci = app.data.nation?.yields?.find((y) => y.key === "science");
     return {
-      id: "adv-science-share", group: "knowledge", name: "University students",
+      id: "adv-science-share", group: "education", name: "University students",
       icon: "l-degrees", emoji: "🔬", unit: "of residents", format: "pct", scale: "linear",
       domain: robust(data.levels.metros.rows.map((r) => share(r.ref))), ramp: SCIENCE_RAMP, higher_is: "neutral", source: "nso_yearbook",
-      description: tr("University students (the {y} yield, 2023) as a share of residents, by former province.", { y: tr(sci?.label || "Science") }),
+      description: tr("University students (the {y} yield, {yr}) as a share of residents, by former province.", { y: tr(sci?.label || "Science"), yr: data.nat.years?.students || "" }),
       values,
     };
   });

@@ -27,7 +27,7 @@ export const IMG_H = 900;
 export const CAPTION_H = 118;
 const SERIF = '"Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif';
 const SANS = '-apple-system, "Segoe UI", system-ui, sans-serif';
-const CREDIT = "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, geoBoundaries, GeoNames, OpenFlights, © OpenStreetMap contributors";
+const CREDIT = "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors";
 
 async function copyText(text) {
   try {
@@ -97,21 +97,15 @@ export function composeImage(info, { height = IMG_H } = {}) {
   ctx.fillRect(0, y0 + 7, IMG_W, 1);
   const cy = y0 + CAPTION_H / 2 + 3;
 
-  // Emblem + title
-  const ex = 64;
-  ctx.beginPath();
-  ctx.arc(ex, cy, 30, 0, Math.PI * 2);
+  // Emblem (the national flag, 3:2, star 3/5 of the height across) + title
+  const ex = 64, fw = 60, fh = 40;
   ctx.fillStyle = "#120d06";
-  ctx.fill();
-  ctx.beginPath();
-  ctx.arc(ex, cy, 28, 0, Math.PI * 2);
+  ctx.fillRect(ex - fw / 2 - 3, cy - fh / 2 - 3, fw + 6, fh + 6);
   ctx.fillStyle = "#c9a45c";
-  ctx.fill();
-  ctx.beginPath();
-  ctx.arc(ex, cy, 24.5, 0, Math.PI * 2);
-  ctx.fillStyle = "#c8102e";
-  ctx.fill();
-  star(ctx, ex, cy + 1, 14, 6, "#ffcd00");
+  ctx.fillRect(ex - fw / 2 - 1.5, cy - fh / 2 - 1.5, fw + 3, fh + 3);
+  ctx.fillStyle = "#DA251D";
+  ctx.fillRect(ex - fw / 2, cy - fh / 2, fw, fh);
+  star(ctx, ex, cy, fh * 0.3, fh * 0.3 * 0.382, "#FFFF00");
 
   ctx.textBaseline = "alphabetic";
   ctx.fillStyle = "#ecd08e";
@@ -155,7 +149,7 @@ export function composeImage(info, { height = IMG_H } = {}) {
   } else {
     ctx.font = `15px ${SANS}`;
     ctx.fillStyle = "#b9ab88";
-    ctx.fillText(fit(ctx, t("Land cover, relief, rivers and resources"), room), mx + 50, cy + 16);
+    ctx.fillText(fit(ctx, t("Land cover, relief, rivers and power plants"), room), mx + 50, cy + 16);
   }
 
   // Selection, credits, site

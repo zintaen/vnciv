@@ -20,10 +20,13 @@ RULES = [
      "text": "Every UNESCO World Heritage site in Vietnam (World Heritage list as of 2025), at its Wikidata coordinates; "
              "a serial site without its own coordinates (the Complex of Huế Monuments) is placed at the mean of its "
              "components. Ranked by year of inscription."},
-    {"id": "national_park", "kind": "natural", "kinds": ["natural"], "year": 2025,
-     "text": "Every national park (vườn quốc gia) that Wikidata lists with coordinates (a few parks are missing "
-             "there), except those inside a World Heritage wonder (Cát Bà, part of Hạ Long Bay–Cát Bà since 2023). Ranked by area where Wikidata records it (largest first), then by name. Vietnam publishes no "
-             "visitor counts per park, so parks are not ranked by visits."},
+    {"id": "national_park", "kind": "natural", "kinds": ["natural"], "year": 2026,
+     "text": "Every national park (vườn quốc gia) in the Vietnamese Wikipedia list of national parks (each park is "
+             "established by a Government or Prime Minister decision), placed at its Wikidata coordinates (OpenStreetMap's "
+             "park outline where Wikidata has none), except those that are themselves World Heritage wonders "
+             "(Phong Nha–Kẻ Bàng) or lie inside one (Cát Bà, part of Hạ Long Bay–Cát Bà since 2023). Ranked by the "
+             "listed area (largest first), then by name. Vietnam publishes no visitor counts per park, so parks are not "
+             "ranked by visits."},
     {"id": "research_university", "kind": "university", "kinds": ["university"], "year": 2025,
      "text": "The two national universities and the three regional universities, the multi-campus university systems "
              "named in the Law on Higher Education; placed at their Wikidata coordinates when Wikidata has them."},
@@ -31,17 +34,55 @@ RULES = [
      "text": "Hand-picked by this project: famous monuments not already covered by the World Heritage list, placed at "
              "their Wikidata coordinates. Ranked alphabetically, not by importance."},
 ]
-MAX_PARK_KM2 = 2500  # Vietnam's largest national parks are ~1,000-2,000 km²; larger values are entry errors
 # UNESCO inscription years (whc.unesco.org), used when Wikidata lacks the qualifier
 INSCRIBED = {"678": 1993, "672": 1994, "948": 1999, "949": 1999, "951": 2003, "1328": 2010, "1358": 2011, "1438": 2014,
              "1732": 2025}
 # national parks inside a World Heritage site (Cát Bà joined Hạ Long Bay's site 672 in 2023)
-PARK_IN_WH = {"Q1537215"}
-# Củ Chi tunnels are in TP. Hồ Chí Minh; geoBoundaries' simplified border puts the point in Bình Dương
-WONDER_PROVINCE = {"Q192721": "SG"}
+PARK_IN_WH = {"Q1537215", "Q23513"}  # Cát Bà; Phong Nha–Kẻ Bàng is itself World Heritage site 951
+# Củ Chi tunnels are in TP. Hồ Chí Minh (the old geoBoundaries border put the point in Bình Dương; kept as a guard)
+WONDER_PROVINCE = {"Q192721": "SG",
+                   "Q10779404": "21"}  # Xuân Liên (Thanh Hóa): its OSM outline's centre falls just over the Nghệ An line
 NATURAL_WH = {"672", "951", "1438"}  # Hạ Long Bay–Cát Bà, Phong Nha–Kẻ Bàng, Tràng An (mixed)
 SHORT = {"672": "Vịnh Hạ Long", "951": "Phong Nha–Kẻ Bàng", "1438": "Tràng An", "678": "Cố đô Huế", "948": "Phố cổ Hội An",
          "949": "Mỹ Sơn", "1328": "Hoàng thành Thăng Long", "1358": "Thành nhà Hồ", "1732": "Yên Tử"}
+
+
+def national_parks():
+    """[(qid, name, short, area_km2, name_en, (lon, lat))] for the parks in the Vietnamese Wikipedia list."""
+    text = json.loads((RAW / "wikipedia_vi_parks" / "parks_list.json").read_text())["parse"]["wikitext"]
+    table = text.split("{|", 1)[1].split("|}", 1)[0]
+    links = json.loads((RAW / "wikipedia_vi_parks" / "parks_links.json").read_text())["query"]
+    redirect = {r["from"]: r["to"] for r in links.get("redirects", [])}
+    wd = {}
+    for r in bindings("parks.json"):
+        t = r["t"]["value"]
+        if t not in wd or (r.get("c") and not wd[t].get("c")):
+            wd[t] = r
+    osm = [e for e in json.loads((RAW / "osm_parks" / "parks.json").read_text())["elements"] if "center" in e]
+    out = []
+    for row in table.split("\n|-")[1:]:
+        cells = [c[1:].strip() for c in row.strip().split("\n") if c.startswith("|")]
+        cells = [c.split("|", 1)[1].strip() if re.match(r"(rowspan|align|style)", c) else c for c in cells][-4:]
+        m = re.match(r"\[\[([^|\]]+)(?:\|([^\]]+))?\]\]", cells[0])
+        target, short = (m.group(1), m.group(2) or m.group(1)) if m else ("Vườn quốc gia " + cells[0], cells[0])
+        title = redirect.get(target, target)
+        r = wd.get(title)
+        if not r:
+            print(f"    ! {title}: not in Wikidata")
+            continue
+        q = r["s"]["value"].rsplit("/", 1)[1]
+        area = re.sub(r"[^\d,]", "", cells[2]).replace(",", ".")
+        area = round(float(area) / 100, 1) if area else None  # hectares → km²
+        if r.get("c"):
+            lonlat = wkt_point(r["c"]["value"])
+        else:  # no coordinates in Wikidata: the OpenStreetMap park of the same name
+            hit = next((e for e in osm if short.split(" – ")[0] in e["tags"].get("name", "")), None)
+            if not hit:
+                print(f"    ! {title}: no position")
+                continue
+            lonlat = (hit["center"]["lon"], hit["center"]["lat"])
+        out.append((q, title, "VQG " + short.replace(" - ", " – "), area, r.get("enLabel", {}).get("value"), lonlat))
+    return out
 
 
 def bindings(name):
@@ -57,6 +98,7 @@ def build():
         cell, k = W.place(lon, lat, rings=2)
         if id_.split("-", 1)[1] in WONDER_PROVINCE:  # generalised outlines put a border site in the neighbour
             k = W.counties.index(WONDER_PROVINCE[id_.split("-", 1)[1]])
+            cell = site_cell(W, x, y, 2, county=k) or cell
         if cell is None:
             print(f"    ! {name}: no land hex")
             return
@@ -88,19 +130,11 @@ def build():
             "world_heritage", *c, {"inscribed": s["year"] or INSCRIBED.get(ref), "whc_ref": ref}, en=s["en"])
     wh_names = {w["name"] for w in wonders}
 
-    seen = set()
-    for r in bindings("parks.json"):
-        q = r["s"]["value"].rsplit("/", 1)[1]
-        name = r["sLabel"]["value"]
-        if q in seen or q in PARK_IN_WH or name in wh_names or re.fullmatch(r"Q\d+", name):
+    for q, name, short, area, en, lonlat in national_parks():
+        if q in PARK_IN_WH or name in wh_names:
             continue
-        seen.add(q)
-        area = float(r["area"]["value"]) / 1e6 if r.get("area") else None
-        if area and area > MAX_PARK_KM2:  # a unit slip in Wikidata (Bến En: hectares entered as km²)
-            area = None
-        short = name.replace("Vườn quốc gia ", "VQG ").replace("Khu bảo tồn thiên nhiên ", "KBT ")
-        add(f"np-{q}", name, short, "natural", "national_park", *wkt_point(r["c"]["value"]),
-            {"area_km2": round(area, 1) if area else None, "visits": None}, en=r.get("enLabel", {}).get("value"))
+        add(f"np-{q}", name, short, "natural", "national_park", *lonlat,
+            {"area_km2": area, "visits": None}, en=en)
 
     unis = {r["s"]["value"].rsplit("/", 1)[1]: r for r in bindings("universities.json")}
     for q, name, short in UNIVERSITIES:
@@ -132,9 +166,9 @@ def build():
         rank[w["rule"]] = rank.get(w["rule"], 0) + 1
         w["rank"] = rank[w["rule"]]
     print("    " + ", ".join(f"{k} {v}" for k, v in rank.items()))
-    doc = {"version": 1, "vintage": {"heritage": "UNESCO World Heritage list via Wikidata, 2025", "parks": "Wikidata",
+    doc = {"version": 1, "vintage": {"heritage": "UNESCO World Heritage list via Wikidata, 2025", "parks": "Wikipedia tiếng Việt list, 2026; positions Wikidata/OpenStreetMap",
                                      "universities": "Wikidata", "landmarks": "Wikidata"},
-           "sources": ["wikidata"], "rules": RULES,
+           "sources": ["wikidata", "wikipedia_vi_parks", "osm_parks"], "rules": RULES,
            "national": {"world_heritage": rank.get("world_heritage", 0), "national_parks": rank.get("national_park", 0),
                         "park_visits": None, "r1_universities": rank.get("research_university", 0)},
            "wonders": wonders}

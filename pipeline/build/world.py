@@ -1,5 +1,7 @@
 """The map: hex grid, land/water, relief, land cover, provinces (34 of 2025), former provinces (63), rivers.
 
+Province outlines: OCHA COD-AB (2025 for the 34, 2020 for the 63 inside them), see OUTLINE_RULE.
+
 Adapted from usaciv's world builder (MIT). Point-in-polygon lookups go through rasters (rasterio) so the 10 m
 country outlines stay fast. Saves interim "_world" for the other builders.
 """
@@ -15,7 +17,7 @@ from rasterio import features
 from rasterio.transform import from_origin
 
 from .. import worldcover
-from ..admin import OLD, new_units, old_units
+from ..admin import new_units, old_units
 from ..fetch import RAW
 from ..geo import HEX_KM, UNIT, MapProjection, geojson_lines
 from ..hexgrid import SQRT3, HexGrid
@@ -30,7 +32,6 @@ TIDAL_SEA_SHARE = 0.5
 COAST_DEPTH_M = -200
 LAND_MIN_ALT_M = -100
 RES = 0.005  # degrees per lookup-raster pixel (~0.55 km)
-MAP_ASPECT = 1.3  # minimum width ÷ height of the map rectangle
 LON0, LAT1 = 95.0, 26.0
 NCOL, NROW = int((121.0 - LON0) / RES), int((LAT1 - 4.5) / RES)
 COVER_STEP = 1.0 * UNIT  # cover lattice spacing: 1 km
@@ -40,7 +41,7 @@ URBAN_MIN_PCT = 25
 HILLS_SD, MOUNT_SD, MOUNT_MEAN, PEAK_MAX = 55, 150, 1500, 2600
 
 WATER_TABLE = [
-    {"id": LAND, "name": "Land", "rule": "At least 4 of the hex's 7 sample points (centre + 6) fall on province or neighbouring-country outlines, unless the centre is sea and the hex is mostly at or below sea level in ETOPO1. Islands of at least 3 km² (and every Hoàng Sa and Trường Sa island) keep at least the hex at their centre."},
+    {"id": LAND, "name": "Land", "rule": "At least 4 of the hex's 7 sample points (centre + 6) fall on province or neighbouring-country outlines, unless the centre is sea and the hex is mostly at or below sea level in ETOPO1. Islands of at least 3 km² (and every named Hoàng Sa and Trường Sa island) keep at least the hex at their centre."},
     {"id": OCEAN, "name": "Sea", "color": "#1b4266", "rule": "Sea deeper than 200 m and not next to land."},
     {"id": COAST, "name": "Coast", "color": "#2d6d97", "rule": "Sea next to a land hex, or shallower than 200 m (ETOPO1 mean)."},
     {"id": LAKE, "name": "Lake", "color": "#3a80b0", "rule": "Water hex with Natural Earth 1:10m lake points that outnumber sea points, or above sea level."},
@@ -75,10 +76,11 @@ COVER_NOTE = (
     "often classed as tree cover, so the Central Highlands look more forested than they are."
 )
 WATER_NOTE = (
-    "Province outlines (geoBoundaries) and Natural Earth 1:10m country outlines don't meet exactly. A sea hex whose ETOPO1 "
+    "Province outlines (OCHA COD-AB) and Natural Earth 1:10m country outlines don't meet exactly. A sea hex whose ETOPO1 "
     "mean is above sea level (and fewer than half of its samples below it) becomes land when at least 4 of its 6 neighbours are land, or when it touches both "
     "Vietnamese and foreign land. Hoàng Sa (Paracel) and Trường Sa (Spratly) islands are far smaller than a hex; each "
-    "island group is shown by the hexes at its islands' centres, owned by Đà Nẵng and Khánh Hòa."
+    "island group is shown by the hexes at its named islands' centres (Wikidata), owned by Đà Nẵng and Khánh Hòa; "
+    "the reefs and banks the official outlines also draw there are not made land."
 )
 RELIEF_NOTE = "From ETOPO1 samples (~1.8 km apart, about 50 per hex) at or above -100 m. Water hexes are always flat."
 
@@ -86,9 +88,84 @@ RIVER_VI = {"Mekong": "Mê Kông", "Hong": "Sông Hồng", "Da": "Sông Đà", "
             "Srepok": "Sông Srêpốk", "Krong": "Krông", "Kong": "Sông Sê Kông", "Ou": "Nậm U", "Lancang": "Lan Thương"}
 
 
-def rings_of(geom):
-    t, c = geom["type"], geom["coordinates"]
-    return [c] if t == "Polygon" else c if t == "MultiPolygon" else []
+OFFSHORE_LON = 109.6  # east of this: Hoàng Sa / Trường Sa islands and reefs (the mainland ends at 109.46° E)
+# Map frame (Albers km offsets, map units): fitted in the first build to the outlines then in use (geoBoundaries,
+# islands included) and kept fixed so hex ids stay the same when the outlines change.
+FRAME = dict(min_x=-801.2961167935589, max_y=822.7997851038526, width=11335.015372458753, height=8719.24259419904)
+HDX25 = ("hdx_cod_ab_vnm", "vnm_admin_boundaries.shp.zip", "vnm_admin1", "adm1_name1")
+HDX20 = ("hdx_cod_ab_vnm_2020", "vnm_adm_gov_20201027_shp.zip", "vnm_admbnda_adm1_gov_20201027", "ADM1_VI")
+OUTLINE_RULE = (
+    "Provinces (34): OCHA COD-AB admin 1, valid from 25 September 2025. Former provinces (63): COD-AB admin 1 of "
+    "27 October 2020, inside each 2025 outline: a point keeps the 2020 province holding it when that province is "
+    "part of the point's 2025 province, otherwise it takes the nearest such one (steps on the 0.005° lookup "
+    "raster). So the 63 nest exactly in the 34 and the outer borders and coast are the 2025 ones. East of "
+    f"{OFFSHORE_LON}° E (Hoàng Sa, Trường Sa) the outlines, which include submerged reefs and banks, are not drawn "
+    "as land; see the island rule."
+)
+
+
+def _key(name):
+    import re
+    from ..admin import fold
+    return re.sub(r"[^a-z]", "", fold(name).replace("thanh pho ", "").replace("tp. ", ""))
+
+
+def official_rings(src):
+    """[(name, [ring of (lon, lat)])] of a COD-AB admin-1 shapefile (records in file order)."""
+    import zipfile
+    from .ext_communes import read_shp_polygons
+    sid, zname, layer, field = src
+    with zipfile.ZipFile(RAW / sid / zname) as z:
+        return read_shp_polygons(z.read(layer + ".shp"), z.read(layer + ".dbf"), field)
+
+
+def is_offshore(ring):
+    return sum(p[0] for p in ring) / len(ring) > OFFSHORE_LON
+
+
+def paint(features_):
+    """int16 raster (-1 = none) of [(value, rings)], each feature filled even–odd (so holes stay holes)."""
+    from rasterio.enums import MergeAlg
+    out = np.full((NROW, NCOL), -1, "int16")
+    tr = from_origin(LON0, LAT1, RES, RES)
+    for v, rings in features_:
+        shp = [({"type": "Polygon", "coordinates": [r]}, 1) for r in rings if len(r) >= 4]
+        if shp:
+            m = features.rasterize(shp, out_shape=(NROW, NCOL), transform=tr, fill=0, dtype="int16",
+                                   merge_alg=MergeAlg.add) % 2 == 1
+            out[m] = v
+    return out
+
+
+def province_rasters():
+    """(new_r, county_r): 2025-province and former-province index per lookup pixel, -1 outside (see OUTLINE_RULE)."""
+    olds, news = old_units(), new_units()
+    ok = {_key(u["name"]): k for k, u in enumerate(olds)}
+    nk = {_key(u["name"]): k for k, u in enumerate(news)}
+    old_new = np.array([nk[_key(u["new"])] for u in olds] + [-1])
+    new_r = paint([(nk[_key(n)], rings) for n, rings in official_rings(HDX25)])
+    old_r = paint([(ok[_key(n)], rings) for n, rings in official_rings(HDX20)])
+    county = np.where((new_r >= 0) & (old_new[old_r] == new_r), old_r, -1).astype("int16")
+    for k in range(len(news)):
+        rows, cols = np.nonzero(new_r == k)
+        if not len(rows):
+            continue
+        win = np.s_[max(rows.min() - 40, 0): rows.max() + 41, max(cols.min() - 40, 0): cols.max() + 41]
+        mine, lab = new_r[win] == k, county[win].copy()
+        lab[~mine] = -1
+        # ponytail: 4-neighbour flood from the in-province 2020 pixels; fine for the thin slivers between files
+        while (mine & (lab < 0)).any():
+            grow = lab.copy()
+            for ax, d in ((0, 1), (0, -1), (1, 1), (1, -1)):
+                nb = np.roll(lab, d, axis=ax)
+                fill = (grow < 0) & (nb >= 0)
+                grow[fill] = nb[fill]
+            if (grow == lab).all():
+                raise ValueError(f"no former province reaches part of {news[k]['name']}")
+            lab = grow
+        county[win][mine] = lab[mine]
+    assert ((county >= 0) == (new_r >= 0)).all() and (old_new[county][new_r >= 0] == new_r[new_r >= 0]).all()
+    return new_r, county
 
 
 def raster(shapes):
@@ -180,38 +257,23 @@ def archipelago_islands():
 
 def build():
     olds, news = old_units(), new_units()
-    old_idx = {u["iso"]: k for k, u in enumerate(olds)}
     new_idx = {u["name"]: k for k, u in enumerate(news)}
     old_new = [new_idx[u["new"]] for u in olds]  # former province → 2025 province index
 
-    gb = json.loads((RAW / "geoboundaries" / "geoBoundaries-VNM-ADM1.geojson").read_text())
-    parts = []  # (old index, geometry)
-    for f in gb["features"]:
-        iso = OLD[f["properties"]["shapeName"].strip()][0]
-        parts.append((old_idx[iso], f["geometry"]))
+    county_r = province_rasters()[1]
+    prov_r = county_r + 1  # former province +1, 0 = none (as `raster` gives)
+    prov_r[:, int((OFFSHORE_LON - LON0) / RES):] = 0  # Hoàng Sa / Trường Sa: only named islands become land (below)
+    nk = {_key(u["name"]): k for k, u in enumerate(news)}
+    isl_rings = [(nk[_key(n)], r) for n, rings in official_rings(HDX25) for r in rings]
 
-    # projection fitted to every province part (islands included)
-    probe = MapProjection(0, 0, 0)
-    xs, ys = [], []
-    for _, g in parts:
-        for poly in rings_of(g):
-            for lon, lat, *_ in poly[0]:
-                x, y = probe._albers(lon, lat)
-                xs.append(x)
-                ys.append(y)
-    height = (max(ys) - min(ys)) * UNIT + 2 * MARGIN
-    width = (max(xs) - min(xs)) * UNIT + 2 * MARGIN
-    # a tall country: widen the map (neighbours west, sea east) so wide screens are not framed by empty bands
-    extra = max(0.0, MAP_ASPECT * height - width) / 2
-    proj = MapProjection(min(xs) - extra / UNIT, max(ys), MARGIN)
-    width += 2 * extra
+    proj = MapProjection(FRAME["min_x"], FRAME["max_y"], MARGIN)
+    width, height = FRAME["width"], FRAME["height"]
     corners = [proj.inverse(x, y) for x in (0, width) for y in (0, height)]
     print(f"    map window lon {min(c[0] for c in corners):.2f}–{max(c[0] for c in corners):.2f}, "
           f"lat {min(c[1] for c in corners):.2f}–{max(c[1] for c in corners):.2f}")
     grid = HexGrid.covering(width, height, R)
     print(f"    grid {grid.cols}×{grid.rows} = {grid.size} hexes of {HEX_KM:g} km")
 
-    prov_r = raster([(g, k) for k, g in parts])
     ne = RAW / "natural_earth"
     countries = json.loads((ne / "ne_10m_admin_0_countries.geojson").read_text())["features"]
     foreign_r = raster([(f["geometry"], 0) for f in countries if f["properties"]["ADM0_A3"] not in ("VNM", "PGA", "SCR")])
@@ -308,26 +370,25 @@ def build():
             county_samples[i] = [Counter(cs).most_common(1)[0][0]] if cs else []
     print(f"    {len(slivers)} sliver water hexes turned into land")
 
-    # islands smaller than a hex: keep the hex at their centre (≥ 3 km², or any island far offshore)
+    # islands smaller than a hex: keep the hex at their centre (≥ 3 km²). Offshore rings are left to the named
+    # islands below: the official files also outline submerged reefs and banks (e.g. 230 km² at 7.5° N 109.8° E).
     forced = 0
     islands = []
-    for k, g in parts:
-        for poly in rings_of(g):
-            ring = poly[0]
-            lon = sum(p[0] for p in ring) / len(ring)
-            lat = sum(p[1] for p in ring) / len(ring)
-            area = ring_area_km2(ring, proj)
-            offshore = lon > 109.6
-            if area < 3 and not offshore:
-                continue
-            i = grid.cell_at(*proj(lon, lat))
-            if i < 0 or water[i] == LAND:
-                continue
-            owner[i], water[i] = old_new[k], LAND
-            county_samples[i] = [k]
-            forced += 1
-            if offshore:
-                islands.append(i)
+    first_old = {n: old_new.index(n) for n in set(old_new)}
+    for n, ring in isl_rings:
+        if is_offshore(ring) or sum(x0 * y1 - x1 * y0 for (x0, y0), (x1, y1) in zip(ring, ring[1:])) > 0:
+            continue  # counter-clockwise: a hole (shapefile outer rings run clockwise)
+        lon = sum(p[0] for p in ring) / len(ring)
+        lat = sum(p[1] for p in ring) / len(ring)
+        if ring_area_km2(ring, proj) < 3:
+            continue
+        i = grid.cell_at(*proj(lon, lat))
+        if i < 0 or water[i] == LAND:
+            continue
+        ks = Counter(k for p in ring if (k := look(prov_r, p[0], p[1])) >= 0 and old_new[k] == n)
+        owner[i], water[i] = n, LAND
+        county_samples[i] = [ks.most_common(1)[0][0] if ks else first_old[n]]
+        forced += 1
     # every Hoàng Sa (Đà Nẵng) and Trường Sa (Khánh Hòa) island and reef Wikidata places, by Vietnamese name
     arch = archipelago_islands()
     old_iso = [u["iso"] for u in olds]
@@ -340,7 +401,7 @@ def build():
             owner[i], water[i] = old_new[k], LAND
             county_samples[i] = [k]
             forced += 1
-        if i not in islands and isl["lon"] > 109.6:
+        if i not in islands and isl["lon"] > OFFSHORE_LON:
             islands.append(i)
     print(f"    {forced} island hexes kept ({len(islands)} offshore: Hoàng Sa, Trường Sa; {len(arch)} named islands)")
 
@@ -473,7 +534,7 @@ def build():
         {"id": cid, "key": key, "name": name, "color": color, "worldcover": codes, "rule": rule}
         for cid, key, name, color, codes, rule in COVER]
     tables = {"water": WATER_TABLE, "relief": RELIEF_TABLE, "cover": cover_table,
-              "notes": {"water": WATER_NOTE, "relief": RELIEF_NOTE, "cover": COVER_NOTE}}
+              "notes": {"water": WATER_NOTE, "relief": RELIEF_NOTE, "cover": COVER_NOTE, "provinces": OUTLINE_RULE}}
     states_out = [{"fips": f"{k + 1:02d}", "abbr": u["abbr"], "name": u["name"]} for k, u in enumerate(news)]
     counties_out = [{"geoid": u["iso"], "name": u["name"]} for u in olds]
     write_web("world.json", {

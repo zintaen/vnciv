@@ -24,14 +24,15 @@ const prov = (m, abbr) => m.w?.raw?.states?.find((s) => s.abbr === abbr)?.name |
 
 export const tips = {
   port(p, m) {
+    const cls = m.data.infrastructure?.port_classes?.find((c) => c.id === p.class)?.name;
     return [
       `<b>${esc(p.name)}</b> ${muted(`${esc(t(PORT_TYPE[p.type] || "Port"))}, ${esc(prov(m, p.state))}`)}`,
-      p.tons != null ? t("<b>{n}</b> tonnes ({year})", { n: num(p.tons), year: esc(p.year ?? "") }) : "",
-      muted(t("Ports and terminals listed in Wikidata. Vietnam's port cargo statistics are not published as open data, so ports are not sized by tonnage.")),
+      [cls ? esc(t(cls)) : "", esc(p.seaport || "")].filter(Boolean).join(" · "),
+      muted(t("Seaports: size by class (special largest), since no tonnage is published.")),
     ].filter(Boolean).join("<br>");
   },
   airport(a, m) {
-    const lines = [`<b>${esc(a.id)} · ${esc(airportName(a.name))}</b> ${muted(esc([a.city, prov(m, a.state)].filter(Boolean).join(", ")))}`];
+    const lines = [`<b>${esc(a.id)} · ${esc(airportName(a.name))}</b> ${muted(esc([...new Set([a.city, prov(m, a.state)])].filter(Boolean).join(", ")))}`];
     if (a.hub) lines.push(esc(t(HUB_NAME[a.hub] || a.hub)));
     if (a.enplanements != null) lines.push(t("<b>{n}</b> passengers in {year}", { n: num(a.enplanements), year: esc(a.year) }));
     lines.push(muted(t("Passengers: Airports Corporation of Vietnam (ACV) figures compiled on Wikipedia. Location: OurAirports.")));

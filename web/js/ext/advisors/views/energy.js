@@ -1,4 +1,4 @@
-// Energy advisor: the mapped power plants (WRI Global Power Plant Database, data as of 2021).
+// Energy advisor: the mapped power plants (OpenStreetMap power plants, capacity filled from WRI GPPD 2021 where OSM has none).
 import { esc, fin } from "../core/util.js";
 import { fmtValue, mw, mwFor, int, count3 } from "../core/fmt.js";
 import { kindOf, siteDetail, siteDetailHtml } from "../../../format.js";
@@ -179,9 +179,9 @@ export function mount(ctx) {
       <p>${esc(tr(ty.description))}</p><span class="src">${tr("Source: {src}", { src: esc(src ? `${tr(src.title)} (${tr(src.vintage || src.publisher)})` : ty.source) })}</span></div></div>`;
   }).join("")}`).join("");
 
-  el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["gppd"], [
+  el.insertAdjacentHTML("beforeend", sourcesHtml(data, [...new Set(mwTypes.map((t) => t.source).filter(Boolean)), "gppd"], [
     "Only plants above each type's threshold are mapped (e.g. coal and gas plants of 300 MW or more, wind and solar summed per hex), so totals are <b>not</b> provincial or national capacity.",
-    "The plant list dates from 2021: Vietnam's solar and wind boom of 2019–2021 is only partly in it, and plants built since are missing.",
+    "Plants are those mapped in OpenStreetMap with a capacity (tagged there, or taken from WRI's Global Power Plant Database of 2021 for the same plant): coverage depends on mappers, and many wind farms have no capacity in either source.",
     "Capacity (MW) is not how much electricity a plant produces: a 1,000 MW solar farm generates far less in a year than a 1,000 MW coal plant, and hydro output swings with the rains.",
     "A plant counts in the 2025 province whose hex it sits in.",
   ].map((c) => tr(c))));

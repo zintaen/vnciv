@@ -19,6 +19,7 @@ import { resourceFilterSig, layerActive, layerError, Z as LAYER_Z } from "./rend
 import { installExtensions } from "./ext/index.js";
 import { initShare } from "./app/share.js";
 import { initHelp } from "./app/help.js";
+import { initDonate } from "./app/donate.js";
 import { t, lang, setLang } from "./i18n.js";
 
 // Static text in index.html (titles, aria-labels, placeholders, the loading line, <title>, meta description) goes
@@ -133,6 +134,7 @@ async function main() {
   });
   const pedia = initPedia({ world, nation, lenses: lensFile, sources: sources || [], w, resources, states });
   const help = initHelp();
+  initDonate();
 
   // --- static layer cache ----------------------------------------------------------------------------------------
   // Tiles, glyphs, rivers, borders, labels and resources are rendered into an offscreen canvas covering the view
@@ -278,7 +280,20 @@ async function main() {
     // Plates of cities beside an open dock stay clear of it (desktop docks only; phones use a bottom sheet).
     const d = isMobile() ? null : dockState();
     state.bannerBounds = d && d.open ? { x0: d.l, x1: cam.w - d.r } : null;
-    hits = drawBanners(ctx, cam, w, state, nation.yields, nation);
+    // app.bannerPopulation(city) → a number to show on the banner instead of city.population (the timeline's year),
+    // or null; swapped in for this draw only.
+    const swapped = [];
+    if (typeof app.bannerPopulation === "function") {
+      for (const c of cities) {
+        const v = app.bannerPopulation(c);
+        if (Number.isFinite(v) && v !== c.population) { swapped.push([c, c.population]); c.population = v; }
+      }
+    }
+    try {
+      hits = drawBanners(ctx, cam, w, state, nation.yields, nation);
+    } finally {
+      for (const [c, v] of swapped) c.population = v;
+    }
     if (overlays.length) drawOverlays(ctx, cam, overlays, app, { dpr, zMin: 100 });
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     minimap.draw();
@@ -538,12 +553,18 @@ async function main() {
     requestAnimationFrame(() => { minimapQueued = false; minimap.rebuild(); });
   };
 
+  // app.setLensView(fn): fn(lens) → a lens-shaped object to colour, legend and tooltip with instead of `lens` (e.g.
+  // the timeline's values for one year; give it its own id so the legend's histogram cache keeps them apart), or
+  // null for the lens itself. state.lens (and the hash, the picker) stay on the real lens. fn must be cheap (cached).
+  let lensView = null;
+  const shownLens = () => (state.lens && lensView ? lensView(state.lens) || state.lens : state.lens);
+
   function setLens(lens) {
     const changed = lens !== state.lens;
     state.lens = lens;
     state.band = null;
-    applyLens(w, lens, null);
-    dock.render(lens, null);
+    applyLens(w, shownLens(), null);
+    dock.render(shownLens(), null);
     rebuildMinimap();
     describeCanvas();
     requestDraw();
@@ -554,7 +575,7 @@ async function main() {
   function setBand(band) {
     if (!state.lens) return;
     state.band = band;
-    applyLens(w, state.lens, band);
+    applyLens(w, shownLens(), band);
     rebuildMinimap();
     requestDraw(); // the cache key includes the band, so the static layer re-renders
   }
@@ -828,7 +849,7 @@ async function main() {
 
   const shareInfo = () => ({
     renderMap: renderShareMap,
-    lens: state.lens,
+    lens: shownLens(),
     formatValue: (lens, t) => formatLensValue(lens, lensValueAt(lens, t)),
     selection: state.selectedCity ? { kind: "city", name: state.selectedCity.name }
       : state.selectedState != null ? { kind: "state", name: stateName(state.selectedState), abbr: w.raw.states[state.selectedState]?.abbr } : null,
@@ -873,7 +894,9 @@ async function main() {
   const resBtn = document.getElementById("btn-res");
   if (resBtn) {
     resBtn.hidden = !w.resources;
-    resBtn.innerHTML = `${icon("resources", "⛏️", { size: 15 })}<span>${t("Resources")}</span>`;
+    resBtn.innerHTML = `${icon("resources", "⛏️", { size: 15 })}<span>${t("Power plants")}</span>`;
+    resBtn.setAttribute("aria-label", t("Power plants (R)"));
+    resBtn.title = t("Show or hide power plants (R)");
     const sync = () => {
       resBtn.classList.toggle("active", state.showResources);
       resBtn.setAttribute("aria-pressed", String(state.showResources));
@@ -897,7 +920,7 @@ async function main() {
     };
   }
 
-  // Map layer switches (app.ui.addMapToggle), in a menu next to the Resources toggle; kept in the hash (layers=).
+  // Map layer switches (app.ui.addMapToggle), in the Layers menu; kept in the hash (layers=).
   const mapToggles = createMapToggles({
     dock: document.getElementById("lens-dock"), after: resBtn, area: document.getElementById("lens-area"),
     hash: { register: url.register, update: url.schedule, value: url.value },
@@ -906,11 +929,11 @@ async function main() {
   ui.addMapToggle = mapToggles.add;
   ui.mapToggles = mapToggles.list;
   ui.setMapToggle = mapToggles.set;
-  // Resources are a switch in the Layers menu (the R key and old links still go through the hidden button).
+  // Power plants (id "resources") are a switch in the Layers menu (the R key and old links still go through the hidden button).
   if (resBtn && w.resources) {
     resBtn.hidden = true;
     ui.addMapToggle({
-      id: "resources", label: t("Resources"), icon: "resources", title: t("Show or hide resources (R)"), default: true,
+      id: "resources", group: "energy", label: t("Power plants"), icon: "resources", title: t("Show or hide power plants (R)"), default: true,
       get: () => state.showResources,
       set: (v) => { if (!!v !== state.showResources) resBtn.click(); },
     });
@@ -1000,7 +1023,7 @@ async function main() {
     }
     if (city) showCityTooltip(mx, my, city);
     else if (tip != null && tip !== "") showHtmlTooltip(mx, my, tip);
-    else if (cell >= 0) showCellTooltip(mx, my, w, cell, state.lens, state.showResources);
+    else if (cell >= 0) showCellTooltip(mx, my, w, cell, shownLens(), state.showResources);
     else hideTooltip();
     if (events.has("hover")) emitHover(cell, city || w.cityByCell.get(cell) || null, hitResource(mx, my), mx, my, lh);
   }
@@ -1285,6 +1308,17 @@ async function main() {
       if (lens && !modes.mode) dock.remember(lens.id);
     },
     setBand,
+    // the lens as drawn (after app.setLensView), and re-colouring after the view function's output changed
+    shownLens,
+    setLensView(fn) { lensView = typeof fn === "function" ? fn : null; app.refreshLens(); },
+    refreshLens() {
+      state.band = null;
+      applyLens(w, shownLens(), null);
+      dock.render(shownLens(), null);
+      rebuildMinimap();
+      cache.key = null;
+      requestDraw();
+    },
     flyTo(x, y, scale = cam.scale, ms = 750) { flyToVisible(x, y, scale, ms); },
     fitBounds,
     home() { const h = homeView(); cam.flyTo(h.x, h.y, h.s, 750); userMoved = false; requestDraw(); },

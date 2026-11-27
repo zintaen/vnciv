@@ -1,22 +1,25 @@
 // People advisor: population, growth, density and town versus country.
 import { esc, fin, colorScale, robustDomain, RAMPS } from "../core/util.js";
-import { pct, int, signedPct, count3, fmtShort, fmtValue } from "../core/fmt.js";
+import { pct, int, signedPct, count3, fmtShort, fmtValue, fixed } from "../core/fmt.js";
 import { barList, histogram, rampLegend } from "../core/charts.js";
 import { createScatter } from "../core/scatter.js";
 import { section, tiles, segmented, mapPicker, frameBtn, sourcesHtml, topBy } from "../core/view.js";
-import { rowsHighlight } from "../core/data.js";
+import { rowsHighlight, extendData } from "../core/data.js";
+import { yearOf, yearText } from "../core/years.js";
 import { growthLens } from "../core/lenses.js";
 import { t as tr } from "../../../i18n.js";
 
-export function mount(ctx) {
+export async function mount(ctx) {
   const { app, data, el, link } = ctx;
   const n = data.nat;
   const { states, metros, counties } = data.levels;
   const yrs = n.growth_years || [];
+  await extendData(data, ["citizens"]); // net migration per former province (citizens.json)
 
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("Residents"), value: count3(n.population), sub: tr(data.vintage) },
+    { label: tr("Residents"), value: count3(n.population), sub: tr("NSO average population {y}", { y: yearText(yearOf(n, "population")) }) },
     { label: tr("Growth {yrs}", { yrs: yrs.map(Number).join("–") }), value: signedPct(n.growth, 2), sub: tr("NSO average population") },
+    ...(fin(n.life_exp) ? [{ label: tr("Life expectancy"), value: tr("{v} yrs", { v: fixed(n.life_exp, 1) }), sub: tr("at birth, {y}", { y: yearText(yearOf(n, "life_exp")) }) }] : []),
     { label: tr("Urban"), value: pct(n.urban), sub: tr("{p} provinces · {c} cities", { p: int(states.rows.length), c: int(metros.rows.length) }) },
   ]));
 
@@ -58,6 +61,23 @@ export function mount(ctx) {
     barList(gHost, { ...opts, rows: mk(slow), ariaLabel: tr("Slowest growing") });
   }
   drawGrowth();
+
+  // --- migration ------------------------------------------------------------------------------------------------
+  const migRows = metros.rows.filter((r) => fin(r.v.cz_net_migration));
+  if (migRows.length) {
+    const my = yearText(yearOf(metros.rows[0].ref, "migration"));
+    const mBody = section(el, { title: tr("Who moves"), note: tr("Net migration in {y}: people who moved in minus people who moved out, per 1,000 residents, by former province (NSO).", { y: esc(my) }) });
+    const sg = (v) => `${v > 0 ? "+" : v < 0 ? "−" : ""}${fixed(Math.abs(v), 1)}`;
+    const inn = topBy(migRows, (r) => r.v.cz_net_migration, { n: 8 });
+    const out = topBy(migRows, (r) => r.v.cz_net_migration, { n: 8, asc: true });
+    const max = Math.max(...[...inn, ...out].map((x) => Math.abs(x.v)));
+    const mk = (list) => list.map((x) => ({ key: x.r.key, label: x.r.v.former || x.r.name, sub: x.r.sub, value: x.v, text: sg(x.v), tone: x.v >= 0 ? "good" : "bad", row: x.r }));
+    const o = { diverging: true, max, onHover: (r) => link.hover(r ? rowsHighlight(metros, [r.row]) : null), onClick: (r) => metros.focus(r.row) };
+    mBody.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Most moving in")}</h4>`);
+    barList(mBody, { ...o, rows: mk(inn), ariaLabel: tr("Most moving in") });
+    mBody.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("Most moving out")}</h4>`);
+    barList(mBody, { ...o, rows: mk(out), ariaLabel: tr("Most moving out") });
+  }
 
   if (!counties) {
     el.insertAdjacentHTML("beforeend", `<p class="adv-empty pad">${tr("counties.json is not built, so the former-province charts are missing.")}</p>`);

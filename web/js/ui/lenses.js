@@ -22,7 +22,8 @@ export function formatLensValue(lens, v) {
     case "int": return intish(v) + (lens.unit?.startsWith("people") ? " /km²" : lens.unit ? " " + t(lens.unit) : "");
     case "minutes": return t("{n} min", { n: fixed(v, 0) });
     case "years": return t("{n} yrs", { n: fixed(v, 1) });
-    case "float": return (v < 10 ? fixed(v, 1) : compact(v)) + (lens.unit ? " " + t(lens.unit) : "");
+    case "float": if (lens.domain?.[1] <= 1) return fixed(v, 3) + (lens.unit ? " " + t(lens.unit) : ""); // 0–1 index (HDI, Gini)
+      return (v < 10 ? fixed(v, 1) : compact(v)) + (lens.unit ? " " + t(lens.unit) : "");
   }
   if (lens.unit?.includes("$")) return money(v);
   return (v < 10 ? fixed(v, 1) : compact(v)) + (lens.unit?.startsWith("people") ? " /km²" : "");

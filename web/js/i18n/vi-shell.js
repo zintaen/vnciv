@@ -6,7 +6,7 @@ export default {
     "Việt Nam thật, vẽ như bản đồ trò chơi chiến thuật 4X: địa hình ô lục giác, tỉnh, thành phố với sản lượng, bản đồ chủ đề và tài nguyên, tất cả từ dữ liệu công khai.",
   "Việt Nam": "Việt Nam",
   "National yields": "Sản lượng quốc gia",
-  "Search cities & provinces": "Tìm thành phố, tỉnh",
+  "Search places, communes, provinces": "Tìm địa danh, xã phường, tỉnh",
   "Search cities and provinces (/ or Ctrl K)": "Tìm thành phố và tỉnh (/ hoặc Ctrl K)",
   "Share this view": "Chia sẻ góc nhìn này",
   "Share: copy a link or download an image": "Chia sẻ: sao chép liên kết hoặc tải ảnh",
@@ -185,8 +185,8 @@ export default {
   "A strategy-map atlas of the real economy": "Tập bản đồ chiến thuật về nền kinh tế thật",
   "Land cover, relief, rivers and resources": "Lớp phủ đất, địa hình, sông ngòi và tài nguyên",
   "CITY": "THÀNH PHỐ",
-  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, geoBoundaries, GeoNames, OpenFlights, © OpenStreetMap contributors":
-    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, geoBoundaries, GeoNames, OpenFlights, © những người đóng góp OpenStreetMap",
+  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors":
+    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © những người đóng góp OpenStreetMap",
   "Copy link": "Sao chép liên kết",
   "Download image": "Tải ảnh",
   "Link to this view": "Liên kết tới góc nhìn này",
@@ -209,10 +209,9 @@ export default {
   "Military": "Quân sự",
   "Wonders": "Kỳ quan",
   "Air routes": "Đường bay",
-  "Expressways and national roads (Natural Earth, as map art)": "Đường cao tốc và quốc lộ (Natural Earth, vẽ minh họa)",
-  "The North–South railway and branch lines (Natural Earth, as map art)": "Đường sắt Bắc – Nam và các tuyến nhánh (Natural Earth, vẽ minh họa)",
-  "Seaports (Wikidata) and airports with scheduled flights, sized by passengers (ACV)":
-    "Cảng biển (Wikidata) và sân bay có chuyến bay thường lệ, kích thước theo số hành khách (ACV)",
+  "Expressways and national roads (OpenStreetMap, November 2026)": "Đường cao tốc và quốc lộ (OpenStreetMap, tháng 11/2026)",
+  "The North–South railway and branch lines (OpenStreetMap, November 2026)": "Đường sắt Bắc – Nam và các tuyến nhánh (OpenStreetMap, tháng 11/2026)",
+  "The 34 seaports of Decision 804/QĐ-TTg (port areas from OpenStreetMap) and airports with scheduled flights, sized by passengers (ACV)": "34 cảng biển theo Quyết định 804/QĐ-TTg (khu bến từ OpenStreetMap) và các sân bay có chuyến bay thường lệ, kích thước theo lượng hành khách (ACV)",
   "People's Army sites mapped in OpenStreetMap as forts; the largest as restricted ground":
     "Các địa điểm của Quân đội nhân dân trên OpenStreetMap, vẽ thành pháo đài; nơi lớn nhất vẽ thành khu vực cấm",
   "UNESCO World Heritage sites, national parks, the national and regional universities, landmarks":
@@ -277,9 +276,25 @@ export default {
   "since {y}": "từ năm {y}",
   "1 farm": "1 trang trại",
   "{n} farms": "{n} trang trại",
-  "© OpenStreetMap contributors · Natural Earth · geoBoundaries": "© những người đóng góp OpenStreetMap · Natural Earth · geoBoundaries",
+  "© OpenStreetMap contributors · Natural Earth · OCHA COD-AB": "© những người đóng góp OpenStreetMap · Natural Earth · OCHA COD-AB",
   "Place names": "Địa danh",
   "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners": "Các đảo (kể cả Hoàng Sa và Trường Sa) và các thị xã, thị trấn ngoài các thành phố trên bản đồ",
   "({owner}, Vietnam)": "({owner}, Việt Nam)",
   "Show or hide resources (R)": "Hiện/ẩn tài nguyên (R)",
+  // --- Layers menu sections, power plants, air routes vintage ---
+  "Transport": "Giao thông",
+  "Culture": "Văn hóa",
+  "Power plants": "Nhà máy điện",
+  "Power plants (R)": "Nhà máy điện (R)",
+  "Show or hide power plants (R)": "Hiện/ẩn nhà máy điện (R)",
+  "Show or hide power plants": "Hiện hoặc ẩn nhà máy điện",
+  "This data build has no power plants layer.": "Bản dữ liệu này không có lớp nhà máy điện.",
+  "This layer marks the country's biggest power plants on the tiles where they are. Only large plants are shown: each type's threshold is in its description. When zoomed out, a hex shows its largest plant; zoom in to see more. Press <b>R</b> to show or hide them.":
+    "Lớp này đánh dấu các nhà máy điện lớn nhất cả nước trên ô nơi chúng đặt. Chỉ hiện những nhà máy lớn: ngưỡng của mỗi loại ghi trong phần mô tả. Khi thu nhỏ, mỗi ô chỉ hiện nhà máy lớn nhất; phóng to để xem thêm. Nhấn <b>R</b> để hiện hoặc ẩn.",
+  "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide power plants · ? for all shortcuts · Esc to close.":
+    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm · L để chuyển bản đồ chủ đề · R để hiện hoặc ẩn nhà máy điện · ? để xem mọi phím tắt · Esc để đóng.",
+  "Land cover, relief, rivers and power plants": "Lớp phủ đất, địa hình, sông ngòi và nhà máy điện",
+  "Air routes (2014)": "Đường bay (2014)",
+  "The 30 domestic air routes flown by the most airlines, from the OpenFlights route database (last updated June 2014)":
+    "30 đường bay nội địa có nhiều hãng khai thác nhất, theo cơ sở dữ liệu đường bay OpenFlights (cập nhật lần cuối tháng 6/2014)",
 };

@@ -36,50 +36,9 @@ export function prepareWorld(world, cities, extras = {}) {
     shadeK[i] = Math.max(-0.32, Math.min(0.32, illum * 0.03));
   }
 
-  // State colours: greedy graph colouring so neighbours differ.
-  const nStates = world.states.length;
-  const adj = Array.from({ length: nStates }, () => new Set());
-  for (let i = 0; i < n; i++) {
-    if (owner[i] < 0) continue;
-    for (let d = 0; d < 3; d++) {
-      const j = grid.neighbour(i, d);
-      if (j >= 0 && owner[j] >= 0 && owner[j] !== owner[i]) {
-        adj[owner[i]].add(owner[j]);
-        adj[owner[j]].add(owner[i]);
-      }
-    }
-  }
-  const stateColor = new Array(nStates);
-  const order = [...Array(nStates).keys()].sort((a, b) => adj[b].size - adj[a].size);
-  for (const s of order) {
-    const used = new Set([...adj[s]].map((t) => stateColor[t]).filter(Boolean));
-    let k = (s * 5) % STATE_PALETTE.length;
-    for (let m = 0; m < STATE_PALETTE.length && used.has(STATE_PALETTE[k]); m++) k = (k + 1) % STATE_PALETTE.length;
-    stateColor[s] = STATE_PALETTE[k];
-  }
+  const stateColor = colourRegions(grid, owner, world.states.length);
 
-  // Border segments, grouped for batched drawing. coastLines also carry the water-side normal for foam.
-  const bands = new Map(); // stateIdx -> [x0,y0,x1,y1, ix0,iy0,ix1,iy1, ...]
-  const stateLines = [], nationLines = [], coastLines = [];
-  const INSET = 0.16;
-  for (let i = 0; i < n; i++) {
-    const o = owner[i];
-    if (o < 0) continue;
-    const cx = grid.cx(i), cy = grid.cy(i);
-    for (let d = 0; d < 6; d++) {
-      const j = grid.neighbour(i, d);
-      const oj = j < 0 ? WATER : owner[j];
-      if (oj === o) continue;
-      const [ax, ay] = grid.corners[d];
-      const [bx, by] = grid.corners[(d + 1) % 6];
-      const seg = [cx + ax, cy + ay, cx + bx, cy + by];
-      if (!bands.has(o)) bands.set(o, []);
-      bands.get(o).push(...seg, cx + ax * (1 - INSET), cy + ay * (1 - INSET), cx + bx * (1 - INSET), cy + by * (1 - INSET));
-      if (oj >= 0) { if (j > i) stateLines.push(...seg); }
-      else if (oj === FOREIGN) nationLines.push(...seg);
-      else coastLines.push(...seg);
-    }
-  }
+  const { bands, stateLines, nationLines, coastLines } = borderSegments(grid, owner);
   // Foreign coasts too (for foam around Canada / Mexico).
   const foreignCoast = [];
   for (let i = 0; i < n; i++) {
@@ -108,6 +67,76 @@ export function prepareWorld(world, cities, extras = {}) {
   prepared.stateLabels = computeStateLabels(prepared);
   prepared.resources = prepareResources(extras.resources);
   return prepared;
+}
+
+// Greedy graph colouring of regions (owner index per cell, -1/-2 = none) so neighbours differ.
+function colourRegions(grid, owner, nStates) {
+  const n = grid.size;
+  const adj = Array.from({ length: nStates }, () => new Set());
+  for (let i = 0; i < n; i++) {
+    if (owner[i] < 0) continue;
+    for (let d = 0; d < 3; d++) {
+      const j = grid.neighbour(i, d);
+      if (j >= 0 && owner[j] >= 0 && owner[j] !== owner[i]) {
+        adj[owner[i]].add(owner[j]);
+        adj[owner[j]].add(owner[i]);
+      }
+    }
+  }
+  const stateColor = new Array(nStates);
+  const order = [...Array(nStates).keys()].sort((a, b) => adj[b].size - adj[a].size);
+  for (const s of order) {
+    const used = new Set([...adj[s]].map((t) => stateColor[t]).filter(Boolean));
+    let k = (s * 5) % STATE_PALETTE.length;
+    for (let m = 0; m < STATE_PALETTE.length && used.has(STATE_PALETTE[k]); m++) k = (k + 1) % STATE_PALETTE.length;
+    stateColor[s] = STATE_PALETTE[k];
+  }
+  return stateColor;
+}
+
+// Border segments, grouped for batched drawing. coastLines also carry the water-side normal for foam.
+function borderSegments(grid, owner) {
+  const n = grid.size;
+  const bands = new Map(); // stateIdx -> [x0,y0,x1,y1, ix0,iy0,ix1,iy1, ...]
+  const stateLines = [], nationLines = [], coastLines = [];
+  const INSET = 0.16;
+  for (let i = 0; i < n; i++) {
+    const o = owner[i];
+    if (o < 0) continue;
+    const cx = grid.cx(i), cy = grid.cy(i);
+    for (let d = 0; d < 6; d++) {
+      const j = grid.neighbour(i, d);
+      const oj = j < 0 ? WATER : owner[j];
+      if (oj === o) continue;
+      const [ax, ay] = grid.corners[d];
+      const [bx, by] = grid.corners[(d + 1) % 6];
+      const seg = [cx + ax, cy + ay, cx + bx, cy + by];
+      if (!bands.has(o)) bands.set(o, []);
+      bands.get(o).push(...seg, cx + ax * (1 - INSET), cy + ay * (1 - INSET), cx + bx * (1 - INSET), cy + by * (1 - INSET));
+      if (oj >= 0) { if (j > i) stateLines.push(...seg); }
+      else if (oj === FOREIGN) nationLines.push(...seg);
+      else coastLines.push(...seg);
+    }
+  }
+  return { bands, stateLines, nationLines, coastLines };
+}
+
+/** Borders, band colours and name labels for another division of the same hexes: `level` "63" uses world.county
+ *  (the 63 former provinces, before 1 July 2025); anything else returns the 34 provinces prepareWorld made. Shape:
+ *  {bands, stateLines, bandColor, stateLabels}; swap them into w (render/map.js reads w.bandColor || w.stateColor
+ *  for the bands) and invalidate the static cache. The 63 set is computed once (~100 ms) and cached on w. */
+export function adminBorders(w, level) {
+  w._borders34 ??= { bands: w.bands, stateLines: w.stateLines, bandColor: null, stateLabels: w.stateLabels }; // before any swap
+  if (level !== "63" || !Array.isArray(w.raw.county)) return w._borders34;
+  if (!w._borders63) {
+    const county = w.raw.county, units = w.raw.counties || [];
+    const { bands, stateLines } = borderSegments(w.grid, county);
+    w._borders63 = {
+      bands, stateLines, bandColor: colourRegions(w.grid, county, units.length),
+      stateLabels: computeStateLabels(w, county, units.map((u) => ({ name: u.name || "" }))),
+    };
+  }
+  return w._borders63;
 }
 
 export const isCapital = (city) => (city.capital != null ? !!city.capital : city.id === "47900");
@@ -213,9 +242,8 @@ export function applyLens(w, lens, band = null) {
 
 // For each state: anchor at the hex farthest from its border (BFS), angle from the PCA of the hex centres of
 // that part of the state (clamped to ±35°), and a font size (km) that fits the state's extent.
-function computeStateLabels(w) {
+function computeStateLabels(w, owner = w.raw.owner, states = w.raw.states) {
   const { grid } = w;
-  const { owner, states } = w.raw;
   const n = grid.size;
   const dist = new Int16Array(n).fill(-1);
   const queue = new Int32Array(n);
@@ -294,7 +322,7 @@ function computeStateLabels(w) {
     const bestFit = (text) => {
       let pick = null;
       for (const ang of tries) {
-        const f = fitAlong(w, s, a, ang, text, Math.min(0.62 * across(ang), 0.75 * depth, 150));
+        const f = fitAlong(w, owner, s, a, ang, text, Math.min(0.62 * across(ang), 0.75 * depth, 150));
         const score = f.size * (ang === angle ? 1.1 : 1);
         if (!pick || score > pick.score) pick = { ...f, text, angle: ang, score };
       }
@@ -331,8 +359,8 @@ function labelEm(text) {
 // Fit `text` on a baseline through hex `a` at angle `ang`, staying inside state `s`: walk the baseline (and
 // two parallel lines at ± half the cap height) both ways until the state ends, re-centre on the free run and
 // size the text to ~92% of it. Iterates because the cap height depends on the size.
-function fitAlong(w, s, a, ang, text, cap) {
-  const { grid } = w, owner = w.raw.owner;
+function fitAlong(w, owner, s, a, ang, text, cap) {
+  const { grid } = w;
   const ux = Math.cos(ang), uy = Math.sin(ang), nx = -uy, ny = ux;
   const em = labelEm(text);
   const step = grid.H * 0.25;

@@ -99,6 +99,9 @@ export function createHashState(opts) {
     return sig(parseHash(hash), ex);
   };
   let entrySig = hashSig(location.hash);
+  // The signature of what the app shows after applying a link: an invalid value it dropped or corrected
+  // (#lens=bogus, #advisor=nope) then rewrites the same history entry instead of pushing a new one.
+  const stateSig = () => sig(opts.read(), readExtras());
 
   function write(force = false) {
     timer = 0;
@@ -106,7 +109,10 @@ export function createHashState(opts) {
     if (!force && opts.busy?.()) return schedule(); // wait for the camera to settle
     const core = opts.read();
     const ex = readExtras();
-    const hash = format(core, ex);
+    // Keys no extension has registered yet (one still loading on a slow network) stay in the link as they are, so
+    // a shared #…&year=2019&view=city is not stripped before the timeline / City view can apply it.
+    const waiting = [...params(location.hash)].filter(([k, v]) => v && !CORE_KEYS.has(k) && !extras.has(k));
+    const hash = format(core, [...ex, ...waiting]);
     if (hash === location.hash || (!hash && !location.hash)) {
       lastWritten = location.hash;
       return;
@@ -145,7 +151,7 @@ export function createHashState(opts) {
     } finally {
       applying = false;
     }
-    entrySig = hashSig(location.hash);
+    entrySig = stateSig();
     lastWritten = location.hash;
   }
 
@@ -171,7 +177,7 @@ export function createHashState(opts) {
         } finally {
           applying = false;
         }
-        entrySig = hashSig(location.hash);
+        entrySig = stateSig();
       });
     }
     return () => {
@@ -373,10 +379,11 @@ export function createUi(app, { toast, onLayout }) {
 // --- map layer toggles -------------------------------------------------------------------------------------------
 
 /**
- * app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?}) → remove function
- *   A switch for a map layer, listed in the "Map layers" menu next to the Resources toggle in the lens dock (one
+ * app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?, group?}) → remove function
+ *   A switch for a map layer, listed in the "Map layers" menu in the lens dock (one
  *   button that opens a small menu, so any number of layers fits on a phone). `icon` is an icons.js id or a short
- *   text / emoji. `set(on)` is yours: flip your layer's state (its visible()/sig() then change and the static map
+ *   text / emoji. `group` puts it under a section header (GROUPS below, in that order; an unknown id gets its
+ *   own section after them, toggles without a group go last). `set(on)` is yours: flip your layer's state (its visible()/sig() then change and the static map
  *   re-renders; main also calls app.requestDraw()). `default` is the state when the URL says nothing (defaults to
  *   get() at the time of adding).
  *   The URL hash key `layers` lists the toggles that are on (`#layers=roads,rail,military`; `layers=none` = all
@@ -388,8 +395,11 @@ export function createUi(app, { toast, onLayout }) {
  * opts: {dock (the #lens-dock element), after (element to insert the button after), area (#lens-area),
  *        hash: {register, update, value}, onChange()}
  */
+// Sections of the Layers menu, in display order: id → header label (English, translated with t()).
+const GROUPS = { transport: "Transport", energy: "Energy", culture: "Culture", living: "Living", nature: "Nature", places: "Place names", military: "Military" };
+
 export function createMapToggles({ dock, after, area, hash, onChange }) {
-  const toggles = new Map(); // id → {id, label, icon, title, get, set, def}
+  const toggles = new Map(); // id → {id, label, icon, title, group, get, set, def}
   let btn = null, pop = null, restoreFocus = null;
   // The ids the URL asked for (a Set), or null when the URL has no layers= key. Ids of toggles that are not
   // registered yet (an extension still loading) stay in the hash until their toggle arrives.
@@ -479,11 +489,19 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     btn.setAttribute("aria-label", tr("Map layers ({n} of {total} on)", { n: nOn, total: list.length }));
     btn.innerHTML = `${glyph("layers", 15)}<span>${tr("Layers")}</span>${nOn ? `<b class="ml-count">${nOn}</b>` : ""}`;
     if (pop.hidden) return;
-    pop.innerHTML = `<div class="ml-head">${tr("Map layers")}</div>` + list.map((t) => {
+    const row = (t) => {
       const on = isOn(t);
       return `<button type="button" class="ml-row${on ? " on" : ""}" role="menuitemcheckbox" aria-checked="${on}" data-toggle="${esc(t.id)}"
         ${t.title ? `title="${esc(t.title)}"` : ""}><span class="ml-ic">${glyph(t.icon, 16)}</span><span class="ml-lbl">${esc(t.label)}</span>
         <span class="ml-switch" aria-hidden="true"></span></button>`;
+    };
+    const order = Object.keys(GROUPS);
+    const rank = (g) => (!g ? Infinity : order.includes(g) ? order.indexOf(g) : order.length);
+    const groups = [...new Set(list.map((t) => t.group))].sort((a, b) => rank(a) - rank(b));
+    pop.innerHTML = `<div class="ml-head">${tr("Map layers")}</div>` + groups.map((g) => {
+      const items = list.filter((t) => t.group === g);
+      const head = g ? `<div class="ml-sec" role="presentation">${esc(tr(GROUPS[g] || g))}</div>` : (groups.length > 1 ? `<div class="ml-sec ml-sep" role="separator"></div>` : "");
+      return head + items.map(row).join("");
     }).join("");
   }
 
@@ -503,9 +521,9 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     return true;
   }
 
-  function add({ id, label, icon: ic = "", get, set, title = "", default: def } = {}) {
+  function add({ id, label, icon: ic = "", get, set, title = "", default: def, group = "" } = {}) {
     if (!id || typeof get !== "function" || typeof set !== "function") throw new Error("addMapToggle({id, label, icon, get, set})");
-    const t = { id: String(id), label: label || String(id), icon: ic, title, get, set, def: false };
+    const t = { id: String(id), label: label || String(id), icon: ic, title, group: group ? String(group) : "", get, set, def: false };
     t.def = def === undefined ? isOn(t) : !!def;
     toggles.set(t.id, t);
     ensureDom();

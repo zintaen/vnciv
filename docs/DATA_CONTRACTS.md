@@ -2,7 +2,7 @@
 
 > **vnciv.** This document is usaciv's contract; the Vietnam build keeps its shapes with these differences
 > (the pipeline in `pipeline/` is new, see the README):
-> * **Units.** `world.json` has `km_per_unit` (0.32): the hex radius is 25 map units = 8 km. Coordinates are "map
+> * **Units.** `world.json` has `km_per_unit` (0.2): the hex radius is 25 map units = 5 km. Coordinates are "map
 >   units", not km. `remote` lists the far-offshore island hexes (Hoàng Sa, Trường Sa), left out of framing.
 > * **States** = the 34 provinces of 2025 (`abbr` like `HN`, `HCM`; `fips` "01".."34"; extra `former`).
 >   **Counties** = the 63 former provinces (`geoid` = ISO 3166-2:VN suffix). **Cities** = their 63 seats, one per
@@ -10,13 +10,22 @@
 > * **Economic fields.** `median_income` is income per *person* per year (USD); `jobs`, `gdp_by_industry`,
 >   `median_rent`, `home_value`, `rent_burden` are null (not published per province). Extra fields: `area_km2,
 >   density, urban, labour_force, trained, literacy, hdi, poverty, gini, income_worker, productivity, fdi,
->   fdi_projects, retail, paddy, tourism, students, lecturers, pci`. `growth_years` is [2019, 2024].
+>   fdi_projects, retail, paddy, tourism, students, lecturers, pci, grdp_growth, internet, computer, clean_water, housing,
+>   it_skills, enterprises_pk`; states add the 34-province-only `doctors, doctors_pk, forest_cover, road_deaths,
+>   pupils_per_teacher, growth_9m2026, industry_jobs_2026` (HDI and FDI on states and the nation are 2025, on cities 2024).
+>   Every city/state/nation record has `years: {field: year label}`; `nation.cities_basis` holds the 2024 national
+>   HDI/FDI to compare cities with. `growth_years` is [2019, 2025]; `gdp_year` 2025.
 >   `nation.nation.jobs` is national employment by industry; `nation.currency` holds the VND→USD rate.
 > * **Yields**: food = paddy (`unit: "tonnes"`), production = employed workers, gold = GRDP (usd), science =
 >   university students (`"students"`), culture = travel and tour turnover (usd).
 > * **counties.json** columns are listed in its own `fields`. **lenses.json** ids: density, urban, growth, income,
 >   gdp_pc, poverty, gini, fdi, trained, literacy, hdi, unemployment, productivity, pci, disasters (typhoons),
->   forest, farmland, developed, wetland.
+>   forest, farmland, developed, wetland. Since the 2025 update also: internet, clean_water, housing,
+>   it_skills (63 former provinces), enterprises, growth_2026, industry_jobs_2026, doctors, road_deaths,
+>   pupils_per_teacher, forest_cover (34 provinces: every hex of a province has its value). Province lenses carry
+>   `year` and `level` ("63" | "34"). Stream lenses: osm_schools, ethnic_largest, ethnic_minority, crop_rice,
+>   crop_maize, crop_cassava, crop_sugarcane, crop_tea, crop_orange, rainfall, temperature, hot_month, cold_month,
+>   forest_loss, low_lying. Groups: people, economy, living, education, hazards, land, agriculture, environment.
 > * **districts.json v2**: `catalog`, `rule`, `national`, `cities{id: {districts: [{id, lq|null, via, strength,
 >   value?, text}], badge}}` (location quotients of per-resident figures, plus mapped sites).
 >   **citizens.json v2**: rows residence / work / skills / households, plus `life_expectancy` and `migration`.
@@ -845,6 +854,16 @@ hash), e.g. an advisor's "show roads, rail and forts" button; false if no toggle
   of the flight starting); after a pan or wheel zoom it catches up 350 ms after the camera settles; `app.setMode`
   writes it on the next task. Lens, selection and mode changes push a history entry (Back undoes them); camera moves
   replace the current one. `app.hash.flush()` writes immediately (Share calls it before copying).
+
+**Year views (ext/timeline).** `app.setLensView(fn | null)`: `fn(lens)` returns a lens-shaped object (own `id`,
+`values` per hex, `domain`, `note`, ...) that is coloured, shown in the legend and the hex tooltip instead of the active
+lens, or null for the lens itself; `state.lens`, the hash and the picker stay on the real lens. `fn` is called often
+(every tooltip), so cache its result. `app.refreshLens()` re-applies after the view's output changed (e.g. a new
+year); `app.shownLens()` is the lens as drawn. `app.bannerPopulation = (city) => number | null`: the population shown
+on that city's banner instead of `city.population` (swapped in for the banner draw only). `world.js adminBorders(w,
+"63" | "34")` returns `{bands, stateLines, bandColor, stateLabels}` for the 63 former provinces (`world.county`) or
+the 34; the timeline swaps them into `w` for years before the 2025 merger (`render/map.js` uses `w.bandColor ||
+w.stateColor` for the border bands). Hash key `year=` (absent = the latest data, "now").
 
 **Optional state and debug handles** (not data contracts; don't rely on them from other extensions without asking):
 * `state.cityBadges`: an optional `Map<city id, {label, color: "#rrggbb"}>` that `render/banners.js` reads to draw a

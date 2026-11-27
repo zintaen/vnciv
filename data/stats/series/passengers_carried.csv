@@ -1,0 +1,520 @@
+province_std,level,year,value,unit,source_url,status
+An Giang,63,2020,92.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+An Giang,63,2022,110.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+An Giang,63,2023,134.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+An Giang,63,2024,130.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+An Giang,63,2025,162.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bà Rịa - Vũng Tàu,63,2020,38.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bà Rịa - Vũng Tàu,63,2022,49.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bà Rịa - Vũng Tàu,63,2023,53.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bà Rịa - Vũng Tàu,63,2024,57.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bà Rịa - Vũng Tàu,63,2025,63.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bình Dương,63,2020,30.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Dương,63,2022,34.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Dương,63,2023,37.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Dương,63,2024,41.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Dương,63,2025,53.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bình Phước,63,2020,9.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Phước,63,2022,9.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Phước,63,2023,18.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Phước,63,2024,20.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Phước,63,2025,26.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bình Thuận,63,2020,22.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Thuận,63,2022,14.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Thuận,63,2023,19.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Thuận,63,2024,22.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Thuận,63,2025,27.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bình Định,63,2020,28.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Định,63,2022,28.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Định,63,2023,34.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Định,63,2024,41.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bình Định,63,2025,47.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bạc Liêu,63,2020,73.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bạc Liêu,63,2022,79.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bạc Liêu,63,2023,92.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bạc Liêu,63,2024,105.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bạc Liêu,63,2025,128.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bắc Giang,63,2020,18.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Giang,63,2022,25.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Giang,63,2023,33.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Giang,63,2024,36.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Giang,63,2025,40.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bắc Kạn,63,2020,3.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Kạn,63,2022,2.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Kạn,63,2023,4.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Kạn,63,2024,4.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Kạn,63,2025,5.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bắc Ninh,63,2020,9.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Ninh,63,2022,7.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Ninh,63,2023,10.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Ninh,63,2024,11.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bắc Ninh,63,2025,12.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Bến Tre,63,2020,46.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bến Tre,63,2022,45.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bến Tre,63,2023,50.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bến Tre,63,2024,56.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Bến Tre,63,2025,67.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Cao Bằng,63,2020,1.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cao Bằng,63,2022,1.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cao Bằng,63,2023,3.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cao Bằng,63,2024,3.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cao Bằng,63,2025,3.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Cà Mau,63,2020,45.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cà Mau,63,2022,50.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cà Mau,63,2023,64.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cà Mau,63,2024,73.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cà Mau,63,2025,93.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Cần Thơ,63,2020,103.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cần Thơ,63,2022,29.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cần Thơ,63,2023,32.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cần Thơ,63,2024,38.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Cần Thơ,63,2025,43.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Gia Lai,63,2020,18.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Gia Lai,63,2022,17.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Gia Lai,63,2023,20.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Gia Lai,63,2024,22.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Gia Lai,63,2025,25.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hà Giang,63,2020,3.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Giang,63,2022,3.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Giang,63,2023,3.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Giang,63,2024,4.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Giang,63,2025,4.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hà Nam,63,2020,8.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nam,63,2022,9.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nam,63,2023,13.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nam,63,2024,15.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nam,63,2025,16.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hà Nội,63,2020,1137.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nội,63,2022,1164.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nội,63,2023,1429.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nội,63,2024,1576.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Nội,63,2025,1926.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hà Tĩnh,63,2020,20.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Tĩnh,63,2022,16.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Tĩnh,63,2023,21.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Tĩnh,63,2024,25.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hà Tĩnh,63,2025,28.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hòa Bình,63,2020,3.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hòa Bình,63,2022,4.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hòa Bình,63,2023,7.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hòa Bình,63,2024,7.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hòa Bình,63,2025,8.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hưng Yên,63,2020,14.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hưng Yên,63,2022,14.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hưng Yên,63,2023,16.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hưng Yên,63,2024,17.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hưng Yên,63,2025,17.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hải Dương,63,2020,31.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Dương,63,2022,36.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Dương,63,2023,48.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Dương,63,2024,58.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Dương,63,2025,65.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hải Phòng,63,2020,73.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Phòng,63,2022,79.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Phòng,63,2023,130.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Phòng,63,2024,156.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hải Phòng,63,2025,188.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Hậu Giang,63,2020,96.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hậu Giang,63,2022,107.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hậu Giang,63,2023,108.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hậu Giang,63,2024,111.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Hậu Giang,63,2025,140.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Khánh Hòa,63,2020,19.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Khánh Hòa,63,2022,28.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Khánh Hòa,63,2023,34.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Khánh Hòa,63,2024,35.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Khánh Hòa,63,2025,39.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Kiên Giang,63,2020,51.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kiên Giang,63,2022,41.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kiên Giang,63,2023,50.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kiên Giang,63,2024,56.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kiên Giang,63,2025,69.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Kon Tum,63,2020,8.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kon Tum,63,2022,6.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kon Tum,63,2023,7.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kon Tum,63,2024,8.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Kon Tum,63,2025,9.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Lai Châu,63,2020,1.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lai Châu,63,2022,1.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lai Châu,63,2023,2.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lai Châu,63,2024,2.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lai Châu,63,2025,2.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Long An,63,2020,39.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Long An,63,2022,20.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Long An,63,2023,21.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Long An,63,2024,27.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Long An,63,2025,31.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Lào Cai,63,2020,3.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lào Cai,63,2022,4.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lào Cai,63,2023,7.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lào Cai,63,2024,7.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lào Cai,63,2025,8.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Lâm Đồng,63,2020,25.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lâm Đồng,63,2022,22.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lâm Đồng,63,2023,27.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lâm Đồng,63,2024,29.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lâm Đồng,63,2025,33.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Lạng Sơn,63,2020,7.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lạng Sơn,63,2022,6.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lạng Sơn,63,2023,7.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lạng Sơn,63,2024,8.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Lạng Sơn,63,2025,9.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Nam Định,63,2020,16.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nam Định,63,2022,16.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nam Định,63,2023,17.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nam Định,63,2024,18.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nam Định,63,2025,19.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Nghệ An,63,2020,73.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nghệ An,63,2022,81.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nghệ An,63,2023,95.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nghệ An,63,2024,107.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Nghệ An,63,2025,118.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Ninh Bình,63,2020,19.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Bình,63,2022,22.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Bình,63,2023,36.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Bình,63,2024,44.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Bình,63,2025,56.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Ninh Thuận,63,2020,5.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Thuận,63,2022,9.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Thuận,63,2023,14.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Thuận,63,2024,16.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Ninh Thuận,63,2025,19.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Phú Thọ,63,2020,7.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Thọ,63,2022,14.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Thọ,63,2023,16.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Thọ,63,2024,17.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Thọ,63,2025,19.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Phú Yên,63,2020,12.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Yên,63,2022,8.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Yên,63,2023,9.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Yên,63,2024,9.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Phú Yên,63,2025,11.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Quảng Bình,63,2020,15.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Bình,63,2022,18.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Bình,63,2023,20.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Bình,63,2024,22.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Bình,63,2025,25.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Quảng Nam,63,2020,5.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Nam,63,2022,4.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Nam,63,2023,5.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Nam,63,2024,5.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Nam,63,2025,4.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Quảng Ngãi,63,2020,4.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ngãi,63,2022,3.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ngãi,63,2023,4.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ngãi,63,2024,5.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ngãi,63,2025,6.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Quảng Ninh,63,2020,40.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ninh,63,2022,47.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ninh,63,2023,61.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ninh,63,2024,77.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Ninh,63,2025,95.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Quảng Trị,63,2020,7.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Trị,63,2022,7.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Trị,63,2023,8.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Trị,63,2024,9.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Quảng Trị,63,2025,10.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Sóc Trăng,63,2020,40.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sóc Trăng,63,2022,47.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sóc Trăng,63,2023,65.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sóc Trăng,63,2024,78.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sóc Trăng,63,2025,89.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Sơn La,63,2020,3.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sơn La,63,2022,3.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sơn La,63,2023,4.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sơn La,63,2024,5.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Sơn La,63,2025,6.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+TP. Hồ Chí Minh,63,2020,716.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+TP. Hồ Chí Minh,63,2022,1036.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+TP. Hồ Chí Minh,63,2023,1459.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+TP. Hồ Chí Minh,63,2024,1509.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+TP. Hồ Chí Minh,63,2025,1703.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Thanh Hóa,63,2020,23.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thanh Hóa,63,2022,16.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thanh Hóa,63,2023,22.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thanh Hóa,63,2024,24.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thanh Hóa,63,2025,27.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Thái Bình,63,2020,16.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Bình,63,2022,18.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Bình,63,2023,21.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Bình,63,2024,24.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Bình,63,2025,21.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Thái Nguyên,63,2020,12.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Nguyên,63,2022,16.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Nguyên,63,2023,21.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Nguyên,63,2024,22.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thái Nguyên,63,2025,27.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Thừa Thiên Huế,63,2020,18.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thừa Thiên Huế,63,2022,25.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thừa Thiên Huế,63,2023,35.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thừa Thiên Huế,63,2024,40.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Thừa Thiên Huế,63,2025,48.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Tiền Giang,63,2020,34.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tiền Giang,63,2022,30.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tiền Giang,63,2023,34.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tiền Giang,63,2024,37.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tiền Giang,63,2025,42.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Trà Vinh,63,2020,11.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Trà Vinh,63,2022,16.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Trà Vinh,63,2023,25.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Trà Vinh,63,2024,31.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Trà Vinh,63,2025,33.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Tuyên Quang,63,2020,5.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tuyên Quang,63,2022,6.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tuyên Quang,63,2023,7.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tuyên Quang,63,2024,8.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tuyên Quang,63,2025,9.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Tây Ninh,63,2020,18.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tây Ninh,63,2022,24.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tây Ninh,63,2023,31.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tây Ninh,63,2024,37.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Tây Ninh,63,2025,46.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Vĩnh Long,63,2020,27.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Long,63,2022,38.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Long,63,2023,58.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Long,63,2024,66.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Long,63,2025,78.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Vĩnh Phúc,63,2020,13.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Phúc,63,2022,20.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Phúc,63,2023,23.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Phúc,63,2024,29.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Vĩnh Phúc,63,2025,35.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Yên Bái,63,2020,8.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Yên Bái,63,2022,7.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Yên Bái,63,2023,10.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Yên Bái,63,2024,12.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Yên Bái,63,2025,13.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Điện Biên,63,2020,1.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Điện Biên,63,2022,1.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Điện Biên,63,2023,2.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Điện Biên,63,2024,3.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Điện Biên,63,2025,3.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Đà Nẵng,63,2020,11.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đà Nẵng,63,2022,9.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đà Nẵng,63,2023,10.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đà Nẵng,63,2024,12.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đà Nẵng,63,2025,15.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Đắk Lắk,63,2020,24.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Lắk,63,2022,24.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Lắk,63,2023,27.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Lắk,63,2024,27.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Lắk,63,2025,31.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Đắk Nông,63,2020,2.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Nông,63,2022,3.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Nông,63,2023,5.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Nông,63,2024,5.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đắk Nông,63,2025,5.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Đồng Nai,63,2020,94.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Nai,63,2022,92.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Nai,63,2023,112.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Nai,63,2024,123.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Nai,63,2025,139.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+Đồng Tháp,63,2020,33.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Tháp,63,2022,40.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Tháp,63,2023,45.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Tháp,63,2024,49.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+Đồng Tháp,63,2025,54.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+An Giang,34,2020,144.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+An Giang,34,2021,126.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+An Giang,34,2022,151.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+An Giang,34,2023,184.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+An Giang,34,2024,187.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+An Giang,34,2025,231.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Bắc Ninh,34,2020,28.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Bắc Ninh,34,2021,22.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Bắc Ninh,34,2022,32.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Bắc Ninh,34,2023,44.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Bắc Ninh,34,2024,48.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Bắc Ninh,34,2025,52.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Cao Bằng,34,2020,1.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cao Bằng,34,2021,1.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cao Bằng,34,2022,1.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cao Bằng,34,2023,3.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cao Bằng,34,2024,3.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cao Bằng,34,2025,3.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Cà Mau,34,2020,118.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cà Mau,34,2021,106.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cà Mau,34,2022,129.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cà Mau,34,2023,157.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cà Mau,34,2024,179.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cà Mau,34,2025,222.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Cần Thơ,34,2020,240.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cần Thơ,34,2021,134.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cần Thơ,34,2022,184.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cần Thơ,34,2023,206.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cần Thơ,34,2024,228.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Cần Thơ,34,2025,273.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Gia Lai,34,2020,47.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Gia Lai,34,2021,30.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Gia Lai,34,2022,46.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Gia Lai,34,2023,55.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Gia Lai,34,2024,63.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Gia Lai,34,2025,73.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Huế,34,2020,18.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Huế,34,2021,16.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Huế,34,2022,25.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Huế,34,2023,35.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Huế,34,2024,40.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Huế,34,2025,48.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Hà Nội,34,2020,1137.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Nội,34,2021,908.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Nội,34,2022,1164.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Nội,34,2023,1429.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Nội,34,2024,1576.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Nội,34,2025,1926.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Hà Tĩnh,34,2020,20.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Tĩnh,34,2021,11.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Tĩnh,34,2022,16.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Tĩnh,34,2023,21.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Tĩnh,34,2024,25.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hà Tĩnh,34,2025,28.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Hưng Yên,34,2020,30.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hưng Yên,34,2021,27.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hưng Yên,34,2022,33.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hưng Yên,34,2023,37.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hưng Yên,34,2024,42.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hưng Yên,34,2025,38.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Hải Phòng,34,2020,104.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hải Phòng,34,2021,97.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hải Phòng,34,2022,115.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hải Phòng,34,2023,179.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hải Phòng,34,2024,214.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Hải Phòng,34,2025,253.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Khánh Hòa,34,2020,25.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Khánh Hòa,34,2021,17.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Khánh Hòa,34,2022,37.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Khánh Hòa,34,2023,48.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Khánh Hòa,34,2024,52.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Khánh Hòa,34,2025,58.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Lai Châu,34,2020,1.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lai Châu,34,2021,1.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lai Châu,34,2022,1.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lai Châu,34,2023,2.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lai Châu,34,2024,2.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lai Châu,34,2025,2.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Lào Cai,34,2020,11.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lào Cai,34,2021,9.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lào Cai,34,2022,12.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lào Cai,34,2023,17.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lào Cai,34,2024,19.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lào Cai,34,2025,21.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Lâm Đồng,34,2020,51.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lâm Đồng,34,2021,33.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lâm Đồng,34,2022,40.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lâm Đồng,34,2023,52.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lâm Đồng,34,2024,57.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lâm Đồng,34,2025,66.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Lạng Sơn,34,2020,7.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lạng Sơn,34,2021,6.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lạng Sơn,34,2022,6.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lạng Sơn,34,2023,7.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lạng Sơn,34,2024,8.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Lạng Sơn,34,2025,9.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Nghệ An,34,2020,73.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Nghệ An,34,2021,60.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Nghệ An,34,2022,81.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Nghệ An,34,2023,95.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Nghệ An,34,2024,107.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Nghệ An,34,2025,118.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Ninh Bình,34,2020,43.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Ninh Bình,34,2021,38.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Ninh Bình,34,2022,48.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Ninh Bình,34,2023,68.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Ninh Bình,34,2024,77.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Ninh Bình,34,2025,91.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Phú Thọ,34,2020,25.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Phú Thọ,34,2021,20.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Phú Thọ,34,2022,40.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Phú Thọ,34,2023,47.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Phú Thọ,34,2024,53.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Phú Thọ,34,2025,62.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Quảng Ngãi,34,2020,12.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ngãi,34,2021,8.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ngãi,34,2022,10.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ngãi,34,2023,12.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ngãi,34,2024,13.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ngãi,34,2025,16.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Quảng Ninh,34,2020,40.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ninh,34,2021,34.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ninh,34,2022,47.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ninh,34,2023,61.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ninh,34,2024,77.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Ninh,34,2025,95.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Quảng Trị,34,2020,22.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Trị,34,2021,22.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Trị,34,2022,25.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Trị,34,2023,28.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Trị,34,2024,31.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Quảng Trị,34,2025,35.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Sơn La,34,2020,3.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Sơn La,34,2021,2.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Sơn La,34,2022,3.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Sơn La,34,2023,4.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Sơn La,34,2024,5.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Sơn La,34,2025,6.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+TP. Hồ Chí Minh,34,2020,785.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+TP. Hồ Chí Minh,34,2021,470.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+TP. Hồ Chí Minh,34,2022,1120.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+TP. Hồ Chí Minh,34,2023,1551.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+TP. Hồ Chí Minh,34,2024,1608.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+TP. Hồ Chí Minh,34,2025,1820.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Thanh Hóa,34,2020,23.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thanh Hóa,34,2021,12.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thanh Hóa,34,2022,16.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thanh Hóa,34,2023,22.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thanh Hóa,34,2024,24.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thanh Hóa,34,2025,27.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Thái Nguyên,34,2020,15.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thái Nguyên,34,2021,14.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thái Nguyên,34,2022,18.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thái Nguyên,34,2023,25.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thái Nguyên,34,2024,27.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Thái Nguyên,34,2025,33.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Tuyên Quang,34,2020,8.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tuyên Quang,34,2021,9.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tuyên Quang,34,2022,9.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tuyên Quang,34,2023,11.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tuyên Quang,34,2024,12.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tuyên Quang,34,2025,14.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Tây Ninh,34,2020,58.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tây Ninh,34,2021,26.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tây Ninh,34,2022,45.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tây Ninh,34,2023,53.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tây Ninh,34,2024,65.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Tây Ninh,34,2025,78.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Vĩnh Long,34,2020,85.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Vĩnh Long,34,2021,69.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Vĩnh Long,34,2022,100.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Vĩnh Long,34,2023,134.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Vĩnh Long,34,2024,154.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Vĩnh Long,34,2025,180.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Điện Biên,34,2020,1.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Điện Biên,34,2021,0.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Điện Biên,34,2022,1.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Điện Biên,34,2023,2.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Điện Biên,34,2024,3.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Điện Biên,34,2025,3.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Đà Nẵng,34,2020,17.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đà Nẵng,34,2021,12.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đà Nẵng,34,2022,14.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đà Nẵng,34,2023,15.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đà Nẵng,34,2024,17.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đà Nẵng,34,2025,19.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Đắk Lắk,34,2020,37.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đắk Lắk,34,2021,23.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đắk Lắk,34,2022,33.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đắk Lắk,34,2023,36.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đắk Lắk,34,2024,36.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đắk Lắk,34,2025,42.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Đồng Nai,34,2020,104.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Nai,34,2021,72.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Nai,34,2022,102.1,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Nai,34,2023,131.0,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Nai,34,2024,143.7,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Nai,34,2025,166.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel
+Đồng Tháp,34,2020,67.9,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Tháp,34,2021,53.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Tháp,34,2022,70.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Tháp,34,2023,80.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Tháp,34,2024,87.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+Đồng Tháp,34,2025,96.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",prel

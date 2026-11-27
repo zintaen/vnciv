@@ -2,7 +2,7 @@ import { css } from "../color.js";
 import { t } from "../i18n.js";
 import { esc, kindOf, popShort } from "../format.js";
 import { isCapital } from "../world.js";
-import { yieldGrid, amenities, industries, economyRows, popLine, growthSpan, showPanel, fullName } from "./infoPanel.js";
+import { yieldGrid, amenities, industries, economyRows, latestRows, popLine, growthSpan, showPanel, fullName } from "./infoPanel.js";
 
 /**
  * Opens the panel for province `idx` (index into world.json states / states.json; Vietnam's 34 provinces of 2025).
@@ -45,13 +45,14 @@ export function openStatePanel(idx, ctx) {
     headExtra: hasEcon ? popLine(st, growthSpan(st, n)) : "",
     sections: [
       st.yields && { title: t("Yields · rank among provinces"), html: `<div class="yield-grid">${yieldGrid(nation, st.yields, st.ranks, count)}</div>` },
-      hasEcon && { title: t("Living standards"), html: amenities(st, n) },
-      hasEcon && { title: t("Economy"), html: economyRows(st, n) },
+      hasEcon && { title: t("Latest (2025–2026)"), html: `${latestRows(st, n)}<p class="muted" style="font-size:11px;margin:6px 0 0">${t("NSO publishes these only for the 34 provinces. Yearbook 2025 values are preliminary; the 2026 figures are estimates from NSO's monthly reports. VN = NSO's national figure for the same year, where it publishes one.")}</p>` },
+      hasEcon && { title: t("Living standards"), html: amenities(st, n, ["hdi"]) },
+      hasEcon && { title: t("Economy"), html: economyRows(st, n, ["fdi"]) },
       st.jobs && { title: t("Top industries · where people work"), html: industries(st, nation, 8) },
       { title: t("Cities · former province seats"), html: cityRows },
       !hasEcon && { title: t("Data"), html: `<p class="muted">${t("Province statistics are not in this data build (states.json is missing).")}</p>` },
     ],
-    foot: `${t("Source: {src}", { src: esc(t(nation.vintage)) })}${nation.gdp_vintage ? `; GRDP: ${esc(t(nation.gdp_vintage))}` : ""}${t(", summed over its former provinces.")} ${t("Ranks are among the {n} provinces (1 = largest).", { n: count })}`,
+    foot: `${t("Source: {src}", { src: esc(t(nation.vintage)) })}${nation.gdp_vintage ? `; GRDP: ${esc(t(nation.gdp_vintage))}` : ""}. ${t("Rates are NSO's own figures for the 34 provinces; totals add up the former provinces. Each figure shows its year and is compared only with Vietnam's figure for the same year.")} ${t("Ranks are among the {n} provinces (1 = largest).", { n: count })} ${esc(t(nation.currency?.note || ""))}`,
     onClose: ctx.onClose,
     onPedia: ctx.onPedia,
     wire(panel) {

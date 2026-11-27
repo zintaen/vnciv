@@ -40,15 +40,10 @@ class World:
         return out
 
     def point_county(self, lon, lat):
-        """Former-province index at a point by the geoBoundaries outlines (not the hex's majority), or -1."""
+        """Former-province index at a point by the official outlines (not the hex's majority), or -1."""
         if not hasattr(self, "_prov_r"):
-            import json
-            from ..admin import OLD
-            from ..fetch import RAW
-            from .world import raster
-            gb = json.loads((RAW / "geoboundaries" / "geoBoundaries-VNM-ADM1.geojson").read_text())
-            idx = {iso: k for k, iso in enumerate(self.counties)}
-            self._prov_r = raster([(f["geometry"], idx[OLD[f["properties"]["shapeName"].strip()][0]]) for f in gb["features"]])
+            from .world import province_rasters
+            self._prov_r = province_rasters()[1] + 1  # +1, 0 = none
         from .world import look
         return look(self._prov_r, lon, lat)
 

@@ -17,7 +17,7 @@ export function initSearch(opts) {
   if (!input || !box) return { focus() {}, close() {}, get isOpen() { return false; } };
   // The full placeholder only fits the wide search box; narrower ones say just "Search".
   const narrow = matchMedia("(max-width: 1120px)");
-  const setPlaceholder = () => (input.placeholder = t(narrow.matches ? "Search" : "Search cities & provinces"));
+  const setPlaceholder = () => (input.placeholder = t(narrow.matches ? "Search" : "Search places, communes, provinces"));
   setPlaceholder();
   narrow.addEventListener?.("change", setPlaceholder);
 
@@ -31,6 +31,14 @@ export function initSearch(opts) {
     entries.push({ kind: "state", index, name: s.name, n: norm(s.name), x: exact(s.name), full: norm(s.abbr), abbr: (s.abbr || "").toLowerCase(),
       pop: s.population || 0, sub: s.former && s.former.length > 1 ? `${kindOf(s)} · ${s.former.join(" + ")}` : kindOf(s), label: s.name });
   });
+
+  // Extra entries from extensions: app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick()}]) → remove()
+  function addEntries(list) {
+    const added = (list || []).filter((e) => e && e.name && typeof e.pick === "function").map((e) => ({
+      ...e, n: norm(e.name), x: exact(e.name), full: norm(e.sub), pop: e.pop || 0, label: e.label || e.name, sub: e.sub || "" }));
+    entries.push(...added);
+    return () => added.forEach((e) => { const k = entries.indexOf(e); if (k >= 0) entries.splice(k, 1); });
+  }
 
   let results = [];
   let sel = -1;
@@ -78,7 +86,7 @@ export function initSearch(opts) {
     }
     box.innerHTML = results
       .map((e, i) => `<div class="sr-item ${i === sel ? "sel" : ""}" role="option" id="sr-${i}" aria-selected="${i === sel}" data-i="${i}">
-        <span class="sr-ic">${e.kind === "state" ? icon("terrain", "🗺️", { size: 16 }) : icon("pop", "🏙️", { size: 16 })}</span>
+        <span class="sr-ic">${e.icon ? icon(e.icon, e.emoji || "", { size: 16 }) : e.kind === "state" ? icon("terrain", "🗺️", { size: 16 }) : icon("pop", "🏙️", { size: 16 })}</span>
         <span class="sr-main"><b>${esc(e.label)}</b><span class="sr-sub">${esc(e.sub)}</span></span>
         <span class="sr-pop">${e.pop ? popShort(e.pop) : ""}</span></div>`)
       .join("");
@@ -95,6 +103,7 @@ export function initSearch(opts) {
     close();
     input.value = "";
     input.blur();
+    if (e.pick) return e.pick();
     opts.onPick(e.kind === "city" ? { kind: "city", city: e.city } : { kind: "state", index: e.index });
   }
 
@@ -165,6 +174,7 @@ export function initSearch(opts) {
       input.blur();
     },
     query,
+    addEntries,
     get isOpen() { return document.activeElement === input || !box.hidden; },
   };
 }

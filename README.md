@@ -2,7 +2,7 @@
 
 A visualizer (not a game) that draws the **real** Vietnam like a turn-based strategy map: painted hex terrain from
 elevation and land cover, the 34 provinces of 2025, cities with yield banners, power plants as resources, roads,
-railways, ports, airports and wonders on the tiles, 19 lenses, a City View, a council of Advisors and an Explorer.
+railways, ports, airports and wonders on the tiles, 45 lenses, a City View, a council of Advisors and an Explorer.
 Every number traces back to a public source listed in the in-app **Almanac**. The interface is in **Vietnamese** (default)
 and **English** (the EN/VI button, or `?lang=en`).
 
@@ -45,10 +45,10 @@ need the NSO servers.
 | States | The **34 provinces** of 1 July 2025 (Resolution 202/2025/QH15), drawn as unions of the former provinces |
 | Counties (the Explorer's finest level) | The **63 former provinces**: Vietnam's statistics are still published for them |
 | Cities | The **63 seats** of the former provinces; each stands for its whole former province, as a metro does |
-| Hexes | 8 km radius (~166 km²), Albers equal-area; 1 map unit = 0.32 km so the art keeps its 25-unit hex |
+| Hexes | 5 km radius (~65 km²), Albers equal-area; 1 map unit = 0.2 km so the art keeps its 25-unit hex |
 | Food | Paddy rice harvested (tonnes) |
 | Production | Employed workers |
-| Gold | GRDP, in US dollars at the World Bank 2024 rate |
+| Gold | GRDP 2025, in US dollars at the World Bank 2024 rate (the 2025 rate is not yet published) |
 | Science | University students |
 | Culture | Travel and tour turnover |
 | Districts | Location quotients of students, retail, FDI and tourism per resident, plus mapped sites (ports, airports, heritage, power) |
@@ -59,37 +59,48 @@ need the NSO servers.
 | Wonders | UNESCO World Heritage sites, national parks, the national and regional universities, landmarks |
 | Place names | The Hoàng Sa and Trường Sa islands (Wikidata), well-known coastal islands and towns (GeoNames) |
 
-Hoàng Sa (Paracel) and Trường Sa (Spratly) islands are part of Đà Nẵng and Khánh Hòa, as in geoBoundaries' outlines;
-they are shown by the hexes at their islands' centres.
+Hoàng Sa (Paracel) and Trường Sa (Spratly) islands are part of Đà Nẵng and Khánh Hòa, as in the official outlines;
+they are shown by the hexes at their named islands' centres.
 
 ## Data sources
 
 | Source | Publisher | Used for |
 |---|---|---|
-| Statistical Yearbook 2024, PX-Web | National Statistics Office (NSO, formerly GSO) | Every province figure: population, GRDP, labour, income, HDI, poverty, FDI, rice, students, tourism, migration… |
+| Statistical Yearbooks 2025 and 2024, PX-Web, monthly reports 2026 | National Statistics Office (NSO, formerly GSO) | Every province figure: population, GRDP, labour, income, HDI, poverty, FDI, rice, students, tourism, migration, internet, doctors… (2025 preliminary for the 63 former provinces; HDI, FDI, enterprises, doctors, forest cover, 2026 growth for the 34 provinces) |
 | Provincial Competitiveness Index | VCCI | Business-climate lens |
 | Official exchange rate | World Bank | VND → USD |
-| geoBoundaries VNM ADM1 | William & Mary geoLab | Province outlines (incl. Hoàng Sa, Trường Sa) |
+| COD-AB admin 1 (2025; 2020 release for the 63 former provinces) | OCHA / HDX, from the Government of Viet Nam | Province outlines, coast, former-province borders |
 | ETOPO1 via ERDDAP | NOAA NCEI | Relief, hill-shading, sea depth |
 | WorldCover 2021 | ESA | Land cover |
 | WorldPop 2025 | University of Southampton | Population density |
-| Global Power Plant Database | WRI | Power plants |
+| Global Power Plant Database | WRI | Capacities of power plants that OpenStreetMap maps without one |
 | IBTrACS | NOAA NCEI | Typhoons |
 | OurAirports; ACV passengers via Wikipedia | OurAirports; Airports Corporation of Vietnam | Airports |
-| Wikidata | Wikimedia | World Heritage sites, national parks, universities, ports, landmarks, islands |
-| Natural Earth 1:10m | Natural Earth | Neighbouring countries, rivers outside Vietnam, lakes, roads, railways |
-| OpenStreetMap (Overpass API) | OpenStreetMap contributors | Rivers in Vietnam, military land |
+| Wikidata | Wikimedia | World Heritage sites, national-park positions, universities, landmarks, islands |
+| Quyết định 804/QĐ-TTg (2022), 1579/QĐ-TTg (2021) | Prime Minister of Vietnam | The 34 seaports and their class; their main port areas |
+| Danh sách vườn quốc gia tại Việt Nam | Wikipedia tiếng Việt | Which national parks, their area |
+| Natural Earth 1:10m | Natural Earth | Neighbouring countries, rivers outside Vietnam, lakes |
+| OpenStreetMap (Overpass API) | OpenStreetMap contributors | Rivers in Vietnam, military land, power plants, expressways and national roads, railways, port and national-park positions, bridges, protected areas, everyday places (hospitals, schools, markets…) and relic positions |
 | OpenFlights route database | OpenFlights | Domestic air routes |
-| GeoNames | GeoNames | City positions |
+| GeoNames | GeoNames | City positions, towns and coastal islands |
+| Completed results of the 2019 Population and Housing Census | NSO | Ethnic-group lenses and panels |
+| Global Forest Change 2000–2025 | Hansen / UMD / Google / USGS / NASA | Forest-loss lens and timeline |
+| CHELSA bioclimatic variables | WSL (Karger et al.) | Rainfall and temperature lenses |
+| Di tích quốc gia đặc biệt; Wikipedia articles on capitals, dynasties and provinces | Wikipedia tiếng Việt; Wikipedia | Special national relics; history events on the timeline |
+| Vietnamese Provinces Database (wards GIS) | Thang Le Quoc, from the official reference map | Communes and wards layer |
+| VTC News (16 June 2025) | VTC News | Commune count check |
 
 ### Reading the map honestly
 
 - **A city is its former province.** Its banner numbers cover the whole former province (rural districts too).
+- **Years are labelled.** Most figures are 2025 (preliminary); since 2025 NSO publishes HDI, FDI and some others only for
+  the 34 provinces, so cities keep their 2024 values and every record's `years` says which year a field is.
 - **Gaps stay gaps.** NSO publishes no workers by industry per province, no GDP by industry per province and no
   visitor counts, so those panels show national figures or say what is missing. Vietnam publishes no port tonnage,
-  installation list, troop numbers, defence spending or freight flows: ports are unranked, the military layer shows
+  installation list, troop numbers, defence spending or freight flows: ports carry only their official class (special, I, II, III), the military layer shows
   what OpenStreetMap has mapped (uneven coverage, no headcounts), and the trade routes are air routes (2014).
-- **Power plants are as of 2021** (WRI); the solar boom since is only partly in it.
+- **Power plants are what OpenStreetMap maps** (2026), with capacities from WRI's 2021 database where OSM has none;
+  plants without a known capacity, most wind farms' capacities and rooftop solar are missing.
 - **Selections are rules.** Wonders, districts and badges come from rules published in the data files.
 
 The code is MIT-licensed (see [LICENSE](LICENSE)); the data keep their publishers' terms (the Almanac lists them).

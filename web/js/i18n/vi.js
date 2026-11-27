@@ -6,8 +6,15 @@ import shell from "./vi-shell.js";
 import panels from "./vi-panels.js";
 import advisors from "./vi-advisors.js";
 import data from "./vi-data.js";
+import communesDict from "./vi-communes.js";
+import poiDict from "./vi-poi.js";
+import envDict from "./vi-env.js";
+import societyDict from "./vi-society.js";
+import timelineDict from "./vi-timeline.js";
+import donateDict from "./vi-donate.js";
 
-const FILES = { "vi-data": data, "vi-shell": shell, "vi-panels": panels, "vi-advisors": advisors };
+const FILES = { "vi-data": data, "vi-shell": shell, "vi-panels": panels, "vi-advisors": advisors,
+  "vi-communes": communesDict, "vi-poi": poiDict, "vi-env": envDict, "vi-society": societyDict, "vi-timeline": timelineDict, "vi-donate": donateDict };
 export const VI = Object.create(null);
 const from = Object.create(null);
 /** [key, [[file, text], ...]] for every key translated differently in more than one file. */

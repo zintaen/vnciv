@@ -6,6 +6,7 @@ import { createTable } from "../core/table.js";
 import { section, tiles, segmented, lensButton, sourcesHtml, topBy, frameBtn } from "../core/view.js";
 import { LAND_KEYS, LAND_LABEL, LAND_COLOR, rowsHighlight } from "../core/data.js";
 import { t as tr } from "../../../i18n.js";
+import { yearOf, yearText } from "../core/years.js";
 
 const LENS_OF = { forest: "forest", crop: "farmland", wetland: "wetland", developed: "developed" };
 
@@ -42,7 +43,8 @@ export function mount(ctx) {
   const KEYS = LAND_KEYS.filter((k) => share[k] >= 0.0005); // covers Vietnam really has (pasture and shrubland are ~0)
 
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("Forest"), value: pct(share.forest, 0), sub: tr("of the land"), color: LAND_COLOR.forest },
+    { label: tr("Forest"), value: pct(share.forest, 0), sub: tr("of the land, satellite (WorldCover)"), color: LAND_COLOR.forest },
+    ...(fin(data.nat.forest_cover) ? [{ label: tr("Forest cover (official)"), value: pct(data.nat.forest_cover, 0), sub: tr("NSO, {y}", { y: yearText(yearOf(data.nat, "forest_cover")) }), color: LAND_COLOR.forest }] : []),
     { label: tr("Farmland"), value: pct(share.crop + share.pasture, 0), sub: tr("cropland, rice paddies included"), color: LAND_COLOR.crop },
     { label: tr("Built-up"), value: pct(share.developed, 1), sub: tr("developed land"), color: LAND_COLOR.developed },
   ]));
@@ -139,6 +141,37 @@ export function mount(ctx) {
   }
   drawShape();
 
+  // --- forest: the official rate against the satellite's tree share --------------------------------------------------
+  const fcF = states.field("forest_cover");
+  let fcTable = null;
+  if (fcF) {
+    const fy = yearText(fcF.year);
+    const oBody = section(el, { title: tr("Two kinds of forest"), note: tr("The official forest cover rate ({y}, NSO from the forestry sector's monitoring) against the share of land that looks like forest from space (ESA WorldCover 2021), by the 34 provinces. Vietnam: {o} official, {w} WorldCover.", { y: esc(fy), o: pct(data.nat.forest_cover, 0), w: pct(share.forest, 0) }) });
+    const oCtl = document.createElement("div");
+    oCtl.className = "adv-row";
+    oBody.appendChild(oCtl);
+    for (const [id, label] of [["forest_cover", tr("Official forest lens")], ["forest", tr("Forest lens")]]) {
+      const b = lensButton(app, id, label);
+      if (b) oCtl.appendChild(b);
+    }
+    const diff = (r) => (fin(r.v.forest_cover) && fin(r.v.land_forest) ? r.v.forest_cover - r.v.land_forest : null);
+    const pts = (v) => (fin(v) ? `${v >= 0 ? "+" : "−"}${int(Math.abs(v * 100))} ${tr("pts")}` : "–");
+    fcTable = createTable(oBody, {
+      caption: tr("Official forest cover and WorldCover forest by province"), rank: true, maxHeight: 300, rows: states.rows.filter((r) => fin(r.v.forest_cover)),
+      columns: [
+        { key: "name", label: tr("Province"), align: "l", value: (r) => r.name, text: (r) => r.name },
+        { key: "official", label: fcF.label, short: esc(tr("Official {y}", { y: fy })), value: (r) => r.v.forest_cover, text: (r) => pct(r.v.forest_cover, 0), bar: { max: 1, color: "rgba(63,122,58,.45)" } },
+        { key: "wc", label: tr("WorldCover forest (2021)"), short: esc(tr("Satellite 2021")), value: (r) => r.v.land_forest, text: (r) => pct(r.v.land_forest, 0) },
+        { key: "diff", label: tr("Official minus satellite, percentage points"), short: esc(tr("Gap")), value: diff, text: (r) => pts(diff(r)) },
+      ],
+      sort: { key: "official", dir: "desc" },
+      onHover: (r) => link.hover(r ? rowsHighlight(states, [r]) : null),
+      onClick: (r) => states.focus(r),
+    });
+    ctx.cleanup(() => fcTable.destroy());
+    oBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Why they differ: the official rate counts the natural and planted forest the forestry sector records, over the province's whole area. WorldCover classes each 10 m patch of 2021 imagery by what it looks like, averaged over the province's hexes: tree crops such as rubber, coffee or orchards can read as forest, while young or freshly harvested plantations may not. The years differ too (2021 imagery, the official rate at {y}).", { y: esc(fy) })}</p>`);
+  }
+
   // --- the rice harvest -----------------------------------------------------------------------------------------
   const food = app.data.nation.yields?.find((y) => y.key === "food");
   const natKg = ratio(data.nat.yields?.food, data.nat.population);
@@ -169,13 +202,15 @@ export function mount(ctx) {
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["worldcover", "nso_yearbook"], [
     tr("Land cover is ESA WorldCover 2021 (10 m) averaged into hexes of about {area} km² ({d} km corner to corner), so small features (a valley's paddies, a small town) blur into their surroundings.", { area: int(hexR ** 2 * 1.5 * Math.sqrt(3)), d: Math.round(2 * hexR) }),
     tr("WorldCover maps what the ground looks like from space: plantations of acacia, rubber or coffee can read as forest, and flooded paddies can read as wetland."),
-    tr("Paddy output is NSO's preliminary 2024 harvest, by the 2025 provinces and by the 63 provinces before the July 2025 merger."),
+    ...(fcF ? [tr("The official forest cover rate is NSO's figure at {y}, published by the 34 provinces only.", { y: esc(yearText(fcF.year)) })] : []),
+    tr("Paddy output is NSO's {y} harvest, by the 2025 provinces and by the 63 provinces before the July 2025 merger.", { y: esc(yearText(yearOf(data.nat, "paddy"))) }),
   ]));
 
   return {
     onMapHover(h) {
       const r = h.cell >= 0 ? states.rowAtCell(h.cell) : null;
       table.setHot(r ? r.key : null);
+      fcTable?.setHot(r ? r.key : null);
       if (shape === "grid") grid?.setHot(r ? r.key : null);
       if (h.cell >= 0 && owner[h.cell] >= 0) {
         let best = null, bv = 0;

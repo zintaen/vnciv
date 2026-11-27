@@ -1,0 +1,520 @@
+province_std,level,year,value,unit,source_url,status
+An Giang,63,2020,96.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+An Giang,63,2022,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+An Giang,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+An Giang,63,2024,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+An Giang,63,2025,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bà Rịa - Vũng Tàu,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bà Rịa - Vũng Tàu,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bà Rịa - Vũng Tàu,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bà Rịa - Vũng Tàu,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bà Rịa - Vũng Tàu,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Dương,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Dương,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Dương,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Dương,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Dương,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Phước,63,2020,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Phước,63,2022,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Phước,63,2023,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Phước,63,2024,97.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Phước,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Thuận,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Thuận,63,2022,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Thuận,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Thuận,63,2024,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Thuận,63,2025,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Định,63,2020,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Định,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Định,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Định,63,2024,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bình Định,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bạc Liêu,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bạc Liêu,63,2022,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bạc Liêu,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bạc Liêu,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bạc Liêu,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Giang,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Giang,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Giang,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Giang,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Giang,63,2025,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Kạn,63,2020,90.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Kạn,63,2022,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Kạn,63,2023,92.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Kạn,63,2024,90.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Kạn,63,2025,92.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Ninh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Ninh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Ninh,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Ninh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bắc Ninh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bến Tre,63,2020,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bến Tre,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bến Tre,63,2023,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bến Tre,63,2024,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Bến Tre,63,2025,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cao Bằng,63,2020,65.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cao Bằng,63,2022,77.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cao Bằng,63,2023,74.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cao Bằng,63,2024,66.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cao Bằng,63,2025,67.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cà Mau,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cà Mau,63,2022,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cà Mau,63,2023,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cà Mau,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cà Mau,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cần Thơ,63,2020,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cần Thơ,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cần Thơ,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cần Thơ,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Cần Thơ,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Gia Lai,63,2020,95.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Gia Lai,63,2022,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Gia Lai,63,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Gia Lai,63,2024,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Gia Lai,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Giang,63,2020,58.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Giang,63,2022,78.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Giang,63,2023,80.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Giang,63,2024,78.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Giang,63,2025,84.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Nam,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nam,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nam,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nam,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nam,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Nội,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nội,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nội,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nội,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Nội,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Tĩnh,63,2020,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Tĩnh,63,2022,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Tĩnh,63,2023,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Tĩnh,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hà Tĩnh,63,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hòa Bình,63,2020,92.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hòa Bình,63,2022,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hòa Bình,63,2023,95.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hòa Bình,63,2024,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hòa Bình,63,2025,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hưng Yên,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hưng Yên,63,2022,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hưng Yên,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hưng Yên,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hưng Yên,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hải Dương,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Dương,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Dương,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Dương,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Dương,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hải Phòng,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Phòng,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Phòng,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Phòng,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hải Phòng,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hậu Giang,63,2020,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hậu Giang,63,2022,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hậu Giang,63,2023,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hậu Giang,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Hậu Giang,63,2025,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Khánh Hòa,63,2020,96.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Khánh Hòa,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Khánh Hòa,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Khánh Hòa,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Khánh Hòa,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Kiên Giang,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kiên Giang,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kiên Giang,63,2023,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kiên Giang,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kiên Giang,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Kon Tum,63,2020,93.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kon Tum,63,2022,94.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kon Tum,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kon Tum,63,2024,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Kon Tum,63,2025,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lai Châu,63,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lai Châu,63,2022,94.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lai Châu,63,2023,91.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lai Châu,63,2024,94.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lai Châu,63,2025,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Long An,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Long An,63,2022,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Long An,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Long An,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Long An,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lào Cai,63,2020,93.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lào Cai,63,2022,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lào Cai,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lào Cai,63,2024,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lào Cai,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lâm Đồng,63,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lâm Đồng,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lâm Đồng,63,2023,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lâm Đồng,63,2024,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lâm Đồng,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lạng Sơn,63,2020,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lạng Sơn,63,2022,93.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lạng Sơn,63,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lạng Sơn,63,2024,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Lạng Sơn,63,2025,94.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Nam Định,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nam Định,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nam Định,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nam Định,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nam Định,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Nghệ An,63,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nghệ An,63,2022,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nghệ An,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nghệ An,63,2024,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Nghệ An,63,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Ninh Bình,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Bình,63,2022,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Bình,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Bình,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Bình,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Ninh Thuận,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Thuận,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Thuận,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Thuận,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Ninh Thuận,63,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Phú Thọ,63,2020,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Thọ,63,2022,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Thọ,63,2023,96.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Thọ,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Thọ,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Phú Yên,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Yên,63,2022,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Yên,63,2023,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Yên,63,2024,97.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Phú Yên,63,2025,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Bình,63,2020,94.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Bình,63,2022,95.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Bình,63,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Bình,63,2024,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Bình,63,2025,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Nam,63,2020,95.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Nam,63,2022,95.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Nam,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Nam,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Nam,63,2025,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Ngãi,63,2020,90.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ngãi,63,2022,95.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ngãi,63,2023,96.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ngãi,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ngãi,63,2025,94.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Ninh,63,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ninh,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ninh,63,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ninh,63,2024,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Ninh,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Trị,63,2020,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Trị,63,2022,94.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Trị,63,2023,92.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Trị,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Quảng Trị,63,2025,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Sóc Trăng,63,2020,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sóc Trăng,63,2022,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sóc Trăng,63,2023,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sóc Trăng,63,2024,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sóc Trăng,63,2025,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Sơn La,63,2020,72.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sơn La,63,2022,87.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sơn La,63,2023,90.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sơn La,63,2024,85.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Sơn La,63,2025,88.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+TP. Hồ Chí Minh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+TP. Hồ Chí Minh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+TP. Hồ Chí Minh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+TP. Hồ Chí Minh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+TP. Hồ Chí Minh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thanh Hóa,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thanh Hóa,63,2022,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thanh Hóa,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thanh Hóa,63,2024,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thanh Hóa,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thái Bình,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Bình,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Bình,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Bình,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Bình,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thái Nguyên,63,2020,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Nguyên,63,2022,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Nguyên,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Nguyên,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thái Nguyên,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thừa Thiên Huế,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thừa Thiên Huế,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thừa Thiên Huế,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thừa Thiên Huế,63,2024,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Thừa Thiên Huế,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tiền Giang,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tiền Giang,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tiền Giang,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tiền Giang,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tiền Giang,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Trà Vinh,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Trà Vinh,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Trà Vinh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Trà Vinh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Trà Vinh,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tuyên Quang,63,2020,85.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tuyên Quang,63,2022,90.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tuyên Quang,63,2023,92.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tuyên Quang,63,2024,92.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tuyên Quang,63,2025,92.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tây Ninh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tây Ninh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tây Ninh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tây Ninh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Tây Ninh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Vĩnh Long,63,2020,93.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Long,63,2022,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Long,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Long,63,2024,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Long,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Vĩnh Phúc,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Phúc,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Phúc,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Phúc,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Vĩnh Phúc,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Yên Bái,63,2020,77.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Yên Bái,63,2022,80.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Yên Bái,63,2023,90.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Yên Bái,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Điện Biên,63,2020,79.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Điện Biên,63,2022,85.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Điện Biên,63,2023,93.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Điện Biên,63,2024,88.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Điện Biên,63,2025,74.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đà Nẵng,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đà Nẵng,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đà Nẵng,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đà Nẵng,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đà Nẵng,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đắk Lắk,63,2020,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Lắk,63,2022,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Lắk,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Lắk,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Lắk,63,2025,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đắk Nông,63,2020,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Nông,63,2022,98.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Nông,63,2023,97.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Nông,63,2024,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đắk Nông,63,2025,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đồng Nai,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Nai,63,2022,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Nai,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Nai,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Nai,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đồng Tháp,63,2020,89.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Tháp,63,2022,93.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Tháp,63,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Tháp,63,2024,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+Đồng Tháp,63,2025,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+An Giang,34,2020,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+An Giang,34,2021,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+An Giang,34,2022,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+An Giang,34,2023,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+An Giang,34,2024,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+An Giang,34,2025,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Bắc Ninh,34,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Bắc Ninh,34,2021,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Bắc Ninh,34,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Bắc Ninh,34,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Bắc Ninh,34,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Bắc Ninh,34,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Cao Bằng,34,2020,65.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cao Bằng,34,2021,72.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cao Bằng,34,2022,77.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cao Bằng,34,2023,74.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cao Bằng,34,2024,66.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cao Bằng,34,2025,67.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Cà Mau,34,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cà Mau,34,2021,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cà Mau,34,2022,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cà Mau,34,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cà Mau,34,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cà Mau,34,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Cần Thơ,34,2020,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cần Thơ,34,2021,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cần Thơ,34,2022,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cần Thơ,34,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cần Thơ,34,2024,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Cần Thơ,34,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Gia Lai,34,2020,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Gia Lai,34,2021,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Gia Lai,34,2022,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Gia Lai,34,2023,97.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Gia Lai,34,2024,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Gia Lai,34,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Huế,34,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Huế,34,2021,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Huế,34,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Huế,34,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Huế,34,2024,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Huế,34,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Hà Nội,34,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Nội,34,2021,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Nội,34,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Nội,34,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Nội,34,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Nội,34,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Hà Tĩnh,34,2020,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Tĩnh,34,2021,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Tĩnh,34,2022,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Tĩnh,34,2023,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Tĩnh,34,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hà Tĩnh,34,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Hưng Yên,34,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hưng Yên,34,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hưng Yên,34,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hưng Yên,34,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hưng Yên,34,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hưng Yên,34,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Hải Phòng,34,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hải Phòng,34,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hải Phòng,34,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hải Phòng,34,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hải Phòng,34,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Hải Phòng,34,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Khánh Hòa,34,2020,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Khánh Hòa,34,2021,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Khánh Hòa,34,2022,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Khánh Hòa,34,2023,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Khánh Hòa,34,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Khánh Hòa,34,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Lai Châu,34,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lai Châu,34,2021,83.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lai Châu,34,2022,94.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lai Châu,34,2023,91.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lai Châu,34,2024,94.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lai Châu,34,2025,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Lào Cai,34,2020,84.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lào Cai,34,2021,88.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lào Cai,34,2022,87.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lào Cai,34,2023,93.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lào Cai,34,2024,97.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lào Cai,34,2025,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Lâm Đồng,34,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lâm Đồng,34,2021,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lâm Đồng,34,2022,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lâm Đồng,34,2023,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lâm Đồng,34,2024,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lâm Đồng,34,2025,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Lạng Sơn,34,2020,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lạng Sơn,34,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lạng Sơn,34,2022,93.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lạng Sơn,34,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lạng Sơn,34,2024,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Lạng Sơn,34,2025,94.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Nghệ An,34,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Nghệ An,34,2021,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Nghệ An,34,2022,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Nghệ An,34,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Nghệ An,34,2024,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Nghệ An,34,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Ninh Bình,34,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Ninh Bình,34,2021,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Ninh Bình,34,2022,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Ninh Bình,34,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Ninh Bình,34,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Ninh Bình,34,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Phú Thọ,34,2020,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Phú Thọ,34,2021,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Phú Thọ,34,2022,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Phú Thọ,34,2023,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Phú Thọ,34,2024,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Phú Thọ,34,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Quảng Ngãi,34,2020,91.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ngãi,34,2021,95.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ngãi,34,2022,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ngãi,34,2023,96.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ngãi,34,2024,96.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ngãi,34,2025,95.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Quảng Ninh,34,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ninh,34,2021,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ninh,34,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ninh,34,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ninh,34,2024,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Ninh,34,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Quảng Trị,34,2020,94.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Trị,34,2021,94.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Trị,34,2022,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Trị,34,2023,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Trị,34,2024,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Quảng Trị,34,2025,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Sơn La,34,2020,72.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Sơn La,34,2021,78.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Sơn La,34,2022,87.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Sơn La,34,2023,90.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Sơn La,34,2024,85.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Sơn La,34,2025,88.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+TP. Hồ Chí Minh,34,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+TP. Hồ Chí Minh,34,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+TP. Hồ Chí Minh,34,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+TP. Hồ Chí Minh,34,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+TP. Hồ Chí Minh,34,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+TP. Hồ Chí Minh,34,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Thanh Hóa,34,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thanh Hóa,34,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thanh Hóa,34,2022,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thanh Hóa,34,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thanh Hóa,34,2024,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thanh Hóa,34,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Thái Nguyên,34,2020,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thái Nguyên,34,2021,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thái Nguyên,34,2022,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thái Nguyên,34,2023,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thái Nguyên,34,2024,97.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Thái Nguyên,34,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Tuyên Quang,34,2020,70.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tuyên Quang,34,2021,79.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tuyên Quang,34,2022,84.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tuyên Quang,34,2023,86.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tuyên Quang,34,2024,84.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tuyên Quang,34,2025,88.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Tây Ninh,34,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tây Ninh,34,2021,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tây Ninh,34,2022,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tây Ninh,34,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tây Ninh,34,2024,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Tây Ninh,34,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Vĩnh Long,34,2020,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Vĩnh Long,34,2021,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Vĩnh Long,34,2022,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Vĩnh Long,34,2023,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Vĩnh Long,34,2024,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Vĩnh Long,34,2025,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Điện Biên,34,2020,79.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Điện Biên,34,2021,73.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Điện Biên,34,2022,85.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Điện Biên,34,2023,93.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Điện Biên,34,2024,88.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Điện Biên,34,2025,74.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Đà Nẵng,34,2020,97.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đà Nẵng,34,2021,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đà Nẵng,34,2022,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đà Nẵng,34,2023,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đà Nẵng,34,2024,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đà Nẵng,34,2025,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Đắk Lắk,34,2020,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đắk Lắk,34,2021,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đắk Lắk,34,2022,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đắk Lắk,34,2023,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đắk Lắk,34,2024,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đắk Lắk,34,2025,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Đồng Nai,34,2020,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Nai,34,2021,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Nai,34,2022,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Nai,34,2023,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Nai,34,2024,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Nai,34,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel
+Đồng Tháp,34,2020,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Tháp,34,2021,97.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Tháp,34,2022,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Tháp,34,2023,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Tháp,34,2024,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+Đồng Tháp,34,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",prel

@@ -6,7 +6,7 @@
   <title>vnciv — Vietnam as a strategy game</title>
   <meta name="description" content="The real Vietnam drawn like a 4X strategy map: hex terrain, provinces, cities with yields, lenses and resources, all from public data.">
   <meta name="theme-color" content="#131e2a">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%23120d06'/%3E%3Ccircle cx='32' cy='32' r='29' fill='%23c9a45c'/%3E%3Ccircle cx='32' cy='32' r='24' fill='%23c8102e'/%3E%3Cpath fill='%23ffcd00' d='M32 14l4.9 11.3 12.2 1.1-9.3 8.1 2.8 12-10.6-6.4-10.6 6.4 2.8-12-9.3-8.1 12.2-1.1z'/%3E%3C/svg%3E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 20'%3E%3Crect width='30' height='20' fill='%23DA251D'/%3E%3Cpolygon fill='%23FFFF00' points='15,4 16.35,8.15 20.71,8.15 17.18,10.71 18.53,14.85 15,12.29 11.47,14.85 12.82,10.71 9.29,8.15 13.65,8.15'/%3E%3C/svg%3E">
   <!-- Social cards: crawlers need absolute URLs; if you host your own copy, change https://zintaen.github.io/vnciv/ here and SITE_URL in js/app/share.js. -->
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://zintaen.github.io/vnciv/">
@@ -27,10 +27,11 @@
   <meta name="twitter:image:alt" content="Bản đồ ô lục giác của Việt Nam với biểu ngữ thành phố, theo phong cách game chiến thuật">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/donate.css">
 </head>
 <body>
   <header id="topbar">
-    <div class="brand" title="Việt Nam"><span class="brand-emblem" aria-hidden="true">★</span><span class="brand-text">Việt Nam</span></div>
+    <div class="brand" title="Việt Nam"><svg class="brand-emblem" aria-hidden="true" viewBox="0 0 30 20" width="27" height="18"><rect width="30" height="20" fill="#DA251D"/><polygon fill="#FFFF00" points="15,4 16.35,8.15 20.71,8.15 17.18,10.71 18.53,14.85 15,12.29 11.47,14.85 12.82,10.71 9.29,8.15 13.65,8.15"/></svg><span class="brand-text">Việt Nam</span></div>
     <div id="yields" class="yields" aria-label="National yields"></div>
     <div class="spacer"></div>
     <div class="search" role="search">
@@ -63,7 +64,7 @@
     </div>
   </div>
 
-  <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · geoBoundaries</div></div>
+  <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · OCHA COD-AB</div></div>
   <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
 
   <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>

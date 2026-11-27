@@ -1,4 +1,4 @@
-"""citizens.json: each city's people as rows of figures, from the shares NSO publishes per province (2024)."""
+"""citizens.json: each city's people as rows of figures, from the shares NSO publishes per province (2025, preliminary)."""
 from __future__ import annotations
 
 import json
@@ -13,7 +13,7 @@ GROUPS = {
     "residence": [{"key": "urban", "label": "City dwellers", "icon": "c-service", "lines": "urban population (NSO)"},
                   {"key": "rural", "label": "Country dwellers", "icon": "c-farmer", "lines": "population − urban"}],
     "work": [{"key": "formal", "label": "Formal jobs", "icon": "c-clerk", "lines": "employed × (1 − informal share)"},
-             {"key": "informal", "label": "Informal jobs", "icon": "c-maker", "lines": "employed × informal share (NSO V02.51)"}],
+             {"key": "informal", "label": "Informal jobs", "icon": "c-maker", "lines": "employed × informal share (NSO)"}],
     "skills": [{"key": "trained", "label": "Trained", "icon": "c-engineer", "lines": "labour force × trained share"},
                {"key": "untrained", "label": "No vocational training", "icon": "c-builder", "lines": "labour force × (1 − trained share)"}],
     "households": [{"key": "not_poor", "label": "Not poor", "icon": "c-executive", "lines": "1 − multidimensional poverty rate"},
@@ -67,8 +67,9 @@ def build():
            "informal": w("informal", "employed"), "trained": w("trained", "labour_force"), "poverty": w("poverty"),
            "life_exp": official.get("life_exp", w("life_exp")), "in_migration": None, "out_migration": None,
            "net_migration": None}
-    if "informal" in official:
-        nat["informal"] = official["informal"]  # NSO's national rate, not a weighted mean of provinces
+    for k in ("informal", "trained", "poverty"):  # NSO's national rates, not weighted means of provinces
+        if k in official:
+            nat[k] = official[k] / 100
     national = citizen_rows(nat)
     national["specialists"] = []
     cities = {}
@@ -90,8 +91,8 @@ def build():
         c["specialists"] = hi + lo
         c["reliable"] = True
         cities[iso] = c
-    write_web("citizens.json", {"version": 2, "vintage": "NSO Statistical Yearbook 2024 and PX-Web", "year": 2024,
+    write_web("citizens.json", {"version": 2, "vintage": "NSO Statistical Yearbook 2025", "year": 2025,
                                 "sources": ["nso_yearbook"], "figures": FIGURES, "rows": ROWS, "groups": GROUPS,
                                 "rule": RULE, "national": national, "cities": cities,
-                                "note": "Shares are NSO's province figures for 2024; household poverty is the share of "
+                                "note": "Shares are NSO's province figures for 2025 (preliminary); household poverty is the share of "
                                         "households under the multidimensional poverty standard, the rest are people."})

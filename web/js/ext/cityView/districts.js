@@ -13,6 +13,7 @@ import { compact, money } from "./fmt.js";
 import { icon } from "../../ui/icon.js";
 import { hasIcon } from "../../icons.js";
 import { t } from "../../i18n.js";
+import { yearOf, yearText } from "../advisors/core/years.js";
 
 // Icons the district catalog names (d-*) stand in for when missing: a near icon from the set, else an emoji.
 const FALLBACK = {
@@ -30,7 +31,7 @@ const TIER = { garrison: "Garrison", fortress: "Fortress" };
 const ENCAMPMENT = { name: "Encampment", color: "#8a4a3a", description: "Military installations mapped in OpenStreetMap." };
 // The measured figures: how a total and a per-resident value read.
 const MEASURE = {
-  students: { label: "University students", year: 2023, total: compact, per: (v) => t("{n} per 1,000", { n: fixed((v * 1000), 1) }) },
+  students: { label: "University students", total: compact, per: (v) => t("{n} per 1,000", { n: fixed((v * 1000), 1) }) },
   retail: { label: "Retail sales", total: money, per: (v) => t("{v} each", { v: money(v) }) },
   fdi: { label: "FDI registered", total: money, per: (v) => t("{v} each", { v: money(v) }) },
   tourism: { label: "Tour turnover", total: money, per: (v) => t("{v} each", { v: money(v) }) },
@@ -42,8 +43,8 @@ const MEASURE = {
 const airport = airportName;
 export function districtText(s) {
   if (!s) return "";
-  let m = /^([\d.]+)× Vietnam's (.+?) per resident(?: \((.+)\))?$/.exec(s);
-  if (m) return t("{n}× Vietnam's {what} per resident", { n: dec(m[1]), what: t(m[2]) }) + (m[3] ? ` (${t(m[3])})` : "");
+  let m = /^([\d.]+)× Vietnam's (.+?) per resident(?:, (\d{4}))?(?: \((.+)\))?$/.exec(s);
+  if (m) return t("{n}× Vietnam's {what} per resident", { n: dec(m[1]), what: t(m[2]) }) + (m[3] ? `, ${m[3]}` : "") + (m[4] ? ` (${/^\d+$/.test(m[4]) ? m[4] : t(m[4])})` : "");
   if ((m = /^([\d,]+) MW of mapped power plants$/.exec(s))) return t("{n} MW of mapped power plants", { n: int(+m[1].replace(/,/g, "")) });
   if ((m = /^(.+) \(([\d.]+M) passengers\)$/.exec(s))) return t("{name} ({n} passengers)", { name: airport(m[1]), n: dec(m[2]) });
   if (s === "Seat of the National Assembly and the Government") return t(s);
@@ -154,7 +155,7 @@ function districtCard(d, m, ddata, mil) {
   if (d.via === "measure" && ms && Number.isFinite(d.value)) {
     const pop = m.city.population;
     const nat = ddata.national?.[c.measure];
-    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${ms.year || 2024}</small></div>`);
+    facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${esc(yearText(yearOf(m.city, c.measure)))}</small></div>`);
     if (pop > 0) facts.push(`<div><span>${t("Per resident")}</span><b>${ms.per(d.value / pop)}</b><small>${Number.isFinite(nat) ? `VN ${ms.per(nat)}` : ""}</small></div>`);
   }
   if (d.military) return encampmentCard(d, mil);
@@ -191,5 +192,5 @@ export function districtsHtml(m, ddata, mil, trade) {
     <details class="cv-more cv-rule"><summary>${t("How districts are chosen")}</summary>
       <p>${esc(t(ddata.rule?.text || ""))}</p>${mil?.rule && list.some((d) => d.military) ? `<p><b>${t("Encampment")}</b> (military.json): ${esc(t(mil.rule))}</p>` : ""}
     </details>
-    <p class="cv-note">${t("Sources: NSO Statistical Yearbook 2024 figures; ports, heritage sites and airports from Wikidata, OurAirports and Wikipedia; power plants from the WRI Global Power Plant Database")}${list.some((d) => d.military) ? t("; military sites from OpenStreetMap") : ""}. ${t("×N = location quotient (per resident vs Vietnam).")}</p>`;
+    <p class="cv-note">${t("Sources: {v}; seaports from Decision 804/QĐ-TTg placed with OpenStreetMap; heritage sites and airports from Wikidata, OurAirports and Wikipedia; power plants from OpenStreetMap", { v: esc(t(ddata.vintage || "NSO Statistical Yearbook")) })}${list.some((d) => d.military) ? t("; military sites from OpenStreetMap") : ""}. ${t("×N = location quotient (per resident vs Vietnam).")}</p>`;
 }

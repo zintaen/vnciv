@@ -99,12 +99,14 @@ export function citizensHtml(m, data) {
         cells.push(`<span class="cv-fig${mark ? ` ${mark}` : ""}" tabindex="${j ? -1 : 0}" role="img" data-k="${esc(k)}" aria-label="${esc(label(rid, k))}"></span>`);
       }
     }
-    // Legend: every category with its share, Vietnam's and a chevron for standouts; zero-figure ones greyed.
+    // Legend: every category with its share, Vietnam's and a chevron for standouts; zero-figure ones greyed. The whole
+    // percents are rounded by largest remainder too, so a row reads 100% (96.5/3.5 → 96%/4%, not 97%/4%).
+    const whole = largestRemainder(row.shares || {}, keys, 100);
     const legend = keys.map((k) => {
       const sh = row.shares?.[k], v = vn?.shares?.[k];
       const sp = specs.get(`${rid}|${k}`);
       const chev = sp ? `<em class="${sp.ratio >= 1 ? "up" : "down"}" title="${t("{r}× Vietnam's share", { r: fixed(sp.ratio, 1) })}">${sp.ratio >= 1 ? "▲" : "▼"}</em>` : "";
-      return `<span class="cv-cz-k${figs[k] ? "" : " zero"}" data-k="${esc(k)}" title="${esc(label(rid, k))}: ${sh != null ? pct(sh, 1) : "–"}${v != null ? ` (VN ${pct(v, 1)})` : ""}${figs[k] ? "" : ". " + t("Rounds to no figure.")}"><i style="background:${esc(colorOf(rid, k))}"></i>${esc(label(rid, k))} <small>${sh != null ? pct(sh, 0) : "–"}</small>${chev}</span>`;
+      return `<span class="cv-cz-k${figs[k] ? "" : " zero"}" data-k="${esc(k)}" title="${esc(label(rid, k))}: ${sh != null ? pct(sh, 1) : "–"}${v != null ? ` (VN ${pct(v, 1)})` : ""}${figs[k] ? "" : ". " + t("Rounds to no figure.")}"><i style="background:${esc(colorOf(rid, k))}"></i>${esc(label(rid, k))} <small>${sh != null ? pct((whole?.[k] ?? sh * 100) / 100, 0) : "–"}</small>${chev}</span>`;
     }).join("");
     const vnBar = vn?.shares ? `<div class="cv-cz-us" title="${t("Vietnam's mix, same order")}"><span>VN</span><div>${keys.map((k) => {
       const s = vn.shares[k] || 0;

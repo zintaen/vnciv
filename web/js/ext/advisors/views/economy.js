@@ -5,7 +5,8 @@ import { money, dollars, pct, signedPct, count3, fmtShort, fixed } from "../core
 import { barList, rampLegend, sizeLegend } from "../core/charts.js";
 import { createTable } from "../core/table.js";
 import { createScatter } from "../core/scatter.js";
-import { section, tiles, segmented, selectBox, sourcesHtml, frameBtn } from "../core/view.js";
+import { section, tiles, segmented, selectBox, lensButton, sourcesHtml, frameBtn } from "../core/view.js";
+import { yearOf, yearText } from "../core/years.js";
 import { rowsHighlight } from "../core/data.js";
 import { icon } from "../../../ui/icon.js";
 import { hasIcon } from "../../../icons.js";
@@ -26,7 +27,9 @@ export function mount(ctx) {
   el.insertAdjacentHTML("beforeend", tiles([
     { label: `GRDP ${n.gdp_year || ""}`, value: money(n.gdp), sub: tr("US dollars, current prices") },
     { label: tr("Per person"), value: money(ratio(n.gdp, n.population)), sub: tr("GRDP ÷ residents") },
-    { label: tr("FDI 2024"), value: money(n.fdi), sub: (n.fdi < 0 ? tr("net reduction of registered capital") + " · " : "") + tr("{n} new projects", { n: count3(n.fdi_projects) }) },
+    ...(fin(n.grdp_growth) ? [{ label: tr("GRDP growth {y}", { y: yearText(yearOf(n, "grdp_growth")) }), value: signedPct(n.grdp_growth), sub: tr("constant prices, NSO estimate") }] : []),
+    { label: `FDI ${yearText(yearOf(n, "fdi"))}`, value: money(n.fdi), sub: (n.fdi < 0 ? tr("net reduction of registered capital") + " · " : "") + tr("{n} new projects", { n: count3(n.fdi_projects) }) },
+    ...(fin(n.enterprises_pk) ? [{ label: tr("Enterprises"), value: fixed(n.enterprises_pk, 1), sub: tr("active per 1,000 residents, {y}", { y: yearText(yearOf(n, "enterprises_pk")) }) }] : []),
   ]));
 
   // --- jobs by industry (national) ------------------------------------------------------------------------------
@@ -61,7 +64,7 @@ export function mount(ctx) {
     + sizeLegend([1e9, 1e10, 5e10].filter((v) => v <= gMax), (v) => 30 * Math.sqrt(v / gMax), money, tr("Circle area = GRDP (at the home zoom)")));
 
   // --- leaders --------------------------------------------------------------------------------------------------
-  const lBody = section(el, { title: tr("Who leads"), note: tr("Rank the 2025 provinces or the 63 former provinces (by their cities). GRDP per person swings high where one oil field or industrial park sits in a small population.") });
+  const lBody = section(el, { title: tr("Who leads"), note: tr("Rank the 2025 provinces or the 63 former provinces (by their cities). GRDP per person swings high where one oil field or industrial park sits in a small population. FDI and enterprises are {sy} for the provinces but {cy} for the former provinces, the last year NSO published them for those.", { sy: esc(yearText(data.levels.states.field("fdi")?.year)), cy: esc(yearText(metros.field("fdi")?.year)) }) });
   let lvl = data.levels.states, rankBy = "gdp";
   const ctl = document.createElement("div");
   ctl.className = "adv-row";
@@ -69,21 +72,32 @@ export function mount(ctx) {
   segmented(ctl, {
     label: tr("Level"), value: "states",
     options: [{ value: "states", label: data.levels.states.label }, { value: "metros", label: metros.label }],
-    onChange: (v) => { lvl = data.levels[v]; table.setRows(lvl.rows); },
+    onChange: (v) => { lvl = data.levels[v]; if (!lvl.field(rankBy)) rankBy = "gdp"; rankSelect(); table.setColumns(cols(), { key: rankBy, dir: "desc" }); table.setRows(lvl.rows); },
   });
-  selectBox(ctl, {
-    label: tr("Rank by"), value: rankBy,
-    options: [{ value: "gdp", label: tr("Largest GRDP") }, { value: "gdp_pc", label: tr("GRDP per person") }, { value: "growth", label: tr("Population growth") }, { value: "fdi", label: tr("FDI 2024") }, { value: "productivity", label: tr("Productivity") }],
-    onChange: (v) => { rankBy = v; table.setColumns(cols(), { key: v, dir: "desc" }); },
-  });
+  // Rank options from the level's fields, so each label carries that level's year (FDI 2025 by province, 2024 by city).
+  const RANK = ["gdp", "gdp_pc", "grdp_growth", "growth", "fdi", "enterprises_pk", "productivity", "growth_9m2026", "industry_jobs_2026"];
+  const rankLabel = { gdp: tr("Largest GRDP") };
+  const rankHost = document.createElement("span");
+  ctl.appendChild(rankHost);
+  const rankSelect = () => {
+    rankHost.innerHTML = "";
+    selectBox(rankHost, {
+      label: tr("Rank by"), value: rankBy,
+      options: RANK.filter((k) => lvl.field(k)).map((k) => ({ value: k, label: rankLabel[k] || lvl.field(k).label })),
+      onChange: (v) => { rankBy = v; table.setColumns(cols(), { key: v, dir: "desc" }); },
+    });
+  };
+  rankSelect();
   const sMax = Math.max(...data.levels.states.rows.map((r) => r.v.gdp || 0));
-  const extra = { fdi: ["FDI", money], productivity: [tr("Per worker"), money] };
+  const FMT = { fdi: money, productivity: money, enterprises_pk: (v) => (fin(v) ? fixed(v, 1) : "–") };
+  const SHORT = { fdi: "FDI", productivity: tr("Per worker"), enterprises_pk: tr("Firms /1,000"), grdp_growth: tr("GRDP growth"), growth_9m2026: tr("9M 2026"), industry_jobs_2026: tr("Factory jobs") };
   const cols = () => [
     { key: "name", label: tr("Place"), align: "l", value: (r) => r.name, html: (r) => `${esc(r.name)}${r.level === "metros" ? ` <span class="sub">${esc(r.sub)}</span>` : ""}` },
     { key: "gdp", label: "GRDP", value: (r) => r.v.gdp, text: (r) => money(r.v.gdp), bar: { max: sMax, color: "rgba(224,181,76,.35)" } },
     { key: "gdp_pc", label: tr("Per person"), value: (r) => r.v.gdp_pc, text: (r) => money(r.v.gdp_pc) },
-    extra[rankBy] ? { key: rankBy, label: extra[rankBy][0], value: (r) => r.v[rankBy], text: (r) => extra[rankBy][1](r.v[rankBy]) }
-      : { key: "growth", label: tr("Growth"), value: (r) => r.v.growth, text: (r) => signedPct(r.v.growth) },
+    rankBy !== "gdp" && rankBy !== "gdp_pc" && rankBy !== "growth"
+      ? { key: rankBy, label: lvl.field(rankBy)?.label || rankBy, short: esc(SHORT[rankBy] || lvl.field(rankBy)?.label || rankBy), value: (r) => r.v[rankBy], text: (r) => (FMT[rankBy] || signedPct)(r.v[rankBy]) }
+      : { key: "growth", label: lvl.field("growth")?.label || tr("Growth"), short: esc(tr("Growth")), value: (r) => r.v.growth, text: (r) => signedPct(r.v.growth) },
   ];
   const table = createTable(lBody, {
     caption: tr("Provinces by GRDP"), columns: cols(), rows: lvl.rows, sort: { key: "gdp", dir: "desc" }, rank: true, maxHeight: 280,
@@ -92,6 +106,34 @@ export function mount(ctx) {
     onClick: (r) => data.levels[r.level].focus(r),
   });
 
+  // --- the latest: 2026 estimates by the 34 provinces ------------------------------------------------------------
+  const st = data.levels.states;
+  if (st.field("growth_9m2026") || st.field("industry_jobs_2026")) {
+    const gy = st.field("growth_9m2026")?.year, jy = st.field("industry_jobs_2026")?.year;
+    const nBody = section(el, { title: tr("The latest"), kicker: tr("34 provinces"), note: tr("NSO's monthly estimates for 2026, published only for the 34 provinces: GRDP growth in {gy} over the same months of 2025, and the change in factory jobs (workers in industrial enterprises) at {jy} over a year earlier. Estimates, revised with the full-year figures.", { gy: esc(yearText(gy)), jy: esc(yearText(jy)) }) });
+    const nCtl = document.createElement("div");
+    nCtl.className = "adv-row";
+    nBody.appendChild(nCtl);
+    for (const [id, label] of [["growth_2026", "Growth 2026 lens"], ["industry_jobs_2026", "Factory jobs lens"], ["fdi", "FDI lens"], ["enterprises", "Enterprises lens"]]) {
+      const b = lensButton(app, id, tr(label));
+      if (b) nCtl.appendChild(b);
+    }
+    const lat = createTable(nBody, {
+      caption: tr("Latest estimates by province"), rank: true, maxHeight: 280, rows: st.rows, sort: { key: "growth_9m2026", dir: "desc" }, search: tr("Search provinces"),
+      columns: [
+        { key: "name", label: tr("Province"), align: "l", value: (r) => r.name, text: (r) => r.name },
+        { key: "growth_9m2026", label: st.field("growth_9m2026")?.label || "", short: esc(tr("9M 2026")), value: (r) => r.v.growth_9m2026, text: (r) => signedPct(r.v.growth_9m2026) },
+        { key: "grdp_growth", label: st.field("grdp_growth")?.label || "", short: esc(tr("Year {y}", { y: yearText(st.field("grdp_growth")?.year) })), value: (r) => r.v.grdp_growth, text: (r) => signedPct(r.v.grdp_growth) },
+        { key: "industry_jobs_2026", label: st.field("industry_jobs_2026")?.label || "", short: esc(tr("Factory jobs")), value: (r) => r.v.industry_jobs_2026, text: (r) => signedPct(r.v.industry_jobs_2026) },
+        { key: "fdi", label: st.field("fdi")?.label || "FDI", short: esc(`FDI ${yearText(st.field("fdi")?.year)}`), value: (r) => r.v.fdi, text: (r) => money(r.v.fdi) },
+      ],
+      onHover: (r) => link.hover(r ? rowsHighlight(st, [r]) : null),
+      onClick: (r) => st.focus(r),
+    });
+    ctx.cleanup(() => lat.destroy());
+    if (fin(n.grdp_growth)) nBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Vietnam: GRDP growth {v} in {y}; NSO publishes no national figure for the 9-month estimate or factory jobs here.", { v: signedPct(n.grdp_growth), y: esc(yearText(yearOf(n, "grdp_growth"))) })}</p>`);
+  }
+
   // --- scatter --------------------------------------------------------------------------------------------------
   const scBody = section(el, { title: tr("Growth vs output"), note: tr("Each dot is a former province (its city): GRDP per person across, population growth up, size = population. Drag a rectangle to select some and outline them on the map.") });
   const scCtl = document.createElement("div");
@@ -99,10 +141,10 @@ export function mount(ctx) {
   scBody.appendChild(scCtl);
   let colorBy = "fdi_pc";
   const COLOR = {
-    fdi_pc: { label: tr("FDI per person"), v: (r) => perPerson(r, "fdi"), fmt: money, ramp: RAMPS.seq, log: true },
+    fdi_pc: { label: tr("FDI per person ({y})", { y: yearText(metros.field("fdi")?.year) }), v: (r) => perPerson(r, "fdi"), fmt: money, ramp: RAMPS.seq, log: true },
     unemployment: { label: tr("Unemployment"), v: (r) => r.v.unemployment, fmt: pct, ramp: RAMPS.heat },
     median_income: { label: tr("Income per person"), v: (r) => r.v.median_income, fmt: dollars, ramp: RAMPS.gold },
-    pci: { label: tr("PCI 2022"), v: (r) => r.v.pci, fmt: (v) => fixed((+v), 1), ramp: RAMPS.seq },
+    pci: { label: metros.field("pci")?.label || "PCI", v: (r) => r.v.pci, fmt: (v) => fixed((+v), 1), ramp: RAMPS.seq },
   };
   selectBox(scCtl, {
     label: tr("Colour"), value: colorBy,
@@ -150,7 +192,7 @@ export function mount(ctx) {
       const negs = off.filter((r) => c.v(r) < 0), zeros = off.length - negs.length;
       if (off.length) legend += `<p class="adv-note">${[
         negs.length ? tr("Grey, off the log scale: {list} (a net reduction of registered capital).", { list: negs.map((r) => `${esc(r.name)} ${c.fmt(c.v(r))}`).join(", ") }) : "",
-        zeros ? tr("{n} with no FDI in 2024 are grey too.", { n: zeros }) : "",
+        zeros ? tr("{n} with no FDI in {y} are grey too.", { n: zeros, y: esc(yearText(metros.field("fdi")?.year)) }) : "",
       ].filter(Boolean).join(" ")}</p>`;
     }
     const labels = [...rows].sort((a, b) => (b.v.population || 0) - (a.v.population || 0)).slice(0, 8).map((r) => r.key);
@@ -162,11 +204,12 @@ export function mount(ctx) {
   }
   drawScatter();
 
-  el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "worldbank_fx"], [
+  el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "nso_monthly_2026", "worldbank_fx"], [
     tr("GRDP is {v}. The Vietnam figure here is the sum of the provinces' GRDP; NSO's official national GDP is compiled separately and differs slightly.", { v: esc(tr(nation.gdp_vintage || "NSO GRDP")) }),
-    tr("Dong are converted to US dollars at the World Bank official rate for {year} ({fx} ₫ per $): no adjustment for prices, which are lower than in richer countries.", { year: esc(nation.currency?.fx_year || "2024"), fx: esc(count3(nation.currency?.fx)) }),
+    tr("Dong are converted to US dollars at the World Bank official rate for {year} ({fx} ₫ per $): no adjustment for prices, which are lower than in richer countries.", { year: esc(nation.currency?.fx_year || ""), fx: esc(count3(nation.currency?.fx)) }),
     tr("Jobs by industry are national only; workers are counted where they live."),
-    tr("FDI is capital newly registered in 2024, not money actually disbursed, and it lands where the investor's project is licensed."),
+    tr("FDI is capital newly registered in the year ({sy} for the 34 provinces, {cy} for the 63 former provinces), not money actually disbursed, and it lands where the investor's project is licensed.", { sy: esc(yearText(data.levels.states.field("fdi")?.year)), cy: esc(yearText(metros.field("fdi")?.year)) }),
+    tr("Enterprises per 1,000 residents: {sy} for the provinces, {cy} for the former provinces (no national figure for {cy} is published here, so cities are not compared with Vietnam).", { sy: esc(yearText(data.levels.states.field("enterprises_pk")?.year)), cy: esc(yearText(metros.field("enterprises_pk")?.year)) }),
   ]));
 
   return {

@@ -14,19 +14,20 @@ MIN_LQ = 1.25
 MAX_PER_CITY = 5
 CATALOG = [
     # id, name, icon, colour, measure (stat key or site rule), badge label, description
-    ("campus", "Campus", "d-campus", "#4a7bd0", "students", "Knowledge city", "University students per resident."),
-    ("commercial_hub", "Commercial hub", "d-commercial_hub", "#d9a23b", "retail", "Trade city", "Retail sales of goods and services per resident."),
-    ("industrial_zone", "Industrial zone", "d-industrial_zone", "#b0613a", "fdi", "Factory town", "Foreign direct investment registered in 2024 per resident."),
-    ("harbor", "Harbor", "d-harbor", "#3f8fc0", "site:port", "Port city", "A seaport or port terminal (Wikidata) in the province."),
+    ("campus", "Campus", "d-campus", "#4a7bd0", "students", "Knowledge city", "University students per resident (2023)."),
+    ("commercial_hub", "Commercial hub", "d-commercial_hub", "#d9a23b", "retail", "Trade city", "Retail sales of goods and services per resident (2025)."),
+    ("industrial_zone", "Industrial zone", "d-industrial_zone", "#b0613a", "fdi", "Factory town", "Foreign direct investment registered in 2024 per resident (the last year published for the 63 former provinces)."),
+    ("harbor", "Harbor", "d-harbor", "#3f8fc0", "site:port", "Port city", "A port area of one of the 34 seaports (Decision 804/QĐ-TTg) in the province."),
     ("theater_square", "Heritage quarter", "d-theater_square", "#b07ce0", "site:heritage", "Heritage city", "A UNESCO World Heritage site in the province."),
-    ("entertainment_complex", "Tourist quarter", "d-entertainment_complex", "#e07c9a", "tourism", "Tourism hub", "Travel-agency and tour turnover per resident (counted where the agencies are registered)."),
+    ("entertainment_complex", "Tourist quarter", "d-entertainment_complex", "#e07c9a", "tourism", "Tourism hub", "Travel-agency and tour turnover per resident, 2025 (counted where the agencies are registered)."),
     ("aerodrome", "Aerodrome", "d-aerodrome", "#8aa0b8", "site:airport", "Air hub", "An airport with 2 million or more passengers a year."),
     ("government_plaza", "Government plaza", "d-government_plaza", "#c9a45c", "site:capital", "Capital city", "The national capital."),
     ("aqueduct", "Dam & power plant", "d-aqueduct", "#5fb0a8", "site:power", "Power town", "Mapped power plants totalling 1,000 MW or more."),
 ]
 RULE = (f"A measured district appears when the former province's figure per resident is at least {MIN_LQ}× Vietnam's "
         "(LQ, location quotient): Campus (university students), Commercial hub (retail sales), Industrial zone "
-        "(FDI registered in 2024) and Tourist quarter (travel and tour turnover), all NSO 2024 (students 2023). A site "
+        "(FDI registered in 2024) and Tourist quarter (travel and tour turnover): NSO, retail and tourism 2025, FDI "
+        "2024 (the last year published for the 63 former provinces), students 2023, per resident of 2025. A site "
         "district needs a mapped site in the province: Harbor (a port), Heritage quarter (a UNESCO World Heritage "
         "site), Aerodrome (2M+ passengers), Dam & power plant (1,000+ MW of mapped plants), Government plaza (the "
         "capital). Districts are ranked by LQ, a site district counting as LQ 2 (the capital first); up to "
@@ -82,8 +83,8 @@ def build():
         out[c["id"]] = {"districts": ds,
                         "badge": {"id": top["id"], "label": cat[top["id"]][5], "district": top["id"], "text": top["text"]} if top else None}
     write_web("districts.json", {
-        "version": 2, "vintage": "NSO Statistical Yearbook 2024; mapped sites", "year": 2024,
-        "sources": ["nso_yearbook", "wikidata", "ourairports", "wikipedia_airports", "gppd"],
+        "version": 2, "vintage": "NSO Statistical Yearbooks 2025 and 2024; mapped sites", "year": 2025,
+        "sources": ["nso_yearbook", "qd804", "osm_ports", "wikidata", "ourairports", "wikipedia_airports", "osm_power", "gppd"],
         "rule": {"min_lq": MIN_LQ, "max_per_city": MAX_PER_CITY, "text": RULE},
         "catalog": [{"id": i, "name": n, "icon": ic, "color": col, "measure": m, "badge": {"label": b}, "description": d}
                     for i, n, ic, col, m, b, d in CATALOG],

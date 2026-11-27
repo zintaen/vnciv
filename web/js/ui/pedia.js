@@ -1,9 +1,10 @@
 // The Almanac: what every number means and exactly where it comes from.
 import { resolveTables } from "../terrain.js";
-import { esc, fixed, int } from "../format.js";
+import { esc, fixed } from "../format.js";
 import { parseHex, luminance } from "../color.js";
 import { icon, glyph } from "./icon.js";
 import { formatLensValue } from "./lenses.js";
+import { fmtYear, yearNum } from "./infoPanel.js";
 import { t } from "../i18n.js";
 
 const COVER_ICON = { forest_deciduous: "l-forest", forest_evergreen: "l-forest", forest_mixed: "l-forest", cropland: "l-farmland", pasture: "l-farmland", urban: "l-developed" };
@@ -12,6 +13,8 @@ const inkOn = (hex) => {
   try { return /^#[0-9a-f]{6}$/i.test(hex || "") && luminance(parseHex(hex)) > 0.4 ? "#1c1710" : "#f8f0d8"; } catch { return "#f8f0d8"; }
 };
 const CATEGORY = { energy: "Energy", mineral: "Minerals", agri: "Agriculture" };
+// Almanac nav labels that differ from the page key (the key stays for links and pedia.open()).
+const PAGE_LABEL = { Resources: "Power plants" };
 
 export function initPedia(data) {
   const modal = document.getElementById("pedia");
@@ -21,6 +24,12 @@ export function initPedia(data) {
   const srcName = (id) => data.sources?.find((s) => s.id === id)?.title || id || "";
   let restoreFocus = null;
 
+  const nn = data.nation.nation || {};
+  const ny = (f) => fmtYear(nn.years?.[f]);
+  // The province lenses NSO publishes only for the 34 provinces of 2025, with their years.
+  const only34 = () => (data.lenses?.lenses || []).filter((l) => l.level === "34")
+    .map((l) => (t(l.name).includes(yearNum(l.year)) ? esc(t(l.name)) : `${esc(t(l.name))} (${esc(fmtYear(l.year))})`)).join(", ");
+  const YIELD_FIELD = { food: "paddy", production: "employed", gold: "gdp", science: "students", culture: "tourism" };
   const h2 = (ic, fb, text) => `<h2>${icon(ic, fb, { size: 24 })}<span>${esc(text)}</span></h2>`;
 
   // Page keys stay English (pedia.open("Yields")); titles and text go through t().
@@ -34,26 +43,31 @@ export function initPedia(data) {
       <h4>${t("How it's built")}</h4>
       <p>${t("Vietnam is projected (Albers equal-area) and cut into {cols}×{rows} hexes, each {km} km corner to corner (about {area} km²). Each hex belongs to the province and former province under most of its sample points. Terrain comes from elevation samples and land-cover pixels inside each hex. Hoàng Sa (Paracel) and Trường Sa (Spratly) islands, far smaller than a hex, are shown by the hexes at their centres, as part of Đà Nẵng and Khánh Hòa.", {
         cols: g.cols, rows: g.rows, km: Math.round(g.radius * 2 * km), area: Math.round(2.598 * (g.radius * km) ** 2) })}</p>
-      <p>${t("<b>Provinces</b> are the 34 provinces and centrally-run cities created on 1 July 2025. Vietnam's statistics are still published for the 63 <b>former provinces</b> they were merged from, so every province number is a sum (or a population-weighted average) of its former provinces.")}</p>
+      <p>${t("<b>Provinces</b> are the 34 provinces and centrally-run cities created on 1 July 2025. The 2025 yearbook publishes most statistics both for them and for the 63 <b>former provinces</b> they were merged from, and some only for the 34 provinces (see <i>Provinces</i>).")}</p>
       <p>${t("<b>Cities</b> are the 63 seats of the former provinces. Like a metro area in a strategy game, each city stands for its whole former province: its banner numbers cover the province, not just the town.")}</p>
-      <p>${t("Money is shown in US dollars, converted at the World Bank's official rate for {year} ({fx} ₫ per $).", {
-        year: esc(data.nation.currency?.fx_year || "2024"),
-        fx: esc(int(data.nation.currency?.fx || 0)) })}</p>
+      <h4>${t("Years and sources")}</h4>
+      <p>${t("The numbers come from the NSO Statistical Yearbook 2025 (published July 2026): its Part I for the 63 former provinces and its appendix for the 34 provinces, where 2025 values are preliminary and GRDP 2025 is an estimate. The 2026 figures (GRDP growth in the first 9 months, industrial jobs on 1 October) are estimates from NSO's monthly reports. A few tables stop earlier (housing 2024, university students 2023). Every panel shows the year of each figure and compares it only with Vietnam's figure for the same year.")}</p>
+      <p>${t("Money is shown in US dollars.")} ${esc(t(data.nation.currency?.note || ""))}</p>
       <h4>${t("Controls")}</h4>
-      <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide resources · ? for all shortcuts · Esc to close.")}</p>
+      <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide power plants · ? for all shortcuts · Esc to close.")}</p>
       <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>`;
     },
     Yields: () => `
       ${h2("y-production", "⚙️", t("Yields"))}
       <p>${t("Civilization's yields mapped onto real measures that Vietnam's statistics office publishes for every province. <b>Gold is GDP</b> (GRDP): output per year, counted where the work is done.")}</p>
       <table>${data.nation.yields.map((y) => `<tr><td class="ic" style="color:${esc(y.color)}">${glyph(y, 26)}</td><td><b style="color:${esc(y.color)}">${esc(t(y.label))}${y.key === "gold" ? " (GRDP)" : ""}</b><br>${esc(t(y.description))}</td></tr>`).join("")}</table>
+      <p>${t("Years: {list}.", { list: data.nation.yields.map((y) => `${esc(t(y.label))} ${esc(fmtYear(nn.years?.[YIELD_FIELD[y.key]]))}`).join(", ") })} ${t("Per-resident figures divide by the population of the same year.")} ${esc(t(data.nation.currency?.note || ""))}</p>
       <h4>${t("Work &amp; income")}</h4>
-      <p>${t("Unemployment = unemployed ÷ labour force in working age (Labour Force Survey). Income is the average monthly income per person from the Household Living Standards Survey, × 12: per person, not per household.")}</p>`,
+      <p>${t("Unemployment = unemployed ÷ labour force in working age (Labour Force Survey). Income is the average monthly income per person from the Household Living Standards Survey, × 12: per person, not per household.")} ${t("Both are {y}.", { y: esc(ny("unemployment")) })}</p>`,
     Provinces: () => `
       ${h2("terrain", "🗺️", t("Provinces"))}
-      <p>${t("Click any land hex without a city to open its province. A province's numbers add up its former provinces ({vintage}); rates are averages weighted by population (or by labour force for work rates).", {
+      <p>${t("Click any land hex without a city to open its province. A province's totals add up its former provinces ({vintage}).", {
         vintage: esc(t(data.nation.vintage)) + (data.nation.gdp_vintage ? `; GRDP: ${esc(t(data.nation.gdp_vintage))}` : "") })}</p>
       <p>${t("<b>Ranks</b> (\"#3 of {n}\") compare the {n} provinces; 1 is the largest.", { n: data.world.states.length })}</p>
+      <h4>${t("Years and levels")}</h4>
+      <p>${t("Most rates of the 34 provinces (income, poverty, Gini, unemployment, trained workers, GRDP growth, internet, clean water, housing, IT skills) are NSO's own figures from the appendix of the Statistical Yearbook 2025; the urban share and literacy are averages of the former provinces weighted by population.")}</p>
+      <p>${t("Since 2025 NSO publishes some indicators only for the 34 provinces: {list}. They appear in a province's <b>Latest (2025–2026)</b> block and as lenses that give every hex of a province its value; the 2026 figures are estimates from NSO's monthly socio-economic reports.", { list: only34() })}</p>
+      <p>${t("Cities (the 63 former provinces) keep their last published HDI and FDI, for 2024, and are compared with Vietnam's 2024 figures (HDI {hdi}); provinces and the nation show 2025 (HDI {hdi25}).", { hdi: esc(fixed(nn.cities_basis?.hdi ?? NaN, 3)), hdi25: esc(fixed(nn.hdi ?? NaN, 3)) })}</p>
       ${data.states ? "" : `<p class="muted">${t("This data build has no states.json, so province panels show names and cities only.")}</p>`}`,
     Terrain: () => {
       const tb = data.w?.tables || resolveTables(data.world.tables);
@@ -91,13 +105,13 @@ export function initPedia(data) {
       }).join("")}`,
     Resources: () => {
       const r = data.resources;
-      if (!r?.types?.length) return `${h2("resources", "⛏️", t("Resources"))}<p class="muted">${t("This data build has no resources layer.")}</p>`;
+      if (!r?.types?.length) return `${h2("resources", "⛏️", t("Power plants"))}<p class="muted">${t("This data build has no power plants layer.")}</p>`;
       const count = new Map();
       for (const it of r.items || []) count.set(it.type, (count.get(it.type) || 0) + 1);
       const cats = [...new Set(r.types.map((ty) => ty.category || "other"))];
       return `
-      ${h2("resources", "⛏️", t("Resources"))}
-      <p>${t("Resources mark the country's biggest power plants on the tiles where they are. Only meaningful sites are shown: each type's threshold is in its description. When zoomed out, a hex shows its highest-ranked resource; zoom in to see more. Press <b>R</b> to show or hide them.")}</p>
+      ${h2("resources", "⛏️", t("Power plants"))}
+      <p>${t("This layer marks the country's biggest power plants on the tiles where they are. Only large plants are shown: each type's threshold is in its description. When zoomed out, a hex shows its largest plant; zoom in to see more. Press <b>R</b> to show or hide them.")}</p>
       ${cats.map((c) => `<h4>${esc(t(CATEGORY[c] || c))}</h4><table class="res-table">
         <tr><th></th><th>${t("Type")}</th><th>${t("What counts")}</th><th>${t("Sites")}</th></tr>
         ${r.types.filter((ty) => (ty.category || "other") === c).map((ty) => `<tr>
@@ -126,7 +140,7 @@ export function initPedia(data) {
       b.setAttribute("aria-current", on ? "page" : "false");
     });
   };
-  nav.innerHTML = `<div class="hd">${t("Almanac")}</div>` + Object.keys(pages).map((p) => `<button data-page="${esc(p)}">${esc(t(p))}</button>`).join("");
+  nav.innerHTML = `<div class="hd">${t("Almanac")}</div>` + Object.keys(pages).map((p) => `<button data-page="${esc(p)}">${esc(t(PAGE_LABEL[p] || p))}</button>`).join("");
   nav.onclick = (e) => {
     const b = e.target.closest("button[data-page]");
     if (b) show(b.dataset.page);

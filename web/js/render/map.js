@@ -321,6 +321,7 @@ function drawEdgeFog(ctx, vp, W, H) {
 
 function drawBorders(ctx, w, s, Rpx, lens) {
   // Inner colour band per state (Civ-style), then the edge lines.
+  const bandColor = w.bandColor || w.stateColor; // world.js adminBorders: the 63 former provinces have their own
   for (const [st, segs] of w.bands) {
     ctx.beginPath();
     for (let k = 0; k < segs.length; k += 8) {
@@ -330,7 +331,7 @@ function drawBorders(ctx, w, s, Rpx, lens) {
       ctx.lineTo(segs[k + 4], segs[k + 5]);
       ctx.closePath();
     }
-    ctx.fillStyle = css(w.stateColor[st], lens ? 0.45 : 0.62);
+    ctx.fillStyle = css(bandColor[st], lens ? 0.45 : 0.62);
     ctx.fill();
   }
   // The smoothed shore (render/art/water.js drawShore) draws the waterline; a stroke along the hex edges here would

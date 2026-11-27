@@ -16,6 +16,8 @@ import { prepareCellSet, fortKind, isAirfieldName } from "../../render/art/sites
 import { metroSpill } from "../../render/art/city.js";
 
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+// No port tonnage is published, so a port's glyph tier is its seaport class (Decision 804/QĐ-TTg): special, I, II/III.
+const PORT_TIER = { special: 0, I: 1, II: 2, III: 2 };
 
 /**
  * What each wonder looks like, by wonders.json id: the motif names a sprite in render/art/sites.js WONDER_MOTIFS.
@@ -81,7 +83,7 @@ export function createModel(w) {
     if (name === "infrastructure") {
       m.net = data ? prepareNetwork(w, data) : null;
       m.ports = (data?.ports || []).filter(okCell(w)).map((p) => ({
-        kind: "port", data: p, cell: p.cell, tier: portTier(p), prio: 300 + (p.rank || 999),
+        kind: "port", data: p, cell: p.cell, tier: PORT_TIER[p.class] ?? portTier(p), prio: 300 + (p.rank || 999),
         minRpx: SITE_RULES.port.minRpx(p), pref: waterAngle(w, p),
       }));
       m.airports = (data?.airports || []).filter(okCell(w)).map((a, k) => {

@@ -15,6 +15,7 @@ from .world import archipelago_islands
 
 TOWN_MIN_POP = 100_000
 TOWN_CLEAR_KM = 15  # a town this close to a city banner's seat is left to the banner
+TOWN_ADM2_KM = 15  # a town this far from its own GeoNames district (ADM2 of the same name) is misplaced
 # Well-known islands (display name, GeoNames name to look up, feature codes in order of preference, hint lat)
 COASTAL = [
     ("Đảo Phú Quốc", "phu quoc", ("ADM2", "PPLA2"), 10.25), ("Côn Đảo", "con son", ("ISLS",), 8.68),
@@ -36,7 +37,8 @@ RULES = {
                     "at least the hex at its centre.",
     "islands": "Hand-picked well-known coastal islands, at their GeoNames coordinates.",
     "towns": f"GeoNames towns of {TOWN_MIN_POP:,} people or more that are not one of the 63 city banners (more than "
-             f"{TOWN_CLEAR_KM} km from a former provincial seat), plus hand-picked tourist and historic towns.",
+             f"{TOWN_CLEAR_KM} km from a former provincial seat), plus hand-picked tourist and historic towns. A town more "
+             f"than {TOWN_ADM2_KM} km from the GeoNames district of the same name is a misplaced entry and is left out.",
 }
 
 
@@ -102,6 +104,11 @@ def build():
         islands.append({"name": disp, "en": None, "group": "coastal", "x": x, "y": y})
 
     seats = [W.proj(*s) for s in seat_points(rows)]
+    adm2 = {}
+    for r in rows:
+        if r[7] == "ADM2":
+            n = r[1].split(" ", 1)[1] if r[1].split()[0] in ("Quận", "Huyện") else clean(r[1])
+            adm2.setdefault((fold(n), r[10]), []).append((float(r[5]), float(r[4])))
     towns, seen = [], set()
     cand = sorted((r for r in rows if r[6] == "P" and r[7] in ("PPLA2", "PPL") and int(r[14] or 0) >= TOWN_MIN_POP),
                   key=lambda r: -int(r[14]))
@@ -111,6 +118,9 @@ def build():
         name = clean(r[1])
         if not ok_name(name) or fold(name) in seen or fold(name) in taken:
             continue
+        own = adm2.get((fold(name), r[10]))
+        if own and min(km(float(r[5]), float(r[4]), *q) for q in own) > TOWN_ADM2_KM:
+            continue  # e.g. "Hải Châu" (Đà Nẵng's central district) placed in rural Quảng Nam, "Xuân Lộc" on Long Khánh
         x, y = W.proj(float(r[5]), float(r[4]))
         c = W.grid.cell_at(x, y)
         if c < 0 or W.owner[c] < 0 or any(math.dist((x, y), s) / UNIT < TOWN_CLEAR_KM for s in seats):
@@ -134,6 +144,11 @@ def build():
     write_web("places.json", {"version": 1, "sources": ["wikidata", "geonames"], "rules": RULES,
                               "archipelagos": archipelagos, "slogan": slogan, "islands": islands, "towns": towns})
     print(f"    {len(islands)} islands ({len(arch)} in Hoàng Sa/Trường Sa), {len(towns)} towns")
+
+
+def km(lon1, lat1, lon2, lat2):
+    """Great-circle distance in km (equirectangular; fine at town scale)."""
+    return 111.2 * math.hypot(lat1 - lat2, (lon1 - lon2) * math.cos(math.radians((lat1 + lat2) / 2)))
 
 
 def seat_points(rows):

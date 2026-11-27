@@ -11,13 +11,13 @@ import { placesLayer } from "./places.js";
 import { t as tr } from "../../i18n.js";
 
 const TOGGLES = [
-  { id: "roads", label: "Roads", icon: "t-road", def: true, title: "Expressways and national roads (Natural Earth, as map art)", layers: ["roads"] },
-  { id: "rail", label: "Railways", icon: "t-rail", def: true, title: "The North–South railway and branch lines (Natural Earth, as map art)", layers: ["rail"] },
-  { id: "hubs", label: "Ports & airports", icon: "d-harbor", def: true, title: "Seaports (Wikidata) and airports with scheduled flights, sized by passengers (ACV)", layers: ["hubs"] },
-  { id: "military", label: "Military", icon: "m-army", def: true, title: "People's Army sites mapped in OpenStreetMap as forts; the largest as restricted ground", layers: ["forts", "restricted", "plates"] },
-  { id: "wonders", label: "Wonders", icon: "w-landmark", def: true, title: "UNESCO World Heritage sites, national parks, the national and regional universities, landmarks", layers: ["wonders", "protected", "plates"] },
-  { id: "places", label: "Place names", icon: "pedia", def: true, title: "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners", layers: ["places"] },
-  { id: "trade", label: "Air routes", icon: "t-trade", def: false, title: "The 30 domestic air routes flown by the most airlines (OpenFlights, 2014)", layers: ["trade"] },
+  { id: "roads", group: "transport", label: "Roads", icon: "t-road", def: true, title: "Expressways and national roads (OpenStreetMap, November 2026)", layers: ["roads"] },
+  { id: "rail", group: "transport", label: "Railways", icon: "t-rail", def: true, title: "The North–South railway and branch lines (OpenStreetMap, November 2026)", layers: ["rail"] },
+  { id: "hubs", group: "transport", label: "Ports & airports", icon: "d-harbor", def: true, title: "Seaports of Decision 804/QĐ-TTg, sized by class (port areas from OpenStreetMap), and airports with scheduled flights, sized by passengers (ACV)", layers: ["hubs"] },
+  { id: "trade", group: "transport", label: "Air routes (2014)", icon: "t-trade", def: false, title: "The 30 domestic air routes flown by the most airlines, from the OpenFlights route database (last updated June 2014)", layers: ["trade"] },
+  { id: "military", group: "military", label: "Military", icon: "m-army", def: true, title: "People's Army sites mapped in OpenStreetMap as forts; the largest as restricted ground", layers: ["forts", "restricted", "plates"] },
+  { id: "wonders", group: "culture", label: "Wonders", icon: "w-landmark", def: true, title: "UNESCO World Heritage sites, national parks, the national and regional universities, landmarks", layers: ["wonders", "protected", "plates"] },
+  { id: "places", group: "places", label: "Place names", icon: "pedia", def: true, title: "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners", layers: ["places"] },
 ];
 
 export function install(app) {
@@ -32,7 +32,7 @@ export function install(app) {
 
   for (const t of TOGGLES) {
     app.ui.addMapToggle({
-      id: t.id, label: tr(t.label), icon: t.icon, title: tr(t.title), default: t.def,
+      id: t.id, label: tr(t.label), icon: t.icon, title: tr(t.title), default: t.def, group: t.group,
       get: () => on[t.id],
       set: (v) => {
         on[t.id] = !!v;

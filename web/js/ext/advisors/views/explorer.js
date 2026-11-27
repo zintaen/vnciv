@@ -26,7 +26,12 @@ const SHORT = {
   literacy: tr("Liter&shy;acy"), fdi_projects: tr("FDI projects"), students: tr("Students"), lecturers: tr("Lec&shy;turers"), disasters: tr("Ty&shy;phoons"),
   former: tr("Merged from"), city_type: tr("City type"), n_districts: tr("Districts (n)"), top_lq: tr("Top LQ"), cz_specialist: tr("Stands out in"),
   cz_informal: tr("Informal jobs"), cz_poor: tr("Poor house&shy;holds"), cz_life: tr("Life expect&shy;ancy"), cz_net_migration: tr("Net migr&shy;ation"),
+  grdp_growth: tr("GRDP growth"), enterprises_pk: tr("Firms /1,000"), it_skills: tr("IT skills"), clean_water: tr("Clean water"), internet: tr("Internet"),
+  housing: tr("Perma&shy;nent housing"), computer: tr("Com&shy;puter"), growth_9m2026: tr("9M 2026"), industry_jobs_2026: tr("Factory jobs"),
+  doctors_pk: tr("Doctors /10k"), road_deaths: tr("Road deaths"), pupils_per_teacher: tr("Pupils /teacher"), forest_cover: tr("Forest (official)"),
 };
+// The year a table header shows under its short name (a field's year when the label carries one).
+const yearSuffix = (f) => { const m = /\(([^()]*\d{4}[^()]*)\)$/.exec(f.label || ""); return m ? ` <small>${esc(m[1])}</small>` : ""; };
 const OPS = { num: [">", "≥", "<", "≤", "="], text: ["=", "contains", "≠"] };
 const opLabel = (o) => (o === "contains" ? tr("contains") : o);
 
@@ -240,7 +245,8 @@ export async function mount(ctx) {
       ...keys.map((k) => {
         const f = lv.field(k);
         const title = tr("{label}. Click to sort.", { label: `${f.label}${f.unit ? ` (${f.unit})` : ""}` });
-        const short = SHORT[k] || (k.startsWith("y_") ? esc(f.label.replace(/ workers$/, "")) : null);
+        const short0 = SHORT[k] || (k.startsWith("y_") ? esc(f.label.replace(/ workers$/, "")) : null);
+        const short = short0 ? short0 + yearSuffix(f) : null;
         // The name column already carries the province as a suffix, so a province column goes first when space is short.
         const isState = k === "state" || k === "states";
         return numeric(f)
@@ -352,7 +358,8 @@ export async function mount(ctx) {
     fieldInfo.innerHTML = [fx, fy, fs, fc].filter((f, i, a) => f && a.indexOf(f) === i).map((f) => `<p><b>${esc(f.label)}</b>${f.unit ? ` <span class="sub">${esc(f.unit)}</span>` : ""}: ${esc(f.description || "")}</p>`).join("");
     const srcIds = [fx, fy, fs, fc].filter(Boolean).map((f) => f.source).filter(Boolean);
     srcEl.innerHTML = sourcesHtml(data, [...srcIds, "nso_yearbook"], [
-      tr("Province and city figures are {v}; former-province figures are {cv}. Money is in US dollars at the World Bank 2024 rate.", { v: esc(tr(data.vintage)), cv: esc(tr(data.countyVintage)) }),
+      tr("Province and city figures are {v}; former-province figures are {cv}. Money is in US dollars at the World Bank {y} rate.", { v: esc(tr(data.vintage)), cv: esc(tr(data.countyVintage)), y: esc(data.fxYear) }),
+      tr("Column names show a year when it is not {y}. Some figures exist only for the 34 provinces (HDI and FDI for {y}, doctors, road deaths, pupils per teacher, forest cover, the 2026 estimates): pick the Provinces level to see them; the cities keep the last values published for the 63 former provinces.", { y: esc(data.mainYear) }),
       tr("Each city stands for its whole former province (the 63 provinces before the 1 July 2025 merger), so the Cities and Former provinces levels cover the same ground; the 34 provinces are the merged ones."),
       tr("GRDP is counted where the work is done; workers are counted where they live."),
       ...(st.level === "counties" && data.countiesOffMap ? [tr("{n} former provinces own no hex: they are in the table and chart but cannot be outlined on the map.", { n: int(data.countiesOffMap) })] : []),

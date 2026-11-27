@@ -22,7 +22,9 @@ export function renderTopbar(nation) {
   if (typeof ResizeObserver === "function") new ResizeObserver(check).observe(el);
   check();
   watchBarOverflow(document.getElementById("topbar"));
-  document.getElementById("turn").innerHTML = `${t("Turn <b>{year}</b>", { year: esc(nation.year ?? "") })} · ${esc(t(nation.vintage || ""))}`;
+  const turn = document.getElementById("turn");
+  // ext/timeline replaces this with its year control (class "tl"); don't overwrite it on a re-render
+  if (!turn.classList.contains("tl")) turn.innerHTML = `${t("Turn <b>{year}</b>", { year: esc(nation.year ?? "") })} · ${esc(t(nation.vintage || ""))}`;
 }
 
 // Phones scroll the whole bar sideways. Mark which ends have more to show (.more-l / .more-r) so CSS can fade

@@ -28,10 +28,15 @@ export async function mount(ctx) {
   const totalPax = airports.reduce((s, a) => s + (a.enplanements || 0), 0);
   const topAir = airports[0];
   const portProvs = new Set(ports.map((p) => p.state).filter(Boolean));
+  const seaports = new Set(ports.map((p) => p.seaport).filter(Boolean));
+  const CLASS_RANK = Object.fromEntries((infra.port_classes || []).map((c, i) => [c.id, i]));
+  const className = Object.fromEntries((infra.port_classes || []).map((c) => [c.id, c.name]));
+  const classShort = (c) => (c == null ? "–" : c === "special" ? tr("Special") : String(c));
+  const byClass = (infra.port_classes || []).map((c) => [c, new Set(ports.filter((p) => p.class === c.id).map((p) => p.seaport)).size]).filter(([, k]) => k);
 
   // --- headline -------------------------------------------------------------------------------------------------
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("Seaports"), value: int(ports.length), sub: tr("in {n} provinces", { n: portProvs.size }) },
+    { label: tr("Seaports"), value: int(seaports.size || ports.length), sub: tr("{n} port areas in {p} provinces", { n: int(ports.length), p: portProvs.size }) },
     { label: tr("Air passengers"), value: count3(totalPax), sub: `${tr("{n} airports, {year}", { n: airports.length, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
     // With the air routes, the busiest airport moves into the passengers tile so the headline stays one row.
     trade?.routes?.length
@@ -52,12 +57,14 @@ export async function mount(ctx) {
     columns: [
       { key: "name", label: tr("Port"), align: "l", width: "minmax(0,1.8fr)", value: (p) => p.name, text: (p) => p.name },
       { key: "prov", label: tr("Province"), align: "l", width: "minmax(0,1.2fr)", value: (p) => provName(p.state), text: (p) => provName(p.state) },
-      { key: "type", label: tr("Type"), align: "l", value: (p) => p.type, text: (p) => (p.type ? tr(p.type) : "–"), hideBelow: 380 },
+      { key: "seaport", label: tr("Seaport"), align: "l", width: "minmax(0,1.4fr)", value: (p) => p.seaport || "", text: (p) => p.seaport || "–", hideBelow: 420 },
+      { key: "class", label: tr("Class"), align: "l", value: (p) => CLASS_RANK[p.class] ?? 9, text: (p) => classShort(p.class), title: tr("Seaport class, Decision 804/QĐ-TTg (special, I, II, III)") },
     ],
-    rows: ports, sort: { key: "prov", dir: "asc" },
+    rows: ports, sort: { key: "class", dir: "asc" },
     onHover: (p) => portHover(p),
     onClick: (p) => flyTo(p),
   });
+  if (byClass.length) pBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${byClass.map(([c, k]) => `<b>${esc(tr(c.name))}</b>: ${int(k)}`).join(" · ")}. ${tr("Port areas placed at the town they are named after (no mapped port found): {n}.", { n: int(ports.filter((p) => p.placed === "town").length) })}</p>`);
 
   // --- airports ---------------------------------------------------------------------------------------------------
   const aBody = section(el, { title: tr("Airports"), kicker: esc(tr(v.airports || "")), note: esc(tr(infra.rules?.airports || "")) });
@@ -91,7 +98,7 @@ export async function mount(ctx) {
   mBody.appendChild(sizeBox);
   portBubbles = ctx.bubbles("ports", {
     rMax: 6, alpha: 0.7,
-    tip: (b) => `<b>${esc(b.it.name)}</b><br>${tr("Seaport")} · ${esc(provName(b.it.state))}`,
+    tip: (b) => `<b>${esc(b.it.name)}</b>${b.it.seaport ? ` · ${esc(b.it.seaport)}` : ""}<br>${esc(tr(className[b.it.class] || "Seaport"))} · ${esc(provName(b.it.state))}`,
     onHover: (b) => portTable?.setHot(b ? b.key : null, true),
     onClick: (b) => flyTo(b.it),
   });
@@ -103,9 +110,11 @@ export async function mount(ctx) {
   });
   function drawSites() {
     const aMax = Math.max(1, ...airports.map((a) => a.enplanements || 0));
-    portBubbles.set(show === "both" || show === "ports" ? ports.map((p) => ({ key: p.key, x: p.x, y: p.y, value: 1, color: PORT_COLOR, it: p })) : [], { vMax: 1 });
+    // Size by class (special largest), not by tonnage: none is published.
+    const nCls = Math.max(1, (infra.port_classes || []).length);
+    portBubbles.set(show === "both" || show === "ports" ? ports.map((p) => ({ key: p.key, x: p.x, y: p.y, value: (nCls - (CLASS_RANK[p.class] ?? nCls - 1)) / nCls, color: PORT_COLOR, it: p })) : [], { vMax: 1 });
     airBubbles.set(show === "both" || show === "air" ? airports.filter((a) => fin(a.enplanements)).map((a) => ({ key: a.key, x: a.x, y: a.y, value: a.enplanements, color: AIR_COLOR, it: a })) : [], { vMax: aMax });
-    sizeBox.innerHTML = (show === "both" || show === "ports" ? `<p class="adv-note"><span style="color:${PORT_COLOR}">●</span> ${tr("Seaports (all the same size: no tonnage is published).")}</p>` : "")
+    sizeBox.innerHTML = (show === "both" || show === "ports" ? `<p class="adv-note"><span style="color:${PORT_COLOR}">●</span> ${tr("Seaports: size by class (special largest), since no tonnage is published.")}</p>` : "")
       + (show === "both" || show === "air" ? sizeLegend([1e6, 10e6, 40e6], (x) => 18 * Math.sqrt(x / aMax), (x) => count3(x), tr("Airports (gold): passengers")) : "");
   }
   drawSites();
@@ -125,12 +134,12 @@ export async function mount(ctx) {
     focusPoint(app, p.x, p.y, Math.min(app.cam.maxScale, Math.max(app.cam.scale, (app.cam.fitScale || 1) * 3)));
   }
 
-  el.insertAdjacentHTML("beforeend", sourcesHtml(data, [...(infra.sources || ["natural_earth", "wikidata", "ourairports", "wikipedia_airports"]), ...(air ? trade.sources || ["openflights_routes"] : [])], [
+  el.insertAdjacentHTML("beforeend", sourcesHtml(data, [...(infra.sources || []), ...(air ? trade.sources || ["openflights_routes"] : [])], [
     tr("Vietnam publishes no open port throughput (Vinamarine) or freight-flow statistics, so ports are listed, not ranked, and there are no freight routes."),
     ...(air ? [tr("The air routes are the OpenFlights route database as of June 2014, its last update: which airlines linked which airports then, with no passenger or cargo counts. Routes opened since 2014 are missing, and some listed then may have stopped.")] : []),
-    tr("Ports are whatever Wikidata records as a port with coordinates: some terminals of one port appear separately, and some ports may be missing."),
+    tr("Seaports and their classes are the Prime Minister's list (Decision 804/QĐ-TTg, 2022); each is drawn at its main port areas, placed at the port mapped in OpenStreetMap where one is found, else at a GeoNames or Wikidata port or at the town the area is named after. Positions are approximate, and only the main areas are shown."),
     tr("Airport passengers are Airports Corporation of Vietnam figures as compiled on Wikipedia; some are rounded."),
-    tr("Natural Earth roads and rails are map art, not statistics: a generalised alignment that lags new expressways."),
+    tr("Roads and rails are OpenStreetMap ways snapped to hex links: map art, not statistics. Expressways appear as mappers tag them open to traffic; sections under construction are left out."),
   ]));
 
   return {

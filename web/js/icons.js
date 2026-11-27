@@ -922,6 +922,10 @@ export const ALIASES = {
   'y-gdp': 'y-gold',
   people: 'pop',
   book: 'pedia',
+  // lens group ids (lenses.json groups) that reuse a group glyph
+  'g-economy': 'g-prosperity',
+  'g-living': 'g-life',
+  'g-education': 'g-knowledge',
   map: 'terrain',
   // industries reusing an existing glyph (same choices as banners.js INDUSTRY_ICON)
   'i-agriculture': 'y-food',

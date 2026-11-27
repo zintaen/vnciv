@@ -1,0 +1,520 @@
+province_std,level,year,value,unit,source_url,status
+An Giang,63,2020,92.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+An Giang,63,2022,111.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+An Giang,63,2023,124.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+An Giang,63,2024,140.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+An Giang,63,2025,152.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bà Rịa - Vũng Tàu,63,2020,507.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bà Rịa - Vũng Tàu,63,2022,703.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bà Rịa - Vũng Tàu,63,2023,657.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bà Rịa - Vũng Tàu,63,2024,656.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bà Rịa - Vũng Tàu,63,2025,672.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bình Dương,63,2020,243.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Dương,63,2022,256.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Dương,63,2023,254.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Dương,63,2024,266.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Dương,63,2025,287.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bình Phước,63,2020,116.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Phước,63,2022,152.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Phước,63,2023,168.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Phước,63,2024,193.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Phước,63,2025,221.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bình Thuận,63,2020,123.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Thuận,63,2022,150.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Thuận,63,2023,151.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Thuận,63,2024,168.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Thuận,63,2025,183.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bình Định,63,2020,106.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Định,63,2022,130.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Định,63,2023,141.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Định,63,2024,154.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bình Định,63,2025,169.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bạc Liêu,63,2020,89.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bạc Liêu,63,2022,115.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bạc Liêu,63,2023,125.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bạc Liêu,63,2024,138.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bạc Liêu,63,2025,152.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bắc Giang,63,2020,110.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Giang,63,2022,162.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Giang,63,2023,185.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Giang,63,2024,210.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Giang,63,2025,241.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bắc Kạn,63,2020,63.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Kạn,63,2022,103.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Kạn,63,2023,113.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Kạn,63,2024,123.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Kạn,63,2025,133.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bắc Ninh,63,2020,275.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Ninh,63,2022,322.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Ninh,63,2023,308.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Ninh,63,2024,314.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bắc Ninh,63,2025,344.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Bến Tre,63,2020,66.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bến Tre,63,2022,81.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bến Tre,63,2023,87.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bến Tre,63,2024,95.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Bến Tre,63,2025,106.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Cao Bằng,63,2020,55.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cao Bằng,63,2022,104.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cao Bằng,63,2023,101.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cao Bằng,63,2024,108.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cao Bằng,63,2025,120.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Cà Mau,63,2020,93.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cà Mau,63,2022,119.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cà Mau,63,2023,126.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cà Mau,63,2024,138.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cà Mau,63,2025,154.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Cần Thơ,63,2020,129.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cần Thơ,63,2022,185.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cần Thơ,63,2023,199.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cần Thơ,63,2024,218.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Cần Thơ,63,2025,241.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Gia Lai,63,2020,74.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Gia Lai,63,2022,93.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Gia Lai,63,2023,98.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Gia Lai,63,2024,114.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Gia Lai,63,2025,132.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hà Giang,63,2020,49.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Giang,63,2022,83.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Giang,63,2023,85.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Giang,63,2024,92.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Giang,63,2025,106.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hà Nam,63,2020,130.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nam,63,2022,168.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nam,63,2023,185.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nam,63,2024,208.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nam,63,2025,235.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hà Nội,63,2020,251.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nội,63,2022,303.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nội,63,2023,319.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nội,63,2024,345.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Nội,63,2025,378.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hà Tĩnh,63,2020,125.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Tĩnh,63,2022,188.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Tĩnh,63,2023,201.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Tĩnh,63,2024,217.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hà Tĩnh,63,2025,235.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hòa Bình,63,2020,94.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hòa Bình,63,2022,118.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hòa Bình,63,2023,122.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hòa Bình,63,2024,139.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hòa Bình,63,2025,167.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hưng Yên,63,2020,142.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hưng Yên,63,2022,197.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hưng Yên,63,2023,210.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hưng Yên,63,2024,227.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hưng Yên,63,2025,252.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hải Dương,63,2020,131.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Dương,63,2022,181.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Dương,63,2023,198.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Dương,63,2024,224.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Dương,63,2025,252.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hải Phòng,63,2020,260.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Phòng,63,2022,352.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Phòng,63,2023,381.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Phòng,63,2024,427.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hải Phòng,63,2025,478.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Hậu Giang,63,2020,96.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hậu Giang,63,2022,121.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hậu Giang,63,2023,143.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hậu Giang,63,2024,162.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Hậu Giang,63,2025,175.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Khánh Hòa,63,2020,124.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Khánh Hòa,63,2022,148.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Khánh Hòa,63,2023,167.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Khánh Hòa,63,2024,194.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Khánh Hòa,63,2025,212.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Kiên Giang,63,2020,108.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kiên Giang,63,2022,128.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kiên Giang,63,2023,141.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kiên Giang,63,2024,158.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kiên Giang,63,2025,175.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Kon Tum,63,2020,77.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kon Tum,63,2022,94.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kon Tum,63,2023,103.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kon Tum,63,2024,118.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Kon Tum,63,2025,129.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Lai Châu,63,2020,71.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lai Châu,63,2022,115.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lai Châu,63,2023,115.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lai Châu,63,2024,129.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lai Châu,63,2025,170.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Long An,63,2020,129.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Long An,63,2022,159.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Long An,63,2023,164.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Long An,63,2024,181.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Long An,63,2025,202.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Lào Cai,63,2020,126.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lào Cai,63,2022,164.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lào Cai,63,2023,169.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lào Cai,63,2024,187.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lào Cai,63,2025,220.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Lâm Đồng,63,2020,108.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lâm Đồng,63,2022,130.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lâm Đồng,63,2023,143.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lâm Đồng,63,2024,170.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lâm Đồng,63,2025,196.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Lạng Sơn,63,2020,72.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lạng Sơn,63,2022,133.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lạng Sơn,63,2023,148.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lạng Sơn,63,2024,158.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Lạng Sơn,63,2025,179.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Nam Định,63,2020,75.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nam Định,63,2022,93.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nam Định,63,2023,101.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nam Định,63,2024,116.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nam Định,63,2025,132.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Nghệ An,63,2020,76.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nghệ An,63,2022,109.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nghệ An,63,2023,118.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nghệ An,63,2024,131.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Nghệ An,63,2025,147.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Ninh Bình,63,2020,120.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Bình,63,2022,166.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Bình,63,2023,173.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Bình,63,2024,191.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Bình,63,2025,214.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Ninh Thuận,63,2020,110.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Thuận,63,2022,142.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Thuận,63,2023,157.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Thuận,63,2024,175.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Ninh Thuận,63,2025,192.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Phú Thọ,63,2020,89.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Thọ,63,2022,128.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Thọ,63,2023,139.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Thọ,63,2024,157.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Thọ,63,2025,181.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Phú Yên,63,2020,88.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Yên,63,2022,110.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Yên,63,2023,119.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Yên,63,2024,129.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Phú Yên,63,2025,140.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Quảng Bình,63,2020,85.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Bình,63,2022,117.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Bình,63,2023,128.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Bình,63,2024,141.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Bình,63,2025,157.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Quảng Nam,63,2020,114.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Nam,63,2022,147.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Nam,63,2023,143.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Nam,63,2024,157.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Nam,63,2025,167.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Quảng Ngãi,63,2020,120.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ngãi,63,2022,187.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ngãi,63,2023,188.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ngãi,63,2024,196.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ngãi,63,2025,216.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Quảng Ninh,63,2020,309.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ninh,63,2022,400.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ninh,63,2023,438.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ninh,63,2024,481.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Ninh,63,2025,541.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Quảng Trị,63,2020,100.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Trị,63,2022,134.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Trị,63,2023,141.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Trị,63,2024,153.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Quảng Trị,63,2025,169.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Sóc Trăng,63,2020,87.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sóc Trăng,63,2022,109.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sóc Trăng,63,2023,118.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sóc Trăng,63,2024,129.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sóc Trăng,63,2025,143.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Sơn La,63,2020,71.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sơn La,63,2022,108.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sơn La,63,2023,111.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sơn La,63,2024,126.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Sơn La,63,2025,155.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+TP. Hồ Chí Minh,63,2020,298.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+TP. Hồ Chí Minh,63,2022,332.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+TP. Hồ Chí Minh,63,2023,342.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+TP. Hồ Chí Minh,63,2024,370.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+TP. Hồ Chí Minh,63,2025,406.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Thanh Hóa,63,2020,85.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thanh Hóa,63,2022,131.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thanh Hóa,63,2023,138.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thanh Hóa,63,2024,156.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thanh Hóa,63,2025,170.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Thái Bình,63,2020,83.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Bình,63,2022,111.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Bình,63,2023,120.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Bình,63,2024,132.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Bình,63,2025,146.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Thái Nguyên,63,2020,162.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Nguyên,63,2022,239.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Nguyên,63,2023,245.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Nguyên,63,2024,255.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thái Nguyên,63,2025,279.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Thừa Thiên Huế,63,2020,98.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thừa Thiên Huế,63,2022,113.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thừa Thiên Huế,63,2023,123.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thừa Thiên Huế,63,2024,133.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Thừa Thiên Huế,63,2025,148.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Tiền Giang,63,2020,91.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tiền Giang,63,2022,107.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tiền Giang,63,2023,116.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tiền Giang,63,2024,129.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tiền Giang,63,2025,143.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Trà Vinh,63,2020,112.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Trà Vinh,63,2022,138.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Trà Vinh,63,2023,157.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Trà Vinh,63,2024,183.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Trà Vinh,63,2025,197.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Tuyên Quang,63,2020,72.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tuyên Quang,63,2022,110.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tuyên Quang,63,2023,118.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tuyên Quang,63,2024,132.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tuyên Quang,63,2025,150.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Tây Ninh,63,2020,128.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tây Ninh,63,2022,156.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tây Ninh,63,2023,166.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tây Ninh,63,2024,183.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Tây Ninh,63,2025,204.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Vĩnh Long,63,2020,99.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Long,63,2022,124.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Long,63,2023,130.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Long,63,2024,143.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Long,63,2025,152.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Vĩnh Phúc,63,2020,199.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Phúc,63,2022,262.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Phúc,63,2023,262.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Phúc,63,2024,286.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Vĩnh Phúc,63,2025,320.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Yên Bái,63,2020,64.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Yên Bái,63,2022,111.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Yên Bái,63,2023,118.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Yên Bái,63,2024,130.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Yên Bái,63,2025,150.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Điện Biên,63,2020,57.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Điện Biên,63,2022,76.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Điện Biên,63,2023,82.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Điện Biên,63,2024,90.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Điện Biên,63,2025,102.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Đà Nẵng,63,2020,194.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đà Nẵng,63,2022,200.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đà Nẵng,63,2023,213.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đà Nẵng,63,2024,236.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đà Nẵng,63,2025,263.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Đắk Lắk,63,2020,80.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Lắk,63,2022,96.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Lắk,63,2023,103.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Lắk,63,2024,124.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Lắk,63,2025,143.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Đắk Nông,63,2020,83.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Nông,63,2022,103.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Nông,63,2023,113.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Nông,63,2024,146.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đắk Nông,63,2025,172.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Đồng Nai,63,2020,210.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Nai,63,2022,240.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Nai,63,2023,246.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Nai,63,2024,264.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Nai,63,2025,290.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+Đồng Tháp,63,2020,95.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Tháp,63,2022,114.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Tháp,63,2023,126.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Tháp,63,2024,140.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+Đồng Tháp,63,2025,151.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+An Giang,34,2020,100.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+An Giang,34,2021,110.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+An Giang,34,2022,119.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+An Giang,34,2023,132.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+An Giang,34,2024,149.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+An Giang,34,2025,164.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Bắc Ninh,34,2020,177.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Bắc Ninh,34,2021,214.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Bắc Ninh,34,2022,233.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Bắc Ninh,34,2023,238.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Bắc Ninh,34,2024,255.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Bắc Ninh,34,2025,286.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Cao Bằng,34,2020,55.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cao Bằng,34,2021,123.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cao Bằng,34,2022,104.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cao Bằng,34,2023,101.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cao Bằng,34,2024,108.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cao Bằng,34,2025,120.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Cà Mau,34,2020,91.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cà Mau,34,2021,104.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cà Mau,34,2022,117.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cà Mau,34,2023,126.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cà Mau,34,2024,138.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cà Mau,34,2025,153.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Cần Thơ,34,2020,106.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cần Thơ,34,2021,123.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cần Thơ,34,2022,140.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cần Thơ,34,2023,154.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cần Thơ,34,2024,171.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Cần Thơ,34,2025,188.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Gia Lai,34,2020,89.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Gia Lai,34,2021,99.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Gia Lai,34,2022,110.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Gia Lai,34,2023,118.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Gia Lai,34,2024,133.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Gia Lai,34,2025,149.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Huế,34,2020,98.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Huế,34,2021,104.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Huế,34,2022,113.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Huế,34,2023,123.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Huế,34,2024,133.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Huế,34,2025,148.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Hà Nội,34,2020,251.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Nội,34,2021,278.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Nội,34,2022,303.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Nội,34,2023,319.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Nội,34,2024,345.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Nội,34,2025,378.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Hà Tĩnh,34,2020,125.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Tĩnh,34,2021,184.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Tĩnh,34,2022,188.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Tĩnh,34,2023,201.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Tĩnh,34,2024,217.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hà Tĩnh,34,2025,235.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Hưng Yên,34,2020,106.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hưng Yên,34,2021,130.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hưng Yên,34,2022,146.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hưng Yên,34,2023,157.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hưng Yên,34,2024,171.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hưng Yên,34,2025,189.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Hải Phòng,34,2020,197.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hải Phòng,34,2021,238.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hải Phòng,34,2022,270.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hải Phòng,34,2023,294.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hải Phòng,34,2024,330.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Hải Phòng,34,2025,371.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Khánh Hòa,34,2020,119.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Khánh Hòa,34,2021,133.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Khánh Hòa,34,2022,146.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Khánh Hòa,34,2023,163.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Khánh Hòa,34,2024,188.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Khánh Hòa,34,2025,206.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Lai Châu,34,2020,71.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lai Châu,34,2021,129.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lai Châu,34,2022,115.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lai Châu,34,2023,115.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lai Châu,34,2024,129.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lai Châu,34,2025,170.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Lào Cai,34,2020,92.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lào Cai,34,2021,125.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lào Cai,34,2022,138.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lào Cai,34,2023,145.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lào Cai,34,2024,160.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lào Cai,34,2025,186.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Lâm Đồng,34,2020,109.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lâm Đồng,34,2021,118.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lâm Đồng,34,2022,132.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lâm Đồng,34,2023,140.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lâm Đồng,34,2024,164.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lâm Đồng,34,2025,186.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Lạng Sơn,34,2020,72.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lạng Sơn,34,2021,125.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lạng Sơn,34,2022,133.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lạng Sơn,34,2023,148.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lạng Sơn,34,2024,158.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Lạng Sơn,34,2025,179.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Nghệ An,34,2020,76.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Nghệ An,34,2021,99.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Nghệ An,34,2022,109.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Nghệ An,34,2023,118.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Nghệ An,34,2024,131.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Nghệ An,34,2025,147.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Ninh Bình,34,2020,100.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Ninh Bình,34,2021,118.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Ninh Bình,34,2022,130.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Ninh Bình,34,2023,140.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Ninh Bình,34,2024,157.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Ninh Bình,34,2025,178.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Phú Thọ,34,2020,125.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Phú Thọ,34,2021,157.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Phú Thọ,34,2022,169.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Phú Thọ,34,2023,175.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Phú Thọ,34,2024,195.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Phú Thọ,34,2025,223.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Quảng Ngãi,34,2020,107.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ngãi,34,2021,132.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ngãi,34,2022,156.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ngãi,34,2023,160.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ngãi,34,2024,170.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ngãi,34,2025,186.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Quảng Ninh,34,2020,309.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ninh,34,2021,351.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ninh,34,2022,400.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ninh,34,2023,438.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ninh,34,2024,481.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Ninh,34,2025,541.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Quảng Trị,34,2020,91.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Trị,34,2021,111.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Trị,34,2022,124.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Trị,34,2023,134.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Trị,34,2024,146.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Quảng Trị,34,2025,163.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Sơn La,34,2020,71.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Sơn La,34,2021,103.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Sơn La,34,2022,108.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Sơn La,34,2023,111.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Sơn La,34,2024,126.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Sơn La,34,2025,155.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+TP. Hồ Chí Minh,34,2020,303.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+TP. Hồ Chí Minh,34,2021,321.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+TP. Hồ Chí Minh,34,2022,346.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+TP. Hồ Chí Minh,34,2023,346.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+TP. Hồ Chí Minh,34,2024,367.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+TP. Hồ Chí Minh,34,2025,396.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Thanh Hóa,34,2020,85.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thanh Hóa,34,2021,109.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thanh Hóa,34,2022,131.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thanh Hóa,34,2023,138.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thanh Hóa,34,2024,156.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thanh Hóa,34,2025,170.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Thái Nguyên,34,2020,141.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thái Nguyên,34,2021,200.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thái Nguyên,34,2022,213.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thái Nguyên,34,2023,219.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thái Nguyên,34,2024,229.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Thái Nguyên,34,2025,250.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Tuyên Quang,34,2020,60.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tuyên Quang,34,2021,88.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tuyên Quang,34,2022,96.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tuyên Quang,34,2023,101.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tuyên Quang,34,2024,112.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tuyên Quang,34,2025,128.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Tây Ninh,34,2020,129.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tây Ninh,34,2021,141.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tây Ninh,34,2022,158.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tây Ninh,34,2023,165.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tây Ninh,34,2024,182.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Tây Ninh,34,2025,203.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Vĩnh Long,34,2020,89.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Vĩnh Long,34,2021,98.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Vĩnh Long,34,2022,110.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Vĩnh Long,34,2023,120.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Vĩnh Long,34,2024,134.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Vĩnh Long,34,2025,146.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Điện Biên,34,2020,57.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Điện Biên,34,2021,73.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Điện Biên,34,2022,76.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Điện Biên,34,2023,82.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Điện Biên,34,2024,90.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Điện Biên,34,2025,102.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Đà Nẵng,34,2020,145.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đà Nẵng,34,2021,161.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đà Nẵng,34,2022,170.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đà Nẵng,34,2023,174.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đà Nẵng,34,2024,192.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đà Nẵng,34,2025,210.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Đắk Lắk,34,2020,83.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đắk Lắk,34,2021,91.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đắk Lắk,34,2022,100.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đắk Lắk,34,2023,108.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đắk Lắk,34,2024,125.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đắk Lắk,34,2025,142.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Đồng Nai,34,2020,186.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Nai,34,2021,197.7,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Nai,34,2022,218.5,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Nai,34,2023,227.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Nai,34,2024,247.4,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Nai,34,2025,274.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel
+Đồng Tháp,34,2020,93.3,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Tháp,34,2021,100.6,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Tháp,34,2022,110.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Tháp,34,2023,121.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Tháp,34,2024,134.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+Đồng Tháp,34,2025,147.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",prel

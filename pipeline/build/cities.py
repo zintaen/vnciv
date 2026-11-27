@@ -16,32 +16,36 @@ from ..fetch import RAW, ROOT
 from ..store import load_interim, save_interim, write_web
 from .common import World, site_cell
 
-YEAR = 2024
-GROWTH_YEARS = [2019, 2024]
-VINTAGE = "NSO Statistical Yearbook 2024"
+YEAR = 2025
+GROWTH_YEARS = [2019, 2025]
+VINTAGE = "NSO Statistical Yearbook 2025 (2025 preliminary; some indicators 2024 or earlier, see each record's years)"
+JOBS_YEAR = "Sơ bộ 2025"  # PX-Web V02.42 column (national employment by industry, 2025 preliminary)
+PARTIAL = {"tourism"}  # summed over the former provinces that publish it (Bắc Kạn's 2025 travel turnover is blank)
 YIELDS = [
     {"key": "food", "icon": "y-food", "emoji": "🌾", "label": "Food", "color": "#7fbf3f", "unit": "tonnes", "stat": "paddy",
      "industries": ["agriculture"],
-     "description": "Paddy rice harvested in the year, in tonnes (NSO Statistical Yearbook 2024, preliminary). Rice is "
+     "description": "Paddy rice harvested in 2025, in tonnes (NSO Statistical Yearbook 2025, preliminary). Rice is "
                     "the food yield because it is Vietnam's staple and the one crop counted in every province."},
     {"key": "production", "icon": "y-production", "emoji": "⚙️", "label": "Production", "color": "#d9823b", "unit": "workers",
      "stat": "employed", "industries": ["manufacturing", "construction", "mining"],
-     "description": "Employed workers aged 15 and over, counted where they live (NSO Labour Force Survey via the "
-                    "Statistical Yearbook 2024). NSO does not publish workers by industry for each province."},
+     "description": "Employed workers aged 15 and over in 2025, counted where they live (NSO Labour Force Survey via the "
+                    "Statistical Yearbook 2025, preliminary). NSO does not publish workers by industry for each province."},
     {"key": "gold", "icon": "y-gold", "emoji": "💰", "label": "Gold", "color": "#f2c94c", "unit": "usd", "stat": "gdp",
      "industries": [],
-     "description": "Gross regional domestic product (GRDP) in 2024 at current prices, converted at the World Bank "
-                    "official rate for 2024. NSO publishes GRDP per person; the total is per person × average population."},
+     "description": "Gross regional domestic product (GRDP) in 2025 at current prices (NSO estimate), converted at the "
+                    "World Bank official rate for 2024 (the 2025 rate is not yet published). NSO publishes GRDP per "
+                    "person; the total is per person × average population 2025."},
     {"key": "science", "icon": "y-science", "emoji": "🔬", "label": "Science", "color": "#4fa3e0", "unit": "students",
      "stat": "students", "industries": ["professional", "information"],
-     "description": "University students enrolled in the province's universities, 2023 (NSO Statistical Yearbook 2024). "
-                    "Provinces without a university count zero."},
+     "description": "University students enrolled in the province's universities, 2023 (NSO Statistical Yearbook 2024; "
+                    "the 2025 yearbook publishes no university figures by province). Provinces without a university count zero."},
     {"key": "culture", "icon": "y-culture", "emoji": "🎭", "label": "Culture", "color": "#b07ce0", "unit": "usd",
      "stat": "tourism", "industries": ["arts", "accommodation"],
-     "description": "Turnover of travel agencies and tour operators in 2024, in US dollars (NSO). It is the one "
-                    "tourism figure NSO publishes for every province; visitor counts are not published by province."},
+     "description": "Turnover of travel agencies and tour operators in 2025 (preliminary), in US dollars (NSO). It is "
+                    "the one tourism figure NSO publishes by province (Bắc Kạn's 2025 figure is blank); visitor counts "
+                    "are not published by province."},
 ]
-# national employment by industry (NSO V02.42, 2024): PX-Web row index → key
+# national employment by industry (NSO V02.42, 2025 preliminary): PX-Web row index → key
 INDUSTRY_ROWS = {"agriculture": [1], "mining": [2], "manufacturing": [3], "utilities": [4, 5], "construction": [6],
                  "retail": [7], "transportation": [8], "accommodation": [9], "information": [10], "finance": [11],
                  "real_estate": [12], "professional": [13], "admin": [14], "public_admin": [15], "education": [16],
@@ -104,7 +108,8 @@ def rank(items, key, val):
 
 def econ(rows, pop_years):
     """The shared economic shape for a sum of former provinces."""
-    s = lambda k: sum(r[k] for r in rows) if all(r[k] is not None for r in rows) else None
+    s = lambda k: (sum(r[k] or 0 for r in rows) if k in PARTIAL and any(r[k] is not None for r in rows) else
+                   sum(r[k] for r in rows) if all(r[k] is not None for r in rows) else None)
     pop = s("population")
     w_mean = lambda k, w="population": (sum(r[k] * r[w] for r in rows) / sum(r[w] for r in rows)
                                         if all(r[k] is not None for r in rows) else None)
@@ -126,7 +131,7 @@ def econ(rows, pop_years):
         "unemployment": round(sum(r["unemployment"] * r["labour_force"] for r in rows) / lf, 4) if lf else None,
         "gdp": round(s("gdp")), "gdp_year": YEAR, "gdp_by_industry": None, "gdp_undisclosed": None, "gdp_estimated": None,
         "growth": growth, "growth_years": GROWTH_YEARS if growth is not None else None, "pop_series": pop_series,
-        # Vietnam-specific panel figures (NSO 2024 unless noted)
+        # Vietnam-specific panel figures (the year of each is in "years")
         "area_km2": round(s("area_km2"), 1), "density": round(pop / s("area_km2"), 1),
         "urban": round(s("urban_population") / pop, 4),
         "labour_force": lf, "trained": rnd(w_mean("trained", "labour_force"), 4),
@@ -136,6 +141,10 @@ def econ(rows, pop_years):
         "fdi": s("fdi"), "fdi_projects": s("fdi_projects"), "retail": rnd(s("retail"), 0), "paddy": s("paddy"),
         "tourism": rnd(s("tourism"), 0), "students": s("students"), "lecturers": s("lecturers"),
         "pci": rnd(w_mean("pci"), 2) if len(rows) == 1 else None, "pci_2024": rows[0]["pci_2024"] if len(rows) == 1 else None,
+        "grdp_growth": rnd(w_mean("grdp_growth", "gdp"), 4) if len(rows) == 1 else None,
+        "internet": rnd(w_mean("internet"), 4), "computer": rnd(w_mean("computer"), 4),
+        "clean_water": rnd(w_mean("clean_water"), 4), "housing": rnd(w_mean("housing"), 4),
+        "it_skills": rnd(w_mean("it_skills"), 4), "enterprises_pk": rnd(w_mean("enterprises_pk"), 2),
     }
     return out
 
@@ -147,7 +156,7 @@ def rnd(v, d):
 def national_jobs():
     d = json.loads((ROOT / "data" / "stats" / "px" / "V02.42.json").read_text())
     years = d["meta"]["variables"][2]["values"]
-    yi = years[d["meta"]["variables"][2]["valueTexts"].index(str(YEAR))]
+    yi = years[d["meta"]["variables"][2]["valueTexts"].index(JOBS_YEAR)]
     vals = {}
     for row in d["data"]["data"]:
         ind, part, yr = row["key"]
@@ -180,7 +189,8 @@ def build():
              "province_old": u["name"], "province_new": u["new"],
              "states": [new_abbr], "metro": True, "capital": u["iso"] == CAPITAL_ISO,
              "x": round(x, 1), "y": round(y, 1), "cell": cell, **econ([r], GROWTH_YEARS),
-             "counties": [u["iso"]], "footprint": sorted(set(cells_of.get(k, [])) | {cell})}
+             "counties": [u["iso"]], "footprint": sorted(set(cells_of.get(k, [])) | {cell}),
+             "years": st["years"]}
         cities.append(c)
     cities.sort(key=lambda c: -c["population"])
     keys = {"population": lambda c: c["population"], "gdp": lambda c: c["gdp"],
@@ -213,6 +223,11 @@ def build():
         states.append({"fips": f"{k + 1:02d}", "abbr": n["abbr"], "name": n["name"],
                        "former": [u["name"] for u in olds if u["new"] == n["name"]],
                        **econ(members, GROWTH_YEARS), "land": land, "energy": energy, "label": None})
+        # indicators NSO publishes only for the 34 provinces, and its official 34-province ratios (see stats.py)
+        states[-1].update({("median_income" if key == "income" else key): v for key, v in st["states"][n["abbr"]].items()
+                           if key != "name"})
+        states[-1]["density"] = round(states[-1]["population"] / states[-1]["area_km2"], 1)
+        states[-1]["years"] = {k: v for k, v in st["state_years"].items() if v}
     yr = {y["key"]: rank(states, "abbr", lambda s, k=y["key"]: s["yields"][k]) for y in YIELDS}
     yr.update({k: rank(states, "abbr", f) for k, f in keys.items() if k in ("population", "gdp", "growth")})
     for s in states:
@@ -221,18 +236,42 @@ def build():
 
     jobs, employed_total = national_jobs()
     nation = econ(list(rows.values()), GROWTH_YEARS)
-    import csv
-    for r in csv.DictReader(open(ROOT / "data" / "stats" / "national.csv", encoding="utf-8")):
-        v = float(r["value"])  # NSO's own national figure, not an average of provinces (inequality between them counts)
-        nation[r["indicator"]] = round(v / 100, 4) if r["indicator"] == "poverty" else v
+    nation["area_km2"] = round(sum(s["area_km2"] for s in states), 1)  # the 34 provinces' official 2024 area
+    nation["density"] = round(nation["population"] / nation["area_km2"], 1)
+    # the 63-province basis of the city figures that are newer for the provinces/nation (compare cities with this)
+    nation["cities_basis"] = {"year": "2024", "hdi": None, "fdi": nation["fdi"], "fdi_projects": nation["fdi_projects"]}
+    # NSO's own national figures, not averages of provinces (inequality between them counts)
+    rate = st["fx"]
+    conv = {"income": ("median_income", lambda v: round(v * 1000 * 12 / rate)),
+            "income_worker": ("income_worker", lambda v: round(v * 1000 * 12 / rate)),
+            "fdi": ("fdi", lambda v: v * 1e6), "fdi_projects": ("fdi_projects", int),
+            "grdp_growth": ("grdp_growth", lambda v: round(v / 100 - 1, 4))}
+    pcts = {"poverty", "informal", "trained", "unemployment", "internet", "it_skills", "clean_water", "housing", "forest_cover"}
+    nat_years = {}
+    for key, v in st["national"].items():
+        if key == "_years":
+            continue
+        if key == "hdi_2024":
+            nation["cities_basis"]["hdi"] = v
+            continue
+        out, f = conv.get(key, (key, (lambda x: round(x / 100, 4)) if key in pcts else (lambda x: x)))
+        nation[out] = f(v)
+        nat_years[out] = st["national"]["_years"][key]
+    nation["doctors_pk"] = round(nation["doctors"] / nation["population"] * 1e4, 2)
+    nation["years"] = {**{k: v for k, v in st["state_years"].items() if v}, **nat_years,
+                       "growth_9m2026": None, "industry_jobs_2026": None}
     nation["jobs"] = jobs
     nation["employed_lfs"] = employed_total
     write_web("nation.json", {
-        "vintage": VINTAGE, "year": YEAR, "gdp_vintage": "NSO GRDP per person × average population, 2024 (preliminary)",
+        "vintage": VINTAGE, "year": YEAR, "gdp_vintage": "NSO GRDP per person (2025 estimate) × average population 2025 (preliminary)",
         "currency": {"code": "USD", "fx": round(st["fx"], 2), "fx_year": st["fx_year"],
-                     "note": f"VND converted at the World Bank official rate for {st['fx_year']}: {st['fx']:,.0f} VND per USD."},
+                     "note": f"VND converted at the World Bank official rate for {st['fx_year']}: {st['fx']:,.0f} VND per USD"
+                             + ("." if st["fx_year"] == str(YEAR) else
+                                f" (the World Bank has not yet published the {YEAR} rate, so {YEAR} figures use {st['fx_year']}'s).")},
         "nation": nation, "yields": [{k: v for k, v in y.items() if k != "stat"} for y in YIELDS],
-        "industries": INDUSTRIES, "gdp_industries": {}, "jobs_source": "NSO PX-Web V02.42 (employed by industry, 2024)",
+        "industries": INDUSTRIES, "gdp_industries": {}, "jobs_source": "NSO PX-Web V02.42 (employed by industry, 2025 preliminary)",
+        "years_note": "Each record's 'years' gives the year of its fields; cities (63 former provinces) carry 2024 HDI and "
+                      "FDI, provinces and the nation 2025 (NSO publishes those only for the 34 provinces since 2025).",
     })
     print(f"    {len(cities)} cities, {len(states)} provinces; Vietnam {nation['population']:,} people, "
           f"GDP ${nation['gdp'] / 1e9:,.0f} bn, growth {nation['growth']:+.2%}")

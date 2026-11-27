@@ -1,0 +1,17 @@
+{
+ "Vietnamese Provinces Database v5.2.0: wards GIS (GeoJSON)": "Vietnamese Provinces Database v5.2.0: GIS xã, phường (GeoJSON)",
+ "Thang Le Quoc (GitHub), from the Vietnam Administrative Units Reference Map (sapnhap.bando.com.vn, Vietnam Natural Resources, Environment and Cartography Publishing House) and the NSO/GSO unit codes": "Thang Le Quoc (GitHub), từ Bản đồ tham khảo đơn vị hành chính Việt Nam (sapnhap.bando.com.vn, Nhà xuất bản Tài nguyên – Môi trường và Bản đồ Việt Nam) và mã đơn vị hành chính của Cục Thống kê",
+ "MIT": "MIT",
+ "Boundaries, names, kinds and official codes of the 34 provinces and 3,321 communes, wards and special zones of the two-tier local government that took effect on 1 July 2025, as updated to Resolution 388/NQ-UBTVQH16 (September 2026: twelve Bắc Ninh communes became wards; the count of units is unchanged). Geometry derived from the official reference map at sapnhap.bando.com.vn.": "Ranh giới, tên, loại và mã chính thức của 34 tỉnh, thành phố và 3.321 xã, phường, đặc khu theo mô hình chính quyền địa phương hai cấp có hiệu lực từ ngày 1/7/2025, cập nhật đến Nghị quyết 388/NQ-UBTVQH16 (tháng 9/2026: 12 xã của Bắc Ninh trở thành phường; tổng số đơn vị không đổi). Hình học lấy từ bản đồ tham khảo chính thức tại sapnhap.bando.com.vn.",
+ "Communes & wards layer": "Lớp xã, phường",
+ "Viet Nam - Subnational Administrative Boundaries (COD-AB, v02)": "Việt Nam – Ranh giới hành chính dưới cấp quốc gia (COD-AB, v02)",
+ "OCHA / Humanitarian Data Exchange": "OCHA / Humanitarian Data Exchange",
+ "CC BY-IGO": "CC BY-IGO",
+ "The 34 provinces of 2025 (valid from 2025-09-25); used only to check that the province unions of the map match an independent outline. It has no commune level.": "34 tỉnh, thành phố năm 2025 (hiệu lực từ 25/9/2025); chỉ dùng để kiểm tra ranh giới tỉnh của bản đồ với một nguồn độc lập. Không có cấp xã.",
+ "Province outline check": "Kiểm tra ranh giới tỉnh",
+ "Ủy ban Thường vụ Quốc hội quyết định cả nước còn 3.321 xã, phường, đặc khu": "Ủy ban Thường vụ Quốc hội quyết định cả nước còn 3.321 xã, phường, đặc khu",
+ "VTC News (16 June 2025), summarising the 34 resolutions of the National Assembly Standing Committee": "Báo VTC News (16/6/2025), tổng hợp 34 nghị quyết của Ủy ban Thường vụ Quốc hội",
+ "© VTC News; only the published counts (facts) are used": "© VTC News; chỉ sử dụng các con số đã công bố (dữ kiện)",
+ "The official number of communes, wards and special zones of each of the 34 provinces as decided in June 2025 (3,321 = 2,621 communes + 687 wards + 13 special zones); used to check the boundary file.": "Số xã, phường, đặc khu chính thức của từng tỉnh trong 34 tỉnh, thành phố theo quyết định tháng 6/2025 (3.321 = 2.621 xã + 687 phường + 13 đặc khu); dùng để kiểm tra tệp ranh giới.",
+ "Commune count check": "Kiểm tra số xã"
+}

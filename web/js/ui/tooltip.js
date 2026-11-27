@@ -2,12 +2,14 @@ import { esc, int, popShort, compact } from "../format.js";
 import { formatLensValue } from "./lenses.js";
 import { glyph } from "./icon.js";
 import { FOREIGN } from "../world.js";
-import { fullName } from "./infoPanel.js";
+import { fullName, fmtYear, yearNum } from "./infoPanel.js";
 import { t as tr } from "../i18n.js";
 
 const el = () => document.getElementById("tooltip");
 
 const nameOf = (table, id) => tr(table.find((t) => t.id === id)?.name);
+
+const lensValue = formatLensValue;
 
 export function showCellTooltip(mx, my, w, i, lens, showResources = true) {
   const raw = w.raw;
@@ -31,7 +33,13 @@ export function showCellTooltip(mx, my, w, i, lens, showResources = true) {
     const former = raw.county[i] >= 0 ? raw.counties[raw.county[i]].name : "";
     const prov = raw.states[o].name;
     lines.push(former && former !== prov ? tr("{former} <span class=\"muted\">(former) · now</span> {prov}", { former: esc(former), prov: esc(prov) }) : tr("{prov} <span class=\"muted\">province</span>", { prov: esc(prov) }));
-    if (lens) lines.push(`${glyph(lens, 13)} ${esc(tr(lens.name))}: <b>${esc(formatLensValue(lens, lens.values[i]))}</b>`);
+    if (lens) {
+      // Province lenses say their year and level: "HDI 2025 (province of 2025)" / "Income 2025 (former province)".
+      const lvl = lens.level === "34" ? tr("(province of 2025)") : lens.level === "63" ? tr("(former province)") : "";
+      const yr = lens.year && !tr(lens.name).includes(yearNum(lens.year)) ? ` ${fmtYear(lens.year)}` : "";
+      const when = yr || lvl ? ` <span class="muted">${esc(yr.trim())}${lvl ? `${yr ? " " : ""}${esc(lvl)}` : ""}</span>` : "";
+      lines.push(`${glyph(lens, 13)} ${esc(tr(lens.name))}${when}: <b>${esc(lensValue(lens, lens.values[i]))}</b>`);
+    }
   } else if (o === FOREIGN) {
     lines.push(`<span class="muted">${tr("Beyond the borders (not mapped)")}</span>`);
   }

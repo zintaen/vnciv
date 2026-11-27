@@ -12,7 +12,7 @@ from collections import defaultdict
 
 import numpy as np
 
-from ..admin import old_units
+from ..admin import NEW, old_units
 from ..fetch import RAW, ROOT
 from ..geo import HEX_KM, UNIT
 from ..store import load_interim, save_interim, write_web
@@ -24,45 +24,83 @@ STORM_RADIUS_KM = 100
 STORM_SINCE = 1980
 STORM_MIN_KT = 34
 NSO = "nso_yearbook"
-GROUPS = [{"id": "people", "name": "People"}, {"id": "prosperity", "name": "Prosperity"},
-          {"id": "knowledge", "name": "Knowledge"}, {"id": "life", "name": "Work & life"},
+MONTHLY = "nso_monthly_2026"
+GROUPS = [{"id": "people", "name": "People"}, {"id": "economy", "name": "Economy"},
+          {"id": "living", "name": "Quality of life"}, {"id": "education", "name": "Education"},
           {"id": "hazards", "name": "Hazards"}, {"id": "land", "name": "Land"}]
 
-# id, group, name, icon, emoji, unit, format, scale, higher_is, source, ramp, stat key (province lenses), description, note
+# Lenses from the 63 former provinces: each hex averages its 7 sample points' former-province values.
+# id, group, name, icon, emoji, unit, format, scale, higher_is, source, ramp, stat key, year, description, note
 PROVINCE_LENSES = [
-    ("urban", "people", "Urban share", "l-developed", "🏙️", "share of residents living in urban areas", "pct", "linear", "neutral", NSO, "developed", "urban",
-     "Urban population ÷ average population, 2024 (NSO). Urban follows Vietnam's administrative definition (wards and towns).", None),
-    ("growth", "people", "Growth", "l-people", "📈", "population change 2019–2024", "pct", "linear", "neutral", NSO, "age", "growth",
-     "Average population 2024 ÷ 2019 − 1, by former province (NSO PX-Web V02.03-07).", None),
-    ("income", "prosperity", "Income", "l-income", "💵", "income per person per year, $", "usd", "linear", "good", NSO, "income", "income",
-     "Average monthly income per person (Vietnam Household Living Standards Survey, 2024) × 12, converted at the World Bank 2024 rate.",
-     "Income per person, not per household."),
-    ("gdp_pc", "prosperity", "GRDP per person", "l-home", "💰", "GRDP per person, $", "usd", "log", "good", NSO, "home", "gdp_pc",
-     "Gross regional domestic product per person, 2024, current prices (NSO), converted at the World Bank 2024 rate.",
+    ("urban", "people", "Urban share", "l-developed", "🏙️", "share of residents living in urban areas", "pct", "linear", "neutral", NSO, "developed", "urban", "2025",
+     "Urban population ÷ average population, 2025 (NSO, preliminary). Urban follows Vietnam's administrative definition (wards and towns).", None),
+    ("growth", "people", "Growth", "l-people", "📈", "population change 2019–2025", "pct", "linear", "neutral", NSO, "age", "growth", "2019–2025",
+     "Average population 2025 ÷ 2019 − 1, by former province (NSO PX-Web V02.03-07 for 2019, Statistical Yearbook 2025 for 2025, preliminary).", None),
+    ("gdp_pc", "economy", "GRDP per person", "l-home", "💰", "GRDP per person, $", "usd", "log", "good", NSO, "home", "gdp_pc", "2025",
+     "Gross regional domestic product per person, 2025, current prices (NSO estimate), converted at the World Bank 2024 rate (the 2025 rate is not yet published).",
      "Counted where output is made: oil, mining and industrial provinces score high even where incomes are modest."),
-    ("poverty", "prosperity", "Poverty", "l-poverty", "🥣", "households in multidimensional poverty", "pct", "linear", "bad", NSO, "poverty", "poverty",
-     "Share of households poor by Vietnam's multidimensional poverty standard for 2022–2025 (income plus access to "
-     "jobs, health, education, housing, water and sanitation, information), 2024 (NSO).", None),
-    ("gini", "prosperity", "Inequality", "l-amenities", "⚖️", "Gini index of income", "float", "linear", "bad", NSO, "commute", "gini",
-     "Gini coefficient of per-person income, 2024 (NSO, VHLSS). 0 = everyone earns the same.", None),
-    ("fdi", "prosperity", "Foreign investment", "l-income", "🏗️", "FDI registered in 2024 per resident, $", "usd", "log", "neutral", NSO, "broadband", "fdi_pc",
-     "Newly registered plus added foreign direct investment capital in 2024 ÷ population (NSO). Provinces with no "
-     "registration in 2024 are 0.", "Registered capital, not money disbursed; one large project can dominate a province's year."),
-    ("trained", "knowledge", "Trained workers", "l-degrees", "🎓", "workers 15+ with vocational or higher training", "pct", "linear", "good", NSO, "bachelors", "trained",
-     "Share of the labour force aged 15+ holding a vocational certificate, college or university degree, 2024 (NSO Labour Force Survey).", None),
-    ("literacy", "knowledge", "Literacy", "l-degrees", "📖", "people 15+ who can read and write", "pct", "linear", "good", NSO, "broadband", "literacy",
-     "Literacy rate of people aged 15 and over, 2024 (NSO).", None),
-    ("hdi", "knowledge", "Human development", "l-amenities", "🌱", "HDI (0–1)", "float", "linear", "good", NSO, "bachelors", "hdi",
-     "Human Development Index by province, 2024 (NSO): health, education and income combined, 0–1.", None),
-    ("unemployment", "life", "Unemployment", "l-poverty", "📉", "unemployed share of the working-age labour force", "pct", "linear", "bad", NSO, "uninsured", "unemployment",
-     "Unemployment rate of the labour force in working age, 2024 (NSO Labour Force Survey).", "Low everywhere: informal work absorbs most people who lose a job."),
-    ("productivity", "life", "Productivity", "l-income", "⚙️", "GRDP per worker, $", "usd", "log", "good", NSO, "income", "productivity",
-     "Labour productivity: GRDP ÷ employed workers, 2024 (NSO), converted at the World Bank 2024 rate.", None),
-    ("pci", "life", "Business climate", "l-amenities", "🤝", "PCI score (0–100)", "float", "linear", "good", "pci", "homeownership", "pci",
+    ("productivity", "economy", "Productivity", "l-income", "⚙️", "GRDP per worker, $", "usd", "log", "good", NSO, "income", "productivity", "2025",
+     "Labour productivity: GRDP ÷ employed workers, 2025 (NSO, preliminary), converted at the World Bank 2024 rate.", None),
+    ("pci", "economy", "Business climate", "l-amenities", "🤝", "PCI score (0–100)", "float", "linear", "good", "pci", "homeownership", "pci", "2022",
      "Provincial Competitiveness Index 2022 (VCCI/USAID), the last year scored for all 63 provinces: a survey of "
-     "private firms on transparency, costs, land access and governance.", None),
+     "private firms on transparency, costs, land access and governance.",
+     "PCI 2025 covers the 34 new provinces but publishes only sub-indices and rank groups, no composite score."),
+    ("income", "living", "Income", "l-income", "💵", "income per person per year, $", "usd", "linear", "good", NSO, "income", "income", "2025",
+     "Average monthly income per person (Vietnam Household Living Standards Survey, 2025) × 12, converted at the World Bank 2024 rate.",
+     "Income per person, not per household."),
+    ("poverty", "living", "Poverty", "l-poverty", "🥣", "households in multidimensional poverty", "pct", "linear", "bad", NSO, "poverty", "poverty", "2025",
+     "Share of households poor by Vietnam's multidimensional poverty standard for 2022–2025 (income plus access to "
+     "jobs, health, education, housing, water and sanitation, information), 2025 (NSO, preliminary).", None),
+    ("gini", "living", "Inequality", "l-amenities", "⚖️", "Gini index of income", "float", "linear", "bad", NSO, "commute", "gini", "2025",
+     "Gini coefficient of per-person income, 2025 (NSO, VHLSS, preliminary). 0 = everyone earns the same.", None),
+    ("unemployment", "living", "Unemployment", "l-poverty", "📉", "unemployed share of the working-age labour force", "pct", "linear", "bad", NSO, "uninsured", "unemployment", "2025",
+     "Unemployment rate of the labour force in working age, 2025 (NSO Labour Force Survey, preliminary).", "Low everywhere: informal work absorbs most people who lose a job."),
+    ("internet", "living", "Internet users", "l-broadband", "🌐", "people using the internet", "pct", "linear", "good", NSO, "broadband", "internet", "2025",
+     "Share of people who used the internet, 2025 (NSO, preliminary).", None),
+    ("clean_water", "living", "Clean water", "l-commute", "🚰", "population using a hygienic water source", "pct", "linear", "good", NSO, "commute", "clean_water", "2025",
+     "Share of the population whose main drinking water comes from a hygienic source, 2025 (NSO, preliminary).",
+     "Above 95% almost everywhere; the colours separate the few provinces that lag."),
+    ("housing", "living", "Permanent housing", "l-homeownership", "🏠", "households living in a permanent house", "pct", "linear", "good", NSO, "homeownership", "housing", "2024",
+     "Share of households whose house is permanent (kiên cố), 2024 (NSO; the 2025 yearbook's latest housing survey). "
+     "The rest live in semi-permanent, less-permanent or simple houses.",
+     "Mekong Delta provinces score low: houses on stilts and of light materials are common there."),
+    ("trained", "education", "Trained workers", "l-degrees", "🎓", "workers 15+ with vocational or higher training", "pct", "linear", "good", NSO, "bachelors", "trained", "2025",
+     "Share of the labour force aged 15+ holding a vocational certificate, college or university degree, 2025 (NSO Labour Force Survey, preliminary).", None),
+    ("literacy", "education", "Literacy", "l-degrees", "📖", "people 15+ who can read and write", "pct", "linear", "good", NSO, "broadband", "literacy", "2024",
+     "Literacy rate of people aged 15 and over, 2024 (NSO; the latest published by province).", None),
+    ("it_skills", "education", "IT skills", "l-broadband", "💻", "people with information-technology skills", "pct", "linear", "good", NSO, "bachelors", "it_skills", "2025",
+     "Share of people with at least one information-technology skill (copying files, sending e-mail, using a "
+     "spreadsheet…), 2025 (NSO, preliminary).", None),
 ]
-
+# Lenses NSO publishes only for the 34 provinces of 2025: every hex of a province shows the province's value.
+STATE_LENSES = [
+    ("fdi", "economy", "Foreign investment", "l-income", "🏗️", "FDI registered in 2025 per resident, $", "usd", "log", "neutral", NSO, "broadband", "fdi_pc", "2025",
+     "Newly registered plus added foreign direct investment capital in 2025 ÷ average population 2025, by the 34 "
+     "provinces (NSO). Provinces with no registration in 2025 are 0.",
+     "Registered capital, not money disbursed; one large project can dominate a province's year."),
+    ("enterprises", "economy", "Enterprises", "l-amenities", "🏢", "active enterprises per 1,000 residents", "float", "log", "good", NSO, "income", "enterprises_pk", "2025-12-31",
+     "Active enterprises per 1,000 residents at 31 December 2025, by the 34 provinces (NSO).", None),
+    ("growth_2026", "economy", "Growth, 9 months 2026 (est.)", "l-income", "🚀", "GRDP growth vs the first 9 months of 2025", "pct", "linear", "good", MONTHLY, "home", "growth_9m2026", "9M2026",
+     "Estimated GRDP growth of January–September 2026 over the same period of 2025, at constant 2020 prices, by the "
+     "34 provinces (NSO socio-economic report for September 2026, published October 2026).",
+     "An estimate; NSO revises it with the full-year figures."),
+    ("industry_jobs_2026", "economy", "Factory jobs 2026 (est.)", "l-income", "🏭", "industrial-enterprise jobs vs a year earlier", "pct", "linear", "good", MONTHLY, "age", "industry_jobs_2026", "2026-10-01",
+     "Change in the number of workers in industrial enterprises at 1 October 2026 compared with 1 October 2025, "
+     "by the 34 provinces (NSO socio-economic report for October 2026, estimate).", None),
+    ("hdi", "living", "Human development", "l-amenities", "🌱", "HDI (0–1)", "float", "linear", "good", NSO, "bachelors", "hdi", "2025",
+     "Human Development Index by the 34 provinces, 2025 (NSO, preliminary): health, education and income combined, 0–1.",
+     "NSO publishes HDI only for the 34 provinces from 2025; the former provinces' tables keep their 2024 values."),
+    ("doctors", "living", "Doctors", "l-uninsured", "🩺", "doctors per 10,000 people (State sector)", "float", "linear", "good", NSO, "amenities", "doctors_pk", "2025",
+     "Doctors working in State-sector health facilities in 2025 per 10,000 residents (average population 2025), by "
+     "the 34 provinces (NSO).", "Private-sector doctors are not counted; central hospitals lift Hà Nội, Huế and TP. Hồ Chí Minh."),
+    ("road_deaths", "living", "Road deaths", "l-poverty", "🚦", "road traffic deaths per 100,000 people", "float", "linear", "bad", NSO, "poverty", "road_deaths", "2025",
+     "People killed in road traffic accidents in 2025 per 100,000 residents, by the 34 provinces (NSO).", None),
+    ("pupils_per_teacher", "education", "Pupils per teacher", "l-degrees", "🏫", "pupils per teacher (general education)", "float", "linear", "bad", NSO, "commute", "pupils_per_teacher", "2025-09-30",
+     "General-education pupils (primary to upper secondary) per teacher at 30 September 2025, by the 34 provinces (NSO).", None),
+    ("forest_cover", "land", "Forest cover (official)", "l-forest", "🌲", "forest cover", "pct", "linear", "neutral", NSO, "forest", "forest_cover", "2025-12-31",
+     "Official forest cover rate at 31 December 2025 (natural and planted forest ÷ area), by the 34 provinces (NSO, "
+     "from the forestry sector's monitoring). The Forest lens next to it measures tree cover from satellite imagery.", None),
+]
 
 def ramp(name):
     return RAMPS[name]
@@ -160,8 +198,14 @@ def build():
     land = [i for i in range(ncell) if W.owner[i] >= 0]
     for r in st.values():
         s = r["pop_series"] or {}
-        r["growth"] = s["2024"] / s["2019"] - 1 if s.get("2024") and s.get("2019") else None
-        r["fdi_pc"] = r["fdi"] / r["population"] if r["population"] else None
+        r["growth"] = s["2025"] / s["2019"] - 1 if s.get("2025") and s.get("2019") else None
+    states = load_interim("_stats")["states"]
+    state_pop = defaultdict(int)
+    for u in olds:
+        state_pop[NEW[u["new"]][0]] += st[u["iso"]]["population"]
+    for abbr, r in states.items():
+        r["fdi_pc"] = r["fdi"] / state_pop[abbr]
+    owner_abbr = [a for a in W.states]  # world.json state order: owner index → abbr
     lenses = []
 
     # --- hex-level: population density (WorldPop) ---
@@ -174,18 +218,23 @@ def build():
                                   f"areas, adjusted to UN totals) ÷ the hex's {HEX_AREA_KM2:.0f} km².", "values": dens})
 
     # --- province lenses ---
-    for (lid, group, name, icon, emoji, unit, fmt, scale, hi, src, rmp, key, desc, note) in PROVINCE_LENSES:
-        vals = [None] * ncell
-        for i in land:
-            smp = [k for k in W.samples[i] if k >= 0]
-            xs = [st[iso[k]][key] for k in smp if st[iso[k]][key] is not None]
-            vals[i] = round_for(fmt, sum(xs) / len(xs)) if xs else None
-        lens = {"id": lid, "group": group, "name": name, "icon": icon, "emoji": emoji, "unit": unit, "format": fmt,
-                "scale": scale, "domain": pctl([v for v in vals if v is not None and (scale != "log" or v > 0)]),
-                "ramp": ramp(rmp), "higher_is": hi, "source": src, "description": desc, "values": vals}
-        if note:
-            lens["note"] = note
-        lenses.append(lens)
+    for level, table in (("63", PROVINCE_LENSES), ("34", STATE_LENSES)):
+        for (lid, group, name, icon, emoji, unit, fmt, scale, hi, src, rmp, key, year, desc, note) in table:
+            vals = [None] * ncell
+            for i in land:
+                if level == "34":
+                    vals[i] = round_for(fmt, states[owner_abbr[W.owner[i]]][key])
+                    continue
+                smp = [k for k in W.samples[i] if k >= 0]
+                xs = [st[iso[k]][key] for k in smp if st[iso[k]][key] is not None]
+                vals[i] = round_for(fmt, sum(xs) / len(xs)) if xs else None
+            lens = {"id": lid, "group": group, "name": name, "icon": icon, "emoji": emoji, "unit": unit, "format": fmt,
+                    "scale": scale, "domain": pctl([v for v in vals if v is not None and (scale != "log" or v > 0)]),
+                    "ramp": ramp(rmp), "higher_is": hi, "source": src, "year": year, "level": level,
+                    "description": desc, "values": vals}
+            if note:
+                lens["note"] = note
+            lenses.append(lens)
 
     # --- hazards: typhoons ---
     storm_vals, storms = typhoons(W)
@@ -213,7 +262,10 @@ def build():
                        "ramp": ramp(rmp), "higher_is": "neutral", "source": "worldcover",
                        "description": f"Share of the hex's land that ESA WorldCover 2021 classes as {name.lower()}.",
                        "values": vals})
-    write_web("lenses.json", {"vintage": "NSO Statistical Yearbook 2024; WorldPop 2025; ESA WorldCover 2021; IBTrACS",
+    order = {g["id"]: k for k, g in enumerate(GROUPS)}
+    lenses.sort(key=lambda l: order[l["group"]])  # stable: keeps each group's own order
+    write_web("lenses.json", {"vintage": "NSO Statistical Yearbook 2025 (some lenses 2024 or earlier; each lens states its year); "
+                                         "NSO monthly report Oct 2026; WorldPop 2025; ESA WorldCover 2021; IBTrACS",
                               "groups": GROUPS, "lenses": lenses})
 
     # --- counties.json: the 63 former provinces ---
@@ -227,23 +279,28 @@ def build():
     fields = [F("geoid", "Code", "text", "", "neutral", NSO, "ISO 3166-2:VN code of the former province."),
               F("name", "Former province", "text", "", "neutral", NSO, "Province or centrally-run city before 1 July 2025."),
               F("state", "Province (2025)", "text", "", "neutral", NSO, "The 2025 province it is part of."),
-              F("population", "Population", "int", "people", "neutral", NSO, "Average population, 2024."),
-              F("land_km2", "Area", "km2", "km²", "neutral", NSO, "Natural area, 2023 (NSO)."),
-              F("density", "Density", "int", "people / km²", "neutral", NSO, "Population ÷ area.", "density"),
-              F("income", "Income", "usd", "$ per person per year", "good", NSO, "Average income per person, 2024.", "income"),
-              F("gdp_pc", "GRDP per person", "usd", "$", "good", NSO, "GRDP per person, 2024.", "gdp_pc"),
-              F("poverty", "Poverty", "pct", "households", "bad", NSO, "Multidimensional poverty rate, 2024.", "poverty"),
-              F("urban", "Urban", "pct", "residents", "neutral", NSO, "Urban share of the population, 2024.", "urban"),
-              F("growth", "Growth", "pct", "2019–2024", "neutral", NSO, "Population change 2019–2024.", "growth"),
-              F("trained", "Trained workers", "pct", "labour force", "good", NSO, "Trained share of the labour force, 2024.", "trained"),
+              F("population", "Population", "int", "people", "neutral", NSO, "Average population, 2025 (preliminary)."),
+              F("land_km2", "Area", "km2", "km²", "neutral", NSO, "Natural area at 31 December 2023 (NSO Statistical Yearbook 2024)."),
+              F("density", "Density", "int", "people / km²", "neutral", NSO, "Population 2025 ÷ area.", "density"),
+              F("income", "Income", "usd", "$ per person per year", "good", NSO, "Average income per person, 2025.", "income"),
+              F("gdp_pc", "GRDP per person", "usd", "$", "good", NSO, "GRDP per person, 2025 (estimate).", "gdp_pc"),
+              F("grdp_growth", "GRDP growth 2025", "pct", "vs 2024", "good", NSO, "GRDP growth 2025 over 2024 at constant prices (estimate)."),
+              F("poverty", "Poverty", "pct", "households", "bad", NSO, "Multidimensional poverty rate, 2025 (preliminary).", "poverty"),
+              F("urban", "Urban", "pct", "residents", "neutral", NSO, "Urban share of the population, 2025.", "urban"),
+              F("growth", "Growth", "pct", "2019–2025", "neutral", NSO, "Population change 2019–2025.", "growth"),
+              F("trained", "Trained workers", "pct", "labour force", "good", NSO, "Trained share of the labour force, 2025.", "trained"),
               F("literacy", "Literacy", "pct", "15+", "good", NSO, "Literacy rate 15+, 2024.", "literacy"),
-              F("hdi", "HDI", "float", "0–1", "good", NSO, "Human Development Index, 2024.", "hdi"),
-              F("gini", "Gini", "float", "0–1", "bad", NSO, "Gini index of income, 2024.", "gini"),
-              F("unemployment", "Unemployment", "pct", "labour force", "bad", NSO, "Unemployment rate, 2024.", "unemployment"),
-              F("productivity", "Productivity", "usd", "$ per worker", "good", NSO, "GRDP per worker, 2024.", "productivity"),
-              F("fdi", "FDI 2024", "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024."),
+              F("it_skills", "IT skills", "pct", "people", "good", NSO, "People with information-technology skills, 2025.", "it_skills"),
+              F("hdi", "HDI 2024", "float", "0–1", "good", NSO, "Human Development Index, 2024 (the last year NSO published it for the 63 former provinces; the HDI lens shows 2025 by the 34 provinces)."),
+              F("gini", "Gini", "float", "0–1", "bad", NSO, "Gini index of income, 2025.", "gini"),
+              F("unemployment", "Unemployment", "pct", "labour force", "bad", NSO, "Unemployment rate, 2025.", "unemployment"),
+              F("internet", "Internet users", "pct", "people", "good", NSO, "People using the internet, 2025.", "internet"),
+              F("clean_water", "Clean water", "pct", "population", "good", NSO, "Population using a hygienic water source, 2025.", "clean_water"),
+              F("housing", "Permanent housing", "pct", "households", "good", NSO, "Households in a permanent house, 2024.", "housing"),
+              F("productivity", "Productivity", "usd", "$ per worker", "good", NSO, "GRDP per worker, 2025.", "productivity"),
+              F("fdi", "FDI 2024", "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024 (the last year published for the 63 former provinces; the FDI lens shows 2025 by the 34 provinces)."),
               F("students", "University students", "int", "students", "neutral", NSO, "University students, 2023."),
-              F("paddy", "Paddy rice", "int", "tonnes", "neutral", NSO, "Paddy production, 2024."),
+              F("paddy", "Paddy rice", "int", "tonnes", "neutral", NSO, "Paddy production, 2025 (preliminary)."),
               F("pci", "PCI 2022", "float", "0–100", "good", "pci", "Provincial Competitiveness Index 2022.", "pci"),
               F("cbsa", "City", "text", "", "neutral", NSO, "The map city standing for this former province."),
               F("cell", "Hex", "int", "", "neutral", NSO, "A representative hex (the city's banner hex)."),
@@ -259,12 +316,13 @@ def build():
         cells = [i for i in cells_of.get(k, []) if W.raw["cover"][i] > 0 and i not in remote]
         share = lambda key: round(sum(W.pct[key][i] for i in cells) / len(cells) / 100, 3) if cells else None
         rows.append([u["iso"], u["name"], W.states[W.old_new[k]], r["population"], r["area_km2"],
-                     round(r["population"] / r["area_km2"], 1), r["income"], r["gdp_pc"], r["poverty"],
+                     round(r["population"] / r["area_km2"], 1), r["income"], r["gdp_pc"], r["grdp_growth"], r["poverty"],
                      round(r["urban"], 4), round(r["growth"], 4) if r["growth"] is not None else None, r["trained"],
-                     r["literacy"], r["hdi"], r["gini"], r["unemployment"], r["productivity"], r["fdi"], r["students"],
+                     r["literacy"], r["it_skills"], r["hdi"], r["gini"], r["unemployment"], r["internet"],
+                     r["clean_water"], r["housing"], r["productivity"], r["fdi"], r["students"],
                      r["paddy"], r["pci"], u["iso"], cities[u["iso"]]["cell"], share("forest"), share("crop"),
                      share("developed"), storm_by_k.get(k)])
-    write_web("counties.json", {"vintage": "NSO Statistical Yearbook 2024", "fields": fields,
+    write_web("counties.json", {"vintage": "NSO Statistical Yearbook 2025 (2025 preliminary; HDI, FDI and literacy 2024, students 2023; each field states its year)", "fields": fields,
                                 "columns": [f["key"] for f in fields], "rows": rows})
     top = sorted(storms.values(), key=lambda s: -len(s["cells"]))
     save_interim("_storms", {"storms": storms, "radius_km": STORM_RADIUS_KM, "since": STORM_SINCE, "min_kt": STORM_MIN_KT})

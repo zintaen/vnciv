@@ -191,8 +191,11 @@ export function buildModel(app, city) {
   });
   const residentsSum = tiles.reduce((a, t) => a + (t.residents || 0), 0);
 
+  // The city's 2025 province: figures NSO publishes for the 34 provinces only (HDI and FDI 2025, doctors, …).
+  const province = states[0]?.index >= 0 ? app.data.states?.[states[0].index] || null : null;
+
   return {
-    city, N, nation, stateIdx, hexArea: area, stateRGB, states, footprint, mask, tiles, residentsSum,
+    city, N, nation, stateIdx, province, stateList: app.data.states || [], hexArea: area, stateRGB, states, footprint, mask, tiles, residentsSum,
     sites, siteCells, inds, gdpInds, free, districts: [], placed: [], inCity: [],
     bbox: Number.isFinite(x0) ? { x0, y0, x1, y1 } : null,
     peers,

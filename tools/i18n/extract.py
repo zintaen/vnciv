@@ -6,7 +6,7 @@ INCLUDE={
  'counties.json':[r'\.fields\[\]\.(description|label|unit)',r'\.vintage'],
  'disasters.json':[r'\.typhoons\.rule',r'\.vintage'],
  'districts.json':[r'\.catalog\[\]\.(badge\.label|description|name)',r'\.cities\.\*\.badge\.label',r'\.rule\.text',r'\.vintage'],
- 'infrastructure.json':[r'\.hubs\.\w+',r'\.rail_tiers\[\]\.name',r'\.road_classes\[\]\.name',r'\.rules\.\w+',r'\.vintage\.\w+'],
+ 'infrastructure.json':[r'\.hubs\.\w+',r'\.port_classes\[\]\.name',r'\.rail_tiers\[\]\.name',r'\.road_classes\[\]\.name',r'\.rules\.\w+',r'\.vintage\.\w+'],
  'lenses.json':[r'\.groups\[\]\.name',r'\.lenses\[\]\.(description|name|note|unit)',r'\.vintage'],
  'military.json':[r'\.caveats',r'\.components\[\]\.name',r'\.rule',r'\.rules\.\w+',r'\.vintage\.\w+'],
  'nation.json':[r'\.currency\.note',r'\.gdp_vintage',r'\.industries\.\w+',r'\.jobs_source',r'\.vintage',r'\.yields\[\]\.(description|label)'],

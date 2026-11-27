@@ -9,6 +9,7 @@ import { fin, ratio } from "./util.js";
 import { frameBox } from "./frame.js";
 import { fixed } from "../../../format.js";
 import { t as tr } from "../../../i18n.js";
+import { yearOf, yearText, plainYear, vnRef } from "./years.js";
 
 // The three levels for Vietnam: "states" = the 34 provinces of 2025, "metros" = the 63 cities, each standing for its
 // whole former province (pre-July 2025), and "counties" = those 63 former provinces (counties.json). Level ids keep
@@ -66,46 +67,96 @@ export function buildData(app) {
 
   const srcTitle = new Map(sources.map((s) => [s.id, s]));
   const nat = nation.nation || {};
-  const vintage = nation.vintage || "NSO Statistical Yearbook 2024";
+  const vintage = nation.vintage || "NSO Statistical Yearbook";
   const countyVintage = counties?.vintage || vintage;
-  const yrs = (nat.growth_years || []).join("–");
-  const V = tr(vintage);
+  const mainYear = String(nation.year || nat.gdp_year || "");
+  const fxYear = nation.currency?.fx_year || "";
   const NSO = "nso_yearbook";
+  const lensMeta = new Map((app.data.lenses?.lenses || []).map((l) => [l.id, l]));
 
   // --- fields ---------------------------------------------------------------------------------------------------
   // Label, unit and group are translated here (static English or data-file text); descriptions arrive translated.
-  const F = (key, label, format, o = {}) => ({ key, label: tr(label), format, unit: tr(o.unit) || null, higher_is: o.higher_is || "neutral", source: o.source || "", description: o.description || "", lens: o.lens || null, group: tr(o.group || "Economy"), derived: !!o.derived });
-  const vnFields = () => [
-    F("population", "Population", "int", { unit: "people", source: NSO, group: "People", description: tr("Average population ({v}).", { v: V }), lens: "density" }),
-    F("growth", "Growth", "signed", { unit: "population change", source: NSO, group: "People", description: tr("Population change {yrs} (NSO average population, on today's borders).", { yrs }), lens: "growth" }),
-    F("density", "Density", "int", { unit: "people / km²", source: NSO, group: "People", description: tr("Residents ÷ natural area ({v}).", { v: V }), lens: "density" }),
-    F("urban", "Urban share", "pct", { unit: "of residents", source: NSO, group: "People", description: tr("Share of residents living in urban areas ({v}).", { v: V }), lens: "urban" }),
-    F("gdp", "GRDP", "money", { unit: "$ per year", source: NSO, description: tr("{v}; US dollars at the World Bank 2024 rate.", { v: tr(nation.gdp_vintage || "NSO GRDP") }) }),
-    F("gdp_pc", "GRDP per person", "usd", { unit: "$ per resident", higher_is: "good", source: NSO, description: tr("GRDP ÷ residents ({v}).", { v: V }), lens: "gdp_pc" }),
-    F("median_income", "Income", "usd", { unit: "$ per person per year", higher_is: "good", source: NSO, group: "Prosperity", description: tr("Average income per person per year ({v}, household living standards survey).", { v: V }), lens: "income" }),
-    F("income_worker", "Worker income", "usd", { unit: "$ per worker per year", higher_is: "good", source: NSO, group: "Prosperity", description: tr("Average income of an employed worker per year ({v}, labour force survey).", { v: V }) }),
-    F("poverty", "Poverty", "pct", { unit: "of households", higher_is: "bad", source: NSO, group: "Prosperity", description: tr("Share of households under the multidimensional poverty standard ({v}).", { v: V }), lens: "poverty" }),
-    F("gini", "Gini", "float", { unit: "0–1", higher_is: "bad", source: NSO, group: "Prosperity", description: tr("Gini index of income inequality ({v}).", { v: V }), lens: "gini" }),
-    F("unemployment", "Unemployment", "pct", { unit: "of the labour force", higher_is: "bad", source: NSO, group: "Work", description: tr("Unemployed ÷ labour force aged 15+ ({v}).", { v: V }), lens: "unemployment" }),
-    F("labour_force", "Labour force", "int", { unit: "people 15+", source: NSO, group: "Work", description: tr("Labour force aged 15 and over ({v}).", { v: V }) }),
-    F("employed", "Employed", "int", { unit: "workers", source: NSO, group: "Work", description: tr("Employed workers aged 15+, where they live ({v}).", { v: V }) }),
-    F("productivity", "Productivity", "usd", { unit: "$ GRDP per worker", higher_is: "good", source: NSO, group: "Work", description: tr("GRDP per employed worker ({v}).", { v: V }), lens: "productivity" }),
-    F("trained", "Trained workers", "pct", { unit: "of the labour force", higher_is: "good", source: NSO, group: "Knowledge", description: tr("Share of the labour force with vocational or higher training and a certificate ({v}).", { v: V }), lens: "trained" }),
-    F("literacy", "Literacy", "pct", { unit: "of people 15+", higher_is: "good", source: NSO, group: "Knowledge", description: tr("Literacy rate of people aged 15+ ({v}).", { v: V }), lens: "literacy" }),
-    F("hdi", "HDI", "float", { unit: "0–1", higher_is: "good", source: NSO, group: "Knowledge", description: tr("Human Development Index ({v}).", { v: V }), lens: "hdi" }),
-    F("students", "University students", "int", { unit: "students", source: NSO, group: "Knowledge", description: tr("Students enrolled in the area's universities, 2023 ({v}).", { v: V }) }),
-    F("lecturers", "University lecturers", "int", { unit: "lecturers", source: NSO, group: "Knowledge", description: tr("University teaching staff, 2023 ({v}).", { v: V }) }),
-    F("fdi", "FDI 2024", "money", { unit: "$ registered", higher_is: "good", source: NSO, description: tr("Foreign direct investment newly registered in 2024 ({v}).", { v: V }), lens: "fdi" }),
-    F("fdi_projects", "FDI projects", "int", { unit: "projects", source: NSO, description: tr("New FDI projects licensed in 2024 ({v}).", { v: V }) }),
-    F("retail", "Retail sales", "money", { unit: "$ per year", source: NSO, description: tr("Retail sales of goods and services ({v}).", { v: V }) }),
-    F("tourism", "Travel & tours", "money", { unit: "$ per year", source: NSO, description: tr("Turnover of travel agencies and tour operators ({v}).", { v: V }) }),
-    F("paddy", "Paddy rice", "int", { unit: "tonnes", source: NSO, group: "Land", description: tr("Paddy rice harvested in 2024 ({v}, preliminary).", { v: V }) }),
-    F("pci", "PCI 2022", "float", { unit: "0–100", higher_is: "good", source: "pci", group: "Work", description: tr("Provincial Competitiveness Index 2022 (VCCI): how business-friendly the provincial government is."), lens: "pci" }),
-    F("area_km2", "Area", "km2", { unit: "km²", source: NSO, group: "Land", description: tr("Natural area ({v}).", { v: V }) }),
-  ];
-  const VN_KEYS = vnFields().map((f) => f.key);
-  const vnValues = (o) => {
-    const v = Object.fromEntries(VN_KEYS.map((k) => [k, o[k] ?? null]));
+  // Each field carries the year of its figures on that level (records' `years`); the label shows it when it is not
+  // the main year, or when the year differs between the provinces and the cities (HDI, FDI, enterprises).
+  const F = (key, label, format, o = {}) => ({ key, label: o.raw ? label : tr(label), format, unit: tr(o.unit) || null, higher_is: o.higher_is || "neutral", source: o.source || "", description: o.description || "", lens: o.lens || null, group: tr(o.group || "Economy"), derived: !!o.derived, year: o.year || null });
+  const sample = { states: states[0], metros: cities[0] };
+  const varies = (k) => plainYear(yearOf(states[0], k)) !== plainYear(yearOf(cities[0], k));
+  // Lens ids of the fields that have one (a lens is linked only when it shows the same level and year).
+  const LENS_OF = {
+    population: "density", density: "density", urban: "urban", growth: "growth", gdp_pc: "gdp_pc", median_income: "income", poverty: "poverty",
+    gini: "gini", unemployment: "unemployment", productivity: "productivity", trained: "trained", literacy: "literacy", hdi: "hdi", fdi: "fdi",
+    pci: "pci", internet: "internet", clean_water: "clean_water", housing: "housing", it_skills: "it_skills", enterprises_pk: "enterprises",
+    growth_9m2026: "growth_2026", industry_jobs_2026: "industry_jobs_2026", doctors_pk: "doctors", road_deaths: "road_deaths",
+    pupils_per_teacher: "pupils_per_teacher", forest_cover: "forest_cover",
+  };
+  const vnFields = (lv) => {
+    const rec = sample[lv];
+    const lensFor = (k) => {
+      const l = lensMeta.get(LENS_OF[k]);
+      if (!l) return null;
+      if (l.level === "34" && lv !== "states") return null;
+      if (l.year && k !== "population" && k !== "density" && plainYear(l.year) !== plainYear(yearOf(rec, k))) return null;
+      return l;
+    };
+    // f(key, label, format, o): o.d = description template with {v} (the year and NSO), or o.lensDesc to use the lens's.
+    const f = (key, label, format, o = {}) => {
+      const y = yearOf(rec, key);
+      const yt = yearText(y);
+      const l = lensFor(key);
+      const tag = y && !o.noTag && (plainYear(y) !== mainYear || varies(key)) ? ` (${yt})` : "";
+      const description = o.lensDesc && l ? tr(l.description) : o.d ? tr(o.d, { v: yt ? tr("NSO, {y}", { y: yt }) : tr("NSO") }) : "";
+      return F(key, `${tr(label)}${tag}`, format, { ...o, raw: true, source: o.source || NSO, description, lens: o.noLens ? null : l?.id || null, year: y });
+    };
+    const list = [
+      f("population", "Population", "int", { unit: "people", group: "People", d: "Average population ({v})." }),
+      f("growth", "Growth", "signed", { unit: "population change", group: "People", d: "Population change ({v}), NSO average population on today's borders." }),
+      f("density", "Density", "int", { unit: "people / km²", group: "People", d: "Residents ÷ natural area ({v})." }),
+      f("urban", "Urban share", "pct", { unit: "of residents", group: "People", d: "Share of residents living in urban areas ({v})." }),
+      f("gdp", "GRDP", "money", { unit: "$ per year", d: "GRDP at current prices ({v}), US dollars at the World Bank rate." }),
+      f("gdp_pc", "GRDP per person", "usd", { unit: "$ per resident", higher_is: "good", d: "GRDP ÷ residents ({v})." }),
+      f("grdp_growth", "GRDP growth", "signed", { unit: "vs the year before, constant prices", higher_is: "good", d: "GRDP growth over the year before at constant prices ({v}, estimate)." }),
+      f("median_income", "Income", "usd", { unit: "$ per person per year", higher_is: "good", group: "Prosperity", d: "Average income per person per year ({v}, household living standards survey)." }),
+      f("income_worker", "Worker income", "usd", { unit: "$ per worker per year", higher_is: "good", group: "Prosperity", d: "Average income of an employed worker per year ({v}, labour force survey)." }),
+      f("poverty", "Poverty", "pct", { unit: "of households", higher_is: "bad", group: "Prosperity", d: "Share of households under the multidimensional poverty standard ({v})." }),
+      f("gini", "Gini", "float", { unit: "0–1", higher_is: "bad", group: "Prosperity", d: "Gini index of income inequality ({v})." }),
+      f("unemployment", "Unemployment", "pct", { unit: "of the labour force", higher_is: "bad", group: "Work", d: "Unemployed ÷ labour force aged 15+ ({v})." }),
+      f("labour_force", "Labour force", "int", { unit: "people 15+", group: "Work", d: "Labour force aged 15 and over ({v})." }),
+      f("employed", "Employed", "int", { unit: "workers", group: "Work", d: "Employed workers aged 15+, where they live ({v})." }),
+      f("productivity", "Productivity", "usd", { unit: "$ GRDP per worker", higher_is: "good", group: "Work", d: "GRDP per employed worker ({v})." }),
+      f("trained", "Trained workers", "pct", { unit: "of the labour force", higher_is: "good", group: "Knowledge", d: "Share of the labour force with vocational or higher training and a certificate ({v})." }),
+      f("literacy", "Literacy", "pct", { unit: "of people 15+", higher_is: "good", group: "Knowledge", d: "Literacy rate of people aged 15+ ({v})." }),
+      f("it_skills", "IT skills", "pct", { unit: "people with information-technology skills", higher_is: "good", group: "Knowledge", lensDesc: true }),
+      f("students", "University students", "int", { unit: "students", group: "Knowledge", d: "Students enrolled in the area's universities ({v})." }),
+      f("lecturers", "University lecturers", "int", { unit: "lecturers", group: "Knowledge", d: "University teaching staff ({v})." }),
+      f("hdi", "HDI", "float", { unit: "0–1", higher_is: "good", group: "Quality of life", d: "Human Development Index ({v})." }),
+      f("internet", "Internet users", "pct", { unit: "people using the internet", higher_is: "good", group: "Quality of life", lensDesc: true }),
+      f("computer", "Households with a computer", "pct", { unit: "of households", higher_is: "good", group: "Quality of life", d: "Share of households with a computer ({v})." }),
+      f("clean_water", "Clean water", "pct", { unit: "population using a hygienic water source", higher_is: "good", group: "Quality of life", lensDesc: true }),
+      f("housing", "Permanent housing", "pct", { unit: "households living in a permanent house", higher_is: "good", group: "Quality of life", lensDesc: true }),
+      f("fdi", "FDI", "money", { unit: "$ registered", higher_is: "good", d: "Foreign direct investment newly registered ({v}).", noLens: lv !== "states" }),
+      f("fdi_projects", "FDI projects", "int", { unit: "projects", d: "New FDI projects licensed ({v})." }),
+      f("enterprises_pk", "Enterprises", "float", { unit: "active enterprises per 1,000 residents", higher_is: "good", d: "Active enterprises per 1,000 residents ({v})." }),
+      f("retail", "Retail sales", "money", { unit: "$ per year", d: "Retail sales of goods and services ({v})." }),
+      f("tourism", "Travel & tours", "money", { unit: "$ per year", d: "Turnover of travel agencies and tour operators ({v})." }),
+      f("paddy", "Paddy rice", "int", { unit: "tonnes", group: "Land", d: "Paddy rice harvested ({v})." }),
+      f("pci", "PCI", "float", { unit: "0–100", higher_is: "good", source: "pci", group: "Work", d: "Provincial Competitiveness Index (VCCI, {v}): how business-friendly the provincial government is." }),
+      f("area_km2", "Area", "km2", { unit: "km²", group: "Land", d: "Natural area ({v})." }),
+    ];
+    // Published for the 34 provinces only (since 2025): on the province level.
+    if (lv === "states") list.push(
+      f("growth_9m2026", "Growth, 9 months 2026 (est.)", "signed", { noTag: true, unit: "GRDP growth vs the first 9 months of 2025", higher_is: "good", source: "nso_monthly_2026", lensDesc: true }),
+      f("industry_jobs_2026", "Factory jobs 2026 (est.)", "signed", { noTag: true, unit: "industrial-enterprise jobs vs a year earlier", higher_is: "good", source: "nso_monthly_2026", lensDesc: true }),
+      f("doctors", "Doctors", "int", { unit: "doctors (State sector)", group: "Quality of life", d: "Doctors working in State-sector health facilities ({v})." }),
+      f("doctors_pk", "Doctors per 10,000", "float", { unit: "doctors per 10,000 people (State sector)", higher_is: "good", group: "Quality of life", lensDesc: true }),
+      f("road_deaths", "Road deaths", "float", { unit: "road traffic deaths per 100,000 people", higher_is: "bad", group: "Quality of life", lensDesc: true }),
+      f("pupils_per_teacher", "Pupils per teacher", "float", { unit: "pupils per teacher (general education)", higher_is: "bad", group: "Knowledge", lensDesc: true }),
+      f("forest_cover", "Forest cover (official)", "pct", { unit: "forest cover", group: "Land", lensDesc: true }),
+    );
+    return list;
+  };
+  const keysOf = (lv) => vnFields(lv).map((f) => f.key);
+  const vnValues = (o, keys) => {
+    const v = Object.fromEntries(keys.map((k) => [k, o[k] ?? null]));
     v.gdp = o.gdp ?? o.yields?.gold ?? null;
     v.gdp_pc = ratio(v.gdp, o.population);
     return v;
@@ -130,20 +181,21 @@ export function buildData(app) {
   });
 
   // --- provinces (states) ---------------------------------------------------------------------------------------
+  const stateKeys = keysOf("states"), cityKeys = keysOf("metros");
   const stateRows = (Array.isArray(states) ? states : []).map((s, idx) => ({
     key: s.abbr, name: s.name, sub: s.abbr, level: "states", ref: idx,
     v: {
-      name: s.name, abbr: s.abbr, former: (s.former || []).join(", "), ...vnValues(s),
+      name: s.name, abbr: s.abbr, former: (s.former || []).join(", "), ...vnValues(s, stateKeys),
       ...Object.fromEntries(LAND_KEYS.map((k) => [`land_${k}`, s.land?.[k] ?? null])),
       energy_mw: s.energy ? s.energy.total : null,
     },
   }));
   const landFields = LAND_KEYS.map((k) => F(`land_${k}`, LAND_EN[k], "pct", { unit: "share of land", source: "worldcover", group: "Land", description: tr(LAND_DESC[k]), lens: k === "forest" ? "forest" : k === "developed" ? "developed" : k === "crop" ? "farmland" : k === "wetland" ? "wetland" : null }));
-  const energyField = F("energy_mw", "Mapped power", "mw", { unit: "MW of mapped plants", source: "gppd", group: "Energy", description: tr("Capacity of the power plants mapped as resources (each type above its size threshold, data as of 2021): not the total generating capacity.") });
+  const energyField = F("energy_mw", "Mapped power", "mw", { unit: "MW of mapped plants", source: "osm_power", group: "Energy", description: tr("Capacity of the power plants mapped as resources (OpenStreetMap, each type above its size threshold): not the total generating capacity.") });
   const states_ = makeLevel({
     id: "states", label: tr("Provinces"), noun: tr("province"),
     rows: stateRows,
-    fields: [F("name", "Province", "text", { group: "Name" }), F("former", "Merged from", "text", { group: "Name", description: tr("The former provinces merged into this one on 1 July 2025.") }), ...vnFields(), ...landFields, energyField],
+    fields: [F("name", "Province", "text", { group: "Name" }), F("former", "Merged from", "text", { group: "Name", description: tr("The former provinces merged into this one on 1 July 2025.") }), ...vnFields("states"), ...landFields, energyField],
     highlight: (rows) => ({ states: new Set(rows.map((r) => r.ref)) }),
     rowAtCell: (cell) => (owner[cell] >= 0 ? stateRows[owner[cell]] || null : null),
     focus: (row) => app.selectState(row.ref, { fly: true }),
@@ -159,7 +211,7 @@ export function buildData(app) {
     key: c.id, name: c.name, sub: (c.states || []).join("–"), level: "metros", ref: c,
     v: {
       name: c.name, states: (c.states || []).join("–"), former: c.province_old || null,
-      ...vnValues(c), ...cityExtra(c), energy_mw: mwByMetro.get(c.id) ?? 0,
+      ...vnValues(c, cityKeys), ...cityExtra(c), energy_mw: mwByMetro.get(c.id) ?? 0,
     },
   }));
   const countyField = (k) => counties?.fields.find((f) => f.key === k);
@@ -168,7 +220,7 @@ export function buildData(app) {
   const metros = makeLevel({
     id: "metros", label: tr("Cities"), noun: tr("city"),
     rows: metroRows,
-    fields: [F("name", "City", "text", { group: "Name" }), F("states", "Province", "text", { group: "Name", description: tr("The 2025 province the city is in.") }), F("former", "Former province", "text", { group: "Name", description: tr("The pre-2025 province whose seat this city is; the city stands for all of it.") }), ...vnFields(), ...cityCountyFields, energyField],
+    fields: [F("name", "City", "text", { group: "Name" }), F("states", "Province", "text", { group: "Name", description: tr("The 2025 province the city is in.") }), F("former", "Former province", "text", { group: "Name", description: tr("The pre-2025 province whose seat this city is; the city stands for all of it.") }), ...vnFields("metros"), ...cityCountyFields, energyField],
     highlight: (rows, o = {}) => {
       const cells = new Set();
       for (const r of rows) for (const c of r.ref.footprint || [r.ref.cell]) cells.add(c);
@@ -225,7 +277,9 @@ export function buildData(app) {
 
   const countiesOffMap = counties_ ? counties_.rows.filter((r) => !counties_.cellsOf(r).length).length : 0; // no hex, not even a stand-in
   return {
-    app, nation, nat, vintage, countyVintage, countiesOffMap,
+    app, nation, nat, vintage, countyVintage, countiesOffMap, mainYear, fxYear,
+    /** Vietnam's figure of `key` for the year of a row's figure ({v, year}), or null. */
+    vn: (row, key) => vnRef(nation, row.level === "states" ? states[row.ref] : row.level === "metros" ? row.ref : null, key),
     levels: { states: states_, metros, counties: counties_ },
     stateCells, countyCells, cellMetro, metroByCity,
     items, typeById,
@@ -241,9 +295,10 @@ export function shortCounty(name) {
 function groupOf(k) {
   if (["population", "density", "urban", "growth"].includes(k)) return "People";
   if (["income", "gdp_pc", "poverty", "gini"].includes(k)) return "Prosperity";
-  if (["trained", "literacy", "hdi", "students"].includes(k)) return "Knowledge";
+  if (["hdi", "internet", "clean_water", "housing"].includes(k)) return "Quality of life";
+  if (["trained", "literacy", "it_skills", "students"].includes(k)) return "Knowledge";
   if (["unemployment", "productivity", "pci"].includes(k)) return "Work";
-  if (["fdi"].includes(k)) return "Economy";
+  if (["fdi", "grdp_growth"].includes(k)) return "Economy";
   if (["forest", "crop", "developed", "land_km2", "paddy"].includes(k)) return "Land";
   if (["name", "state", "metro"].includes(k)) return "Name";
   if (["disasters"].includes(k)) return "Hazards";
@@ -295,7 +350,7 @@ export async function extendData(data, names) {
 function extendDistricts(data, d) {
   const { metros } = data.levels;
   const cat = new Map((d.catalog || []).map((c) => [c.id, c]));
-  const vint = d.vintage || "NSO Statistical Yearbook 2024";
+  const vint = d.vintage || "NSO Statistical Yearbook";
   metros.addFields([
     F4("city_type", "City type", "text", { source: "nso_yearbook", group: "Districts", description: tr("The city's badge, named after its strongest district ({v}). Blank: no district passes.", { v: tr(vint) }) }),
     F4("districts", "Districts", "text", { source: "nso_yearbook", group: "Districts", description: `${tr("Districts the city qualifies for, strongest first.")} ${tr(d.rule?.text || "")}` }),
@@ -320,7 +375,7 @@ const CZ = [
 ];
 function extendCitizens(data, cz) {
   const { metros } = data.levels;
-  const vint = cz.vintage || "NSO Statistical Yearbook 2024";
+  const vint = cz.vintage || "NSO Statistical Yearbook";
   const rowDesc = cz.rows || {};
   metros.addFields([
     ...CZ.filter(([row, key]) => !(row === "residence" && key === "urban")).map(([row, key, lbl]) => F4(`cz_${key}`, lbl, "pct", {

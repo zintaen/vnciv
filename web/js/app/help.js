@@ -19,7 +19,7 @@ const ROWS = [
     [["/", `${MOD} K`], "Search cities and provinces"],
     [["L", "Shift L"], "Next / previous lens"],
     [["Legend"], "Hover or drag the scale to show only that range"],
-    [["R"], "Show or hide resources"],
+    [["R"], "Show or hide power plants"],
   ]],
   ["Panels", [
     [["?"], "This help"],

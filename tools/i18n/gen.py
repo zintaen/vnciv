@@ -1,4 +1,4 @@
-"""Build web/js/i18n/vi-data.js from the data files' strings and tools/i18n/vi-data.json (English → Vietnamese).
+"""Build web/js/i18n/vi-data.js from the data files' strings and tools/i18n/vi-data*.json (English → Vietnamese).
 
 python3 tools/i18n/gen.py           # writes vi-data.js; lists strings in web/data that still need a translation
 Add missing ones to vi-data.json (a proper name may map to itself) and run again.
@@ -11,7 +11,13 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from extract import candidates  # noqa: E402
 
 here = pathlib.Path(__file__).resolve().parent
-tr = json.loads((here / "vi-data.json").read_text(encoding="utf-8"))
+# vi-data.json plus any vi-data-*.json (one per workstream); a key in two files must have the same value
+tr = {}
+for f in sorted(here.glob("vi-data*.json")):
+    for k, v in json.loads(f.read_text(encoding="utf-8")).items():
+        if k in tr and tr[k] != v:
+            sys.exit(f"conflicting translation for {k!r} in {f.name}")
+        tr[k] = v
 c = candidates()
 missing = [k for k in c if not tr.get(k)]
 d = {k: tr[k] for k in c if tr.get(k)}

@@ -1,7 +1,7 @@
 // Shared building blocks for the city and province panels (both render into #city-panel).
 import { compact, dollars, esc, fixed, int, money, pct, yieldValue } from "../format.js";
 import { icon, glyph } from "./icon.js";
-import { t } from "../i18n.js";
+import { t, lang } from "../i18n.js";
 
 // Industry → a "district" glyph: SVG icons i-<key> from icons.js; these emoji are only the fallback.
 export const DISTRICT_ICON = {
@@ -33,38 +33,112 @@ export function yieldGrid(nation, yields, ranks = null, rankOf = 0) {
     .join("");
 }
 
-// One "value ▲ VN value" row. higherIsGood: true / false / null (neutral).
-export function statRow(ic, fallback, label, v, nv, fmt, higherIsGood) {
+// Field → its key in a record's `years` where the names differ.
+const YEAR_KEY = { median_income: "income", gdp_per_capita: "gdp_pc" };
+/** The year label of field f on a record ("2025", "2025 (prel.)", "2025-12-31", "9M2026"), or null. */
+export const yearOf = (o, f) => o?.years?.[YEAR_KEY[f] || f] ?? o?.years?.[f] ?? (f === "gdp" && o?.gdp_year != null ? String(o.gdp_year) : null);
+// "2025 (prel.)" → "2025": the label without its status, for "same year?" checks.
+const yearBase = (y) => String(y ?? "").replace(/\s*\(.*\)\s*$/, "");
+// The 4-digit year of a label ("VN 2025").
+export const yearNum = (y) => String(y ?? "").match(/\d{4}/)?.[0] ?? "";
+const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+/** A year label for display: "31/12/2025" (vi) / "31 Dec 2025" (en), "Jan–Sep 2026", "2025 (prel.)" translated. */
+export function fmtYear(y) {
+  if (y == null || y === "") return "";
+  const s = String(y);
+  let m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
+  if (m) return lang === "vi" ? `${+m[3]}/${+m[2]}/${m[1]}` : `${+m[3]} ${MON[+m[2] - 1]} ${m[1]}`;
+  m = /^(\d{1,2})M(\d{4})$/.exec(s);
+  if (m) return t("Jan–{mon} {y}", { mon: MON[+m[1] - 1], y: m[2], n: m[1] });
+  return s.replace("(prel.)", t("(prel.)")).replace("(est.)", t("(est.)"));
+}
+
+/**
+ * Vietnam's value of field f for the same year as record o's, as {v, y}, or null when NSO publishes none for that
+ * year: 2025 fields compare with the national 2025 rows, a former province's 2024 HDI/FDI with nation.cities_basis.
+ */
+export function nationalFor(o, n, f) {
+  const yo = yearOf(o, f);
+  if (yo == null) return null;
+  const yn = yearOf(n, f);
+  if (yn != null && yearBase(yn) === yearBase(yo) && n[f] != null) return { v: n[f], y: yn };
+  const b = n.cities_basis;
+  if (b && f in b && b[f] != null && String(b.year) === yearBase(yo)) return { v: b[f], y: String(b.year) };
+  return null;
+}
+
+// One "value ▲ VN 2025 value" row. higherIsGood: true / false / null (neutral). y = the value's year label,
+// ny = the national value's (the comparison is only ever made for the same year: see nationalFor).
+export function statRow(ic, fallback, label, v, nv, fmt, higherIsGood, y = "", ny = "", cmpText = null) {
   let cmp = "";
-  if (v != null && nv != null && nv !== 0) {
+  const vn = `VN${ny ? " " + yearNum(ny) : ""}`;
+  if (cmpText) cmp = `<span class="cmp">${cmpText}</span>`;
+  else if (v != null && nv != null && nv !== 0) {
     const ratio = v / nv;
     const cls = Math.abs(ratio - 1) < 0.03 || higherIsGood == null ? "" : (higherIsGood ? ratio >= 1 : ratio <= 1) ? "good" : "bad";
     // Within 3% of Vietnam's value reads as level: no arrow, no colour (the colour uses the same band).
     const arrow = Math.abs(ratio - 1) < 0.03 ? "≈" : ratio > 1 ? "▲" : "▼";
-    cmp = `<span class="cmp ${cls}">${arrow} VN ${fmt(nv)}</span>`;
+    cmp = `<span class="cmp ${cls}" title="${esc(t("Vietnam, {y}", { y: fmtYear(ny) }))}">${arrow} ${vn} ${fmt(nv)}</span>`;
   }
-  return `<div class="stat-row"><span class="sl">${icon(ic, fallback, { size: 14 })}${esc(t(label))}</span><span><b>${v == null ? "–" : fmt(v)}</b>${cmp}</span></div>`;
+  const yr = y ? ` <span class="muted sy" style="font-size:11px">${esc(fmtYear(y))}</span>` : "";
+  return `<div class="stat-row"><span class="sl">${icon(ic, fallback, { size: 14 })}<span>${esc(t(label))}${yr}</span></span><span><b>${v == null ? "–" : fmt(v)}</b>${cmp}</span></div>`;
+}
+
+/** statRow for field f of record o, with its year and Vietnam's same-year value. */
+export function fieldRow(o, n, f, ic, fallback, label, fmt, higherIsGood) {
+  const nat = nationalFor(o, n, f);
+  return statRow(ic, fallback, label, o[f], nat?.v, fmt, higherIsGood, yearOf(o, f), nat?.y);
 }
 
 const usd = dollars;
 const dec3 = (x) => fixed(x, 3);
+const signed = (x) => `${x >= 0 ? "+" : "−"}${fixed(Math.abs(x * 100), 1)}%`;
 
-// Living standards (cities and provinces share the fields; a missing one shows "–").
-export function amenities(o, n) {
-  return `
-    ${statRow("l-income", "💵", "Income per person / year", o.median_income, n.median_income, usd, true)}
-    ${statRow("l-amenities", "🌱", "Human development (HDI)", o.hdi, n.hdi, dec3, true)}
-    ${statRow("l-poverty", "🥣", "Households in poverty", o.poverty, n.poverty, (x) => pct(x), false)}
-    ${statRow("l-developed", "🏙", "Urban residents", o.urban, n.urban, (x) => pct(x, 0), null)}
-    ${statRow("l-degrees", "🎓", "Trained workers", o.trained, n.trained, (x) => pct(x, 0), true)}
-    ${statRow("unemployment", "😐", "Unemployment", o.unemployment, n.unemployment, (x) => pct(x), false)}`;
+// Living standards (cities and provinces share the fields; a missing one shows "–"). skip: fields shown elsewhere.
+export function amenities(o, n, skip = []) {
+  const rows = [
+    ["median_income", "l-income", "💵", "Income per person / year", usd, true],
+    ["hdi", "l-amenities", "🌱", "Human development (HDI)", dec3, true],
+    ["poverty", "l-poverty", "🥣", "Households in poverty", (x) => pct(x), false],
+    ["urban", "l-developed", "🏙", "Urban residents", (x) => pct(x, 0), null],
+    ["trained", "l-degrees", "🎓", "Trained workers", (x) => pct(x, 0), true],
+    ["unemployment", "unemployment", "😐", "Unemployment", (x) => pct(x), false],
+  ];
+  return rows.filter((r) => !skip.includes(r[0])).map(([f, ...a]) => fieldRow(o, n, f, ...a)).join("");
 }
 
-// Output and investment: GRDP, productivity, FDI.
-export function economyRows(o, n) {
+// FDI registered (a total): compared as a share of Vietnam's total for the same year.
+export function fdiRow(o, n) {
+  const nat = nationalFor(o, n, "fdi");
+  const y = yearOf(o, "fdi");
+  const share = o.fdi != null && nat?.v > 0
+    ? t("{p} of VN {y} ({v})", { p: pct(o.fdi / nat.v), y: yearNum(nat.y), v: money(nat.v) }) : null;
+  return statRow("l-income", "🏗️", "FDI registered", o.fdi, null, money, null, y, "", share);
+}
+
+// Output and investment: GRDP, growth, productivity, FDI. skip: fields shown elsewhere.
+export function economyRows(o, n, skip = []) {
   return `${gdpRow(o)}
-    ${statRow("l-income", "⚙️", "GRDP per worker", o.productivity, n.productivity, money, true)}
-    ${statRow("l-income", "🏗️", "FDI registered, 2024", o.fdi, null, money, null)}`;
+    ${fieldRow(o, n, "grdp_growth", "l-income", "📈", "GRDP growth", signed, true)}
+    ${fieldRow(o, n, "productivity", "l-income", "⚙️", "GRDP per worker", money, true)}
+    ${skip.includes("fdi") ? "" : fdiRow(o, n)}`;
+}
+
+// The 34-province-only indicators (NSO publishes them only for the provinces of 2025): HDI and FDI 2025,
+// doctors, forest cover, road deaths, enterprises, pupils per teacher, and the 2026 monthly estimates.
+export function latestRows(o, n) {
+  const f1 = (x) => fixed(x, 1);
+  return [
+    fieldRow(o, n, "hdi", "l-amenities", "🌱", "Human development (HDI)", dec3, true),
+    fdiRow(o, n),
+    fieldRow(o, n, "doctors_pk", "l-uninsured", "🩺", "Doctors per 10,000 people (State sector)", f1, true),
+    fieldRow(o, n, "forest_cover", "l-forest", "🌲", "Forest cover", (x) => pct(x), null),
+    fieldRow(o, n, "road_deaths", "l-poverty", "🚦", "Road deaths per 100,000 people", f1, false),
+    fieldRow(o, n, "enterprises_pk", "l-amenities", "🏢", "Active enterprises per 1,000 people", f1, true),
+    fieldRow(o, n, "pupils_per_teacher", "l-degrees", "🏫", "Pupils per teacher", (x) => fixed(x, 0), false),
+    fieldRow(o, n, "growth_9m2026", "l-income", "🚀", "GRDP growth, 9 months 2026 (est.)", signed, true),
+    fieldRow(o, n, "industry_jobs_2026", "l-income", "🏭", "Industrial jobs vs a year earlier", signed, true),
+  ].join("");
 }
 
 // Workforce by industry with location quotients vs. the nation ("specialisation"). limit = max rows (0 = all).
@@ -95,7 +169,7 @@ export function industries(o, nation, limit = 0) {
 
 export const gdpRow = (o) =>
   o.gdp != null
-    ? `<div class="stat-row"><span class="sl">${icon("y-gold", "💰", { size: 14 })}GRDP${o.gdp_year ? ` (${o.gdp_year})` : ""}</span><span><b>${money(o.gdp)}</b>${
+    ? `<div class="stat-row"><span class="sl">${icon("y-gold", "💰", { size: 14 })}GRDP${yearOf(o, "gdp") ? ` <span class="muted sy" style="font-size:11px">${esc(fmtYear(yearOf(o, "gdp")))}</span>` : ""}</span><span><b>${money(o.gdp)}</b>${
         o.population ? `<span class="cmp">${t("{v} per person", { v: money(o.gdp / o.population) })}</span>` : ""}</span></div>`
     : "";
 

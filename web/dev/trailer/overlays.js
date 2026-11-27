@@ -64,13 +64,17 @@ function star(ctx, cx, cy, R, r, fill) {
 }
 
 function emblem(ctx, x, y, r) {
-  ctx.beginPath(); ctx.arc(x, y, r + 3, 0, Math.PI * 2); ctx.fillStyle = "#120d06"; ctx.fill();
-  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2);
-  const g = ctx.createLinearGradient(x, y - r, x, y + r);
+  // the Vietnamese flag (3:2, red with a centred yellow star whose diameter is 3/5 of the height) in a gold frame
+  const h = r * 1.5, w = h * 1.5;
+  ctx.fillStyle = "#120d06";
+  ctx.fillRect(x - w / 2 - 4, y - h / 2 - 4, w + 8, h + 8);
+  const g = ctx.createLinearGradient(x, y - h / 2, x, y + h / 2);
   g.addColorStop(0, "#f1d690"); g.addColorStop(1, "#9c7633");
-  ctx.fillStyle = g; ctx.fill();
-  ctx.beginPath(); ctx.arc(x, y, r * 0.84, 0, Math.PI * 2); ctx.fillStyle = "#c8102e"; ctx.fill();
-  star(ctx, x, y + r * 0.04, r * 0.5, r * 0.21, "#ffcd00");
+  ctx.fillStyle = g;
+  ctx.fillRect(x - w / 2 - 2, y - h / 2 - 2, w + 4, h + 4);
+  ctx.fillStyle = "#da251d";
+  ctx.fillRect(x - w / 2, y - h / 2, w, h);
+  star(ctx, x, y + h * 0.03, h * 0.3, h * 0.3 * 0.382, "#ffff00");
 }
 
 // An ornamental rule: line – diamond – line.

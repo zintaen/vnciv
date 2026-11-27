@@ -66,7 +66,13 @@ export function siteDetail(it) {
 
 /** An airport name through the translated patterns: "Noi Bai International Airport" → "Sân bay quốc tế Noi Bai" (vi).
  *  "A / B" names are split; anything else is shown as it is. */
-export const airportName = (s) => String(s ?? "").split(" / ").map((p) => {
+// Official Vietnamese names (infrastructure.json name_vi, from Wikidata / Wikipedia tiếng Việt) by the English name;
+// filled by main.js when infrastructure.json loads.
+const AIRPORT_VI = new Map();
+export function setAirportNames(airports) {
+  for (const a of airports || []) if (a?.name && a.name_vi) AIRPORT_VI.set(a.name, a.name_vi);
+}
+export const airportName = (s) => (VI && AIRPORT_VI.get(s)) || String(s ?? "").split(" / ").map((p) => {
   const m = /^(.+?) (International Airport|Air Base|Airport)$/.exec(p);
   return m ? t(`{name} ${m[2]}`, { name: m[1] }) : p;
 }).join(" / ");

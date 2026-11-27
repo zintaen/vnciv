@@ -56,6 +56,12 @@ Q_UNIS = f"""SELECT ?s ?sLabel ?enLabel ?c ?inception ?students WHERE {{
   OPTIONAL {{ ?s wdt:P2196 ?students. }}
   OPTIONAL {{ ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }}
   {WD_LABEL} }}"""
+# Airports by IATA code: the Vietnamese label is the name shown in Vietnamese (OurAirports names are English, unaccented)
+Q_AIRPORTS = """SELECT ?s ?iata ?viLabel ?enLabel ?viTitle WHERE {
+  ?s wdt:P238 ?iata; wdt:P17 wd:Q881.
+  OPTIONAL { ?a schema:about ?s; schema:isPartOf <https://vi.wikipedia.org/>; schema:name ?viTitle }
+  OPTIONAL { ?s rdfs:label ?viLabel FILTER(lang(?viLabel) = "vi") }
+  OPTIONAL { ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") } }"""
 Q_PORTS = f"""SELECT ?s ?sLabel ?enLabel ?c WHERE {{
   ?s wdt:P31/wdt:P279* wd:Q44782; wdt:P17 wd:Q881; wdt:P625 ?c.
   OPTIONAL {{ ?s rdfs:label ?enLabel FILTER(lang(?enLabel) = "en") }}
@@ -187,6 +193,14 @@ SOURCES = [
                 ("https://vi.wikipedia.org/w/api.php?action=query&generator=links&titles=" + urllib.parse.quote(VI_PARKS) +
                  "&gplnamespace=0&gpllimit=max&prop=pageprops&ppprop=wikibase_item&redirects=1&format=json&formatversion=2",
                  "parks_links.json")]),
+    dict(id="wikipedia_vi_universities", title="Đại học (Việt Nam)", publisher="Wikipedia tiếng Việt",
+         homepage="https://vi.wikipedia.org/wiki/" + urllib.parse.quote("Đại học (Việt Nam)"), license="CC BY-SA 4.0",
+         description="The article on Vietnam's multi-campus universities (đại học): it names the national universities "
+         "and the regional universities (đại học vùng). The Law on Higher Education defines the type but names no "
+         "university; each is set up by a Government or Prime Minister decision.",
+         used_for=["Wonders: which national and regional universities"],
+         files=[("https://vi.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=" +
+                 urllib.parse.quote("Đại học (Việt Nam)") + "&redirects=1&format=json&formatversion=2", "dai_hoc_viet_nam.json")]),
     dict(id="openflights_routes", title="OpenFlights route database", publisher="OpenFlights.org",
          homepage="https://openflights.org/data", license="Open Database License (ODbL)",
          description="Airline routes as of June 2014 (the last update): each row is one airline flying one airport "
@@ -202,11 +216,12 @@ SOURCES = [
                  "&prop=wikitext&format=json&formatversion=2", "busiest_airports.json")]),
     dict(id="wikidata", title="Wikidata", publisher="Wikimedia Foundation", homepage="https://www.wikidata.org/",
          license="CC0", description="Coordinates and facts for World Heritage sites, national parks, universities, "
-         "ports, landmarks and the islands of Hoàng Sa and Trường Sa, by SPARQL query.",
+         "ports, airports (Vietnamese names), landmarks and the islands of Hoàng Sa and Trường Sa, by SPARQL query.",
          used_for=["Wonders", "Universities", "National-park positions", "Port positions (where OpenStreetMap has none)",
-                   "Hoàng Sa and Trường Sa islands"],
+                   "Hoàng Sa and Trường Sa islands", "Vietnamese airport names",
+                   "Special national relic positions (where the relic's article has no coordinates)"],
          files=[(sparql(Q_HERITAGE), "heritage.json"), (sparql(Q_PARKS), "parks.json"), (sparql(Q_UNIS), "universities.json"),
-                (sparql(Q_PORTS), "ports.json"),
+                (sparql(Q_PORTS), "ports.json"), (sparql(Q_AIRPORTS), "airports.json"),
                 (sparql(Q_LANDMARKS), "landmarks.json"), (sparql(Q_ARCHIPELAGO), "archipelago.json")]),
 ]
 

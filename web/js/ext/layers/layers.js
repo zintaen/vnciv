@@ -11,7 +11,7 @@ import { drawRoads, drawRail, drawPort, drawAirport, drawTradeRoutes, hitRoute, 
 import { drawFort, drawRestricted, drawProtected, drawWonder, drawPlaque } from "../../render/art/sites.js";
 import { visibleSites, siteSize, hitSites } from "./model.js";
 import { esc } from "../../format.js";
-import { t } from "../../i18n.js";
+import { t, lang } from "../../i18n.js";
 
 const inVp = (it, vp, padKm) => it.x > vp.x0 - padKm && it.x < vp.x1 + padKm && it.y > vp.y0 - padKm && it.y < vp.y1 + padKm;
 
@@ -211,7 +211,7 @@ export function makeLayers(model, on, { tips = {}, app = null } = {}) {
       if (busy.size && (busy.has(it.drawCell) || busy.has(g.cellAt(it.x, it.y)))) continue;
       const [sx, sy] = o.toScreen(it.x, it.y);
       const size = siteSize(it, o.Rpx);
-      const text = it.data.short || it.data.name || "";
+      const text = (lang !== "vi" && it.data.short_en) || it.data.short || it.data.name || ""; // short_en: "VNU Hà Nội" for "ĐHQG Hà Nội"
       if (!text) continue;
       const kind = it.kind === "fort" ? "fort" : it.wkind;
       const y = sy + size * 0.42;

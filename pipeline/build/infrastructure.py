@@ -88,7 +88,8 @@ RULES = {
              "order. Vietnam's port throughput statistics are not published as open data, so ports carry no tonnage.",
     "airports": "Every Vietnamese airport with scheduled service and an IATA code (OurAirports), with yearly passengers "
                 "from Airports Corporation of Vietnam figures compiled on Wikipedia. Hub class by passengers: major 10M+, "
-                "medium 2–10M, small 0.5–2M, local under 0.5M.",
+                "medium 2–10M, small 0.5–2M, local under 0.5M. Vietnamese names: the title of the airport's Wikipedia "
+                "tiếng Việt article linked from Wikidata (by IATA code), else its Wikidata Vietnamese label.",
 }
 
 
@@ -235,6 +236,21 @@ def airport_passengers():
     return out
 
 
+def airport_names_vi():
+    """{IATA: Vietnamese name} from Wikidata: the vi Wikipedia article's title, else the vi label. Where two items
+    share a code (an old air base and the airport), the one whose English label is OurAirports' name wins."""
+    from ..admin import fold as fold_
+    fold = lambda s: fold_((s or "").split(" / ")[0]).strip()
+    rows = json.loads((RAW / "wikidata" / "airports.json").read_text())["results"]["bindings"]
+    by = defaultdict(list)
+    for r in rows:
+        vi = r.get("viTitle", r.get("viLabel", {})).get("value")
+        if vi and not vi.startswith("Dự án"):  # "Dự án …" (a planned airport) is not the operating airport's name
+            by[r["iata"]["value"]].append((fold(r.get("enLabel", {}).get("value")), vi))
+    return lambda iata, name_en: next((vi for en, vi in by[iata] if en == fold(name_en)),
+                                      by[iata][0][1] if len(by[iata]) == 1 else None)
+
+
 def build():
     W = World()
     roads = build_roads(W, json.loads((RAW / "osm_roads" / "roads.json").read_text())["elements"])
@@ -244,6 +260,7 @@ def build():
     ports = build_ports(W)
 
     pax = airport_passengers()
+    name_vi = airport_names_vi()
     from ..admin import old_units
     SEAT = {u["iso"]: u["name"] for u in old_units()}  # where an airport is: its former province (OurAirports municipality strings are messy)
     airports = []
@@ -261,7 +278,8 @@ def build():
                 pl["cell"] = site_cell(W, pl["x"], pl["y"], 2, county=k) or pl["cell"]
         n, year = pax.get(r["iata_code"], (None, None))
         hub = None if n is None else "L" if n >= 1e7 else "M" if n >= 2e6 else "S" if n >= 5e5 else "N"
-        airports.append({"id": r["iata_code"], "name": r["name"], "city": SEAT[pl["cbsa"]], "hub": hub,
+        airports.append({"id": r["iata_code"], "name": r["name"], "name_vi": name_vi(r["iata_code"], r["name"]),
+                         "city": SEAT[pl["cbsa"]], "hub": hub,
                          "enplanements": n, "enplanements_prev": None, "cargo_lbs": None, "year": year, **pl})
     airports.sort(key=lambda a: -(a["enplanements"] or 0))
     print(f"    {len(ports)} ports, {len(airports)} airports ({sum(a['enplanements'] is not None for a in airports)} with passengers)")

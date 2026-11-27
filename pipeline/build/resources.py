@@ -17,6 +17,7 @@ SRC = "osm_power"
 PLANT_MIN = {"hydro": 100, "coal_plant": 300, "gas_plant": 300, "oil_plant": 100}
 CLUSTER_MIN = {"solar": 40, "wind": 30}
 FILL_KM = 3  # a GPPD plant of the same fuel this close to an OSM plant without a capacity tag lends it its capacity
+NAMED_KM = 30  # ... unless OSM maps a same-fuel plant of the same name this close (then it is that plant)
 FUEL = {"hydro": "hydro", "coal": "coal_plant", "gas": "gas_plant", "oil": "oil_plant", "diesel": "oil_plant",
         "solar": "solar", "wind": "wind"}
 GPPD_FUEL = {"Hydro": "hydro", "Coal": "coal_plant", "Gas": "gas_plant", "Oil": "oil_plant", "Solar": "solar", "Wind": "wind"}
@@ -95,9 +96,16 @@ def osm_plants():
     # each GPPD plant pairs once with the nearest OSM plant of its fuel whose name shares a word with it (or that has no
     # name), greedy by distance; it lends its capacity (and name) only when that OSM plant has none, so a plant OSM
     # already has never lends to a neighbour
-    pairs = sorted((km(p["lonlat"], (float(r["longitude"]), float(r["latitude"]))), i, j)
+    # A GPPD plant that OSM maps under its own name within NAMED_KM is that plant: it never lends to an unnamed
+    # neighbour (GPPD's 420 MW "Dau Tieng" sits 11 km from OSM's 500 MWp Dầu Tiếng complex, 3 km from a tiny
+    # unnamed array that would otherwise take its capacity, counting the complex twice).
+    gkm = lambda p, r: km(p["lonlat"], (float(r["longitude"]), float(r["latitude"])))
+    named = {j for j, r in enumerate(gppd) for p in out if p["name"] and GPPD_FUEL[r["primary_fuel"]] == p["type"]
+             and core(p["name"]) and core(p["name"]) == core(r["name"]) and gkm(p, r) < NAMED_KM}
+    pairs = sorted((gkm(p, r), i, j)
                    for i, p in enumerate(out) for j, r in enumerate(gppd)
-                   if GPPD_FUEL[r["primary_fuel"]] == p["type"] and same_name(p["name"], r["name"]))
+                   if GPPD_FUEL[r["primary_fuel"]] == p["type"] and same_name(p["name"], r["name"])
+                   and (p["name"] or j not in named))
     used_p, used_g = set(), set()
     for d, i, j in pairs:
         if d > FILL_KM:

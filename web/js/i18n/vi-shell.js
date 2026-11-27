@@ -52,15 +52,9 @@ export default {
   "How it's built": "Cách xây dựng",
   "Vietnam is projected (Albers equal-area) and cut into {cols}×{rows} hexes, each {km} km corner to corner (about {area} km²). Each hex belongs to the province and former province under most of its sample points. Terrain comes from elevation samples and land-cover pixels inside each hex. Hoàng Sa (Paracel) and Trường Sa (Spratly) islands, far smaller than a hex, are shown by the hexes at their centres, as part of Đà Nẵng and Khánh Hòa.":
     "Việt Nam được chiếu theo phép chiếu đồng diện tích Albers và chia thành {cols}×{rows} ô lục giác, mỗi ô rộng {km} km từ góc này sang góc kia (khoảng {area} km²). Mỗi ô thuộc về tỉnh và tỉnh cũ chứa phần lớn các điểm mẫu của nó. Địa hình lấy từ các mẫu độ cao và điểm ảnh lớp phủ đất trong từng ô. Quần đảo Hoàng Sa và Trường Sa, nhỏ hơn nhiều so với một ô, được thể hiện bằng các ô tại trung tâm của chúng, thuộc Đà Nẵng và Khánh Hòa.",
-  "<b>Provinces</b> are the 34 provinces and centrally-run cities created on 1 July 2025. Vietnam's statistics are still published for the 63 <b>former provinces</b> they were merged from, so every province number is a sum (or a population-weighted average) of its former provinces.":
-    "<b>Tỉnh</b> là 34 tỉnh và thành phố trực thuộc trung ương được thành lập ngày 1/7/2025. Số liệu thống kê của Việt Nam vẫn được công bố theo 63 <b>tỉnh cũ</b> đã hợp nhất thành chúng, nên mỗi con số của tỉnh là tổng (hoặc trung bình có trọng số theo dân số) của các tỉnh cũ.",
   "<b>Cities</b> are the 63 seats of the former provinces. Like a metro area in a strategy game, each city stands for its whole former province: its banner numbers cover the province, not just the town.":
     "<b>Thành phố</b> là 63 tỉnh lỵ của các tỉnh cũ. Như một vùng đô thị trong trò chơi chiến thuật, mỗi thành phố đại diện cho cả tỉnh cũ của nó: các con số trên biển tên tính cho cả tỉnh, không chỉ riêng đô thị.",
-  "Money is shown in US dollars, converted at the World Bank's official rate for {year} ({fx} ₫ per $).":
-    "Tiền được tính bằng đô la Mỹ, quy đổi theo tỷ giá chính thức của Ngân hàng Thế giới năm {year} ({fx} ₫ mỗi $).",
   "Controls": "Điều khiển",
-  "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search · L to cycle lenses · R to show or hide resources · ? for all shortcuts · Esc to close.":
-    "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm · L để chuyển bản đồ chủ đề · R để hiện hoặc ẩn tài nguyên · ? để xem mọi phím tắt · Esc để đóng.",
   "The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.":
     "Thanh địa chỉ luôn chứa liên kết tới những gì bạn đang xem (bản đồ chủ đề, lựa chọn và góc nhìn); dùng <i>Chia sẻ</i> để sao chép liên kết hoặc tải ảnh.",
   "Yields": "Sản lượng",
@@ -69,8 +63,6 @@ export default {
   "Work &amp; income": "Việc làm &amp; thu nhập",
   "Unemployment = unemployed ÷ labour force in working age (Labour Force Survey). Income is the average monthly income per person from the Household Living Standards Survey, × 12: per person, not per household.":
     "Thất nghiệp = số người thất nghiệp ÷ lực lượng lao động trong độ tuổi lao động (Điều tra Lao động – Việc làm). Thu nhập là thu nhập bình quân đầu người một tháng từ Khảo sát Mức sống Hộ gia đình, × 12: tính theo người, không theo hộ.",
-  "Click any land hex without a city to open its province. A province's numbers add up its former provinces ({vintage}); rates are averages weighted by population (or by labour force for work rates).":
-    "Bấm vào ô đất liền không có thành phố để mở tỉnh của ô đó. Số liệu của tỉnh là tổng các tỉnh cũ ({vintage}); các tỷ lệ là trung bình có trọng số theo dân số (hoặc theo lực lượng lao động với các tỷ lệ việc làm).",
   "<b>Ranks</b> (\"#3 of {n}\") compare the {n} provinces; 1 is the largest.":
     "<b>Thứ hạng</b> (\"#3/{n}\") so sánh {n} tỉnh; hạng 1 là lớn nhất.",
   "This data build has no states.json, so province panels show names and cities only.":
@@ -98,9 +90,6 @@ export default {
   "linear": "tuyến tính",
   "higher is better": "càng cao càng tốt",
   "higher is worse": "càng cao càng xấu",
-  "This data build has no resources layer.": "Bản dữ liệu này không có lớp tài nguyên.",
-  "Resources mark the country's biggest power plants on the tiles where they are. Only meaningful sites are shown: each type's threshold is in its description. When zoomed out, a hex shows its highest-ranked resource; zoom in to see more. Press <b>R</b> to show or hide them.":
-    "Tài nguyên đánh dấu các nhà máy điện lớn nhất cả nước trên ô nơi chúng đặt. Chỉ hiện những điểm đáng kể: ngưỡng của mỗi loại ghi trong phần mô tả. Khi thu nhỏ, mỗi ô chỉ hiện tài nguyên xếp hạng cao nhất; phóng to để xem thêm. Nhấn <b>R</b> để hiện hoặc ẩn.",
   "Energy": "Năng lượng",
   "Minerals": "Khoáng sản",
   "Agriculture": "Nông nghiệp",
@@ -179,11 +168,10 @@ export default {
   // --- search ---
   "Search": "Tìm kiếm",
   "Province": "Tỉnh/thành",
-  "No city or province matches “{q}”": "Không có thành phố hay tỉnh nào khớp “{q}”",
+  "No place, commune, city or province matches “{q}”": "Không có địa danh, xã phường, thành phố hay tỉnh nào khớp “{q}”",
 
   // --- share dialog and image ---
   "A strategy-map atlas of the real economy": "Tập bản đồ chiến thuật về nền kinh tế thật",
-  "Land cover, relief, rivers and resources": "Lớp phủ đất, địa hình, sông ngòi và tài nguyên",
   "CITY": "THÀNH PHỐ",
   "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors":
     "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © những người đóng góp OpenStreetMap",
@@ -211,12 +199,10 @@ export default {
   "Air routes": "Đường bay",
   "Expressways and national roads (OpenStreetMap, November 2026)": "Đường cao tốc và quốc lộ (OpenStreetMap, tháng 11/2026)",
   "The North–South railway and branch lines (OpenStreetMap, November 2026)": "Đường sắt Bắc – Nam và các tuyến nhánh (OpenStreetMap, tháng 11/2026)",
-  "The 34 seaports of Decision 804/QĐ-TTg (port areas from OpenStreetMap) and airports with scheduled flights, sized by passengers (ACV)": "34 cảng biển theo Quyết định 804/QĐ-TTg (khu bến từ OpenStreetMap) và các sân bay có chuyến bay thường lệ, kích thước theo lượng hành khách (ACV)",
   "People's Army sites mapped in OpenStreetMap as forts; the largest as restricted ground":
     "Các địa điểm của Quân đội nhân dân trên OpenStreetMap, vẽ thành pháo đài; nơi lớn nhất vẽ thành khu vực cấm",
   "UNESCO World Heritage sites, national parks, the national and regional universities, landmarks":
     "Di sản thế giới UNESCO, vườn quốc gia, các đại học quốc gia và vùng, địa danh tiêu biểu",
-  "The 30 domestic air routes flown by the most airlines (OpenFlights, 2014)": "30 đường bay nội địa có nhiều hãng khai thác nhất (OpenFlights, 2014)",
 
   // --- map tooltips (ext/layers/tips.js) ---
   "Drawn on the next hex so it stays visible; its true location falls in the city hex of {name}.":
@@ -232,9 +218,6 @@ export default {
   "Seaport": "Cảng biển",
   "River port": "Cảng sông",
   "Port": "Cảng",
-  "<b>{n}</b> tonnes ({year})": "<b>{n}</b> tấn ({year})",
-  "Ports and terminals listed in Wikidata. Vietnam's port cargo statistics are not published as open data, so ports are not sized by tonnage.":
-    "Cảng và bến được liệt kê trên Wikidata. Thống kê hàng hóa qua cảng của Việt Nam không được công bố dưới dạng dữ liệu mở, nên kích thước cảng không theo sản lượng.",
   "<b>{n}</b> passengers in {year}": "<b>{n}</b> hành khách năm {year}",
   "Passengers: Airports Corporation of Vietnam (ACV) figures compiled on Wikipedia. Location: OurAirports.":
     "Hành khách: số liệu của Tổng công ty Cảng hàng không Việt Nam (ACV) tổng hợp trên Wikipedia. Vị trí: OurAirports.",
@@ -280,7 +263,6 @@ export default {
   "Place names": "Địa danh",
   "Islands (including Hoàng Sa and Trường Sa) and towns beyond the city banners": "Các đảo (kể cả Hoàng Sa và Trường Sa) và các thị xã, thị trấn ngoài các thành phố trên bản đồ",
   "({owner}, Vietnam)": "({owner}, Việt Nam)",
-  "Show or hide resources (R)": "Hiện/ẩn tài nguyên (R)",
   // --- Layers menu sections, power plants, air routes vintage ---
   "Transport": "Giao thông",
   "Culture": "Văn hóa",

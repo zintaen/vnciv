@@ -7,7 +7,7 @@ import { createTable } from "../core/table.js";
 import { section, tiles, segmented, mapPicker, sourcesHtml } from "../core/view.js";
 import { rowsHighlight } from "../core/data.js";
 import { frameBox, focusPoint } from "../core/frame.js";
-import { t as tr } from "../../../i18n.js";
+import { t as tr, lang } from "../../../i18n.js";
 
 const KIND = {
   natural: { label: tr("Nature"), color: "#6aa84f" },
@@ -24,7 +24,7 @@ export async function mount(ctx) {
   const lensDis = app.lensById?.get("disasters");
 
   // --- headline -------------------------------------------------------------------------------------------------
-  const wonders = (won?.wonders || []).map((w) => ({ ...w, key: w.id }));
+  const wonders = (won?.wonders || []).map((w) => ({ ...w, key: w.id, short: (lang !== "vi" && w.short_en) || w.short }));
   const byKind = (k) => wonders.filter((w) => w.kind === k).length;
   const byRule = (id) => wonders.filter((w) => w.rule === id).length;
   const tileEl = mk("div");

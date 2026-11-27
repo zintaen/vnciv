@@ -283,13 +283,18 @@ def build():
     for k, cells in cells_of.items():
         xs = [storm_vals[i] for i in cells if storm_vals[i] is not None and i not in remote]
         storm_by_k[k] = round(sum(xs) / len(xs)) if xs else None
+    # A field from another year than the 2025 main one says so in its label, "Literacy (2024)", as the Explorer
+    # labels the same field of the cities and provinces.
+    yrs = load_interim("_stats")["years"]
+    yl = lambda label, key: f"{label} ({yrs[key]})"
+    assert yrs["area_km2"].endswith("-12-31"), yrs["area_km2"]
     F = lambda key, label, fmt, unit, hi, src, desc, lens=None: {"key": key, "label": label, "format": fmt, "unit": unit,
                                                                   "higher_is": hi, "source": src, "description": desc, "lens": lens}
     fields = [F("geoid", "Code", "text", "", "neutral", NSO, "ISO 3166-2:VN code of the former province."),
               F("name", "Former province", "text", "", "neutral", NSO, "Province or centrally-run city before 1 July 2025."),
               F("state", "Province (2025)", "text", "", "neutral", NSO, "The 2025 province it is part of."),
               F("population", "Population", "int", "people", "neutral", NSO, "Average population, 2025 (preliminary)."),
-              F("land_km2", "Area", "km2", "km²", "neutral", NSO, "Natural area at 31 December 2023 (NSO Statistical Yearbook 2024)."),
+              F("land_km2", f"Area (31 Dec {yrs['area_km2'][:4]})", "km2", "km²", "neutral", NSO, "Natural area at 31 December 2023 (NSO Statistical Yearbook 2024)."),
               F("density", "Density", "int", "people / km²", "neutral", NSO, "Population 2025 ÷ area.", "density"),
               F("income", "Income", "usd", "$ per person per year", "good", NSO, "Average income per person, 2025.", "income"),
               F("gdp_pc", "GRDP per person", "usd", "$", "good", NSO, "GRDP per person, 2025 (estimate).", "gdp_pc"),
@@ -298,19 +303,19 @@ def build():
               F("urban", "Urban", "pct", "residents", "neutral", NSO, "Urban share of the population, 2025.", "urban"),
               F("growth", "Growth", "pct", "2019–2025", "neutral", NSO, "Population change 2019–2025.", "growth"),
               F("trained", "Trained workers", "pct", "labour force", "good", NSO, "Trained share of the labour force, 2025.", "trained"),
-              F("literacy", "Literacy", "pct", "15+", "good", NSO, "Literacy rate 15+, 2024.", "literacy"),
+              F("literacy", yl("Literacy", "literacy"), "pct", "15+", "good", NSO, "Literacy rate 15+, 2024.", "literacy"),
               F("it_skills", "IT skills", "pct", "people", "good", NSO, "People with information-technology skills, 2025.", "it_skills"),
-              F("hdi", "HDI 2024", "float", "0–1", "good", NSO, "Human Development Index, 2024 (the last year NSO published it for the 63 former provinces; the HDI lens shows 2025 by the 34 provinces)."),
+              F("hdi", yl("HDI", "hdi"), "float", "0–1", "good", NSO, "Human Development Index, 2024 (the last year NSO published it for the 63 former provinces; the HDI lens shows 2025 by the 34 provinces)."),
               F("gini", "Gini", "float", "0–1", "bad", NSO, "Gini index of income, 2025.", "gini"),
               F("unemployment", "Unemployment", "pct", "labour force", "bad", NSO, "Unemployment rate, 2025.", "unemployment"),
               F("internet", "Internet users", "pct", "people", "good", NSO, "People using the internet, 2025.", "internet"),
               F("clean_water", "Clean water", "pct", "population", "good", NSO, "Population using a hygienic water source, 2025.", "clean_water"),
-              F("housing", "Permanent housing", "pct", "households", "good", NSO, "Households in a permanent house, 2024.", "housing"),
+              F("housing", yl("Permanent housing", "housing"), "pct", "households", "good", NSO, "Households in a permanent house, 2024.", "housing"),
               F("productivity", "Productivity", "usd", "$ per worker", "good", NSO, "GRDP per worker, 2025.", "productivity"),
-              F("fdi", "FDI 2024", "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024 (the last year published for the 63 former provinces; the FDI lens shows 2025 by the 34 provinces)."),
-              F("students", "University students", "int", "students", "neutral", NSO, "University students, 2023."),
+              F("fdi", yl("FDI", "fdi"), "usd", "$", "neutral", NSO, "Foreign direct investment registered in 2024 (the last year published for the 63 former provinces; the FDI lens shows 2025 by the 34 provinces)."),
+              F("students", yl("University students", "students"), "int", "students", "neutral", NSO, "University students, 2023."),
               F("paddy", "Paddy rice", "int", "tonnes", "neutral", NSO, "Paddy production, 2025 (preliminary)."),
-              F("pci", "PCI 2022", "float", "0–100", "good", "pci", "Provincial Competitiveness Index 2022.", "pci"),
+              F("pci", yl("PCI", "pci"), "float", "0–100", "good", "pci", "Provincial Competitiveness Index 2022.", "pci"),
               F("cbsa", "City", "text", "", "neutral", NSO, "The map city standing for this former province."),
               F("cell", "Hex", "int", "", "neutral", NSO, "A representative hex (the city's banner hex)."),
               F("forest", "Forest", "pct", "of land", "neutral", "worldcover", "WorldCover forest share.", "forest"),

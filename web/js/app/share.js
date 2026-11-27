@@ -68,7 +68,7 @@ function spaced(ctx, px) {
 /**
  * Compose the share image.
  * info: {renderMap(canvas, w, h) → bool, lens (lens object or null), formatValue(lens, t) → string,
- *        selection: {kind, name, sub} | null}
+ *        selection: {kind, name, sub} | null, year (lens data year or timeline year) | null}
  */
 export function composeImage(info, { height = IMG_H } = {}) {
   const imgH = Math.max(CAPTION_H + 100, Math.round(height)); // a shorter frame serves 1.91:1 social cards
@@ -147,7 +147,18 @@ export function composeImage(info, { height = IMG_H } = {}) {
   ctx.fillStyle = "#ecd08e";
   ctx.font = `24px ${SERIF}`;
   spaced(ctx, 1.5);
-  ctx.fillText(fit(ctx, (lens ? t("{name} lens", { name: t(lens.name) }) : t("Terrain")).toUpperCase(), 520), mx + 50, cy - 8);
+  // The year shown (the lens's data year, or the timeline's year) always survives the truncation of a long name.
+  const yr = info.year != null && info.year !== "" ? ` · ${info.year}` : "";
+  let title = (lens ? t("{name} lens", { name: t(lens.name) }) : t("Terrain")).toUpperCase();
+  // ...and stops short of the selection's name on the right.
+  const selName = info.selection?.name || "";
+  ctx.font = `bold 24px ${SERIF}`;
+  const selW = selName ? Math.min(460, ctx.measureText(selName).width) + 24 : 0;
+  ctx.font = `24px ${SERIF}`;
+  const titleW = Math.min(520, IMG_W - 44 - selW - (mx + 50));
+  const nameW = titleW - ctx.measureText(yr).width;
+  if (lens && ctx.measureText(title).width > nameW) title = t(lens.name).toUpperCase(); // drop "lens" before the name
+  ctx.fillText(fit(ctx, title, nameW) + yr, mx + 50, cy - 8);
   spaced(ctx, 0);
   if (lens?.ramp?.length) {
     const rx = mx + 50, ry = cy + 4, rw = Math.max(200, Math.min(330, room)), rh = 12;
@@ -157,12 +168,19 @@ export function composeImage(info, { height = IMG_H } = {}) {
     ctx.fillRect(rx - 1, ry - 1, rw + 2, rh + 2);
     ctx.fillStyle = rg;
     ctx.fillRect(rx, ry, rw, rh);
-    ctx.font = `14px ${SANS}`;
+    // The two end labels share the ramp's width: long units ("1,3K mm mỗi năm") shrink the font, then truncate.
+    let lo = "≤ " + info.formatValue(lens, 0);
+    const hi = "≥ " + info.formatValue(lens, 1);
+    let px = 14;
+    const both = () => (ctx.font = `${px}px ${SANS}`, ctx.measureText(lo).width + ctx.measureText(hi).width + 12);
+    if (both() > rw) lo = lo.slice(0, lo.length - sharedUnit(lo, hi).length); // the unit once, after the top value
+    while (px > 11 && both() > rw) px--;
+    const cut = both() > rw ? (x) => fit(ctx, x, rw / 2 - 6) : (x) => x;
     ctx.fillStyle = "#d8cba8";
     ctx.textAlign = "left";
-    ctx.fillText("≤ " + info.formatValue(lens, 0), rx, ry + rh + 18);
+    ctx.fillText(cut(lo), rx, ry + rh + 18);
     ctx.textAlign = "right";
-    ctx.fillText("≥ " + info.formatValue(lens, 1), rx + rw, ry + rh + 18);
+    ctx.fillText(cut(hi), rx + rw, ry + rh + 18);
     ctx.textAlign = "left";
   } else {
     ctx.font = `15px ${SANS}`;
@@ -211,6 +229,15 @@ export function composeImage(info, { height = IMG_H } = {}) {
   ctx.lineWidth = 2;
   ctx.strokeRect(1, 1, IMG_W - 2, imgH - 2);
   return cv;
+}
+
+/** " mm mỗi năm" for ("≤ 1,3K mm mỗi năm", "≥ 3,4K mm mỗi năm"): the common trailing words, from a space. */
+export function sharedUnit(a, b) {
+  let k = 0;
+  while (k < a.length && k < b.length && a[a.length - 1 - k] === b[b.length - 1 - k]) k++;
+  const tail = a.slice(a.length - k), sp = tail.indexOf(" ");
+  const unit = sp < 0 ? "" : tail.slice(sp);
+  return !unit.trim() || /\d/.test(unit) ? "" : unit;
 }
 
 function fit(ctx, text, maxW) {

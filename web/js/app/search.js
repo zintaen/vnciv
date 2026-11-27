@@ -1,11 +1,15 @@
-// Top-bar search over cities and provinces: prefix matches first, then word-prefix, then substring; ties by population.
+// Top-bar search over cities, provinces and the places and communes extensions add: prefix matches first, then word-prefix, then substring; ties by population.
 import { esc, kindOf, popShort } from "../format.js";
 import { icon } from "../ui/icon.js";
 import { t } from "../i18n.js";
 
-const norm = (s) => String(s || "").replace(/[đĐ]/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-// The query as typed (lower case, diacritics kept): "Đà" should rank Đà Nẵng above Đắk Lắk.
-const exact = (s) => String(s || "").normalize("NFC").toLowerCase().trim();
+/** "Hà Nội" → "ha noi": no diacritics, đ → d, words split on anything else (also matches URL names). */
+export const norm = (s) => String(s || "").replace(/[đĐ]/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+// The query as typed (lower case, diacritics kept): "Đà" should rank Đà Nẵng above Đắk Lắk. The tone mark of a final
+// "oa", "oe" or "uy" sits on either vowel ("Hoà"/"Hòa", "Thuỷ"/"Thủy", "Quy" aside): both spellings put it on the first.
+const TONE_LATE = /(^|[^q])(o)([ae])([\u0300\u0301\u0303\u0309\u0323])(?![\p{L}\p{M}])|(^|[^q])(u)(y)([\u0300\u0301\u0303\u0309\u0323])(?![\p{L}\p{M}])/gu;
+export const exact = (s) => String(s || "").normalize("NFD").toLowerCase()
+  .replace(TONE_LATE, (m, p1, o, a, t1, p2, u, y, t2) => (o ? p1 + o + t1 + a : p2 + u + t2 + y)).normalize("NFC").trim();
 const MAX = 8;
 
 /**
@@ -77,7 +81,7 @@ export function initSearch(opts) {
 
   function render() {
     if (!results.length) {
-      box.innerHTML = input.value.trim() ? `<div class="sr-empty">${t("No city or province matches “{q}”", { q: esc(input.value.trim()) })}</div>` : "";
+      box.innerHTML = input.value.trim() ? `<div class="sr-empty">${t("No place, commune, city or province matches “{q}”", { q: esc(input.value.trim()) })}</div>` : "";
       box.hidden = !input.value.trim();
       input.setAttribute("aria-expanded", String(!box.hidden));
       input.removeAttribute("aria-activedescendant");

@@ -37,6 +37,10 @@
 >   area; personnel, spending and veterans are null (not published). **trade.json** holds domestic air routes
 >   (OpenFlights 2014): routes carry `airlines`, `airline_codes`, `airports`, `dist_km`; `value_musd`/`tons_k` are null.
 >   Ports carry no tonnage.
+> * **infrastructure.json** airports: `name` is OurAirports' English name, `name_vi` the Vietnamese one (the vi
+>   Wikipedia title linked from Wikidata, else the Wikidata vi label; `format.js` airportName() shows it in vi).
+>   **wonders.json**: a plaque `short` is Vietnamese; `short_en` (optional) replaces it in English ("ĐHQG Hà Nội" /
+>   "VNU Hà Nội"). **counties.json** field labels carry their year when it is not the main 2025: "Literacy (2024)".
 
 
 The pipeline (Python) and the browser (web/js) agree on these files in `web/data/`. Change a contract here first, then on

@@ -616,7 +616,9 @@ def build():
     data["counts"] = {k: len(v) for k, v in data["points"].items()} | {"metro": len(lines), "schools": n_schools}
     write_web("poi.json", data)
     # The relics layer is on by default, so it gets its own small file (poi.json loads only when a switch turns on).
-    write_web("relics.json", {"version": 1, "vintage": data["vintage"], "sources": ["wikipedia_vi_relics", "osm_poi"],
+    by = {r[-1] for r in rel}  # placed_by: list, article, wikidata (the article's item, P625), osm
+    write_web("relics.json", {"version": 1, "vintage": data["vintage"],
+                              "sources": ["wikipedia_vi_relics", "osm_poi"] + (["wikidata"] if "wikidata" in by else []),
                               "rules": {"relic": RULES["relic"]}, "states": data["states"],
                               "cols": ["x", "y", "name", "state", "year", "category", "article", "placed_by"],
                               "relics": rel, "listed": len(rel) + len(unplaced), "unplaced": unplaced})

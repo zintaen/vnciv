@@ -12,7 +12,7 @@ import { initPedia } from "./ui/pedia.js";
 import { initYieldReports } from "./ui/yieldReport.js";
 import { Minimap } from "./ui/minimap.js";
 import { icon } from "./ui/icon.js";
-import { initSearch } from "./app/search.js";
+import { initSearch, norm as normName } from "./app/search.js";
 import { createEmitter, createHashState, createModes, createUi, createMapToggles } from "./app/api.js";
 import { drawHighlight, drawOverlays, invalidateHighlight, highlightBounds } from "./render/overlays.js";
 import { resourceFilterSig, layerActive, layerError, Z as LAYER_Z } from "./render/map.js";
@@ -21,7 +21,7 @@ import { initShare } from "./app/share.js";
 import { initHelp } from "./app/help.js";
 import { initDonate } from "./app/donate.js";
 import { t, lang, setLang } from "./i18n.js";
-import { esc } from "./format.js";
+import { esc, setAirportNames } from "./format.js";
 
 // Static text in index.html (titles, aria-labels, placeholders, the loading line, <title>, meta description) goes
 // through t() once, before anything else touches the DOM.
@@ -354,8 +354,9 @@ async function main() {
   const HOME_M = 190; // fallback frame if the world has no owned cells: world.json margin is 200 map units
   const HOME_PAD_X = 92;
   const HOME_PAD_Y = 26;
-  const landBox = (() => {
-    const g = w.grid, own = w.raw.owner, remote = new Set(w.raw.remote || []); // far-offshore islands: not in the home frame
+  const LEGEND_W = 324; // #legend: 300 px wide, 12 px from the right edge, plus a gap
+  const ownedBox = (withRemote) => {
+    const g = w.grid, own = w.raw.owner, remote = new Set(withRemote ? [] : w.raw.remote || []);
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
     for (let i = 0; i < g.size; i++) {
       if (!(own[i] >= 0) || remote.has(i)) continue;
@@ -367,7 +368,18 @@ async function main() {
     }
     if (!Number.isFinite(x0)) return { x0: HOME_M, y0: HOME_M, x1: world.width - HOME_M, y1: world.height - HOME_M };
     return { x0: x0 - g.R, y0: y0 - g.R, x1: x1 + g.R, y1: y1 + g.R };
-  })();
+  };
+  // The zoom fits the mainland (far-offshore islands, world.remote, do not shrink it); the centre takes in Hoàng Sa,
+  // Trường Sa and the slogan between them whenever they fit beside the mainland at that zoom (desktop), else
+  // (portrait phones) it stays on the mainland and the archipelagos are a pan to the east.
+  const landBox = ownedBox(false);
+  const westByRow = new Map(); // row y → westernmost mainland x (keeps the Mekong delta clear of the minimap)
+  for (let i = 0, remote = new Set(w.raw.remote || []); i < w.grid.size; i++) {
+    if (!(w.raw.owner[i] >= 0) || remote.has(i)) continue;
+    const y = w.grid.cy(i), x = w.grid.cx(i);
+    if (!(westByRow.get(y) <= x)) westByRow.set(y, x);
+  }
+  const territoryBox = ownedBox(true);
   // Portrait phones: the whole country would be a thin strip between big bands of fog, so start closer in.
   const isPortraitPhone = () => cam.w <= 700 && cam.h > cam.w * 1.15;
   const PORTRAIT_ZOOM = 1.0; // a tall country already fills a portrait screen
@@ -389,9 +401,34 @@ async function main() {
   // Centre and scale of the home view.
   function homeView() {
     const fs = fitScale();
-    const s = isPortraitPhone() ? fs * PORTRAIT_ZOOM : fs;
+    let s = isPortraitPhone() ? fs * PORTRAIT_ZOOM : fs;
     const a = visibleArea(false, false);
-    const cx = (landBox.x0 + landBox.x1) / 2, cy = (landBox.y0 + landBox.y1) / 2;
+    const tb = territoryBox, fits = (tb.x1 - tb.x0) * s <= a.x1 - a.x0 - 2 * Math.min(HOME_PAD_X, (a.x1 - a.x0) * 0.1);
+    let cx = fits ? (tb.x0 + tb.x1) / 2 : (landBox.x0 + landBox.x1) / 2;
+    const cy = (landBox.y0 + landBox.y1) / 2;
+    if (fits && !isMobile()) {
+      // Desktop: the easternmost islands, and the slogan (24 px at this zoom, it overhangs them by up to ~60 px),
+      // stay left of the lens legend (bottom right) while the mainland stays on screen and the Mekong delta clear
+      // of the minimap (bottom left). Narrow windows (~1024 px) zoom out up to 15% to make room; past that the
+      // slogan wins over the delta.
+      const mid = (a.x0 + a.x1) / 2, R = w.grid.R;
+      const mm = document.getElementById("minimap-wrap")?.getBoundingClientRect();
+      const bounds = (sc) => {
+        const lo = tb.x1 - (a.x1 - LEGEND_W - 60 - mid) / sc; // cx at least this: islands + slogan clear the legend
+        const edge = landBox.x0 - (a.x0 + HOME_PAD_Y - mid) / sc; // cx at most this: the mainland on screen
+        let hi = edge;
+        if (mm?.width) {
+          for (const [y, x] of westByRow) {
+            if ((a.y0 + a.y1) / 2 + (y + R - cy) * sc > mm.top) hi = Math.min(hi, x - R - (mm.right + 8 - mid) / sc);
+          }
+        }
+        return { lo, hi, edge };
+      };
+      let b = bounds(s);
+      for (let k = 0; k < 3 && b.lo > b.hi; k++) b = bounds((s *= 0.95));
+      cx = Math.max(cx, b.lo);
+      cx = Math.min(cx, b.lo <= b.hi ? b.hi : b.edge);
+    }
     // Put the land's centre in the middle of the visible area, not of the whole canvas.
     return { x: cx - ((a.x0 + a.x1) / 2 - cam.w / 2) / s, y: cy - ((a.y0 + a.y1) / 2 - cam.h / 2) / s, s, fs };
   }
@@ -664,16 +701,17 @@ async function main() {
   installSheetSwipe(() => clearSelection());
 
   // --- URL state -------------------------------------------------------------------------------------------------
-  // #state= accepts a FIPS code ("48", "6"), a postal code ("TX", "tx") or a name ("Texas"). Links keep the form
-  // they were opened with; the app itself writes FIPS.
+  // #state= accepts a code ("01", "1"), an abbreviation ("HN", "hn") or a name ("Hà Nội", "ha noi"). Links keep the form
+  // they were opened with; the app itself writes the code.
   function stateFromHash(ref) {
     const t = String(ref ?? "").trim();
     if (!t) return -1;
     if (/^\d{1,2}$/.test(t)) return stateIndex(w, t.padStart(2, "0"));
     const k = stateIndex(w, t.toUpperCase());
     if (k >= 0) return k;
-    const name = t.toLowerCase().replace(/[_+]/g, " ");
-    return w.raw.states.findIndex((st, i) => (states?.[i]?.name || st.name || "").toLowerCase() === name);
+    // A name, with or without diacritics, as the search box matches it: "Hà Nội", "ha noi", "ha-noi", "Ha_Noi".
+    const name = normName(t);
+    return w.raw.states.findIndex((st, i) => normName(states?.[i]?.name || st.name) === name);
   }
   function viewAt() {
     const f = cam.flight, cx = f ? f.x1 : cam.x, cy = f ? f.y1 : cam.y, s = f ? f.s1 : cam.scale;
@@ -874,6 +912,7 @@ async function main() {
   const shareInfo = () => ({
     renderMap: renderShareMap,
     lens: shownLens(),
+    year: shownLens()?.year ?? app.timeline?.year ?? null,
     lensSource: (sources || []).find((x) => x.id === state.lens?.source) || null,
     formatValue: (lens, t) => formatLensValue(lens, lensValueAt(lens, t)),
     selection: state.selectedCity ? { kind: "city", name: state.selectedCity.name }
@@ -1254,6 +1293,7 @@ async function main() {
     if (!dataLoads.has(name)) {
       dataLoads.set(name, loadJSON(name, true).then((d) => {
         app.data[name] = d ?? null;
+        if (name === "infrastructure") setAirportNames(d?.airports);
         events.emit("data", { name, data: app.data[name] });
         return app.data[name];
       }));

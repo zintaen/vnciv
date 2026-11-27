@@ -27,7 +27,7 @@ CATALOG = [
 RULE = (f"A measured district appears when the former province's figure per resident is at least {MIN_LQ}× Vietnam's "
         "(LQ, location quotient): Campus (university students), Commercial hub (retail sales), Industrial zone "
         "(FDI registered in 2024) and Tourist quarter (travel and tour turnover): NSO, retail and tourism 2025, FDI "
-        "2024 (the last year published for the 63 former provinces), students 2023, per resident of 2025. A site "
+        "2024 (the last year published for the 63 former provinces), students 2023, each per resident of its own year. A site "
         "district needs a mapped site in the province: Harbor (a port), Heritage quarter (a UNESCO World Heritage "
         "site), Aerodrome (2M+ passengers), Dam & power plant (1,000+ MW of mapped plants), Government plaza (the "
         "capital). Districts are ranked by LQ, a site district counting as LQ 2 (the capital first); up to "
@@ -40,7 +40,11 @@ def build():
     infra = load_interim("_infrastructure")
     wonders = load_interim("_wonders")["wonders"]
     res = load_interim("_resources")["items"]
-    nat = {k: sum(r[k] or 0 for r in st.values()) / sum(r["population"] for r in st.values())
+    # Per resident of the measure's own year (FDI 2024 by population 2024, students 2023 by 2023), as the City View does.
+    years = load_interim("_stats")["years"]
+    pop = {c["id"]: c["pop_series"] for c in cities}
+    popof = lambda cid, k: pop[cid][years[k][:4]]
+    nat = {k: sum(r[k] or 0 for r in st.values()) / sum(popof(cid, k) for cid in st)
            for k in ("students", "retail", "fdi", "tourism")}
     sites = {"port": {}, "airport": {}, "heritage": {}, "power": {}}
     for p in infra["ports"]:
@@ -71,7 +75,7 @@ def build():
                 if hit:
                     ds.append({"id": did, "lq": None, "via": "site", "strength": 99 if kind == "capital" else 2.0, "text": text})
             else:
-                v = (r[measure] or 0) / r["population"]
+                v = (r[measure] or 0) / popof(c["id"], measure)
                 lq = v / nat[measure] if nat[measure] else 0
                 if lq >= MIN_LQ:
                     ds.append({"id": did, "lq": round(lq, 2), "via": "measure", "strength": lq, "value": round(r[measure] or 0),

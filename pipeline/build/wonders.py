@@ -9,12 +9,14 @@ from ..sources import LANDMARKS
 from ..store import save_interim, write_web
 from .common import World, site_cell, wkt_point
 
-# The two national universities and the three regional universities (Law on Higher Education 2012, art. 8)
-UNIVERSITIES = [("Q1076729", "Đại học Quốc gia Hà Nội", "VNU Hà Nội"),
-                ("Q943759", "Đại học Quốc gia Thành phố Hồ Chí Minh", "VNU TP.HCM"),
-                ("Q1310048", "Đại học Huế", "Đại học Huế"),
-                ("Q945839", "Đại học Đà Nẵng", "Đại học Đà Nẵng"),
-                ("Q4116346", "Đại học Thái Nguyên", "Đại học Thái Nguyên")]
+# Wikidata items of the national and regional universities. Which ones count comes from Wikipedia tiếng Việt's
+# article "Đại học (Việt Nam)" (national_regional_universities() below); the Law on Higher Education names none.
+UNI_QID = {"Đại học Quốc gia Hà Nội": "Q1076729", "Đại học Quốc gia Thành phố Hồ Chí Minh": "Q943759",
+           "Đại học Huế": "Q1310048", "Đại học Đà Nẵng": "Q945839", "Đại học Cần Thơ": "Q5029090",
+           "Đại học Thái Nguyên": "Q10841229"}
+# Plaque names: (Vietnamese, English) where the full name is too long
+UNI_SHORT = {"Đại học Quốc gia Hà Nội": ("ĐHQG Hà Nội", "VNU Hà Nội"),
+             "Đại học Quốc gia Thành phố Hồ Chí Minh": ("ĐHQG TP.HCM", "VNU TP.HCM")}
 RULES = [
     {"id": "world_heritage", "kind": "landmark", "kinds": ["natural", "landmark"], "year": 2025,
      "text": "Every UNESCO World Heritage site in Vietnam (World Heritage list as of 2025), at its Wikidata coordinates; "
@@ -28,8 +30,11 @@ RULES = [
              "listed area (largest first), then by name. Vietnam publishes no visitor counts per park, so parks are not "
              "ranked by visits."},
     {"id": "research_university", "kind": "university", "kinds": ["university"], "year": 2025,
-     "text": "The two national universities and the three regional universities, the multi-campus university systems "
-             "named in the Law on Higher Education; placed at their Wikidata coordinates when Wikidata has them."},
+     "text": "The national universities and the regional universities (đại học vùng), the multi-campus university "
+             "systems, as listed by Wikipedia tiếng Việt's article \"Đại học (Việt Nam)\" (2 national, 4 regional in "
+             "2026); the Law on Higher Education defines the type but names none. Placed at their Wikidata coordinates, "
+             "or at the campus OpenStreetMap maps under the same name where Wikidata has none. Ranked national first, "
+             "then in the article's order."},
     {"id": "landmark", "kind": "landmark", "kinds": ["landmark"], "curated": True,
      "text": "Hand-picked by this project: famous monuments not already covered by the World Heritage list, placed at "
              "their Wikidata coordinates. Ranked alphabetically, not by importance."},
@@ -85,6 +90,23 @@ def national_parks():
     return out
 
 
+def national_regional_universities():
+    """[(name, "national" | "regional")] from the sentence "… có 02 đại học quốc gia là A và B, 04 đại học vùng là C, D,
+    E và F, và …" of the Wikipedia article; the stated counts must match the names."""
+    x = json.loads((RAW / "wikipedia_vi_universities" / "dai_hoc_viet_nam.json").read_text())["query"]["pages"][0]["extract"]
+    out = []
+    for kind, pat in (("national", r"(\d+) đại học quốc gia là (.+?), \d+ đại học vùng"),
+                      ("regional", r"(\d+) đại học vùng là (.+?), và \d+")):
+        m = re.search(pat, x)
+        if not m:
+            raise SystemExit(f"wonders: the {kind} university sentence is gone from the Wikipedia article")
+        names = re.split(r", | và ", m.group(2))
+        if len(names) != int(m.group(1)):
+            raise SystemExit(f"wonders: {m.group(0)!r} lists {len(names)} names")
+        out += [(n.strip(), kind) for n in names]
+    return out
+
+
 def bindings(name):
     return json.loads((RAW / "wikidata" / name).read_text())["results"]["bindings"]
 
@@ -93,7 +115,7 @@ def build():
     W = World()
     wonders = []
 
-    def add(id_, name, short, kind, rule, lon, lat, metrics, en=None, curated=False):
+    def add(id_, name, short, kind, rule, lon, lat, metrics, en=None, curated=False, short_en=None):
         x, y = W.proj(lon, lat)
         cell, k = W.place(lon, lat, rings=2)
         if id_.split("-", 1)[1] in WONDER_PROVINCE:  # generalised outlines put a border site in the neighbour
@@ -105,7 +127,7 @@ def build():
         wonders.append({"id": id_, "name": name, "short": short, "name_en": en, "kind": kind, "rule": rule, "rank": 0,
                         "metrics": metrics, "x": round(x, 1), "y": round(y, 1), "cell": cell, "cells": None,
                         "county": W.counties[k], "cbsa": W.counties[k], "state": W.states[W.old_new[k]],
-                        "curated": curated})
+                        "curated": curated, **({"short_en": short_en} if short_en else {})})
 
     # World Heritage: main entries have a plain numeric ref; components "678-005" place a site without coordinates
     sites, parts = {}, {}
@@ -137,14 +159,26 @@ def build():
             {"area_km2": area, "visits": None}, en=en)
 
     unis = {r["s"]["value"].rsplit("/", 1)[1]: r for r in bindings("universities.json")}
-    for q, name, short in UNIVERSITIES:
-        r = unis.get(q)
-        if not r:
-            print(f"    ! {name}: no coordinates in Wikidata")
-            continue
+    osm_unis = [e for e in json.loads((RAW / "osm_poi" / "universities.json").read_text())["elements"]
+                if e.get("tags", {}).get("amenity") == "university"]
+    for name, _ in national_regional_universities():
+        q = UNI_QID.get(name)
+        if not q:
+            raise SystemExit(f"wonders: no Wikidata item for {name!r}: add it to UNI_QID")
+        r = unis.get(q, {})
+        if r.get("c"):
+            lonlat = wkt_point(r["c"]["value"])
+        else:  # no coordinates in Wikidata: the OpenStreetMap campus of exactly that name
+            hit = next((e for e in osm_unis if e["tags"].get("name") == name), None)
+            if not hit:
+                print(f"    ! {name}: no position")
+                continue
+            c = hit.get("center") or hit
+            lonlat = (c["lon"], c["lat"])
         inc = r.get("inception", {}).get("value")
-        add(f"uni-{q}", name, short, "university", "research_university", *wkt_point(r["c"]["value"]),
-            {"founded": int(inc[:4]) if inc else None}, en=r.get("enLabel", {}).get("value"))
+        short, short_en = UNI_SHORT.get(name, (name, None))
+        add(f"uni-{q}", name, short, "university", "research_university", *lonlat,
+            {"founded": int(inc[:4]) if inc else None}, en=r.get("enLabel", {}).get("value"), short_en=short_en)
 
     by_label = {}
     for r in bindings("landmarks.json"):
@@ -158,7 +192,7 @@ def build():
     order = {r["id"]: k for k, r in enumerate(RULES)}
     key = {"world_heritage": lambda w: (w["metrics"]["inscribed"] or 9999, w["name"]),
            "national_park": lambda w: (-(w["metrics"]["area_km2"] or 0), w["name"]),
-           "research_university": lambda w: [u[0] for u in UNIVERSITIES].index(w["id"][4:]),
+           "research_university": lambda w: [UNI_QID[n] for n, _ in national_regional_universities()].index(w["id"][4:]),
            "landmark": lambda w: w["short"]}
     wonders.sort(key=lambda w: (order[w["rule"]], key[w["rule"]](w)))
     rank = {}
@@ -167,8 +201,8 @@ def build():
         w["rank"] = rank[w["rule"]]
     print("    " + ", ".join(f"{k} {v}" for k, v in rank.items()))
     doc = {"version": 1, "vintage": {"heritage": "UNESCO World Heritage list via Wikidata, 2025", "parks": "Wikipedia tiếng Việt list, 2026; positions Wikidata/OpenStreetMap",
-                                     "universities": "Wikidata", "landmarks": "Wikidata"},
-           "sources": ["wikidata", "wikipedia_vi_parks", "osm_parks"], "rules": RULES,
+                                     "universities": "Wikipedia tiếng Việt, 2026; positions Wikidata/OpenStreetMap", "landmarks": "Wikidata"},
+           "sources": ["wikidata", "wikipedia_vi_parks", "osm_parks", "wikipedia_vi_universities", "osm_poi"], "rules": RULES,
            "national": {"world_heritage": rank.get("world_heritage", 0), "national_parks": rank.get("national_park", 0),
                         "park_visits": None, "r1_universities": rank.get("research_university", 0)},
            "wonders": wonders}

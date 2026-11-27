@@ -1,0 +1,88 @@
+// Hover tooltips for the map-art layers (HTML strings; every data value is escaped). Each says where the number comes
+// from and the caveat that matters for it (ports have no open tonnage; curated landmarks are an editorial pick).
+import { esc, compact, int, pct } from "../../format.js";
+import { FORT_KINDS, fortKind, WONDER_KINDS } from "../../render/art/sites.js";
+import { MODE_STYLE } from "../../render/art/improvements.js";
+import { t } from "../../i18n.js";
+
+const muted = (s) => `<span class="muted">${s}</span>`;
+const num = (n, d = 1) => (n == null || !Number.isFinite(n) ? "–" : compact(n));
+const sign = (x) => (x > 0 ? "+" : x < 0 ? "−" : "±");
+
+function usd(n) {
+  if (n == null || !Number.isFinite(n)) return "–";
+  const a = Math.abs(n);
+  if (a >= 1e12) return t("${n} trillion", { n: (n / 1e12).toFixed(2) });
+  if (a >= 1e9) return t("${n} billion", { n: (n / 1e9).toFixed(a >= 1e10 ? 1 : 2) });
+  if (a >= 1e6) return t("${n} million", { n: (n / 1e6).toFixed(1) });
+  return `$${int(n)}`;
+}
+
+const HUB_NAME = { L: "Major hub (10M+ passengers)", M: "Medium hub (2–10M passengers)", S: "Small hub (0.5–2M passengers)", N: "Local airport" };
+const PORT_TYPE = { coastal: "Seaport", inland: "River port" };
+const prov = (m, abbr) => m.w?.raw?.states?.find((s) => s.abbr === abbr)?.name || abbr || "";
+
+export const tips = {
+  port(p, m) {
+    return [
+      `<b>${esc(p.name)}</b> ${muted(`${esc(t(PORT_TYPE[p.type] || "Port"))}, ${esc(prov(m, p.state))}`)}`,
+      p.tons != null ? t("<b>{n}</b> tonnes ({year})", { n: num(p.tons), year: esc(p.year ?? "") }) : "",
+      muted(t("Ports and terminals listed in Wikidata. Vietnam's port cargo statistics are not published as open data, so ports are not sized by tonnage.")),
+    ].filter(Boolean).join("<br>");
+  },
+  airport(a, m) {
+    const lines = [`<b>${esc(a.id)} · ${esc(a.name)}</b> ${muted(esc([a.city, prov(m, a.state)].filter(Boolean).join(", ")))}`];
+    if (a.hub) lines.push(esc(t(HUB_NAME[a.hub] || a.hub)));
+    if (a.enplanements != null) lines.push(t("<b>{n}</b> passengers in {year}", { n: num(a.enplanements), year: esc(a.year) }));
+    lines.push(muted(t("Passengers: Airports Corporation of Vietnam (ACV) figures compiled on Wikipedia. Location: OurAirports.")));
+    return lines.join("<br>");
+  },
+  fort(f, m) {
+    const comp = m.data.military?.components?.find((c) => c.id === f.component);
+    const name = t(comp?.name || FORT_KINDS[fortKind(f.component)]?.name || "Military site");
+    const tier = t({ major: "Major installation", base: "Base", site: "Site" }[f.tier] || "");
+    const lines = [`<b>${esc(f.name)}</b> ${muted(esc(prov(m, f.state)))}`, `${esc(name)} · ${esc(tier)}`];
+    if (f.area_km2 != null) lines.push(t("Mapped outline {n} km²", { n: f.area_km2 >= 10 ? int(f.area_km2) : f.area_km2.toFixed(1) }));
+    if (f.parts?.length) lines.push(muted(t("Also in this hex: {list}", { list: esc(f.parts.slice(0, 3).join(", ")) + (f.parts.length > 3 ? "…" : "") })));
+    lines.push(muted(t("OpenStreetMap military land. Sized by mapped area: no headcount is published.")));
+    return lines.join("<br>");
+  },
+  range(r, m) {
+    const comp = m.data.military?.components?.find((c) => c.id === r.component);
+    return [
+      `<b>${esc(r.name)}</b> ${muted(esc(prov(m, r.state)))}`,
+      `${t("Restricted ground")} · ${esc(t(comp?.name || ""))} · ${int(r.area_km2)} km²`,
+      muted(t("A mapped military area of 5 km² or more (OpenStreetMap), drawn on the hexes it covers.")),
+    ].join("<br>");
+  },
+  wonder(x, m) {
+    const k = t(WONDER_KINDS[x.kind]?.name || "Wonder");
+    const rule = m.data.wonders?.rules?.find((r) => r.id === x.rule);
+    const mt = x.metrics || {};
+    const lines = [`<b>${esc(x.name)}</b> ${muted(esc(prov(m, x.state)))}`];
+    if (x.name_en && x.name_en !== x.name) lines.push(muted(esc(x.name_en)));
+    if (x.rule === "world_heritage") {
+      lines.push(mt.inscribed ? t("UNESCO World Heritage site since {year}", { year: esc(mt.inscribed) }) : t("UNESCO World Heritage site"));
+    } else if (x.rule === "national_park") {
+      lines.push(`${esc(k)} · ${t("national park")}${mt.area_km2 != null ? ` · ${int(mt.area_km2)} km²` : ""}`);
+    } else if (x.rule === "research_university") {
+      lines.push(`${esc(k)}${mt.founded ? ` · ${t("founded {year}", { year: esc(mt.founded) })}` : ""}`);
+    } else if (x.curated) {
+      lines.push(`${esc(k)} · ${t("hand-picked (curated, not ranked by data)")}`);
+    }
+    if (rule?.text) lines.push(muted(esc(t(rule.text))));
+    return lines.join("<br>");
+  },
+  route(rt, m) {
+    const r = rt.route;
+    const td = m.data.trade || {};
+    const a = rt.a?.short || r.a, b = rt.b?.short || r.b;
+    const lines = [
+      `<b>${esc(a)} ⇄ ${esc(b)}</b> ${muted(t("air route #{n}", { n: esc(r.rank) }))}`,
+      r.airlines != null ? `${t(r.airlines === 1 ? "<b>{n}</b> airline" : "<b>{n}</b> airlines", { n: esc(r.airlines) })} (${esc((r.airline_codes || []).join(", "))}) · ${esc((r.airports || []).join("–"))}` : "",
+      r.dist_km != null ? t("{n} km apart", { n: int(r.dist_km) }) : "",
+      muted(esc(t(td.path_note || ""))),
+    ];
+    return lines.filter(Boolean).join("<br>");
+  },
+};

@@ -1,0 +1,883 @@
+province_name_vi,value,year,unit,source_url,province_std,series
+Hà Nội,8093.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8246.54,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8330.8,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8435.65,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8587.08,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8717.63,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,8857.53,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,total
+Hà Nội,4000.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4061.06,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4095.37,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4138.51,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4212.99,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4280.83,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Hà Nội,4234.85,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nội,urban
+Vĩnh Phúc,1154.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1171.23,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1191.8,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1197.62,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1211.35,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1225.29,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,1238.77,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,total
+Vĩnh Phúc,295.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,350.98,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,358.33,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,366.18,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,411.0,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,416.63,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Vĩnh Phúc,426.81,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Phúc,urban
+Bắc Ninh,1378.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1419.13,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1462.9,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1488.25,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1517.44,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1546.59,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,1574.43,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,total
+Bắc Ninh,380.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,446.57,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,536.15,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,554.57,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,770.71,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,787.92,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Bắc Ninh,873.08,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Ninh,urban
+Quảng Ninh,1324.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1337.61,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1350.8,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1362.88,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1381.17,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1396.52,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,1411.58,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,total
+Quảng Ninh,853.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,901.11,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,909.89,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,917.98,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,930.42,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,968.26,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Quảng Ninh,1072.11,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ninh,urban
+Hải Dương,1896.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1916.77,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1936.8,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1946.82,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1956.89,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1978.23,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,1997.71,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,total
+Hải Dương,594.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,603.24,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,613.18,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,618.12,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,620.02,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,630.52,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Dương,680.0,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Dương,urban
+Hải Phòng,2033.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2053.49,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2072.4,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2088.02,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2105.03,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2124.52,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,2152.17,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,total
+Hải Phòng,926.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,932.55,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,943.2,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,951.77,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,960.64,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,970.27,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hải Phòng,1422.63,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hải Phòng,urban
+Hưng Yên,1255.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1269.09,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1284.6,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1290.85,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1301.01,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1318.06,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,1333.42,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,total
+Hưng Yên,207.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,209.73,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,213.57,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,217.43,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,220.98,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,225.2,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Hưng Yên,236.77,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hưng Yên,urban
+Thái Bình,1862.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1870.24,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1873.9,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1878.54,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1882.34,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1890.38,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,1901.75,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,total
+Thái Bình,197.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,219.46,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,220.23,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,220.96,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,221.74,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,224.51,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Thái Bình,274.7,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Bình,urban
+Hà Nam,854.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,861.83,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,875.2,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,878.05,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,885.91,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,894.22,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,903.16,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,total
+Hà Nam,143.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,239.68,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,244.91,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,245.96,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,249.82,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,257.04,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Hà Nam,469.52,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Nam,urban
+Nam Ðịnh,1780.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1780.33,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1836.3,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1876.85,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1887.1,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1894.2,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,1897.99,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,total
+Nam Ðịnh,323.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,360.12,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,371.57,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,380.46,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,385.41,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,387.97,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Nam Ðịnh,414.55,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nam Định,urban
+Ninh Bình,984.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,993.92,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,1007.6,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,1010.75,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,1017.1,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,1030.34,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,1042.62,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,total
+Ninh Bình,207.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,212.59,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,216.52,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,218.43,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,220.58,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,224.66,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Ninh Bình,351.9,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Bình,urban
+Hà Giang,858.1,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,870.24,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,887.09,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,892.72,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,899.9,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,911.35,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,921.38,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,total
+Hà Giang,137.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,137.89,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,140.33,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,142.35,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,145.08,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,148.64,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Hà Giang,58.97,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Giang,urban
+Cao Bằng,530.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,533.09,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,542.22,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,543.05,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,547.86,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,558.46,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,562.93,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,total
+Cao Bằng,124.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,136.01,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,138.18,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,138.47,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,139.53,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,142.2,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Cao Bằng,83.46,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cao Bằng,urban
+Bắc Kạn,314.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,316.46,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,323.71,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,324.35,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,326.5,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,329.31,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,331.5,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,total
+Bắc Kạn,65.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,71.48,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,73.11,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,73.57,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,78.64,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,80.85,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Bắc Kạn,43.78,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Kạn,urban
+Tuyên Quang,786.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,792.9,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,801.67,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,805.78,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,812.21,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,820.3,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,826.87,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,total
+Tuyên Quang,108.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,109.56,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,111.3,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,120.54,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,122.8,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,159.17,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Tuyên Quang,167.81,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tuyên Quang,urban
+Lào Cai,733.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,746.36,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,761.89,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,770.59,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,779.92,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,792.21,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,801.48,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,total
+Lào Cai,171.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,197.21,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,201.9,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,206.5,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,210.97,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,215.02,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Lào Cai,154.82,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lào Cai,urban
+Yên Bái,823.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,831.59,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,842.67,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,847.25,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,855.53,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,864.38,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,874.19,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,total
+Yên Bái,163.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,171.59,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,174.73,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,176.65,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,179.2,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,181.26,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Yên Bái,199.25,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Yên Bái,urban
+Thái Nguyên,1290.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1307.87,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1323.15,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1335.99,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1350.35,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1365.2,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,1380.08,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,total
+Thái Nguyên,413.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,419.68,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,425.3,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,525.56,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,548.86,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,556.07,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Thái Nguyên,586.73,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thái Nguyên,urban
+Lạng Sơn,782.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,788.71,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,796.94,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,802.09,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,807.31,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,813.99,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,820.63,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,total
+Lạng Sơn,160.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,181.72,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,183.89,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,185.87,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,187.12,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,192.32,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Lạng Sơn,138.53,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lạng Sơn,urban
+Bắc Giang,1810.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1841.62,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1875.24,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1890.93,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1922.74,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1962.6,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,1997.92,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,total
+Bắc Giang,207.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,333.98,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,341.66,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,370.34,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,379.36,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,475.54,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Bắc Giang,681.96,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bắc Giang,urban
+Phú Thọ,1466.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1481.88,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1507.5,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1516.92,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1530.85,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1543.88,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,1559.32,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,total
+Phú Thọ,269.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,281.83,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,287.9,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,293.52,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,297.27,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,301.31,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Phú Thọ,311.02,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Thọ,urban
+Ðiện Biên,601.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,613.48,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,625.09,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,635.92,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,646.18,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,656.71,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,667.42,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,total
+Ðiện Biên,86.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,93.17,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,95.0,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,96.67,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,98.25,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,99.84,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Ðiện Biên,92.61,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Điện Biên,urban
+Lai Châu,462.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,469.81,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,478.43,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,482.1,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,489.28,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,495.47,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,501.16,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,total
+Lai Châu,67.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,82.22,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,84.66,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,85.29,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,86.47,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,87.57,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Lai Châu,59.27,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lai Châu,urban
+Sơn La,1252.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1270.56,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1287.72,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1300.13,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1313.34,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1330.58,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,1341.22,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,total
+Sơn La,173.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,176.1,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,180.07,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,181.8,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,185.63,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,191.71,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Sơn La,186.38,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sơn La,urban
+Hoà Bình,855.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,861.22,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,871.72,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,875.38,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,880.47,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,894.5,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,903.45,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,total
+Hoà Bình,134.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,205.41,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,208.79,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,222.63,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,226.06,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,234.1,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Hoà Bình,240.16,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hòa Bình,urban
+Thanh Hoá,3645.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3664.94,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3716.43,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3722.06,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3739.48,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3764.24,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,3771.77,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,total
+Thanh Hoá,547.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,853.28,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,993.39,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,1029.9,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,1036.13,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,1058.18,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Thanh Hoá,868.81,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thanh Hóa,urban
+Nghệ An,3337.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3365.2,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3409.81,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3419.99,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3441.97,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3472.29,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,3497.75,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,total
+Nghệ An,490.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,521.61,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,529.48,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,530.45,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,540.04,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,546.0,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Nghệ An,632.5,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Nghệ An,urban
+Hà Tĩnh,1290.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1296.62,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1314.06,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1317.25,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1323.75,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1329.83,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,1335.14,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,total
+Hà Tĩnh,253.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,287.77,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,293.01,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,293.7,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,298.05,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,300.38,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Hà Tĩnh,274.77,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hà Tĩnh,urban
+Quảng Bình,896.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,901.98,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,910.66,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,913.86,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,918.66,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,924.76,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,931.92,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,total
+Quảng Bình,188.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,207.11,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,210.07,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,211.7,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,214.87,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,217.25,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Bình,201.34,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Bình,urban
+Quảng Trị,633.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,637.39,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,647.79,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,650.95,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,654.2,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,659.21,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,662.21,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,total
+Quảng Trị,196.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,206.86,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,210.96,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,212.59,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,214.25,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,216.04,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Quảng Trị,128.01,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Trị,urban
+Huế,1129.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1133.59,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1153.8,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1160.22,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1166.55,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1178.55,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,1190.34,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,total
+Huế,563.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,562.32,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,609.38,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,612.83,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,616.23,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,622.59,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Huế,813.28,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Thừa Thiên Huế,urban
+Ðà Nẵng,1141.1,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1169.48,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1195.49,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1220.19,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1245.21,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1276.0,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,1304.72,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,total
+Ðà Nẵng,994.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1020.44,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1044.33,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1067.07,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1091.34,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1120.46,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Ðà Nẵng,1227.52,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đà Nẵng,urban
+Quảng Nam,1497.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1505.04,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1518.48,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1519.38,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1526.06,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1543.94,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,1551.66,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,total
+Quảng Nam,379.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,396.2,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,401.26,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,407.39,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,469.14,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,474.84,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Nam,400.16,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Nam,urban
+Quảng Ngãi,1231.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1233.4,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1244.13,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1245.65,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1248.11,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1259.9,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,1268.72,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,total
+Quảng Ngãi,201.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,260.18,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,262.66,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,272.22,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,272.96,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,280.86,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Quảng Ngãi,289.17,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Quảng Ngãi,urban
+Bình Ðịnh,1487.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1487.9,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1508.32,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1504.29,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1506.33,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1518.45,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,1527.77,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,total
+Bình Ðịnh,476.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,599.85,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,620.81,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,619.65,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,620.87,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,627.85,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Bình Ðịnh,675.28,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Định,urban
+Phú Yên,873.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,874.3,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,875.54,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,876.62,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,877.7,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,885.16,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,887.74,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,total
+Phú Yên,251.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,285.9,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,286.32,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,286.68,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,287.05,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,292.1,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Phú Yên,339.71,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Phú Yên,urban
+Khánh Hoà,1232.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1240.44,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1248.06,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1253.97,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1260.62,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1269.29,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,1279.12,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,total
+Khánh Hoà,521.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,525.87,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,528.74,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,531.19,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,534.36,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,538.12,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Khánh Hoà,665.12,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Khánh Hòa,urban
+Ninh Thuận,591.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,593.64,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,596.05,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,598.68,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,601.22,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,612.69,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,619.43,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,total
+Ninh Thuận,211.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,209.6,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,211.04,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,212.26,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,213.43,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,221.71,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Ninh Thuận,207.49,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Ninh Thuận,urban
+Bình Thuận,1232.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1239.26,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1246.31,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1252.06,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1258.79,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1266.22,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,1274.31,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,total
+Bình Thuận,469.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,472.14,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,479.85,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,483.27,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,485.88,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,488.76,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Bình Thuận,366.45,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Thuận,urban
+Kon Tum,543.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,555.64,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,568.78,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,579.91,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,591.27,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,601.82,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,612.52,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,total
+Kon Tum,173.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,181.94,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,185.28,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,188.51,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,191.8,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,194.83,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Kon Tum,198.44,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kon Tum,urban
+Gia Lai,1520.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1541.83,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1569.72,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1590.98,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1613.9,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1634.9,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,1654.88,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,total
+Gia Lai,440.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,447.21,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,458.94,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,466.73,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,475.13,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,482.84,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Gia Lai,347.67,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Gia Lai,urban
+Ðắk Lắk,1872.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1886.94,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1909.0,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1918.44,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1931.46,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1946.17,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,1961.46,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,total
+Ðắk Lắk,463.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,466.48,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,473.81,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,478.32,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,502.4,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,507.79,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Lắk,439.21,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Lắk,urban
+Ðắk Nông,625.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,637.91,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,664.42,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,670.56,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,681.95,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,695.68,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,704.69,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,total
+Ðắk Nông,95.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,97.49,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,107.98,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,112.43,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,115.52,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,120.03,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Ðắk Nông,87.29,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đắk Nông,urban
+Lâm Ðồng,1299.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1309.79,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1321.9,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1332.53,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1345.0,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1362.47,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,1377.38,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,total
+Lâm Ðồng,509.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,514.21,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,519.1,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,523.55,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,529.72,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,540.44,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Lâm Ðồng,434.21,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Lâm Đồng,urban
+Bình Phước,997.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1011.08,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1024.29,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1034.67,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1045.49,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1062.3,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,1077.73,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,total
+Bình Phước,238.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,243.05,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,247.54,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,303.96,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,307.37,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,312.88,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Bình Phước,327.74,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Phước,urban
+Tây Ninh,1171.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1178.33,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1181.91,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1188.76,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1194.91,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1202.77,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,1211.01,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,total
+Tây Ninh,208.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,381.11,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,382.7,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,386.73,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,389.17,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,391.65,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Tây Ninh,529.91,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tây Ninh,urban
+Bình Dương,2456.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2580.55,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2596.79,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2763.12,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2823.43,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2870.61,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,2910.32,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,total
+Bình Dương,1961.9,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2178.17,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2189.68,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2327.43,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2377.78,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2464.29,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Bình Dương,2570.1,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bình Dương,urban
+Ðồng Nai,3113.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3177.4,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3169.1,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3255.81,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3310.86,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3365.45,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,3415.96,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,total
+Ðồng Nai,1371.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1406.73,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1418.64,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1470.31,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1498.5,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1526.57,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Ðồng Nai,1499.79,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Nai,urban
+Bà Rịa - Vũng Tàu,1152.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1167.94,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1176.08,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1178.7,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1187.5,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1194.65,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,1202.64,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,total
+Bà Rịa - Vũng Tàu,675.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,672.31,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,686.87,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,711.89,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,723.37,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,741.81,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+Bà Rịa - Vũng Tàu,639.42,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bà Rịa - Vũng Tàu,urban
+TP.Hồ Chí Minh,9038.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9227.6,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9166.84,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9389.72,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9456.66,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9543.63,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,9690.83,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,total
+TP.Hồ Chí Minh,7161.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7290.92,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7239.63,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7297.85,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7344.0,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7428.6,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+TP.Hồ Chí Minh,7431.45,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,TP. Hồ Chí Minh,urban
+Long An,1695.1,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1713.66,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1725.75,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1734.26,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1743.43,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1756.25,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,1769.28,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,total
+Long An,272.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,312.52,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,316.46,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,318.58,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,320.79,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,326.83,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Long An,172.35,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Long An,urban
+Tiền Giang,1766.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1772.54,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1779.42,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1785.24,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1790.65,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1796.06,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,1801.46,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,total
+Tiền Giang,247.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,251.91,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,253.64,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,271.92,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,273.68,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,302.56,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Tiền Giang,438.08,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Tiền Giang,urban
+Bến Tre,1289.1,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1292.4,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1295.7,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1298.01,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1299.33,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1306.27,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,1310.19,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,total
+Bến Tre,126.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,126.66,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,128.27,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,133.04,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,170.43,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,174.65,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Bến Tre,170.81,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bến Tre,urban
+Trà Vinh,1009.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1009.94,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1018.63,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1019.26,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1019.88,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1023.89,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,1026.96,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,total
+Trà Vinh,174.1,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,175.83,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,178.36,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,184.86,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,186.85,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,189.01,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Trà Vinh,174.55,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Trà Vinh,urban
+Vĩnh Long,1022.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1022.97,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1029.02,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1028.82,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1029.63,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1037.27,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,1042.46,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,total
+Vĩnh Long,169.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,232.07,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,233.72,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,233.94,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,235.5,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,237.83,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Vĩnh Long,282.1,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Vĩnh Long,urban
+Ðồng Tháp,1598.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1600.01,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1601.31,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1600.17,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1600.25,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1601.12,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,1602.32,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,total
+Ðồng Tháp,304.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,306.15,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,323.21,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,323.88,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,325.82,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,328.61,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+Ðồng Tháp,378.0,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Đồng Tháp,urban
+An Giang,1907.4,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1904.53,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1909.51,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1905.52,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1906.27,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1912.58,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,1914.49,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,total
+An Giang,602.6,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,601.64,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,646.02,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,644.77,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,705.29,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,706.49,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+An Giang,477.4,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,An Giang,urban
+Kiên Giang,1723.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1728.87,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1752.32,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1751.76,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1755.34,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1766.66,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,1780.1,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,total
+Kiên Giang,488.8,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,491.75,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,504.36,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,522.73,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,528.66,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,527.28,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Kiên Giang,468.78,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Kiên Giang,urban
+Cần Thơ,1236.0,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1240.73,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1246.99,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1252.35,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1258.88,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1271.72,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,1285.71,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,total
+Cần Thơ,861.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,868.84,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,876.92,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,882.86,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,887.83,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,898.66,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Cần Thơ,891.43,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cần Thơ,urban
+Hậu Giang,732.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,729.78,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,729.89,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,729.47,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,728.29,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,730.01,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,712.59,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,total
+Hậu Giang,197.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,204.05,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,212.69,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,204.99,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,204.66,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,205.15,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Hậu Giang,154.23,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Hậu Giang,urban
+Sóc Trăng,1199.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1195.74,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1206.82,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1197.82,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1198.8,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1205.34,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,1226.64,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,total
+Sóc Trăng,388.5,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,386.61,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,391.4,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,405.65,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,406.02,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,411.15,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Sóc Trăng,390.82,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Sóc Trăng,urban
+Bạc Liêu,908.2,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,913.48,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,918.51,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,921.81,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,925.17,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,928.68,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,932.41,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,total
+Bạc Liêu,252.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,253.64,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,254.94,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,255.89,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,256.85,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,257.92,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Bạc Liêu,259.99,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Bạc Liêu,urban
+Cà Mau,1194.3,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1193.89,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1208.75,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1207.63,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1207.37,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1212.0,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,1218.03,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,total
+Cà Mau,271.7,2019,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,271.11,2020,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,275.35,2021,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,275.77,2022,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,278.39,2023,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,284.86,2024,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban
+Cà Mau,236.29,Sơ bộ 2025,thousand persons (average population),https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px,Cà Mau,urban

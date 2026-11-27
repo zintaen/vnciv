@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art gallery — United States atlas (dev)</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --ink: #efe4c6; --ink-dim: #b9ab88; --gold: #c9a45c; --gold-bright: #ecd08e; --bg: #0b1520; --card: #121d29;
+      --serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      --sans: -apple-system, "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 13px/1.45 var(--sans); }
+    body.light { --bg: #d9cfb8; --card: #e8dfcb; --ink: #2a2116; --ink-dim: #6b5d45; }
+    header {
+      position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; padding: 8px 16px;
+      background: linear-gradient(180deg, #24364a, #131e2a); border-bottom: 1px solid var(--gold); color: #efe4c6;
+    }
+    header h1 { margin: 0; font: normal 17px var(--serif); letter-spacing: .14em; text-transform: uppercase; color: var(--gold-bright); }
+    header nav { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+    header a { color: var(--gold-bright); text-decoration: none; font-size: 12px; }
+    header a:hover { text-decoration: underline; }
+    header label { font-size: 12px; color: #b9ab88; display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+    header .spacer { flex: 1; }
+    header button { font: 12px var(--serif); color: var(--gold-bright); background: linear-gradient(180deg, #3a5068, #223244); border: 1px solid var(--gold); border-radius: 4px; padding: 3px 10px; cursor: pointer; }
+    main { padding: 8px 16px 60px; }
+    section { margin: 18px 0 28px; }
+    section > h2 { margin: 0 0 4px; font: normal 18px var(--serif); letter-spacing: .1em; text-transform: uppercase; color: var(--gold); border-bottom: 1px solid rgba(201,164,92,.4); padding-bottom: 4px; }
+    section > p { margin: 4px 0 10px; color: var(--ink-dim); max-width: 980px; }
+    .tier { margin: 10px 0 18px; }
+    .tier h3 { margin: 0 0 6px; font: normal 13px var(--serif); letter-spacing: .12em; text-transform: uppercase; color: var(--gold-bright); }
+    body.light .tier h3 { color: #7a5a1c; }
+    .tier h3 .muted { color: var(--ink-dim); font: 12px var(--sans); letter-spacing: 0; text-transform: none; margin-left: 8px; }
+    .scroll { overflow-x: auto; background: var(--card); border: 1px solid rgba(201,164,92,.3); border-radius: 6px; padding: 6px; }
+    canvas { display: block; }
+    .err { color: #f08a6a; }
+    code { color: var(--gold-bright); }
+    body.light code { color: #7a5a1c; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Art gallery</h1>
+    <nav>
+      <a href="#terrain">Terrain</a><a href="#scene">Landscape</a><a href="#cities">Cities</a><a href="#water">Water</a>
+      <a href="#layers">Map layers</a><a href="#sites">Sites</a><a href="#citizens">Citizens</a>
+      <a href="#icons">Icons</a><a href="#banners">Banners</a><a href="trailer.html">Trailer</a>
+    </nav>
+    <span class="spacer"></span>
+    <label><input type="checkbox" id="opt-outline"> hex outlines</label>
+    <label><input type="checkbox" id="opt-light"> light page</label>
+    <label><input type="checkbox" id="opt-lod" checked> LOD labels</label>
+    <button id="btn-reload" title="Reload the page (re-imports the art modules)">Reload art</button>
+  </header>
+  <main id="gallery">
+    <p class="muted" id="status">Rendering…</p>
+  </main>
+  <script type="module" src="gallery.js"></script>
+</body>
+</html>

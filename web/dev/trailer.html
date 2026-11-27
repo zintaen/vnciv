@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trailer renderer — United States atlas (dev)</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="data:,">
+  <style>
+    :root {
+      --ink: #efe4c6; --ink-dim: #b9ab88; --gold: #c9a45c; --gold-bright: #ecd08e; --bg: #0b1520; --card: #121d29;
+      --serif: "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+      --sans: -apple-system, "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 13px/1.45 var(--sans); }
+    header {
+      position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; padding: 8px 16px;
+      background: linear-gradient(180deg, #24364a, #131e2a); border-bottom: 1px solid var(--gold);
+    }
+    header h1 { margin: 0; font: normal 17px var(--serif); letter-spacing: .14em; text-transform: uppercase; color: var(--gold-bright); }
+    header a { color: var(--gold-bright); font-size: 12px; }
+    button { font: 12px var(--serif); color: var(--gold-bright); background: linear-gradient(180deg, #3a5068, #223244); border: 1px solid var(--gold); border-radius: 4px; padding: 4px 12px; cursor: pointer; }
+    button:disabled { opacity: .45; cursor: default; }
+    label { font-size: 12px; color: var(--ink-dim); display: inline-flex; align-items: center; gap: 4px; }
+    input[type=range] { width: min(520px, 60vw); }
+    main { padding: 12px 16px 40px; }
+    #preview { display: block; width: 100%; max-width: 1280px; height: auto; aspect-ratio: 16 / 9; background: #000; border: 1px solid rgba(201,164,92,.4); }
+    #status { margin: 8px 0; color: var(--ink-dim); min-height: 1.4em; }
+    #status.err { color: #f08a6a; }
+    .row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin: 8px 0; }
+    p.note { color: var(--ink-dim); max-width: 900px; }
+    code { color: var(--gold-bright); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trailer</h1>
+    <button id="btn-render" disabled>Render</button>
+    <button id="btn-download" disabled>Download MP4</button>
+    <button id="btn-test">Self-test muxer</button>
+    <label><input type="checkbox" id="opt-ss" checked> 2× supersampling</label>
+    <label><input type="checkbox" id="opt-sound" checked> Sound</label>
+    <a href="art.html">Art gallery</a>
+  </header>
+  <main>
+    <canvas id="preview" width="1920" height="1080"></canvas>
+    <div class="row">
+      <label>Scrub <input type="range" id="scrub" min="0" max="899" value="0" step="1"></label>
+      <span id="time">0.00 s</span>
+    </div>
+    <div id="status">Loading data…</div>
+    <p class="note">Renders the 30-second announcement trailer frame by frame (1920×1080, 30 fps, H.264) with the app's own
+      renderer and data, entirely in this tab (WebCodecs + a small MP4 writer, no installs). With Sound on, the score
+      (<code>dev/trailer/score.js</code>, synthesised in code and timed to the storyboard) is mixed in as AAC. Rendering is not real time;
+      leave the tab open until it finishes. The title, tagline and URL are set at the top of <code>dev/trailer/storyboard.js</code>.</p>
+  </main>
+  <script type="module" src="trailer/main.js"></script>
+</body>
+</html>

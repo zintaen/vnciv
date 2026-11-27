@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>vnciv — Vietnam as a strategy game</title>
+  <meta name="description" content="The real Vietnam drawn like a 4X strategy map: hex terrain, provinces, cities with yields, lenses and resources, all from public data.">
+  <meta name="theme-color" content="#131e2a">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%23120d06'/%3E%3Ccircle cx='32' cy='32' r='29' fill='%23c9a45c'/%3E%3Ccircle cx='32' cy='32' r='24' fill='%23c8102e'/%3E%3Cpath fill='%23ffcd00' d='M32 14l4.9 11.3 12.2 1.1-9.3 8.1 2.8 12-10.6-6.4-10.6 6.4 2.8-12-9.3-8.1 12.2-1.1z'/%3E%3C/svg%3E">
+  <!-- Social cards: crawlers need absolute URLs; if you host your own copy, change https://zintaen.github.io/vnciv/ here and SITE_URL in js/app/share.js. -->
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://zintaen.github.io/vnciv/">
+  <meta property="og:site_name" content="vnciv">
+  <meta property="og:url" content="https://zintaen.github.io/vnciv/">
+  <meta property="og:title" content="Việt Nam trên bản đồ chiến thuật">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:description" content="Việt Nam thật, vẽ như bản đồ game chiến thuật 4X: địa hình ô lục giác, thành phố với sản lượng, lớp bản đồ và tài nguyên, tất cả từ dữ liệu công khai (Cục Thống kê, WorldPop, ESA WorldCover, NOAA).">
+  <meta property="og:image" content="https://zintaen.github.io/vnciv/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Bản đồ ô lục giác của Việt Nam với biểu ngữ thành phố, theo phong cách game chiến thuật">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Việt Nam trên bản đồ chiến thuật">
+  <meta name="twitter:description" content="Việt Nam thật, vẽ như bản đồ game chiến thuật 4X, từ dữ liệu công khai.">
+  <meta name="twitter:image" content="https://zintaen.github.io/vnciv/og-image.png">
+  <meta name="twitter:image:alt" content="Bản đồ ô lục giác của Việt Nam với biểu ngữ thành phố, theo phong cách game chiến thuật">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="topbar">
+    <div class="brand" title="Việt Nam"><span class="brand-emblem" aria-hidden="true">★</span><span class="brand-text">Việt Nam</span></div>
+    <div id="yields" class="yields" aria-label="National yields"></div>
+    <div class="spacer"></div>
+    <div class="search" role="search">
+      <span class="search-ic" aria-hidden="true"></span>
+      <input id="search-input" type="search" placeholder="Search cities &amp; provinces" autocomplete="off" spellcheck="false"
+        role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search cities and provinces (/ or Ctrl K)">
+      <kbd class="search-kbd" aria-hidden="true">/</kbd>
+    </div>
+    <div id="turn" class="turn"></div>
+    <div class="tb-buttons">
+      <button id="btn-share" class="btn" aria-haspopup="dialog" aria-expanded="false" aria-label="Share this view" title="Share: copy a link or download an image"></button>
+      <button id="btn-lang" class="btn" aria-label="Language"></button>
+      <button id="btn-help" class="btn btn-icon" aria-label="Keyboard and mouse help" title="Help (?)"></button>
+      <button id="btn-pedia" class="btn" aria-label="Open the Almanac" title="What every number means and where it comes from"></button>
+    </div>
+  </header>
+
+  <canvas id="map" role="img" aria-label="Hex map of Vietnam"></canvas>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+  <aside id="city-panel" class="panel" hidden role="region" aria-label="Details"></aside>
+
+  <div id="lens-area">
+    <div id="lens-picker" class="panel lens-picker" hidden role="dialog" aria-label="Choose a lens"></div>
+    <div id="legend" class="panel legend" hidden role="group" aria-label="Lens legend"></div>
+    <div id="lens-dock" class="panel lens-dock" role="toolbar" aria-label="Map lenses">
+      <button id="btn-res" class="lens-btn res-toggle" aria-pressed="true" aria-label="Resources on tiles (R)" title="Show or hide resources on tiles (R)" hidden></button>
+      <div id="lens-quick" class="lens-quick"></div>
+      <button id="btn-lenses" class="lens-btn lens-more" aria-haspopup="dialog" aria-expanded="false" aria-controls="lens-picker"></button>
+    </div>
+  </div>
+
+  <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas></div>
+  <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
+
+  <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>
+  <div id="share-pop" class="panel share-pop" role="dialog" aria-label="Share" hidden></div>
+  <div id="yield-report" class="panel yield-report" role="dialog" aria-label="National report" tabindex="-1" hidden></div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <div id="announce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+
+  <div id="pedia" class="modal" hidden>
+    <div class="modal-card panel" role="dialog" aria-modal="true" aria-label="Almanac">
+      <button class="close icon-btn" data-close aria-label="Close the Almanac">✕</button>
+      <nav id="pedia-nav" aria-label="Almanac pages"></nav>
+      <article id="pedia-body"></article>
+    </div>
+  </div>
+
+  <div id="help" class="modal" hidden>
+    <div class="help-card panel" role="dialog" aria-modal="true" aria-labelledby="help-title"></div>
+  </div>
+
+  <div id="loading">Surveying the land…</div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

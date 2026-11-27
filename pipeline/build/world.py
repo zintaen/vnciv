@@ -91,7 +91,7 @@ RIVER_VI = {"Mekong": "Mê Kông", "Hong": "Sông Hồng", "Da": "Sông Đà", "
 OFFSHORE_LON = 109.6  # east of this: Hoàng Sa / Trường Sa islands and reefs (the mainland ends at 109.46° E)
 # Map frame (Albers km offsets, map units): fitted in the first build to the outlines then in use (geoBoundaries,
 # islands included) and kept fixed so hex ids stay the same when the outlines change.
-FRAME = dict(min_x=-801.2961167935589, max_y=822.7997851038526, width=11335.015372458753, height=8719.24259419904)
+FRAME = dict(min_x=-801.2961167935589, max_y=822.7997851038526, width=11335.015372458753, height=8719.24259419904 + 37.5)  # +1 hex row so Đảo An Bang (7.88N, Trường Sa) has a hex
 HDX25 = ("hdx_cod_ab_vnm", "vnm_admin_boundaries.shp.zip", "vnm_admin1", "adm1_name1")
 HDX20 = ("hdx_cod_ab_vnm_2020", "vnm_adm_gov_20201027_shp.zip", "vnm_admbnda_adm1_gov_20201027", "ADM1_VI")
 OUTLINE_RULE = (
@@ -272,6 +272,7 @@ def build():
     print(f"    map window lon {min(c[0] for c in corners):.2f}–{max(c[0] for c in corners):.2f}, "
           f"lat {min(c[1] for c in corners):.2f}–{max(c[1] for c in corners):.2f}")
     grid = HexGrid.covering(width, height, R)
+    height = max(height, (grid.rows - 1) * 1.5 * R + R)  # the map clips at height: keep the last row's hexes whole
     print(f"    grid {grid.cols}×{grid.rows} = {grid.size} hexes of {HEX_KM:g} km")
 
     ne = RAW / "natural_earth"

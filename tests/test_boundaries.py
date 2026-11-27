@@ -12,7 +12,7 @@ W = json.loads((ROOT / "web" / "data" / "world.json").read_text())
 @unittest.skipUnless("provinces" in W["tables"]["notes"], "world.json built before the COD-AB outlines")
 class TestBoundaries(unittest.TestCase):
     def test_grid_unchanged(self):
-        self.assertEqual((W["grid"]["cols"], W["grid"]["rows"], len(W["owner"])), (263, 234, 61542))
+        self.assertEqual((W["grid"]["cols"], W["grid"]["rows"], len(W["owner"])), (263, 235, 61805))
 
     def test_nesting(self):
         from pipeline.admin import NEW

@@ -8,6 +8,9 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+BUILT = unittest.skipUnless((ROOT / "data" / "raw").is_dir() and (ROOT / "data" / "interim").is_dir(),
+                            "needs data/raw and data/interim: run `python -m pipeline all` first")
 DATA = ROOT / "web" / "data"
 INTERIM = ROOT / "data" / "interim"
 
@@ -44,6 +47,7 @@ class TestCarryFixes(unittest.TestCase):
             self.assertTrue(a["name_vi"], a["id"])
             self.assertFalse(a["name_vi"].startswith("Dự án"), a["id"])
 
+    @BUILT
     def test_per_resident_same_year(self):
         d, cities = load("districts"), load("cities")
         years = json.loads((INTERIM / "_stats.json").read_text())["years"]
@@ -53,6 +57,7 @@ class TestCarryFixes(unittest.TestCase):
             nat = sum(rows[c["id"]][k] or 0 for c in cities) / sum(c["pop_series"][y] for c in cities)
             self.assertAlmostEqual(d["national"][k], round(nat, 2), places=2, msg=k)
 
+    @BUILT
     def test_counties_labels_say_the_year(self):
         years = json.loads((INTERIM / "_stats.json").read_text())["years"]
         f = {x["key"]: x["label"] for x in load("counties")["fields"]}

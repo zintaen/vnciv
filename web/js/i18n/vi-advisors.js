@@ -565,7 +565,7 @@ export default {
   "FDI per person ({y})": "FDI bình quân đầu người ({y})",
   "Factory jobs": "Việc làm CN",
   "Factory jobs lens": "Bản đồ chủ đề việc làm công nghiệp",
-  "Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published for the 63 former provinces (the 2025 provinces combine them); HDI {hy}, doctors and road deaths only for the 34 provinces.": "Số liệu của Cục Thống kê năm {y}, trừ khi có ghi năm khác. Thu nhập, nghèo, bất bình đẳng và các dịch vụ ở trên được công bố cho 63 tỉnh cũ (các tỉnh năm 2025 gộp chúng lại); HDI {hy}, bác sĩ và tử vong do tai nạn giao thông chỉ có cho 34 tỉnh, thành.",
+  "Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published both for the 63 former provinces and, by NSO, for the 34 provinces; HDI {hy}, doctors and road deaths only for the 34 provinces.": "Số liệu của Cục Thống kê năm {y}, trừ khi có ghi năm khác. Thu nhập, nghèo, bất bình đẳng và các dịch vụ ở trên được công bố cho cả 63 tỉnh cũ lẫn 34 tỉnh, thành (số liệu riêng của Cục Thống kê); HDI {hy}, bác sĩ và tử vong do tai nạn giao thông chỉ có cho 34 tỉnh, thành.",
   "Figures for the whole of {name} (merged from {list}), not only {old}.": "Số liệu của toàn tỉnh {name} (sáp nhập từ {list}), không riêng {old}.",
   "Firms /1,000": "DN /1.000 dân",
   "Foreign direct investment newly registered ({v}).": "Vốn đầu tư trực tiếp nước ngoài đăng ký mới ({v}).",

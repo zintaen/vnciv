@@ -44,4 +44,5 @@ export default {
   "{n} more only near Hoàng Sa or Trường Sa": "thêm {n} cơn chỉ đi gần Hoàng Sa hoặc Trường Sa",
   "only near Hoàng Sa or Trường Sa": "chỉ đi gần Hoàng Sa hoặc Trường Sa",
   "{name} in {year}, from NSO's yearly series ({level}).": "{name} năm {year}, theo chuỗi số liệu hằng năm của Cục Thống kê ({level}).",
+  "{name}: NSO's yearly series has no figure for {year}.": "{name}: chuỗi số liệu hằng năm của Cục Thống kê không có số liệu năm {year}.",
 };

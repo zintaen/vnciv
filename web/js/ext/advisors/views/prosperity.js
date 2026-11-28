@@ -196,7 +196,7 @@ export function mount(ctx) {
   }
 
   el.insertAdjacentHTML("beforeend", sourcesHtml(data, ["nso_yearbook", "worldbank_fx"], [
-    tr("Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published for the 63 former provinces (the 2025 provinces combine them); HDI {hy}, doctors and road deaths only for the 34 provinces.", { y: esc(data.mainYear), hy: yearText(states.field("hdi")?.year) }),
+    tr("Figures are NSO's for {y} unless a year is shown. Income, poverty, inequality and the services above are published both for the 63 former provinces and, by NSO, for the 34 provinces; HDI {hy}, doctors and road deaths only for the 34 provinces.", { y: esc(data.mainYear), hy: yearText(states.field("hdi")?.year) }),
     ...[
     "Income per person comes from the household living standards survey; worker income from the labour force survey. They are different surveys and do not divide into each other.",
     "Poverty is the multidimensional standard for 2022–2025: a household is poor on low income or on missing basic services.",

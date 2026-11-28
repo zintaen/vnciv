@@ -5,10 +5,14 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+BUILT = unittest.skipUnless((ROOT / "data" / "raw").is_dir() and (ROOT / "data" / "interim").is_dir(),
+                            "needs data/raw and data/interim: run `python -m pipeline all` first")
 DATA, RAW = ROOT / "web" / "data", ROOT / "data" / "raw" / "vn_wards_gis"
 
 
 class TestDistrictsBaseline(unittest.TestCase):
+    @BUILT
     def test_unknown_figures_left_out_of_national_baseline(self):
         # Bắc Kạn's 2025 tourism cell is blank: the national per-resident baseline must skip its population
         st = json.loads((ROOT / "data" / "interim" / "_stats.json").read_text())["rows"]
@@ -19,6 +23,7 @@ class TestDistrictsBaseline(unittest.TestCase):
         self.assertAlmostEqual(got, want, delta=1e-3)
 
 
+@BUILT
 class TestCommunesVsRaw(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

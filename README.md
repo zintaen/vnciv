@@ -2,11 +2,13 @@
 
 A visualizer (not a game) that draws the **real** Vietnam like a turn-based strategy map: painted hex terrain from
 elevation and land cover, the 34 provinces of 2025, cities with yield banners, power plants as resources, roads,
-railways, ports, airports and wonders on the tiles, 45 lenses, a City View, a council of Advisors and an Explorer.
+railways, ports, airports and wonders on the tiles, 45 lenses, map layers (communes and wards, special national relics,
+everyday places, sea-level rise), a timeline (statistics by year, typhoons since 1980, history), a City View, a council of
+Advisors and an Explorer.
 Every number traces back to a public source listed in the in-app **Almanac**. The interface is in **Vietnamese** (default)
 and **English** (the EN/VI button, or `?lang=en`).
 
-**Live:** https://zintaen.github.io/vnciv/
+**Live:** https://atlasvn.online/ (https://zintaen.github.io/vnciv/ redirects there)
 
 **Hoàng Sa, Trường Sa là của Việt Nam.** Both archipelagos are drawn with their islands (Hoàng Sa under Đà Nẵng,
 Trường Sa under Khánh Hòa), named on the map with the slogan in the sea between them.
@@ -16,10 +18,12 @@ and Canvas 2D, no framework, no build step) is reused, and a new data pipeline f
 
 ## Quick start
 
-You need [uv](https://docs.astral.sh/uv/). The built data (`web/data/`) is included, so to run it:
+You need [git](https://git-scm.com/) and [uv](https://docs.astral.sh/uv/). The built data (`web/data/`) is included,
+so serving needs no downloads (`data/raw/` is only for rebuilding):
 
 ```bash
-uv run python -m pipeline serve        # http://127.0.0.1:8765
+git clone https://github.com/zintaen/vnciv.git && cd vnciv
+uv run python -m pipeline serve        # http://127.0.0.1:8765 (uv installs the dependencies on first run)
 ```
 
 `web/` is a self-contained static site: upload it to any static host.
@@ -28,13 +32,13 @@ uv run python -m pipeline serve        # http://127.0.0.1:8765
 uv run python -m pipeline all          # download (cached in data/raw/) → build web/data/*.json
 uv run python -m pipeline build lenses # rebuild one step (see pipeline/build/__init__.py for the order)
 uv run python -m pipeline package      # vnciv.zip (the site) and vnciv-source.zip (this project)
-uv run python -m unittest discover -s tests   # data checks
+uv run python -m unittest discover -s tests   # data checks (those that read data/raw or data/interim skip until `all` has run)
 QA_LANG=vi uv run --with playwright python tools/qa.py   # every view in a browser (also QA_LANG=en)
 node tools/i18n/check_dups.mjs                 # Vietnamese dictionaries agree
 python3 tools/i18n/gen.py                      # regenerate the Vietnamese data dictionary
 ```
 
-The first `all` downloads about 300 MB. The province statistics were parsed from NSO publications into the tidy CSVs
+The first `all` downloads about 550 MB (about 600 MB in `data/raw/`). The province statistics were parsed from NSO publications into the tidy CSVs
 in `data/stats/` by the scripts in `pipeline/nso/` (see `data/stats/SOURCES.md`); they are committed, so a rebuild does not
 need the NSO servers.
 
@@ -58,6 +62,8 @@ need the NSO servers.
 | Trade routes | The 30 domestic air routes flown by the most airlines (OpenFlights route database, 2014) |
 | Wonders | UNESCO World Heritage sites, national parks, the national and regional universities, landmarks |
 | Place names | The Hoàng Sa and Trường Sa islands (Wikidata), well-known coastal islands and towns (GeoNames) |
+| Communes layer | The 3,321 communes, wards and special zones of the two-tier local government (1 July 2025) |
+| Relics layer | The 150 special national relics (di tích quốc gia đặc biệt) of the Vietnamese Wikipedia list, placed where coordinates are known |
 
 Hoàng Sa (Paracel) and Trường Sa (Spratly) islands are part of Đà Nẵng and Khánh Hòa, as in the official outlines;
 they are shown by the hexes at their named islands' centres.
@@ -108,5 +114,7 @@ Map data © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright
 derived from OpenStreetMap (or OpenFlights) are released under the ODbL too. Text and lists from Wikipedia are
 CC BY-SA 4.0 (each history event links its article). WorldPop, ESA WorldCover, GeoNames, WRI, World Bank and Hansen /
 UMD / Google / USGS / NASA Global Forest Change are CC BY 4.0; OCHA COD-AB is CC BY-IGO; the Vietnamese Provinces
-Database is © 2021 Thang Le Quoc, MIT licence.
+Database is © 2021 Thang Le Quoc, MIT licence. Wikidata and CHELSA are CC0; NOAA (ETOPO1, IBTrACS), Natural Earth and
+OurAirports are public domain. NSO statistics state no licence (official figures, reused with attribution); VCCI's PCI is free
+to reuse with attribution.
 The look is inspired by turn-based 4X strategy games; every glyph and texture is drawn in code.

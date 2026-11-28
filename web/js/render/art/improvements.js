@@ -527,7 +527,7 @@ export function routeArc(grid, ca, cb, bow = 0.16) {
 /**
  * trade.json → [{route, a, b, pts: Float64Array [x,y,…] (a sampled arc), path, ends, len, bbox, weight, top, bow, style}],
  * biggest first. Each route is drawn as a gentle arc between its two anchor cities (the ends of trade.json `path`),
- * like a caravan route on a strategy map: arcs keep the 40 routes legible where a road-following drawing would bundle
+ * like a caravan route on a strategy map: arcs keep the 30 routes legible where a road-following drawing would bundle
  * them along the same Interstates. Routes that share an anchor fan out (alternating sides, growing bow by rank) so
  * they leave it as a spray rather than a single wedge. Neither form is data: FAF assigns no route.
  */

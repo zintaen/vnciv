@@ -6,16 +6,21 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+BUILT = unittest.skipUnless((ROOT / "data" / "raw").is_dir() and (ROOT / "data" / "interim").is_dir(),
+                            "needs data/raw and data/interim: run `python -m pipeline all` first")
 DATA, STATS = ROOT / "web" / "data", ROOT / "data" / "stats"
 load = lambda n: json.loads((DATA / f"{n}.json").read_text())
 
 
 class TestRound2Data(unittest.TestCase):
+    @BUILT
     def test_storm_close_pass_between_fixes_counted(self):
         # Mangkhut 2013 passes ~97 km from Nghệ An's hex 19818 mid-segment; both track points are ~101 km away
         storms = json.loads((ROOT / "data" / "interim" / "_storms.json").read_text())["storms"]
         self.assertIn(19818, storms["2013217N11118"]["cells"])
 
+    @BUILT
     def test_storm_dates_per_province(self):
         # a former province's storm date is when that storm first came within reach of it, never before the storm's
         # first mainland approach, and the earliest of them is that approach
@@ -68,6 +73,7 @@ class TestRound2Data(unittest.TestCase):
         self.assertEqual(ev["unesco_wh-678"], "1993-12-11")  # Huế: the day Wikidata gives, not an invented 1 July
         self.assertEqual(ev["unesco_wh-672"], "1994")  # Wikidata has the year only (stored as 1 January)
 
+    @BUILT
     def test_commune_names_as_published(self):
         raw = json.loads((ROOT / "data" / "raw" / "vn_wards_gis" / "full_json_generated_data_vn_units.json").read_text())
         name = {w["Code"]: w["Name"] for p in raw for w in p["Wards"]}

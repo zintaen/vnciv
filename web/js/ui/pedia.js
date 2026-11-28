@@ -89,7 +89,7 @@ export function initPedia(data) {
       <h4>${t("Beyond the borders")}</h4>
       <p class="muted">${t("Neighbouring land (China, Laos, Cambodia, Thailand and beyond) is drawn under a light fog: it is shown for context and not mapped in detail.")}</p>`;
     },
-    Lenses: () => `
+    Lenses: () => !data.lenses.lenses.length ? `${h2("layers", "▤", t("Lenses"))}<p class="muted">${t("Loading…")}</p>` : `
       ${h2("layers", "▤", t("Lenses"))}
       <p>${t("Lenses recolour the map by one measure ({vintage}). Population, land cover, climate, forest loss, low-lying land, typhoons and mapped schools are measured hex by hex from gridded or point data. The other lenses spread a province's figure over its hexes: most use the 63 former provinces, where a hex on a border averages its 7 sample points (centre + 6), so borders blend a little; the indicators NSO publishes only for the 34 provinces give every hex of a province its value.", { vintage: esc(t(data.lenses.vintage || "")) })}</p>
       <p>${t("The legend shows how many hexes fall at each value. Hover or drag on it to show only that range on the map.")}</p>

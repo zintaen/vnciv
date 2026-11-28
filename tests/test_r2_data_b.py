@@ -6,6 +6,9 @@ from pathlib import Path
 from pipeline.build import ext_poi as E
 
 ROOT = Path(__file__).resolve().parent.parent
+
+BUILT = unittest.skipUnless((ROOT / "data" / "raw").is_dir() and (ROOT / "data" / "interim").is_dir(),
+                            "needs data/raw and data/interim: run `python -m pipeline all` first")
 DATA = ROOT / "web" / "data"
 
 
@@ -18,11 +21,13 @@ class TestRelicLinks(unittest.TestCase):
         self.assertIsNone(L("Tây Thiên - [[Tam Đảo]]<ref>r</ref>"))  # a link to part of the name only
         self.assertIsNone(L("Khu đền thờ [[Tây Sơn Tam Kiệt]]"))  # the people, not the temple
 
+    @BUILT
     def test_no_typo_names(self):
         names = [r["name"] for r in E.relic_rows()]
         self.assertIn("Quần thể di tích Tây Sơn Thượng Đạo", names)
         self.assertFalse([n for n in names if any(ch.isdigit() for ch in n) and ")" in n and "(" not in n], names)
 
+    @BUILT
     def test_categories_one_spelling(self):
         # the kinds web/js/ext/poi/index.js RELIC_CAT_EN translates, joined by ", "
         kinds = {"lịch sử", "kiến trúc nghệ thuật", "khảo cổ", "danh lam thắng cảnh"}
@@ -42,6 +47,7 @@ class TestRelicLinks(unittest.TestCase):
 
 
 class TestHistoryCitations(unittest.TestCase):
+    @BUILT
     def test_split_1991_cites_the_article_that_lists_the_splits(self):
         ev = {e["id"]: e for e in json.loads((ROOT / "data" / "stats" / "history" / "events.json").read_text())}["split_1991"]
         page = json.loads((ROOT / "data" / "raw" / "wikipedia_history" / ev["raw_file"]).read_text())["query"]["pages"][0]

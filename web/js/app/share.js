@@ -8,7 +8,7 @@ import { naturalEnd } from "../ui/lenses.js";
 
 // The address printed on shared images. Set it to the published site (e.g. "example.com/vnciv"); when left
 // empty, the page's own host and path are used, except on a local dev server, where SITE_FALLBACK is printed.
-export const SITE_URL = "zintaen.github.io/vnciv";
+export const SITE_URL = "atlasvn.online";
 const SITE_FALLBACK = "vnciv";
 
 export function siteLabel() {

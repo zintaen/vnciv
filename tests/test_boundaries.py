@@ -5,6 +5,9 @@ import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+BUILT = unittest.skipUnless((ROOT / "data" / "raw").is_dir() and (ROOT / "data" / "interim").is_dir(),
+                            "needs data/raw and data/interim: run `python -m pipeline all` first")
 sys.path.insert(0, str(ROOT))
 W = json.loads((ROOT / "web" / "data" / "world.json").read_text())
 
@@ -22,6 +25,7 @@ class TestBoundaries(unittest.TestCase):
             if o >= 0:
                 self.assertEqual(new_of[W["counties"][W["county"][i]]["name"]], names[o], i)
 
+    @BUILT
     def test_spots(self):
         """GeoNames points (data/raw/geonames/VN.txt): Hồ Hoàn Kiếm 1580636, Móng Cái 1574507."""
         from pipeline.geo import MapProjection

@@ -11,10 +11,11 @@
 >   `median_rent`, `home_value`, `rent_burden` are null (not published per province). Extra fields: `area_km2,
 >   density, urban, labour_force, trained, literacy, hdi, poverty, gini, income_worker, productivity, fdi,
 >   fdi_projects, retail, paddy, tourism, students, lecturers, pci, grdp_growth, internet, computer, clean_water, housing,
->   it_skills, enterprises_pk`; states add the 34-province-only `doctors, doctors_pk, forest_cover, road_deaths,
+>   it_skills, enterprises_pk, pci_2024`; states add the 34-province-only `doctors, doctors_pk, forest_cover, road_deaths,
 >   pupils_per_teacher, growth_9m2026, industry_jobs_2026` (HDI and FDI on states and the nation are 2025, on cities 2024).
 >   Every city/state/nation record has `years: {field: year label}`; `nation.cities_basis` holds the 2024 national
->   HDI/FDI to compare cities with. `growth_years` is [2019, 2025]; `gdp_year` 2025.
+>   HDI/FDI to compare cities with; `nation.nation` also has `employed_lfs, informal, life_exp,
+>   gdp_provinces` (the sum of the provinces' GRDP) and the 34-province-only fields. `growth_years` is [2019, 2025]; `gdp_year` 2025.
 >   `nation.nation.jobs` is national employment by industry; `nation.currency` holds the VND→USD rate.
 > * **Yields**: food = paddy (`unit: "tonnes"`), production = employed workers, gold = GRDP (usd), science =
 >   university students (`"students"`), culture = travel and tour turnover (usd).
@@ -25,13 +26,13 @@
 >   pupils_per_teacher, forest_cover (34 provinces: every hex of a province has its value). Province lenses carry
 >   `year` and `level` ("63" | "34"). Stream lenses: osm_schools, ethnic_largest, ethnic_minority, crop_rice,
 >   crop_maize, crop_cassava, crop_sugarcane, crop_tea, crop_orange, rainfall, temperature, hot_month, cold_month,
->   forest_loss, low_lying. Groups: people, economy, living, education, hazards, land, agriculture, environment.
+>   forest_loss, low_lying. Groups (in this order): people, economy, living, education, hazards, land, environment, agriculture.
 > * **districts.json v2**: `catalog`, `rule`, `national`, `cities{id: {districts: [{id, lq|null, via, strength,
 >   value?, text}], badge}}` (location quotients of per-resident figures, plus mapped sites).
 >   **citizens.json v2**: rows residence / work / skills / households, plus `life_expectancy` and `migration`.
 >   **disasters.json v2**: `typhoons` (IBTrACS) instead of FEMA/NOAA.
 > * **Pipeline.** The "Pipeline conventions" section below describes usaciv's pipeline. vnciv's is simpler: builders in
->   `pipeline/build/*.py` run in the order of `pipeline/build/__init__.py`, sources are listed in `pipeline/sources.py`, and it
+>   `pipeline/build/*.py` run in the order of `pipeline/build/__init__.py`, sources are listed in `pipeline/sources.py` and `pipeline/sources_*.py`, and it
 >   uses numpy, rasterio and openpyxl (not the standard library only).
 > * **military.json** comes from OpenStreetMap military land: components army / navy / air_force / other; tiers by mapped
 >   area; personnel, spending and veterans are null (not published). **trade.json** holds domestic air routes
@@ -41,6 +42,54 @@
 >   Wikipedia title linked from Wikidata, else the Wikidata vi label; `format.js` airportName() shows it in vi).
 >   **wonders.json**: a plaque `short` is Vietnamese; `short_en` (optional) replaces it in English ("ĐHQG Hà Nội" /
 >   "VNU Hà Nội"). **counties.json** field labels carry their year when it is not the main 2025: "Literacy (2024)".
+> * **Vietnam shapes of the usaciv files** (where they differ from the sections below):
+>   * **infrastructure.json**: `road_classes` interstate = Expressway, major = National road; `port_classes` [special, I,
+>     II, III]; ports add `seaport` (the official seaport they belong to), `class`, `main` (a main port area of 1579/QĐ-TTg)
+>     and `placed` (osm | wikidata | geonames | town: where the position comes from); `tons`/`domestic`/`foreign`/
+>     `imports`/`exports` are null. `seaports_unplaced: [{seaport, class, areas}]` lists listed seaports with no placed area.
+>     `county` = a former-province code, `cbsa` = a cities.json id, `state` = a province abbr.
+>   * **resources.json**: types hydro, coal_plant, gas_plant, oil_plant, wind, solar (all MW); items add `since` (year,
+>     optional), `capacity_from` ("gppd" when the MW comes from WRI, optional) and `farms` (wind farms merged in a hex, optional).
+>   * **wonders.json**: rules `world_heritage`, `national_park`, `research_university`, `landmark`; `national` is
+>     `{world_heritage, national_parks, park_visits: null, r1_universities}`; every wonder has `name_en`; `metrics` keys
+>     are among `inscribed, inscribed_date, whc_ref` (heritage), `area_km2, visits` (parks), `founded` (universities).
+>   * **military.json**: installations add `kind` (the OSM military=* class) and have no `name_mirta`/`components`;
+>     `national` = `{personnel, spending, veterans, armed_forces_resident (all null), installations, area_km2,
+>     by_component, by_tier}`; `cities` entries have `armed_forces`/`share` null.
+>   * **trade.json**: `kind: "air"`, `units: {airlines}`, `modes` = air only; zones are `{id, name, short, kind, states,
+>     cities, airports, anchor, partners: [[zone, airlines]]}` (no `faf`, `counties`, `totals_musd`); no `commodities`,
+>     `national_musd`; routes have no `tmiles_m`/`top_commodity`.
+>   * **disasters.json**: `{version, sources, vintage (string), typhoons: {since, radius_km, min_kt, strong_kt, rule,
+>     counties: {columns: [geoid, total, strong, last_date], rows}, states: {abbr: {total, strong}}, national: {storms,
+>     strong, by_year: [{year, storms}], strongest: [storm], recent: [storm]}}}`, storm = `{name, season, date, max_kt,
+>     strong, hexes, provinces}`.
+>   * **citizens.json**: rows residence, work, skills, households (`total`/`counts` null for households: only shares are
+>     published), plus `life_expectancy` and `migration: {in, out, net, unit}` per row; every city has a row; a top-level
+>     `note` says what the shares count.
+>   * **world.json** `tables.cover` entries have no `color`/`nlcd`; `tables.notes: {water, relief, cover, provinces}`.
+> * **Vietnam-only files** (all optional, `version: 1`, built by `pipeline/build/ext_*.py`, `places.py`, `timeline.py`):
+>   * **communes.json** (lazy): `{year, sources, vintage, rules, kinds: [Xã, Phường, Đặc khu], q, unit_km, count,
+>     official_2025: {total, communes, wards, special}, by_province: {abbr: {communes, wards, special, total,
+>     official_2025}}, count_differences, count_note, outline_check, arcs, communes: [{id, n (name), k (kinds index),
+>     p (province), x, y, a (km²), r (rings of arc indices)}]}`.
+>   * **poi.json** (lazy): `{vintage, sources, rules, states: [abbr], religions, cols: {layer: [column]}, points: {layer:
+>     [[row]]} (state = index into states), metro: [{name, ref, colour, route, km, state, paths}], counts}`.
+>   * **relics.json** (lazy): `{vintage, sources, rules, states, cols: [x, y, name, state, year, category, article,
+>     placed_by] (state = index into states), relics: [[row]], listed (the number on the list), unplaced: [{name, location, year}]}`;
+>     `relics.length + unplaced.length == listed`.
+>   * **ethnic.json**: `{source, date, unit, note, rules, groups: [56 names], nation, former: {city id: {name, province,
+>     total, minority_share, kinh_share, largest, pop: [56]}}, provinces: {abbr: {name, total, minority_share, kinh_share,
+>     largest, pop}}}` (nation has the same fields without name/province).
+>   * **forest_loss.json**: `{source, years, canopy_min, unit: "ha", rules, note, cells, forest2000_ha, peak_year,
+>     loss_ha: [per year, per cell], provinces: [{abbr, forest2000_ha, loss_ha, share}], national}` (cells = the hexes listed).
+>   * **sealevel.json**: `{source, levels: [m], unit, hex_area_km2, rule, note, cells, land_pct, share: [per level, per cell]}`.
+>   * **history.json**: `{source, rules, events: [{id, date, year, category (capital | dynasty | admin | national),
+>     title, text, cite, evidence, x, y, lon, lat}]}`.
+>   * **places.json** (eager): `{sources, rules, archipelagos: [{id, name, owner, x, y, islands}], slogan: {text, en, x, y},
+>     islands: [{name, en, group, x, y}], towns: [{name, x, y, population, kind}]}`.
+>   * **timeline.json** (lazy): `{sources, years, fx, fx_used, merger: {date, before, after}, series: {id: {unit, source,
+>     lens, levels: {"63"|"34": {code: {year: value}}}, lens_values, status: {year: final | prel | est}, status_levels?}},
+>     storms: [{name, season, date, max_kt, cells}], events: [{date, id, title, text, wonder?, source}], note}`.
 
 
 The pipeline (Python) and the browser (web/js) agree on these files in `web/data/`. Change a contract here first, then on
@@ -369,7 +418,7 @@ a `check(web_dir)` (see Pipeline conventions). Shared rules:
   or a `suppressed` count).
 * Rules that pick things (districts, wonders, routes) are published inside the file as text (`rule` / `rules`) so the UI
   and the Almanac can quote them.
-* **Loading** (browser): `infrastructure`, `military`, `wonders`, `trade` load eagerly right after the first frame (keep
+* **Loading** (browser): `infrastructure`, `military`, `wonders`, `trade`, `places` load eagerly right after the first frame (keep
   each **under ~300 kB**); `citizens`, `districts`, `disasters` load on demand with `app.loadData(name)`.
 
 ### citizens.json (lazy)
@@ -793,7 +842,7 @@ Extensions live in `web/js/ext/<name>/index.js` and export `install(app)`; `ext/
   before anything runs. Optional files: `undefined` until loaded, `null` when missing (404) or invalid.
 * `app.loadData(name) → Promise<data | null>`: loads `data/<name>.json` once (cached promise; later calls return the same
   promise) and sets `app.data[name]`. Emits `"data"` `{name, data}` when it arrives. `infrastructure`, `military`,
-  `wonders`, `trade` are requested automatically right after the first frame; `citizens`, `districts`, `disasters` (and
+  `wonders`, `trade`, `places` are requested automatically right after the first frame; `citizens`, `districts`, `disasters` (and
   `counties`) only when something calls `loadData`. `app.loadCounties()` = `app.loadData("counties")`.
 
 **Static map layers** (art that belongs in the cached map, drawn once per cache render):

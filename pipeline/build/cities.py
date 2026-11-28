@@ -18,7 +18,7 @@ from .common import World, site_cell
 
 YEAR = 2025
 GROWTH_YEARS = [2019, 2025]
-VINTAGE = "NSO Statistical Yearbook 2025 (2025 preliminary; some indicators 2024 or earlier, see each record's years)"
+VINTAGE = "NSO Statistical Yearbook 2025 (2025 preliminary; some indicators are 2024 or earlier, and each figure shows its year)"
 JOBS_YEAR = "Sơ bộ 2025"  # PX-Web V02.42 column (national employment by industry, 2025 preliminary)
 PARTIAL = {"tourism"}  # summed over the former provinces that publish it (Bắc Kạn's 2025 travel turnover is blank)
 YIELDS = [
@@ -221,8 +221,9 @@ def build():
             energy = {"unit": "MW", "total": sum(it["value"] or 0 for it in mine),
                       "by_type": {t: sum(it["value"] or 0 for it in mine if it["type"] == t) for t in mw_types},
                       "sites": {t: sum(1 for it in mine if it["type"] == t) for t in mw_types},
-                      "note": "Only the mapped power plants (each type's threshold applies, data as of 2021), not the "
-                              "province's total generating capacity."}
+                      "note": "Only the mapped power plants (OpenStreetMap 2026, capacities from WRI's 2021 database where "
+                              "OSM has none; each type's threshold applies), not the province's total generating "
+                              "capacity."}
         states.append({"fips": f"{k + 1:02d}", "abbr": n["abbr"], "name": n["name"],
                        "former": [u["name"] for u in olds if u["new"] == n["name"]],
                        **econ(members, GROWTH_YEARS), "land": land, "energy": energy, "label": None})

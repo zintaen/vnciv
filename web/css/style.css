@@ -22,7 +22,7 @@ svg.icon { display: inline-block; flex: none; }
 :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 2px; }
 /* Range inputs drawn the same in every engine (Firefox and Safari ignore accent-color on sliders). A 14 px thumb:
    the timeline's event marks are inset 7 px to line up with it. --range sets the colour. */
-input[type=range] { -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer; }
+input[type=range] { -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer; height: 16px; } /* without a height the box is the 4 px track: a sliver to click or tap */
 input[type=range]::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: rgba(201,164,92,.3); }
 input[type=range]::-moz-range-track { height: 4px; border-radius: 2px; background: rgba(201,164,92,.3); }
 input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; box-sizing: border-box; width: 14px; height: 14px; margin-top: -5px;

@@ -35,11 +35,13 @@ export async function mount(ctx) {
   const CLASS_RANK = Object.fromEntries((infra.port_classes || []).map((c, i) => [c.id, i]));
   const className = Object.fromEntries((infra.port_classes || []).map((c) => [c.id, c.name]));
   const classShort = (c) => (c == null ? "–" : c === "special" ? tr("Special") : String(c));
-  const byClass = (infra.port_classes || []).map((c) => [c, new Set(ports.filter((p) => p.class === c.id).map((p) => p.seaport)).size]).filter(([, k]) => k);
+  // The list's seaports, the unplaced ones (infra.seaports_unplaced) included: the headline and the class tally count all 34.
+  const listed = [...ports, ...(infra.seaports_unplaced || [])];
+  const byClass = (infra.port_classes || []).map((c) => [c, new Set(listed.filter((p) => p.class === c.id).map((p) => p.seaport)).size]).filter(([, k]) => k);
 
   // --- headline -------------------------------------------------------------------------------------------------
   el.insertAdjacentHTML("beforeend", tiles([
-    { label: tr("Seaports"), value: int(seaports.size || ports.length), sub: tr("{n} port areas in {p} provinces", { n: int(ports.length), p: portProvs.size }) },
+    { label: tr("Seaports"), value: int(seaports.size ? seaports.size + (infra.seaports_unplaced?.length || 0) : ports.length), sub: tr("{n} port areas in {p} provinces", { n: int(ports.length), p: portProvs.size }) },
     { label: tr("Air passengers"), value: count3(totalPax), sub: `${mixedYears ? tr("{n} airports, latest year each", { n: nPax }) : tr("{n} airports, {year}", { n: nPax, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
     // With the air routes, the busiest airport moves into the passengers tile so the headline stays one row.
     trade?.routes?.length

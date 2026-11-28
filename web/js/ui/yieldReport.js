@@ -42,7 +42,7 @@ const popIn = (o, y) => {
   return o.pop_series?.[yr] ?? (yr === yearNum(yearOf(o, "population")) ? o.population ?? null : null);
 };
 // "2025 (prel.)" or a 2025 figure → a note that it is preliminary / an estimate (NSO revises them).
-function statusNote(key, y) {
+export function statusNote(key, y) {
   if (key === "gold") return t("Vietnam's total is NSO's national GDP 2025 (estimate); each province's GRDP 2025 is NSO's GRDP per person (estimate) × average population, and they add up to slightly less. NSO revises both in the next yearbook.");
   if (/\(est\.\)/.test(y || "")) return t("{y} is an NSO estimate; NSO revises it in the next yearbook.", { y: yearNum(y) });
   if (/\(prel\.\)/.test(y || "") || yearNum(y) === "2025") return t("{y} figures are preliminary (NSO); NSO revises them in the next yearbook.", { y: yearNum(y) });
@@ -377,8 +377,10 @@ export function initYieldReports(opts) {
   const cityById = new Map((opts.cities || []).map((c) => [String(c.id), c]));
   const cache = new Map();
   const build = (key) => {
-    if (!cache.has(key)) cache.set(key, buildReport(key, data));
-    return cache.get(key);
+    if (cache.has(key)) return cache.get(key);
+    const rep = buildReport(key, data);
+    if (data.lenses?.length) cache.set(key, rep); // lenses.json may land after the first paint: rebuild with its lens link
+    return rep;
   };
   let current = null; // {key, btn, rep}
   let tab = opts.states?.length ? "states" : "metros"; // remembered across reports

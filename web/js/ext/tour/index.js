@@ -159,14 +159,16 @@ export function install(app) {
     if (active) return;
     active = true;
     opener = document.activeElement;
+    // Clear the screen before the await: a #tour=1&city=… link (or Back to one) then corrects its own history entry
+    // (the hash state's set() is synchronous) instead of pushing a second one that Back returns to with the tour running.
+    if (app.mode) app.setMode(null);
+    app.clearSelection?.();
+    leave3d();
     await Promise.all([app.loadData("wonders"), app.loadData("places")]);
     if (!active) return;
     const D = app.data;
     stops = buildStops({ cities: D.cities, wonders: D.wonders, places: D.places, world: app.w.raw, lenses: D.lenses, grid: app.w.grid });
     if (!stops.length) { active = false; return; }
-    if (app.mode) app.setMode(null);
-    app.clearSelection?.();
-    leave3d();
     app.emit("tour"); // the timeline closes its card and a replay
     document.body.classList.add("tour-on");
     slides = !M.enabled;

@@ -50,7 +50,7 @@ export default {
   "{n} m deep": "sâu {n} m",
   "Land": "Đất đai",
   "{former} <span class=\"muted\">(former) · now</span> {prov}": "{former} <span class=\"muted\">(tỉnh cũ) · nay thuộc</span> {prov}",
-  "{prov} <span class=\"muted\">province</span>": "{prov} <span class=\"muted\">· tỉnh/thành</span>",
+  "{prov} <span class=\"muted\">{kind}</span>": "{prov} <span class=\"muted\">· {kind}</span>",
   "Beyond the borders (not mapped)": "Ngoài biên giới (không có trên bản đồ)",
   "+{n} more": "+{n} nữa",
   "Click to open the city": "Bấm để mở thành phố",

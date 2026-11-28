@@ -405,7 +405,7 @@ export async function install(app) {
   });
 
   // --- year changes ---------------------------------------------------------------------------------------------
-  function setYear(y, { fromHash = false, reclamp = false, internal = false } = {}) {
+  function setYear(y, { fromHash = false, reclamp = false, internal = false, replace = false } = {}) {
     if (!reclamp) asked = y;
     y = clamp(y);
     const changed = y !== year;
@@ -427,11 +427,11 @@ export async function install(app) {
     renderCard();
     app.requestDraw();
     if (changed) app.emit("year", { year }); // the advisors label their (latest) figures against it
-    if (!fromHash) app.hash.update();
+    if (!fromHash) app.hash.update(replace);
   }
-  const step = (d) => {
+  const step = (d, replace = false) => {
     const [a, b] = range();
-    if (d > 0) setYear(year == null ? null : year >= b ? null : year + 1);
+    if (d > 0) setYear(year == null ? null : year >= b ? null : year + 1, { replace });
     else setYear(year == null ? b : Math.max(a, year - 1));
   };
 
@@ -439,10 +439,13 @@ export async function install(app) {
     clearInterval(playing);
     playing = 0;
     if (on) {
-      if (year == null) setYear(range()[0]);
+      // One history entry for the whole play: its first year pushes, the later ones replace it.
+      let pushed = year == null;
+      if (pushed) setYear(range()[0]);
       playing = setInterval(() => {
         if (replay.kind === "merger") return; // the year play waits for the merger replay
-        step(1);
+        step(1, pushed);
+        pushed = true;
         if (year == null) play(false);
       }, PLAY_MS);
     }

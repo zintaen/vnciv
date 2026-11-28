@@ -122,16 +122,21 @@ export function createHashState(opts) {
     const url = location.pathname + location.search + (hash || "");
     const s = sig(core, ex);
     try {
-      if (s !== entrySig) history.pushState(null, "", url);
+      if (s !== entrySig && !replaceNext) history.pushState(null, "", url);
       else history.replaceState(null, "", url);
     } catch {
       /* some sandboxes forbid history writes: the app still works, the link just doesn't update */
     }
     entrySig = s;
+    replaceNext = false;
     lastWritten = location.hash;
   }
 
-  function schedule() {
+  // schedule(true): the next write replaces the current entry even if the state changed (a timeline play's
+  // later years: Back undoes the whole play, not one year at a time).
+  let replaceNext = false;
+  function schedule(replace = false) {
+    if (replace === true) replaceNext = true;
     clearTimeout(timer);
     timer = setTimeout(() => write(), DEBOUNCE_MS);
   }
@@ -349,7 +354,7 @@ export function createUi(app, { toast, onLayout }) {
   }
 
   function addTopButton({ id, icon: ic, label = "", onClick, title = "" } = {}) {
-    const host = document.querySelector("#topbar .tb-buttons");
+    const host = document.querySelector("#topbar .tb-more");
     if (!host) return null;
     if (id) document.getElementById(id)?.remove();
     const b = document.createElement("button");

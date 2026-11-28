@@ -73,7 +73,7 @@ input[type=range]::-moz-range-thumb { box-sizing: border-box; width: 14px; heigh
 .spacer { flex: 1; min-width: 0; }
 .turn { font-family: var(--serif); color: var(--ink-dim); font-size: 13px; white-space: nowrap; flex: none; }
 .turn b { color: var(--gold-bright); }
-.tb-buttons { display: flex; gap: 6px; flex: none; }
+.tb-buttons, .tb-more { display: flex; gap: 6px; flex: none; }
 .btn {
   display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; flex: none;
   background: linear-gradient(180deg, #3a5068, #223244); border: 1px solid var(--gold); border-radius: 4px;
@@ -290,10 +290,11 @@ button.chip:hover { background: rgba(201,164,92,.2); }
 .cp-foot a { color: var(--gold); cursor: pointer; }
 
 /* ---------- lenses ---------- */
-/* left: 266px keeps the area clear of the 252px-wide minimap; it never overlaps it. */
+/* left: 266px keeps the area clear of the 252px-wide minimap; it never overlaps it. The top bound keeps a stack
+   (sea-level panel + Layers menu + dock) under the top bar on short screens: the scrolling Layers menu shrinks. */
 #lens-area {
   position: fixed; left: calc(266px + var(--dock-left, 0px)); right: calc(12px + var(--dock-right, 0px)); bottom: 12px; z-index: 11; pointer-events: none;
-  display: flex; flex-direction: column; align-items: flex-end; gap: 8px;
+  top: calc(var(--topbar-h) + 8px); display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-end; gap: 8px;
 }
 #lens-area > * { pointer-events: auto; }
 body.panel-open #lens-area { right: calc(394px + var(--dock-right, 0px)); }
@@ -540,12 +541,11 @@ body.panel-open #lens-area { right: calc(394px + var(--dock-right, 0px)); }
 
   #minimap-wrap { display: none; bottom: 64px; left: 8px; }
   body.minimap-on #minimap-wrap { display: block; z-index: 14; } /* asked for: above a legend */
+  /* at the right end of the lens dock (index.html), where no legend, sea-level panel or replay bar can cover it */
   .minimap-toggle {
-    display: grid; place-items: center; position: fixed; left: 8px; bottom: 60px; z-index: 11; width: 38px; height: 38px; padding: 0;
+    display: grid; place-items: center; flex: none; margin-left: auto; width: 36px; height: 36px; padding: 0;
     cursor: pointer; color: var(--gold-bright); border-radius: 50%;
   }
-  /* beside the minimap's foot (242 px wide), not at the top where it covered the timeline's ‹ button */
-  body.minimap-on .minimap-toggle { bottom: 64px; left: 256px; z-index: 14; }
   body.panel-open .minimap-toggle, body.panel-open #minimap-wrap { display: none; }
 
   #city-panel {

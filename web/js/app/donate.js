@@ -3,7 +3,7 @@
 import { t } from "../i18n.js";
 
 export function initDonate() {
-  const bar = document.querySelector("#topbar .tb-buttons");
+  const bar = document.querySelector("#topbar .tb-more");
   if (!bar || document.getElementById("btn-coffee")) return;
   const btn = document.createElement("button");
   btn.id = "btn-coffee";

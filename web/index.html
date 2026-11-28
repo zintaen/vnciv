@@ -41,8 +41,11 @@
       <kbd class="search-kbd" aria-hidden="true">/</kbd>
     </div>
     <div id="turn" class="turn"></div>
-    <div class="tb-buttons">
+    <!-- Extension buttons, Coffee and Share scroll with the bar on phones; .tb-buttons stays pinned. -->
+    <div class="tb-more">
       <button id="btn-share" class="btn" aria-haspopup="dialog" aria-expanded="false" aria-label="Share this view" title="Share: copy a link or download an image"></button>
+    </div>
+    <div class="tb-buttons">
       <button id="btn-lang" class="btn" aria-label="Language"></button>
       <button id="btn-help" class="btn btn-icon" aria-label="Keyboard and mouse help" title="Help (?)"></button>
       <button id="btn-pedia" class="btn" aria-label="Open the Almanac" title="What every number means and where it comes from"></button>
@@ -61,12 +64,13 @@
       <button id="btn-res" class="lens-btn res-toggle" aria-pressed="true" aria-label="Resources on tiles (R)" title="Show or hide resources on tiles (R)" hidden></button>
       <div id="lens-quick" class="lens-quick"></div>
       <button id="btn-lenses" class="lens-btn lens-more" aria-haspopup="dialog" aria-expanded="false" aria-controls="lens-picker"></button>
+      <!-- phones only (CSS): in the dock, so a legend, sea-level panel or replay bar never covers it -->
+      <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
     </div>
   </div>
 
   <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · OCHA COD-AB</div></div>
   <a id="attrib-mini" class="attrib-mini" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" hidden>© OpenStreetMap</a>
-  <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
 
   <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>
   <div id="share-pop" class="panel share-pop" role="dialog" aria-label="Share" hidden></div>

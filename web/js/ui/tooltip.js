@@ -1,4 +1,4 @@
-import { esc, int, popShort, compact } from "../format.js";
+import { esc, int, popShort, compact, kindOf } from "../format.js";
 import { formatLensValue } from "./lenses.js";
 import { glyph } from "./icon.js";
 import { FOREIGN } from "../world.js";
@@ -34,7 +34,7 @@ export function showCellTooltip(mx, my, w, i, lens, showResources = true) {
     // The former province (pre-2025) when its name differs from the province it is now part of.
     const former = raw.county[i] >= 0 ? raw.counties[raw.county[i]].name : "";
     const prov = raw.states[o].name;
-    lines.push(former && former !== prov ? tr("{former} <span class=\"muted\">(former) · now</span> {prov}", { former: esc(former), prov: esc(prov) }) : tr("{prov} <span class=\"muted\">province</span>", { prov: esc(prov) }));
+    lines.push(former && former !== prov ? tr("{former} <span class=\"muted\">(former) · now</span> {prov}", { former: esc(former), prov: esc(prov) }) : tr("{prov} <span class=\"muted\">{kind}</span>", { prov: esc(prov), kind: kindOf(raw.states[o]).toLowerCase() }));
     if (lens) {
       // Province lenses say their year and level: "HDI 2025 (province of 2025)" / "Income 2025 (former province)".
       const lvl = lens.level === "34" ? tr("(province of 2025)") : lens.level === "63" ? tr("(former province)") : "";

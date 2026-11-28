@@ -72,7 +72,13 @@ export function install(app) {
   // --- top-bar button ---------------------------------------------------------------------------------------------
   const btn = app.ui.addTopButton({
     id: "btn-advisors", icon: "g-people", label: tr("Advisors"), title: tr("Advisors: explore the data behind the map"),
-    onClick: () => (app.mode === "advisor" ? app.setMode(null) : app.setMode("advisor", { id: lastId })),
+    onClick: () => {
+      if (app.mode === "advisor") return app.setMode(null);
+      // Phone: the city sheet sits above the advisor sheet (for a city picked inside an advisor), so an open one
+      // would hide the advisor this tap opens.
+      if (app.isMobile?.()) app.clearSelection?.();
+      app.setMode("advisor", { id: lastId });
+    },
   });
   if (btn) {
     btn.innerHTML = `<svg class="icon" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5 3 7v2h18V7z" fill="currentColor"/><path d="M5 10.5h2.6v7H5zM10.7 10.5h2.6v7h-2.6zM16.4 10.5H19v7h-2.6zM3.5 19h17v2.5h-17z" fill="currentColor"/></svg><span class="lbl">${tr("Advisors")}</span>`;

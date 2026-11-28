@@ -15,7 +15,7 @@ const reduced = () => typeof matchMedia === "function" && matchMedia("(prefers-r
 
 export function install(app) {
   const M = app.motion, cam = app.cam;
-  let stops = null, active = false, slides = false, i = 0, v = 0, cancel = null, paused = false, leg = null, autoPaused = false;
+  let opener = null, stops = null, active = false, slides = false, i = 0, v = 0, cancel = null, paused = false, leg = null, autoPaused = false;
 
   // --- UI -------------------------------------------------------------------------------------------------------
   const bar = document.createElement("div");
@@ -41,7 +41,7 @@ export function install(app) {
     else if (e.target.closest(".tour-prev")) go(i - 1);
     else if (e.target.closest(".tour-next")) go(i + 1);
     else if (e.target.closest(".tour-pause")) togglePause();
-    else if (e.target.closest(".tour-again")) go(0);
+    else if (e.target.closest(".tour-again")) { go(0); nextBtn.focus(); } // (the button is replaced by the first stop)
   });
 
   function renderCard(s, n) {
@@ -59,12 +59,15 @@ export function install(app) {
     bodyEl.classList.remove("dim");
   }
   function renderCtl() {
-    pauseBtn.hidden = slides;
+    const f = document.activeElement;
+    pauseBtn.hidden = slides || i >= stops.length;
     pauseBtn.textContent = paused ? "▶" : "❚❚";
     const l = paused ? t("Play") : t("Pause");
     pauseBtn.title = `${l} (Space)`; pauseBtn.setAttribute("aria-label", l);
     prevBtn.disabled = i <= 0;
     nextBtn.disabled = i >= stops.length;
+    // the focused control just went disabled or hidden (first stop, the end): keep focus in the bar
+    if ([prevBtn, pauseBtn, nextBtn].includes(f) && (f.disabled || f.hidden)) (i >= stops.length ? q(".tour-again") || prevBtn : nextBtn).focus();
   }
   const progress = (p) => { progEl.style.width = `${(100 * Math.min(1, p)).toFixed(2)}%`; };
 
@@ -132,7 +135,6 @@ export function install(app) {
   function finish() {
     i = stops.length;
     renderEnd(); renderCtl(); progress(1);
-    pauseBtn.hidden = true;
   }
   function showSlide(n) {
     cancel?.(); cancel = null;
@@ -156,6 +158,7 @@ export function install(app) {
   async function start() {
     if (active) return;
     active = true;
+    opener = document.activeElement;
     await Promise.all([app.loadData("wonders"), app.loadData("places")]);
     if (!active) return;
     const D = app.data;
@@ -164,6 +167,7 @@ export function install(app) {
     if (app.mode) app.setMode(null);
     app.clearSelection?.();
     leave3d();
+    app.emit("tour"); // the timeline closes its card and a replay
     document.body.classList.add("tour-on");
     slides = !M.enabled;
     paused = false;
@@ -177,7 +181,9 @@ export function install(app) {
     if (!active) return;
     active = false;
     cancel?.(); cancel = null;
+    const hadFocus = bar.contains(document.activeElement);
     bar.hidden = true;
+    if (hadFocus) (opener !== document.body && opener?.isConnected && opener.getClientRects().length ? opener : document.getElementById("btn-help"))?.focus();
     document.body.classList.remove("tour-on");
     app.hash.update();
     app.requestDraw();

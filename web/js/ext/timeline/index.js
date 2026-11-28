@@ -302,6 +302,8 @@ export async function install(app) {
     renderCard();
     if (hadFocus) $(".tl-hist-btn")?.focus();
   }
+  // The tour takes the screen and the camera (ext/tour emits "tour"): a card or a replay would cover it and take its Esc.
+  app.on("tour", () => { replay.close(); if (!cardEl.hidden) closeCard(); });
   // Esc closes the card like its ✕ (after the active mode and the open dialogs: main.js escape()).
   app.on("escape", () => {
     if (cardEl.hidden) return false;

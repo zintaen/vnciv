@@ -208,17 +208,19 @@ export function install(app) {
     const lv = data.levels;
     const head = `<div class="slr-head"><span>🌊 ${esc(t("Sea level rise"))}</span>
       <button type="button" class="slr-play" title="${esc(t("Play the rise from 0 to 3 m, one real threshold at a time"))}">▶ 0 → ${dec(lv[lv.length - 1])} m</button>
-      <b class="slr-val">+${dec(level < 0 ? 0 : lv[level])} m</b></div>`;
+      <b class="slr-val" aria-live="polite">+${dec(level < 0 ? 0 : lv[level])} m</b></div>`;
+    const vt = `${dec(lv[Math.max(0, level)])} m`; // the slider's value is a level index: say the metres
     const slider = panel.querySelector("input[type=range]");
-    if (slider) { // keep the slider (and its focus) while dragging: only the text changes
-      panel.querySelector(".slr-head").outerHTML = head;
+    if (slider) { // keep the slider and the ▶ button (and their focus) while dragging or playing: only the text changes
+      panel.querySelector(".slr-val").textContent = `+${dec(level < 0 ? 0 : lv[level])} m`;
       slider.value = String(Math.max(0, level));
+      slider.setAttribute("aria-valuetext", vt);
       if (!keepBody) panel.querySelector(".slr-body").innerHTML = readout();
       else panel.querySelector(".slr-note").textContent = t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(lv[level]) });
       return;
     }
     panel.innerHTML = `${head}
-      <input type="range" min="0" max="${lv.length - 1}" step="1" value="${Math.max(0, level)}" aria-label="${esc(t("Sea level (m)"))}"
+      <input type="range" min="0" max="${lv.length - 1}" step="1" value="${Math.max(0, level)}" aria-label="${esc(t("Sea level (m)"))}" aria-valuetext="${vt}"
         list="slr-ticks"><datalist id="slr-ticks">${lv.map((_, k) => `<option value="${k}"></option>`).join("")}</datalist>
       <div class="slr-ticks">${lv.map((v) => `<span>${dec(v)}</span>`).join("")}</div>
       <div class="slr-body">${readout()}</div>`;

@@ -590,6 +590,7 @@ export function install(app) {
     const finish = () => {
       on = false; M?.pause?.(false); anim = null;
       cancelAnimationFrame(raf); raf = 0;
+      if (panel?.contains(document.activeElement)) btn?.focus(); // (its Reset and 2D map buttons go with the panel)
       canvas?.remove(); labelsEl?.remove(); panel?.remove(); ro?.disconnect();
       btn?.setAttribute("aria-pressed", "false");
       document.body.classList.remove("view3d-on");

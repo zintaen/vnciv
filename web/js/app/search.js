@@ -54,6 +54,8 @@ export function initSearch(opts) {
     if ((" " + e.full).includes(" " + q)) return 3;
     if (e.n.includes(q)) return 4;
     if (e.full.includes(q)) return 5;
+    // English spellings run the words together: "Hanoi", "Danang" for Hà Nội, Đà Nẵng
+    if (!q.includes(" ") && (e.j ??= e.n.replace(/ /g, "")).startsWith(q)) return 6;
     return -1;
   }
 

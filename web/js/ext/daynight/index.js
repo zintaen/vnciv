@@ -127,7 +127,6 @@ export function install(app) {
   const el = document.createElement("div");
   el.className = "panel dn-clock";
   el.hidden = true;
-  el.setAttribute("role", "status");
   el.innerHTML = `<span class="dn-ic" aria-hidden="true"></span><time class="dn-time"></time><span class="dn-tz">${esc(t("Vietnam time (UTC+7)"))}</span>
     <button type="button" class="dn-play"></button>
     <span class="dn-note">${esc(t("Lights derived from population, not satellite data"))}</span>`;

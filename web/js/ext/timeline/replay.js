@@ -38,13 +38,14 @@ export function createReplay(app, T, { onClose } = {}) {
   const M = app.motion, w = app.w, raw = w.raw, grid = w.grid;
   const R = grid.R, reach = REACH_KM / (raw.km_per_unit || 0.2);
   let session = null; // {kind, close(), pause?(), speed?(), follow?(on), skip?()}
+  let opener = null; // focused when the replay started: focus goes back there when the bar closes with focus in it
 
   // --- the bar ----------------------------------------------------------------------------------------------------
   const bar = document.createElement("div");
   bar.className = "panel rp-bar";
   bar.hidden = true;
   bar.setAttribute("role", "region");
-  bar.innerHTML = `<div class="rp-head"><b class="rp-title"></b><button type="button" class="icon-btn rp-close" aria-label="${esc(t("Close"))}" title="${esc(t("Close (Esc)"))}">✕</button></div>
+  bar.innerHTML = `<div class="rp-head"><b class="rp-title" aria-live="polite"></b><button type="button" class="icon-btn rp-close" aria-label="${esc(t("Close"))}" title="${esc(t("Close (Esc)"))}">✕</button></div>
     <div class="rp-read"></div><div class="rp-sub"></div>
     <div class="rp-ctl"><button type="button" class="tl-btn rp-pause"></button><button type="button" class="tl-btn rp-speed"></button>
       <label class="rp-follow"><input type="checkbox"> <span>${esc(t("Follow the eye"))}</span></label>
@@ -54,12 +55,15 @@ export function createReplay(app, T, { onClose } = {}) {
   const titleEl = q(".rp-title"), readEl = q(".rp-read"), subEl = q(".rp-sub"), pauseBtn = q(".rp-pause"), speedBtn = q(".rp-speed"),
     followEl = q(".rp-follow"), followBox = q(".rp-follow input"), skipBtn = q(".rp-skip");
   function showBar({ title, sub = "", pause = false, speed = false, follow = false, skip = "" }) {
+    // the title is the bar's live region (the replay, each storm, the end): a hidden live region would not announce it
+    bar.hidden = false;
     titleEl.textContent = title;
     bar.setAttribute("aria-label", title);
     subEl.innerHTML = sub;
     readEl.textContent = "";
     pauseBtn.hidden = !pause; speedBtn.hidden = !speed; followEl.hidden = !follow;
     skipBtn.hidden = !skip; skipBtn.textContent = skip; skipBtn.title = skip;
+    if (!bar.contains(document.activeElement)) opener = document.activeElement;
     bar.hidden = false;
   }
   function setPaused(p) {
@@ -80,10 +84,12 @@ export function createReplay(app, T, { onClose } = {}) {
 
   function close() {
     const s = session;
+    const hadFocus = bar.contains(document.activeElement);
     session = null;
     bar.hidden = true;
     s?.close();
     if (s) onClose?.(s.kind);
+    if (hadFocus) (opener !== document.body && opener?.isConnected && opener.getClientRects().length ? opener : document.querySelector("#turn .tl-hist-btn"))?.focus();
   }
 
   // --- storms -----------------------------------------------------------------------------------------------------
@@ -126,6 +132,7 @@ export function createReplay(app, T, { onClose } = {}) {
   }
 
   async function storms(indices, year) {
+    const from = document.activeElement; // (before the await: a phone has just hidden the card with this ▶ in it)
     close();
     const S = await app.loadData("storm_tracks");
     if (!S?.storms || S.storms.length !== T.storms.length) { console.warn("storm_tracks.json missing or out of step with timeline.json"); return false; }
@@ -143,6 +150,7 @@ export function createReplay(app, T, { onClose } = {}) {
       titleEl.textContent = many ? `${tr.name} (${k + 1}/${tracks.length}) · ${t("Storms of {year}", { year })}` : `${tr.name} · ${tr.st.season}`;
     };
     showBar({ title: "", sub: legend, pause: true, speed: true, follow: true, skip: many ? t("Next storm ⏭") : "" });
+    if (from !== document.body && from?.isConnected && !from.getClientRects().length) { opener = from; pauseBtn.focus({ preventScroll: true }); } // its ▶ is hidden: focus the bar, not the page
     setTitle();
     const setSpeed = () => { speedBtn.textContent = `×${SPEEDS[speed]}`; const l = t("Speed ×{n}", { n: SPEEDS[speed] }); speedBtn.setAttribute("aria-label", l); speedBtn.title = l; };
     setSpeed();
@@ -630,7 +638,9 @@ function injectStyle() {
 .rp-go { font-size: 12px; padding: 0 2px; }
 .rp-all { display: block; margin-bottom: 6px; font-size: 12px; text-decoration: underline; }
 .rp-merge { display: block; margin-top: 8px; font-size: 13px; text-decoration: underline; }
-@media (max-width: 700px) { .rp-bar { bottom: 62px; padding: 6px 8px; } .rp-note:not(.rp-caveat) { display: none; } }`;
+@media (max-width: 700px) { .rp-bar { bottom: 62px; padding: 6px 8px; } .rp-note:not(.rp-caveat) { display: none; }
+  /* a city sheet (z 25) or a dock sheet (z 24), 55dvh tall, would cover the bar: sit just above it */
+  body:is(.panel-open, .dock-open) .rp-bar { bottom: calc(55vh + 8px); bottom: calc(55dvh + 8px); } }`;
   const el = document.createElement("style");
   el.id = "rp-style";
   el.textContent = css;

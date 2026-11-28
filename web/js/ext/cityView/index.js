@@ -448,6 +448,7 @@ export async function install(app) {
         cv.keepCam = !!app.hash.value("at");
         if (app.mode !== MODE) app.setMode(MODE, { id: city.id });
         else if (cv.city !== city) show(city);
+        cv.keepCam = false; // (no show() ran for the same city: a stale flag would skip the next city's framing)
       } else if (app.mode === MODE) {
         cv.restoreCam = false; // the URL's own camera ("at") wins
         app.setMode(null);

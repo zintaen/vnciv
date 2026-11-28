@@ -82,7 +82,9 @@ export async function install(app) {
       }
     }
     const lvlText = lvl === "63" ? t("63 former provinces") : lvl === "34" ? t("34 provinces (2025 borders)") : t("no data for this year");
-    return { ...lens, id: `${lens.id}@${y}`, values, domain: seriesDomain(lens, s), year: y, level: lvl || lens.level,
+    // the lens description speaks of its latest year; a past year gets its own
+    const description = t("{name} in {year}, from NSO's yearly series ({level}).", { name: t(lens.name), year: y, level: lvlText });
+    return { ...lens, id: `${lens.id}@${y}`, values, domain: seriesDomain(lens, s), year: y, level: lvl || lens.level, description,
       note: noteOf([t("Year {year}", { year: y }), lvl && statusText(s, String(y)), lvlText], lens) };
   }
 

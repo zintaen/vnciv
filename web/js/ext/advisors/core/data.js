@@ -38,7 +38,8 @@ export { LAND_KEYS };
 const COUNTY_ONTO_CITY = ["forest", "crop", "developed", "disasters"];
 
 export function buildData(app) {
-  const { cities = [], states = [], nation = {}, counties, resources, sources = [] } = app.data;
+  const { cities = [], nation = {}, counties, resources, sources = [] } = app.data;
+  const states = app.data.states || []; // null when states.json failed to load (main loads it as optional)
   const w = app.w;
   const grid = w.grid;
   const owner = w.raw.owner;

@@ -22,6 +22,7 @@ export function createTable(host, opts) {
   let cols = visibleCols();
   let all = opts.rows || [];
   let view = [];
+  let rankOf = new Map(); // row → its position in the sorted, unsearched list
   let sort = opts.sort || null;
   let query = "";
   let hot = null, sel = null;
@@ -73,7 +74,8 @@ export function createTable(host, opts) {
   function compute() {
     const q = query.trim().toLowerCase();
     const txt = opts.searchText || ((r) => `${r.full || r.name || ""} ${r.name || ""} ${r.sub || ""}`);
-    view = q ? all.filter((r) => txt(r).toLowerCase().includes(q)) : [...all];
+    // Sort the whole list first, so a row's rank stays its place in the full table while the search narrows it.
+    view = [...all];
     const c = sort && cols.find((x) => x.key === sort.key);
     if (c) {
       const dir = sort.dir === "asc" ? 1 : -1;
@@ -86,6 +88,8 @@ export function createTable(host, opts) {
         return dir * (va - vb);
       });
     }
+    rankOf = new Map(view.map((r, i) => [r, i + 1]));
+    if (q) view = view.filter((r) => txt(r).toLowerCase().includes(q));
     if (cnt) cnt.textContent = tr("{n} of {total}", { n: view.length.toLocaleString("en-US"), total: all.length.toLocaleString("en-US") });
     const maxH = opts.maxHeight || 340;
     const h = Math.min(maxH, Math.max(rowH * 2, view.length * rowH + 2));
@@ -106,7 +110,7 @@ export function createTable(host, opts) {
       const r = view[i];
       const k = String(keyOf(r));
       const cls = `adv-tr${k === String(hot) ? " hot" : ""}${sel?.has(keyOf(r)) ? " sel" : ""}`;
-      html += `<div class="${cls}" role="row" data-i="${i}" data-key="${esc(k)}" tabindex="-1" style="top:${i * rowH}px;height:${rowH}px">${opts.rank ? `<span class="td r rk" role="cell">${i + 1}</span>` : ""}${cols.map((c) => {
+      html += `<div class="${cls}" role="row" data-i="${i}" data-key="${esc(k)}" tabindex="-1" style="top:${i * rowH}px;height:${rowH}px">${opts.rank ? `<span class="td r rk" role="cell">${rankOf.get(r) ?? i + 1}</span>` : ""}${cols.map((c) => {
         let inner = c.html ? c.html(r) : esc(c.text ? c.text(r) : r[c.key] ?? "–");
         if (c.bar) {
           const v = (c.value || ((x) => x[c.key]))(r);

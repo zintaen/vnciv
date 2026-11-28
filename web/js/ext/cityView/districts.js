@@ -8,12 +8,12 @@
 //   badgeOf(ddata, id) → {label, text, color, icon, district} | null | undefined   the city-type badge
 //   districtsHtml(m, ddata, mil, trade) → HTML   the section body
 //   badgeHtml(m, ddata) → HTML              the header badge
-import { airportName, dec, esc, fixed, int } from "../../format.js";
+import { airportName, dec, esc, fixed, int, viUnits } from "../../format.js";
 import { compact, money } from "./fmt.js";
 import { icon } from "../../ui/icon.js";
 import { hasIcon } from "../../icons.js";
 import { t } from "../../i18n.js";
-import { yearOf, yearText } from "../advisors/core/years.js";
+import { popIn, yearOf, yearText } from "../advisors/core/years.js";
 
 // Icons the district catalog names (d-*) stand in for when missing: a near icon from the set, else an emoji.
 const FALLBACK = {
@@ -46,7 +46,7 @@ export function districtText(s) {
   let m = /^([\d.]+)× Vietnam's (.+?) per resident(?:, (\d{4}))?(?: \((.+)\))?$/.exec(s);
   if (m) return t("{n}× Vietnam's {what} per resident", { n: dec(m[1]), what: t(m[2]) }) + (m[3] ? `, ${m[3]}` : "") + (m[4] ? ` (${/^\d+$/.test(m[4]) ? m[4] : t(m[4])})` : "");
   if ((m = /^([\d,]+) MW of mapped power plants$/.exec(s))) return t("{n} MW of mapped power plants", { n: int(+m[1].replace(/,/g, "")) });
-  if ((m = /^(.+) \(([\d.]+M) passengers\)$/.exec(s))) return t("{name} ({n} passengers)", { name: airport(m[1]), n: dec(m[2]) });
+  if ((m = /^(.+) \(([\d.]+M) passengers\)$/.exec(s))) return t("{name} ({n} passengers)", { name: airport(m[1]), n: viUnits(dec(m[2])) });
   if (s === "Seat of the National Assembly and the Government") return t(s);
   return s;
 }
@@ -153,7 +153,7 @@ function districtCard(d, m, ddata, mil) {
   const facts = [];
   const ms = MEASURE[c.measure];
   if (d.via === "measure" && ms && Number.isFinite(d.value)) {
-    const pop = m.city.population;
+    const pop = popIn(m.city, yearOf(m.city, c.measure)); // per resident of the figure's own year, as the LQ
     const nat = ddata.national?.[c.measure];
     facts.push(`<div><span>${esc(t(ms.label))}</span><b>${ms.total(d.value)}</b><small>${yearText(yearOf(m.city, c.measure))}</small></div>`);
     if (pop > 0) facts.push(`<div><span>${t("Per resident")}</span><b>${ms.per(d.value / pop)}</b><small>${Number.isFinite(nat) ? `VN ${ms.per(nat)}` : ""}</small></div>`);

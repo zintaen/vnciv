@@ -9,6 +9,7 @@ const BUCKETS = 10; // alpha steps: one path per step keeps the draw cheap
 
 export function install(app) {
   let on = false, data = null, level = 1; // index into data.levels (1 m)
+  let failed = false; // sealevel.json missing or broken (loadData gives null)
   let byAlpha = []; // per bucket: [cell, ...] for the current level
   let panel = null;
 
@@ -60,7 +61,7 @@ export function install(app) {
     }
     panel.hidden = !on;
     if (!on) return;
-    if (!data) { panel.innerHTML = `<div class="slr-head">${esc(t("Sea level rise"))}</div><div class="slr-note">${esc(t("Loading…"))}</div>`; return; }
+    if (!data) { panel.innerHTML = `<div class="slr-head">${esc(t("Sea level rise"))}</div><div class="slr-note">${esc(t(failed ? "Sea level data is not available." : "Loading…"))}</div>`; return; }
     const lv = data.levels;
     const head = `<div class="slr-head">🌊 ${esc(t("Sea level rise"))} <b class="slr-val">+${dec(lv[level])} m</b></div>`;
     const slider = panel.querySelector("input[type=range]");
@@ -103,7 +104,7 @@ export function install(app) {
   const style = document.createElement("style");
   style.textContent = `.slr-panel{padding:8px 10px;width:300px;max-width:100%;font-size:11px;line-height:1.4}
 .slr-head{font-family:var(--serif);color:var(--gold-bright);font-size:14px;display:flex;justify-content:space-between}
-.slr-panel input[type=range]{width:100%;margin:6px 0 0;accent-color:${COLOR}}
+.slr-panel input[type=range]{width:100%;margin:6px 0 0;accent-color:${COLOR};--range:${COLOR}}
 .slr-ticks{display:flex;justify-content:space-between;color:var(--ink-dim);margin-bottom:4px}
 .slr-stats{margin:2px 0}.slr-top{display:flex;flex-wrap:wrap;gap:2px 10px;color:var(--ink-dim)}
 .slr-top b,.slr-stats b{color:var(--ink)}.slr-note{color:var(--ink-dim);margin-top:4px;font-size:10px}
@@ -118,7 +119,7 @@ export function install(app) {
       on = !!v;
       if (on && !data) {
         app.loadData("sealevel").then((d) => {
-          if (!d) return;
+          if (!d || !Array.isArray(d.levels)) { failed = true; render(); return; }
           data = d;
           level = Math.min(level, d.levels.length - 1);
           recompute();

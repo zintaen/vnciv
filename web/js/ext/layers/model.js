@@ -159,14 +159,15 @@ const angDist = (a, b) => {
 // Hexes a site should not stand on: city tiles, big metros' spill tiles, and the two hexes above a sizeable city where
 // its banner plate sits (banners are drawn over the map every frame, so a site there would be hidden).
 const BANNER_POP = 2.5e5;
+// Map cell → {city, banner} (banner = the hex holds the city's name banner, not the city itself), for tooltips.
 function blockedCells(w) {
-  const out = new Set(w.cityByCell.keys());
-  try { for (const c of metroSpill(w).keys()) out.add(c); } catch { /* no spill art: city tiles only */ }
+  const out = new Map([...w.cityByCell].map(([c, city]) => [c, { city }]));
+  try { for (const [c, s] of metroSpill(w)) if (!out.has(c)) out.set(c, { city: s.of }); } catch { /* no spill art: city tiles only */ }
   for (const [cell, city] of w.cityByCell) {
     if (!(city.population >= BANNER_POP)) continue;
     for (const d of [4, 5]) {
       const j = w.grid.neighbour(cell, d);
-      if (j >= 0) out.add(j);
+      if (j >= 0 && !out.has(j)) out.set(j, { city, banner: true });
     }
   }
   return out;
@@ -214,7 +215,7 @@ function place(m) {
   const R = grid.R;
   const all = [...m.wonders, ...m.installations, ...m.ports, ...m.airports].sort((a, b) => a.prio - b.prio);
   const res = m.w.resources?.byCell;
-  const blocked = blockedCells(m.w);
+  const blocked = (m.blockedBy = blockedCells(m.w));
   const load = new Map(); // drawCell → sites so far
   for (const it of all) {
     it.drawCell = chooseCell(m, it, blocked, load);

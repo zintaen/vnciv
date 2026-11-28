@@ -66,7 +66,7 @@ export function mount(ctx) {
   };
   shareBar(mixBody, { parts: mixParts, legend: false, onHover: mixHover, onClick: (p) => solo(p.key) });
   const mixBars = barList(mixBody, {
-    rows: mixParts.map((p) => ({ ...p, sub: tr("{n} sites", { n: int(nat[p.key]?.count || 0) }) })),
+    rows: mixParts.map((p) => ({ ...p, sub: tr(nat[p.key]?.count === 1 ? "{n} site" : "{n} sites", { n: int(nat[p.key]?.count || 0) }) })),
     onHover: mixHover, onClick: (p) => solo(p.key), ariaLabel: tr("Mapped capacity by type"),
   });
 

@@ -20,6 +20,14 @@ button { font: inherit; color: inherit; }
 svg.icon { display: inline-block; flex: none; }
 .emoji { display: inline-block; line-height: 1; vertical-align: middle; }
 :focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 2px; }
+/* Range inputs drawn the same in every engine (Firefox and Safari ignore accent-color on sliders). A 14 px thumb:
+   the timeline's event marks are inset 7 px to line up with it. --range sets the colour. */
+input[type=range] { -webkit-appearance: none; appearance: none; background: transparent; cursor: pointer; }
+input[type=range]::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: rgba(201,164,92,.3); }
+input[type=range]::-moz-range-track { height: 4px; border-radius: 2px; background: rgba(201,164,92,.3); }
+input[type=range]::-webkit-slider-thumb { -webkit-appearance: none; box-sizing: border-box; width: 14px; height: 14px; margin-top: -5px;
+  border-radius: 50%; border: 2px solid #120d06; background: var(--range, var(--gold)); }
+input[type=range]::-moz-range-thumb { box-sizing: border-box; width: 14px; height: 14px; border-radius: 50%; border: 2px solid #120d06; background: var(--range, var(--gold)); }
 
 #map { position: fixed; inset: 0; width: 100%; height: 100%; cursor: grab; display: block; touch-action: none; }
 #map.dragging { cursor: grabbing; }

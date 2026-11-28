@@ -5,7 +5,7 @@
 // lenses.json, no DOM, so it is easy to check from the console (`window.__app.reports`). The second half renders.
 // "States" in the data are Vietnam's 34 provinces of 2025; "cities" are the seats of the 63 former provinces, each
 // standing for its whole former province.
-import { compact, dollars, esc, fixed, int, money, pct, yieldValue } from "../format.js";
+import { compact, dollars, esc, fixed, int, money, pct, viUnits, yieldValue } from "../format.js";
 import { hasIcon } from "../icons.js";
 import { icon, glyph } from "./icon.js";
 import { DISTRICT_ICON, yearOf, yearNum, fmtYear } from "./infoPanel.js";
@@ -55,7 +55,7 @@ export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${fixed
 export function count3(n) {
   if (!fin(n)) return "–";
   const a = Math.abs(n);
-  const sig = (d, unit) => fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
+  const sig = (d, unit) => viUnits(fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit); // "13,8 tr" in Vietnamese, as compact()
   if (a >= 1e12) return sig(1e12, "T");
   if (a >= 1e9) return sig(1e9, "B");
   if (a >= 1e6) return sig(1e6, "M");

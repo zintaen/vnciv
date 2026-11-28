@@ -6,6 +6,7 @@ export default {
     "Các ô đất thấp hơn hoặc bằng mực nước biển đã chọn (ETOPO1): chỉ báo mức phơi nhiễm, không phải dự báo",
   "Sea level (m)": "Mực nước biển (m)",
   "Loading…": "Đang tải…",
+  "Sea level data is not available.": "Không có dữ liệu nước biển dâng.",
   "hexes": "ô",
   "km² of land": "km² đất",
   "residents": "cư dân",

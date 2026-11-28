@@ -288,7 +288,7 @@ def build():
     print(f"    {len(ports)} ports, {len(airports)} airports ({sum(a['enplanements'] is not None for a in airports)} with passengers)")
     doc = {"version": 1,
            "vintage": {"roads": "OpenStreetMap (Overpass API)", "rail": "OpenStreetMap (Overpass API)",
-                       "ports": "Quyết định 804/QĐ-TTg (2022); positions from OpenStreetMap", "airports": f"ACV passengers {max((a['year'] or 0) for a in airports)}"},
+                       "ports": "Quyết định 804/QĐ-TTg (2022); positions from OpenStreetMap", "airports": "ACV passengers, latest year per airport ({}–{})".format(min(a['year'] for a in airports if a['year']), max(a['year'] for a in airports if a['year']))},
            "sources": ["osm_roads", "osm_rail", "qd804", "osm_ports", "wikidata", "geonames", "ourairports", "wikipedia_airports"], "rules": RULES,
            "road_classes": ROAD_CLASSES, "port_classes": PORT_CLASSES, "rail_tiers": RAIL_TIERS, "hubs": HUBS, "roads": roads, "rail": rail,
            "ports": ports, "seaports_unplaced": UNPLACED, "airports": airports}

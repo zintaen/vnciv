@@ -137,6 +137,7 @@ export function mapPicker(ctx, parent, { options, value, label = tr("Map") }) {
   ctx.on("lens", (lens) => { if (!busy) sync(lens); });
   parent.appendChild(row);
   pick(value);
+  sync(ctx.app.state.lens); // a link's own lens is kept on open (advisors/index.js linkLens): show which option it is
   return {
     el: row,
     get value() { return seg.value; },

@@ -27,6 +27,9 @@ export async function mount(ctx) {
   const airports = (infra.airports || []).map((a) => ({ ...a, key: `a${a.id}` })).sort((a, b) => (b.enplanements || 0) - (a.enplanements || 0));
   const totalPax = airports.reduce((s, a) => s + (a.enplanements || 0), 0);
   const topAir = airports[0];
+  // ACV figures come from different years per airport (the latest compiled for each): say so where they differ.
+  const nPax = airports.filter((a) => fin(a.enplanements)).length; // airports with a passenger figure (the total's)
+  const mixedYears = airports.some((a) => fin(a.enplanements) && a.year !== topAir?.year);
   const portProvs = new Set(ports.map((p) => p.state).filter(Boolean));
   const seaports = new Set(ports.map((p) => p.seaport).filter(Boolean));
   const CLASS_RANK = Object.fromEntries((infra.port_classes || []).map((c, i) => [c.id, i]));
@@ -37,7 +40,7 @@ export async function mount(ctx) {
   // --- headline -------------------------------------------------------------------------------------------------
   el.insertAdjacentHTML("beforeend", tiles([
     { label: tr("Seaports"), value: int(seaports.size || ports.length), sub: tr("{n} port areas in {p} provinces", { n: int(ports.length), p: portProvs.size }) },
-    { label: tr("Air passengers"), value: count3(totalPax), sub: `${tr("{n} airports, {year}", { n: airports.length, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
+    { label: tr("Air passengers"), value: count3(totalPax), sub: `${mixedYears ? tr("{n} airports, latest year each", { n: nPax }) : tr("{n} airports, {year}", { n: nPax, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
     // With the air routes, the busiest airport moves into the passengers tile so the headline stays one row.
     trade?.routes?.length
       ? { label: tr("Air routes"), value: int(trade.routes.length), sub: tr("domestic, OpenFlights {year}", { year: String(trade.year || 2014) }) }
@@ -77,12 +80,12 @@ export async function mount(ctx) {
     rank: true, ariaLabel: tr("Busiest airports by passengers"),
     rows: airports.filter((a) => fin(a.enplanements)).map((a) => ({
       key: a.key, label: `${a.id} ${a.state ? provName(a.state) : a.city || airportName(a.name)}`, // today's province, as the ports table full: airportName(a.name), value: a.enplanements,
-      text: count3(a.enplanements), sub: HUB_SHORT[a.hub] || "", color: AIR_COLOR,
+      text: count3(a.enplanements), sub: `${HUB_SHORT[a.hub] || ""}${a.year !== topAir?.year ? ` · ${a.year}` : ""}`, color: AIR_COLOR,
     })),
     onHover: (r) => airHover(r ? airports.find((a) => a.key === r.key) : null),
     onClick: (r) => flyTo(airports.find((a) => a.key === r.key)),
   });
-  aBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Passengers in {year}, arriving and departing.", { year: esc(String(topAir?.year || "")) })} ${Object.entries(infra.hubs || {}).map(([k, t]) => `<b>${esc(k)}</b> ${esc(tr(t))}`).join(" · ")}.</p>`);
+  aBody.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr(mixedYears ? "Passengers in {year}, arriving and departing; an airport with no {year} figure shows its latest year." : "Passengers in {year}, arriving and departing.", { year: esc(String(topAir?.year || "")) })} ${Object.entries(infra.hubs || {}).map(([k, t]) => `<b>${esc(k)}</b> ${esc(tr(t))}`).join(" · ")}.</p>`);
 
   // --- air routes (trade.json) -------------------------------------------------------------------------------------
   const air = trade?.routes?.length ? airRoutes(ctx, trade) : null;

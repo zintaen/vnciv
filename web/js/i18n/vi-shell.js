@@ -208,6 +208,8 @@ export default {
   // --- map tooltips (ext/layers/tips.js) ---
   "Drawn on the next hex so it stays visible; its true location falls in the city hex of {name}.":
     "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong ô thành phố {name}.",
+  "Drawn on the next hex so it stays visible; its true location is under the name banner of {name}.":
+    "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm dưới biển tên của {name}.",
   "Drawn on the next hex so it stays visible; its true location falls in a city hex.":
     "Được vẽ ở ô bên cạnh để luôn nhìn thấy; vị trí thật nằm trong một ô thành phố.",
   "${n} trillion": "{n} nghìn tỷ USD",

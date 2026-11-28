@@ -100,10 +100,13 @@ def seat_positions(W, olds):
 
 
 def rank(items, key, val):
-    """{id: rank} 1 = highest; ties by population; None where val is None."""
+    """{id: rank} 1 = highest; equal values share a rank (1, 2, 2, 4); None where val is None."""
     ok = [c for c in items if val(c) is not None]
-    ok.sort(key=lambda c: (-val(c), -c["population"]))
-    return {c[key]: k + 1 for k, c in enumerate(ok)}
+    vals = sorted((val(c) for c in ok), reverse=True)
+    first = {}
+    for k, v in enumerate(vals):
+        first.setdefault(v, k + 1)
+    return {c[key]: first[val(c)] for c in ok}
 
 
 def econ(rows, pop_years):

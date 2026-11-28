@@ -61,6 +61,7 @@ export function install(app) {
   let token = 0;
   let lastId = null;
   let framedFor = null; // the advisor the map was last framed for
+  let linkLens = null; // a link's own lens (#lens=…&advisor=…): the advisor's opening lens does not replace it
   let prevCam = null; // the camera when the advisors opened
   const link = createLinker(app);
   const tip = createMapTip();
@@ -212,6 +213,7 @@ export function install(app) {
       /** Colour the map with a lens (a lenses.json id, a lens object, or null) while this view is open. The lens the
        *  viewer had is restored on exit, unless they have picked another one themselves since. */
       setLens(ref) {
+        if (linkLens && linkLens === app.state.lens) return;
         if (!a.lensSaved) {
           a.lensSaved = { lens: app.state.lens, ours: new Set() };
           a.cleanup.push(() => {
@@ -233,6 +235,7 @@ export function install(app) {
       body.insertAdjacentHTML("beforeend", `<p class="adv-empty pad">${tr("Something went wrong drawing this advisor.")}</p>`);
       a.api = {};
     }
+    linkLens = null; // only the opening lens: later picks inside the view apply as usual
     loading?.remove();
     // The view may have been switched away while it awaited its files: undo what it registered.
     if (active !== a) {
@@ -351,6 +354,7 @@ export function install(app) {
         if (app.mode !== "advisor" || (id || "council") !== current) {
           // A link with a camera (at=) keeps it: mark the advisor as framed so show() does not frame the nation.
           if (app.hash.value("at")) framedFor = id || "council";
+          linkLens = app.hash.value("lens") === app.state.lens?.id ? app.state.lens : null;
           app.setMode("advisor", { id });
         }
       } else if (app.mode === "advisor") app.setMode(null);

@@ -33,8 +33,9 @@ export function makeLayers(model, on, { tips = {}, app = null } = {}) {
   // A site moved off its city tile says so under its tooltip (the numbers are always the true site's).
   const moved = (it, html) => {
     if (!html || !it.nudged || typeof html !== "string") return html;
-    const city = m.w.cityByCell.get(it.cell);
-    const note = city ? t("Drawn on the next hex so it stays visible; its true location falls in the city hex of {name}.", { name: esc(city.name) })
+    const b = m.blockedBy?.get(it.cell);
+    const note = b?.banner ? t("Drawn on the next hex so it stays visible; its true location is under the name banner of {name}.", { name: esc(b.city.name) })
+      : b?.city ? t("Drawn on the next hex so it stays visible; its true location falls in the city hex of {name}.", { name: esc(b.city.name) })
       : t("Drawn on the next hex so it stays visible; its true location falls in a city hex.");
     return `${html}<br><span class="muted">${note}</span>`;
   };

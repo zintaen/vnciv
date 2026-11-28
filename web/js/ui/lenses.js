@@ -84,7 +84,8 @@ export function initLensDock(opts) {
   const { lenses: lensFile, w } = opts;
   const lenses = lensFile?.lenses || [];
   const sources = opts.sources || [];
-  const byId = new Map(lenses.map((l) => [l.id, l]));
+  // Live lookups: main fills `lenses` in place when lenses.json lands after the first paint.
+  const byId = { get: (id) => lenses.find((l) => l.id === id), has: (id) => lenses.some((l) => l.id === id) };
   const quick = document.getElementById("lens-quick");
   const moreBtn = document.getElementById("btn-lenses");
   const picker = document.getElementById("lens-picker");

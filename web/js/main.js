@@ -97,11 +97,27 @@ const SELECT_ANIM_MS = 33; // ~30 fps while a state's border highlight animates
 const isMobile = () => matchMedia("(max-width: 700px)").matches;
 
 async function main() {
-  const [world, cities, nation, lenses, sources, resources, statesData] = await Promise.all([
+  // lenses.json is the biggest start-up file (~14 MB raw, as much to download as world.json) and the terrain needs
+  // none of it. A plain visit fetches it after the core files (so it does not share their bandwidth), paints the
+  // map, and fills lensFile / lensById in place when it lands (everything holds these same objects). A deep link
+  // (#lens=…, #advisor=…) fetches it alongside and waits for it, as its first frame may need a lens.
+  const deep = location.hash.length > 1;
+  let lensesP = deep ? loadJSON("lenses", true) : null;
+  const [world, cities, nation, sources, resources, statesData] = await Promise.all([
     loadJSON("world"), loadJSON("cities"), loadJSON("nation"),
-    loadJSON("lenses", true), loadJSON("sources", true), loadJSON("resources", true), loadJSON("states", true),
+    loadJSON("sources", true), loadJSON("resources", true), loadJSON("states", true),
   ]);
-  const lensFile = lenses && Array.isArray(lenses.lenses) ? lenses : { vintage: "", groups: [], lenses: [] };
+  const lensFile = { vintage: "", groups: [], lenses: [] };
+  const lensById = new Map();
+  const fillLenses = (f) => {
+    if (!f || !Array.isArray(f.lenses) || lensFile.lenses.length) return;
+    lensFile.vintage = f.vintage || "";
+    lensFile.groups.push(...(f.groups || []));
+    lensFile.lenses.push(...f.lenses);
+    for (const l of f.lenses) lensById.set(l.id, l);
+  };
+  if (deep) fillLenses(await lensesP);
+  else lensesP = loadJSON("lenses", true);
   const w = prepareWorld(world, cities, { resources });
   const state = {
     cities, lens: null, band: null, hoverCell: -1, selectedCity: null, selectedState: null, showResources: !!w.resources,
@@ -109,7 +125,6 @@ async function main() {
     resourceFilter: null, // {types?: Set<typeId>, minValue?: number}
   };
   const states = Array.isArray(statesData) ? statesData : null;
-  const lensById = new Map(lensFile.lenses.map((l) => [l.id, l]));
   const cityById = new Map(cities.map((c) => [c.id, c]));
   const overlays = []; // app.registerOverlay(), sorted by z
   const staticLayers = []; // app.registerStaticLayer(), sorted by z (stable): drawn inside the cached static map
@@ -1456,8 +1471,13 @@ async function main() {
   resize();
   setLens(null);
   dock.render(null, null);
+  if (!lensFile.lenses.length) {
+    document.getElementById("loading").remove(); // the first frame paints while lenses.json downloads
+    fillLenses(await lensesP);
+    dock.render(shownLens(), state.band);
+  }
   url.applyCurrent(true); // after the home fit, so "at" zoom is relative to it
-  document.getElementById("loading").remove();
+  document.getElementById("loading")?.remove();
   // Small optional map-layer files load once the first frame is on screen (extensions can await app.loadData).
   // (A timer backs up the frame callback, which never fires while the page is in a background tab.)
   let eagerKicked = false;

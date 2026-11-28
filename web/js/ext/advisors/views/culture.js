@@ -153,7 +153,7 @@ export async function mount(ctx) {
       columns: [
         { key: "name", label: tr("Province"), align: "l", width: "minmax(0,1.5fr)", value: (r) => r.name, text: (r) => r.name },
         { key: "total", label: tr("Storms"), value: (r) => r.total, text: (r) => int(r.total), bar: { max: Math.max(1, ...sRows.map((r) => r.total || 0)), color: "rgba(79,154,214,.35)" }, title: tr("Tropical storms or stronger within {km} km since {since}", { km: T.radius_km, since: T.since }) },
-        { key: "strong", label: tr("Typhoons"), value: (r) => r.strong, text: (r) => int(r.strong), title: tr("Of typhoon strength ({kt}+ kt)", { kt: T.strong_kt }) },
+        { key: "strong", label: tr("Strong"), value: (r) => r.strong, text: (r) => int(r.strong), title: tr("Of typhoon strength ({kt}+ kt)", { kt: T.strong_kt }) },
       ],
       sort: { key: "total", dir: "desc" },
       onHover: (r) => link.hover(r?.row ? rowsHighlight(stLevel, [r.row], { dim: true }) : null),
@@ -170,7 +170,7 @@ export async function mount(ctx) {
         columns: [
           { key: "name", label: tr("Former province"), align: "l", width: "minmax(0,1.6fr)", value: (r) => r.name, html: (r) => `${esc(r.name)} <span class="sub">${esc(r.sub)}</span>` },
           { key: "total", label: tr("Storms"), value: (r) => r.dx[ci.total], text: (r) => int(r.dx[ci.total]), bar: { max: Math.max(1, ...rows.map((r) => r.dx[ci.total] || 0)), color: "rgba(79,154,214,.35)" } },
-          { key: "strong", label: tr("Typhoons"), value: (r) => r.dx[ci.strong], text: (r) => int(r.dx[ci.strong]) },
+          { key: "strong", label: tr("Strong"), title: tr("Of typhoon strength ({kt}+ kt)", { kt: T.strong_kt }), value: (r) => r.dx[ci.strong], text: (r) => int(r.dx[ci.strong]) },
           { key: "last", label: tr("Last"), align: "l", width: "84px", hideBelow: 380, value: (r) => r.dx[ci.last_date], text: (r) => dmy(r.dx[ci.last_date]) || "–" },
         ],
         sort: { key: "total", dir: "desc" },

@@ -1,5 +1,5 @@
 // Top-bar search over cities, provinces and the places and communes extensions add: prefix matches first, then word-prefix, then substring; ties by population.
-import { esc, kindOf, popShort } from "../format.js";
+import { esc, kindOf, popShort, viOrder } from "../format.js";
 import { icon } from "../ui/icon.js";
 import { t } from "../i18n.js";
 
@@ -67,7 +67,7 @@ export function initSearch(opts) {
       const miss = marked && !(e.x.startsWith(qx) || e.x.includes(" " + qx)) ? 1 : 0;
       if (s >= 0) out.push([s, miss, e]);
     }
-    out.sort((a, b) => a[1] - b[1] || a[0] - b[0] || b[2].pop - a[2].pop);
+    out.sort((a, b) => a[1] - b[1] || a[0] - b[0] || b[2].pop - a[2].pop || viOrder(a[2].name, b[2].name));
     return out.slice(0, MAX).map((x) => x[2]);
   }
 

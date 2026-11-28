@@ -53,10 +53,10 @@ class TestCommunes(unittest.TestCase):
                 far.append(x["n"])
         # Offshore island units the hex map has no land hex near (the archipelagos' labels sit between their islands)
         self.assertLessEqual(set(far), {"Bạch Long Vĩ", "Cồn Cỏ", "Hoàng Sa", "Trường Sa", "Thổ Châu"}, far)
-        W, H = self.world["width"], self.world["height"]
-        # Trường Sa reaches south of the map window (~7.9°N at its south-west corner): its label point is off the map
-        off = [x["n"] for x in self.d["communes"] if not (0 < x["x"] < W and 0 < x["y"] < H)]
-        self.assertLessEqual(set(off), {"Trường Sa"}, off)
+        W, H, m = self.world["width"], self.world["height"], self.world["margin"]
+        # every label point lies inside the map's frame, even Trường Sa's (its largest reef outline is off the map)
+        off = [x["n"] for x in self.d["communes"] if not (m <= x["x"] <= W - m and m <= x["y"] <= H - m)]
+        self.assertEqual(off, [])
         self.assertTrue(all(0 < x["a"] < 10000 for x in self.d["communes"]))
 
     def test_topology(self):

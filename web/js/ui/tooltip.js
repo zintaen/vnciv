@@ -25,7 +25,9 @@ export function showCellTooltip(mx, my, w, i, lens, showResources = true) {
     const cover = w.cover[i] > 0 ? nameOf(w.tables.cover, w.cover[i]) : null;
     const relief = w.relief[i] > 0 ? nameOf(w.tables.relief, w.relief[i]) : null;
     const terrain = [cover, relief].filter(Boolean).join(" · ") || (relief ?? tr("Land"));
-    lines.push(`<b>${esc(terrain)}</b> <span class="muted">· ${int(raw.elev[i])} m</span>`);
+    // A far-offshore island's hex is mostly reef and sea floor: its mean elevation (often below 0) says nothing.
+    const remote = (w.remoteCells ||= new Set(raw.remote || []));
+    lines.push(`<b>${esc(terrain)}</b>${remote.has(i) ? "" : ` <span class="muted">· ${int(raw.elev[i])} m</span>`}`);
   }
   const o = raw.owner[i];
   if (o >= 0) {

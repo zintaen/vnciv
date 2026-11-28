@@ -39,7 +39,7 @@ export function install(app) {
     const h = data.levels[level];
     return `<div class="slr-stats"><b>${int(hexes)}</b> ${t("hexes")} · ≈ <b>${int(km2)}</b> ${t("km² of land")} · ≈ <b>${compact(people)}</b> ${t("residents")}</div>
       <div class="slr-top">${top.map(([o, s]) => `<span>${esc(states[o]?.name || "")} <b>${compact(s.p)}</b></span>`).join("")}</div>
-      <div class="slr-note">${esc(t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents assume WorldPop people are spread evenly over each hex's land.", { h: dec(h) }))}</div>`;
+      <div class="slr-note">${esc(t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(h) }))}</div>`;
   }
 
   function render() {

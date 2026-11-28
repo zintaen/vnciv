@@ -384,6 +384,9 @@ button.cv-cmp-n:hover { color: #fff3cf; text-decoration-color: var(--gold); }
 .cv-ml-hex { width: 34px; height: 14px; display: inline-block; clip-path: polygon(25% 0, 75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%); background: linear-gradient(180deg, #2b4f8a, #0e141c); box-shadow: inset 0 0 0 1px #e8c77a; }
 .cv-ml-n { margin: 6px 0 0; font-style: italic; color: var(--ink-dim); line-height: 1.35; }
 
+/* Below 1600 px the timeline's year control floats just under the top bar (ext/timeline): sit below it. */
+@media (max-width: 1600px) { .cv-maplegend { top: calc(var(--topbar-h) + 46px); } }
+
 /* The quick panel's spot and the minimap give way while the City View is open. */
 @media (min-width: 701px) {
   body.cv-on #minimap-wrap { display: none; }
@@ -420,7 +423,7 @@ button.cv-cmp-n:hover { color: #fff3cf; text-decoration-color: var(--gold); }
   .cv-top-r { grid-template-columns: minmax(0, 1fr) 42px 36px 42px 42px; gap: 4px; font-size: 11px; }
   .cv-cz-chip b { font-size: 15px; }
   .cv-cmp-r { grid-template-columns: minmax(0, 1.1fr) repeat(4, minmax(0, 1fr)); gap: 5px; font-size: 11px; }
-  .cv-maplegend { top: calc(var(--topbar-h) + 6px); left: 6px; max-width: calc(100vw - 12px); padding: 4px 5px 4px 8px; }
+  .cv-maplegend { top: calc(var(--topbar-h) + 46px); left: 6px; max-width: calc(100vw - 12px); padding: 4px 5px 4px 8px; }
   .cv-ml-sch { display: none; }
   .cv-ml-body { width: min(228px, calc(100vw - 30px)); }
   .cv-ml-i { width: 22px; height: 22px; font-size: 12px; line-height: 20px; } /* a finger-sized target */

@@ -8,6 +8,8 @@ import { section, tiles, segmented, mapPicker, sourcesHtml } from "../core/view.
 import { rowsHighlight } from "../core/data.js";
 import { frameBox, focusPoint } from "../core/frame.js";
 import { t as tr, lang } from "../../../i18n.js";
+// ISO dates sort as text; Vietnamese reads them day/month/year (as the timeline card does).
+const dmy = (d) => (d && lang === "vi" && /^\d{4}-\d\d-\d\d$/.test(d) ? d.split("-").reverse().map((x, i) => (i < 2 ? +x : x)).join("/") : d);
 
 const KIND = {
   natural: { label: tr("Nature"), color: "#6aa84f" },
@@ -169,7 +171,7 @@ export async function mount(ctx) {
           { key: "name", label: tr("Former province"), align: "l", width: "minmax(0,1.6fr)", value: (r) => r.name, html: (r) => `${esc(r.name)} <span class="sub">${esc(r.sub)}</span>` },
           { key: "total", label: tr("Storms"), value: (r) => r.dx[ci.total], text: (r) => int(r.dx[ci.total]), bar: { max: Math.max(1, ...rows.map((r) => r.dx[ci.total] || 0)), color: "rgba(79,154,214,.35)" } },
           { key: "strong", label: tr("Typhoons"), value: (r) => r.dx[ci.strong], text: (r) => int(r.dx[ci.strong]) },
-          { key: "last", label: tr("Last"), align: "l", width: "84px", hideBelow: 380, value: (r) => r.dx[ci.last_date], text: (r) => r.dx[ci.last_date] || "–" },
+          { key: "last", label: tr("Last"), align: "l", width: "84px", hideBelow: 380, value: (r) => r.dx[ci.last_date], text: (r) => dmy(r.dx[ci.last_date]) || "–" },
         ],
         sort: { key: "total", dir: "desc" },
         onHover: (r) => link.hover(r ? rowsHighlight(counties, [counties.byKey.get(r.key)]) : null),
@@ -183,7 +185,7 @@ export async function mount(ctx) {
       createTable(dSec, {
         caption: title, maxHeight: 220, rowKey: (r) => `${r.name}-${r.date}`, rows: list,
         columns: [
-          { key: "date", label: tr("Date"), align: "l", width: "84px", value: (r) => r.date, text: (r) => r.date || "–" },
+          { key: "date", label: tr("Date"), align: "l", width: "84px", value: (r) => r.date, text: (r) => dmy(r.date) || "–" },
           { key: "name", label: tr("Storm"), align: "l", width: "minmax(0,1fr)", value: (r) => r.name, text: (r) => r.name || tr("Unnamed") },
           { key: "max_kt", label: tr("Peak"), value: (r) => r.max_kt, text: (r) => (fin(r.max_kt) ? `${int(r.max_kt)} kt` : "–"), title: tr("Peak sustained wind near Vietnam (knots)") },
           { key: "prov", label: tr("Provinces"), align: "l", width: "minmax(0,1.2fr)", hideBelow: 380, value: (r) => (r.provinces || []).length, text: (r) => (r.provinces || []).join(", ") },

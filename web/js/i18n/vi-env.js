@@ -9,6 +9,6 @@ export default {
   "hexes": "ô",
   "km² of land": "km² đất",
   "residents": "cư dân",
-  "Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents assume WorldPop people are spread evenly over each hex's land.":
-    "Đất cao không quá {h} m. Độ cao thô (ETOPO1, ~1,8 km), không tính đê điều/thủy triều: chỉ báo mức phơi nhiễm, không phải dự báo. Số cư dân giả định dân số WorldPop phân bố đều trên phần đất của mỗi ô.",
+  "Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.":
+    "Đất cao không quá {h} m. Độ cao thô (ETOPO1, ~1,8 km), không tính đê điều/thủy triều: chỉ báo mức phơi nhiễm, không phải dự báo. Số cư dân là dân số WorldPop 2025 ở mọi năm trên dòng thời gian, phân bố đều trên phần đất của mỗi ô.",
 };

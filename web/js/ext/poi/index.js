@@ -190,7 +190,6 @@ function pointLayer(app, spec, get, on) {
       }
       return best;
     },
-    drawn: () => drawn,
     tooltip: (it) => tip(app, it, get()),
     click(it) {
       app.flyTo(it.x, it.y, Math.max(app.cam.scale, 22 / R()), 700);
@@ -330,7 +329,7 @@ function tip(app, it, d) {
 export function install(app) {
   const on = Object.fromEntries(KINDS.map((k) => [k.id, k.def]));
   let poi = null, relics = null, asked = false;
-  const getPoi = () => poi, getRelics = () => relics, layers = [];
+  const getPoi = () => poi, getRelics = () => relics;
   const loadPoi = () => {
     if (asked) return;
     asked = true;
@@ -340,9 +339,7 @@ export function install(app) {
 
   for (const k of KINDS) {
     const get = k.kind === "relic" ? getRelics : getPoi;
-    const l = k.kind === "metro" ? lineLayer(app, k, get, on) : pointLayer(app, k, get, on);
-    layers.push(l);
-    app.registerStaticLayer(l);
+    app.registerStaticLayer(k.kind === "metro" ? lineLayer(app, k, get, on) : pointLayer(app, k, get, on));
   }
   app.registerStaticLayer(bridgeSpans(app, getPoi, on));
 
@@ -358,5 +355,4 @@ export function install(app) {
     });
     if (on[k.id] && k.kind !== "relic") loadPoi();
   }
-  app.poi = { on, data: () => ({ poi, relics }), drawn: () => layers.map((l) => [l.id, l.drawn?.() || []]) }; // debugging
 }

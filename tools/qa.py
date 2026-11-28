@@ -41,7 +41,8 @@ with sync_playwright() as p:
         pg._errs = []
         pg.on("pageerror", lambda e: pg._errs.append(f"pageerror {e}"))
         pg.on("console", lambda m: pg._errs.append(f"console {m.text}") if m.type == "error" else None)
-        pg.on("requestfailed", lambda r: pg._errs.append(f"requestfailed {r.url}"))
+        # a request the next navigation aborts (a lazy file still loading) is the harness moving on, not a page error
+        pg.on("requestfailed", lambda r: "ERR_ABORTED" in (r.failure or "") or pg._errs.append(f"requestfailed {r.url} {r.failure}"))
         pg.on("response", lambda r: pg._errs.append(f"HTTP {r.status} {r.url}") if r.status >= 400 else None)
         return pg
 

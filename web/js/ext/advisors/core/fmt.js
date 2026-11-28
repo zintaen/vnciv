@@ -1,7 +1,7 @@
 // Number formatting for the advisor kit, built on web/js/format.js.
 // Formats follow lenses.json / counties.json: int | usd | pct (0..1 fraction) | float | minutes | years | km2 | text,
 // plus a few of our own: money (compact $), signed (signed %), lq (×1.23), mw, count, ratio (×4.2).
-import { compact, dec, dollars, fixed, int, money, pct } from "../../../format.js";
+import { compact, dec, dollars, fixed, int, money, pct, viUnits } from "../../../format.js";
 import { fin } from "./util.js";
 import { t as tr, lang } from "../../../i18n.js";
 
@@ -13,7 +13,7 @@ export const signedPct = (g, d = 1) => (fin(g) ? `${g >= 0 ? "+" : "−"}${fixed
 export function count3(n) {
   if (!fin(n)) return "–";
   const a = Math.abs(n);
-  const sig = (d, unit) => fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit;
+  const sig = (d, unit) => viUnits(fixed(n / d, a / d >= 100 ? 0 : a / d >= 10 ? 1 : 2) + unit); // "13,4 tr" in Vietnamese, as compact()
   if (a >= 1e12) return sig(1e12, "T");
   if (a >= 1e9) return sig(1e9, "B");
   if (a >= 1e6) return sig(1e6, "M");

@@ -662,4 +662,5 @@ export default {
   "the last year published for the 63 former provinces": "năm cuối cùng công bố cho 63 tỉnh cũ",
   // --- map layers (ext/layers) ---
   "Seaports of Decision 804/QĐ-TTg, sized by class (port areas from OpenStreetMap), and airports with scheduled flights, sized by passengers (ACV)": "Cảng biển theo Quyết định 804/QĐ-TTg, kích thước theo loại (khu bến từ OpenStreetMap), và các sân bay có chuyến bay thường lệ, kích thước theo lượng hành khách (ACV)",
+  "Not on the map (no port area found): {list}.": "Không có trên bản đồ (không tìm thấy khu bến): {list}.",
 };

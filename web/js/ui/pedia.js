@@ -125,7 +125,7 @@ export function initPedia(data) {
       ${data.sources.map((s) => `
         <h4>${esc(t(s.title))}</h4>
         <p>${esc(t(s.description))}<br>
-        <span class="muted">${esc(t(s.publisher))} · ${esc(t(s.license))}${s.vintage ? " · " + esc(t(s.vintage)) : ""} ·
+        <span class="muted">${esc(t(s.publisher))} · ${esc(t(s.license))}${s.vintage && !s.title.includes(s.vintage) ? " · " + esc(t(s.vintage)) : ""} ·
         <a href="${/^https?:\/\//i.test(s.homepage || "") ? esc(s.homepage) : "#"}" target="_blank" rel="noopener">${t("homepage")}</a></span></p>
         <table>${(s.files || []).map((f) => `<tr><td><code>${esc(f.url)}</code></td><td class="muted" style="white-space:nowrap">${esc((f.retrieved || "").slice(0, 10))}${f.bytes ? `<br>${fixed(f.bytes / 1e6, 1)} MB` : ""}</td></tr>`).join("")}</table>`).join("")}`,
   };

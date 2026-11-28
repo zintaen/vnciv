@@ -4,7 +4,7 @@
 // Search: adds communes, towns and islands (places.json) and wonders (wonders.json) to the top-bar search through
 // app.search.addEntries(entries) when main provides it (see the stream report for the proposed hook).
 import { t, lang } from "../../i18n.js";
-import { esc, fixed, int } from "../../format.js";
+import { airportName, esc, fixed, int } from "../../format.js";
 
 const KIND_EN = ["Commune", "Ward", "Special zone"];
 const BORDER_MIN_RPX = 12; // hex radius in css px from which borders are drawn (communes are ~2 hexes across)
@@ -216,6 +216,7 @@ export function install(app) {
 
   // --- search ---------------------------------------------------------------------------------------------------
   function flyToBox(x0, y0, x1, y1, maxScale = 3) {
+    if (!app.mode) app.clearSelection(); // a province panel left open would name the wrong place
     const pad = 0.6 * Math.max(x1 - x0, y1 - y0, 20);
     app.fitBounds(x0 - pad, y0 - pad, x1 + pad, y1 + pad, { maxScale });
   }
@@ -239,12 +240,24 @@ export function install(app) {
     const spot = (x, y, r = 40) => () => flyToBox(x - r, y - r, x + r, y + r);
     app.loadData("places").then((d) => {
       if (!d) return;
+      // Which province: the archipelago's owner, else the province of the hex the place stands on.
+      const arch = new Map((d.archipelagos || []).map((a) => [a.id, a]));
+      const provAt = (x, y) => { const i = app.w.grid.cellAt(x, y), o = i >= 0 ? app.w.raw.owner[i] : -1; return o >= 0 ? app.w.raw.states[o]?.name || "" : ""; };
+      const where = (p) => { const a = arch.get(p.group); return a ? `${a.name}, ${a.owner}` : provAt(p.x, p.y); };
+      const sub = (kind, p) => [t(kind), where(p)].filter(Boolean).join(" · ");
       app.search.addEntries([
         ...(d.towns || []).map((p) => ({ kind: "town", name: p.name, label: p.name, icon: "pop", emoji: "🏘️", pop: p.population || 0,
-          sub: t("Town"), pick: spot(p.x, p.y) })),
+          sub: sub("Town", p), pick: spot(p.x, p.y) })),
         ...(d.islands || []).map((p) => ({ kind: "island", name: p.name, label: p.name, icon: "terrain", emoji: "🏝️", pop: 0,
-          sub: t("Island"), pick: spot(p.x, p.y) })),
+          sub: sub("Island", p), pick: spot(p.x, p.y) })),
       ]);
+    });
+    app.loadData("infrastructure").then((d) => {
+      if (!d?.airports) return;
+      app.search.addEntries(d.airports.filter((a) => a.x != null).map((a) => ({
+        kind: "airport", name: airportName(a.name), label: airportName(a.name), icon: "t-airport", emoji: "✈️", pop: 0,
+        sub: `${a.id} · ${provName(a.state)}`, pick: spot(a.x, a.y, 30),
+      })));
     });
     app.loadData("wonders").then((d) => {
       if (!d?.wonders) return;

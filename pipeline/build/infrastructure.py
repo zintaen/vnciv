@@ -21,6 +21,7 @@ HUBS = {"L": "Major hub (10M+ passengers)", "M": "Medium hub (2–10M)", "S": "S
 # The 34 seaports of Quyết định 804/QĐ-TTg (8 July 2022, transcribed from the signed scan) in its order, with class, and
 # their main port areas (khu bến) from the seaport master plan (Quyết định 1579/QĐ-TTg, 2021), each with a folded-name
 # pattern that finds it in OpenStreetMap, GeoNames or Wikidata. The first area found is the seaport's main marker.
+UNPLACED = []  # seaports of the list with no port area found (filled by ports())
 SEAPORTS = [
     ("Quảng Ninh", "I", [("Cái Lân", r"cai lan|port of ha long|^hon gai$"), ("Cẩm Phả", r"cam pha")]),
     ("Hải Phòng", "special", [("Lạch Huyện", r"lach huyen|hict|tan cang hai phong"), ("Đình Vũ", r"dinh vu|tan vu|hai an port"),
@@ -174,6 +175,7 @@ def port_candidates():
 
 
 def build_ports(W):
+    UNPLACED.clear()
     from ..admin import fold, old_units
     cands = port_candidates()
     names = {fold(u["name"]): W.counties.index(u["iso"]) for u in old_units()}
@@ -200,6 +202,7 @@ def build_ports(W):
             hits = [(label, h)] if h else []
         if not hits:
             print(f"    ! seaport {seaport}: no port area found")
+            UNPLACED.append({"seaport": f"Cảng biển {seaport}", "class": cls, "areas": [label for label, _ in areas]})
         for k, (label, hit) in enumerate(hits):
             rank += 1
             ports.append({"id": fold(f"{seaport} {label}").replace(" ", "-").replace("–", "").replace(".", ""),
@@ -288,6 +291,6 @@ def build():
                        "ports": "Quyết định 804/QĐ-TTg (2022); positions from OpenStreetMap", "airports": f"ACV passengers {max((a['year'] or 0) for a in airports)}"},
            "sources": ["osm_roads", "osm_rail", "qd804", "osm_ports", "wikidata", "geonames", "ourairports", "wikipedia_airports"], "rules": RULES,
            "road_classes": ROAD_CLASSES, "port_classes": PORT_CLASSES, "rail_tiers": RAIL_TIERS, "hubs": HUBS, "roads": roads, "rail": rail,
-           "ports": ports, "airports": airports}
+           "ports": ports, "seaports_unplaced": UNPLACED, "airports": airports}
     write_web("infrastructure.json", doc)
     save_interim("_infrastructure", doc)

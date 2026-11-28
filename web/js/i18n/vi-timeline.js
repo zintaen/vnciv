@@ -41,4 +41,6 @@ export default {
   "Resolution 202/2025/QH15 merged Vietnam's 63 provinces and centrally-run cities into 34; district-level government was abolished. Statistics before mid-2025 are published for the 63 former provinces.":
     "Nghị quyết 202/2025/QH15 sắp xếp 63 tỉnh, thành phố trực thuộc trung ương của Việt Nam thành 34; bỏ cấp huyện. Số liệu thống kê trước giữa năm 2025 được công bố theo 63 tỉnh cũ.",
   "UNESCO World Heritage": "Di sản thế giới UNESCO",
+  "{n} more only near Hoàng Sa or Trường Sa": "thêm {n} cơn chỉ đi gần Hoàng Sa hoặc Trường Sa",
+  "only near Hoàng Sa or Trường Sa": "chỉ đi gần Hoàng Sa hoặc Trường Sa",
 };

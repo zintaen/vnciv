@@ -299,20 +299,7 @@ async function main() {
     // Plates of cities beside an open dock stay clear of it (desktop docks only; phones use a bottom sheet).
     const d = isMobile() ? null : dockState();
     state.bannerBounds = d && d.open ? { x0: d.l, x1: cam.w - d.r } : null;
-    // app.bannerPopulation(city) → a number to show on the banner instead of city.population (the timeline's year),
-    // or null; swapped in for this draw only.
-    const swapped = [];
-    if (typeof app.bannerPopulation === "function") {
-      for (const c of cities) {
-        const v = app.bannerPopulation(c);
-        if (Number.isFinite(v) && v !== c.population) { swapped.push([c, c.population]); c.population = v; }
-      }
-    }
-    try {
-      hits = drawBanners(ctx, cam, w, state, nation.yields, nation);
-    } finally {
-      for (const [c, v] of swapped) c.population = v;
-    }
+    hits = drawYearBanners(ctx, cam, state);
     if (overlays.length) drawOverlays(ctx, cam, overlays, app, { dpr, zMin: 100 });
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     minimap.draw();
@@ -836,6 +823,7 @@ async function main() {
     onPick(r) {
       if (r.kind === "city") selectCity(r.city, { fly: true });
       else selectState(r.index, { fly: true });
+      focusPanel(); // keyboard focus follows the pick into its panel (as from a report), not back to <body>
     },
   });
 
@@ -852,6 +840,23 @@ async function main() {
     // A dock opened, closed or changed width: the usable map area changed.
     onLayout: () => { onDocksChanged(); requestDraw(); events.emit("resize", { w: cam.w, h: cam.h, dpr, docks: true }); },
   });
+
+  // app.bannerPopulation(city) → a number to show on the banner instead of city.population (the timeline's year),
+  // or null; swapped in for this draw only (the screen and the share image alike).
+  function drawYearBanners(c, camera, st) {
+    const swapped = [];
+    if (typeof app.bannerPopulation === "function") {
+      for (const city of cities) {
+        const v = app.bannerPopulation(city);
+        if (Number.isFinite(v) && v !== city.population) { swapped.push([city, city.population]); city.population = v; }
+      }
+    }
+    try {
+      return drawBanners(c, camera, w, st, nation.yields, nation);
+    } finally {
+      for (const [city, v] of swapped) city.population = v;
+    }
+  }
 
   // Renders the current view (minus panels) into an offscreen canvas for the share image.
   function renderShareMap(target, W, H) {
@@ -906,7 +911,7 @@ async function main() {
     c.setTransform(1, 0, 0, 1, 0, 0);
     shareVignette(c, W, H, snap, k);
     c.setTransform(k, 0, 0, k, 0, 0);
-    drawBanners(c, snap, w, shot, nation.yields, nation);
+    drawYearBanners(c, snap, shot);
     c.setTransform(1, 0, 0, 1, 0, 0);
     return true;
   }
@@ -1216,6 +1221,8 @@ async function main() {
         // On phones the bottom sheet would hide the state, so bring it into the visible part of the map; not for a
         // Hoàng Sa / Trường Sa hex, which the province's frame leaves out (it would fly away from the tapped island).
         if (owner !== state.selectedState) selectState(owner, { fly: isMobile() && !(w.raw.remote || []).includes(cell) });
+        // Touch has no hover: a tap inside the province already open shows the hex's tooltip (terrain, lens value, site).
+        else if (e.pointerType !== "mouse") hover(mx, my);
       } else if (state.selectedCity || state.selectedState != null) clearSelection();
     }, DOUBLE_MS);
     // A click changes what is on screen (a panel, a mode, a flight), so drop the tooltip until the pointer moves again.

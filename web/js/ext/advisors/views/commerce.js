@@ -46,7 +46,8 @@ export async function mount(ctx) {
 
   // --- ports ------------------------------------------------------------------------------------------------------
   let portTable = null, airBars = null, portBubbles = null, airBubbles = null;
-  const pBody = section(el, { title: tr("Seaports"), kicker: tr(v.ports || ""), note: tr("{rule} Hover a port to find it on the map; click to fly there.", { rule: esc(tr(infra.rules?.ports || "")) }) });
+  const pBody = section(el, { title: tr("Seaports"), kicker: tr(v.ports || ""), note: tr("{rule} Hover a port to find it on the map; click to fly there.", { rule: esc(tr(infra.rules?.ports || "")) })
+    + (infra.seaports_unplaced?.length ? " " + tr("Not on the map (no port area found): {list}.", { list: esc(infra.seaports_unplaced.map((u) => u.seaport).join(", ")) }) : "") });
   const portHover = (p) => {
     link.hover(p ? { cells: new Set(p.cell != null ? [p.cell] : []), label: p.name } : null);
     portBubbles?.setHot(p ? p.key : null);
@@ -75,7 +76,7 @@ export async function mount(ctx) {
   airBars = barList(aBody, {
     rank: true, ariaLabel: tr("Busiest airports by passengers"),
     rows: airports.filter((a) => fin(a.enplanements)).map((a) => ({
-      key: a.key, label: `${a.id} ${a.city || airportName(a.name)}`, full: airportName(a.name), value: a.enplanements,
+      key: a.key, label: `${a.id} ${a.state ? provName(a.state) : a.city || airportName(a.name)}`, // today's province, as the ports table full: airportName(a.name), value: a.enplanements,
       text: count3(a.enplanements), sub: HUB_SHORT[a.hub] || "", color: AIR_COLOR,
     })),
     onHover: (r) => airHover(r ? airports.find((a) => a.key === r.key) : null),

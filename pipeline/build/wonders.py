@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import re
 
+from ..admin import vi_key
 from ..fetch import RAW
 from ..sources import LANDMARKS
 from ..store import save_interim, write_web
@@ -198,7 +199,7 @@ def build():
     key = {"world_heritage": lambda w: (w["metrics"]["inscribed"] or 9999, w["name"]),
            "national_park": lambda w: (-(w["metrics"]["area_km2"] or 0), w["name"]),
            "research_university": lambda w: [UNI_QID[n] for n, _ in national_regional_universities()].index(w["id"][4:]),
-           "landmark": lambda w: w["short"]}
+           "landmark": lambda w: vi_key(w["short"])}
     wonders.sort(key=lambda w: (order[w["rule"]], key[w["rule"]](w)))
     rank = {}
     for w in wonders:

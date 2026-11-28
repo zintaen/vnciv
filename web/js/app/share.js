@@ -4,6 +4,7 @@ import { icon } from "../ui/icon.js";
 import { t, lang } from "../i18n.js";
 import { kindOf } from "../format.js";
 import { fmtYear, yearNum } from "../ui/infoPanel.js";
+import { naturalEnd } from "../ui/lenses.js";
 
 // The address printed on shared images. Set it to the published site (e.g. "example.com/vnciv"); when left
 // empty, the page's own host and path are used, except on a local dev server, where SITE_FALLBACK is printed.
@@ -195,8 +196,8 @@ export function composeImage(info, { height = IMG_H } = {}) {
     ctx.fillStyle = rg;
     ctx.fillRect(rx, ry, rw, rh);
     // The two end labels share the ramp's width: long units ("1,3K mm mỗi năm") shrink the font, then truncate.
-    let lo = "≤ " + info.formatValue(lens, 0);
-    const hi = "≥ " + info.formatValue(lens, 1);
+    let lo = (naturalEnd(lens, 0) ? "" : "≤ ") + info.formatValue(lens, 0);
+    const hi = (naturalEnd(lens, 1) ? "" : "≥ ") + info.formatValue(lens, 1);
     let px = 14;
     const both = () => (ctx.font = `${px}px ${SANS}`, ctx.measureText(lo).width + ctx.measureText(hi).width + 12);
     if (both() > rw) lo = lo.slice(0, lo.length - sharedUnit(lo, hi).length); // the unit once, after the top value

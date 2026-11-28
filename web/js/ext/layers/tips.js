@@ -32,7 +32,10 @@ export const tips = {
     ].filter(Boolean).join("<br>");
   },
   airport(a, m) {
-    const lines = [`<b>${esc(a.id)} · ${esc(airportName(a.name))}</b> ${muted(esc([...new Set([a.city, prov(m, a.state)])].filter(Boolean).join(", ")))}`];
+    // a.city is the former province (before July 2025): say so when today's province is another one
+    const now = prov(m, a.state);
+    const where = a.city && a.city !== now ? t("{former} <span class=\"muted\">(former) · now</span> {prov}", { former: esc(a.city), prov: esc(now) }) : esc(a.city || now);
+    const lines = [`<b>${esc(a.id)} · ${esc(airportName(a.name))}</b> ${muted(where)}`];
     if (a.hub) lines.push(esc(t(HUB_NAME[a.hub] || a.hub)));
     if (a.enplanements != null) lines.push(t("<b>{n}</b> passengers in {year}", { n: num(a.enplanements), year: esc(a.year) }));
     lines.push(muted(t("Passengers: Airports Corporation of Vietnam (ACV) figures compiled on Wikipedia. Location: OurAirports.")));

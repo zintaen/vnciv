@@ -109,7 +109,7 @@ export function buildData(app) {
     };
     const list = [
       f("population", "Population", "int", { unit: "people", group: "People", d: "Average population ({v})." }),
-      f("growth", "Growth", "signed", { unit: "population change", group: "People", d: "Population change ({v}), NSO average population on today's borders." }),
+      f("growth", "Population growth", "signed", { unit: "population change", group: "People", d: "Population change ({v}), NSO average population on today's borders." }),
       f("density", "Density", "int", { unit: "people / km²", group: "People", d: "Residents ÷ natural area ({v})." }),
       f("urban", "Urban share", "pct", { unit: "of residents", group: "People", d: "Share of residents living in urban areas ({v})." }),
       f("gdp", "GRDP", "money", { unit: "$ per year", d: "GRDP at current prices ({v}), US dollars at the World Bank rate." }),

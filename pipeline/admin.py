@@ -121,6 +121,29 @@ def fold(s: str) -> str:
     return "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn").lower()
 
 
+_VI_ALPHA = "a ă â b c d đ e ê f g h i j k l m n o ô ơ p q r s t u ư v w x y z".split()  # f j w z: loanword letters, Latin place
+_VI_LETTER = {"\u0306": {"a": "ă"}, "\u0302": {"a": "â", "e": "ê", "o": "ô"}, "\u031b": {"o": "ơ", "u": "ư"}}
+_VI_TONE = {"\u0300": 1, "\u0309": 2, "\u0303": 3, "\u0301": 4, "\u0323": 5}  # huyền hỏi ngã sắc nặng
+
+
+def vi_key(s: str):
+    """Sort key in Vietnamese dictionary order: letters a ă â b c d đ e ê … (primary), then tones (secondary).
+    Other characters (spaces, digits, punctuation) sort by code point, before every letter."""
+    import unicodedata
+    letters, tones = [], []
+    for ch in s.lower():
+        base, *marks = unicodedata.normalize("NFD", ch)
+        tone = 0
+        for m in marks:
+            if m in _VI_TONE:
+                tone = _VI_TONE[m]
+            else:
+                base = _VI_LETTER.get(m, {}).get(base, base)
+        letters.append(100 + _VI_ALPHA.index(base) if base in _VI_ALPHA else min(ord(base), 99))
+        tones.append(tone)
+    return letters, tones, s
+
+
 def old_units():
     """[{iso, name, seat, new}] for the 63 former provinces, sorted by folded name."""
     new_of = {o: n for n, (_, olds) in NEW.items() for o in olds}

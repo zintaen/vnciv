@@ -97,7 +97,7 @@ export function mount(ctx) {
     { key: "gdp_pc", label: tr("Per person"), value: (r) => r.v.gdp_pc, text: (r) => money(r.v.gdp_pc) },
     rankBy !== "gdp" && rankBy !== "gdp_pc" && rankBy !== "growth"
       ? { key: rankBy, label: lvl.field(rankBy)?.label || rankBy, short: esc(SHORT[rankBy] || lvl.field(rankBy)?.label || rankBy), value: (r) => r.v[rankBy], text: (r) => (FMT[rankBy] || signedPct)(r.v[rankBy]) }
-      : { key: "growth", label: lvl.field("growth")?.label || tr("Growth"), short: esc(tr("Growth")), value: (r) => r.v.growth, text: (r) => signedPct(r.v.growth) },
+      : { key: "growth", label: lvl.field("growth")?.label || tr("Population growth"), short: esc(tr("Population growth")), value: (r) => r.v.growth, text: (r) => signedPct(r.v.growth) },
   ];
   const table = createTable(lBody, {
     caption: tr("Provinces by GRDP"), columns: cols(), rows: lvl.rows, sort: { key: "gdp", dir: "desc" }, rank: true, maxHeight: 280,

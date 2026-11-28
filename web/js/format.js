@@ -3,6 +3,8 @@ import { t, lang } from "./i18n.js";
 // Numbers follow the page language: English 9,543,600 / 1.5M; Vietnamese 9.543.600 / 1,5M (thousands ".", decimal ",").
 const VI = lang === "vi";
 const LOCALE = VI ? "vi-VN" : "en-US";
+/** Vietnamese alphabetical order (a ă â b c d đ …, tones second) for place names, in either page language. */
+export const viOrder = new Intl.Collator("vi").compare;
 /** A plain number string ("1.5", "-0.04") with the language's decimal mark. */
 export const dec = (x) => (VI ? String(x).replace(".", ",") : String(x));
 /** x.toFixed(d) with the language's decimal mark. */
@@ -28,7 +30,7 @@ function compactEn(n) {
 }
 // Vietnamese reads million/billion as words: 1,5 tr (triệu), 529 tỷ; non-breaking spaces keep a figure on one line; input parsing still takes K/M/B.
 const VI_UNIT = { K: "K", M: "\u00a0tr", B: "\u00a0tỷ", T: "\u00a0nghìn\u00a0tỷ" }; // K stays: "50K" is everyday Vietnamese
-const viUnits = (s) => (VI ? s.replace(/([KMBT])$/, (u) => VI_UNIT[u]) : s);
+export const viUnits = (s) => (VI ? s.replace(/([KMBT])$/, (u) => VI_UNIT[u]) : s);
 export function compact(n) {
   if (n == null || Number.isNaN(n)) return "–";
   return viUnits(dec(rollover(n, compactEn)));

@@ -99,10 +99,10 @@ export async function install(app) {
     const c = stormCounts(y);
     const values = new Array(n).fill(null);
     for (let i = 0; i < n; i++) if (raw.owner[i] >= 0) values[i] = c[i];
-    const k = stormsOf(y).length;
+    const all = stormsOf(y), k = all.filter((s) => !offshoreOnly(s)).length, m = all.length - k;
     // ponytail: the top colour is "4 or more" (stormMax is 5, in a handful of hexes); a 0–5 ramp left 1-storm hexes nearly black
     return { ...lens, id: `${lens.id}@${y}`, values, domain: [0, Math.max(1, Math.min(4, stormMax))], unit: "storms that year", year: y,
-      note: noteOf([t("Year {year}", { year: y }), t("{n} storms touched Vietnam", { n: k }), y < 2008 ? t("borders shown are the 63 provinces of 2008–2025") : ""], lens) };
+      note: noteOf([t("Year {year}", { year: y }), t("{n} storms touched Vietnam", { n: k }), m ? t("{n} more only near Hoàng Sa or Trường Sa", { n: m }) : "", y < 2008 ? t("borders shown are the 63 provinces of 2008–2025") : ""], lens) };
   }
 
   let forestDomain = null;
@@ -244,6 +244,9 @@ export async function install(app) {
   let card = null; // {kind: "event"|"storms"|"history", event?}
   let stormsDismissed = false;
   const stormsOf = (y) => T.storms.filter((s) => s.season === y);
+  // A storm whose 100 km reach covers only Hoàng Sa / Trường Sa hexes: the national counts (disasters.json) leave it out
+  const remote = new Set(raw.remote || []);
+  const offshoreOnly = (s) => s.cells.length > 0 && s.cells.every((i) => remote.has(i));
   function renderCard() {
     if (!card && year != null && lensId() === STORM_LENS && !stormsDismissed) card = { kind: "storms" };
     if (card?.kind === "storms" && (year == null || lensId() !== STORM_LENS)) card = null;
@@ -256,7 +259,7 @@ export async function install(app) {
       const list = stormsOf(year);
       head = t("Storms of {year}", { year });
       body = list.length ? `<ul class="tl-storms">${list.map((s) => `<li><b>${esc(s.name && s.name !== "Unnamed" ? s.name : t("Unnamed"))}</b>
-          <span>${esc(fmtDate({ date: s.date, year: s.season }))}</span><span>${s.max_kt ? esc(t("{kt} kt max", { kt: int(s.max_kt) })) : esc(t("wind not recorded"))}</span></li>`).join("")}</ul>`
+          <span>${esc(fmtDate({ date: s.date, year: s.season }))}</span><span>${offshoreOnly(s) ? esc(t("only near Hoàng Sa or Trường Sa")) : s.max_kt ? esc(t("{kt} kt max", { kt: int(s.max_kt) })) : esc(t("wind not recorded"))}</span></li>`).join("")}</ul>`
         : `<div class="tl-ev-text">${esc(t("No storm touched Vietnam this year."))}</div>`;
       body += `<div class="tl-foot">${esc(t("IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none)."))}</div>`;
     } else {

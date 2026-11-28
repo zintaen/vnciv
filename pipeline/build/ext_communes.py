@@ -23,7 +23,7 @@ from rasterio.transform import from_origin
 from ..admin import fold, new_units
 from ..fetch import RAW
 from ..geo import UNIT, ring_contains
-from ..store import write_web
+from ..store import load_web, write_web
 from .common import World
 from .world import LAT1, LON0, RES
 
@@ -52,7 +52,9 @@ RULES = {
     "names": "Names exactly as the source spells them, including its older tone placement (Hoà, Thuỷ, Hoá: about "
              "200 names), which differs from the newer style the provinces use (Hòa); search treats both as equal.",
     "label": "Centroid of the commune's largest part; if that falls outside it, the middle of the widest span "
-             "through the part at the centroid's latitude.",
+             "through the part at the centroid's latitude. If that point lies outside the map's frame (the map less "
+             "its margin), the label goes to the same point of the largest part whose point is inside the frame "
+             "(only Đặc khu Trường Sa, whose largest reef outline lies beyond the map's southern edge).",
 }
 
 
@@ -305,6 +307,9 @@ def build():
         n_out += len(q)
 
     official, national = official_counts()
+    wj = load_web("world.json")
+    m = wj["margin"]
+    in_frame = lambda pt: m <= pt[0] <= wj["width"] - m and m <= pt[1] <= wj["height"] - m
     communes, by_prov = [], {}
     for u, r in zip(units, refs):
         parts = []
@@ -313,6 +318,9 @@ def build():
             parts.append((abs(ring_area(pr[0])) - sum(abs(ring_area(h)) for h in pr[1:]), pr[0]))
         area = sum(a for a, _ in parts) / UNIT / UNIT
         lx, ly = label_point(max(parts, key=lambda p: p[0])[1])
+        if not in_frame((lx, ly)):
+            lx, ly = next((pt for _, ring in sorted(parts, key=lambda p: -p[0]) if in_frame(pt := label_point(ring))),
+                          (lx, ly))
         abbr = prov_abbr[u["prov"]]
         communes.append({"id": u["code"], "n": u["name"], "k": u["kind"], "p": abbr, "x": round(lx, 1), "y": round(ly, 1),
                          "a": round(area, 2), "r": r})

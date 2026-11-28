@@ -12,6 +12,7 @@
 //   onHover(row|null), onClick(row), caption (aria label), empty (text when no rows)
 import { esc, fin, rafThrottle, onWidth } from "./util.js";
 import { t as tr } from "../../../i18n.js";
+import { viOrder } from "../../../format.js";
 
 export function createTable(host, opts) {
   const rowH = opts.rowH || 28;
@@ -81,7 +82,7 @@ export function createTable(host, opts) {
         const va = val(a), vb = val(b);
         const na = va == null || (typeof va === "number" && !fin(va)), nb = vb == null || (typeof vb === "number" && !fin(vb));
         if (na || nb) return na === nb ? 0 : na ? 1 : -1; // nulls last either way
-        if (typeof va === "string" || typeof vb === "string") return dir * String(va).localeCompare(String(vb));
+        if (typeof va === "string" || typeof vb === "string") return dir * viOrder(String(va), String(vb));
         return dir * (va - vb);
       });
     }

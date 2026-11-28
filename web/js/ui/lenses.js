@@ -1,6 +1,6 @@
 // Lens dock: a quick row (Terrain + the 3 most recent lenses), a grouped lens picker, and a rich legend with a
 // histogram of hex values whose ramp can be hovered or dragged to highlight a band of values on the map.
-import { compact, dec, esc, fixed, money } from "../format.js";
+import { compact, dec, esc, fixed, int, money } from "../format.js";
 import { lensScale } from "../world.js";
 import { rampColor, parseHex } from "../color.js";
 import { icon, glyph } from "./icon.js";
@@ -31,19 +31,25 @@ export function formatLensValue(lens, v) {
 
 // A legend tick: the number alone (a long unit such as "adherents per 100 residents" is printed once on the legend's
 // unit line instead, so five ticks never overprint), "0" rather than "≤ 0.0" when the scale starts at zero, and
-// ≤ / ≥ on the ends because the ramp clamps values beyond its domain.
+// ≤ / ≥ on the ends because the ramp clamps values beyond its domain, except where the end is the value's natural
+// bound (a share's 0% or 100%: nothing lies beyond it). With the unit on its own line, a count under 100,000 prints
+// in full ("1.300", not "1,3K": no unit after it to carry the abbreviation).
 export function formatLensTick(lens, pos, k = -1) {
   const raw = lensValueAt(lens, pos);
   const v = lens.format === "int" && Number.isFinite(raw) ? Math.round(raw) : raw; // a count never reads "4.5"
   // (density's "/km²" too: five "1,8K /km²" ticks overprint; the unit line under the scale names it)
   const short = (lens.format === "int" || lens.format === "float") && lens.unit && lens.unit.length > 4 ? { ...lens, unit: null } : lens;
-  let s = formatLensValue(short, v);
+  let s = short !== lens && lens.format === "int" && Math.abs(v) >= 10 && Math.abs(v) < 1e5 ? int(v) : formatLensValue(short, v);
   const zero = Number.isFinite(v) && Math.abs(v) < 1e-9;
   if (zero) s = s.replace(/^(\$?)0[.,]0+(?!\d)/, (_, d) => d + "0");
-  if (k === 0 && !zero) s = "≤ " + s;
-  else if (k === 4) s = "≥ " + s;
+  if (k === 0 && !zero && !naturalEnd(lens, 0)) s = "≤ " + s;
+  else if (k === 4 && !naturalEnd(lens, 1)) s = "≥ " + s;
   return s;
 }
+
+/** True when the ramp's end (0 = low, 1 = high) is the value's own bound, a share's 0% or 100%: no ≤ / ≥ there. */
+export const naturalEnd = (lens, end) =>
+  lens.format === "pct" && lens.domain[0] >= 0 && lens.domain[1] <= 1 && lens.domain[end] === end;
 
 // Value at position t (0..1) along the lens ramp: the inverse of world.js lensScale().
 export function lensValueAt(lens, pos) {
@@ -211,8 +217,9 @@ export function initLensDock(opts) {
   function sourceLine(lens) {
     const src = sources.find((s) => s.id === lens.source);
     const name = src ? src.publisher && src.title.length > 44 ? src.publisher : src.title : lens.source;
-    const vintage = src?.vintage || "";
-    return [name && t(name), vintage && t(vintage)].filter(Boolean).map(esc).join(" · ");
+    const vintage = src?.vintage ? t(src.vintage) : "";
+    const label = name ? t(name) : "";
+    return [label, !label.includes(vintage) && vintage].filter(Boolean).map(esc).join(" · "); // "ETOPO1 …" names its vintage
   }
 
   // Categorical lenses (format "category"): values are indices into lens.categories, whose colours are the ramp

@@ -59,6 +59,10 @@ export const GLYPHS_MIN_RPX = 7;
 /** Sprite cache counters, for profiling ({count, pixels, hits, misses, painted ms}). */
 export const terrainArtStats = spriteStats;
 
+/** Sprite canvas → stamp name ("tree", "clump", "barn", ...): ext/living finds the trees it sways and the houses it
+ *  lights among the stamps a render draws. */
+export const STAMP_KIND = new WeakMap();
+
 const TAU = Math.PI * 2;
 const FOREIGN_ALPHA = 0.4;
 const C = parseHex;
@@ -1033,6 +1037,7 @@ function sprite(env, name, arg, v) {
   if (!spr) {
     const def = SPRITES[name];
     spr = getSprite(key, env.upx, def.box, (g, upx) => def.paint(g, upx, v, arg));
+    STAMP_KIND.set(spr.canvas, name);
     env.memo.set(key, spr);
   }
   return spr;

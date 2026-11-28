@@ -108,7 +108,10 @@ LENS_IDS = ("density urban growth income gdp_pc poverty gini fdi trained literac
             "disasters forest farmland developed wetland internet clean_water housing it_skills enterprises growth_2026 "
             "industry_jobs_2026 doctors road_deaths pupils_per_teacher forest_cover osm_schools ethnic_largest "
             "ethnic_minority crop_rice crop_maize crop_cassava crop_sugarcane crop_tea crop_orange rainfall temperature "
-            "hot_month cold_month forest_loss low_lying").split()
+            "hot_month cold_month forest_loss low_lying "
+            # themes stream (ext_themes.py)
+            "life_expectancy ageing_index crude_birth_rate total_fertility_rate net_migration_rate fishery_production "
+            "tourism_travel_turnover disaster_deaths elevation slope pm25").split()
 GROUPS = "people economy living education hazards land environment agriculture".split()
 
 

@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="Việt Nam thật, vẽ như bản đồ game chiến thuật 4X, từ dữ liệu công khai.">
   <meta name="twitter:image" content="https://atlasvn.online/og-image.png">
   <meta name="twitter:image:alt" content="Bản đồ ô lục giác của Việt Nam với biểu ngữ thành phố, theo phong cách game chiến thuật">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://api.open-meteo.com; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/donate.css">
 </head>
@@ -40,7 +40,6 @@
         role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search places, communes and provinces (/ or Ctrl K)">
       <kbd class="search-kbd" aria-hidden="true">/</kbd>
     </div>
-    <div id="turn" class="turn"></div>
     <!-- Extension buttons, Coffee and Share scroll with the bar on phones; .tb-buttons stays pinned. -->
     <div class="tb-more">
       <button id="btn-share" class="btn" aria-haspopup="dialog" aria-expanded="false" aria-label="Share this view" title="Share: copy a link or download an image"></button>
@@ -58,8 +57,11 @@
   <aside id="city-panel" class="panel" hidden role="region" aria-label="Details"></aside>
 
   <div id="lens-area">
-    <div id="lens-picker" class="panel lens-picker" hidden role="dialog" aria-label="Choose a lens"></div>
+    <div id="lens-picker" class="panel lens-picker" hidden role="dialog" aria-label="Map"></div>
     <div id="legend" class="panel legend" hidden role="group" aria-label="Lens legend"></div>
+    <!-- The bottom row: the "Map" button on the right, the year bar (ext/timeline fills #turn) centred in the rest;
+         when the row is too narrow (phones, open panels) the year bar wraps above the dock. -->
+    <div id="dock-row">
     <div id="lens-dock" class="panel lens-dock" role="toolbar" aria-label="Map lenses">
       <button id="btn-res" class="lens-btn res-toggle" aria-pressed="true" aria-label="Resources on tiles (R)" title="Show or hide resources on tiles (R)" hidden></button>
       <div id="lens-quick" class="lens-quick"></div>
@@ -67,9 +69,11 @@
       <!-- phones only (CSS): in the dock, so a legend, sea-level panel or replay bar never covers it -->
       <button id="btn-minimap" class="panel minimap-toggle" aria-pressed="false" aria-controls="minimap-wrap" aria-label="Show the minimap"></button>
     </div>
+    <div id="turn" class="turn panel" role="group" aria-label="Timeline"></div>
+    </div>
   </div>
 
-  <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · OCHA COD-AB</div></div>
+  <div id="minimap-wrap" class="panel"><canvas id="minimap" aria-label="Minimap: click to jump" role="img"></canvas><div id="map-attrib" class="map-attrib">© OpenStreetMap contributors · Natural Earth · OCHA COD-AB · <a href="https://cyberskill.world/?utm_source=atlasvn&amp;utm_medium=referral&amp;utm_campaign=attribution" target="_blank" rel="noopener">Made by CyberSkill</a> · <a href="https://github.com/zintaen/vnciv" target="_blank" rel="noopener">Open source · GitHub</a></div></div>
   <a id="attrib-mini" class="attrib-mini" href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" hidden>© OpenStreetMap</a>
 
   <div id="search-results" class="panel search-results" role="listbox" aria-label="Search results" hidden></div>

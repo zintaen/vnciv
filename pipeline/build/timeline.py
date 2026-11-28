@@ -45,7 +45,7 @@ def fx_by_year():
     return {int(r["date"]): r["value"] for r in d[1] if r["value"]}
 
 
-MONEY = {"income_per_capita_monthly", "grdp_per_capita", "labour_productivity"}   # VND: need that year's rate
+MONEY = {"income_per_capita_monthly", "grdp_per_capita", "labour_productivity", "tourism_travel_turnover"}   # VND: need that year's rate
 
 
 # series file → (lens id, converter(value, year) → lens units); converters use fx(year) for VND money.
@@ -63,6 +63,13 @@ def _lens_map(fx):
         "trained_labour_share": ("trained", lambda v, y: v / 100),
         "it_skills_share": ("it_skills", lambda v, y: v / 100),
         "hdi": ("hdi", lambda v, y: v),
+        # phase D themes (ext_themes.py): same units as the lens
+        "life_expectancy": ("life_expectancy", lambda v, y: v),
+        "crude_birth_rate": ("crude_birth_rate", lambda v, y: v),
+        "total_fertility_rate": ("total_fertility_rate", lambda v, y: v),
+        "net_migration_rate": ("net_migration_rate", lambda v, y: v),
+        "fishery_production": ("fishery_production", lambda v, y: v),
+        "tourism_travel_turnover": ("tourism_travel_turnover", lambda v, y: usd(v * 1e9, y)),
     }
 
 

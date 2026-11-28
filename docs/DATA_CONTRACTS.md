@@ -27,7 +27,8 @@
 >   pupils_per_teacher, forest_cover (34 provinces: every hex of a province has its value). Province lenses carry
 >   `year` and `level` ("63" | "34"). Stream lenses: osm_schools, ethnic_largest, ethnic_minority, crop_rice,
 >   crop_maize, crop_cassava, crop_sugarcane, crop_tea, crop_orange, rainfall, temperature, hot_month, cold_month,
->   forest_loss, low_lying. Groups (in this order): people, economy, living, education, hazards, land, environment, agriculture.
+>   forest_loss, low_lying, life_expectancy, ageing_index, crude_birth_rate, total_fertility_rate,
+>   net_migration_rate, fishery_production, tourism_travel_turnover, disaster_deaths, elevation, slope, pm25. Groups (in this order): people, economy, living, education, hazards, land, environment, agriculture.
 > * **districts.json v2**: `catalog`, `rule`, `national`, `cities{id: {districts: [{id, lq|null, via, strength,
 >   value?, text}], badge}}` (location quotients of per-resident figures, plus mapped sites).
 >   **citizens.json v2**: rows residence / work / skills / households, plus `life_expectancy` and `migration`.
@@ -902,13 +903,31 @@ city banners: the first non-null `hit()` wins and its `tooltip(item)` is shown (
 first (true consumes it), then the `"mapclick"` handlers, then the default (select city/state). While a mode is active
 (City View, advisors) the `"mapclick"` handlers go first and the layer's `click` only after them.
 
-**Map toggles.** `app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?}) → remove()`: a switch
-in the "Map" menu next to the Resources toggle in the lens dock (one button + a small menu, so it fits phones). `set` is
-yours (flip the state your layer's `visible()` reads); main redraws. The hash key `layers` lists the switches that are on
-(`#layers=roads,rail,military`, `layers=none`) and is written only while some switch differs from its default; switches
-added after load are set from it, and ids whose extension has not loaded yet stay in the URL. `app.ui.mapToggles()` →
-`[{id, label, on}]`. `hash: false` keeps a toggle (a preference such as Effects) out of `layers=` and out of the menu button's count. `app.ui.setMapToggle(id, on) → bool` switches one from code exactly as the menu would (redraw,
-hash), e.g. an advisor's "show roads, rail and forts" button; false if no toggle has that id (yet).
+**Map toggles.** `app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?, group?, groupLabel?,
+hash?}) → remove()`: a switch under "Hiện trên bản đồ / Show on map" in the **Bản đồ / Map panel** (ui/lenses.js), the
+one dock button "🗺 Bản đồ: <current theme> ▾" that also holds the theme picker ("Tô màu theo / Colour by"). `group`
+puts it under a section: the known ids, in this order, are `display`, `transport`, `energy`, `geography`, `nature`,
+`culture`, `history`, `living`, `economy`, `weather`, `places`, `military` (app/api.js `GROUPS`); any other id gets its own
+section after them, headed by `groupLabel` (pass it already translated) or `t(group)`; no group = last. The panel has
+a filter box that matches labels, titles and section names. `set` is yours (flip the state your layer's `visible()`
+reads); main redraws. The hash key `layers` lists the switches that are on (`#layers=roads,rail,military`,
+`layers=none`) and is written only while some switch differs from its default; switches added after load are set from
+it, and ids whose extension has not loaded yet stay in the URL. `app.ui.mapToggles()` → `[{id, label, on}]`.
+`hash: false` keeps a toggle (a preference such as Effects) out of `layers=` and out of the button's count.
+`app.ui.setMapToggle(id, on) → bool` switches one from code exactly as the panel would (redraw, hash), e.g. an
+advisor's "show roads, rail and forts" button; false if no toggle has that id (yet).
+
+**Search.** `app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick(), at?, line?, box?}]) →
+remove()`. After `pick()` runs, main marks the place on the map (pin, pulsing ring, floating `label`) until the next
+pick, Esc or a click on the map. Give the geometry so the mark lands exactly: `at: {x, y}` (or `[x, y]`, map km) for a
+point, `line: [[x, y], …]` for a river or road (the course glows, the name sits on its middle vertex), `box: [x0, y0,
+x1, y1]` for an area (its middle). Without any of them the mark goes where `pick()` flies the camera (the middle of the
+visible area at the flight's end), and nowhere when `pick()` does not move the camera. A `pick()` that calls
+`app.highlight` itself is left alone.
+`app.highlight(spec | null)`: show the same mark from code. `spec` = `{x, y}` | `{line: [[x, y], …]}` | `{state:
+index | abbr}` (the province outline glows) | `{city: city | id}`, plus `label`. `null` clears it. It is an
+`app.motion` item (z 150, above banners): the ring pulses at 30 fps (20 on phones) and holds a still ring after a
+minute without input, with Effects off or with reduced motion.
 
 **URL.** Core keys: `lens`, `city` (CBSA id), `state`, `at`, plus extension keys (`advisor`, `layers`, ...).
 * `#state=` accepts a FIPS code (`48`, `6`), a postal code (`TX`, `tx`) or a state name; a link keeps the form it
@@ -965,7 +984,7 @@ registered item's `active()` is true, and only while motion is enabled.
 * `app.motion.enabled` (getter): the user's Effects switch is on AND not `prefers-reduced-motion: reduce` AND the
   tab is visible. `app.motion.userEnabled`: the switch alone.
 * `app.motion.setEnabled(bool)`: the user switch, persisted in localStorage `vnciv-motion` ("0" / "1"; default on;
-  storage errors ignored). The switch is "Hiệu ứng / Effects" (✨) at the top of the Layers menu (group `display`); it is a preference, not a map
+  storage errors ignored). The switch is "Hiệu ứng / Effects" (✨) at the top of "Show on map" in the Map panel (group `display`); it is a preference, not a map
   layer, so it is not written to the `layers=` hash (`app.ui.addMapToggle({..., hash: false})`). While the switch is
   off, `<html>` has the class `no-motion` (CSS animations and transitions of the motion work are off).
 * `app.motion.on("change", fn(enabled))` → off(): `enabled` flipped (switch, reduced-motion setting, tab hidden /
@@ -1003,3 +1022,24 @@ instantly under reduced motion.
 - `app.motion.pause(bool)`: stop the loop's frame requests while another view covers the 2D map (the 3D view uses it); `pause(false)` resumes.
 - `app.motion.idle`: one shared no-input clock (pointer, key, wheel, touch); ambient items stop after 60 s without input and the first input asks for a frame.
 - `app.motion.frameCap(gapMs)` → `{due(), drew()}`: the shared frame cap (30 fps desktop, 20 phone) the ambient items use; `due()` is true when a frame may be drawn, else it arms a timer that re-checks when it fires.
+
+## Phase D extensions (geo, living, story, atmos)
+
+Each lives in `web/js/ext/<name>/`, adds its toggles with `app.ui.addMapToggle` and keeps its strings in
+`web/js/i18n/vi-<name>.js`. Data files are lazy unless noted; every source is in `sources.json`.
+
+- **geo** (`pipeline/build/ext_geo.py`): `geo_rivers.json` (eager, small: river names, Wikidata length/basin, the
+  rule text) and `geo.json` (lazy: peaks, passes, lakes, dams, border gates, industrial parks, craft villages, battles,
+  festivals, each list with its selection rule in `rules`). Search entries carry `at` or, for rivers, `line`.
+  Debug handle `app.geo`.
+- **living** (`pipeline/build/ext_living*.py`): `living.json` (crop calendar by region, flood-season provinces and
+  months, Tết dates 1990–2040), `living_built.json` (first GHSL built-up epoch per hex, observed epochs 1975–2020
+  only), `living_roads.json` (expressway links with their opening year and its source). `app.living` exposes the
+  growth model; `render/art/terrain.js` exports `STAMP_KIND` (sprite canvas → stamp name) so the sway overlay can
+  find trees and houses. Hidden preview: `?living=tet`, `?living=m8`, `?living=t2027-02-05T22:00`.
+  `app.daynight.now()` gives the simulated time while the 24 h play runs.
+- **story**: hash keys `story=<doimoi|mekong|yagi|p34>&step=n`, `story=split&cmp=<lens|terrain>~<year|now>`,
+  `story=pair&pp=A,B`. Uses `app.timeline.replay` (`storms`, `merger`, `forest`, `close`, `kind`).
+- **atmos**: live weather from Open-Meteo (CC BY 4.0), fetched by the browser only when the layer is switched on
+  (CSP `connect-src` allows `https://api.open-meteo.com`), cached 30 min in sessionStorage; synthesized ambient sound
+  (WebAudio, off by default, never in the hash).

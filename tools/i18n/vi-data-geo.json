@@ -1,0 +1,18 @@
+{
+ "OpenStreetMap physical and economic geography of Vietnam": "Địa lý tự nhiên và kinh tế Việt Nam trên OpenStreetMap",
+ "Named peaks and volcanoes (natural=peak/volcano, with ele), mountain passes (mountain_pass=yes nodes and the roads they lie on; named natural=saddle; roads named Đèo …), named lakes and reservoirs (natural=water with water=lake/reservoir/lagoon, landuse=reservoir) with their outlines, named dams (waterway=dam), border crossings (barrier=border_control), industrial parks (landuse=industrial named Khu công nghiệp / KCN / Industrial Park) with their outlines, and features named as craft villages (Làng nghề, Làng gốm, Làng lụa …). Coverage depends on volunteer mappers.": "Các đỉnh núi và núi lửa có tên (natural=peak/volcano, kèm độ cao ele), đèo (điểm mountain_pass=yes và con đường đi qua; natural=saddle có tên; đường tên Đèo …), hồ tự nhiên và hồ chứa có tên (natural=water với water=lake/reservoir/lagoon, landuse=reservoir) kèm đường bao, đập có tên (waterway=dam), cửa khẩu biên giới (barrier=border_control), khu công nghiệp (landuse=industrial tên Khu công nghiệp / KCN / Industrial Park) kèm đường bao, và các địa điểm được đặt tên là làng nghề (Làng nghề, Làng gốm, Làng lụa …). Mức độ đầy đủ tùy vào người vẽ bản đồ tình nguyện.",
+ "Mountain peaks": "Đỉnh núi",
+ "Mountain passes": "Đèo",
+ "Lakes & reservoirs": "Hồ & hồ chứa",
+ "Dams": "Đập",
+ "Border gates": "Cửa khẩu",
+ "Industrial parks": "Khu công nghiệp",
+ "Craft villages": "Làng nghề",
+ "Wikidata battles fought in Vietnam, and river lengths": "Các trận đánh trên đất Việt Nam và chiều dài sông theo Wikidata",
+ "Items that are battles (instance of a subclass of battle, Q178561) with a coordinate in the box around mainland Vietnam, with their date, Vietnamese and English labels, Vietnamese Wikipedia title and number of Wikipedia sitelinks (used as the notability threshold); and the length (P2043) and basin area (P2053) of the rivers' Wikidata items, normalised to metres and square metres.": "Các mục là trận đánh (thuộc một lớp con của trận đánh, Q178561) có tọa độ trong khung bao quanh Việt Nam đất liền, kèm thời gian, nhãn tiếng Việt và tiếng Anh, tên bài Wikipedia tiếng Việt và số liên kết Wikipedia (dùng làm ngưỡng nổi bật); cùng chiều dài (P2043) và diện tích lưu vực (P2053) của các mục Wikidata về sông, quy về mét và mét vuông.",
+ "Historic battle sites": "Chiến trường xưa",
+ "River names": "Tên sông",
+ "Lễ hội Việt Nam (danh sách một số lễ hội)": "Lễ hội Việt Nam (danh sách một số lễ hội)",
+ "Festivals": "Lễ hội",
+ "The table \"Danh sách một số lễ hội\" of the Vietnamese Wikipedia article on Vietnamese festivals: start day in the lunar calendar, place and festival. Positions come from the article linked in the festival cell (its GeoData coordinates, or its Wikidata item's P625), else from the most specific place linked in the place cell. Wikipedia compiles the table; it is not an official register and lists only some festivals.": "Bảng \"Danh sách một số lễ hội\" trong bài Lễ hội Việt Nam trên Wikipedia tiếng Việt: ngày bắt đầu theo âm lịch, địa điểm và tên lễ hội. Vị trí lấy từ bài viết được liên kết trong ô tên lễ hội (tọa độ GeoData, hoặc P625 của mục Wikidata), nếu không có thì từ địa danh cụ thể nhất được liên kết trong ô địa điểm. Bảng do Wikipedia tổng hợp, không phải danh mục chính thức và chỉ liệt kê một số lễ hội."
+}

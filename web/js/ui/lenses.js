@@ -4,6 +4,8 @@ import { compact, dec, esc, fixed, int, money } from "../format.js";
 import { lensScale } from "../world.js";
 import { rampColor, parseHex } from "../color.js";
 import { icon, glyph } from "./icon.js";
+import { hasIcon } from "../icons.js";
+import { norm } from "../app/search.js";
 import { t } from "../i18n.js";
 
 export { glyph };
@@ -98,49 +100,85 @@ export function initLensDock(opts) {
   let restoreFocus = null;
   const histCache = new Map();
 
-  // ---- quick row + picker -------------------------------------------------------------------------------------
+  // ---- the "Map" panel: one dock button, one dialog with two sections ---------------------------------------------
+  // "Colour by" picks one lens (a theme colouring every hex); "Show on the map" switches any number of layers
+  // (app.ui.addMapToggle, app/api.js createMapToggles). A filter box narrows both. Esc / ✕ / a click outside close it
+  // and give focus back to the button; Tab stays inside while it is open.
+  let layers = null; // createMapToggles(): sections(), flip(id), count(), onList(fn)
+  let tour = null; // () => start the camera tour, once ext/tour has installed
+  let filter = "", filterRaw = "";
   // CSS gradient stops: a smooth ramp, or hard-edged blocks for a categorical lens.
   const rampStops = (l) => (l.format === "category"
     ? l.ramp.map((c, k, a) => `${esc(c)} ${(k / a.length) * 100}% ${((k + 1) / a.length) * 100}%`).join(",")
     : l.ramp.map(esc).join(","));
   const isActive = (l) => (l.id ?? null) === (active?.id ?? null);
-  const quickBtn = (l) =>
-    `<button class="lens-btn ${isActive(l) ? "active" : ""}" data-id="${esc(l.id ?? "")}" aria-pressed="${isActive(l)}"
-      title="${esc(l.id ? t("{name} lens", { name: t(l.name) }) : t("{name} (no lens)", { name: t(l.name) }))}">${glyph(l, 15)}<span>${esc(t(l.name))}</span></button>`;
+  const tglyph = (ic, size) => (ic ? (hasIcon(ic) ? icon(ic, "•", { size }) : `<span class="emoji" aria-hidden="true">${esc(ic)}</span>`) : "");
 
-  // The dock shows one button naming the current lens (Terrain by default); every lens is in its picker, so the
-  // old quick row of recent lenses is not shown (it duplicated the picker).
+  // The dock shows one button naming the current lens: "🗺 Map: Terrain ▾" (and how many layers are on).
   function renderQuick() {
     quick.innerHTML = "";
     quick.hidden = true;
     const cur = active || TERRAIN;
+    const n = layers?.count().on || 0;
     moreBtn.classList.toggle("active", !!active);
-    moreBtn.innerHTML = `${icon("map", "▤", { size: 15 })}<span>${esc(t(cur.name))}</span><span class="caret" aria-hidden="true">▾</span>`;
-    moreBtn.title = t("All lenses (L cycles)");
-    moreBtn.setAttribute("aria-label", `${t(cur.name)} · ${t("Choose a lens")}`); // the bare lens name alone doesn't say what the button does
-    moreBtn.hidden = !lenses.length;
-    clipCheck();
+    moreBtn.innerHTML = `${icon("map", "🗺", { size: 15 })}<span class="bp-k">${esc(t("Map"))}:</span> <span class="bp-v">${esc(t(cur.name))}</span>`
+      + (n ? `<b class="ml-count">${n}</b><span class="sr-only"> ${esc(t("layers on."))}</span>` : "")
+      + `<span class="sr-only"> ${esc(t("Choose a theme and layers"))}</span><span class="caret" aria-hidden="true">▾</span>`;
+    moreBtn.title = t("Choose what colours the map and which layers show (L cycles themes)");
+    moreBtn.removeAttribute("aria-label"); // the name is the visible text (plus the hidden hints): WCAG label in name
+    moreBtn.hidden = false;
   }
-  // A quick row too long for the dock scrolls; a fade on its right edge says there is more (css .lens-quick.clipped).
-  const clipCheck = () => quick.classList.toggle("clipped", quick.scrollWidth > quick.clientWidth + 1);
-  if (typeof ResizeObserver === "function") new ResizeObserver(clipCheck).observe(quick);
+
+  const fold = (s) => norm(s);
+  const matches = (...texts) => !filter || texts.some((x) => x && fold(x).includes(filter));
 
   function renderPicker() {
+    picker.setAttribute("aria-labelledby", "bp-title");
+    picker.removeAttribute("aria-label");
+    picker.innerHTML = `<div class="lp-head"><h2 id="bp-title">${icon("map", "🗺", { size: 16 })}<span>${esc(t("Map"))}</span></h2>
+        <input type="search" class="bp-filter" placeholder="${esc(t("Filter themes and layers"))}" aria-label="${esc(t("Filter themes and layers"))}"
+          autocomplete="off" spellcheck="false" value="${esc(filterRaw)}">
+        <button type="button" class="icon-btn lp-close" aria-label="${esc(t("Close the Map panel"))}">${icon("close", "✕", { size: 12 })}</button></div>
+      ${tour ? `<button type="button" class="bp-tour"><span aria-hidden="true">▶</span> ${esc(t("Watch the journey (2 min)"))}<span class="bp-tour-sub">${esc(t("a camera tour, Lũng Cú to Cà Mau"))}</span></button>` : ""}
+      <div class="bp-jump"><button type="button" data-jump="bp-h-lens">${esc(t("Colour by"))}</button><button type="button" data-jump="bp-h-layers">${esc(t("Show on map"))} ↓</button></div>
+      <div class="bp-body"></div>`;
+    renderBody();
+  }
+
+  function renderBody() {
+    const body = picker.querySelector(".bp-body");
+    if (!body) return;
+    const focusKey = picker.contains(document.activeElement) && !document.activeElement.classList.contains("bp-filter")
+      ? (document.activeElement.dataset.id != null ? `[data-id="${CSS.escape(document.activeElement.dataset.id)}"]`
+        : document.activeElement.dataset.toggle ? `[data-toggle="${CSS.escape(document.activeElement.dataset.toggle)}"]` : null) : null;
     const groups = [...(lensFile?.groups || [])];
     const known = new Set(groups.map((g) => g.id));
     if (lenses.some((l) => !known.has(l.group))) groups.push({ id: "__other", name: "Other" });
-    const tile = (l) => `<button class="lp-tile ${isActive(l) ? "active" : ""}" data-id="${esc(l.id ?? "")}" aria-pressed="${isActive(l)}"
+    const tile = (l) => `<button type="button" class="lp-tile ${isActive(l) ? "active" : ""}" data-id="${esc(l.id ?? "")}" aria-pressed="${isActive(l)}"
         title="${esc(l.description ? `${t(l.name)}: ${t(l.description)}` : t(l.name))}">
         <span class="lp-ic">${glyph(l, 20)}</span><span class="lp-nm">${esc(t(l.name))}</span>
         ${l.ramp ? `<i class="lp-ramp" style="background:linear-gradient(90deg, ${rampStops(l)})"></i>` : `<i class="lp-ramp terrain"></i>`}
       </button>`;
-    const sec = (g, items) => !items.length ? "" : `<section class="lp-group"><h4>${icon(g.icon || `g-${g.id}`, "", { size: 14 })}${esc(t(g.name))}</h4>
-        <div class="lp-tiles">${items.map(tile).join("")}</div></section>`;
-    picker.innerHTML = `<div class="lp-head"><span>${t("Choose a lens")}</span><button class="icon-btn lp-close" aria-label="${t("Close lens picker")}">${icon("close", "✕", { size: 12 })}</button></div>
-      <div class="lp-body">
-      ${sec({ id: "base", name: "Base map", icon: "terrain" }, [TERRAIN])}
-      ${groups.map((g) => sec(g, lenses.filter((l) => (g.id === "__other" ? !known.has(l.group) : l.group === g.id)))).join("")}
-      </div>`;
+    const sec = (g, items) => {
+      const shown = items.filter((l) => matches(t(l.name), l.name, l.description && t(l.description), t(g.name)));
+      return !shown.length ? "" : `<section class="lp-group"><h4>${icon(g.icon || `g-${g.id}`, "", { size: 14 })}${esc(t(g.name))}</h4>
+        <div class="lp-tiles">${shown.map(tile).join("")}</div></section>`;
+    };
+    const lensHtml = sec({ id: "base", name: "Base map", icon: "terrain" }, [TERRAIN])
+      + groups.map((g) => sec(g, lenses.filter((l) => (g.id === "__other" ? !known.has(l.group) : l.group === g.id)))).join("");
+    const row = (x) => `<button type="button" class="ml-row${x.on ? " on" : ""}" role="switch" aria-checked="${x.on}" data-toggle="${esc(x.id)}"
+        ${x.title ? `title="${esc(x.title)}"` : ""}><span class="ml-ic">${tglyph(x.icon, 16)}</span><span class="ml-lbl">${esc(x.label)}</span>
+        <span class="ml-switch" aria-hidden="true"></span></button>`;
+    const layerHtml = (layers?.sections() || []).map((g) => {
+      const items = g.items.filter((x) => matches(x.label, x.title, g.label));
+      return items.length ? `<div class="ml-group" role="group"${g.label ? ` aria-label="${esc(g.label)}"` : ""}>${g.label ? `<div class="ml-sec" aria-hidden="true">${esc(g.label)}</div>` : ""}${items.map(row).join("")}</div>` : "";
+    }).join("");
+    const head = (id, title, hint) => `<h3 class="bp-h" id="${id}">${esc(title)} <span class="bp-hint">${esc(hint)}</span></h3>`;
+    body.innerHTML = `<section class="bp-col bp-lenses" aria-labelledby="bp-h-lens">${head("bp-h-lens", t("Colour by"), t("one theme at a time"))}
+        ${lensHtml || `<p class="bp-none">${esc(t("No theme matches"))}</p>`}</section>
+      <section class="bp-col bp-layers" aria-labelledby="bp-h-layers">${head("bp-h-layers", t("Show on map"), t("as many as you like"))}
+        ${layerHtml || `<p class="bp-none">${esc(layers ? t("No layer matches") : t("Loading…"))}</p>`}</section>`;
+    if (focusKey) (body.querySelector(focusKey) || body.querySelector(".lp-tile, .ml-row"))?.focus();
   }
 
   function pick(id, fromPicker) {
@@ -158,40 +196,76 @@ export function initLensDock(opts) {
   };
   picker.onclick = (e) => {
     if (e.target.closest(".lp-close")) return closePicker();
+    if (e.target.closest(".bp-tour")) { closePicker(false); return tour?.(); }
+    const j = e.target.closest("[data-jump]"); // one-column panel: jump between the two sections
+    if (j) return void picker.querySelector(`#${j.dataset.jump}`)?.scrollIntoView({ block: "start" });
+    const r = e.target.closest("[data-toggle]");
+    if (r) return void layers?.flip(r.dataset.toggle); // (onList re-renders the rows and keeps focus on this one)
     const b = e.target.closest("button[data-id]");
     if (!b) return;
     pick(b.dataset.id, true);
     closePicker();
   };
+  picker.addEventListener("input", (e) => {
+    if (!e.target.classList.contains("bp-filter")) return;
+    filterRaw = e.target.value;
+    filter = fold(filterRaw);
+    renderBody();
+  });
   moreBtn.onclick = () => (picker.hidden ? openPicker() : closePicker());
   document.addEventListener("pointerdown", (e) => {
     if (!picker.hidden && !picker.contains(e.target) && !moreBtn.contains(e.target)) closePicker(false);
   });
+  const focusables = () => [...picker.querySelectorAll("button, input")].filter((x) => !x.disabled && x.getClientRects().length);
   picker.addEventListener("keydown", (e) => {
-    const tiles = [...picker.querySelectorAll(".lp-tile")];
-    const i = tiles.indexOf(document.activeElement);
+    const inFilter = e.target.classList?.contains("bp-filter");
+    if (e.key === "Escape" && inFilter && e.target.value) { // the first Esc clears the filter
+      e.preventDefault();
+      e.target.value = filterRaw = filter = "";
+      return renderBody();
+    }
+    if (e.key === "Tab") { // keep focus inside the open panel
+      const f = focusables();
+      if (!f.length) return;
+      const first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+      return;
+    }
+    const items = [...picker.querySelectorAll(".lp-tile, .ml-row")];
+    if (inFilter) {
+      if (e.key === "ArrowDown" && items.length) { e.preventDefault(); items[0].focus(); }
+      else if (e.key === "Enter" && items.length && filter) { e.preventDefault(); items[0].click(); }
+      return;
+    }
+    const i = items.indexOf(document.activeElement);
     if (i < 0) return;
     const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[e.key];
     if (step) {
       e.preventDefault();
-      tiles[(i + step + tiles.length) % tiles.length].focus();
+      items[(i + step + items.length) % items.length].focus();
+    } else if (e.key === "Home" || e.key === "End") {
+      e.preventDefault();
+      items[e.key === "Home" ? 0 : items.length - 1].focus();
     }
   });
 
   function openPicker() {
+    filter = filterRaw = "";
     renderPicker();
     restoreFocus = document.activeElement;
     picker.hidden = false;
     legend.classList.add("behind");
     moreBtn.setAttribute("aria-expanded", "true");
-    (picker.querySelector(".lp-tile.active") || picker.querySelector(".lp-tile"))?.focus();
+    (picker.querySelector(".lp-tile.active") || picker.querySelector(".lp-tile"))?.focus({ preventScroll: true });
+    picker.querySelector(".lp-tile.active")?.scrollIntoView({ block: "nearest" });
   }
   function closePicker(restore = true) {
     if (picker.hidden) return;
     picker.hidden = true;
     legend.classList.remove("behind");
     moreBtn.setAttribute("aria-expanded", "false");
-    if (restore && restoreFocus && document.contains(restoreFocus)) restoreFocus.focus();
+    if (restore && restoreFocus && document.contains(restoreFocus) && restoreFocus !== document.body) restoreFocus.focus();
     else if (restore) moreBtn.focus();
   }
 
@@ -466,7 +540,7 @@ export function initLensDock(opts) {
       active = lens;
       band = b;
       renderQuick();
-      if (!picker.hidden) renderPicker();
+      if (!picker.hidden) renderBody();
       renderLegend();
       showBand();
     },
@@ -478,6 +552,14 @@ export function initLensDock(opts) {
     },
     openPicker,
     closePicker,
+    /** The layer switches (app/api.js createMapToggles) shown under "Show on the map". */
+    setLayers(l) {
+      layers = l;
+      l.onList(() => { renderQuick(); if (!picker.hidden) renderBody(); });
+      renderQuick();
+    },
+    /** Show "▶ Watch the journey" at the top of the panel; fn starts the tour. */
+    setTour(fn) { tour = typeof fn === "function" ? fn : null; },
     clearBand() { setBand(null); },
     get pickerOpen() { return !picker.hidden; },
     get band() { return band; },

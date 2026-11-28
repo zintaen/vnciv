@@ -7,6 +7,7 @@ import { t } from "../../i18n.js";
 import { esc } from "../../format.js";
 import { zoomPath } from "../../camera.js";
 import { buildStops } from "./stops.js";
+import { cyberskillUrl } from "../../app/brand.js";
 
 const DWELL_MS = 5200, SLOGAN_MS = 1500;
 const easeInOut = (k) => (k < 0.5 ? 4 * k * k * k : 1 - (-2 * k + 2) ** 3 / 2);
@@ -55,7 +56,9 @@ export function install(app) {
     nEl.textContent = t("{n} of {m}", { n: stops.length, m: stops.length });
     titleEl.textContent = t("End of the journey");
     sloganEl.hidden = true;
-    factsEl.innerHTML = `<li style="list-style:none"><button type="button" class="tl-btn tour-again">${esc(t("↺ Start again"))}</button></li>`;
+    factsEl.innerHTML = `<li style="list-style:none"><button type="button" class="tl-btn tour-again">${esc(t("↺ Start again"))}</button></li>
+      <li class="tour-maker"><img src="img/brand/cyberskill-logo-mark-gold.svg" width="14" height="14" alt="">${esc(t("Want something like this built?"))}
+        <a href="${esc(cyberskillUrl("tour"))}" target="_blank" rel="noopener">cyberskill.world</a></li>`;
     bodyEl.classList.remove("dim");
   }
   function renderCtl() {
@@ -253,6 +256,8 @@ function injectStyle() {
 .tour-src { margin-left: auto; color: var(--ink-dim); font-size: 10.5px; text-align: right; }
 .tour-start { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; width: 100%; margin: 4px 0 12px; padding: 8px 12px; font-size: 14px; text-align: left; }
 .tour-len { color: var(--ink-dim); font-size: 12px; }
+.tour-maker { list-style: none; margin: 10px 0 0 -18px; display: flex; align-items: center; flex-wrap: wrap; gap: 4px 6px; font-size: 12px; color: var(--ink-dim); }
+.tour-maker a { color: var(--gold-bright); }
 body.tour-on #lens-area, body.tour-on #minimap-wrap, body.tour-on #btn-minimap, body.tour-on .rp-bar { display: none !important; }
 .no-motion .tour-body { transition: none; }
 @media (prefers-reduced-motion: reduce) { .tour-body { transition: none; } }

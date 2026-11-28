@@ -163,8 +163,8 @@ export default {
   "Close help, search, Almanac, then the panel": "Đóng trợ giúp, tìm kiếm, Niên giám, rồi đến bảng thông tin",
   "Every number traces back to public data: open the <b>Almanac</b> for sources. The link in the address bar always reopens this exact view.":
     "Mọi con số đều truy được về dữ liệu công khai: mở <b>Niên giám</b> để xem nguồn. Liên kết trên thanh địa chỉ luôn mở lại đúng góc nhìn này.",
-  "Source code: {zip} (MIT; run it with uv, see its README). The map engine is {usaciv} by Andrej Karpathy (MIT), fed with Vietnam's data.":
-    "Mã nguồn: {zip} (MIT; chạy bằng uv, xem README). Bộ máy bản đồ là {usaciv} của Andrej Karpathy (MIT), nạp dữ liệu Việt Nam.",
+  "Source code: {github} (MIT; run it with uv, see its README). The map engine is {usaciv} by Andrej Karpathy (MIT), fed with Vietnam's data.":
+    "Mã nguồn: {github} (MIT; chạy bằng uv, xem README). Bộ máy bản đồ là {usaciv} của Andrej Karpathy (MIT), nạp dữ liệu Việt Nam.",
 
   // --- search ---
   "Search": "Tìm kiếm",
@@ -282,4 +282,48 @@ export default {
   "Air routes (2014)": "Đường bay (2014)",
   "The 30 domestic air routes flown by the most airlines, from the OpenFlights route database (last updated June 2014)":
     "30 đường bay nội địa có nhiều hãng khai thác nhất, theo cơ sở dữ liệu đường bay OpenFlights (cập nhật lần cuối tháng 6/2014)",
+  // --- phase D: the "Map" panel, top-bar labels, welcome card, search marker ---
+  "Choose what colours the map and which layers show (L cycles themes)": "Chọn chủ đề tô màu bản đồ và các lớp hiển thị (phím L đổi chủ đề)",
+  "layers on.": "lớp đang bật.",
+  "Choose a theme and layers": "Chọn chủ đề và lớp",
+  "Filter themes and layers": "Lọc chủ đề và lớp",
+  "Close the Map panel": "Đóng bảng Bản đồ",
+  "Watch the journey (2 min)": "Xem hành trình (2 phút)",
+  "a camera tour, Lũng Cú to Cà Mau": "bay qua Việt Nam, từ Lũng Cú đến Cà Mau",
+  "Colour by": "Tô màu theo",
+  "one theme at a time": "mỗi lần một chủ đề",
+  "Show on map": "Hiện trên bản đồ",
+  "as many as you like": "bật bao nhiêu lớp tùy ý",
+  "No theme matches": "Không có chủ đề phù hợp",
+  "No layer matches": "Không có lớp phù hợp",
+  "Geography": "Địa lý",
+  "Weather": "Thời tiết",
+  "Help": "Trợ giúp",
+  "Journey": "Hành trình",
+  "Vietnam journey: a 2-minute camera tour, Lũng Cú to Cà Mau": "Hành trình Việt Nam: chuyến bay 2 phút từ Lũng Cú đến Cà Mau",
+  "Timeline": "Dòng thời gian",
+  "Welcome to the atlas of Vietnam": "Chào mừng đến với Atlas Việt Nam",
+  "The real Vietnam, drawn like a strategy-game map: terrain, provinces, cities, rivers and dozens of data themes, all from public sources.":
+    "Việt Nam thật, vẽ như bản đồ trò chơi chiến thuật: địa hình, tỉnh thành, sông ngòi và hàng chục chủ đề dữ liệu, tất cả từ nguồn công khai.",
+  "Search any province, commune, island or airport (press /).": "Tìm bất kỳ tỉnh, xã phường, hòn đảo hay sân bay nào (phím /).",
+  "The Map button colours the country by a theme and turns layers on.": "Nút Bản đồ tô màu cả nước theo một chủ đề và bật các lớp.",
+  "The year bar steps the map through the years.": "Thanh Năm đưa bản đồ đi qua từng năm.",
+  "Explore on my own": "Tự khám phá",
+  "Colour the map by a theme, turn on roads, rail, communes and other layers": "Tô màu bản đồ theo chủ đề, bật đường bộ, đường sắt, xã phường và các lớp khác",
+  // --- CyberSkill credits (app/brand.js) ---
+  "About the author, and a coffee": "Về tác giả, và một ly cà phê",
+  "Author": "Tác giả",
+  "This atlas is made by CyberSkill, a software studio in Ho Chi Minh City that builds web apps, mobile apps and internal systems.":
+    "Atlas này do CyberSkill thực hiện, một studio phần mềm tại TP. Hồ Chí Minh chuyên xây dựng ứng dụng web, ứng dụng di động và hệ thống nội bộ.",
+  "Start a project": "Đặt dự án",
+  "{site} · by CyberSkill": "{site} · bởi CyberSkill",
+  "A CyberSkill product": "Một sản phẩm của CyberSkill",
+  "Want something like this built?": "Cần một sản phẩm như thế này?",
+  "Who made this map": "Ai làm bản đồ này",
+  "This atlas is made by CyberSkill, a software studio in Ho Chi Minh City founded in 2020. It builds web apps, mobile apps and internal systems, and offers AI services.":
+    "Atlas này do CyberSkill thực hiện, một studio phần mềm tại TP. Hồ Chí Minh thành lập năm 2020, chuyên xây dựng ứng dụng web, ứng dụng di động, hệ thống nội bộ và cung cấp dịch vụ AI.",
+  "Made by CyberSkill": "Thực hiện bởi CyberSkill",
+  "Open source": "Mã nguồn mở",
+  "Source on GitHub": "Mã nguồn trên GitHub",
+  "The atlas itself is open source under the MIT licence:": "Bản thân atlas là mã nguồn mở theo giấy phép MIT:",
 };

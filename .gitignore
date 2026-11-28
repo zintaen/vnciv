@@ -3,7 +3,6 @@ data/interim/
 __pycache__/
 .venv/
 *.zip
-web/vnciv-source.zip
 reference/
 .DS_Store
 *.log

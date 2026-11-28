@@ -1,0 +1,6 @@
+{
+  "Open-Meteo weather forecast API (current conditions)": "API dự báo thời tiết Open-Meteo (thời tiết hiện tại)",
+  "Open-Meteo.com": "Open-Meteo.com",
+  "Current temperature, precipitation, cloud cover, weather code and 10 m wind for 57 fixed grid points over Vietnam, fetched by the visitor's browser only when the Live weather layer is switched on (one batched request, cached 30 minutes). Weather data by Open-Meteo.com.": "Nhiệt độ, lượng mưa, độ che phủ mây, mã thời tiết và gió ở độ cao 10 m hiện tại tại 57 điểm lưới cố định trên Việt Nam. Trình duyệt của người xem chỉ tải khi bật lớp Thời tiết trực tiếp (một yêu cầu gộp, lưu tạm 30 phút). Dữ liệu thời tiết của Open-Meteo.com.",
+  "Live weather layer": "Lớp thời tiết trực tiếp"
+}

@@ -1,4 +1,4 @@
-// Timeline ("dòng thời gian"): a year control in the top bar (#turn) that steps the map through the years.
+// Timeline ("dòng thời gian"): a year control at the bottom of the map (#turn, beside the Map button) that steps the map through the years.
 //  * lenses with a series in timeline.json (series[*].lens) are recoloured with that year's values (app.setLensView);
 //    a province without a value that year is no-data grey, never interpolated; the domain is fixed over all years
 //  * the typhoon lens ("disasters") shows only that season's storms (1980–) and lists them in a card
@@ -337,7 +337,7 @@ export async function install(app) {
   turn.classList.add("tl");
   turn.title = t(app.data.nation?.vintage || "");
   turn.innerHTML = `<button type="button" class="tl-btn tl-prev" aria-label="${esc(t("Previous year ([)"))}" title="${esc(t("Previous year ([)"))}">‹</button>
-    <b class="tl-label" aria-live="polite"></b>
+    <span class="tl-yr"><span class="tl-cap" aria-hidden="true">${esc(t("Year"))}</span><b class="tl-label" aria-live="polite"></b></span>
     <button type="button" class="tl-btn tl-next" aria-label="${esc(t("Next year (])"))}" title="${esc(t("Next year (])"))}">›</button>
     <span class="tl-track"><input type="range" class="tl-range" step="1" aria-label="${esc(t("Year"))}"><span class="tl-marks"></span></span>
     <button type="button" class="tl-btn tl-play" aria-pressed="false"></button>
@@ -512,15 +512,17 @@ export async function install(app) {
     },
   });
   onLens(); // a lens picked before this extension installed (#lens=forest_loss) still gets its year range and data
-  app.timeline = { get year() { return year; }, setYear, play, data: T };
+  app.timeline = { get year() { return year; }, setYear, play, data: T, replay };
 }
 
 function injectStyle() {
   const css = `
 #turn.tl { display: flex !important; align-items: center; gap: 4px; font-family: var(--serif); }
-#turn.tl .tl-label { min-width: 44px; text-align: center; color: var(--gold-bright); font-size: 14px; }
+#turn.tl .tl-yr { display: flex; flex-direction: column; align-items: center; min-width: 58px; line-height: 1; padding: 0 2px; }
+#turn.tl .tl-cap { font: 600 9.5px var(--sans); letter-spacing: .16em; text-transform: uppercase; color: var(--ink-dim); margin-bottom: 2px; }
+#turn.tl .tl-label { text-align: center; color: var(--gold-bright); font-size: 21px; font-variant-numeric: tabular-nums; white-space: nowrap; text-shadow: 0 1px 2px rgba(0,0,0,.6); }
 #turn.tl .tl-btn { background: none; border: 1px solid var(--line); border-radius: 4px; color: var(--gold-bright); cursor: pointer;
-  min-width: 24px; height: 24px; padding: 0 5px; line-height: 20px; font-size: 13px; }
+  min-width: 28px; height: 28px; padding: 0 6px; line-height: 24px; font-size: 14px; }
 #turn.tl .tl-btn:hover:not(:disabled) { background: rgba(201,164,92,.15); }
 #turn.tl .tl-btn:disabled { opacity: .35; cursor: default; }
 #turn.tl .tl-track { position: relative; display: inline-block; width: 120px; height: 24px; }
@@ -551,17 +553,12 @@ function injectStyle() {
 .tl-hist .tl-hist-item { color: var(--ink); }
 .tl-hist-body { padding: 4px 0 2px 8px; }
 .tl-foot { margin-top: 8px; color: var(--ink-dim); font-size: 11px; line-height: 1.35; }
-/* Below ~1600 px the bar has no room left (yields + search + buttons): the control floats as a pill just under it. */
-@media (max-width: 1600px) {
-  #turn.tl { position: fixed; top: calc(var(--topbar-h) + 6px); left: calc(12px + var(--dock-left, 0px)); z-index: 12; padding: 3px 4px;
-    background: var(--panel); border: 1px solid var(--line); border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,.4); }
-  .tl-card { top: calc(var(--topbar-h) + 46px); }
-}
+/* Placement: the bottom row of the lens area (index.html #dock-row, css/style.css), centred beside the Map button. */
 @media (max-width: 700px) {
-  #turn.tl { left: 8px; gap: 2px; }
-  #turn.tl .tl-track { display: none; }
-  #turn.tl .tl-label { min-width: 38px; font-size: 13px; }
-  .tl-card { top: calc(var(--topbar-h) + 46px); left: 8px; right: 8px; width: auto; max-height: 40vh; }
+  #turn.tl { gap: 3px; }
+  #turn.tl .tl-track { flex: 1; width: auto; min-width: 60px; }
+  #turn.tl .tl-label { font-size: 18px; }
+  .tl-card { top: calc(var(--topbar-h) + 8px); left: 8px; right: 8px; width: auto; max-height: 40vh; }
 }`;
   const el = document.createElement("style");
   el.id = "tl-style";

@@ -22,6 +22,9 @@ import { initShare } from "./app/share.js";
 import { initHelp } from "./app/help.js";
 import { initDonate } from "./app/donate.js";
 import { createMotion } from "./app/motion.js";
+import { createSearchHighlight } from "./app/highlight.js";
+import { maybeWelcome } from "./app/welcome.js";
+import { cyberskillUrl, REPO_URL, GITHUB_SVG } from "./app/brand.js";
 import { t, lang, setLang } from "./i18n.js";
 import { esc, setAirportNames } from "./format.js";
 
@@ -39,7 +42,7 @@ import { esc, setAirportNames } from "./format.js";
   // Map attribution: OpenStreetMap's credit links to its copyright page (ODbL).
   const OSM = `<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">${esc(t("© OpenStreetMap contributors"))}</a>`;
   const at = document.getElementById("map-attrib");
-  if (at) at.innerHTML = `${OSM} · Natural Earth · OCHA COD-AB`;
+  if (at) at.innerHTML = `${OSM} · Natural Earth · OCHA COD-AB · <a href="${cyberskillUrl("attribution")}" target="_blank" rel="noopener">${esc(t("Made by CyberSkill"))}</a> · <a href="${REPO_URL}" target="_blank" rel="noopener">${esc(t("Open source"))} · ${GITHUB_SVG}GitHub</a>`;
   // The small "© OpenStreetMap" link stands in while the minimap (and the line above) is hidden: phones, open docks / panels.
   const mini = document.getElementById("attrib-mini"), wrap = document.getElementById("minimap-wrap");
   if (mini && wrap) {
@@ -132,6 +135,7 @@ async function main() {
   const staticLayers = []; // app.registerStaticLayer(), sorted by z (stable): drawn inside the cached static map
   const events = createEmitter();
   const motion = createMotion({ requestDraw }); // app.motion (app/motion.js): tweens + animated items on this loop
+  let welcome = null; // the first-visit card (app/welcome.js), while it is up
   const panelEl = document.getElementById("city-panel");
   // The extension API object; filled in under "extension API" below, before anything can run against it.
   const app = {};
@@ -932,7 +936,7 @@ async function main() {
     return b;
   };
   setBtn("btn-share", `${icon("share", "🔗", { size: 15 })}<span class="lbl">${t("Share")}</span>`);
-  setBtn("btn-help", icon("help", "?", { size: 15 }));
+  setBtn("btn-help", `${icon("help", "?", { size: 15 })}<span class="lbl">${t("Help")}</span>`);
   {
     // Language switch: shows the other language; switching reloads with the same view (i18n.js).
     const b = document.getElementById("btn-lang");
@@ -940,7 +944,7 @@ async function main() {
     if (b) {
       b.textContent = other === "en" ? "EN" : "VI";
       b.title = other === "en" ? "Switch to English" : "Chuyển sang tiếng Việt";
-      b.setAttribute("aria-label", b.title);
+      b.setAttribute("aria-label", `${b.textContent} · ${b.title}`); // the visible code first (WCAG label in name)
       b.onclick = () => { url.flush(); setLang(other); };
     }
   }
@@ -949,14 +953,30 @@ async function main() {
   if (searchIc) searchIc.innerHTML = icon("search", "🔍", { size: 14 });
   document.querySelector(".search-kbd")?.setAttribute("title", t("Press / or Ctrl K to search"));
 
+  // A search pick's marker: pin, pulsing ring, floating name; a province's outline glows (app/highlight.js).
+  const searchHl = createSearchHighlight({
+    motion, cam, w, isMobile, requestDraw,
+    bannerShown: (city) => hits.some((h) => h.city === city), // a city's banner already names it
+  });
   const search = initSearch({
     cities,
     states: w.raw.states.map((s, i) => ({ name: states?.[i]?.name || s.name, abbr: s.abbr, population: states?.[i]?.population, former: states?.[i]?.former })),
     onPick(r) {
       if (r.kind === "city") selectCity(r.city, { fly: true });
       else selectState(r.index, { fly: true });
+      searchHl.set(r.kind === "city" ? { city: r.city, label: r.city.name } : { state: r.index, label: stateName(r.index) });
       focusPanel(); // keyboard focus follows the pick into its panel (as from a report), not back to <body>
     },
+    // An extension's entry was picked (its pick() ran): mark the place unless pick() marked it itself (app.highlight).
+    // Its geometry is entry.line, entry.at or entry.box; else where pick() is flying the camera to.
+    onPicked(e, marksBefore) {
+      if (searchHl.marks !== marksBefore) return;
+      const p = (v) => (Array.isArray(v) ? { x: +v[0], y: +v[1] } : v && { x: +v.x, y: +v.y });
+      const box = e.box && (Array.isArray(e.box) ? { x: (e.box[0] + e.box[2]) / 2, y: (e.box[1] + e.box[3]) / 2 } : null);
+      const at = e.line ? null : p(e.at) || box || (cam.flight ? (([x, y]) => ({ x, y }))(viewAt()) : null);
+      if (e.line || (at && Number.isFinite(at.x) && Number.isFinite(at.y))) searchHl.set({ ...(e.line ? { line: e.line } : at), label: e.label || e.name });
+    },
+    marks: () => searchHl.marks,
   });
 
   const toastEl = document.getElementById("toast");
@@ -1137,6 +1157,14 @@ async function main() {
     };
     sync();
   }
+  // --bottom-ui on <body>: how far the bottom row (Map button + year bar) reaches up from the bottom edge, so bars
+  // that float above it (a replay) never cover it.
+  {
+    const row = document.getElementById("dock-row");
+    const setH = () => row && document.body.style.setProperty("--bottom-ui", `${Math.max(0, Math.round(innerHeight - row.getBoundingClientRect().top))}px`);
+    if (row && typeof ResizeObserver === "function") new ResizeObserver(setH).observe(row);
+    addEventListener("resize", setH);
+  }
   const mmBtn = document.getElementById("btn-minimap");
   if (mmBtn) {
     mmBtn.innerHTML = icon("terrain", "🗺️", { size: 18 });
@@ -1151,10 +1179,10 @@ async function main() {
 
   // Map layer switches (app.ui.addMapToggle), in the Layers menu; kept in the hash (layers=).
   const mapToggles = createMapToggles({
-    dock: document.getElementById("lens-dock"), after: resBtn, area: document.getElementById("lens-area"),
     hash: { register: url.register, update: url.schedule, value: url.value },
     onChange: () => requestDraw(),
   });
+  dock.setLayers(mapToggles); // "Show on the map", in the same "Map" panel as the themes
   ui.addMapToggle = mapToggles.add;
   ui.mapToggles = mapToggles.list;
   ui.setMapToggle = mapToggles.set;
@@ -1341,6 +1369,7 @@ async function main() {
     const resource = hitResource(mx, my);
     clearTimeout(pendingTap);
     pendingTap = setTimeout(() => {
+      searchHl.clear(); // a click on the map puts away a search pick's marker
       // Extensions (e.g. a mode) may take the click: a "mapclick" handler that returns true consumes it.
       const ev = {
         cell, city: city || null, resource, state: owner >= 0 ? owner : null, x: mx, y: my, pointerType: e.pointerType,
@@ -1415,16 +1444,18 @@ async function main() {
   // Esc closes the topmost thing: help, search, share, a top-bar report, lens picker, Almanac, then the panel.
   function escape() {
     if (donate?.isOpen) return donate.close();
+    if (welcome?.isOpen) return welcome.close();
     if (help.isOpen) return help.close();
     if (search.isOpen) return search.close();
     if (share.isOpen) return share.close();
     if (reports.isOpen) return reports.close();
     if (dock.pickerOpen) return dock.closePicker();
-    if (mapToggles.isOpen) return mapToggles.close();
     if (pedia.isOpen) return pedia.close();
     if (modes.escape()) return; // the active mode (e.g. the City view) goes before the panels
     if (events.emit("escape", {})) return;
+    const hadMark = searchHl.clear(); // a search pick's marker goes with its selection (or alone, when there is none)
     if (state.selectedCity || state.selectedState != null) return clearSelection();
+    if (hadMark) return;
   }
 
   window.addEventListener("keydown", (e) => {
@@ -1432,11 +1463,12 @@ async function main() {
     const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
     if ((e.metaKey || e.ctrlKey) && !e.altKey && k === "k") {
       e.preventDefault();
-      if (!help.isOpen && !pedia.isOpen && !donate?.isOpen) search.focus();
+      if (!help.isOpen && !pedia.isOpen && !donate?.isOpen && !welcome?.isOpen) search.focus();
       return;
     }
     if (k === "Escape") { escape(); return; }
     if (e.metaKey || e.ctrlKey || e.altKey || typing(e.target)) return;
+    if (welcome?.isOpen) return; // the welcome card is up: no map shortcuts behind it
     if (k === "?") { e.preventDefault(); if (!donate?.isOpen) help.toggle(); return; }
     if (help.isOpen || pedia.isOpen || donate?.isOpen) return; // a dialog is up: no map shortcuts behind it
     if (k === "/") {
@@ -1531,6 +1563,12 @@ async function main() {
       return h ? { layer: h.layer.id, item: h.item } : null;
     },
     setHighlight(h) { state.highlight = h || null; requestDraw(); },
+    // The search marker (app/highlight.js): app.highlight({x, y} | {line: [[x, y], …]} | {state} | {city}, label?) or null.
+    highlight: (h) => (!h ? searchHl.clear() : searchHl.set({
+      ...h,
+      ...(typeof h.state === "string" ? { state: stateIndex(w, h.state) } : {}),
+      ...(typeof h.city === "string" ? { city: cityById.get(h.city) || null } : {}),
+    })),
     highlightBounds: (h = state.highlight) => highlightBounds(w, h),
     setResourceFilter(f) { state.resourceFilter = f || null; requestDraw(); },
     setShowResources(on) {
@@ -1588,7 +1626,7 @@ async function main() {
     ui,
     panels: { city: openCityPanel, state: openStatePanel, close: closeCityPanel, element: panelEl },
     // the built-in modules, for poking at things from the console
-    search, share, help, lensDock: dock, reports, pedia, minimap, shareInfo, url, perf,
+    search, share, help, lensDock: dock, reports, pedia, minimap, shareInfo, url, perf, searchMark: searchHl,
     stats() {
       const avg = (a) => (a.length ? a.reduce((p, q) => p + q, 0) / a.length : 0);
       return { staticAvg: avg(perf.static), staticLast: perf.static.at(-1), frameAvg: avg(perf.frame), frameLast: perf.frame.at(-1) };
@@ -1619,7 +1657,17 @@ async function main() {
   requestAnimationFrame(() => setTimeout(kickEager, 0));
   setTimeout(kickEager, 400);
   // Extensions load after the first frame is on its way; a missing extension folder is fine.
-  installExtensions(app);
+  installExtensions(app).then(() => {
+    // The camera tour, one tap away: a top-bar button and the first line of the "Map" panel (it also stays in Help).
+    if (app.tour?.start) {
+      const start = () => app.tour.start();
+      const b = ui.addTopButton({ id: "btn-tour", icon: "▶", label: t("Journey"), title: t("Vietnam journey: a 2-minute camera tour, Lũng Cú to Cà Mau"), onClick: start });
+      b?.parentNode.insertBefore(b, b.parentNode.firstChild);
+      dock.setTour(start);
+    }
+    // First visit: a welcome card (once per browser; never over a link that carries a view, nor in automated runs).
+    if (!deep && !location.hash.length) welcome = maybeWelcome({ tour: app.tour?.start ? () => app.tour.start() : null });
+  });
 }
 
 main().catch((err) => {

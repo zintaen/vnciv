@@ -1,8 +1,12 @@
 # vnciv: Vietnam as a strategy game, built from real data
 
+<p><a href="https://cyberskill.world/?utm_source=atlasvn&utm_medium=referral&utm_campaign=readme"><img src="web/img/brand/cyberskill-logo-primary.svg" alt="CyberSkill" width="40" height="40" align="left"></a>
+<b>Built by <a href="https://cyberskill.world/?utm_source=atlasvn&utm_medium=referral&utm_campaign=readme">CyberSkill</a></b>, a software studio in Ho Chi Minh City
+(web apps, mobile apps, internal systems). Live at <a href="https://atlasvn.online">atlasvn.online</a>.</p>
+
 A visualizer (not a game) that draws the **real** Vietnam like a turn-based strategy map: painted hex terrain from
 elevation and land cover, the 34 provinces of 2025, cities with yield banners, power plants as resources, roads,
-railways, ports, airports and wonders on the tiles, 45 lenses, map layers (communes and wards, special national relics,
+railways, ports, airports and wonders on the tiles, 56 lenses, map layers (communes and wards, special national relics,
 everyday places, sea-level rise), a timeline (statistics by year, typhoons since 1980, history), a City View, a council of
 Advisors and an Explorer. In motion: replays of typhoon tracks, the 2025 merger and forest loss, a sea-level-rise
 play, a living map (sea, rivers, clouds), moving traffic on the air routes, ports and railways, day–night shading with
@@ -34,7 +38,7 @@ uv run python -m pipeline serve        # http://127.0.0.1:8765 (uv installs the 
 ```bash
 uv run python -m pipeline all          # download (cached in data/raw/) → build web/data/*.json
 uv run python -m pipeline build lenses # rebuild one step (see pipeline/build/__init__.py for the order)
-uv run python -m pipeline package      # vnciv.zip (the site) and vnciv-source.zip (this project)
+uv run python -m pipeline package      # vnciv.zip (the site, ready to upload)
 uv run python -m unittest discover -s tests   # data checks (those that read data/raw or data/interim skip until `all` has run)
 QA_LANG=vi uv run --with playwright python tools/qa.py   # every view in a browser (also QA_LANG=en)
 uv run --with playwright python tools/regress.py        # ~30 fixed-bug journeys in a browser (a few minutes; not in CI)

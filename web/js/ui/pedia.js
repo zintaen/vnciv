@@ -6,6 +6,7 @@ import { icon, glyph } from "./icon.js";
 import { formatLensValue } from "./lenses.js";
 import { fmtYear, yearNum } from "./infoPanel.js";
 import { t } from "../i18n.js";
+import { cyberskillUrl, REPO_URL, GITHUB_SVG } from "../app/brand.js";
 
 const COVER_ICON = { forest_deciduous: "l-forest", forest_evergreen: "l-forest", forest_mixed: "l-forest", cropland: "l-farmland", pasture: "l-farmland", urban: "l-developed" };
 // Glyph colour that reads on a resource medallion (dark on light faces such as nuclear yellow or silver).
@@ -50,7 +51,12 @@ export function initPedia(data) {
       <p>${t("Money is shown in US dollars.")} ${esc(t(data.nation.currency?.note || ""))}</p>
       <h4>${t("Controls")}</h4>
       <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search places, communes and provinces · L to cycle lenses · [ and ] to step the timeline's years · <i>Layers</i> for roads, rail, communes and more · R to show or hide power plants · ? for all shortcuts · Esc to close.")}</p>
-      <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>`;
+      <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>
+      <h4>${esc(t("Who made this map"))}</h4>
+      <p class="pd-maker"><img src="img/brand/cyberskill-logo-primary.svg" width="44" height="44" alt="CyberSkill">${esc(t("This atlas is made by CyberSkill, a software studio in Ho Chi Minh City founded in 2020. It builds web apps, mobile apps and internal systems, and offers AI services."))}</p>
+      <p><a href="${esc(cyberskillUrl("almanac"))}" target="_blank" rel="noopener">cyberskill.world</a> ·
+        <a href="https://github.com/cyberskill-official?utm_source=atlasvn&amp;utm_medium=referral&amp;utm_campaign=almanac" target="_blank" rel="noopener">github.com/cyberskill-official</a></p>
+      <p>${t("The atlas itself is open source under the MIT licence:")} <a href="${REPO_URL}" target="_blank" rel="noopener">${GITHUB_SVG} github.com/zintaen/vnciv</a></p>`;
     },
     Yields: () => `
       ${h2("y-production", "⚙️", t("Yields"))}

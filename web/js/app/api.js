@@ -401,29 +401,32 @@ export function createUi(app, { toast, onLayout }) {
 // --- map layer toggles -------------------------------------------------------------------------------------------
 
 /**
- * app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?, group?}) → remove function
- *   A switch for a map layer, listed in the "Map layers" menu in the lens dock (one
- *   button that opens a small menu, so any number of layers fits on a phone). `icon` is an icons.js id or a short
- *   text / emoji. `group` puts it under a section header (GROUPS below, in that order; an unknown id gets its
- *   own section after them, toggles without a group go last). `set(on)` is yours: flip your layer's state (its visible()/sig() then change and the static map
+ * app.ui.addMapToggle({id, label, icon, get() → bool, set(on), title?, default?, group?, groupLabel?}) → remove function
+ *   A switch for a map layer, listed under "Show on the map" in the "Map" panel (the one dock button that also picks
+ *   the colouring theme, ui/lenses.js), so any number of layers fits on a phone. `icon` is an icons.js id or a short
+ *   text / emoji. `group` puts it under a section header (GROUPS below, in that order; an unknown id gets its own
+ *   section after them, headed by `groupLabel` (already translated) or t(group); toggles without a group go last).
+ *   `set(on)` is yours: flip your layer's state (its visible()/sig() then change and the static map
  *   re-renders; main also calls app.requestDraw()). `default` is the state when the URL says nothing (defaults to
  *   get() at the time of adding).
  *   The URL hash key `layers` lists the toggles that are on (`#layers=roads,rail,military`; `layers=none` = all
  *   off) and is written only while some toggle differs from its default; a toggle added after the page loaded is
  *   set from the current hash right away. Calling it again with the same id replaces the toggle.
  *   `hash: false`: a preference, not a layer (the Effects switch): never in the hash, not counted on the button.
- * app.ui.setMapToggle(id, on) → bool       switch one from code, as the menu would (false if no such toggle)
+ * app.ui.setMapToggle(id, on) → bool       switch one from code, as the panel would (false if no such toggle)
  * app.ui.mapToggles() → [{id, label, on}]   for debugging and tests
  *
- * opts: {dock (the #lens-dock element), after (element to insert the button after), area (#lens-area),
- *        hash: {register, update, value}, onChange()}
+ * opts: {hash: {register, update, value}, onChange()}. The returned object also has sections() (what the panel
+ * draws: [{id, label, items: [{id, label, icon, title, on, hash}]}]), flip(id) and onList(fn) (the list or a state
+ * changed: the panel re-renders).
  */
-// Sections of the Layers menu, in display order: id → header label (English, translated with t()).
-const GROUPS = { display: "Display", transport: "Transport", energy: "Energy", culture: "Culture", living: "Living", nature: "Nature", places: "Place names", military: "Military" };
+// Sections of "Show on the map", in display order: id → header label (English, translated with t()).
+export const GROUPS = { display: "Display", transport: "Transport", energy: "Energy", geography: "Geography", nature: "Nature", culture: "Culture",
+  history: "History", living: "Living", economy: "Economy", weather: "Weather", places: "Place names", military: "Military" };
 
-export function createMapToggles({ dock, after, area, hash, onChange }) {
-  const toggles = new Map(); // id → {id, label, icon, title, group, get, set, def}
-  let btn = null, pop = null, restoreFocus = null;
+export function createMapToggles({ hash, onChange }) {
+  const toggles = new Map(); // id → {id, label, icon, title, group, groupLabel, get, set, def}
+  const listeners = new Set();
   // The ids the URL asked for (a Set), or null when the URL has no layers= key. Ids of toggles that are not
   // registered yet (an extension still loading) stay in the hash until their toggle arrives.
   let wanted = null;
@@ -435,7 +438,7 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     if (isOn(t) === !!on) return;
     try { t.set(!!on); } catch (err) { console.error(`map toggle "${t.id}" set() failed`, err); }
   };
-  const glyph = (ic, size) => (ic ? (hasIcon(ic) ? icon(ic, "•", { size }) : `<span class="emoji" aria-hidden="true">${esc(ic)}</span>`) : "");
+  const render = () => listeners.forEach((fn) => { try { fn(); } catch (err) { console.error("map toggles listener failed", err); } });
 
   // URL: layers=a,b (the ones on) while anything differs from its default; "none" = every toggle off.
   const pending = () => (wanted ? [...wanted].filter((id) => id !== "none" && !toggles.has(id)) : []);
@@ -455,108 +458,30 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     render();
     onChange?.();
   }
-  // After a change in the menu the URL follows the switches (plus ids still waiting for their toggle).
+  // After a change in the panel the URL follows the switches (plus ids still waiting for their toggle).
   const syncWanted = () => {
     if (wanted) wanted = new Set([...hashed().filter(isOn).map((t) => t.id), ...pending()]);
   };
   hash.register("layers", { get: hashGet, set: hashSet });
 
-  function ensureDom() {
-    if (btn) return;
-    btn = document.createElement("button");
-    btn.id = "btn-maplayers";
-    btn.type = "button";
-    btn.className = "lens-btn res-toggle map-layers-btn";
-    btn.setAttribute("aria-haspopup", "true");
-    btn.setAttribute("aria-expanded", "false");
-    btn.setAttribute("aria-controls", "map-layers-pop");
-    btn.title = tr("Map layers: roads, rail, military and more");
-    dock.insertBefore(btn, after && after.parentNode === dock ? after.nextSibling : dock.firstChild);
-    pop = document.createElement("div");
-    pop.id = "map-layers-pop";
-    pop.className = "panel map-layers-pop";
-    pop.hidden = true;
-    pop.setAttribute("role", "menu");
-    pop.setAttribute("aria-label", tr("Map layers"));
-    (area || document.body).insertBefore(pop, (area || document.body).firstChild);
-    btn.onclick = () => (pop.hidden ? open() : close());
-    pop.onclick = (e) => {
-      const row = e.target.closest("[data-toggle]");
-      if (!row) return;
-      const t = toggles.get(row.dataset.toggle);
-      if (!t) return;
-      setOn(t, !isOn(t));
-      syncWanted();
-      render();
-      onChange?.();
-      hash.update();
-    };
-    pop.addEventListener("keydown", (e) => {
-      const rows = [...pop.querySelectorAll("[data-toggle]")];
-      const k = rows.indexOf(document.activeElement);
-      const step = { ArrowDown: 1, ArrowUp: -1 }[e.key];
-      if (step && k >= 0) {
-        e.preventDefault();
-        rows[(k + step + rows.length) % rows.length].focus();
-      }
-    });
-    document.addEventListener("pointerdown", (e) => {
-      if (!pop.hidden && !pop.contains(e.target) && !btn.contains(e.target)) close(false);
-    });
-  }
-
-  function render() {
-    if (!btn) return;
+  function sections() {
     const list = [...toggles.values()];
-    btn.hidden = !list.length;
-    const layers = hashed(), nOn = layers.filter(isOn).length; // (preferences such as Effects are not counted)
-    btn.classList.toggle("active", nOn > 0);
-    btn.setAttribute("aria-label", tr("Map layers ({n} of {total} on)", { n: nOn, total: layers.length }));
-    btn.innerHTML = `${glyph("layers", 15)}<span>${tr("Layers")}</span>${nOn ? `<b class="ml-count">${nOn}</b>` : ""}`;
-    if (pop.hidden) return;
-    const row = (t) => {
-      const on = isOn(t);
-      return `<button type="button" class="ml-row${on ? " on" : ""}" role="menuitemcheckbox" aria-checked="${on}" data-toggle="${esc(t.id)}"
-        ${t.title ? `title="${esc(t.title)}"` : ""}><span class="ml-ic">${glyph(t.icon, 16)}</span><span class="ml-lbl">${esc(t.label)}</span>
-        <span class="ml-switch" aria-hidden="true"></span></button>`;
-    };
     const order = Object.keys(GROUPS);
     const rank = (g) => (!g ? Infinity : order.includes(g) ? order.indexOf(g) : order.length);
     const groups = [...new Set(list.map((t) => t.group))].sort((a, b) => rank(a) - rank(b));
-    // Re-rendering replaces the rows: keep keyboard focus on the row that had it (Space/Enter toggles in place).
-    const focusId = pop.contains(document.activeElement) ? document.activeElement.dataset?.toggle : null;
-    pop.innerHTML = `<div class="ml-head">${tr("Map layers")}</div>` + groups.map((g) => {
+    return groups.map((g) => {
       const items = list.filter((t) => t.group === g);
-      const head = g ? `<div class="ml-sec" role="presentation">${esc(tr(GROUPS[g] || g))}</div>` : (groups.length > 1 ? `<div class="ml-sec ml-sep" role="separator"></div>` : "");
-      return head + items.map(row).join("");
-    }).join("");
-    if (focusId) pop.querySelector(`[data-toggle="${CSS.escape(focusId)}"]`)?.focus();
+      const label = !g ? "" : GROUPS[g] ? tr(GROUPS[g]) : items.find((t) => t.groupLabel)?.groupLabel || tr(g);
+      return { id: g, label, items: items.map((t) => ({ id: t.id, label: t.label, icon: t.icon, title: t.title, on: isOn(t), hash: t.hash })) };
+    });
   }
 
-  function open() {
-    if (!pop) return;
-    restoreFocus = document.activeElement;
-    pop.hidden = false;
-    document.getElementById("legend")?.classList.add("behind"); // as the lens picker: above a legend it would run off the top
-    btn.setAttribute("aria-expanded", "true");
-    render();
-    pop.querySelector("[data-toggle]")?.focus();
-  }
-  function close(restore = true) {
-    if (!pop || pop.hidden) return false;
-    pop.hidden = true;
-    document.getElementById("legend")?.classList.toggle("behind", document.getElementById("lens-picker")?.hidden === false);
-    btn.setAttribute("aria-expanded", "false");
-    if (restore) (restoreFocus && document.contains(restoreFocus) ? restoreFocus : btn).focus();
-    return true;
-  }
-
-  function add({ id, label, icon: ic = "", get, set, title = "", default: def, group = "", hash: inHash = true } = {}) {
+  function add({ id, label, icon: ic = "", get, set, title = "", default: def, group = "", groupLabel = "", hash: inHash = true } = {}) {
     if (!id || typeof get !== "function" || typeof set !== "function") throw new Error("addMapToggle({id, label, icon, get, set})");
-    const t = { id: String(id), label: label || String(id), icon: ic, title, group: group ? String(group) : "", get, set, def: false, hash: inHash !== false };
+    const t = { id: String(id), label: label || String(id), icon: ic, title, group: group ? String(group) : "", groupLabel: groupLabel ? String(groupLabel) : "",
+      get, set, def: false, hash: inHash !== false };
     t.def = def === undefined ? isOn(t) : !!def;
     toggles.set(t.id, t);
-    ensureDom();
     if (wanted && t.hash) {
       setOn(t, wanted.has(t.id));
       onChange?.();
@@ -570,7 +495,7 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     };
   }
 
-  /** Switch a toggle from code (e.g. an advisor's "show forts" button), exactly as the menu would. false if unknown. */
+  /** Switch a toggle from code (e.g. an advisor's "show forts" button), exactly as the panel would. false if unknown. */
   function setToggle(id, on) {
     const t = toggles.get(String(id));
     if (!t) return false;
@@ -585,9 +510,12 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
   return {
     add,
     set: setToggle,
+    flip: (id) => { const t = toggles.get(String(id)); return t ? setToggle(t.id, !isOn(t)) : false; },
     list: () => [...toggles.values()].map((t) => ({ id: t.id, label: t.label, on: isOn(t) })),
-    close,
-    get isOpen() { return !!pop && !pop.hidden; },
+    sections,
+    /** How many map layers (not preferences) are on, and how many there are. */
+    count: () => { const l = hashed(); return { on: l.filter(isOn).length, total: l.length }; },
+    onList: (fn) => { listeners.add(fn); return () => listeners.delete(fn); },
     refresh: render,
   };
 }

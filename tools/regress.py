@@ -102,10 +102,10 @@ CHECKS = [
     dict(name="coffee dialog blocks map keys; esc closes it before the panel and returns focus", url="#city=SG",
          steps=[("click", "#btn-coffee"), ("click", ".coffee-lead"), ("key", "l"), ("key", "?"), ("key", "Escape")],
          expect="document.querySelector('.coffee-modal').hidden && document.getElementById('help').hidden && !document.getElementById('city-panel').hidden && __app.state.lens==null && document.activeElement.id==='btn-coffee'"),
-    dict(name="map layers menu keeps focus after space; esc returns focus",
-         steps=[("focus", "#btn-maplayers"), ("key", "Enter"), ("key", "ArrowDown"), ("key", "Space"),
+    dict(name="map panel: a layer switch keeps focus after space; esc returns focus to the Map button",
+         steps=[("focus", "#btn-lenses"), ("key", "Enter"), ("js", "document.querySelector('#lens-picker .ml-row').focus()"), ("key", "ArrowDown"), ("key", "Space"),
                 ("js", "window.__f=document.activeElement.classList.contains('ml-row')"), ("key", "Escape")],
-         expect="window.__f===true && document.getElementById('map-layers-pop').hidden && document.activeElement.id==='btn-maplayers'"),
+         expect="window.__f===true && document.getElementById('lens-picker').hidden && document.activeElement.id==='btn-lenses'"),
     dict(name="esc order: history card first, then the city", url="#city=HN",
          steps=[("click", ".tl-hist-btn"), ("click", ".tl-hist-item >> nth=3"), ("key", "Escape"),
                 ("js", "window.__a=document.querySelector('.tl-card').hidden && __app.state.selectedCity?.id==='HN'"), ("key", "Escape")],
@@ -115,7 +115,7 @@ CHECKS = [
                 ("until", "__app.mode==='city'"), ("wait", 1200), ("key", "Escape"), ("wait", 1500)],
          expect="__app.mode===null && document.activeElement.classList.contains('cv-open') && __app.state.selectedCity?.id==='HN' && !location.hash.includes('view=city') && new URLSearchParams(location.hash.slice(1)).get('at')===window.__at"),
     dict(name="focus returns to each top-bar control after enter then esc", url="?lang=en",
-         steps=[s for sel in ["#btn-help", "#btn-pedia", "#btn-share", "#btn-coffee", "#btn-maplayers", "#btn-lenses", "#btn-advisors"]
+         steps=[s for sel in ["#btn-help", "#btn-pedia", "#btn-share", "#btn-coffee", "#btn-tour", "#btn-lenses", "#btn-advisors"]
                 for s in [("focus", sel), ("key", "Enter"), ("wait", 450), ("key", "Escape"), ("wait", 250),
                           ("js", f"if (!(document.activeElement===document.querySelector('{sel}') && __app.mode===null)) (window.__lost ||= []).push('{sel}')")]],
          expect="!window.__lost"),

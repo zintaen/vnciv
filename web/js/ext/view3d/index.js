@@ -9,7 +9,7 @@ import { t } from "../../i18n.js";
 import { showCellTooltip, hideTooltip } from "../../ui/tooltip.js";
 import { lensScale } from "../../world.js";
 import { OCEAN_BG } from "../../render/map.js";
-import { esc } from "../../format.js";
+import { esc, dec } from "../../format.js";
 
 const FOV = Math.PI / 4;
 const TILT = 0.92; // pitch of the tilted view (rad above the horizon; π/2 = straight down like 2D)
@@ -17,6 +17,7 @@ const FLAT = Math.PI / 2 - 1e-3;
 const ELEV_X = 40; // vertical exaggeration of elevation (m → map units: / 200 m per unit)
 const LENS_H = 520; // map units (104 km) at the top of a lens's colour scale
 const LENS_MIN = 6; // a hex at the bottom of the scale (or without data) still reads as land
+const VX = [1, 2, 0.5]; // height scales the panel button steps through
 const ENTER_MS = 1000, EXIT_MS = 650, GROW_MS = 450;
 
 const VS = `
@@ -126,6 +127,7 @@ export function install(app) {
 
   let on = false, canvas = null, ctxGL = null, prog = null, loc = null, labelsEl = null, panel = null, raf = 0;
   let bufGeo, bufInst, bufH, bufCol, maxH = 1, order = null, nWater = 0, bindInst = null;
+  let vx = 1; // the user's height scale on top of ELEV_X / LENS_H (the panel's "Height ×" button cycles VX)
   let waterT = 0, slowAvg = 16, lastNow = 0, slow = false, heights = null, lastRgb = null, lastLens = undefined, dirty = true, hover = null;
   // camera: target on the ground (map units), distance, yaw (0 = north up), pitch; k = height factor (0 flat .. 1)
   const camS = { tx: 0, ty: 0, d: 1000, yaw: 0, pitch: FLAT, k: 0 };
@@ -271,7 +273,7 @@ export function install(app) {
     if (!panel) return;
     const lens = app.shownLens?.() || null;
     let what;
-    if (!lens) what = t("Height: the mean elevation of each hex (ETOPO1), exaggerated ×{n}. Colours: terrain, as in 2D. Water is flat.", { n: ELEV_X });
+    if (!lens) what = t("Height: the mean elevation of each hex (ETOPO1), exaggerated ×{n}. Colours: terrain, as in 2D. Water is flat.", { n: ELEV_X * vx });
     else {
       const name = t(lens.name) + (lens.year ? ` (${lens.year})` : "");
       what = lens.format === "category"
@@ -281,7 +283,8 @@ export function install(app) {
           : "Height: {lens}, on the legend's colour scale (linear): flat at its low end, tallest at its high end. Hexes without data and neighbouring countries are flat.", { lens: name });
     }
     panel.innerHTML = `<div class="v3-text"><div>${esc(what)}</div><div class="v3-hint">${esc(t("Drag to orbit and tilt, Shift-drag or right-drag (two fingers) to pan, wheel or pinch to zoom, double-click to centre."))}</div></div>
-      <div class="v3-btns"><button type="button" class="btn v3-reset">${esc(t("Reset view"))}</button><button type="button" class="btn v3-exit">${esc(t("2D map"))}</button></div>`;
+      <div class="v3-btns"><button type="button" class="btn v3-vx" title="${esc(t("Vertical exaggeration: click for taller, then flatter hexes"))}">${esc(t("Height ×{n}", { n: dec(vx) }))}</button><button type="button" class="btn v3-reset">${esc(t("Reset view"))}</button><button type="button" class="btn v3-exit">${esc(t("2D map"))}</button></div>`;
+    panel.querySelector(".v3-vx").onclick = () => { vx = VX[(VX.indexOf(vx) + 1) % VX.length]; dirty = true; renderPanel(); panel.querySelector(".v3-vx")?.focus(); kick(); };
     panel.querySelector(".v3-reset").onclick = () => animateTo(home, 600);
     panel.querySelector(".v3-exit").onclick = () => exit();
     place();
@@ -400,7 +403,7 @@ export function install(app) {
     matrices();
     gl.useProgram(prog);
     gl.uniformMatrix4fv(loc.uVP, false, VP);
-    gl.uniform1f(loc.uK, camS.k * gk);
+    gl.uniform1f(loc.uK, camS.k * gk * vx);
     gl.uniform1f(loc.uT, time);
     gl.viewport(0, 0, canvas.width, canvas.height);
     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
@@ -408,7 +411,7 @@ export function install(app) {
     ctxGL.drawInst(gl.TRIANGLES, 0, 12, nWater); // water: the top only (4 triangles)
     bindInst(nWater);
     ctxGL.drawInst(gl.TRIANGLES, 0, 48, n - nWater); // land: top + 6 walls
-    placeLabels(camS.k * gk);
+    placeLabels(camS.k * gk * vx);
     placePanel();
   }
   // Desktop: centre the legend over the map area left free by an advisor / City View panel or a dock, not the window.
@@ -433,7 +436,7 @@ export function install(app) {
     const th = Math.tan(FOV / 2), nx = (2 * x / innerWidth - 1) * th * innerWidth / innerHeight, ny = (1 - 2 * y / innerHeight) * th;
     const dx = f0 + r0 * nx + up[0] * ny, dy = f1 + r1 * nx + up[1] * ny, dz = f2 + r2 * nx + up[2] * ny;
     if (dy >= -1e-6) return -1; // at or above the horizon
-    const K = camS.k, t1 = eye[1] / -dy, hz = Math.max(1e-9, Math.hypot(dx, dz)), eps = 1e-3 / hz;
+    const K = camS.k * vx, t1 = eye[1] / -dy, hz = Math.max(1e-9, Math.hypot(dx, dz)), eps = 1e-3 / hz;
     let t = Math.max(0, (eye[1] - maxH * K) / -dy);
     for (let k = 0; t < t1 && k < 40000; k++) {
       const c = g.cellAt(eye[0] + dx * t, eye[2] + dz * t);

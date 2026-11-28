@@ -13,7 +13,8 @@ export const exact = (s) => String(s || "").normalize("NFD").toLowerCase()
 const MAX = 8;
 
 /**
- * opts: {cities, states (list of {name, abbr, population?}), onPick({kind:'city'|'state', city?, index?})}
+ * opts: {cities, states (list of {name, abbr, population?}), onPick({kind:'city'|'state', city?, index?}),
+ *        onPicked(entry, marks)? (an extension's entry was picked), marks()? (main's marker counter)}
  */
 export function initSearch(opts) {
   const input = document.getElementById("search-input");
@@ -36,7 +37,9 @@ export function initSearch(opts) {
       pop: s.population || 0, sub: s.former && s.former.length > 1 ? `${kindOf(s)} · ${s.former.join(" + ")}` : kindOf(s), label: s.name });
   });
 
-  // Extra entries from extensions: app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick()}]) → remove()
+  // Extra entries from extensions: app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick(), at?, line?, box?}])
+  // → remove(). After pick() the place is marked on the map: at {x, y} (or [x, y]) a point, line [[x, y], …] a river,
+  // box [x0, y0, x1, y1] its middle; without any, where pick() flies the camera. docs/DATA_CONTRACTS.md "Search".
   function addEntries(list) {
     const added = (list || []).filter((e) => e && e.name && typeof e.pick === "function").map((e) => ({
       ...e, n: norm(e.name), x: exact(e.name), full: norm(e.sub), pop: e.pop || 0, label: e.label || e.name, sub: e.sub || "" }));
@@ -109,7 +112,13 @@ export function initSearch(opts) {
     close();
     input.value = "";
     input.blur();
-    if (e.pick) { e.pick(); document.getElementById("map")?.focus?.({ preventScroll: true }); return; }
+    if (e.pick) {
+      const marks = opts.marks?.();
+      e.pick();
+      opts.onPicked?.(e, marks); // main marks the place on the map (entry.at / entry.line / entry.box, see addEntries)
+      document.getElementById("map")?.focus?.({ preventScroll: true });
+      return;
+    }
     opts.onPick(e.kind === "city" ? { kind: "city", city: e.city } : { kind: "state", index: e.index });
   }
 

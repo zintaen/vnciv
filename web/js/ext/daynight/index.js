@@ -182,7 +182,7 @@ export function install(app) {
     set,
   });
   injectStyle();
-  app.daynight = { get on() { return on; }, reshade, get maxNight() { return maxNight; } };
+  app.daynight = { get on() { return on; }, reshade, get maxNight() { return maxNight; }, now };
 }
 
 function canvas(w, h) {

@@ -30,19 +30,9 @@ def cmd_serve(port="8765"):
 
 
 def cmd_package(*_):
-    """vnciv-source.zip (the project minus downloads and caches; also copied into web/ for the help link) and
-    vnciv.zip (web/ without the dev pages, ready to upload)."""
+    """vnciv.zip (web/ without the dev pages, ready to upload). The source lives on GitHub."""
     import zipfile
     root = fetch.ROOT
-    skip_dirs = {".git", ".venv", "__pycache__", "raw", "interim", "reference", ".claude"}
-    src = root / "vnciv-source.zip"
-    with zipfile.ZipFile(src, "w", zipfile.ZIP_DEFLATED) as z:
-        for p in sorted(root.rglob("*")):
-            rel = p.relative_to(root)
-            if p.is_dir() or any(part in skip_dirs for part in rel.parts) or p.suffix == ".zip" or p.name == ".DS_Store":
-                continue
-            z.write(p, "vnciv/" + str(rel))
-    (root / "web" / "vnciv-source.zip").write_bytes(src.read_bytes())
     site = root / "vnciv.zip"
     with zipfile.ZipFile(site, "w", zipfile.ZIP_DEFLATED) as z:
         for p in sorted((root / "web").rglob("*")):
@@ -50,7 +40,7 @@ def cmd_package(*_):
             if p.is_dir() or rel.parts[0] == "dev" or p.name == ".DS_Store":
                 continue
             z.write(p, "vnciv/" + str(rel))
-    print(f"{src.name} {src.stat().st_size / 1e6:.1f} MB, {site.name} {site.stat().st_size / 1e6:.1f} MB")
+    print(f"{site.name} {site.stat().st_size / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":

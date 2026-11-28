@@ -93,6 +93,7 @@ export function composeImage(info, { height = IMG_H } = {}) {
     console.warn("share: map render failed", err);
   }
   if (ok) ctx.drawImage(map, 0, 0);
+  makerBadge(ctx, IMG_W - 14, mapH - 14);
 
   // --- caption strip ---
   const y0 = mapH;
@@ -274,6 +275,27 @@ export function sharedUnit(a, b) {
   return !unit.trim() || /\d/.test(unit) ? "" : unit;
 }
 
+// A small credit in the map's bottom-right corner: the CyberSkill mark (self-hosted, preloaded by initShare) and
+// "atlasvn.online · by CyberSkill". Without the mark loaded yet, the text alone.
+const mark = typeof Image === "function" ? new Image() : null;
+function makerBadge(ctx, right, bottom) {
+  const text = t("{site} · by CyberSkill", { site: siteLabel() });
+  ctx.save();
+  ctx.font = '600 13px -apple-system, "Segoe UI", system-ui, sans-serif';
+  const hasMark = !!(mark?.complete && mark.naturalWidth);
+  const tw = ctx.measureText(text).width, h = 26, w = tw + 18 + (hasMark ? 22 : 0), x = right - w, y = bottom - h;
+  ctx.beginPath();
+  ctx.roundRect ? ctx.roundRect(x, y, w, h, 13) : ctx.rect(x, y, w, h);
+  ctx.fillStyle = "rgba(20,36,61,.72)";
+  ctx.fill();
+  if (hasMark) ctx.drawImage(mark, x + 8, y + 4, 18, 18);
+  ctx.fillStyle = "rgba(244,236,214,.92)";
+  ctx.textBaseline = "middle";
+  ctx.textAlign = "left";
+  ctx.fillText(text, x + 9 + (hasMark ? 22 : 0), y + h / 2 + 0.5);
+  ctx.restore();
+}
+
 function fit(ctx, text, maxW) {
   if (ctx.measureText(text).width <= maxW) return text;
   let s = text;
@@ -297,6 +319,7 @@ function star(ctx, x, y, R, r, color) {
  * opts: {button, getInfo() → composeImage info, fileName() → string, onToast(msg)}
  */
 export function initShare(opts) {
+  if (mark && !mark.src) mark.src = "img/brand/cyberskill-logo-mark-gold.svg"; // for the image's corner credit
   const btn = opts.button;
   const pop = document.getElementById("share-pop");
   if (!btn || !pop) return { close() {}, get isOpen() { return false; } };

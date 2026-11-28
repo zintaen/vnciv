@@ -24,3 +24,14 @@
 .coffee-steam i:nth-child(2) { animation-delay: .4s; }
 .coffee-steam i:nth-child(3) { animation-delay: .8s; }
 @keyframes coffee-steam { 0% { transform: translateY(6px) scaleY(.6); opacity: 0; } 40% { opacity: 1; } 100% { transform: translateY(-8px) scaleY(1.1); opacity: 0; } }
+
+/* The author: CyberSkill, then the coffee (app/donate.js) */
+.coffee-maker { display: flex; align-items: center; gap: 12px; text-align: left; margin: 2px 0 10px; }
+.coffee-maker img { flex: none; border-radius: 10px; }
+.coffee-maker p { margin: 0; font-size: 13.5px; line-height: 1.45; }
+.coffee-cta { display: inline-block; padding: 7px 16px; border-radius: 18px; background: #14243d; color: #f4ba17; font: 600 14px/1.2 var(--sans, sans-serif);
+  text-decoration: none; border: 1px solid #f4ba17; }
+.coffee-cta:hover, .coffee-cta:focus-visible { background: #1d3353; }
+.coffee-sep { border: 0; border-top: 1px dashed rgba(138,58,30,.3); margin: 14px 0 8px; }
+.coffee-sub { margin: 4px 0 8px; font: bold 17px/1.3 "Palatino Linotype", Palatino, Georgia, serif; color: #8a3a1e; }
+.coffee-gh { display: inline-flex; align-items: center; gap: 5px; margin-left: 10px; font-size: 13px; color: #14243d; }

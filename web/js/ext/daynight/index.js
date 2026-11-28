@@ -15,8 +15,7 @@ const NIGHT_RGB = [8, 14, 40], NIGHT_A = 0.6;
 export function install(app) {
   const M = app.motion, raw = app.w.raw, grid = app.w.grid;
   const W = raw.width, H = raw.height;
-  const GAP = 1000 / (app.isMobile?.() ? 20 : 30);
-  let lastFrame = 0, frameTimer = 0;
+  const cap = M.frameCap(1000 / (app.isMobile?.() ? 20 : 30));
   let on = false, playing = false, playT0 = 0, simMs = 0, timer = 0, lights = null, loading = null;
 
   // --- shade: sun elevation per grid pixel -------------------------------------------------------------------------
@@ -99,24 +98,18 @@ export function install(app) {
     // Real time: never active (a timer redraws on each minute). "▶ 24 h": capped at 30 fps (20 on phones) like
     // ext/motion; between capped frames active() is false and a timer asks for the next one. The play lasts DAY_S
     // (20 s), well under ext/motion's 60 s no-input pause, so it always ends by itself.
-    active() {
-      if (!on || !playing) return false;
-      const wait = lastFrame + GAP - performance.now();
-      if (wait <= 9) return true;
-      // re-check when the timer fires: a frame drawn meanwhile (traffic, hover) counts, so the cap holds
-      const arm = (ms) => { if (!frameTimer) frameTimer = setTimeout(() => { frameTimer = 0; const w = lastFrame + GAP - performance.now(); if (w <= 9) app.requestDraw(); else arm(w); }, Math.max(0, ms - 8)); };
-      arm(wait);
-      return false;
-    },
+    active: () => on && playing && cap.due(), // a frame drawn meanwhile (traffic, hover) counts, so the cap holds
     draw(ctx) {
       if (!on) return;
       if (playing) {
-        lastFrame = performance.now();
+        cap.drew();
         const p = (performance.now() - playT0) / 1000 / DAY_S;
-        if (p >= 1 || !M.enabled) { stopPlay(); return; }
-        simMs = playStart + p * 864e5;
-        reshade(simMs);
-        renderClock();
+        if (p >= 1 || !M.enabled) stopPlay(); // back to now (reshaded), drawn in this frame: no shadeless frame
+        else {
+          simMs = playStart + p * 864e5;
+          reshade(simMs);
+          renderClock();
+        }
       } else if (shadedAt < 0) reshade(Date.now());
       ctx.save();
       ctx.imageSmoothingEnabled = true;
@@ -209,7 +202,7 @@ function glow(r) {
 
 function injectStyle() {
   const css = `
-.dn-clock { position: fixed; left: 10px; top: 86px; z-index: 19; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px;
+.dn-clock { position: fixed; left: calc(10px + var(--dock-left, 0px)); top: 86px; z-index: 19; display: flex; flex-wrap: wrap; align-items: center; gap: 2px 8px;
   max-width: min(330px, calc(100vw - 20px)); padding: 5px 9px; font-size: 12px; color: var(--ink); box-sizing: border-box; }
 .dn-clock[hidden] { display: none; }
 .dn-ic { color: var(--gold-bright); font-size: 15px; }
@@ -219,7 +212,10 @@ function injectStyle() {
 .dn-play:hover { background: rgba(201,164,92,.15); }
 .dn-play[hidden] { display: none; }
 .dn-note { flex-basis: 100%; color: var(--ink-dim); font-size: 10.5px; }
-@media (max-width: 700px) { .dn-clock { top: 84px; left: 6px; padding: 3px 7px; } .dn-time { font-size: 15px; } }`;
+/* an open timeline card sits where the clock is: step to its right (desktop) or give way (phone) */
+body:has(.tl-card:not([hidden])) .dn-clock { left: calc(324px + var(--dock-left, 0px)); top: calc(var(--topbar-h) + 10px); }
+@media (max-width: 700px) { .dn-clock { top: 84px; left: 6px; padding: 3px 7px; } .dn-time { font-size: 15px; }
+  body:has(.tl-card:not([hidden])) .dn-clock { display: none; } }`;
   const s = document.createElement("style");
   s.id = "dn-style";
   s.textContent = css;

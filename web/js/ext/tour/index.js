@@ -168,7 +168,7 @@ export function install(app) {
     slides = !M.enabled;
     paused = false;
     bar.hidden = false;
-    app.hash.update();
+    app.hash.flush(); // now: the camera moves every frame from here on, and each move re-arms the debounced write
     if (slides) showSlide(0);
     else startLeg(0);
     bar.focus({ preventScroll: true }); // Space / arrows drive the tour (a focused button would take Space)

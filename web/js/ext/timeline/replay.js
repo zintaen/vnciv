@@ -399,7 +399,8 @@ export function createReplay(app, T, { onClose } = {}) {
     close();
     if (!M?.enabled) return false; // still: the 34 borders and names are the end state
     const mm = await mergerPrep();
-    if (!mm || session) return false;
+    // (merger.json may land after the year went back before 2025: the map shows the 63 again, nothing to replay)
+    if (!mm || session || w.stateLabels !== mm.labels34) return false;
     if (home) app.home?.(900);
     let p = 0, ticker = null;
     w.stateLabels = []; // the overlay draws every name until the end (the static labels come back after)
@@ -604,7 +605,7 @@ export function createReplay(app, T, { onClose } = {}) {
 
 function injectStyle() {
   const css = `
-.rp-bar { position: fixed; left: 50%; transform: translateX(-50%); bottom: 64px; z-index: 21; width: min(540px, calc(100vw - 16px));
+.rp-bar { position: fixed; left: calc(var(--dock-left, 0px) + (100vw - var(--dock-left, 0px) - var(--dock-right, 0px)) / 2); transform: translateX(-50%); bottom: 64px; z-index: 21; width: min(540px, calc(100vw - var(--dock-left, 0px) - var(--dock-right, 0px) - 16px));
   padding: 8px 10px; font-size: 13px; color: var(--ink); box-sizing: border-box; }
 .rp-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-family: var(--serif); color: var(--gold-bright); font-size: 14px; }
 .rp-read { margin: 3px 0; min-height: 18px; font-variant-numeric: tabular-nums; }

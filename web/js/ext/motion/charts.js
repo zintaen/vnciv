@@ -40,7 +40,6 @@ export function installChartMotion(M) {
 
   const seen = new WeakMap(); // host → the mutation batch that first showed a chart in it
   let batch = 0;
-  const marked = new Set();
   const io = typeof IntersectionObserver === "function" ? new IntersectionObserver((entries) => {
     for (const e of entries) {
       if (!e.isIntersecting) continue;
@@ -53,7 +52,6 @@ export function installChartMotion(M) {
   function clear(el) {
     el.classList.remove("fx", "fx-wait");
     io?.unobserve(el);
-    marked.delete(el);
   }
 
   function mark(el) {
@@ -65,7 +63,6 @@ export function installChartMotion(M) {
     const list = el.matches(STAGGER) ? el : el.querySelector(STAGGER);
     if (list) for (let k = 0; k < list.children.length; k++) list.children[k].style.setProperty("--i", k);
     el.classList.add("fx");
-    marked.add(el);
     if (io) { el.classList.add("fx-wait"); io.observe(el); } else setTimeout(() => clear(el), DONE_MS);
   }
 
@@ -77,8 +74,14 @@ export function installChartMotion(M) {
         if (n.matches(SEL)) mark(n);
         if (n.firstElementChild) for (const c of n.querySelectorAll(SEL)) mark(c);
       }
+      // A chart removed before it scrolled into view: stop observing it (the observer would keep the old panel alive).
+      if (io) for (const n of r.removedNodes) {
+        if (n.nodeType !== 1) continue;
+        if (n.classList.contains("fx-wait")) clear(n);
+        if (n.firstElementChild) for (const c of n.querySelectorAll(".fx-wait")) clear(c);
+      }
     }
   }).observe(document.body, { childList: true, subtree: true });
 
-  M.on("change", (on) => { if (!on) for (const el of [...marked]) clear(el); });
+  M.on("change", (on) => { if (!on) for (const el of document.querySelectorAll(".fx")) clear(el); });
 }

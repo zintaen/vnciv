@@ -379,17 +379,25 @@ export async function install(app) {
     if (sig === marksSig) return;
     marksSig = sig;
     const span = b + 1 - a || 1;
-    marks.innerHTML = evs.map((e) => {
-      const p = ((e.year - a) / span) * 100;
-      return `<button type="button" class="tl-mark" data-id="${esc(e.id)}" style="left:${p.toFixed(2)}%" title="${esc(`${fmtDate(e)}: ${titleOf(e)}`)}" aria-label="${esc(`${fmtDate(e)}: ${titleOf(e)}`)}"></button>`;
+    // One mark per year (marks of the same year would sit on top of each other, only the last one clickable): a year
+    // with several events opens the History list at its first one.
+    const years = [...new Set(evs.map((e) => e.year))];
+    marks.innerHTML = years.map((y) => {
+      const p = ((y - a) / span) * 100, of = evs.filter((e) => e.year === y);
+      const label = of.map((e) => `${fmtDate(e)}: ${titleOf(e)}`);
+      return `<button type="button" class="tl-mark" data-id="${esc(of[0].id)}" data-n="${of.length}" style="left:${p.toFixed(2)}%" title="${esc(label.join("\n"))}" aria-label="${esc(label.join("; "))}"></button>`;
     }).join("");
   }
   marks.addEventListener("click", (ev) => {
     const m = ev.target.closest(".tl-mark");
     if (!m) return;
-    const e = allEvents().find((x) => x.id === m.dataset.id);
+    const all = allEvents(), k = all.findIndex((x) => x.id === m.dataset.id), e = all[k];
     if (!e) return;
     setYear(e.year);
+    if (+m.dataset.n > 1) {
+      showHistory(k);
+      return void cardEl.querySelector(`.tl-hist-item[data-k="${k}"]`)?.parentElement.scrollIntoView({ block: "nearest" });
+    }
     showEvent(e);
     if (e.x != null) app.flyTo(e.x, e.y, Math.max(app.cam.scale, 1.2));
   });

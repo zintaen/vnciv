@@ -162,6 +162,7 @@ export function initPedia(data) {
     const first = f[0], last = f[f.length - 1];
     if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
     else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    else if (!f.includes(document.activeElement)) { e.preventDefault(); (e.shiftKey ? last : first).focus(); } // focus on the card itself (a click on its text)
   });
 
   return {

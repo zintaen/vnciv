@@ -109,6 +109,9 @@ const CSS = `
 #view3d-panel .v3-text { flex: 1; min-width: 0; }
 #view3d-panel .v3-hint { opacity: .7; font-size: 11.5px; margin-top: 2px; }
 #view3d-panel .v3-btns { display: flex; gap: 6px; flex: none; }
+#view3d-panel.v3-compact .v3-text { display: none; }
+#view3d-panel.v3-compact .v3-btns { margin: 0 auto; }
+#view3d-panel[hidden] { display: none; }
 #btn-view3d[aria-pressed="true"] { outline: 2px solid #e2b23a; outline-offset: -2px; }
 @media (max-width: 700px) { /* below the timeline bar; text full width, buttons under it */
   #view3d-panel { top: calc(var(--topbar-h, 48px) + 46px); font-size: 11.5px; padding: 6px 8px; flex-direction: column; gap: 6px; }
@@ -123,7 +126,7 @@ export function install(app) {
 
   let on = false, canvas = null, ctxGL = null, prog = null, loc = null, labelsEl = null, panel = null, raf = 0;
   let bufGeo, bufInst, bufH, bufCol, maxH = 1, order = null, nWater = 0, bindInst = null;
-  let slowAvg = 16, lastNow = 0, slow = false, heights = null, lastRgb = null, lastLens = undefined, dirty = true, hover = null;
+  let waterT = 0, slowAvg = 16, lastNow = 0, slow = false, heights = null, lastRgb = null, lastLens = undefined, dirty = true, hover = null;
   // camera: target on the ground (map units), distance, yaw (0 = north up), pitch; k = height factor (0 flat .. 1)
   const camS = { tx: 0, ty: 0, d: 1000, yaw: 0, pitch: FLAT, k: 0 };
   let home = null; // the tilted framing on entry (Reset goes back to it)
@@ -278,6 +281,44 @@ export function install(app) {
       <div class="v3-btns"><button type="button" class="btn v3-reset">${esc(t("Reset view"))}</button><button type="button" class="btn v3-exit">${esc(t("2D map"))}</button></div>`;
     panel.querySelector(".v3-reset").onclick = () => animateTo(home, 600);
     panel.querySelector(".v3-exit").onclick = () => exit();
+    place();
+  }
+  // Above 700 px the panel sits in the top band between the timeline (and a card under it) and whatever is on the
+  // right (a dock, the docked legend, a city panel), centred in that gap. With less room it drops its text, and with
+  // none it hides (the top-bar 3D button still leaves 3D, double-click still centres).
+  const box = (sel) => [...document.querySelectorAll(sel)].map((e) => e.getBoundingClientRect()).filter((r) => r.width > 0 && r.height > 0); // (hidden: 0 × 0)
+  function place() {
+    if (!on || !panel) return;
+    const st = panel.style;
+    st.left = st.width = st.transform = st.top = "";
+    panel.hidden = false;
+    panel.classList.remove("v3-compact");
+    if (innerWidth <= 700) { // phone: full width under the timeline, and under a card opened there
+      const under = box("#turn, .tl-card, .cv-maplegend").reduce((m, q) => Math.max(m, q.bottom), 0);
+      if (under > panel.getBoundingClientRect().top) st.top = `${Math.round(under + 6)}px`;
+      return;
+    }
+    const px = (v) => parseFloat(getComputedStyle(document.body).getPropertyValue(v)) || 0;
+    const band = panel.getBoundingClientRect();
+    const inBand = (r) => r.top < band.bottom && r.bottom > band.top;
+    let l = px("--dock-left") + 12, r = innerWidth - px("--dock-right") - 12;
+    for (const q of box("#turn, .tl-card, .cv-maplegend")) if (inBand(q) && q.left < innerWidth / 2) l = Math.max(l, q.right + 10);
+    for (const q of box("#legend, #city-panel")) if (inBand(q) && q.left > l) r = Math.min(r, q.left - 10);
+    const room = r - l;
+    if (room < 230) { panel.hidden = true; return; }
+    if (room < 420) panel.classList.add("v3-compact");
+    const wd = Math.min(560, room);
+    st.left = `${Math.round(l + (room - wd) / 2)}px`; st.width = `${Math.round(wd)}px`; st.transform = "none";
+  }
+  // On the next frame: a window resize reaches here before the docks and the legend have moved (and the
+  // ResizeObserver sees sizes, not moves).
+  let placeRaf = 0;
+  const placeSoon = () => { cancelAnimationFrame(placeRaf); placeRaf = requestAnimationFrame(() => { placeRaf = 0; place(); }); };
+  const ro = typeof ResizeObserver === "function" ? new ResizeObserver(placeSoon) : null;
+  function observe() { // what place() steers around; a card or legend showing, hiding or resizing re-places the panel
+    if (!ro) return;
+    ro.disconnect();
+    document.querySelectorAll("#turn, .tl-card, .cv-maplegend, #legend, #city-panel").forEach((e) => ro.observe(e));
   }
 
   // --- camera -----------------------------------------------------------------------------------------------------
@@ -334,10 +375,12 @@ export function install(app) {
     if (lastNow) slowAvg = slowAvg * 0.9 + Math.min(100, now - lastNow) * 0.1; // one hitch (a lens upload) cannot trip it
     lastNow = now;
     if (slowAvg > 45) slow = true;
-    const live = M?.enabled && !slow; // water shimmer + growth only while motion is on
+    // water shimmer + growth only while motion is on, and not after a minute without input (app.motion's battery rule)
+    const live = M?.enabled && !slow && !M.idle;
     let gk = 1;
     if (grow) { const p = live ? (now - grow.t0) / GROW_MS : 1; if (p >= 1) grow = null; else gk = ease(p); dirty = true; }
-    if (dirty || live) draw(live ? now / 1000 : 0, gk); // still water when motion is off
+    if (live) waterT = now / 1000;
+    if (dirty || live) draw(waterT, gk); // still water when motion is off or idle
     dirty = false;
     if (perf.push(performance.now() - t0) > 120) perf.shift();
     if (anim || grow || live) kick();
@@ -528,6 +571,7 @@ export function install(app) {
     lastLens = undefined; lastRgb = null; // force an upload (no grow animation on entry)
     btn?.setAttribute("aria-pressed", "true");
     document.body.classList.add("view3d-on");
+    observe(); place();
     animateTo(home, ENTER_MS);
     (app.hash?.flush || app.hash?.update)?.();
   }
@@ -545,7 +589,7 @@ export function install(app) {
     const finish = () => {
       on = false; M?.pause?.(false); anim = null;
       cancelAnimationFrame(raf); raf = 0;
-      canvas?.remove(); labelsEl?.remove(); panel?.remove();
+      canvas?.remove(); labelsEl?.remove(); panel?.remove(); ro?.disconnect();
       btn?.setAttribute("aria-pressed", "false");
       document.body.classList.remove("view3d-on");
       app.requestDraw(); // resume the 2D loop (motion frames were paused)
@@ -557,6 +601,10 @@ export function install(app) {
   const toggle = () => (on ? exit() : enter());
 
   addEventListener("resize", () => { if (on) { dirty = true; kick(); } });
+  app.on?.("resize", placeSoon); // also when a dock opens or closes
+  addEventListener("resize", placeSoon);
+  document.addEventListener("transitionend", (e) => { if (on && e.target?.id === "city-panel") placeSoon(); }); // it slides in
+  app.on?.("mode", () => { if (on) { observe(); placeSoon(); } }); // City View brings its map legend
   app.on?.("escape", () => { if (on) { exit(); return true; } return false; });
   app.on?.("lens", () => { if (on) { dirty = true; kick(); } });
   M?.on?.("change", () => { if (on) { dirty = true; kick(); } });
@@ -575,6 +623,7 @@ export function install(app) {
       if (!on) return;
       if (!leaving && landFlight()) animateTo(framing(app.cam.x, app.cam.y, app.cam.scale, camS.yaw), 900);
       if (w.rgb !== lastRgb || (app.shownLens?.() || null) !== lastLens) { dirty = true; kick(); }
+      if (M.enabled && !M.idle) kick(); // the first input after an idle minute (app.motion asks for a 2D frame): shimmer resumes
     } });
   app.hash?.register?.("view3d", { get: () => (on ? "1" : null), set: (v) => (v === "1" ? enter() : exit(true)) });
 

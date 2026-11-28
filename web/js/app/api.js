@@ -515,6 +515,7 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
     if (!pop) return;
     restoreFocus = document.activeElement;
     pop.hidden = false;
+    document.getElementById("legend")?.classList.add("behind"); // as the lens picker: above a legend it would run off the top
     btn.setAttribute("aria-expanded", "true");
     render();
     pop.querySelector("[data-toggle]")?.focus();
@@ -522,6 +523,7 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
   function close(restore = true) {
     if (!pop || pop.hidden) return false;
     pop.hidden = true;
+    document.getElementById("legend")?.classList.toggle("behind", document.getElementById("lens-picker")?.hidden === false);
     btn.setAttribute("aria-expanded", "false");
     if (restore) (restoreFocus && document.contains(restoreFocus) ? restoreFocus : btn).focus();
     return true;

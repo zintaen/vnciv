@@ -1001,3 +1001,5 @@ slide / fade in with CSS (off under `.no-motion` and reduced motion); flights ke
 instantly under reduced motion.
 
 - `app.motion.pause(bool)`: stop the loop's frame requests while another view covers the 2D map (the 3D view uses it); `pause(false)` resumes.
+- `app.motion.idle`: one shared no-input clock (pointer, key, wheel, touch); ambient items stop after 60 s without input and the first input asks for a frame.
+- `app.motion.frameCap(gapMs)` → `{due(), drew()}`: the shared frame cap (30 fps desktop, 20 phone) the ambient items use; `due()` is true when a frame may be drawn, else it arms a timer that re-checks when it fires.

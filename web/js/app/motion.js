@@ -7,6 +7,7 @@ const KEY = "vnciv-motion";
 const BUDGET_MS = 6; // average motion draw time per frame above which ambient items drop to half rate (lowPower)
 const WINDOW_MS = 2000;
 const MAX_STEP_MS = 50;
+const IDLE_MS = 60000; // ambient motion pauses after a minute without input
 
 export const EASE = {
   linear: (p) => p,
@@ -56,6 +57,16 @@ export function createMotion({ requestDraw }) {
   }
   document.addEventListener("visibilitychange", check);
   reduce.addEventListener?.("change", check);
+
+  // Battery policy for ambient motion (docs/DATA_CONTRACTS.md "Motion"): it pauses after IDLE_MS without input, and
+  // the first input after that asks for a frame so it resumes.
+  let lastInput = performance.now();
+  const wake = () => {
+    const was = performance.now() - lastInput > IDLE_MS;
+    lastInput = performance.now();
+    if (was) requestDraw();
+  };
+  for (const ev of ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"]) globalThis.addEventListener?.(ev, wake, { passive: true, capture: true });
 
   const isActive = (it) => {
     try { return !!it.active?.(); } catch (err) { warn(it, err); return false; }
@@ -115,6 +126,31 @@ export function createMotion({ requestDraw }) {
       }));
     },
     items: () => items.map((x) => x.id),
+    /** True after a minute without input: ambient motion holds still (zero frames) until the next input. */
+    get idle() { return performance.now() - lastInput > IDLE_MS; },
+    /** A frame cap for an ambient item: at most one frame per `gap` ms. due() says whether this frame may draw; when
+     *  not, a timer asks for one (request()) ~8 ms before the next slot (rAF then waits for vsync), re-checking when
+     *  it fires, since a frame drawn meanwhile by anything else counts (drew()). */
+    frameCap(gap, request = requestDraw) {
+      let last = 0, timer = 0;
+      const arm = (wait) => {
+        if (timer) return;
+        timer = setTimeout(() => {
+          timer = 0;
+          const w = last + gap - performance.now();
+          if (w <= 9) request(); else arm(w);
+        }, Math.max(0, wait - 8));
+      };
+      return {
+        due() {
+          const wait = last + gap - performance.now();
+          if (wait <= 9) return true; // within about half a 60 Hz frame: the next one is close enough
+          arm(wait);
+          return false;
+        },
+        drew() { last = performance.now(); },
+      };
+    },
   };
   const counting = new WeakMap();
 

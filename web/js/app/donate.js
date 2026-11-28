@@ -18,7 +18,7 @@ export function initDonate() {
   modal.className = "modal coffee-modal";
   modal.hidden = true;
   modal.innerHTML = `
-    <div class="coffee-card panel" role="dialog" aria-modal="true" aria-labelledby="coffee-title">
+    <div class="coffee-card panel" tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="coffee-title">
       <button class="icon-btn coffee-close" type="button" aria-label="${t("Close")}">✕</button>
       <div class="coffee-steam" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="coffee-mug" aria-hidden="true">☕</div>

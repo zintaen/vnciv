@@ -290,39 +290,19 @@ export function install(app) {
   // after a minute without input. Between capped frames active() is false so the loop idles; a timer asks for the
   // next frame ~8 ms early and re-checks when it fires (a frame drawn meanwhile by something else counts). Frames the
   // app draws anyway still show the traffic at its own clock, which stops while paused: glyphs hold still.
-  const GAP = 1000 / (mobile ? 20 : 30), IDLE_MS = 60000;
-  let lastInput = performance.now(), lastDraw = 0, timer = 0, clock = 0, clockAt = 0;
-  const wake = () => {
-    const idle = performance.now() - lastInput > IDLE_MS;
-    lastInput = performance.now();
-    if (idle) app.requestDraw();
-  };
-  for (const ev of ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"]) addEventListener(ev, wake, { passive: true, capture: true });
+  const cap = M.frameCap(1000 / (mobile ? 20 : 30));
+  let clock = 0, clockAt = 0;
   // Before the data arrives: true, so draw() runs and loads it; then only while a route is on screen.
-  const running = () => on && (!model || anyVisible()) && performance.now() - lastInput < IDLE_MS;
-  const arm = (wait) => {
-    if (timer) return;
-    timer = setTimeout(() => {
-      timer = 0;
-      const w = lastDraw + GAP - performance.now();
-      if (w <= 9) app.requestDraw(); else arm(w);
-    }, wait - 8);
-  };
+  const running = () => on && (!model || anyVisible()) && !M.idle;
   M.register({
     id: "motion-traffic", z: 88,
-    active() {
-      if (!running()) return false;
-      const wait = lastDraw + GAP - performance.now();
-      if (wait <= 9) return true;
-      arm(wait);
-      return false;
-    },
+    active: () => running() && cap.due(),
     draw(ctx, cam, a, f) {
       if (!on) { nHit = 0; return; }
       ensure();
       const now = performance.now();
       if (running()) { clock += clockAt ? Math.min(now - clockAt, 250) : 0; clockAt = now; } else clockAt = 0;
-      lastDraw = now;
+      cap.drew();
       draw(ctx, cam, f, clock / 1000);
       if (!f.still && perf.push(performance.now() - now) > 240) perf.shift();
     },

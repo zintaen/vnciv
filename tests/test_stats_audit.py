@@ -90,6 +90,8 @@ class TestStats(unittest.TestCase):
         self.assertEqual(wind_kt([" ", " ", "40"], ix), (None, 40))
         self.assertEqual(wind_kt([" ", " ", " "], ix), (None, None))
 
+    @unittest.skipUnless((Path(__file__).resolve().parent.parent / "data" / "raw" / "ibtracs").is_dir(),
+                         "needs data/raw (run `pipeline all`)")
     def test_storm_max_wind_never_jtwc_for_a_jma_storm(self):
         """A storm JMA estimated takes its maximum from JMA's winds only: a JTWC-only row (before JMA starts or
         after it stops, e.g. Warren 1981: JMA 35 kt, JTWC 45 kt) must not raise it."""

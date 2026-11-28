@@ -119,11 +119,12 @@ rows it wrote before and rebuilds them). Sources, all downloaded on 28 Nov 2026:
 - Not used, with the reason: PX V02.09 sex ratio (disagrees with the 2025 yearbook for 8 provinces in 2023; the
   2019/2021 values come from the 2023 yearbook instead); V05.05 2017-2020 (Bắc Ninh and Quảng Ninh differ from
   V05.04 ÷ V02.03); V02.31 2019-2023 (about 26-32 thousand divorces a year nationally against 182 thousand in 2024:
-  a change of scope).
+  a change of scope); farms 2019 (the 2019-2023 yearbooks' footnote: up to 2019 the farm criteria of Circular
+  27/2011/TT-BNNPTNT, from 2020 Circular 02/2020/TT-BNNPTNT; 31,908 farms nationally in 2019 against 23,680 in 2020).
 - Breaks noted in timeline.json (`series[id].note`): labour figures from 2021 follow ICLS19 (2025 yearbook p.151
   footnote); HDI from 2020 uses 2017 PPPs (p.1485 footnote); population is adjusted to the 2019 census.
-- USD: the World Bank series in `wb_fx.json` starts in 2020, so 2019 money values have no USD lens value (the 2019 rate
-  is published by the World Bank; `wb_fx.json` belongs to the FX update and should be fetched with `date=2019:2026`).
+- USD: `wb_fx.json` (World Bank PA.NUS.FCRF, `date=2019:2026`) has 2019-2024; each year's money values use that
+  year's rate (2025 uses 2024's, recorded in timeline.json `fx_used`).
 - `series_national.csv`: NSO's national row ("CẢ NƯỚC") of each series' cited table, per year (2025 yearbook first,
   then PX-Web, then the older editions, then `national.csv`); nation.json `series`.
 - `completeness.csv`: indicator × level × year 2019-2026, provinces present, and the reason for every gap

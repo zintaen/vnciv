@@ -969,7 +969,8 @@ registered item's `active()` is true, and only while motion is enabled.
   layer, so it is not written to the `layers=` hash (`app.ui.addMapToggle({..., hash: false})`). While the switch is
   off, `<html>` has the class `no-motion` (CSS animations and transitions of the motion work are off).
 * `app.motion.on("change", fn(enabled))` → off(): `enabled` flipped (switch, reduced-motion setting, tab hidden /
-  shown). When it turns false every running tween jumps to its end first.
+  shown). When the switch goes off or reduced motion comes on, every running tween jumps to its end first; a hidden tab
+  only pauses them (they carry on when it is shown again).
 * `app.motion.register({id, z, active() → bool, draw(ctx, cam, app, f), ambient = true})` → unregister(). Same id
   again replaces the item. `draw` runs on **every** frame the map draws (whatever caused it), in the world transform
   (km, like `registerOverlay`); `z < 100` draws under the city banners, `z ≥ 100` above them. Keep `draw` cheap when

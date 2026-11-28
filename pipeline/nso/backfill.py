@@ -75,6 +75,10 @@ PX_ONLY_YEARS = {'divorces': ({2024}, 'V02.31 counts about 26-32 thousand divorc
                                       'thousand for 2024, which matches the 2025 yearbook; the earlier years count a '
                                       'narrower set of cases')}
 PX_YEAR_CHECK = {'enterprises_per_1000': per1000_check}
+# definition breaks printed in an older edition's own table footnote: years before the first comparable one are not
+# taken from the yearbooks (the 95% agreement test cannot see them, the shared years are all after the break)
+YB_FIRST_YEAR = {'farms': (2020, 'farm criteria of Circular 27/2011/TT-BNNPTNT up to 2019, Circular 02/2020/TT-BNNPTNT '
+                                 'from 2020 (Statistical Yearbook 2023, p.582 footnote)')}
 
 
 def status_of(label):
@@ -282,8 +286,10 @@ def main():
                     n = len({k[0] for k in fin if k in ref})
                     if bad or not shared or n < 10: continue   # a table split over pages counts page by page
                     cands.append(((t == title, n), a_, b_, vals))
+            first = YB_FIRST_YEAR.get(name, (0,))[0]
             for _, a_, b_, vals in sorted(cands, key=lambda c: c[0], reverse=True):
                 for (s, y), (v, stt) in vals.items():
+                    if y < first: continue
                     url = f'{YB[e]} (Statistical Yearbook {e}, table p.{a_}-{b_})'
                     if s == NAT:
                         if y in YEARS: natl.setdefault((name, y), (v, stt, url, unit))
@@ -292,6 +298,7 @@ def main():
                                           'source_url': url}
                         got.append((e, y)); ref[(s, y)] = v
         added[name] = added.get(name, 0) + len(got)
+        if name in YB_FIRST_YEAR: rep.append(f'YB {name}: years before {YB_FIRST_YEAR[name][0]} not used ({YB_FIRST_YEAR[name][1]})')
         if got: rep.append(f"YB {name}: +{len(got)} {sorted(set(got))}")
         else: rep.append(f'YB {name}: nothing added')
     # national.csv (NSO's own national figures of the single-year 2025 tables) for the 2025 rows those tables lack

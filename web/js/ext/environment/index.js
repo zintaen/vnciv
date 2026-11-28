@@ -310,11 +310,40 @@ export function install(app) {
       ctx.globalAlpha = 1;
     },
   });
+  // Battery (the policy of ext/motion and ext/traffic): the ripple runs at 30 fps (20 on phones) and stops after a
+  // minute without input; between capped frames active() is false and a timer asks for the next frame. A step the
+  // user started (anim) runs at full rate.
+  const GAP = 1000 / (app.isMobile?.() ? 20 : 30), IDLE_MS = 60000;
+  let lastInput = performance.now(), lastRipple = 0, rippleTimer = 0;
+  const wake = () => {
+    const idle = performance.now() - lastInput > IDLE_MS;
+    lastInput = performance.now();
+    if (idle) app.requestDraw();
+  };
+  for (const ev of ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"]) addEventListener(ev, wake, { passive: true, capture: true });
+  // The timer re-checks when it fires: a frame drawn meanwhile (by anything) moved lastRipple, so it waits again.
+  const arm = (wait) => {
+    if (rippleTimer) return;
+    rippleTimer = setTimeout(() => {
+      rippleTimer = 0;
+      const w = lastRipple + GAP - performance.now();
+      if (w <= 9) app.requestDraw(); else arm(w);
+    }, wait - 8);
+  };
+  function rippleDue() {
+    if (performance.now() - lastInput > IDLE_MS || !flooded.length || !anyInView()) return false;
+    const wait = lastRipple + GAP - performance.now();
+    if (wait <= 9) return true;
+    arm(wait);
+    return false;
+  }
   M.register({ // ambient: the ripple on flooded water, and a brighter shimmer on cells as they flood
     id: "sealevel-water", z: 21,
-    active: () => on && !!data && (!!anim || (flooded.length > 0 && anyInView())),
+    active: () => on && !!data && (!!anim || rippleDue()),
     draw(ctx, cam, a, f) {
-      if (!on || !data || f.still || !f.active || (f.moving && !anim)) return; // pans/zooms skip the decoration
+      // (drawn on every frame, capped or not, so the texture never blinks; pans/zooms skip the decoration)
+      if (!on || !data || f.still || (!flooded.length && !anim) || (f.moving && !anim)) return;
+      lastRipple = performance.now();
       const pt = pattern(ctx);
       if (!pt) return;
       const g = a.w.grid, s = cam.scale;

@@ -60,7 +60,9 @@ KNOWN_GAPS = [
      "The appendix lists the main producing provinces only."),
     (("shrimp_aquaculture",), "34", list(range(2020, 2026)), 28, "Provinces without shrimp farming have no row."),
     (("shopping_centres",), "34", list(range(2020, 2026)), 32, "Provinces without a shopping centre have no row."),
-    (("farms",), "63", list(range(2019, 2026)), 61, "Two former provinces have no farm row (no farms)."),
+    (("farms",), "63", [2019], 0, "The farm criteria changed in 2020 (Circular 27/2011/TT-BNNPTNT up to 2019, "
+     "Circular 02/2020/TT-BNNPTNT from 2020; Statistical Yearbook 2023, p.582 footnote), so 2019 is not combined."),
+    (("farms",), "63", list(range(2020, 2026)), 61, "Two former provinces have no farm row (no farms)."),
     (("farms",), "34", list(range(2020, 2026)), 33, "One province has no farm row (no farms)."),
     (("sugarcane_production",), "63", list(range(2019, 2025)), 61, "Two former provinces grow no sugarcane (no row)."),
     (("sugarcane_production",), "63", [2025], 59, "Also Bến Tre and Hưng Yên: their 2025 rows have blank cells "
@@ -197,6 +199,15 @@ class TestCompleteness(unittest.TestCase):
         nation = json.loads((DATA / "nation.json").read_text())["nation"]
         self.assertEqual(nation["growth_years"], [2019, 2025])
         self.assertEqual(sorted(nation["pop_series"])[0], "2019")
+
+    def test_farms_definition_break_not_combined(self):
+        # the 2019-2023 yearbooks count 2019 farms under Circular 27/2011 and 2020 on under Circular 02/2020 (p.582
+        # footnote of the 2023 edition): 31,908 -> 23,680 farms; the 2019 column must not be spliced onto the series
+        self.assertFalse([r for r in read(STATS / "series" / "farms.csv") if r["year"] == "2019"])
+        nat = json.loads((DATA / "nation.json").read_text())["series"]["farms"]["values"]
+        self.assertNotIn("2019", nat)
+        self.assertNotIn("2019", {y for d in json.loads((DATA / "timeline.json").read_text())["series"]["farms"]["levels"].values()
+                                  for v in d.values() for y in v})
 
     def test_derived_34_sums(self):
         # the 34-province rice/cereal rows are the sums of their former provinces (appendix rows are swapped)

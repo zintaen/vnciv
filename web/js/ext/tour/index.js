@@ -108,7 +108,11 @@ export function install(app) {
       onUpdate: (p) => { v = p; frame(L, p); },
       onDone: () => { cancel = null; if (active && !slides && M.enabled) startLeg(i + 1); } });
   }
+  // The tour flies the 2D camera: the 3D view (ext/view3d) would hide it, so entering 3D pauses the tour and playing or
+  // stepping it leaves 3D.
+  const leave3d = () => { if (app.view3d?.on) app.view3d.exit(true); };
   function frame(L, p) {
+    if (app.view3d?.on) { if (!paused) togglePause(); return; }
     const el = p * L.total;
     if (el < L.fly) {
       const [x, y, vw] = L.path(easeInOut(el / L.fly));
@@ -123,8 +127,7 @@ export function install(app) {
   }
   function togglePause() {
     if (slides || i >= stops.length) return;
-    if (paused) run();
-    else { cancel?.(); cancel = null; paused = true; renderCtl(); }
+    if (paused) { leave3d(); run(); } else { cancel?.(); cancel = null; paused = true; renderCtl(); }
   }
   function finish() {
     i = stops.length;
@@ -143,6 +146,7 @@ export function install(app) {
   }
   function go(n) {
     if (!active) return;
+    leave3d();
     n = Math.max(0, Math.min(stops.length, n));
     if (slides) return showSlide(n);
     if (n >= stops.length) { cancel?.(); cancel = null; return finish(); }
@@ -159,6 +163,7 @@ export function install(app) {
     if (!stops.length) { active = false; return; }
     if (app.mode) app.setMode(null);
     app.clearSelection?.();
+    leave3d();
     document.body.classList.add("tour-on");
     slides = !M.enabled;
     paused = false;
@@ -190,6 +195,8 @@ export function install(app) {
     } else if (on && autoPaused) { autoPaused = false; run(); }
   });
   app.on("escape", () => { if (!active) return false; stop(); return true; });
+  // Opening an advisor or the City View takes the camera (and the screen): the tour ends, as starting it closes them.
+  app.on("mode", (e) => { if (active && e?.name) stop(); });
   addEventListener("keydown", (e) => {
     if (!active || e.defaultPrevented || e.metaKey || e.ctrlKey || e.altKey) return;
     if (/^(INPUT|TEXTAREA|SELECT)$/.test(e.target?.tagName) || (e.target?.tagName === "BUTTON" && e.key === " ")) return;

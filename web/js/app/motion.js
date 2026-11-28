@@ -33,7 +33,8 @@ export function createMotion({ requestDraw }) {
   const enabled = () => user && !reduce.matches && !document.hidden;
 
   function finishAll() {
-    for (const tw of [...tweens]) end(tw);
+    // (an onDone may cancel or start other tweens: end only the ones still running)
+    for (const tw of [...tweens]) if (tweens.has(tw)) end(tw);
   }
   function end(tw) {
     tweens.delete(tw);
@@ -42,9 +43,11 @@ export function createMotion({ requestDraw }) {
   function check() {
     const on = enabled();
     document.documentElement.classList.toggle("no-motion", !user);
+    // Effects off or reduced motion: every tween lands. A hidden tab only pauses them (no frames run), so a replay
+    // or a fade carries on when the tab comes back (a frame advances a tween by at most MAX_STEP_MS).
+    if (!user || reduce.matches) finishAll();
     if (on === lastOn) return;
     lastOn = on;
-    if (!on) finishAll();
     lastNow = 0;
     for (const fn of [...listeners]) {
       try { fn(on); } catch (err) { console.error("motion change handler failed", err); }

@@ -2,7 +2,8 @@
 //  * storms   a storm (or every storm of a season, one after another) along its IBTrACS best track in compressed time
 //             (1 day ≈ 1.5 s at ×1): a spinning eye coloured by the wind of the latest fix, a trail coloured by wind
 //             (grey dashes where the agency gives no wind), and the hexes within 100 km lighting up as the eye passes
-//             (the Typhoons lens rule: the hex centre within 100 km of the track). Times are shown in Vietnam time.
+//             (the Typhoons lens rule: the hex centre within 100 km of a stretch of track where either end has 34 kt or
+//             more; a weaker pass lights nothing). Times are shown in Vietnam time.
 //  * merger   1 July 2025: the 11 unchanged provinces pulse, then the 23 merged ones in merger.json `order` lose their
 //             inner (former-province) borders while the former names glide to the new name.
 //  * forest   the forest_loss lens accumulating year by year (2001 → 2025, the per-year Hansen loss, not interpolated),
@@ -101,11 +102,13 @@ export function createReplay(app, T, { onClose } = {}) {
       const cx = Math.max(0, Math.min(raw.width, p[1])), cy = Math.max(0, Math.min(raw.height, p[2]));
       x0 = Math.min(x0, cx); y0 = Math.min(y0, cy); x1 = Math.max(x1, cx); y1 = Math.max(y1, cy);
     });
-    // The time each of the storm's hexes first comes within reach of the moving eye (positions linear between fixes).
+    // The time each of the storm's hexes first comes within reach of the moving eye (positions linear between fixes),
+    // on the stretches the lens counts (pipeline/build/lenses.py typhoons(): either end at 34 kt or more; no wind = 0).
     const cells = ts?.cells || [], r2 = reach * reach, k = cells.length;
     const lit = cells.map((c) => {
       const cx = grid.cx(c), cy = grid.cy(c);
       for (let j = 0; j + 1 < m; j++) {
+        if (!(Math.max(kt[j] || 0, kt[j + 1] || 0) >= 34)) continue;
         const ax = x[j] - cx, ay = y[j] - cy, dx = x[j + 1] - x[j], dy = y[j + 1] - y[j];
         const c0 = ax * ax + ay * ay - r2;
         if (c0 <= 0) return [c, tm[j]];
@@ -132,8 +135,9 @@ export function createReplay(app, T, { onClose } = {}) {
     const many = tracks.length > 1, id = {};
     let k = 0, clock = 0, speed = 0, paused = false, follow = false, spin = 0, last = 0, hour = -1, still = false, ticker = null;
     let j = 0, ex = 0, ey = 0; // the latest fix at or before the clock, and the eye's position
+    let glide = null; // follow: the camera centre being glided to
     const legend = `<span class="rp-legend">${BANDS.map((b) => `<span><i style="background:${b.color}"></i>${esc(t(b.label))}</span>`).join("")}<span><i class="rp-nw"></i>${esc(t("no estimate"))}</span></span>
-      <span class="rp-note">${esc(t("Hexes light up when the eye passes within 100 km (the lens's rule). Wind: the agency's best-track estimate at each fix."))}</span>`;
+      <span class="rp-note">${esc(t("Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's best-track estimate at each fix."))}</span>`;
     const setTitle = () => {
       const tr = tracks[k];
       titleEl.textContent = many ? `${tr.name} (${k + 1}/${tracks.length}) · ${t("Storms of {year}", { year })}` : `${tr.name} · ${tr.st.season}`;
@@ -187,14 +191,22 @@ export function createReplay(app, T, { onClose } = {}) {
       locate();
       readout();
       if (follow && !app.cam.flight) {
-        // soft follow: re-centre once the eye nears the edge of the view (a per-frame pan would re-render
-        // the static map every few frames on slow devices; the new centre leads the eye along its heading, so the
-        // jumps stay few)
-        const a = app.visibleArea(), [sx, sy] = app.cam.toScreen(ex, ey), mx = (a.x1 - a.x0) * 0.12, my = (a.y1 - a.y0) * 0.12;
-        if (sx < a.x0 + mx || sx > a.x1 - mx || sy < a.y0 + my || sy > a.y1 - my) {
+        // soft follow: once the eye nears the edge of the view, glide (a pan at the same scale) to a new centre that
+        // leads the eye along its heading. A same-scale pan blits the cached static map and re-renders it only when
+        // it runs off the cache's margin; a flyTo's zoom arc re-rendered it several times per jump (~15 fps at 4×).
+        const c = app.cam, a = app.visibleArea(), [sx, sy] = c.toScreen(ex, ey), mx = (a.x1 - a.x0) * 0.12, my = (a.y1 - a.y0) * 0.12;
+        if (!glide && (sx < a.x0 + mx || sx > a.x1 - mx || sy < a.y0 + my || sy > a.y1 - my)) {
           const tr = tracks[k], j1 = Math.min(j + 1, tr.m - 1), j0 = j1 - 1;
-          const hx = tr.x[j1] - tr.x[j0], hy = tr.y[j1] - tr.y[j0], hl = Math.hypot(hx, hy) || 1, lead = 0.3 * (a.x1 - a.x0) / app.cam.scale;
-          app.flyTo(ex + (hx / hl) * lead, ey + (hy / hl) * lead, app.cam.scale, 700);
+          const hx = tr.x[j1] - tr.x[j0], hy = tr.y[j1] - tr.y[j0], hl = Math.hypot(hx, hy) || 1, lead = 0.3 * (a.x1 - a.x0) / c.scale;
+          // the eye goes where the screen point (sx, sy) of the free area's centre is
+          const ox = ((a.x0 + a.x1) / 2 - c.w / 2) / c.scale, oy = ((a.y0 + a.y1) / 2 - c.h / 2) / c.scale;
+          glide = [ex + (hx / hl) * lead - ox, ey + (hy / hl) * lead - oy];
+        }
+        if (glide) {
+          const x0 = c.x, y0 = c.y, u = Math.min(1, dt * 5); // ~90% of the way in 0.45 s
+          c.centerOn(x0 + (glide[0] - x0) * u, y0 + (glide[1] - y0) * u);
+          // there (or held by the map's edge): done
+          if (Math.hypot(glide[0] - c.x, glide[1] - c.y) * c.scale < 0.5 || (c.x === x0 && c.y === y0)) glide = null;
         }
       }
     }
@@ -215,14 +227,14 @@ export function createReplay(app, T, { onClose } = {}) {
     }
     const offLit = M.register({ id: "replay-storm-hexes", z: 96, ambient: false, active: () => !!ticker, draw: drawLit });
     const offEye = M.register({ id: "replay-storm-eye", z: 104, ambient: false, active: () => !!ticker, draw: drawTrack });
-    const unfollow = (e) => { if (follow && e.target?.id === "map") { follow = false; followBox.checked = false; } };
+    const unfollow = (e) => { if (follow && e.target?.id === "map") { follow = false; glide = null; followBox.checked = false; } };
     addEventListener("pointerdown", unfollow, true);
     session = {
       kind: "storms", id,
       close() { ticker?.(); ticker = null; offLit(); offEye(); removeEventListener("pointerdown", unfollow, true); app.requestDraw(); },
       pause() { if (still) return; paused = !paused; setPaused(paused); if (paused) { ticker?.(); ticker = null; } else run(); app.requestDraw(); },
       speed() { speed = (speed + 1) % SPEEDS.length; setSpeed(); },
-      follow(on) { follow = on; if (!on) fit(); },
+      follow(on) { follow = on; glide = null; if (!on) fit(); },
       skip() { if (k + 1 < tracks.length) { next(); locate(); readout(); app.requestDraw(); } },
     };
     fit();

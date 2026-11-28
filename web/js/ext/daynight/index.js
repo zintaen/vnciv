@@ -84,6 +84,9 @@ export function install(app) {
 
   // --- time ---------------------------------------------------------------------------------------------------------
   const now = () => (playing ? simMs : Date.now());
+  // On each minute boundary (+50 ms), so the clock never shows the previous minute (an interval from the switch-on
+  // time lagged up to 59 s).
+  function schedule() { timer = setTimeout(() => { tick(); schedule(); }, 60050 - (Date.now() % 60000)); }
   function tick() {
     if (!on || playing) return;
     reshade(Date.now());
@@ -93,14 +96,16 @@ export function install(app) {
 
   M.register({
     id: "daynight", z: 90, ambient: false,
-    // Real time: never active (a timer redraws once a minute). "▶ 24 h": capped at 30 fps (20 on phones) like
+    // Real time: never active (a timer redraws on each minute). "▶ 24 h": capped at 30 fps (20 on phones) like
     // ext/motion; between capped frames active() is false and a timer asks for the next one. The play lasts DAY_S
     // (20 s), well under ext/motion's 60 s no-input pause, so it always ends by itself.
     active() {
       if (!on || !playing) return false;
       const wait = lastFrame + GAP - performance.now();
-      if (wait <= 2) return true;
-      if (!frameTimer) frameTimer = setTimeout(() => { frameTimer = 0; app.requestDraw(); }, wait);
+      if (wait <= 9) return true;
+      // re-check when the timer fires: a frame drawn meanwhile (traffic, hover) counts, so the cap holds
+      const arm = (ms) => { if (!frameTimer) frameTimer = setTimeout(() => { frameTimer = 0; const w = lastFrame + GAP - performance.now(); if (w <= 9) app.requestDraw(); else arm(w); }, Math.max(0, ms - 8)); };
+      arm(wait);
       return false;
     },
     draw(ctx) {
@@ -167,10 +172,10 @@ export function install(app) {
   function set(v) {
     on = !!v;
     el.hidden = !on;
-    clearInterval(timer);
+    clearTimeout(timer);
     if (on) {
       ensureLights();
-      timer = setInterval(tick, 60000);
+      schedule();
       shadedAt = -1;
       renderClock(); renderPlay();
     } else if (playing) playing = false;

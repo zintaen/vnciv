@@ -311,7 +311,7 @@ farms,34,2023,33,34,gap,One province has no farm row (no farms).
 farms,34,2024,33,34,gap,One province has no farm row (no farms).
 farms,34,2025,33,34,gap,One province has no farm row (no farms).
 farms,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
-farms,63,2019,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2019,0,63,gap,"The farm criteria changed in 2020 (Circular 27/2011/TT-BNNPTNT up to 2019, Circular 02/2020/TT-BNNPTNT from 2020; Statistical Yearbook 2023, p.582 footnote), so 2019 is not combined."
 farms,63,2020,61,63,gap,Two former provinces have no farm row (no farms).
 farms,63,2021,61,63,gap,Two former provinces have no farm row (no farms).
 farms,63,2022,61,63,gap,Two former provinces have no farm row (no farms).

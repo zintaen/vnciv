@@ -1,5 +1,7 @@
 """Invariants the timeline replays (web/js/ext/timeline/replay.js) rely on."""
 import json
+import shutil
+import subprocess
 import unittest
 from pathlib import Path
 
@@ -36,6 +38,18 @@ class ReplayData(unittest.TestCase):
         self.assertEqual(len(f["national"]["loss_ha"]), len(f["years"]))
         for row in f["loss_ha"]:
             self.assertEqual(len(row), len(f["cells"]))
+
+
+@unittest.skipUnless(shutil.which("node"), "node not installed")
+class MotionEngine(unittest.TestCase):
+    def test_engine(self):  # hidden tab pauses tweens; effects off never lets a cancelled tween overwrite the end
+        root = DATA.parents[1]
+        out = subprocess.run(["node", str(root / "web/js/app/motion.test.mjs")], cwd=root, capture_output=True, text=True)
+        self.assertEqual(out.returncode, 0, out.stderr or out.stdout)
+
+    def test_storm_hexes_light_on_counted_stretches(self):  # replay.js prepStorm follows the lens's 34 kt rule
+        src = (DATA.parents[0] / "js/ext/timeline/replay.js").read_text()
+        self.assertIn("if (!(Math.max(kt[j] || 0, kt[j + 1] || 0) >= 34)) continue;", src)
 
 
 if __name__ == "__main__":

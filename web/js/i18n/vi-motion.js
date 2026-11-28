@@ -12,13 +12,13 @@ export default {
   // motion-history (ext/timeline/replay.js: storm, merger and forest-loss replays)
   "Play": "Phát",
   "Follow the eye": "Bám theo mắt bão",
-  "Tropical depression (under 34 kt)": "Áp thấp nhiệt đới (dưới 34 kt)",
-  "Tropical storm (34–63 kt)": "Bão nhiệt đới (34–63 kt, cấp 8–11)",
-  "Typhoon (64 kt or more)": "Bão rất mạnh (từ 64 kt, cấp 12 trở lên)",
+  "Tropical depression (under 34 kt)": "Áp thấp nhiệt đới, dưới cấp 8 (dưới 34 kt)",
+  "Tropical storm (34–63 kt)": "Bão nhiệt đới, cấp 8–11 (34–63 kt)",
+  "Typhoon (64 kt or more)": "Từ cấp 12 (64 kt trở lên)",
   "no estimate": "không có ước tính",
   "wind: no estimate": "gió: không có ước tính",
-  "Hexes light up when the eye passes within 100 km (the lens's rule). Wind: the agency's best-track estimate at each fix.":
-    "Các ô sáng lên khi mắt bão đi qua trong vòng 100 km (cùng quy tắc với bản đồ chủ đề). Sức gió: ước tính quỹ đạo tốt nhất của cơ quan khí tượng tại mỗi lần định vị.",
+  "Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's best-track estimate at each fix.":
+    "Các ô sáng lên khi mắt bão đi qua trong vòng 100 km với sức gió từ 34 kt (cấp 8) trở lên (cùng quy tắc với bản đồ chủ đề). Sức gió: ước tính quỹ đạo tốt nhất của cơ quan khí tượng tại mỗi lần định vị.",
   "Next storm ⏭": "Cơn bão tiếp theo ⏭",
   "Speed ×{n}": "Tốc độ ×{n}",
   "Vietnam time (UTC+7)": "giờ Việt Nam (UTC+7)",
@@ -88,7 +88,7 @@ export default {
   "{park} covers {area} km²": "{park} rộng {area} km²",
   "Among them: {list}": "Trong đó có {list}",
   "{n} islands and reefs on the map, part of {owner}": "{n} đảo, đá được đánh dấu trên bản đồ, thuộc {owner}",
-  "Highest hex on the map: {m} m (ETOPO1)": "Ô cao nhất trên bản đồ: {m} m (ETOPO1)",
+  "Highest hex of Vietnam on the map: {m} m (ETOPO1)": "Ô cao nhất của Việt Nam trên bản đồ: {m} m (ETOPO1)",
   "Sa Pa and the Hoàng Liên Sơn range": "Sa Pa và dãy Hoàng Liên Sơn",
   "Hà Nội, the capital": "Thủ đô Hà Nội",
   "Đà Nẵng and Hội An": "Đà Nẵng và Hội An",

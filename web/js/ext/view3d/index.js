@@ -128,6 +128,7 @@ export function install(app) {
   const camS = { tx: 0, ty: 0, d: 1000, yaw: 0, pitch: FLAT, k: 0 };
   let home = null; // the tilted framing on entry (Reset goes back to it)
   let anim = null; // {from, to, t0, ms, done}
+  let leaving = false; // the exit animation is running
   let grow = null; // {t0}: heights re-grow after a lens change
   const P = new Float32Array(16), V = new Float32Array(16), VP = new Float32Array(16);
   const eye = [0, 0, 0], ctr = [0, 0, 0], up = [0, 1, 0];
@@ -146,8 +147,8 @@ export function install(app) {
     const sc = numeric ? lensScale(lens) : null;
     for (let i = 0; i < n; i++) {
       if (w.water[i]) continue; // water: flat
-      if (!lens || own[i] < 0 && !numeric) h[i] = Math.max(1, (elev[i] / 200) * ELEV_X); // terrain view (neighbours too)
-      else if (own[i] < 0) h[i] = 1; // neighbouring countries carry no lens value: flat
+      if (!lens) h[i] = Math.max(1, (elev[i] / 200) * ELEV_X); // terrain view (neighbours too)
+      else if (own[i] < 0) h[i] = 1; // neighbouring countries carry no lens value: flat (any lens, as the legend says)
       else if (!numeric) h[i] = LENS_MIN;
       else {
         const v = lens.values[i];
@@ -281,6 +282,17 @@ export function install(app) {
 
   // --- camera -----------------------------------------------------------------------------------------------------
   const distForScale = (scale) => (app.cam.h / scale) / 2 / Math.tan(FOV / 2);
+  // The 2D view (centre x, y; scale s) ↔ the tilted 3D framing of it: the target moves 12% of the distance toward the
+  // eye and the eye backs off 2%. One pair, so entering and leaving 3D without touching it lands on the same 2D view.
+  const SHIFT = 0.12, BACK = 1.02;
+  function framing(x, y, s, yaw = 0) {
+    const D = distForScale(s);
+    return { tx: x + Math.sin(yaw) * D * SHIFT, ty: y + Math.cos(yaw) * D * SHIFT, d: D * BACK, yaw, pitch: TILT, k: 1 };
+  }
+  function unframe(c) { // → [x, y, scale] of the 2D view matching 3D camera state c
+    const D = c.d / BACK;
+    return [c.tx - Math.sin(c.yaw) * D * SHIFT, c.ty - Math.cos(c.yaw) * D * SHIFT, app.cam.h / (2 * D * Math.tan(FOV / 2))];
+  }
   function matrices() {
     const { tx, ty, d, yaw, pitch } = camS;
     const cp = Math.cos(pitch), sp = Math.sin(pitch), sy = Math.sin(yaw), cy = Math.cos(yaw);
@@ -351,10 +363,22 @@ export function install(app) {
     bindInst(nWater);
     ctxGL.drawInst(gl.TRIANGLES, 0, 48, n - nWater); // land: top + 6 walls
     placeLabels(camS.k * gk);
+    placePanel();
+  }
+  // Desktop: centre the legend over the map area left free by an advisor / City View panel or a dock, not the window.
+  let panelAt = "";
+  function placePanel() {
+    const a = innerWidth > 700 && app.visibleArea?.();
+    const at = a ? `${Math.round((a.x0 + a.x1) / 2)}px|${Math.round(Math.min(560, a.x1 - a.x0 - 32))}px` : "|";
+    if (at === panelAt) return;
+    panelAt = at;
+    [panel.style.left, panel.style.width] = at.split("|");
   }
 
-  // Picking by ray march: from the eye through the pixel, step ~R/4 across the ground; the first hex whose prism
-  // top is above the ray there is the one under the pointer (walls of tall towers included, to within a step).
+  // Picking: walk the ray from the eye through the pixel, hex column by hex column (each step goes to where the ray
+  // leaves the current hex); the first column the ray dips into below its prism top (through the top or a wall) is the
+  // hex under the pointer. Exact, no GPU read-back.
+  const AP = g.R * Math.sqrt(3) / 2, EDGE_N = [0, 1, 2, 3, 4, 5].map((k) => [Math.cos(k * Math.PI / 3), Math.sin(k * Math.PI / 3)]);
   function cellUnder(x, y) {
     if (!heights) return -1;
     const fx = ctr[0] - eye[0], fy = ctr[1] - eye[1], fz = ctr[2] - eye[2], fl = Math.hypot(fx, fy, fz);
@@ -363,11 +387,18 @@ export function install(app) {
     const th = Math.tan(FOV / 2), nx = (2 * x / innerWidth - 1) * th * innerWidth / innerHeight, ny = (1 - 2 * y / innerHeight) * th;
     const dx = f0 + r0 * nx + up[0] * ny, dy = f1 + r1 * nx + up[1] * ny, dz = f2 + r2 * nx + up[2] * ny;
     if (dy >= -1e-6) return -1; // at or above the horizon
-    const top = maxH * camS.k, t1 = eye[1] / -dy;
-    const dt = g.R / 4 / Math.max(1e-6, Math.hypot(dx, dz));
-    for (let t = Math.max(0, (eye[1] - top) / -dy), k = 0; t < t1 && k < 40000; t += dt, k++) {
+    const K = camS.k, t1 = eye[1] / -dy, hz = Math.max(1e-9, Math.hypot(dx, dz)), eps = 1e-3 / hz;
+    let t = Math.max(0, (eye[1] - maxH * K) / -dy);
+    for (let k = 0; t < t1 && k < 40000; k++) {
       const c = g.cellAt(eye[0] + dx * t, eye[2] + dz * t);
-      if (c >= 0 && heights[c] * camS.k >= eye[1] + dy * t) return c;
+      let te = t + g.R / 4 / hz; // off the grid: plain steps
+      if (c >= 0) {
+        const ox = eye[0] - g.cx(c), oz = eye[2] - g.cy(c);
+        te = t1;
+        for (const [ux, uz] of EDGE_N) { const s = ux * dx + uz * dz; if (s > 1e-12) te = Math.min(te, (AP - ux * ox - uz * oz) / s); }
+        if (heights[c] * K >= eye[1] + dy * Math.min(te, t1)) return c; // the ray is lowest where it leaves the column
+      }
+      t = Math.max(te, t) + eps;
     }
     return g.cellAt(eye[0] + dx * t1, eye[2] + dz * t1);
   }
@@ -413,6 +444,7 @@ export function install(app) {
     const mid = () => { const a = [...pts.values()]; return [(a[0].x + a[1].x) / 2, (a[0].y + a[1].y) / 2, Math.hypot(a[0].x - a[1].x, a[0].y - a[1].y)]; };
     canvas.addEventListener("contextmenu", (e) => e.preventDefault());
     canvas.addEventListener("pointerdown", (e) => {
+      if (leaving) return; // the exit animation runs to its end
       try { canvas.setPointerCapture(e.pointerId); } catch { /* synthetic */ }
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
       anim = null;
@@ -455,6 +487,7 @@ export function install(app) {
     canvas.addEventListener("pointerleave", () => { if (!pts.size) { hover = null; hideTooltip(); } });
     canvas.addEventListener("wheel", (e) => {
       e.preventDefault();
+      if (leaving) return;
       camS.d = clampD(camS.d * Math.exp(Math.max(-60, Math.min(60, e.deltaY)) * 0.004));
       anim = null; dirty = true; kick();
     }, { passive: false });
@@ -488,8 +521,10 @@ export function install(app) {
     hideTooltip();
     resize();
     const c = app.cam;
+    landFlight();
     Object.assign(camS, { tx: c.x, ty: c.y, d: distForScale(c.scale), yaw: 0, pitch: FLAT, k: 0 });
-    home = { tx: c.x, ty: c.y + distForScale(c.scale) * 0.12, d: distForScale(c.scale) * 1.02, yaw: 0, pitch: TILT, k: 1 };
+    home = framing(c.x, c.y, c.scale);
+    leaving = false;
     lastLens = undefined; lastRgb = null; // force an upload (no grow animation on entry)
     btn?.setAttribute("aria-pressed", "true");
     document.body.classList.add("view3d-on");
@@ -497,11 +532,14 @@ export function install(app) {
     (app.hash?.flush || app.hash?.update)?.();
   }
   function exit(now = false) {
-    if (!on) return;
-    // the 2D map takes over where the 3D camera points, at the matching zoom
+    if (!on || (leaving && anim && now !== true)) return; // already on its way out
+    // the 2D map takes over where the 3D camera points (where it is heading, mid-animation), at the matching zoom
     const c = app.cam;
-    const scale = c.clampScale(c.h / (2 * camS.d * Math.tan(FOV / 2)));
-    c.scale = scale; c.centerOn(camS.tx, camS.ty);
+    if (!leaving) {
+      const [x, y, s] = unframe(anim ? anim.to : camS);
+      c.stop(); c.scale = c.clampScale(s); c.centerOn(x, y);
+    }
+    leaving = true;
     app.requestDraw();
     hideTooltip();
     const finish = () => {
@@ -514,7 +552,7 @@ export function install(app) {
       (app.hash?.flush || app.hash?.update)?.();
     };
     if (now === true || !ctxGL) finish();
-    else animateTo({ pitch: FLAT, yaw: 0, k: 0 }, EXIT_MS, finish);
+    else animateTo({ tx: c.x, ty: c.y, d: distForScale(c.scale), pitch: FLAT, yaw: 0, k: 0 }, EXIT_MS, finish); // ends exactly on the 2D view
   }
   const toggle = () => (on ? exit() : enter());
 
@@ -522,6 +560,22 @@ export function install(app) {
   app.on?.("escape", () => { if (on) { exit(); return true; } return false; });
   app.on?.("lens", () => { if (on) { dirty = true; kick(); } });
   M?.on?.("change", () => { if (on) { dirty = true; kick(); } });
+  // A timeline year step (app.refreshLens) or a legend band (app.setBand) recolours w.rgb without a "lens" event; the 2D
+  // map still draws once for it, so a no-op motion item notices and redraws 3D (else, with Effects off, 3D stays stale).
+  // It also takes over 2D camera flights started while 3D is on (a #city= link, search, an advisor's framing): the 2D
+  // camera lands at once and the 3D camera flies to the same place, keeping its yaw.
+  function landFlight() {
+    const c = app.cam, f = c.flight;
+    if (!f) return false;
+    c.stop(); c.scale = c.clampScale(f.s1); c.centerOn(f.x1, f.y1);
+    return true;
+  }
+  M?.register?.({ id: "view3d-sync", z: -1, active: () => false,
+    draw() {
+      if (!on) return;
+      if (!leaving && landFlight()) animateTo(framing(app.cam.x, app.cam.y, app.cam.scale, camS.yaw), 900);
+      if (w.rgb !== lastRgb || (app.shownLens?.() || null) !== lastLens) { dirty = true; kick(); }
+    } });
   app.hash?.register?.("view3d", { get: () => (on ? "1" : null), set: (v) => (v === "1" ? enter() : exit(true)) });
 
   app.view3d = { enter, exit, get on() { return on; }, get camera() { return { ...camS }; }, get hover() { return hover; }, get gl() { return ctxGL?.version || 0; } };

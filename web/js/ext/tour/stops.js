@@ -62,7 +62,8 @@ export function buildStops(D) {
     const a = arch.get(id);
     return a ? t("{n} islands and reefs on the map, part of {owner}", { n: a.islands, owner: a.owner }) : null;
   }
-  // Highest Vietnamese hex (world.json elev_max, ETOPO1 samples): the camera's Sa Pa target.
+  // Highest Vietnamese hex (world.json elev_max, ETOPO1 samples): the camera's Sa Pa target. A neighbour's hex (Yunnan)
+  // is higher, so the card says "of Vietnam".
   let top = -1;
   for (let i = 0; i < (world.elev_max || []).length; i++) {
     if (world.owner?.[i] >= 0 && world.elev_max[i] != null && (top < 0 || world.elev_max[i] > world.elev_max[top])) top = i;
@@ -77,7 +78,7 @@ export function buildStops(D) {
       facts: (p) => [coord(p), pop(p.county), merged(p.county)] },
     { id: "sapa", z: 2.5, place: top >= 0 && grid ? { x: grid.cx(top), y: grid.cy(top) } : town("Sa Pa"),
       title: () => t("Sa Pa and the Hoàng Liên Sơn range"),
-      facts: () => [top >= 0 ? t("Highest hex on the map: {m} m (ETOPO1)", { m: int(world.elev_max[top]) }) : null, park("np-Q1137913")] },
+      facts: () => [top >= 0 ? t("Highest hex of Vietnam on the map: {m} m (ETOPO1)", { m: int(world.elev_max[top]) }) : null, park("np-Q1137913")] },
     { id: "halong", z: 2.5, place: wonders.get("wh-672"),
       title: (p) => wname(p), facts: (p) => [wh(p.id), pop("13")] },
     { id: "hanoi", z: 2.9, place: city("HN"),
@@ -105,7 +106,7 @@ export function buildStops(D) {
     { id: "phuquoc", z: 2.6, place: island("Đảo Phú Quốc"),
       title: () => "Phú Quốc", facts: () => [park("np-Q1749599"), pop("47"), merged("47")] },
     { id: "camau", z: 2.6, place: wonders.get("np-Q125333"),
-      title: () => t("Cape Cà Mau"), facts: (p) => [coord(p), park(p.id), pop("59")] },
+      title: () => t("Cape Cà Mau"), facts: (p) => [park(p.id), pop("59")] }, // no coordinate: the data has the park's point, not the cape's tip
   ];
   const out = [];
   for (const s of S) {

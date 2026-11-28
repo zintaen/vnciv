@@ -289,11 +289,11 @@ export const CITIZEN_KINDS = {
 
   // nativity (B05002)
   born_in_state: {
-    label: "Born in this state", row: "nativity", cloth: "#5a7a3a", accent: "#f2d27a",
+    label: "Born in this province", row: "nativity", cloth: "#5a7a3a", accent: "#f2d27a",
     shapes: () => [...person(), ...badge([{ d: "M18.6 15.8l2.6 2.4h-.8v2.8h-3.6v-2.8h-.8Z", fill: "#3a2a14" }])],
   },
   other_state: {
-    label: "Born in another state", row: "nativity", cloth: "#3a6a8a", accent: "#a8743a",
+    label: "Born in another province", row: "nativity", cloth: "#3a6a8a", accent: "#a8743a",
     shapes: () => person({
       front: [
         { d: rrect(14.4, 16.4, 6.8, 5.6, 0.8), fill: "accent", ink: true },
@@ -302,7 +302,7 @@ export const CITIZEN_KINDS = {
     }),
   },
   native_abroad: {
-    label: "US citizen born abroad", row: "nativity", cloth: "#6a5a8a", accent: "#e8eef6",
+    label: "Citizen born abroad", row: "nativity", cloth: "#6a5a8a", accent: "#e8eef6",
     shapes: () => [...person(), ...badge([{ d: "M15.6 18.8l6-1.6-.2.8-2.6 1 .2 2-.8.2-.6-1.8-2 .4Z", fill: "#2a4a6a" }], "accent")],
   },
   foreign_born: {

@@ -41,10 +41,13 @@ uv run python -m pipeline build lenses # rebuild one step (see pipeline/build/__
 uv run python -m pipeline package      # vnciv.zip (the site, ready to upload)
 uv run python -m unittest discover -s tests   # data checks (those that read data/raw or data/interim skip until `all` has run)
 QA_LANG=vi uv run --with playwright python tools/qa.py   # every view in a browser (also QA_LANG=en)
-uv run --with playwright python tools/regress.py        # ~30 fixed-bug journeys in a browser (a few minutes; not in CI)
+uv run --with playwright python tools/regress.py        # 33 fixed-bug journeys in a browser (about 5 minutes; not in CI)
 node tools/i18n/check_dups.mjs                 # Vietnamese dictionaries agree
 python3 tools/i18n/gen.py                      # regenerate the Vietnamese data dictionary
 ```
+
+Developer pages, served locally only (the deploy drops `web/dev/`): `/dev/art.html` shows every art piece side by side,
+`/dev/trailer.html` plays the promo trailer (`tools/render_trailer.py` renders it to MP4).
 
 The first `all` downloads about 550 MB (about 600 MB in `data/raw/`). The province statistics were parsed from NSO publications into the tidy CSVs
 in `data/stats/` by the scripts in `pipeline/nso/` (see `data/stats/SOURCES.md`); they are committed, so a rebuild does not

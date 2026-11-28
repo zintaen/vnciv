@@ -1,7 +1,7 @@
 // City View "Districts": what the former province stands out for (districts.json v2) as strategy-game districts.
 // A measured district: a figure per resident at least 1.25× Vietnam's (LQ); a site district: a mapped site (a port,
 // a World Heritage site, a big airport, 1,000+ MW of power plants, the capital). Plus the Encampment from
-// military.json (a garrison or fortress city) and the city's domestic air routes from trade.json (OpenFlights 2014).
+// military.json (a garrison or fortress city) and the city's domestic air routes from trade.json (Wikipedia airport articles, Nov 2026).
 //
 //   cityDistricts(ddata, id, mil) → [district]   the city's districts, strongest first, each with what the dock and the
 //                                           map plaques need ({id, name, short, color, icon, lq, via, text, …})

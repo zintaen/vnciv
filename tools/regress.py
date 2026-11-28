@@ -126,6 +126,10 @@ CHECKS = [
          steps=[("js", "__app.timeline.setYear(2025)"), ("wait", 400), ("click", ".tl-play"),
                 ("until", "__app.timeline.year===null && document.querySelector('.tl-play').getAttribute('aria-pressed')==='false'"), ("wait", 2600)],
          expect="__app.timeline.year===null && location.hash==='#lens=income' && history.length<=5"),
+    dict(name="play from now back to now leaves no entry that Back steps through unchanged", url="#lens=income",
+         steps=[("wait", 800), ("save", "i", "navigation.currentEntry.index"), ("click", ".tl-play"), ("wait", 12000),
+                ("until", "__app.timeline.year===null && document.querySelector('.tl-play').getAttribute('aria-pressed')==='false'"), ("wait", 1500)],
+         expect="navigation.currentEntry.index===S.i && location.hash==='#lens=income' || (console.log('entry', navigation.currentEntry.index, S.i), false)"),
     dict(name="back walks lens, city, city view in order",
          steps=[s for js in ["__app.setLens('income')", "__app.selectCity('HN')", "__app.setMode('city',{id:'HN'})", "__app.setMode(null)"]
                 for s in [("js", js), ("wait", 1200)]]

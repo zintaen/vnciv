@@ -19,6 +19,9 @@ class MotionTourTest(unittest.TestCase):
     def test_tour_stops(self):
         self.run_node("web/js/ext/tour/tour.test.mjs")
 
+    def test_camera_far_flight(self):
+        self.run_node("web/js/camera.test.mjs")
+
 
 if __name__ == "__main__":
     unittest.main()

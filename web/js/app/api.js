@@ -122,8 +122,19 @@ export function createHashState(opts) {
     const url = location.pathname + location.search + (hash || "");
     const s = sig(core, ex);
     try {
-      if (s !== entrySig && !replaceNext) history.pushState(null, "", url);
-      else history.replaceState(null, "", url);
+      if (replaceNext && s === undoSig) {
+        // A replaced run (a timeline play from "now" back to "now") ended where it started: drop its entry, so one
+        // Back is not a step that changes nothing.
+        undoSig = null;
+        lastWritten = hash; // the entry Back lands on (its popstate then applies nothing new)
+        history.back();
+        entrySig = s;
+        replaceNext = false;
+        return;
+      } else if (s !== entrySig && !replaceNext) {
+        undoSig = entrySig;
+        history.pushState(null, "", url);
+      } else history.replaceState(null, "", url);
     } catch {
       /* some sandboxes forbid history writes: the app still works, the link just doesn't update */
     }
@@ -135,6 +146,7 @@ export function createHashState(opts) {
   // schedule(true): the next write replaces the current entry even if the state changed (a timeline play's
   // later years: Back undoes the whole play, not one year at a time).
   let replaceNext = false;
+  let undoSig = null; // the state under the last pushed entry
   function schedule(replace = false) {
     if (replace === true) replaceNext = true;
     clearTimeout(timer);
@@ -160,6 +172,7 @@ export function createHashState(opts) {
     }
     entrySig = stateSig();
     lastWritten = location.hash;
+    undoSig = null;
   }
 
   const onNav = () => {

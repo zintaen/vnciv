@@ -90,7 +90,10 @@ export class Camera {
   // more time (up to ~2.4 s) so the motion keeps a steady perceived speed.
   flyTo(x, y, scale = this.scale, ms = 700) {
     this.zoomTarget = null;
-    const s1 = this.clampScale(scale);
+    // The flight ends clamped to the world anyway; an unclamped far target (#at=1e308,…) overflows zoomPath to NaN.
+    x = Number.isFinite(x) ? Math.min(this.worldW, Math.max(0, x)) : this.x;
+    y = Number.isFinite(y) ? Math.min(this.worldH, Math.max(0, y)) : this.y;
+    const s1 = this.clampScale(Number.isFinite(scale) ? scale : this.scale);
     const path = zoomPath(this.x, this.y, this.w / this.scale, x, y, this.w / s1);
     const dur = Math.min(Math.max(ms, 2400), Math.max(ms, path.S * 520));
     this.flight = { path, x1: x, y1: y, s1, t: 0, ms: Math.max(1, dur) };

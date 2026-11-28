@@ -242,7 +242,10 @@ export function install(app) {
     gl.cullFace(gl.BACK);
     gl.clearColor(0, 0, 0, 0);
 
-    canvas.addEventListener("webglcontextlost", (e) => { e.preventDefault(); exit(true); ctxGL = null; canvas.remove(); canvas = null; });
+    // A lost context is not restored (no preventDefault): the next enter() builds a new canvas, and the old one, its
+    // context gone for good, is garbage. Only the current canvas's loss closes the 3D view.
+    const cv = canvas;
+    cv.addEventListener("webglcontextlost", () => { if (canvas !== cv) return; exit(true); ctxGL = null; cv.remove(); canvas = null; });
     wirePointer();
     labelsEl = document.createElement("div");
     labelsEl.id = "view3d-labels";

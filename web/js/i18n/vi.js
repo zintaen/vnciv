@@ -13,9 +13,15 @@ import societyDict from "./vi-society.js";
 import timelineDict from "./vi-timeline.js";
 import donateDict from "./vi-donate.js";
 import motionDict from "./vi-motion.js";
+import geoDict from "./vi-geo.js";
+import themesDict from "./vi-themes.js";
+import livingDict from "./vi-living.js";
+import storyDict from "./vi-story.js";
+import atmosDict from "./vi-atmos.js";
 
 const FILES = { "vi-data": data, "vi-shell": shell, "vi-panels": panels, "vi-advisors": advisors,
-  "vi-communes": communesDict, "vi-poi": poiDict, "vi-env": envDict, "vi-society": societyDict, "vi-timeline": timelineDict, "vi-donate": donateDict, "vi-motion": motionDict };
+  "vi-communes": communesDict, "vi-poi": poiDict, "vi-env": envDict, "vi-society": societyDict, "vi-timeline": timelineDict, "vi-donate": donateDict, "vi-motion": motionDict,
+  "vi-geo": geoDict, "vi-themes": themesDict, "vi-living": livingDict, "vi-story": storyDict, "vi-atmos": atmosDict };
 export const VI = Object.create(null);
 const from = Object.create(null);
 /** [key, [[file, text], ...]] for every key translated differently in more than one file. */

@@ -375,7 +375,6 @@ export default {
   "CC BY 4.0": "CC BY 4.0",
   "Estimated people per 1 km pixel, constrained to built-up areas and adjusted to UN national totals.": "Số người ước tính trên mỗi điểm ảnh 1 km, giới hạn trong khu vực xây dựng và hiệu chỉnh theo tổng số quốc gia của Liên Hợp Quốc.",
   "Population density lens": "Bản đồ chủ đề mật độ dân số",
-  "Population weights for province lenses": "Trọng số dân số cho các bản đồ chủ đề cấp tỉnh",
   "WorldPop 2025 (R2025A)": "WorldPop 2025 (R2025A)",
   "Global Power Plant Database v1.3.0": "Global Power Plant Database v1.3.0",
   "World Resources Institute": "Viện Tài nguyên Thế giới (WRI)",

@@ -485,6 +485,7 @@ async function main() {
   }
 
   function moved() {
+    linkAt = null;
     userMoved = true;
     dockFramed = false;
     hideTooltip();
@@ -515,6 +516,17 @@ async function main() {
     // A Back / Forward link's camera (at=) was aimed before the link's advisor / City view opened its dock: re-aim
     // that flight at the new usable area, or the place lands under the dock.
     if (linkFlight && cam.flight === linkFlight.f) return flyLinkAt(linkFlight.at, cam.flight.ms);
+    // Likewise a page opened from a link: its at= was placed beside the panel, which a City View then swaps for its
+    // dock (a different width). Re-place it in the new usable area, or every reload shifts the view by half a panel.
+    const at = linkAt;
+    linkAt = null;
+    if (at && !cam.moving && cam.scale > 0) {
+      const a = visibleArea(), s = cam.scale;
+      cam.x = at[0] - ((a.x0 + a.x1) / 2 - cam.w / 2) / s;
+      cam.y = at[1] - ((a.y0 + a.y1) / 2 - cam.h / 2) / s;
+      cam.clamp();
+      return requestDraw();
+    }
     // Likewise a home flight started just before the docks changed (an advisor closing calls app.home()).
     if (homeFlight && cam.flight === homeFlight) return goHome(cam.flight.ms);
     if (cam.moving || !(cam.w > 160 && cam.h > 160) || !(cam.scale > 0)) return;
@@ -773,6 +785,7 @@ async function main() {
   }
   // The flight a link's at= started (Back / Forward), so onDocksChanged can re-aim it: {f: cam.flight, at}.
   let linkFlight = null;
+  let linkAt = null; // the at= the page was opened with, until the user moves or a dock changes (onDocksChanged)
   function flyLinkAt(at, ms) {
     const [vx, vy, z] = at;
     const s = cam.clampScale(fitScale() * 2 ** z);
@@ -824,6 +837,7 @@ async function main() {
           cam.y = y;
           cam.scale = s;
           cam.clamp();
+          linkAt = p.at;
         } else flyLinkAt(p.at, 650);
         userMoved = true;
       } else if (!initial && !city && sIdx < 0) {
@@ -987,6 +1001,7 @@ async function main() {
     renderMap: renderShareMap,
     lens: shownLens(),
     year: shownLens()?.year ?? app.timeline?.year ?? null,
+    note: (typeof app.shareNote === "function" && app.shareNote()) || null, // an extension's key to what it draws (sea level)
     lensSource: (sources || []).find((x) => x.id === state.lens?.source) || null,
     formatValue: (lens, t) => formatLensValue(lens, lensValueAt(lens, t)),
     selection: state.selectedCity ? { kind: "city", name: state.selectedCity.name }

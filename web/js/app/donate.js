@@ -29,7 +29,6 @@ export function initDonate() {
       <p class="coffee-thanks">${t("Thank you so much!")} <span aria-hidden="true">💛🇻🇳</span></p>
     </div>`;
   document.body.appendChild(modal);
-  const card = modal.querySelector(".coffee-card");
   const close = () => { modal.hidden = true; btn.setAttribute("aria-expanded", "false"); btn.focus(); };
   const open = () => {
     const qr = modal.querySelector(".coffee-qr");
@@ -44,6 +43,5 @@ export function initDonate() {
     if (e.key === "Escape") { e.stopPropagation(); close(); }
     if (e.key === "Tab") { e.preventDefault(); modal.querySelector(".coffee-close").focus(); }
   });
-  card.addEventListener("click", (e) => e.stopPropagation());
   return { open, close, get isOpen() { return !modal.hidden; } };
 }

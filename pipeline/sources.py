@@ -95,7 +95,7 @@ SOURCES = [
     dict(id="worldpop", title="WorldPop population 2025, 1 km (R2025A, constrained, UN-adjusted)",
          publisher="WorldPop, University of Southampton", homepage="https://www.worldpop.org/", license="CC BY 4.0",
          description="Estimated people per 1 km pixel, constrained to built-up areas and adjusted to UN national totals.",
-         used_for=["Population density lens", "Population weights for province lenses"],
+         used_for=["Population density lens"],
          files=[("https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2025/VNM/v1/1km_ua/constrained/"
                  "vnm_pop_2025_CN_1km_R2025A_UA_v1.tif", "vnm_pop_2025_CN_1km_R2025A_UA_v1.tif")]),
     dict(id="gppd", title="Global Power Plant Database v1.3.0", publisher="World Resources Institute",

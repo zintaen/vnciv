@@ -19,6 +19,12 @@ class SourcesAudit(unittest.TestCase):
             for k in ("license", "homepage", "used_for", "title", "publisher"):
                 self.assertTrue(s.get(k), f"{s['id']} lacks {k}")
 
+    def test_worldpop_used_only_for_density(self):
+        # round 7: the Almanac claimed WorldPop weights the province lenses; they are spread by area (7 sample points)
+        wp = next(s for s in load("sources") if s["id"] == "worldpop")
+        self.assertEqual(wp["used_for"], ["Population density lens"])
+        self.assertEqual([l["id"] for l in load("lenses")["lenses"] if l["source"] == "worldpop"], ["density"])
+
     def test_lens_sources_registered(self):
         ids = {s["id"] for s in load("sources")}
         for l in load("lenses")["lenses"]:

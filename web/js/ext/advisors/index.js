@@ -312,6 +312,7 @@ export function install(app) {
     exit() {
       // A switch between advisors is exit() + enter() in one go: keep the dock and only rebuild its content.
       pendingTeardown = true;
+      const hadFocus = !!dock?.contains(document.activeElement); // the dock goes: focus back to the top-bar button
       // Left by opening a link (a pasted URL, Back): the address already names a view without the advisors, and
       // its own "at" decides the camera, so do not fly back over it.
       const h = location.hash;
@@ -338,6 +339,7 @@ export function install(app) {
         root.remove();
         d.classList.remove("adv-dock");
         if (!d.children.length) app.ui.undock("left");
+        if (hadFocus && app.mode == null && (!document.activeElement || document.activeElement === document.body)) btn?.focus();
       });
     },
     onEscape() {

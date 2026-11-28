@@ -325,8 +325,12 @@ export async function install(app) {
     const txt = year == null ? t("Now") : String(year);
     label.textContent = txt;
     rangeEl.setAttribute("aria-valuetext", txt);
-    $(".tl-prev").disabled = year != null && year <= a;
-    $(".tl-next").disabled = year == null;
+    const prev = $(".tl-prev"), next = $(".tl-next"), had = document.activeElement;
+    prev.disabled = year != null && year <= a;
+    next.disabled = year == null;
+    // A focused button that just became disabled would drop keyboard focus to <body>: hand it to its twin.
+    if (had === prev && prev.disabled) next.focus();
+    else if (had === next && next.disabled) prev.focus();
     playBtn.textContent = playing ? "❚❚" : "▶";
     playBtn.setAttribute("aria-pressed", String(!!playing));
     const pl = playing ? t("Pause") : t("Play the years");

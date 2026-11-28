@@ -349,6 +349,7 @@ export async function install(app) {
     },
     exit() {
       cv.exiting = true;
+      const hadFocus = !!cv.dock?.contains(document.activeElement); // the dock goes: keyboard focus must not drop to <body>
       try {
         stopAnim();
         const city = cv.city;
@@ -387,6 +388,7 @@ export async function install(app) {
           app.requestDraw();
         }
         cv.prevCam = null;
+        if (hadFocus) app.panels.element?.querySelector(".cv-open")?.focus({ preventScroll: true });
       } finally {
         cv.exiting = false;
       }

@@ -111,6 +111,9 @@ export function install(app) {
 @media (max-width:640px){.slr-panel{width:auto;margin:0 8px}}`;
   document.head.appendChild(style);
 
+  // The share image names the tint (its caption has no other key for it).
+  app.shareNote = () => (on && data ? t("Blue hexes: land at or below {h} m above sea level (ETOPO1)", { h: dec(data.levels[level]) }) : null);
+
   app.ui.addMapToggle({
     id: "sealevel", label: t("Sea level rise"), icon: "l-wave", group: "Environment", default: false,
     title: t("Land hexes at or below a chosen sea level (ETOPO1): an exposure indicator, not a forecast"),

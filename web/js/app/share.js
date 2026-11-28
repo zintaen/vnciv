@@ -70,7 +70,7 @@ function spaced(ctx, px) {
 /**
  * Compose the share image.
  * info: {renderMap(canvas, w, h) → bool, lens (lens object or null), formatValue(lens, t) → string,
- *        selection: {kind, name, sub} | null, year (lens data year or timeline year) | null}
+ *        selection: {kind, name, sub} | null, year (lens data year or timeline year) | null, note (a line in place of the tagline) | null}
  */
 export function composeImage(info, { height = IMG_H } = {}) {
   const imgH = Math.max(CAPTION_H + 100, Math.round(height)); // a shorter frame serves 1.91:1 social cards
@@ -127,7 +127,7 @@ export function composeImage(info, { height = IMG_H } = {}) {
   spaced(ctx, 0);
   ctx.fillStyle = "#b9ab88";
   ctx.font = `italic 17px ${SERIF}`;
-  ctx.fillText(t("A strategy-map atlas of the real economy"), 114, cy + 28);
+  ctx.fillText(fit(ctx, info.note || t("A strategy-map atlas of the real economy"), 640 - 114 - 16), 114, cy + 28);
 
   // Lens + legend ramp
   const mx = 640;
@@ -150,9 +150,9 @@ export function composeImage(info, { height = IMG_H } = {}) {
   ctx.font = `24px ${SERIF}`;
   spaced(ctx, 1.5);
   // The year shown (the lens's data year, or the timeline's year) always survives the truncation of a long name.
-  // (as the tooltip does: "31/12/2025", "Jan–Sep 2026", left out when the name already holds that year; a timeline
-  // view, id "forest_loss@2001", always keeps its year)
-  const inName = lens && !String(lens.id).includes("@") && t(lens.name).includes(yearNum(info.year));
+  // (as the tooltip does: "31/12/2025", "Jan–Sep 2026", left out when the name already holds that year, as a
+  // timeline view's "Forest loss in 2001" does)
+  const inName = lens && t(lens.name).includes(yearNum(info.year));
   const yr = info.year != null && info.year !== "" && !inName ? ` · ${fmtYear(info.year)}` : "";
   let title = (lens ? t("{name} lens", { name: t(lens.name) }) : t("Terrain")).toUpperCase();
   // ...and stops short of the selection's name on the right.
@@ -196,7 +196,8 @@ export function composeImage(info, { height = IMG_H } = {}) {
     ctx.fillStyle = rg;
     ctx.fillRect(rx, ry, rw, rh);
     // The two end labels share the ramp's width: long units ("1,3K mm mỗi năm") shrink the font, then truncate.
-    let lo = (naturalEnd(lens, 0) ? "" : "≤ ") + info.formatValue(lens, 0);
+    // (no "≤" on a ramp that starts at 0, as the legend: "≤ 0 storms" reads as if a count could be negative)
+    let lo = (naturalEnd(lens, 0) || lens.domain?.[0] === 0 ? "" : "≤ ") + info.formatValue(lens, 0);
     const hi = (naturalEnd(lens, 1) ? "" : "≥ ") + info.formatValue(lens, 1);
     let px = 14;
     const both = () => (ctx.font = `${px}px ${SANS}`, ctx.measureText(lo).width + ctx.measureText(hi).width + 12);

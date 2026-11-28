@@ -1567,6 +1567,8 @@ async function main() {
       requestDraw();
     },
     flyTo(x, y, scale = cam.scale, ms = 750) { flyToVisible(x, y, scale, ms); },
+    // an extension moved the camera itself (the 3D view handing back its view): count it as the user's move
+    markMoved() { moved(); },
     fitBounds,
     home: (ms) => goHome(ms),
     visibleArea: () => visibleArea(),

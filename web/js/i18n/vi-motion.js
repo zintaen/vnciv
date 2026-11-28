@@ -17,8 +17,8 @@ export default {
   "Typhoon (64 kt or more)": "Từ cấp 12 (64 kt trở lên)",
   "no estimate": "không có ước tính",
   "wind: no estimate": "gió: không có ước tính",
-  "Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's best-track estimate at each fix.":
-    "Các ô sáng lên khi mắt bão đi qua trong vòng 100 km với sức gió từ 34 kt (cấp 8) trở lên (cùng quy tắc với bản đồ chủ đề). Sức gió: ước tính quỹ đạo tốt nhất của cơ quan khí tượng tại mỗi lần định vị.",
+  "Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's estimate at each fix.":
+    "Các ô sáng lên khi mắt bão đi qua trong vòng 100 km với sức gió từ 34 kt (cấp 8) trở lên (cùng quy tắc với bản đồ chủ đề). Sức gió: ước tính của cơ quan khí tượng tại mỗi lần định vị.",
   "Next storm ⏭": "Cơn bão tiếp theo ⏭",
   "Speed ×{n}": "Tốc độ ×{n}",
   "Vietnam time (UTC+7)": "giờ Việt Nam (UTC+7)",
@@ -55,11 +55,11 @@ export default {
   "3D view of the hex map": "Bản đồ ô lục giác nhìn 3D",
   "Height: the mean elevation of each hex (ETOPO1), exaggerated ×{n}. Colours: terrain, as in 2D. Water is flat.":
     "Chiều cao: độ cao trung bình của mỗi ô (ETOPO1), phóng đại ×{n}. Màu: địa hình, như bản đồ 2D. Mặt nước phẳng.",
-  "Height: none, {lens} is a category lens. Colours as in 2D.": "Chiều cao: không có, {lens} là bản đồ phân loại. Màu như bản đồ 2D.",
+  "Height: none, {lens} is a category lens. Colours as in 2D.": "Chiều cao: không có, {lens} là bản đồ chủ đề dạng phân loại. Màu như bản đồ 2D.",
   "Height: {lens}, on the legend's colour scale (logarithmic): flat at its low end, tallest at its high end. Hexes without data and neighbouring countries are flat.":
-    "Chiều cao: {lens}, theo thang màu của chú giải (thang logarit): thấp nhất ở đầu thấp, cao nhất ở đầu cao. Ô không có dữ liệu và các nước láng giềng để phẳng.",
+    "Chiều cao: {lens}, theo thang màu của chú giải (thang logarit): phẳng ở đầu thấp, cao nhất ở đầu cao. Ô không có dữ liệu và các nước láng giềng để phẳng.",
   "Height: {lens}, on the legend's colour scale (linear): flat at its low end, tallest at its high end. Hexes without data and neighbouring countries are flat.":
-    "Chiều cao: {lens}, theo thang màu của chú giải (thang tuyến tính): thấp nhất ở đầu thấp, cao nhất ở đầu cao. Ô không có dữ liệu và các nước láng giềng để phẳng.",
+    "Chiều cao: {lens}, theo thang màu của chú giải (thang tuyến tính): phẳng ở đầu thấp, cao nhất ở đầu cao. Ô không có dữ liệu và các nước láng giềng để phẳng.",
   "Drag to orbit and tilt, Shift-drag or right-drag (two fingers) to pan, wheel or pinch to zoom, double-click to centre.":
     "Kéo để xoay và nghiêng, Shift + kéo hoặc kéo chuột phải (hai ngón tay) để di chuyển, cuộn chuột hoặc chụm ngón để thu phóng, nhấp đúp để đưa vào giữa.",
   "Reset view": "Đặt lại góc nhìn",
@@ -93,9 +93,9 @@ export default {
   "Hà Nội, the capital": "Thủ đô Hà Nội",
   "Đà Nẵng and Hội An": "Đà Nẵng và Hội An",
   "Average height of its hex: {m} m above sea level": "Độ cao trung bình của ô: {m} m so với mực nước biển",
-  "Mean temperature {v} °C ({year} average)": "Nhiệt độ trung bình {v} °C (trung bình {year})",
+  "Mean temperature {v} °C ({year} average)": "Nhiệt độ trung bình {v} °C (giai đoạn {year})",
   "Ho Chi Minh City": "TP. Hồ Chí Minh",
-  "{d} people per km², the densest of the 63 former provinces": "{d} người/km², đông đúc nhất trong 63 tỉnh, thành cũ",
+  "{d} people per km², the densest of the 63 former provinces": "{d} người/km², mật độ cao nhất trong 63 tỉnh cũ",
   "{d} people per km²": "{d} người/km²",
   "The Mekong Delta: Cần Thơ": "Đồng bằng sông Cửu Long: Cần Thơ",
   "Rice harvest: {v} tonnes per km² of the province ({year})": "Sản lượng lúa: {v} tấn trên mỗi km² diện tích tỉnh ({year})",

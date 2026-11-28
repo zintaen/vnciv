@@ -607,3 +607,4 @@ html.no-motion *, html.no-motion *::before, html.no-motion *::after { animation:
   *, *::before, *::after { animation: none !important; transition: none !important; }
   :is(.yield, .lens-btn, .icon-btn, .ml-row, .chip, #topbar button):active { translate: none; }
 }
+#map:focus { outline: none; } /* focused only by script (a search pick hands focus to the map) */

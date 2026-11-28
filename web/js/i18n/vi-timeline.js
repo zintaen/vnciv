@@ -6,8 +6,8 @@ export default {
   "Event": "Sự kiện",
   "History": "Lịch sử",
   "History: dated events with sources": "Lịch sử: các sự kiện có ngày tháng và nguồn",
-  "IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none).":
-    "Quỹ đạo IBTrACS đi qua trong vòng 100 km của một ô; sức gió lớn nhất khi bão ở trong vòng 100 km của đất liền (gió 10 phút của JMA; gió 1 phút của JTWC chỉ khi JMA không có số liệu).",
+  "IBTrACS tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only for a storm JMA did not track).":
+    "Quỹ đạo IBTrACS đi qua trong vòng 100 km của một ô; sức gió lớn nhất khi bão ở trong vòng 100 km của đất liền (gió 10 phút của JMA; gió 1 phút của JTWC chỉ dùng cho cơn bão JMA không theo dõi).",
   "Next year (])": "Năm sau (])",
   "No storm touched Vietnam this year.": "Năm này không có cơn bão nào đi qua Việt Nam.",
   "No yearly series: this lens shows {when}": "Không có chuỗi số liệu theo năm: bản đồ chủ đề này hiển thị {when}",
@@ -48,4 +48,5 @@ export default {
   "From 2021 NSO computes labour figures under ICLS19: people working only to produce goods for their own use in agriculture, forestry and fishery no longer count as employed (ICLS13 before 2021; Statistical Yearbook 2025, p.151 footnote). 2019-2020 and 2021 onward are not strictly comparable.": "Từ năm 2021, Cục Thống kê tính số liệu lao động theo chuẩn ICLS19: người chỉ làm ra sản phẩm nông, lâm, thủy sản để tự dùng không còn được tính là có việc làm (trước 2021 theo ICLS13; Niên giám Thống kê 2025, chú thích trang 151). Số liệu 2019–2020 và từ 2021 trở đi không hoàn toàn so sánh được.",
   "Average population adjusted to the Population and Housing Census of 1 April 2019 (Statistical Yearbook 2019 footnote).": "Dân số trung bình đã điều chỉnh theo Tổng điều tra dân số và nhà ở ngày 1/4/2019 (chú thích Niên giám Thống kê 2019).",
   "HDI from 2020 uses the World Bank's 2017 PPPs (Statistical Yearbook 2025, p.1485 footnote); 2019 comes from the 2022 yearbook.": "HDI từ năm 2020 tính theo sức mua tương đương (PPP) năm 2017 của Ngân hàng Thế giới (Niên giám Thống kê 2025, chú thích trang 1485); số năm 2019 lấy từ niên giám 2022.",
+  "{year} tracks are provisional and may still change.": "Quỹ đạo năm {year} là số liệu tạm thời, có thể còn thay đổi.",
 };

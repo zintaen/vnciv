@@ -582,6 +582,7 @@ export function install(app) {
     if (!leaving) {
       const [x, y, s] = unframe(anim ? anim.to : camS);
       c.stop(); c.scale = c.clampScale(s); c.centerOn(x, y);
+      app.markMoved?.(); // keeps this view (writes at=; a resize no longer snaps home)
     }
     leaving = true;
     app.requestDraw();

@@ -61,6 +61,7 @@ const DEBOUNCE_MS = 350;
  *
  * opts: {read() → {lens, city, state, at}, apply(core, {initial}), busy() → true while the camera animates}
  * Returns {schedule(), soon(), flush(), applyCurrent(initial), register(key, {get, set}) → unregister, value(key)}.
+ *   value(key) → the key in the link the page was opened / navigated with (null if absent).
  *   get() → string | null   the key's current value (null = leave it out of the hash)
  *   set(value | null)       apply a value from the URL (on load, Back/Forward, a pasted link); null = absent.
  *   A key registered after the page loaded gets set(value) once, right away (in a microtask), if the current
@@ -70,6 +71,7 @@ export function createHashState(opts) {
   const extras = new Map(); // key -> {get, set}
   let timer = 0;
   let lastWritten = location.hash;
+  let linkHash = location.hash; // the hash the page was opened or navigated with (not one write() made)
   let applying = false;
 
   const params = (hash) => new URLSearchParams(String(hash || "").replace(/^#/, ""));
@@ -157,6 +159,7 @@ export function createHashState(opts) {
 
   const onNav = () => {
     if (location.hash === lastWritten) return;
+    linkHash = location.hash;
     clearTimeout(timer);
     applyCurrent(false);
   };
@@ -198,8 +201,9 @@ export function createHashState(opts) {
       clearTimeout(timer);
       write(true);
     },
-    /** The key's value in the current location hash (string or null). */
-    value: (key) => params(location.hash).get(key),
+    /** The key's value in the link the page was opened or navigated with (string or null): what a set() is applying.
+     *  Not the current hash, which may already hold the app's own debounced write (e.g. at= of the selection's flight). */
+    value: (key) => params(linkHash).get(key),
   };
 }
 

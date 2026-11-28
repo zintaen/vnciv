@@ -4,7 +4,10 @@ A visualizer (not a game) that draws the **real** Vietnam like a turn-based stra
 elevation and land cover, the 34 provinces of 2025, cities with yield banners, power plants as resources, roads,
 railways, ports, airports and wonders on the tiles, 45 lenses, map layers (communes and wards, special national relics,
 everyday places, sea-level rise), a timeline (statistics by year, typhoons since 1980, history), a City View, a council of
-Advisors and an Explorer.
+Advisors and an Explorer. In motion: replays of typhoon tracks, the 2025 merger and forest loss, a sea-level-rise
+play, a living map (sea, rivers, clouds), moving traffic on the air routes, ports and railways, day–night shading with
+city lights, a 2-minute camera tour (Hành trình Việt Nam) and a tilted 3D view; the **Effects** switch in the Layers
+menu (or the system's reduced-motion setting) stills the animations.
 Every number traces back to a public source listed in the in-app **Almanac**. The interface is in **Vietnamese** (default)
 and **English** (the EN/VI button, or `?lang=en`).
 
@@ -34,6 +37,7 @@ uv run python -m pipeline build lenses # rebuild one step (see pipeline/build/__
 uv run python -m pipeline package      # vnciv.zip (the site) and vnciv-source.zip (this project)
 uv run python -m unittest discover -s tests   # data checks (those that read data/raw or data/interim skip until `all` has run)
 QA_LANG=vi uv run --with playwright python tools/qa.py   # every view in a browser (also QA_LANG=en)
+uv run --with playwright python tools/regress.py        # ~30 fixed-bug journeys in a browser (a few minutes; not in CI)
 node tools/i18n/check_dups.mjs                 # Vietnamese dictionaries agree
 python3 tools/i18n/gen.py                      # regenerate the Vietnamese data dictionary
 ```
@@ -107,6 +111,8 @@ they are shown by the hexes at their named islands' centres.
   what OpenStreetMap has mapped (uneven coverage, no headcounts), and the trade routes are air routes (2014).
 - **Power plants are what OpenStreetMap maps** (2026), with capacities from WRI's 2021 database where OSM has none;
   plants without a known capacity, most wind farms' capacities and rooftop solar are missing.
+- **Ambient motion is illustrative.** The living map, the planes, ships and trains are not weather, schedules or
+  real traffic, and the night lights are derived from population density (WorldPop), not satellite images.
 - **Selections are rules.** Wonders, districts and badges come from rules published in the data files.
 
 The code is MIT-licensed (see [LICENSE](LICENSE)); the data keep their publishers' terms (the Almanac lists them).

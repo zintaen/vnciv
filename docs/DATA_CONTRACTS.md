@@ -89,7 +89,7 @@
 >     title, text, cite, evidence, x, y, lon, lat}]}`.
 >   * **places.json** (eager): `{sources, rules, archipelagos: [{id, name, owner, x, y, islands}], slogan: {text, en, x, y},
 >     islands: [{name, en, group, x, y}], towns: [{name, x, y, population, kind}]}`.
->   * **timeline.json** (lazy): `{sources, years, fx, fx_used, merger: {date, before, after}, series: {id: {unit, source,
+>   * **timeline.json** (lazy): `{sources, years, fx, fx_used, provisional_seasons (IBTrACS provisional seasons, from disasters.json), merger: {date, before, after}, series: {id: {unit, source,
 >     lens, levels: {"63"|"34": {code: {year: value}}}, lens_values, status: {year: final | prel | est}, status_levels?,
 >     note (a definition break inside the series, or null)}},
 >     storms: [{name, season, date, max_kt, cells}], events: [{date, id, title, text, wonder?, source}], note}`.

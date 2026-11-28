@@ -55,7 +55,7 @@ export function install(app) {
     nEl.textContent = t("{n} of {m}", { n: stops.length, m: stops.length });
     titleEl.textContent = t("End of the journey");
     sloganEl.hidden = true;
-    factsEl.innerHTML = `<li><button type="button" class="tl-btn tour-again">${esc(t("↺ Start again"))}</button></li>`;
+    factsEl.innerHTML = `<li style="list-style:none"><button type="button" class="tl-btn tour-again">${esc(t("↺ Start again"))}</button></li>`;
     bodyEl.classList.remove("dim");
   }
   function renderCtl() {

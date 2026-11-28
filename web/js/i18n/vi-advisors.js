@@ -463,6 +463,7 @@ export default {
   "disasters.json is not built.": "Chưa tạo tệp disasters.json.",
   "Storms near Vietnam per year, {from}–{to}": "Số cơn bão gần Việt Nam mỗi năm, {from}–{to}",
   "{year}: {n} storms": "{year}: {n} cơn bão",
+  "{year}: 1 storm": "{year}: 1 cơn bão",
   "Typhoons by province": "Bão theo tỉnh/thành",
   "Storms": "Cơn bão",
   "Strong": "Từ cấp 12",
@@ -667,4 +668,5 @@ export default {
   // --- map layers (ext/layers) ---
   "Seaports of Decision 804/QĐ-TTg, sized by class (port areas from OpenStreetMap), and airports with scheduled flights, sized by passengers (ACV)": "Cảng biển theo Quyết định 804/QĐ-TTg, kích thước theo loại (khu bến từ OpenStreetMap), và các sân bay có chuyến bay thường lệ, kích thước theo lượng hành khách (ACV)",
   "Not on the map (no port area found): {list}.": "Không có trên bản đồ (không tìm thấy khu bến): {list}.",
+  "provisional": "tạm thời",
 };

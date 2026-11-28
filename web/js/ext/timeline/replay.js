@@ -137,7 +137,7 @@ export function createReplay(app, T, { onClose } = {}) {
     let j = 0, ex = 0, ey = 0; // the latest fix at or before the clock, and the eye's position
     let glide = null; // follow: the camera centre being glided to
     const legend = `<span class="rp-legend">${BANDS.map((b) => `<span><i style="background:${b.color}"></i>${esc(t(b.label))}</span>`).join("")}<span><i class="rp-nw"></i>${esc(t("no estimate"))}</span></span>
-      <span class="rp-note">${esc(t("Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's best-track estimate at each fix."))}</span>`;
+      <span class="rp-note">${esc(t("Hexes light up when the eye passes within 100 km at 34 kt or more (the lens's rule). Wind: the agency's estimate at each fix."))}</span>`;
     const setTitle = () => {
       const tr = tracks[k];
       titleEl.textContent = many ? `${tr.name} (${k + 1}/${tracks.length}) · ${t("Storms of {year}", { year })}` : `${tr.name} · ${tr.st.season}`;

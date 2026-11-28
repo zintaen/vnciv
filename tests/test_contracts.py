@@ -99,7 +99,7 @@ SPEC = [
      "evidence", "x", "y", "lon", "lat"}, set()),
     ("places", lambda: [load("places")], V | {"sources", "rules", "archipelagos", "slogan", "islands", "towns"}, set()),
     ("timeline", lambda: [load("timeline")], V | {"sources", "years", "fx", "fx_used", "merger", "series", "storms",
-     "events", "note"}, set()),
+     "events", "note", "provisional_seasons"}, set()),
     ("timeline.series{}", lambda: list(load("timeline")["series"].values()), {"unit", "source", "lens", "levels",
      "lens_values", "status", "status_levels", "note"}, {"status_levels"}),
 ]

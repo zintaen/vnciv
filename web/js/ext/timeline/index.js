@@ -280,7 +280,7 @@ export async function install(app) {
       body = list.length ? `${list.length > 1 ? `<button type="button" class="tl-link rp-all">▶ ${esc(t("all storms of {year}", { year }))}</button>` : ""}<ul class="tl-storms">${list.map((s) => `<li class="rp-row">${go(s)}<b>${esc(s.name && s.name !== "Unnamed" ? s.name : t("Unnamed"))}</b>
           <span>${esc(fmtDate({ date: s.date, year: s.season }))}</span><span>${offshoreOnly(s) ? esc(t("only near Hoàng Sa or Trường Sa")) : s.max_kt ? esc(t("{kt} kt max", { kt: int(s.max_kt) })) : esc(t("wind not recorded"))}</span></li>`).join("")}</ul>`
         : `<div class="tl-ev-text">${esc(t("No storm touched Vietnam this year."))}</div>`;
-      body += `<div class="tl-foot">${esc(t("IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none)."))}</div>`;
+      body += `<div class="tl-foot">${esc(t("IBTrACS tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only for a storm JMA did not track)."))}${(T.provisional_seasons || []).includes(year) ? ` <b>${esc(t("{year} tracks are provisional and may still change.", { year }))}</b>` : ""}</div>`;
     } else {
       head = t("History");
       const evs = allEvents();

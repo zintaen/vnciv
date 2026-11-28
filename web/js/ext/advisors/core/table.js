@@ -31,10 +31,8 @@ export function createTable(host, opts) {
   const root = document.createElement("div");
   root.className = "adv-table";
   root.innerHTML = `${opts.search ? `<div class="adv-tsearch"><input type="search" placeholder="${esc(opts.search)}" aria-label="${esc(opts.search)}" spellcheck="false"><span class="cnt"></span></div>` : ""}
-    <div class="adv-thead" role="row"></div>
-    <div class="adv-tbody" role="rowgroup" tabindex="-1"><div class="adv-tspace"></div></div>`;
-  root.setAttribute("role", "table");
-  root.setAttribute("aria-label", opts.caption || tr("Data table"));
+    <div role="table" aria-label="${esc(opts.caption || tr("Data table"))}"><div class="adv-thead" role="row"></div>
+    <div class="adv-tbody" role="rowgroup" tabindex="-1"><div class="adv-tspace"></div></div></div>`; // the search box sits outside the table role
   host.appendChild(root);
   width = Math.round(root.clientWidth) || 0;
   cols = visibleCols();

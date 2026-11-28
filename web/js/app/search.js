@@ -107,7 +107,7 @@ export function initSearch(opts) {
     close();
     input.value = "";
     input.blur();
-    if (e.pick) return e.pick();
+    if (e.pick) { e.pick(); document.getElementById("map")?.focus?.({ preventScroll: true }); return; }
     opts.onPick(e.kind === "city" ? { kind: "city", city: e.city } : { kind: "state", index: e.index });
   }
 

@@ -144,8 +144,10 @@ def build():
         for w in wonders if w["rule"] == "world_heritage" and w["metrics"].get("inscribed")]
     events.sort(key=lambda e: e["date"])
     last_year = max(years + [s["season"] for s in storm_list])
+    dis = json.loads((ROOT / "web" / "data" / "disasters.json").read_text())["typhoons"]
     write_web("timeline.json", {
         "version": 1, "sources": ["nso_yearbook", "ibtracs", "wikidata"],
+        "provisional_seasons": dis.get("provisional_seasons", []),  # IBTrACS provisional tracks (TRACK_TYPE), may change
         "years": list(range(min(years or [FIRST_YEAR]), last_year + 1)),
         "fx": {str(k): round(v, 2) for k, v in rates.items()},
         "fx_used": fx_used,  # year → the year whose rate converted it (a missing rate uses the latest earlier one)

@@ -142,7 +142,7 @@ export async function mount(ctx) {
     const years = nat.by_year || [];
     if (years.length) {
       dSec.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${esc(tr("Storms near Vietnam per year, {from}–{to}", { from: years[0].year, to: years[years.length - 1].year }))}</h4>`);
-      dSec.appendChild(columnChart(years, (y) => y.storms, (y) => tr("{year}: {n} storms", { year: y.year, n: y.storms })));
+      dSec.appendChild(columnChart(years, (y) => y.storms, (y) => tr(y.storms === 1 ? "{year}: 1 storm" : "{year}: {n} storms", { year: y.year, n: y.storms })));
     }
     // Provinces.
     const sRows = Object.entries(T.states || {}).map(([a, x]) => ({ key: a, name: stLevel.byKey.get(a)?.name || a, row: stLevel.byKey.get(a), total: x.total, strong: x.strong }));
@@ -186,7 +186,7 @@ export async function mount(ctx) {
         caption: title, maxHeight: 220, rowKey: (r) => `${r.name}-${r.date}`, rows: list,
         columns: [
           { key: "date", label: tr("Date"), align: "l", width: "84px", value: (r) => r.date, text: (r) => dmy(r.date) || "–" },
-          { key: "name", label: tr("Storm"), align: "l", width: "minmax(0,1fr)", value: (r) => r.name, text: (r) => r.name || tr("Unnamed") },
+          { key: "name", label: tr("Storm"), align: "l", width: "minmax(0,1fr)", value: (r) => r.name, text: (r) => (r.name || tr("Unnamed")) + (r.provisional ? ` (${tr("provisional")})` : "") },
           { key: "max_kt", label: tr("Peak"), value: (r) => r.max_kt, text: (r) => (fin(r.max_kt) ? `${int(r.max_kt)} kt` : "–"), title: tr("Peak sustained wind near Vietnam (knots)") },
           { key: "prov", label: tr("Provinces"), align: "l", width: "minmax(0,1.2fr)", hideBelow: 380, value: (r) => (r.provinces || []).length, text: (r) => (r.provinces || []).join(", ") },
         ],

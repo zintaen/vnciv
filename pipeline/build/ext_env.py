@@ -1,4 +1,5 @@
-"""Environment & climate: CHELSA climate normals, Hansen forest loss and ETOPO1 low-lying land, per hex.
+"""Environment & climate: CHELSA climate normals, Hansen forest loss and ETOPO1 low-lying land (the Mekong delta
+from Minderhoud et al. 2019's DEM), per hex.
 
 Writes web/data/forest_loss.json (per-hex, per-year loss for a timeline), web/data/sealevel.json (per-hex share of
 land at or below 0.5/1/2/3 m, for the sea-level-rise tool) and appends the "environment" lenses to lenses.json.
@@ -33,6 +34,7 @@ YEARS = list(range(2001, 2026))
 SEA_LEVELS = [0.5, 1, 2, 3]
 LOW_LENS_M = 2
 MIN_LAND_SAMPLES = 3
+DELTA_MIN_SHARE = 0.5  # a hex takes the Mekong-delta DEM when its valid pixels cover at least half its land
 
 RULES = {
     "climate": "Each land hex averages all CHELSA V2.1 30-arc-second (~0.9 km) pixels whose centre lies in the hex "
@@ -51,11 +53,15 @@ RULES = {
     "sea_level": "For each land hex: the share of its ETOPO1 samples (1 arc-minute, ~1.8 km) inside Vietnam's "
                  "outline whose elevation is at or below each level. ETOPO1 heights are whole metres, so 0.5 m "
                  f"means samples at or below 0 m. Hexes with fewer than {MIN_LAND_SAMPLES} such samples and the "
-                 "far-offshore islands have none.",
+                 "far-offshore islands have none. In the Mekong delta (delta_cells), a hex whose valid pixels of the "
+                 "Minderhoud et al. (2019) delta DEM (500 m, metres above the Hòn Dấu datum, rivers and bedrock "
+                 f"outcrops cut out) cover at least {DELTA_MIN_SHARE:.0%} of its land takes the share of those pixels "
+                 "at or below each level instead.",
 }
 SEA_NOTE = ("Coarse elevation (ETOPO1, ~1.8 km), no dykes, tides or storm surge: an exposure indicator, not a "
-            "forecast. Global elevation models are known to overstate the height of low, built-up and vegetated "
-            "deltas such as the Mekong's, so the true low-lying area is likely larger.")
+            "forecast. Global elevation models can misjudge the height of low deltas: Minderhoud et al. (2019, Nature "
+            "Communications 10:3847) find the Mekong delta's mean elevation is about 0.8 m above sea level, not the "
+            "about 2.6 m assumed earlier, so the map uses their delta DEM there.")
 
 
 # --- remote windows, cached -----------------------------------------------------------------------------------
@@ -207,6 +213,30 @@ def forest(W):
 
 # --- sea level ----------------------------------------------------------------------------------------------------
 
+def delta_land(W):
+    """{cell: n Mekong-delta DEM pixels inside Vietnam's outline, [n at or below each level]} (Minderhoud et al. 2019,
+    500 m pixels in UTM 48N, metres above the Hòn Dấu datum; rivers and bedrock outcrops are NODATA)."""
+    import zipfile
+    from rasterio.warp import transform
+    with zipfile.ZipFile(RAW / "mekong_dem" / "Topo_DEM_Mekong_delta.zip") as z:
+        lines = z.read("Topo_DEM_Mekong_delta_excl_rivers_and_bedrock.asc").decode().splitlines()
+    head = {l.split()[0].lower(): float(l.split()[1]) for l in lines[:6]}
+    ncols, nrows, cs = int(head["ncols"]), int(head["nrows"]), head["cellsize"]
+    z = np.array([np.fromstring(l, sep=" ") for l in lines[6:6 + nrows]])
+    assert z.shape == (nrows, ncols), z.shape
+    r, c = np.nonzero(z != head["nodata_value"])
+    ex = head["xllcorner"] + (c + 0.5) * cs
+    ny = head["yllcorner"] + (nrows - r - 0.5) * cs
+    lon, lat = (np.array(v) for v in transform("EPSG:32648", "EPSG:4326", ex.tolist(), ny.tolist()))
+    alt = z[r, c]
+    ncell = len(W.owner)
+    cell = cells_of(W, lon, lat)
+    m = (cell >= 0) & (provinces_of(W, lon, lat) >= 0)
+    n = np.bincount(cell[m], minlength=ncell)
+    lows = [np.bincount(cell[m & (alt <= h)], minlength=ncell) for h in SEA_LEVELS]
+    return n, lows, (cs / 1000) ** 2
+
+
 def low_land(W):
     """{cell: (n land samples, n all samples, [n at or below each level])} from the ETOPO1 csv."""
     a = np.loadtxt(RAW / "etopo" / "etopo_vn.csv", delimiter=",", skiprows=2)
@@ -285,19 +315,27 @@ def build():
 
     # sea level
     n_land, n_all, lows = low_land(W)
-    scells, sh, lf = [], [[] for _ in SEA_LEVELS], []
+    d_n, d_lows, px_km2 = delta_land(W)
+    scells, sh, lf, dcells = [], [[] for _ in SEA_LEVELS], [], []
     low2 = [None] * ncell
     for i in land:
         if i in remote or n_land[i] < MIN_LAND_SAMPLES:
             continue
-        low2[i] = round(lows[SEA_LEVELS.index(LOW_LENS_M)][i] / n_land[i], 3)
-        if lows[-1][i] == 0:
+        land_km2 = HEX_AREA_KM2 * n_land[i] / max(n_all[i], 1)
+        if d_n[i] * px_km2 >= DELTA_MIN_SHARE * land_km2:  # Mekong delta: the delta DEM's pixels
+            n, lw = d_n[i], [x[i] for x in d_lows]
+            dcells.append(i)
+        else:
+            n, lw = n_land[i], [x[i] for x in lows]
+        low2[i] = round(lw[SEA_LEVELS.index(LOW_LENS_M)] / n, 3)
+        if lw[-1] == 0:
             continue
         scells.append(i)
         lf.append(round(100 * n_land[i] / max(n_all[i], 1)))
         for k in range(len(SEA_LEVELS)):
-            sh[k].append(round(100 * lows[k][i] / n_land[i]))
-    write_web("sealevel.json", {"version": 1, "source": "etopo", "levels": SEA_LEVELS, "unit": "% of the hex's land",
+            sh[k].append(round(100 * lw[k] / n))
+    print(f"    sea level: {len(dcells)} Mekong-delta hexes from the delta DEM, the rest ETOPO1")
+    write_web("sealevel.json", {"version": 1, "source": "etopo", "delta_source": "mekong_dem", "delta_cells": dcells, "levels": SEA_LEVELS, "unit": "% of the hex's land",
                                 "hex_area_km2": round(HEX_AREA_KM2, 2), "rule": RULES["sea_level"], "note": SEA_NOTE,
                                 "cells": scells, "land_pct": lf, "share": sh})
 
@@ -323,9 +361,13 @@ def build():
              note="Gross loss, including plantation harvests that are replanted; regrowth is not counted."),
         lens("low_lying", "Low-lying land (≤ 2 m)", "🌊", "l-wave", "share of land at or below 2 m", "pct",
              "foreign_born", "bad", "etopo", None,
-             "Share of the hex's land samples (ETOPO1, 1 arc-minute, ~1.8 km) at or below 2 m above sea level.",
+             "Share of the hex's land samples (ETOPO1, 1 arc-minute, ~1.8 km) at or below 2 m above sea level; in the "
+             "Mekong delta, the share of the delta DEM's 500 m pixels (Minderhoud et al. 2019, Hòn Dấu datum).",
              low2, domain=[0, 1],
-             note="A coarse 1-arc-minute elevation indicator, not a flood model: no dykes, tides or drainage."),
+             note="An exposure indicator, not a flood model: no dykes, tides or drainage. Global elevation models can "
+                  "misjudge the height of low deltas: Minderhoud et al. (2019, Nature Communications 10:3847) find the "
+                  "Mekong delta's mean elevation is about 0.8 m above sea level, not the about 2.6 m assumed earlier; "
+                  "the map uses their delta DEM there."),
     ]
     for l in new:
         if l["year"] is None:

@@ -19,6 +19,11 @@ const PLAY_MS = 1200;
 const STORM_LENS = "disasters";
 const FOREST_LENS = "forest_loss";
 const STATUS = { final: "final", prel: "preliminary", est: "estimate" };
+// history.json categories (its `categories` gives the same names) and the eras the History list is grouped by
+const CATS = { dynasty: "Founding and dynasties", modern: "Modern and contemporary", admin: "Provinces and administration", infra: "Infrastructure",
+  disaster: "Disasters", culture: "Culture and heritage", economy: "Economy and integration", science: "Science and sport" };
+const ERAS = [[-1e4, 938, "To 938: legend and the northern rule"], [938, 1858, "938–1857: the dynasties"], [1858, 1945, "1858–1944: the French period"],
+  [1945, 1976, "1945–1975: independence and war"], [1976, 1986, "1976–1985: reunification"], [1986, 1e4, "1986 to today: Đổi Mới"]];
 const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 export async function install(app) {
@@ -75,7 +80,8 @@ export async function install(app) {
   }
   const hasYear = (lv, y) => !!lv && Object.values(lv).some((v) => v[y] != null);
   const statusText = (s, y) => (s.status?.[y] ? t(STATUS[s.status[y]] || s.status[y]) : "");
-  const noteOf = (parts, lens) => [parts.filter(Boolean).join(" · "), lens.note ? t(lens.note) : ""].filter(Boolean).join(". ");
+  // (a series note ends with its own full stop: no ".." before the lens note)
+  const noteOf = (parts, lens) => [parts.filter(Boolean).join(" · ").replace(/\.$/, ""), lens.note ? t(lens.note) : ""].filter(Boolean).join(". ");
 
   function seriesView(lens, s, y) {
     const pref = String(lens.level || "63"), other = pref === "63" ? "34" : "63";
@@ -219,9 +225,12 @@ export async function install(app) {
   const wonderAt = (id) => app.data.wonders?.wonders?.find((x) => x.id === id) || null;
   const evYear = (e) => (Number.isFinite(e.year) ? e.year : parseInt(String(e.date), 10));
   function allEvents() {
-    const out = T.events.map((e) => {
+    // a UNESCO inscription that history.json also holds (same `wonder`, with its citation) is listed once
+    const hw = new Set((history?.events || []).map((e) => e.wonder).filter(Boolean));
+    const out = T.events.filter((e) => !(e.wonder && hw.has(e.wonder))).map((e) => {
       const wd = e.wonder ? wonderAt(e.wonder) : null;
-      return { ...e, year: evYear(e), x: wd?.x ?? null, y: wd?.y ?? null, cite: e.cite || null, place: wd ? wd.name : null };
+      return { ...e, year: evYear(e), x: wd?.x ?? null, y: wd?.y ?? null, cite: e.cite || null, place: wd ? wd.name : null, fromT: true,
+        category: e.wonder ? "culture" : "admin" };
     });
     for (const e of history?.events || []) {
       if (e.id === "provinces_34") continue; // the same event as timeline.json's merger_2025 (whose cite it lends)
@@ -241,14 +250,26 @@ export async function install(app) {
     return new Intl.DateTimeFormat(lang === "vi" ? "vi-VN" : "en-GB", { timeZone: "UTC", year: "numeric", month: D ? "numeric" : "long", ...(D ? { day: "numeric" } : {}) }).format(d);
   }
   // A list row names the site: nine rows of a bare "UNESCO World Heritage" told the sites apart only when opened
-  const titleOf = (e) => (e.place ? `${t(e.title)}: ${e.place}` : t(e.title));
+  const evTitle = (e) => (lang === "vi" && e.title_vi ? e.title_vi : t(e.title));
+  const evText = (e) => (lang === "vi" && e.text_vi ? e.text_vi : t(e.text || ""));
+  const titleOf = (e) => (e.fromT && e.place ? `${t(e.title)}: ${e.place}` : evTitle(e));
   const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//.test(u) ? u : null);
   function eventHtml(e) {
     const cite = safeUrl(e.cite);
     const host = cite ? new URL(cite).hostname.replace(/^www\./, "") : "";
-    return `<div class="tl-ev-date">${esc(fmtDate(e))}</div><div class="tl-ev-title">${esc(t(e.title))}</div>
-      <div class="tl-ev-text">${esc(t(e.text || ""))}</div>
-      ${cite ? `<a class="tl-ev-cite" href="${esc(cite)}" target="_blank" rel="noopener noreferrer">${esc(t("Source"))}: ${esc(host)}</a>` : ""}
+    // a Wikipedia citation links the revision its sentence was checked against
+    const rev = (c, id) => (id && /wikipedia\.org\/wiki\//.test(c) ? `${c.split("/wiki/")[0]}/w/index.php?oldid=${encodeURIComponent(id)}` : c);
+    const chap = (e.story || []).find((id) => app.story?.chapters?.some((c) => c.id === id));
+    const by = parseInt(String(e.date || e.year || ""), 10); // admin events from 1976 open the historical-borders mode
+    const sk = e.storm ? T.storms.findIndex((x) => x.name === e.storm.name && x.season === e.storm.season) : -1;
+    return `<div class="tl-ev-date">${esc(fmtDate(e))}${e.category && CATS[e.category] ? ` · ${esc(t(CATS[e.category]))}` : ""}</div><div class="tl-ev-title">${esc(evTitle(e))}</div>
+      <div class="tl-ev-text">${esc(evText(e))}</div>
+      ${e.place && !e.fromT ? `<div class="tl-ev-place" title="${esc(lang === "vi" && e.placed_vi ? e.placed_vi : e.placed || "")}">📍 ${esc(lang === "vi" && e.place_vi ? e.place_vi : e.place)}</div>` : ""}
+      ${cite ? `<a class="tl-ev-cite" href="${esc(rev(cite, e.revid))}" target="_blank" rel="noopener noreferrer">${esc(t("Source"))}: ${esc(host)}</a>` : ""}
+      ${(e.also || []).map((a) => safeUrl(a.cite) ? ` · <a class="tl-ev-cite" href="${esc(rev(a.cite, a.revid))}" target="_blank" rel="noopener noreferrer">${esc(new URL(a.cite).hostname.replace(/^www\./, ""))}</a>` : "").join("")}
+      ${chap ? `<button type="button" class="tl-link tl-story" data-story="${esc(chap)}">▶ ${esc(t("Watch the story"))}</button>` : ""}
+      ${by >= 1976 && e.category === "admin" && app.borders ? `<button type="button" class="tl-link tl-borders" data-year="${by}">📜 ${esc(t("See the borders of that year"))}</button>` : ""}
+      ${sk >= 0 ? `<button type="button" class="tl-link tl-storm" data-i="${sk}" data-season="${e.storm.season}">▶ ${esc(t("Replay the track"))}</button>` : ""}
       ${e.id === "merger_2025" ? `<button type="button" class="tl-link rp-merge">▶ ${esc(t("Watch the merger"))}</button>` : ""}
       ${e.x != null ? `<button type="button" class="tl-link tl-fly" data-x="${esc(e.x)}" data-y="${esc(e.y)}">${esc(t("Show on the map"))}</button>` : ""}`;
   }
@@ -284,17 +305,43 @@ export async function install(app) {
     } else {
       head = t("History");
       const evs = allEvents();
-      body = `<ol class="tl-hist">${evs.map((e, k) => `<li><button type="button" class="tl-link tl-hist-item" data-k="${k}" aria-expanded="${card.open === k}">
-          <span class="tl-ev-date">${esc(fmtDate(e))}</span> ${esc(titleOf(e))}</button>${card.open === k ? `<div class="tl-hist-body">${eventHtml(e)}</div>` : ""}</li>`).join("")}</ol>
-        ${history?.rules?.legend ? `<div class="tl-foot">${esc(t(history.rules.legend))}</div>` : ""}`;
       card.events = evs;
+      const n = (c) => evs.filter((e) => c === "all" || e.category === c).length;
+      const chips = ["all", ...Object.keys(CATS).filter((c) => n(c))].map((c) => `<button type="button" class="tl-chip" data-cat="${c}" aria-pressed="${(card.cat || "all") === c}">${esc(c === "all" ? t("All") : t(CATS[c]))} <span>${n(c)}</span></button>`).join("");
+      body = `<div class="tl-hist-ctl"><input type="search" class="tl-hist-q" placeholder="${esc(t("Search the history"))}" aria-label="${esc(t("Search the history"))}" value="${esc(card.q || "")}">
+          <div class="tl-chips" role="group" aria-label="${esc(t("Categories"))}">${chips}</div></div>
+        <div class="tl-hist-list">${histList()}</div>
+        ${history?.rules?.legend ? `<div class="tl-foot">${esc(t(history.rules.legend))}</div>` : ""}`;
     }
     cardEl.setAttribute("aria-label", head);
     cardEl.innerHTML = `<div class="tl-card-head"><span>${esc(head)}</span><button type="button" class="icon-btn tl-card-close" aria-label="${esc(t("Close"))}">✕</button></div><div class="tl-card-body">${body}</div>`;
     cardEl.hidden = false;
   }
+  // The History list: filtered by category chip and search text, grouped by era; each era is its own <ol> that the
+  // browser skips rendering while off-screen (content-visibility).
+  const fold = (x) => String(x || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/đ/gi, "d").toLowerCase();
+  function histList() {
+    const evs = card.events, q = fold(card.q).trim(), cat = card.cat || "all";
+    const hit = (e) => (cat === "all" || e.category === cat) && (!q || fold(`${e.title} ${e.title_vi || ""} ${e.text || ""} ${e.text_vi || ""} ${e.place || ""} ${e.place_vi || ""} ${titleOf(e)}`).includes(q));
+    const groups = ERAS.map(([a, b, name]) => [name, evs.map((e, k) => [e, k]).filter(([e]) => e.year >= a && e.year < b && hit(e))]).filter(([, l]) => l.length);
+    if (!groups.length) return `<p class="tl-ev-text">${esc(t("No event matches."))}</p>`;
+    return groups.map(([name, l]) => `<h4 class="tl-era">${esc(t(name))} <span>${l.length}</span></h4><ol class="tl-hist">${l.map(([e, k]) => `<li><button type="button" class="tl-link tl-hist-item" data-k="${k}" aria-expanded="${card.open === k}">
+          <span class="tl-ev-date">${esc(fmtDate(e))}</span> ${esc(titleOf(e))}</button>${card.open === k ? `<div class="tl-hist-body">${eventHtml(e)}</div>` : ""}</li>`).join("")}</ol>`).join("");
+  }
+  const refreshList = () => { const l = cardEl.querySelector(".tl-hist-list"); if (l) l.innerHTML = histList(); };
+  cardEl.addEventListener("input", (ev) => {
+    if (!ev.target.classList.contains("tl-hist-q") || card?.kind !== "history") return;
+    card.q = ev.target.value;
+    card.open = -1;
+    refreshList();
+  });
   function showEvent(e) { card = { kind: "event", event: e }; renderCard(); }
-  function showHistory(open = card?.kind === "history" ? card.open : -1) { card = { kind: "history", open }; renderCard(); }
+  function showHistory(open = card?.kind === "history" ? card.open : -1) {
+    const was = card?.kind === "history" ? card : {};
+    // opening at an event clears the filters that would hide it
+    card = { kind: "history", open, cat: open >= 0 ? "all" : was.cat, q: open >= 0 ? "" : was.q };
+    renderCard();
+  }
   function closeCard() {
     if (card?.kind === "storms") stormsDismissed = true;
     const hadFocus = cardEl.contains(document.activeElement);
@@ -322,12 +369,31 @@ export async function install(app) {
       else replay.merger({ home: true });
       return;
     }
+    const chip = ev.target.closest(".tl-chip");
+    if (chip && card?.kind === "history") {
+      card.cat = chip.dataset.cat;
+      card.open = -1;
+      cardEl.querySelectorAll(".tl-chip").forEach((c) => c.setAttribute("aria-pressed", String(c === chip)));
+      return refreshList();
+    }
+    const sto = ev.target.closest(".tl-story");
+    if (sto && app.story) { closeCard(); return void app.story.open({ kind: "chapter", ch: sto.dataset.story, i: 0 }); }
+    const bo = ev.target.closest(".tl-borders");
+    if (bo && app.borders) { closeCard(); return void app.borders.show(+bo.dataset.year); }
+    const sr = ev.target.closest(".tl-storm");
+    if (sr) {
+      play(false);
+      app.setLens(STORM_LENS);
+      setYear(+sr.dataset.season);
+      return void replay.storms([+sr.dataset.i], +sr.dataset.season);
+    }
     const fly = ev.target.closest(".tl-fly");
     if (fly) app.flyTo(+fly.dataset.x, +fly.dataset.y, Math.max(app.cam.scale, 1.2));
     const item = ev.target.closest(".tl-hist-item");
     if (item) {
       const k = +item.dataset.k;
-      showHistory(card.open === k ? -1 : k);
+      card.open = card.open === k ? -1 : k; // keeps the filters
+      refreshList();
       cardEl.querySelector(`.tl-hist-item[data-k="${k}"]`)?.focus();
     }
   });
@@ -552,6 +618,17 @@ function injectStyle() {
 .tl-hist li { padding: 4px 0; border-bottom: 1px solid rgba(201,164,92,.18); }
 .tl-hist .tl-hist-item { color: var(--ink); }
 .tl-hist-body { padding: 4px 0 2px 8px; }
+.tl-hist-ctl { position: sticky; top: -1px; z-index: 1; background: inherit; padding-bottom: 6px; }
+.tl-hist-q { width: 100%; box-sizing: border-box; font: inherit; font-size: 13px; color: var(--ink); background: #18232f; border: 1px solid rgba(201,164,92,.45); border-radius: 4px; padding: 4px 6px; }
+.tl-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 6px; }
+.tl-chip { font: inherit; font-size: 11.5px; color: var(--ink); background: rgba(0,0,0,.25); border: 1px solid rgba(201,164,92,.4); border-radius: 999px; padding: 2px 8px; cursor: pointer; }
+.tl-chip span { color: var(--ink-dim); }
+.tl-chip[aria-pressed="true"] { background: rgba(201,164,92,.28); border-color: var(--gold-bright); }
+.tl-era { margin: 8px 0 2px; font: 600 12.5px var(--serif); color: var(--gold-bright); }
+.tl-era span { color: var(--ink-dim); font-weight: 400; }
+.tl-hist-list .tl-hist { content-visibility: auto; contain-intrinsic-size: auto 400px; }
+.tl-ev-place { margin-top: 4px; color: var(--ink-dim); font-size: 12px; }
+.tl-story, .tl-storm, .tl-borders { display: block; margin-top: 6px; font-size: 12px; text-decoration: underline; }
 .tl-foot { margin-top: 8px; color: var(--ink-dim); font-size: 11px; line-height: 1.35; }
 /* Placement: the bottom row of the lens area (index.html #dock-row, css/style.css), centred beside the Map button. */
 @media (max-width: 700px) {

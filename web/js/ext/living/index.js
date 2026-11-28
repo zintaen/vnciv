@@ -40,6 +40,7 @@ export function install(app) {
   const perf0 = performance.now();
   // a debug time keeps running from where it was set
   const now = () => {
+    if (dbgMs != null) return dbgMs + (performance.now() - perf0); // a ?living=t… / Tết preview beats the real clock
     if (app.daynight?.now) return app.daynight.now();
     if (app.daynight?.on) {
       const d = document.querySelector(".dn-time")?.dateTime; // the clock shows ▶ 24 h's simulated time while it plays
@@ -302,6 +303,8 @@ function injectStyle() {
   const css = `
 .lv-card { position: fixed; right: calc(10px + var(--dock-right, 0px)); bottom: 64px; z-index: 18; width: min(300px, calc(100vw - 20px)); padding: 7px 10px; font-size: 12px; color: var(--ink); box-sizing: border-box; }
 .lv-card[hidden] { display: none; }
+/* the Map panel (lens picker) opens over this corner: step aside while it is open */
+body:has(#lens-picker:not([hidden])) .lv-card { display: none; }
 .lv-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .lv-month { font: 600 15px var(--serif); color: var(--gold-bright); min-width: 76px; text-align: center; text-transform: capitalize; }
 .lv-btn { background: none; border: 1px solid var(--line); border-radius: 4px; color: var(--gold-bright); cursor: pointer; min-width: 26px; height: 24px; padding: 0 6px; font: inherit; }

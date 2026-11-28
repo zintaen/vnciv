@@ -139,13 +139,13 @@ function airRoutesHtml(id, trade) {
   const rs = (trade?.routes || []).filter((r) => r.a === id || r.b === id);
   if (!z || !rs.length) return "";
   const name = (zid) => zones.get(zid)?.short || zones.get(zid)?.name || zid;
-  return `<h4 class="cv-h4">${t("Air routes")} <span class="muted">${esc(t(trade.vintage || "OpenFlights, 2014"))}</span></h4>
+  return `<h4 class="cv-h4">${t("Air routes")} <span class="muted">${esc(t(trade.vintage || ""))}</span></h4>
     <p class="cv-note">${esc((z.airports || []).join(", "))} · ${t("{n} of the {k} domestic routes flown by the most airlines:", { n: rs.length, k: (trade.routes || []).length })}</p>
     <p class="cv-dc-inst">${rs.map((r) => {
       const other = r.a === id ? r.b : r.a;
       return `<span title="#${esc(r.rank)} · ${esc((r.airports || []).join("–"))} · ${esc((r.airline_codes || []).join(", "))}${Number.isFinite(r.dist_km) ? ` · ${int(r.dist_km)} km` : ""}">✈ ${esc(name(other))} <b>${int(r.airlines)}</b></span>`;
     }).join("")}</p>
-    <p class="cv-note">${t("Number = airlines flying the route in the OpenFlights database (June 2014, its last update): no passenger counts, and newer routes are missing.")}</p>`;
+    <p class="cv-note">${t("Number = airlines flying the route, as listed in the Wikipedia articles of both airports: no flight or passenger counts.")}</p>`;
 }
 
 function districtCard(d, m, ddata, mil) {

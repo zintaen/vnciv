@@ -80,8 +80,16 @@ function show(mx, my, html) {
   t.innerHTML = html;
   t.hidden = false;
   const r = t.getBoundingClientRect();
-  t.style.left = Math.max(4, Math.min(window.innerWidth - r.width - 8, mx + 16)) + "px";
-  t.style.top = Math.max(4, Math.min(window.innerHeight - r.height - 8, my + 16)) + "px";
+  const x = Math.max(4, Math.min(window.innerWidth - r.width - 8, mx + 16));
+  let y = Math.max(4, Math.min(window.innerHeight - r.height - 8, my + 16));
+  // Keep clear of the minimap and its attribution line (bottom left): above them when the box would land on them.
+  for (const id of ["minimap-wrap", "attrib-mini"]) {
+    const b = document.getElementById(id);
+    const q = b && !b.hidden && b.getClientRects().length ? b.getBoundingClientRect() : null;
+    if (q && x < q.right && x + r.width > q.left && y < q.bottom && y + r.height > q.top) y = Math.max(4, Math.min(y, q.top - r.height - 6));
+  }
+  t.style.left = x + "px";
+  t.style.top = y + "px";
 }
 
 export function hideTooltip() {

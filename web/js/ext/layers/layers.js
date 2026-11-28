@@ -143,6 +143,20 @@ export function makeLayers(model, on, { tips = {}, app = null } = {}) {
     },
     tooltip: (it) => tips.route?.(it.data, m) ?? null,
   };
+  // International arcs (trade.json international, in the map frame), under the domestic routes, on the same switch.
+  const intl = {
+    id: "trade-intl", z: 84, minRpx: 2,
+    visible: () => !!on.trade && m.intl.length > 0,
+    sig: ver,
+    draw(ctx, vp, w, o) {
+      drawTradeRoutes(ctx, m.intl, vp, o);
+    },
+    hit: (x, y, Rpx) => {
+      const rt = hitRoute(m.intl, x, y, Rpx, Rpx / grid().R);
+      return rt ? { kind: "route", data: rt } : null;
+    },
+    tooltip: (it) => tips.intlRoute?.(it.data, m) ?? null,
+  };
 
   // Name plates under the forts (major ones, close in) and wonders, laid out together in one pass (wonders first, by
   // rank), so no two overlap; each keeps clear of where city banners stand and, in the City View, of the hexes that
@@ -224,5 +238,5 @@ export function makeLayers(model, on, { tips = {}, app = null } = {}) {
     o.world();
   }
 
-  return [roads, rail, protectedLand, restricted, hubs, forts, wonders, plates, trade];
+  return [roads, rail, protectedLand, restricted, hubs, forts, wonders, plates, intl, trade];
 }

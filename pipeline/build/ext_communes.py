@@ -6,6 +6,7 @@ Also checks the file against the officially announced counts and the 34 province
 of the 63 former provinces (pipeline/admin.py), and publishes both checks in the file."""
 from __future__ import annotations
 
+import gzip
 import html
 import io
 import json
@@ -13,6 +14,7 @@ import math
 import re
 import struct
 import unicodedata
+import xml.etree.ElementTree as ET
 import zipfile
 
 import numpy as np
@@ -24,6 +26,7 @@ from ..admin import fold, new_units
 from ..fetch import RAW
 from ..geo import UNIT, ring_contains
 from ..store import load_web, write_web
+from . import communestats
 from .common import World
 from .world import LAT1, LON0, RES
 
@@ -33,10 +36,28 @@ TOL = 0.6             # Douglas–Peucker tolerance, map units (0.12 km)
 Q = 2                 # stored coordinates are integers of map units × Q (0.1 km steps)
 COUNT_NOTE = ("The file is newer than the June 2025 list: 10 Đồng Nai communes became wards (Resolution "
               "237/NQ-UBTVQH16, from 30 April 2026) and 12 Bắc Ninh communes became wards (Resolution 388/NQ-UBTVQH16, "
-              "September 2026). The number of units, 3,321, is unchanged.")
+              "from 20 September 2026). The number of units, 3,321, is unchanged.")
+NSO_DATE = "2026-11-28"  # the NSO register queried for the list in force on this date (and on 1 July 2025)
+# Resolutions that changed a unit's type after 1 July 2025. Each date and count is checked against the downloaded text
+# named here (data/raw/nq_wards_2026/), and the units each names against the NSO register.
+RESOLUTIONS = [
+    {"id": "237/NQ-UBTVQH16", "by": "National Assembly Standing Committee", "province": "DNI", "kind_from": 0,
+     "kind_to": 1, "n": 10, "adopted": "2026-04-14", "effective": "2026-04-30",
+     "evidence": {"chinhphu_237.html": ["thành lập 10 phường thuộc tỉnh Đồng Nai", "thông qua ngày 14 tháng 4 năm 2026",
+                                        "hiệu lực thi hành từ ngày 30/4/2026"]}},
+    {"id": "388/NQ-UBTVQH16", "by": "National Assembly Standing Committee", "province": "BNI", "kind_from": 0,
+     "kind_to": 1, "n": 12, "adopted": "2026-08-04", "effective": "2026-09-20",
+     "evidence": {"vtc_388.html": ["thành lập 12 phường thuộc tỉnh Bắc Ninh"],
+                  "thcl_388_bo_ha.html": ["388/NQ-UBTVQH16 ngày 4/8/2026", "hiệu lực thi hành từ ngày 20/9/2026"]}},
+]
 RULES = {
     "source": "Vietnamese Provinces Database v5.2.0 (wards GIS from the official reference map sapnhap.bando.com.vn, "
-              "codes and names from the NSO/GSO list), as updated to Resolution 388/NQ-UBTVQH16 of September 2026.",
+              "codes and names from the NSO list), as updated to Resolution 388/NQ-UBTVQH16 of September 2026.",
+    "kind": f"Each unit's code and type (xã, phường, đặc khu) are those of the NSO register in force on {NSO_DATE}; "
+            "the build stops if any code, type or name (ignoring tone-mark placement, case and spaces) differs.",
+    "changes": "A change is a unit whose type in the NSO register of 1 July 2025 differs from its type today. Each is "
+               "attributed to the resolution for its province, and the build stops unless the number and the names "
+               "of the changed units match the resolution's text.",
     "province": "Each commune's province is the one its official code belongs to, matched to the map's 34 provinces "
                 "by name.",
     "geometry": f"Vertices snapped to 1e-5°; borders split where the neighbours change and kept once (arcs); each arc "
@@ -224,11 +245,66 @@ def build_topology(units):
 
 # --- checks ---------------------------------------------------------------------------------------------------
 
+def page_text(path):
+    """A downloaded HTML page as plain NFC text on one line (some servers send gzip whatever the request asks)."""
+    b = path.read_bytes()
+    t = (gzip.decompress(b) if b[:2] == b"\x1f\x8b" else b).decode("utf-8")
+    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", t, flags=re.S | re.I)
+    return re.sub(r"\s+", " ", unicodedata.normalize("NFC", html.unescape(re.sub(r"<[^>]+>", " ", t))))
+
+
+TONES = set("\u0300\u0301\u0303\u0309\u0323")
+
+
+def name_key(s):
+    """A name for comparing spellings: lower case, no punctuation, single spaces, each word's tone mark moved to the
+    word's end, so the older and newer tone placements (Hoà, Hòa) are equal and other letters are not."""
+    words = re.sub(r"[^\w\s]", " ", unicodedata.normalize("NFC", s)).lower().split()
+    return " ".join("".join(c for c in w if c not in TONES) + "".join(sorted(c for c in w if c in TONES))
+                    for w in (unicodedata.normalize("NFD", w) for w in words))
+
+
+def nso_units(date):
+    """{code: (kind index, full name, province code)} of the NSO register in force on date (YYYY-MM-DD)."""
+    root = ET.parse(RAW / "nso_dvhc" / f"DanhMucPhuongXa_{date}.xml").getroot()
+    return {t.findtext("MaPhuongXa"): (KINDS.index(t.findtext("LoaiHinh").strip()), t.findtext("TenPhuongXa"),
+                                       t.findtext("MaTinh")) for t in root.iter("TABLE")}
+
+
+def nso_check(units, prov_abbr):
+    """Check every unit against the NSO register of today and find the units whose type changed since 1 July 2025;
+    returns ({province abbr: [xã, phường, đặc khu] today}, {same, 1 July 2025}, [change per resolution])."""
+    now, then = nso_units(NSO_DATE), nso_units("2025-07-01")
+    ours = {u["code"]: u for u in units}
+    bad = sorted(c for c in set(now) | set(ours)
+                 if c not in now or c not in ours or now[c][0] != ours[c]["kind"] or now[c][2] != ours[c]["prov"]
+                 or name_key(now[c][1]) != name_key(f"{KINDS[ours[c]['kind']]} {ours[c]['name']}"))
+    assert not bad, f"units differing from the NSO register of {NSO_DATE}: {bad[:20]}"
+    assert set(then) == set(now), "units added or removed since 1 July 2025"
+    changed = {c for c in now if then[c][:1] != now[c][:1]}
+    changes = []
+    for r in RESOLUTIONS:
+        texts = {f: page_text(RAW / "nq_wards_2026" / f) for f in r["evidence"]}
+        for f, phrases in r["evidence"].items():
+            for ph in phrases:
+                assert ph in texts[f], f"{r['id']}: {ph!r} not in {f}"
+        ids = sorted(c for c in changed if prov_abbr[now[c][2]] == r["province"])
+        assert len(ids) == r["n"], f"{r['id']}: {len(ids)} changed units in {r['province']}, the resolution has {r['n']}"
+        assert all((then[c][0], now[c][0]) == (r["kind_from"], r["kind_to"]) for c in ids), r["id"]
+        listed = " " + name_key(next(iter(texts.values()))) + " "
+        missing = [ours[c]["name"] for c in ids if f" {name_key(ours[c]['name'])} " not in listed]
+        assert not missing, f"{r['id']}: not named in its text: {missing}"
+        changes.append({k: r[k] for k in ("id", "by", "province", "adopted", "effective", "kind_from", "kind_to")}
+                       | {"source": "nq_wards_2026", "ids": ids})
+    assert sum(len(c["ids"]) for c in changes) == len(changed), "a type change no resolution here explains"
+    by = lambda reg: {a: [sum(1 for v in reg.values() if prov_abbr[v[2]] == a and v[0] == k) for k in range(3)]
+                      for a in set(prov_abbr.values())}
+    return by(now), by(then), changes
+
+
 def official_counts():
     """{folded province name: (total, {kind index: n})} parsed from the VTC News article (June 2025)."""
-    t = (RAW / "vtc_communes_2025" / "vtc_3321.html").read_text(encoding="utf-8")
-    t = re.sub(r"<script.*?</script>|<style.*?</style>", " ", t, flags=re.S | re.I)
-    t = re.sub(r"\s+", " ", unicodedata.normalize("NFC", html.unescape(re.sub(r"<[^>]+>", " ", t))))
+    t = page_text(RAW / "vtc_communes_2025" / "vtc_3321.html")
     out = {}
     for m in re.finditer(r"(?:[Tt]ỉnh|TP\.?) ?([^\d,;.]+?) có (\d+) đơn vị hành chính cấp xã,? gồm ([^;.]+)", t):
         name = {"HCM": "Hồ Chí Minh"}.get(m.group(1).strip(), m.group(1).strip())
@@ -343,6 +419,18 @@ def build():
     if diffs:
         print("    ! counts differing from the June 2025 announcement (communes, wards, special zones): " + "; ".join(diffs))
 
+    # types against the official NSO register of today; the changes since 1 July 2025 and their resolutions
+    nso_now, nso_2025, changes = nso_check(units, prov_abbr)
+    for abbr, v in counts.items():
+        assert nso_now[abbr] == by_prov[abbr], abbr
+        off = v["official_2025"]
+        assert off is None or nso_2025[abbr] == [off["communes"], off["wards"], off["special"]], f"{abbr}: NSO 2025"
+        v["official_now"] = dict(zip(["communes", "wards", "special"], nso_now[abbr]), total=sum(nso_now[abbr]))
+    official_now = dict(zip(["communes", "wards", "special"], map(sum, zip(*nso_now.values()))))
+    official_now["total"] = sum(official_now.values())
+    print(f"    NSO register {NSO_DATE}: {official_now}; changes since 1 July 2025: "
+          + ", ".join(f"{c['id']} {c['province']} {len(c['ids'])}" for c in changes))
+
     # province outlines: this file's 34 and HDX COD-AB's 34 vs the map's unions
     pg = province_geojsons()
     vpd = [(prov_abbr[c], [r for poly in (g["coordinates"] if g["type"] == "MultiPolygon" else [g["coordinates"]])
@@ -355,14 +443,22 @@ def build():
                 "vn_wards_gis": outline_check(W, vpd, "Vietnamese Provinces Database"),
                 "hdx_cod_ab_vnm": outline_check(W, hdx, "HDX COD-AB")}
 
+    # natural area, population and density of each unit (communestats stream), each value checked or null with a reason
+    stats = communestats.attach(communes, abbr_of_name, communestats.worldpop_by_unit(units))
+    print(f"    stats: {stats['count']}")
+
     total = len(communes)
     write_web("communes.json", {
-        "version": 1, "year": 2025, "sources": ["vn_wards_gis", "vtc_communes_2025", "hdx_cod_ab_vnm"],
-        "vintage": "Units of 1 July 2025 as updated to Resolution 388/NQ-UBTVQH16 (20 September 2026)",
+        "version": 1, "year": 2025, "as_of": NSO_DATE,
+        "sources": ["vn_wards_gis", "nso_dvhc", "nq_wards_2026", "vtc_communes_2025", "hdx_cod_ab_vnm",
+                    "sapnhap_bando_official", "worldpop"],
+        "vintage": f"Units of 1 July 2025 with the types of the NSO register of {NSO_DATE} (after Resolutions "
+                   "237/NQ-UBTVQH16 and 388/NQ-UBTVQH16)",
         "rules": RULES, "kinds": KINDS, "q": Q, "unit_km": 1 / UNIT,
         "count": total, "official_2025": dict(zip(["total", "communes", "wards", "special"], national)) if national else None,
+        "official_now": official_now, "changes": changes,
         "by_province": counts, "count_differences": diffs, "count_note": COUNT_NOTE,
-        "outline_check": outlines,
+        "outline_check": outlines, "stats": stats,
         "arcs": enc, "communes": communes,
     })
     print(f"    {total} communes ({sum(c['k'] == 0 for c in communes)} xã, {sum(c['k'] == 1 for c in communes)} phường, "

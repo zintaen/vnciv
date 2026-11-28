@@ -1,4 +1,5 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2018,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 An Giang,63,2019,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 An Giang,63,2020,0.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 An Giang,63,2021,0.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -6,6 +7,7 @@ An Giang,63,2022,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/
 An Giang,63,2023,0.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 An Giang,63,2024,1.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 An Giang,63,2025,0.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bà Rịa - Vũng Tàu,63,2018,14.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bà Rịa - Vũng Tàu,63,2019,14.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bà Rịa - Vũng Tàu,63,2020,14.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bà Rịa - Vũng Tàu,63,2021,14.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -13,6 +15,7 @@ Bà Rịa - Vũng Tàu,63,2022,16.3,thousand tonnes,"https://www.nso.gov.vn/wp-c
 Bà Rịa - Vũng Tàu,63,2023,12.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bà Rịa - Vũng Tàu,63,2024,15.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bà Rịa - Vũng Tàu,63,2025,15.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bình Dương,63,2018,23.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bình Dương,63,2019,23.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bình Dương,63,2020,22.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Dương,63,2021,22.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -20,6 +23,7 @@ Bình Dương,63,2022,19.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Bình Dương,63,2023,15.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Dương,63,2024,13.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Dương,63,2025,13.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bình Phước,63,2018,7.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bình Phước,63,2019,4.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bình Phước,63,2020,5.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Phước,63,2021,4.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -27,6 +31,7 @@ Bình Phước,63,2022,4.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Bình Phước,63,2023,2.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Phước,63,2024,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Phước,63,2025,3.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bình Thuận,63,2018,60.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bình Thuận,63,2019,54.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bình Thuận,63,2020,50.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Thuận,63,2021,50.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -34,6 +39,7 @@ Bình Thuận,63,2022,39.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Bình Thuận,63,2023,40.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Thuận,63,2024,29.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Thuận,63,2025,40.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bình Định,63,2018,66.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bình Định,63,2019,30.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bình Định,63,2020,14.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Định,63,2021,10.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -41,6 +47,7 @@ Bình Định,63,2022,9.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Bình Định,63,2023,9.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Định,63,2024,12.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bình Định,63,2025,15.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bạc Liêu,63,2018,17.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bạc Liêu,63,2019,17.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bạc Liêu,63,2020,17.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bạc Liêu,63,2021,15.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -48,6 +55,7 @@ Bạc Liêu,63,2022,15.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Bạc Liêu,63,2023,17.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bạc Liêu,63,2024,17.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bạc Liêu,63,2025,17.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bắc Giang,63,2018,9.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bắc Giang,63,2019,9.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bắc Giang,63,2020,8.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Giang,63,2021,7.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -55,6 +63,7 @@ Bắc Giang,63,2022,7.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Bắc Giang,63,2023,6.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Giang,63,2024,5.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Giang,63,2025,5.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bắc Kạn,63,2018,5.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bắc Kạn,63,2019,4.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bắc Kạn,63,2020,2.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Kạn,63,2021,3.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -62,6 +71,7 @@ Bắc Kạn,63,2022,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Bắc Kạn,63,2023,3.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Kạn,63,2024,3.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Kạn,63,2025,3.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bắc Ninh,63,2018,0.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bắc Ninh,63,2019,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bắc Ninh,63,2020,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Ninh,63,2021,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -69,12 +79,14 @@ Bắc Ninh,63,2022,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/upload
 Bắc Ninh,63,2023,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Ninh,63,2024,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Bắc Ninh,63,2025,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Bến Tre,63,2018,59.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Bến Tre,63,2019,27.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Bến Tre,63,2020,11.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Bến Tre,63,2021,5.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Bến Tre,63,2022,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Bến Tre,63,2023,0.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Bến Tre,63,2024,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",prel
+Cao Bằng,63,2018,227.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Cao Bằng,63,2019,207.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Cao Bằng,63,2020,178.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cao Bằng,63,2021,173.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -82,6 +94,7 @@ Cao Bằng,63,2022,173.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Cao Bằng,63,2023,178.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cao Bằng,63,2024,189.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cao Bằng,63,2025,183.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Cà Mau,63,2018,44.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Cà Mau,63,2019,19.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Cà Mau,63,2020,15.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cà Mau,63,2021,15.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -89,6 +102,7 @@ Cà Mau,63,2022,13.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/
 Cà Mau,63,2023,13.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cà Mau,63,2024,11.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Cà Mau,63,2025,9.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Gia Lai,63,2018,2577.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Gia Lai,63,2019,2203.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Gia Lai,63,2020,1860.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Gia Lai,63,2021,2067.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -96,6 +110,7 @@ Gia Lai,63,2022,2434.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/upload
 Gia Lai,63,2023,2930.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Gia Lai,63,2024,3123.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Gia Lai,63,2025,3662.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hà Giang,63,2018,23.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hà Giang,63,2019,25.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hà Giang,63,2020,21.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Giang,63,2021,20.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -103,6 +118,7 @@ Hà Giang,63,2022,15.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/upload
 Hà Giang,63,2023,14.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Giang,63,2024,19.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Giang,63,2025,32.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hà Nội,63,2018,1.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hà Nội,63,2019,1.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hà Nội,63,2020,0.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Nội,63,2021,0.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -110,6 +126,7 @@ Hà Nội,63,2022,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Hà Nội,63,2023,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Nội,63,2024,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Nội,63,2025,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hà Tĩnh,63,2018,8.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hà Tĩnh,63,2019,7.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hà Tĩnh,63,2020,7.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Tĩnh,63,2021,6.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -117,6 +134,7 @@ Hà Tĩnh,63,2022,8.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Hà Tĩnh,63,2023,7.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Tĩnh,63,2024,6.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hà Tĩnh,63,2025,6.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hòa Bình,63,2018,615.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hòa Bình,63,2019,621.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hòa Bình,63,2020,544.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hòa Bình,63,2021,513.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -124,12 +142,14 @@ Hòa Bình,63,2022,481.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Hòa Bình,63,2023,485.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hòa Bình,63,2024,470.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hòa Bình,63,2025,467.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hưng Yên,63,2018,0.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hưng Yên,63,2019,0.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hưng Yên,63,2020,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Hưng Yên,63,2021,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Hưng Yên,63,2022,0.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Hưng Yên,63,2023,0.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
 Hưng Yên,63,2024,0.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",prel
+Hải Dương,63,2018,2.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hải Dương,63,2019,2.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hải Dương,63,2020,2.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Dương,63,2021,2.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -137,6 +157,7 @@ Hải Dương,63,2022,2.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Hải Dương,63,2023,2.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Dương,63,2024,2.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Dương,63,2025,2.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hải Phòng,63,2018,3.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hải Phòng,63,2019,3.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hải Phòng,63,2020,2.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Phòng,63,2021,2.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -144,6 +165,7 @@ Hải Phòng,63,2022,1.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Hải Phòng,63,2023,2.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Phòng,63,2024,1.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hải Phòng,63,2025,1.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Hậu Giang,63,2018,1039.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Hậu Giang,63,2019,890.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Hậu Giang,63,2020,590.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hậu Giang,63,2021,504.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -151,6 +173,7 @@ Hậu Giang,63,2022,384.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Hậu Giang,63,2023,327.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hậu Giang,63,2024,321.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Hậu Giang,63,2025,316.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Khánh Hòa,63,2018,865.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Khánh Hòa,63,2019,773.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Khánh Hòa,63,2020,426.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Khánh Hòa,63,2021,509.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -158,6 +181,7 @@ Khánh Hòa,63,2022,462.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Khánh Hòa,63,2023,410.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Khánh Hòa,63,2024,409.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Khánh Hòa,63,2025,367.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Kiên Giang,63,2018,367.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Kiên Giang,63,2019,362.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Kiên Giang,63,2020,203.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kiên Giang,63,2021,105.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -165,6 +189,7 @@ Kiên Giang,63,2022,119.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Kiên Giang,63,2023,62.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kiên Giang,63,2024,69.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kiên Giang,63,2025,63.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Kon Tum,63,2018,84.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Kon Tum,63,2019,62.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Kon Tum,63,2020,51.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kon Tum,63,2021,52.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -172,6 +197,7 @@ Kon Tum,63,2022,53.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/
 Kon Tum,63,2023,67.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kon Tum,63,2024,84.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Kon Tum,63,2025,101.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Lai Châu,63,2018,6.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Lai Châu,63,2019,6.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Lai Châu,63,2020,9.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lai Châu,63,2021,11.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -179,6 +205,7 @@ Lai Châu,63,2022,13.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/upload
 Lai Châu,63,2023,10.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lai Châu,63,2024,9.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lai Châu,63,2025,8.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Long An,63,2018,480.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Long An,63,2019,270.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Long An,63,2020,27.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Long An,63,2021,3.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -186,6 +213,7 @@ Long An,63,2022,1.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2
 Long An,63,2023,1.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Long An,63,2024,3.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Long An,63,2025,5.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Lào Cai,63,2018,9.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Lào Cai,63,2019,11.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Lào Cai,63,2020,12.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lào Cai,63,2021,11.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -193,6 +221,7 @@ Lào Cai,63,2022,10.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Lào Cai,63,2023,8.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lào Cai,63,2024,7.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lào Cai,63,2025,2.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Lâm Đồng,63,2018,23.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Lâm Đồng,63,2019,23.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Lâm Đồng,63,2020,18.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lâm Đồng,63,2021,12.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -200,6 +229,7 @@ Lâm Đồng,63,2022,12.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Lâm Đồng,63,2023,11.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lâm Đồng,63,2024,11.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lâm Đồng,63,2025,6.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Lạng Sơn,63,2018,8.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Lạng Sơn,63,2019,7.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Lạng Sơn,63,2020,7.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lạng Sơn,63,2021,7.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -207,6 +237,7 @@ Lạng Sơn,63,2022,6.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Lạng Sơn,63,2023,5.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lạng Sơn,63,2024,5.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Lạng Sơn,63,2025,5.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Nam Định,63,2018,4.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Nam Định,63,2019,3.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Nam Định,63,2020,2.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nam Định,63,2021,2.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -214,6 +245,7 @@ Nam Định,63,2022,1.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Nam Định,63,2023,1.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nam Định,63,2024,1.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nam Định,63,2025,1.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Nghệ An,63,2018,1517.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Nghệ An,63,2019,1372.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Nghệ An,63,2020,1192.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nghệ An,63,2021,1127.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -221,6 +253,7 @@ Nghệ An,63,2022,1225.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Nghệ An,63,2023,1276.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nghệ An,63,2024,1377.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Nghệ An,63,2025,1284.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Ninh Bình,63,2018,58.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Ninh Bình,63,2019,53.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Ninh Bình,63,2020,46.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Bình,63,2021,32.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -228,6 +261,7 @@ Ninh Bình,63,2022,26.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Ninh Bình,63,2023,23.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Bình,63,2024,25.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Bình,63,2025,17.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Ninh Thuận,63,2018,201.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Ninh Thuận,63,2019,186.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Ninh Thuận,63,2020,120.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Thuận,63,2021,119.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -235,6 +269,7 @@ Ninh Thuận,63,2022,114.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Ninh Thuận,63,2023,161.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Thuận,63,2024,153.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Ninh Thuận,63,2025,139.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Phú Thọ,63,2018,18.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Phú Thọ,63,2019,15.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Phú Thọ,63,2020,13.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Thọ,63,2021,9.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -242,6 +277,7 @@ Phú Thọ,63,2022,5.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/upload
 Phú Thọ,63,2023,3.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Thọ,63,2024,2.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Thọ,63,2025,3.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Phú Yên,63,2018,1738.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Phú Yên,63,2019,1696.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Phú Yên,63,2020,1239.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Yên,63,2021,1346.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -249,6 +285,7 @@ Phú Yên,63,2022,1478.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Phú Yên,63,2023,1719.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Yên,63,2024,1958.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Phú Yên,63,2025,2160.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Quảng Bình,63,2018,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Quảng Bình,63,2019,4.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Quảng Bình,63,2020,3.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Bình,63,2021,3.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -256,6 +293,7 @@ Quảng Bình,63,2022,3.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Quảng Bình,63,2023,3.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Bình,63,2024,3.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Bình,63,2025,4.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Quảng Nam,63,2018,9.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Quảng Nam,63,2019,10.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Quảng Nam,63,2020,10.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Nam,63,2021,10.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -263,6 +301,7 @@ Quảng Nam,63,2022,10.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Quảng Nam,63,2023,10.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Nam,63,2024,10.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Nam,63,2025,11.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Quảng Ngãi,63,2018,166.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Quảng Ngãi,63,2019,121.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Quảng Ngãi,63,2020,51.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ngãi,63,2021,24.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -270,6 +309,7 @@ Quảng Ngãi,63,2022,11.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Quảng Ngãi,63,2023,9.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ngãi,63,2024,12.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ngãi,63,2025,13.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Quảng Ninh,63,2018,25.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Quảng Ninh,63,2019,22.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Quảng Ninh,63,2020,20.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ninh,63,2021,19.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -277,6 +317,7 @@ Quảng Ninh,63,2022,17.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Quảng Ninh,63,2023,18.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ninh,63,2024,14.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Ninh,63,2025,15.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Quảng Trị,63,2018,2.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Quảng Trị,63,2019,2.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Quảng Trị,63,2020,1.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Trị,63,2021,1.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -284,6 +325,7 @@ Quảng Trị,63,2022,0.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Quảng Trị,63,2023,0.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Trị,63,2024,0.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Quảng Trị,63,2025,0.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Sóc Trăng,63,2018,843.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Sóc Trăng,63,2019,757.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Sóc Trăng,63,2020,510.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sóc Trăng,63,2021,284.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -291,6 +333,7 @@ Sóc Trăng,63,2022,283.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Sóc Trăng,63,2023,351.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sóc Trăng,63,2024,448.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sóc Trăng,63,2025,462.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Sơn La,63,2018,621.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Sơn La,63,2019,570.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Sơn La,63,2020,512.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sơn La,63,2021,621.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -298,6 +341,7 @@ Sơn La,63,2022,681.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Sơn La,63,2023,652.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sơn La,63,2024,664.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Sơn La,63,2025,661.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+TP. Hồ Chí Minh,63,2018,131.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 TP. Hồ Chí Minh,63,2019,39.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 TP. Hồ Chí Minh,63,2020,30.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 TP. Hồ Chí Minh,63,2021,25.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -305,6 +349,7 @@ TP. Hồ Chí Minh,63,2022,20.0,thousand tonnes,"https://www.nso.gov.vn/wp-conte
 TP. Hồ Chí Minh,63,2023,3.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 TP. Hồ Chí Minh,63,2024,2.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 TP. Hồ Chí Minh,63,2025,2.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Thanh Hóa,63,2018,1700.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Thanh Hóa,63,2019,1493.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Thanh Hóa,63,2020,1213.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thanh Hóa,63,2021,997.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -312,6 +357,7 @@ Thanh Hóa,63,2022,919.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Thanh Hóa,63,2023,923.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thanh Hóa,63,2024,958.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thanh Hóa,63,2025,926.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Thái Bình,63,2018,4.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Thái Bình,63,2019,6.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Thái Bình,63,2020,2.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Bình,63,2021,2.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -319,6 +365,7 @@ Thái Bình,63,2022,1.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Thái Bình,63,2023,2.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Bình,63,2024,2.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Bình,63,2025,2.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Thái Nguyên,63,2018,9.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Thái Nguyên,63,2019,9.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Thái Nguyên,63,2020,8.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Nguyên,63,2021,6.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -326,6 +373,7 @@ Thái Nguyên,63,2022,6.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/upl
 Thái Nguyên,63,2023,4.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Nguyên,63,2024,4.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thái Nguyên,63,2025,4.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Thừa Thiên Huế,63,2018,4.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Thừa Thiên Huế,63,2019,4.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Thừa Thiên Huế,63,2020,4.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thừa Thiên Huế,63,2021,3.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -333,6 +381,7 @@ Thừa Thiên Huế,63,2022,3.7,thousand tonnes,"https://www.nso.gov.vn/wp-conte
 Thừa Thiên Huế,63,2023,3.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thừa Thiên Huế,63,2024,3.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Thừa Thiên Huế,63,2025,3.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Tiền Giang,63,2018,11.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Tiền Giang,63,2019,12.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Tiền Giang,63,2020,7.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tiền Giang,63,2021,7.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -340,6 +389,7 @@ Tiền Giang,63,2022,6.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uplo
 Tiền Giang,63,2023,5.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tiền Giang,63,2024,5.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tiền Giang,63,2025,5.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Trà Vinh,63,2018,454.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Trà Vinh,63,2019,271.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Trà Vinh,63,2020,163.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Trà Vinh,63,2021,129.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -347,6 +397,7 @@ Trà Vinh,63,2022,137.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Trà Vinh,63,2023,147.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Trà Vinh,63,2024,149.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Trà Vinh,63,2025,154.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Tuyên Quang,63,2018,535.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Tuyên Quang,63,2019,275.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Tuyên Quang,63,2020,169.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tuyên Quang,63,2021,130.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -354,6 +405,7 @@ Tuyên Quang,63,2022,125.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/up
 Tuyên Quang,63,2023,124.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tuyên Quang,63,2024,149.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tuyên Quang,63,2025,167.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Tây Ninh,63,2018,1132.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Tây Ninh,63,2019,813.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Tây Ninh,63,2020,526.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tây Ninh,63,2021,452.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -361,6 +413,7 @@ Tây Ninh,63,2022,466.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Tây Ninh,63,2023,544.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tây Ninh,63,2024,583.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Tây Ninh,63,2025,631.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Vĩnh Long,63,2018,14.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Vĩnh Long,63,2019,17.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Vĩnh Long,63,2020,16.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Long,63,2021,16.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -368,6 +421,7 @@ Vĩnh Long,63,2022,16.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Vĩnh Long,63,2023,15.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Long,63,2024,16.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Long,63,2025,15.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Vĩnh Phúc,63,2018,4.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Vĩnh Phúc,63,2019,3.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Vĩnh Phúc,63,2020,0.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Phúc,63,2021,0.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -375,6 +429,7 @@ Vĩnh Phúc,63,2022,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploa
 Vĩnh Phúc,63,2023,0.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Phúc,63,2024,0.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Vĩnh Phúc,63,2025,0.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Yên Bái,63,2018,12.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Yên Bái,63,2019,8.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Yên Bái,63,2020,8.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Yên Bái,63,2021,6.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -382,6 +437,7 @@ Yên Bái,63,2022,5.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Yên Bái,63,2023,4.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Yên Bái,63,2024,5.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Điện Biên,63,2018,1.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Điện Biên,63,2019,1.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Điện Biên,63,2020,1.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Điện Biên,63,2021,1.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -389,6 +445,7 @@ Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Điện Biên,63,2023,1.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Điện Biên,63,2024,1.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Điện Biên,63,2025,1.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Đà Nẵng,63,2018,16.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Đà Nẵng,63,2019,18.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Đà Nẵng,63,2020,18.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đà Nẵng,63,2021,15.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -396,6 +453,7 @@ Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Đà Nẵng,63,2023,11.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đà Nẵng,63,2024,10.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đà Nẵng,63,2025,9.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Đắk Lắk,63,2018,1251.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Đắk Lắk,63,2019,1514.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Đắk Lắk,63,2020,1115.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Lắk,63,2021,859.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -403,6 +461,7 @@ Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Đắk Lắk,63,2023,969.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Lắk,63,2024,1039.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Lắk,63,2025,1124.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Đắk Nông,63,2018,4.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Đắk Nông,63,2019,3.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Đắk Nông,63,2020,5.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Nông,63,2021,4.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -410,6 +469,7 @@ Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Đắk Nông,63,2023,6.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Nông,63,2024,6.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đắk Nông,63,2025,5.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Đồng Nai,63,2018,787.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Đồng Nai,63,2019,685.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Đồng Nai,63,2020,389.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đồng Nai,63,2021,323.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final
@@ -417,6 +477,7 @@ Yên Bái,63,2025,3.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads
 Đồng Nai,63,2023,196.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đồng Nai,63,2024,213.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đồng Nai,63,2025,215.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+Đồng Tháp,63,2018,2.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.637-638)",final
 Đồng Tháp,63,2019,1.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
 Đồng Tháp,63,2020,1.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
 Đồng Tháp,63,2021,2.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.633-634)",final

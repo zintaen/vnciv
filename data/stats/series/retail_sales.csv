@@ -1,4 +1,13 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,51086.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+An Giang,63,2011,46722.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+An Giang,63,2012,52261.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+An Giang,63,2013,58605.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+An Giang,63,2014,65295.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+An Giang,63,2015,74284.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+An Giang,63,2016,85863.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+An Giang,63,2017,100149.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+An Giang,63,2018,110379.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 An Giang,63,2019,123309.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 An Giang,63,2020,125658.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 An Giang,63,2021,77346.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -6,6 +15,15 @@ An Giang,63,2022,93201.9,billion VND (current prices),"https://www.nso.gov.vn/wp
 An Giang,63,2023,119905.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 An Giang,63,2024,134467.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 An Giang,63,2025,149159.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bà Rịa - Vũng Tàu,63,2010,22870.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bà Rịa - Vũng Tàu,63,2011,31752.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bà Rịa - Vũng Tàu,63,2012,37102.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bà Rịa - Vũng Tàu,63,2013,38184.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bà Rịa - Vũng Tàu,63,2014,43249.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bà Rịa - Vũng Tàu,63,2015,47521.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bà Rịa - Vũng Tàu,63,2016,55579.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bà Rịa - Vũng Tàu,63,2017,60992.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bà Rịa - Vũng Tàu,63,2018,66289.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bà Rịa - Vũng Tàu,63,2019,74974.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bà Rịa - Vũng Tàu,63,2020,73804.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bà Rịa - Vũng Tàu,63,2021,67662.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -13,6 +31,15 @@ Bà Rịa - Vũng Tàu,63,2022,88096.5,billion VND (current prices),"https://www
 Bà Rịa - Vũng Tàu,63,2023,88485.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bà Rịa - Vũng Tàu,63,2024,96790.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bà Rịa - Vũng Tàu,63,2025,108390.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bình Dương,63,2010,43815.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bình Dương,63,2011,56589.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bình Dương,63,2012,73197.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bình Dương,63,2013,77487.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bình Dương,63,2014,90267.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bình Dương,63,2015,105472.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bình Dương,63,2016,118538.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bình Dương,63,2017,135769.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bình Dương,63,2018,156509.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bình Dương,63,2019,175772.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bình Dương,63,2020,186462.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Dương,63,2021,158642.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -20,6 +47,15 @@ Bình Dương,63,2022,189577.2,billion VND (current prices),"https://www.nso.gov
 Bình Dương,63,2023,225332.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Dương,63,2024,253686.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Dương,63,2025,281173.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bình Phước,63,2010,12286.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bình Phước,63,2011,16725.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bình Phước,63,2012,18755.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bình Phước,63,2013,22589.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bình Phước,63,2014,25255.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bình Phước,63,2015,29765.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bình Phước,63,2016,31724.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bình Phước,63,2017,36702.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bình Phước,63,2018,41963.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bình Phước,63,2019,47704.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bình Phước,63,2020,47730.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Phước,63,2021,47114.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -27,6 +63,15 @@ Bình Phước,63,2022,56631.5,billion VND (current prices),"https://www.nso.gov
 Bình Phước,63,2023,65642.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Phước,63,2024,71757.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Phước,63,2025,78691.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bình Thuận,63,2010,16631.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bình Thuận,63,2011,20666.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bình Thuận,63,2012,24134.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bình Thuận,63,2013,27843.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bình Thuận,63,2014,31737.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bình Thuận,63,2015,36301.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bình Thuận,63,2016,38934.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bình Thuận,63,2017,45121.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bình Thuận,63,2018,50441.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bình Thuận,63,2019,56470.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bình Thuận,63,2020,59200.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Thuận,63,2021,59470.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -34,6 +79,15 @@ Bình Thuận,63,2022,73445.6,billion VND (current prices),"https://www.nso.gov.
 Bình Thuận,63,2023,90158.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Thuận,63,2024,99509.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Thuận,63,2025,110306.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bình Định,63,2010,23005.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bình Định,63,2011,28708.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bình Định,63,2012,32822.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bình Định,63,2013,36779.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bình Định,63,2014,41033.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bình Định,63,2015,45815.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bình Định,63,2016,51166.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bình Định,63,2017,57181.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bình Định,63,2018,64434.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bình Định,63,2019,73410.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bình Định,63,2020,75272.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Định,63,2021,73877.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -41,6 +95,15 @@ Bình Định,63,2022,87545.0,billion VND (current prices),"https://www.nso.gov.
 Bình Định,63,2023,96948.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Định,63,2024,104700.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bình Định,63,2025,113662.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bạc Liêu,63,2010,13982.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bạc Liêu,63,2011,19970.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bạc Liêu,63,2012,24567.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bạc Liêu,63,2013,28385.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bạc Liêu,63,2014,42420.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bạc Liêu,63,2015,36915.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bạc Liêu,63,2016,40136.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bạc Liêu,63,2017,43205.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bạc Liêu,63,2018,50700.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bạc Liêu,63,2019,57508.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bạc Liêu,63,2020,61608.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bạc Liêu,63,2021,62507.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -48,6 +111,15 @@ Bạc Liêu,63,2022,77196.9,billion VND (current prices),"https://www.nso.gov.vn
 Bạc Liêu,63,2023,81275.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bạc Liêu,63,2024,86043.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bạc Liêu,63,2025,93207.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bắc Giang,63,2010,7316.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Bắc Giang,63,2011,9342.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Bắc Giang,63,2012,11297.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Bắc Giang,63,2013,13220.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Bắc Giang,63,2014,14973.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Bắc Giang,63,2015,19717.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Bắc Giang,63,2016,22539.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Bắc Giang,63,2017,25989.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Bắc Giang,63,2018,29353.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Bắc Giang,63,2019,33155.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Bắc Giang,63,2020,35248.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Giang,63,2021,37370.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -55,6 +127,15 @@ Bắc Giang,63,2022,40546.8,billion VND (current prices),"https://www.nso.gov.vn
 Bắc Giang,63,2023,46972.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Giang,63,2024,50769.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Giang,63,2025,55885.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bắc Kạn,63,2010,1832.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Bắc Kạn,63,2011,2758.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Bắc Kạn,63,2012,3289.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Bắc Kạn,63,2013,3458.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Bắc Kạn,63,2014,3715.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Bắc Kạn,63,2015,4040.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Bắc Kạn,63,2016,4106.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Bắc Kạn,63,2017,4517.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Bắc Kạn,63,2018,5011.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Bắc Kạn,63,2019,5598.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Bắc Kạn,63,2020,5694.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Kạn,63,2021,6083.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -62,6 +143,15 @@ Bắc Kạn,63,2022,6941.7,billion VND (current prices),"https://www.nso.gov.vn/
 Bắc Kạn,63,2023,8052.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Kạn,63,2024,8513.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Kạn,63,2025,8922.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bắc Ninh,63,2010,18701.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Bắc Ninh,63,2011,19790.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Bắc Ninh,63,2012,23069.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Bắc Ninh,63,2013,26247.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Bắc Ninh,63,2014,29379.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Bắc Ninh,63,2015,34324.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Bắc Ninh,63,2016,40809.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Bắc Ninh,63,2017,46057.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Bắc Ninh,63,2018,51898.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Bắc Ninh,63,2019,57518.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Bắc Ninh,63,2020,55501.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Ninh,63,2021,50274.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -69,6 +159,15 @@ Bắc Ninh,63,2022,64602.1,billion VND (current prices),"https://www.nso.gov.vn/
 Bắc Ninh,63,2023,70956.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Ninh,63,2024,76480.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bắc Ninh,63,2025,82460.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Bến Tre,63,2010,16025.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Bến Tre,63,2011,19325.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Bến Tre,63,2012,20607.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Bến Tre,63,2013,23323.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Bến Tre,63,2014,25551.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Bến Tre,63,2015,28161.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Bến Tre,63,2016,30260.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Bến Tre,63,2017,34583.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Bến Tre,63,2018,38566.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Bến Tre,63,2019,44025.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Bến Tre,63,2020,46589.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bến Tre,63,2021,47255.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -76,6 +175,15 @@ Bến Tre,63,2022,53965.2,billion VND (current prices),"https://www.nso.gov.vn/w
 Bến Tre,63,2023,58727.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bến Tre,63,2024,63576.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Bến Tre,63,2025,69431.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Cao Bằng,63,2010,4007.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Cao Bằng,63,2011,6319.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Cao Bằng,63,2012,6488.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Cao Bằng,63,2013,5342.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Cao Bằng,63,2014,4962.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Cao Bằng,63,2015,5387.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Cao Bằng,63,2016,5460.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Cao Bằng,63,2017,5817.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Cao Bằng,63,2018,6846.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Cao Bằng,63,2019,7512.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Cao Bằng,63,2020,7167.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cao Bằng,63,2021,7313.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -83,6 +191,15 @@ Cao Bằng,63,2022,8439.2,billion VND (current prices),"https://www.nso.gov.vn/w
 Cao Bằng,63,2023,9439.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cao Bằng,63,2024,10238.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cao Bằng,63,2025,11094.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Cà Mau,63,2010,24035.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Cà Mau,63,2011,30348.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Cà Mau,63,2012,34911.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Cà Mau,63,2013,39856.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Cà Mau,63,2014,43744.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Cà Mau,63,2015,46558.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Cà Mau,63,2016,48686.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Cà Mau,63,2017,51667.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Cà Mau,63,2018,52559.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Cà Mau,63,2019,59370.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Cà Mau,63,2020,59675.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cà Mau,63,2021,60507.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -90,6 +207,15 @@ Cà Mau,63,2022,74122.1,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Cà Mau,63,2023,80171.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cà Mau,63,2024,87311.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cà Mau,63,2025,94937.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Cần Thơ,63,2010,32514.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Cần Thơ,63,2011,39496.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Cần Thơ,63,2012,45637.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Cần Thơ,63,2013,53320.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Cần Thơ,63,2014,59855.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Cần Thơ,63,2015,64998.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Cần Thơ,63,2016,69536.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Cần Thơ,63,2017,78874.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Cần Thơ,63,2018,97037.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Cần Thơ,63,2019,107662.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Cần Thơ,63,2020,92486.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cần Thơ,63,2021,85990.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -97,6 +223,15 @@ Cần Thơ,63,2022,112131.2,billion VND (current prices),"https://www.nso.gov.vn
 Cần Thơ,63,2023,101564.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cần Thơ,63,2024,112189.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Cần Thơ,63,2025,123483.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Gia Lai,63,2010,13656.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Gia Lai,63,2011,18420.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Gia Lai,63,2012,21249.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Gia Lai,63,2013,28663.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Gia Lai,63,2014,36265.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Gia Lai,63,2015,40718.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Gia Lai,63,2016,42290.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Gia Lai,63,2017,48526.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Gia Lai,63,2018,56553.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Gia Lai,63,2019,62056.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Gia Lai,63,2020,48259.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Gia Lai,63,2021,50287.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -104,6 +239,15 @@ Gia Lai,63,2022,59590.2,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Gia Lai,63,2023,66695.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Gia Lai,63,2024,70373.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Gia Lai,63,2025,76891.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hà Giang,63,2010,2497.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hà Giang,63,2011,3473.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hà Giang,63,2012,4063.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hà Giang,63,2013,4751.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hà Giang,63,2014,5582.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hà Giang,63,2015,6290.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hà Giang,63,2016,7117.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hà Giang,63,2017,8076.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hà Giang,63,2018,9277.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hà Giang,63,2019,10607.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hà Giang,63,2020,11021.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Giang,63,2021,11904.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -111,6 +255,15 @@ Hà Giang,63,2022,14428.2,billion VND (current prices),"https://www.nso.gov.vn/w
 Hà Giang,63,2023,15707.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Giang,63,2024,16952.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Giang,63,2025,18593.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hà Nam,63,2010,7131.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hà Nam,63,2011,7419.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hà Nam,63,2012,9184.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hà Nam,63,2013,10654.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hà Nam,63,2014,12252.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hà Nam,63,2015,14039.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hà Nam,63,2016,15912.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hà Nam,63,2017,18723.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hà Nam,63,2018,21456.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hà Nam,63,2019,24361.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hà Nam,63,2020,25359.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nam,63,2021,26780.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -118,6 +271,15 @@ Hà Nam,63,2022,30904.2,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Hà Nam,63,2023,37357.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nam,63,2024,41289.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nam,63,2025,45998.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hà Nội,63,2010,197469.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hà Nội,63,2011,228127.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hà Nội,63,2012,268332.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hà Nội,63,2013,307745.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hà Nội,63,2014,335965.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hà Nội,63,2015,375516.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hà Nội,63,2016,413035.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hà Nội,63,2017,430145.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hà Nội,63,2018,458898.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hà Nội,63,2019,511407.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hà Nội,63,2020,530610.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nội,63,2021,513842.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -125,6 +287,15 @@ Hà Nội,63,2022,615583.7,billion VND (current prices),"https://www.nso.gov.vn/
 Hà Nội,63,2023,647992.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nội,63,2024,710389.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Nội,63,2025,780610.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hà Tĩnh,63,2010,14427.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hà Tĩnh,63,2011,19000.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hà Tĩnh,63,2012,21984.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hà Tĩnh,63,2013,26751.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hà Tĩnh,63,2014,32733.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hà Tĩnh,63,2015,37364.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hà Tĩnh,63,2016,36523.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hà Tĩnh,63,2017,39505.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hà Tĩnh,63,2018,42666.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hà Tĩnh,63,2019,46733.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hà Tĩnh,63,2020,31841.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Tĩnh,63,2021,31609.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -132,6 +303,15 @@ Hà Tĩnh,63,2022,38942.9,billion VND (current prices),"https://www.nso.gov.vn/w
 Hà Tĩnh,63,2023,42364.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Tĩnh,63,2024,46204.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hà Tĩnh,63,2025,50663.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hòa Bình,63,2010,5459.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hòa Bình,63,2011,6715.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hòa Bình,63,2012,7225.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hòa Bình,63,2013,7765.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hòa Bình,63,2014,8848.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hòa Bình,63,2015,10003.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hòa Bình,63,2016,10461.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hòa Bình,63,2017,11402.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hòa Bình,63,2018,12717.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hòa Bình,63,2019,13943.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hòa Bình,63,2020,14391.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hòa Bình,63,2021,13978.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -139,6 +319,15 @@ Hòa Bình,63,2022,16983.7,billion VND (current prices),"https://www.nso.gov.vn/
 Hòa Bình,63,2023,17349.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hòa Bình,63,2024,18900.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hòa Bình,63,2025,21115.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hưng Yên,63,2010,10086.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hưng Yên,63,2011,12556.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hưng Yên,63,2012,14352.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hưng Yên,63,2013,16589.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hưng Yên,63,2014,18464.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hưng Yên,63,2015,20992.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hưng Yên,63,2016,22415.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hưng Yên,63,2017,25237.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hưng Yên,63,2018,27906.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hưng Yên,63,2019,31966.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hưng Yên,63,2020,34388.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hưng Yên,63,2021,36657.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -146,6 +335,15 @@ Hưng Yên,63,2022,44135.9,billion VND (current prices),"https://www.nso.gov.vn/
 Hưng Yên,63,2023,52509.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hưng Yên,63,2024,57007.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hưng Yên,63,2025,63062.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hải Dương,63,2010,13394.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hải Dương,63,2011,23427.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hải Dương,63,2012,27081.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hải Dương,63,2013,30869.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hải Dương,63,2014,34298.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hải Dương,63,2015,37827.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hải Dương,63,2016,41575.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hải Dương,63,2017,46814.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hải Dương,63,2018,51015.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hải Dương,63,2019,54740.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hải Dương,63,2020,56263.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Dương,63,2021,59189.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -153,6 +351,15 @@ Hải Dương,63,2022,68839.7,billion VND (current prices),"https://www.nso.gov.
 Hải Dương,63,2023,76047.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Dương,63,2024,83836.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Dương,63,2025,88849.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hải Phòng,63,2010,38445.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Hải Phòng,63,2011,53967.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Hải Phòng,63,2012,57673.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Hải Phòng,63,2013,62523.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Hải Phòng,63,2014,69431.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Hải Phòng,63,2015,77256.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Hải Phòng,63,2016,80714.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Hải Phòng,63,2017,102002.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Hải Phòng,63,2018,116368.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Hải Phòng,63,2019,132367.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Hải Phòng,63,2020,142088.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Phòng,63,2021,150969.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -160,6 +367,15 @@ Hải Phòng,63,2022,172859.6,billion VND (current prices),"https://www.nso.gov.
 Hải Phòng,63,2023,184869.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Phòng,63,2024,202237.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hải Phòng,63,2025,222198.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Hậu Giang,63,2010,12948.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Hậu Giang,63,2011,17443.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Hậu Giang,63,2012,17950.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Hậu Giang,63,2013,24130.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Hậu Giang,63,2014,26084.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Hậu Giang,63,2015,27873.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Hậu Giang,63,2016,30227.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Hậu Giang,63,2017,33589.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Hậu Giang,63,2018,37027.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Hậu Giang,63,2019,39433.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Hậu Giang,63,2020,40401.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hậu Giang,63,2021,36229.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -167,6 +383,15 @@ Hậu Giang,63,2022,44996.9,billion VND (current prices),"https://www.nso.gov.vn
 Hậu Giang,63,2023,52782.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hậu Giang,63,2024,55573.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Hậu Giang,63,2025,60394.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Khánh Hòa,63,2010,29982.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Khánh Hòa,63,2011,35936.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Khánh Hòa,63,2012,41442.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Khánh Hòa,63,2013,46266.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Khánh Hòa,63,2014,53130.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Khánh Hòa,63,2015,61930.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Khánh Hòa,63,2016,68999.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Khánh Hòa,63,2017,79904.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Khánh Hòa,63,2018,84449.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Khánh Hòa,63,2019,94251.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Khánh Hòa,63,2020,74006.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Khánh Hòa,63,2021,60728.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -174,6 +399,15 @@ Khánh Hòa,63,2022,91214.7,billion VND (current prices),"https://www.nso.gov.vn
 Khánh Hòa,63,2023,94678.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Khánh Hòa,63,2024,105406.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Khánh Hòa,63,2025,113633.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Kiên Giang,63,2010,31188.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Kiên Giang,63,2011,38476.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Kiên Giang,63,2012,41903.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Kiên Giang,63,2013,48400.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Kiên Giang,63,2014,53174.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Kiên Giang,63,2015,63343.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Kiên Giang,63,2016,71074.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Kiên Giang,63,2017,80771.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Kiên Giang,63,2018,89750.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Kiên Giang,63,2019,99719.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Kiên Giang,63,2020,101956.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kiên Giang,63,2021,98068.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -181,6 +415,15 @@ Kiên Giang,63,2022,126998.9,billion VND (current prices),"https://www.nso.gov.v
 Kiên Giang,63,2023,123251.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kiên Giang,63,2024,134411.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kiên Giang,63,2025,148678.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Kon Tum,63,2010,3674.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Kon Tum,63,2011,5406.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Kon Tum,63,2012,6550.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Kon Tum,63,2013,8496.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Kon Tum,63,2014,10126.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Kon Tum,63,2015,11860.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Kon Tum,63,2016,12903.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Kon Tum,63,2017,14411.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Kon Tum,63,2018,16237.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Kon Tum,63,2019,18480.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Kon Tum,63,2020,21251.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kon Tum,63,2021,23645.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -188,6 +431,15 @@ Kon Tum,63,2022,27404.8,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Kon Tum,63,2023,29075.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kon Tum,63,2024,32002.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Kon Tum,63,2025,34795.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Lai Châu,63,2010,1539.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Lai Châu,63,2011,2470.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Lai Châu,63,2012,2896.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Lai Châu,63,2013,2985.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Lai Châu,63,2014,3225.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Lai Châu,63,2015,3430.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Lai Châu,63,2016,3657.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Lai Châu,63,2017,3825.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Lai Châu,63,2018,4528.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Lai Châu,63,2019,5014.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Lai Châu,63,2020,5406.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lai Châu,63,2021,5918.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -195,6 +447,15 @@ Lai Châu,63,2022,6717.2,billion VND (current prices),"https://www.nso.gov.vn/wp
 Lai Châu,63,2023,7303.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lai Châu,63,2024,8007.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lai Châu,63,2025,8939.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Long An,63,2010,18320.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Long An,63,2011,24022.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Long An,63,2012,28683.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Long An,63,2013,34009.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Long An,63,2014,40287.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Long An,63,2015,47830.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Long An,63,2016,54619.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Long An,63,2017,64457.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Long An,63,2018,73849.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Long An,63,2019,86307.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Long An,63,2020,84717.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Long An,63,2021,68857.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -202,6 +463,15 @@ Long An,63,2022,79323.6,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Long An,63,2023,82311.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Long An,63,2024,90505.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Long An,63,2025,98713.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Lào Cai,63,2010,5590.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Lào Cai,63,2011,6812.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Lào Cai,63,2012,8052.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Lào Cai,63,2013,9558.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Lào Cai,63,2014,11485.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Lào Cai,63,2015,12668.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Lào Cai,63,2016,13981.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Lào Cai,63,2017,15863.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Lào Cai,63,2018,17834.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Lào Cai,63,2019,20296.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Lào Cai,63,2020,15648.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lào Cai,63,2021,16888.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -209,6 +479,15 @@ Lào Cai,63,2022,20827.5,billion VND (current prices),"https://www.nso.gov.vn/wp
 Lào Cai,63,2023,24681.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lào Cai,63,2024,27476.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lào Cai,63,2025,30588.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Lâm Đồng,63,2010,19829.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Lâm Đồng,63,2011,23523.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Lâm Đồng,63,2012,28917.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Lâm Đồng,63,2013,30323.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Lâm Đồng,63,2014,32195.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Lâm Đồng,63,2015,33053.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Lâm Đồng,63,2016,36921.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Lâm Đồng,63,2017,41346.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Lâm Đồng,63,2018,47697.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Lâm Đồng,63,2019,54717.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Lâm Đồng,63,2020,52247.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lâm Đồng,63,2021,42284.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -216,6 +495,15 @@ Lâm Đồng,63,2022,56323.3,billion VND (current prices),"https://www.nso.gov.v
 Lâm Đồng,63,2023,59033.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lâm Đồng,63,2024,67623.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lâm Đồng,63,2025,75657.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Lạng Sơn,63,2010,9318.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Lạng Sơn,63,2011,10354.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Lạng Sơn,63,2012,10597.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Lạng Sơn,63,2013,12438.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Lạng Sơn,63,2014,13976.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Lạng Sơn,63,2015,14671.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Lạng Sơn,63,2016,15468.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Lạng Sơn,63,2017,16487.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Lạng Sơn,63,2018,18747.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Lạng Sơn,63,2019,21025.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Lạng Sơn,63,2020,22163.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lạng Sơn,63,2021,21086.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -223,6 +511,15 @@ Lạng Sơn,63,2022,24333.2,billion VND (current prices),"https://www.nso.gov.vn
 Lạng Sơn,63,2023,34516.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lạng Sơn,63,2024,37820.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Lạng Sơn,63,2025,41209.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Nam Định,63,2010,11859.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Nam Định,63,2011,14653.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Nam Định,63,2012,16972.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Nam Định,63,2013,20298.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Nam Định,63,2014,23622.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Nam Định,63,2015,27039.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Nam Định,63,2016,31832.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Nam Định,63,2017,35816.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Nam Định,63,2018,39105.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Nam Định,63,2019,43867.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Nam Định,63,2020,45752.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nam Định,63,2021,48863.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -230,6 +527,15 @@ Nam Định,63,2022,55948.8,billion VND (current prices),"https://www.nso.gov.vn
 Nam Định,63,2023,62462.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nam Định,63,2024,68566.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nam Định,63,2025,74268.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Nghệ An,63,2010,23981.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Nghệ An,63,2011,28426.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Nghệ An,63,2012,32644.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Nghệ An,63,2013,39702.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Nghệ An,63,2014,42601.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Nghệ An,63,2015,47674.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Nghệ An,63,2016,53461.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Nghệ An,63,2017,59058.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Nghệ An,63,2018,67655.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Nghệ An,63,2019,76833.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Nghệ An,63,2020,81200.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nghệ An,63,2021,72253.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -237,6 +543,15 @@ Nghệ An,63,2022,91401.1,billion VND (current prices),"https://www.nso.gov.vn/w
 Nghệ An,63,2023,108303.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nghệ An,63,2024,119092.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Nghệ An,63,2025,130659.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Ninh Bình,63,2010,10598.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Ninh Bình,63,2011,14064.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Ninh Bình,63,2012,15626.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Ninh Bình,63,2013,19058.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Ninh Bình,63,2014,20905.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Ninh Bình,63,2015,23278.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Ninh Bình,63,2016,25401.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Ninh Bình,63,2017,27605.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Ninh Bình,63,2018,32285.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Ninh Bình,63,2019,34697.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Ninh Bình,63,2020,34900.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Bình,63,2021,36611.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -244,6 +559,15 @@ Ninh Bình,63,2022,44445.8,billion VND (current prices),"https://www.nso.gov.vn/
 Ninh Bình,63,2023,61498.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Bình,63,2024,69390.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Bình,63,2025,77240.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Ninh Thuận,63,2010,7229.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Ninh Thuận,63,2011,8849.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Ninh Thuận,63,2012,10604.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Ninh Thuận,63,2013,10874.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Ninh Thuận,63,2014,12140.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Ninh Thuận,63,2015,13609.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Ninh Thuận,63,2016,14973.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Ninh Thuận,63,2017,16932.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Ninh Thuận,63,2018,19285.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Ninh Thuận,63,2019,21826.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Ninh Thuận,63,2020,22980.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Thuận,63,2021,24179.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -251,6 +575,15 @@ Ninh Thuận,63,2022,32207.4,billion VND (current prices),"https://www.nso.gov.v
 Ninh Thuận,63,2023,27989.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Thuận,63,2024,30906.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Ninh Thuận,63,2025,34232.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Phú Thọ,63,2010,9841.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Phú Thọ,63,2011,12601.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Phú Thọ,63,2012,14723.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Phú Thọ,63,2013,16919.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Phú Thọ,63,2014,18680.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Phú Thọ,63,2015,20282.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Phú Thọ,63,2016,22019.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Phú Thọ,63,2017,25146.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Phú Thọ,63,2018,28266.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Phú Thọ,63,2019,31901.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Phú Thọ,63,2020,33526.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Thọ,63,2021,35155.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -258,6 +591,15 @@ Phú Thọ,63,2022,42046.1,billion VND (current prices),"https://www.nso.gov.vn/
 Phú Thọ,63,2023,47777.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Thọ,63,2024,52259.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Thọ,63,2025,57602.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Phú Yên,63,2010,9244.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Phú Yên,63,2011,11487.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Phú Yên,63,2012,14227.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Phú Yên,63,2013,17608.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Phú Yên,63,2014,20076.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Phú Yên,63,2015,22704.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Phú Yên,63,2016,24276.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Phú Yên,63,2017,27937.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Phú Yên,63,2018,29306.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Phú Yên,63,2019,31923.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Phú Yên,63,2020,34132.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Yên,63,2021,29479.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -265,6 +607,15 @@ Phú Yên,63,2022,41123.3,billion VND (current prices),"https://www.nso.gov.vn/w
 Phú Yên,63,2023,47596.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Yên,63,2024,51103.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Phú Yên,63,2025,55582.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Quảng Bình,63,2010,9306.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Quảng Bình,63,2011,11887.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Quảng Bình,63,2012,13255.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Quảng Bình,63,2013,15057.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Quảng Bình,63,2014,16738.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Quảng Bình,63,2015,18145.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Quảng Bình,63,2016,18933.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Quảng Bình,63,2017,21044.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Quảng Bình,63,2018,24282.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Quảng Bình,63,2019,27694.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Quảng Bình,63,2020,26689.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Bình,63,2021,26343.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -272,6 +623,15 @@ Quảng Bình,63,2022,29636.0,billion VND (current prices),"https://www.nso.gov.
 Quảng Bình,63,2023,32938.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Bình,63,2024,36018.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Bình,63,2025,38820.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Quảng Nam,63,2010,14377.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Quảng Nam,63,2011,18631.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Quảng Nam,63,2012,20780.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Quảng Nam,63,2013,23781.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Quảng Nam,63,2014,28027.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Quảng Nam,63,2015,31567.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Quảng Nam,63,2016,35397.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Quảng Nam,63,2017,35866.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Quảng Nam,63,2018,40172.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Quảng Nam,63,2019,44591.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Quảng Nam,63,2020,30196.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Nam,63,2021,32223.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -279,6 +639,15 @@ Quảng Nam,63,2022,37154.2,billion VND (current prices),"https://www.nso.gov.vn
 Quảng Nam,63,2023,37006.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Nam,63,2024,41279.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Nam,63,2025,45110.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Quảng Ngãi,63,2010,17262.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Quảng Ngãi,63,2011,21398.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Quảng Ngãi,63,2012,25236.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Quảng Ngãi,63,2013,28485.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Quảng Ngãi,63,2014,32406.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Quảng Ngãi,63,2015,35671.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Quảng Ngãi,63,2016,39446.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Quảng Ngãi,63,2017,45176.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Quảng Ngãi,63,2018,48731.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Quảng Ngãi,63,2019,52725.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Quảng Ngãi,63,2020,51708.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ngãi,63,2021,50395.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -286,6 +655,15 @@ Quảng Ngãi,63,2022,61533.2,billion VND (current prices),"https://www.nso.gov.
 Quảng Ngãi,63,2023,66440.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ngãi,63,2024,70565.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ngãi,63,2025,76615.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Quảng Ninh,63,2010,25364.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Quảng Ninh,63,2011,32003.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Quảng Ninh,63,2012,36680.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Quảng Ninh,63,2013,43425.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Quảng Ninh,63,2014,46780.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Quảng Ninh,63,2015,53398.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Quảng Ninh,63,2016,63030.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Quảng Ninh,63,2017,72123.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Quảng Ninh,63,2018,85608.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Quảng Ninh,63,2019,100380.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Quảng Ninh,63,2020,113527.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ninh,63,2021,118779.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -293,6 +671,15 @@ Quảng Ninh,63,2022,141822.7,billion VND (current prices),"https://www.nso.gov.
 Quảng Ninh,63,2023,154479.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ninh,63,2024,170380.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Ninh,63,2025,190866.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Quảng Trị,63,2010,9724.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Quảng Trị,63,2011,12446.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Quảng Trị,63,2012,15135.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Quảng Trị,63,2013,17209.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Quảng Trị,63,2014,18744.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Quảng Trị,63,2015,20412.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Quảng Trị,63,2016,21667.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Quảng Trị,63,2017,24510.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Quảng Trị,63,2018,26996.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Quảng Trị,63,2019,30017.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Quảng Trị,63,2020,31188.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Trị,63,2021,32712.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -300,6 +687,15 @@ Quảng Trị,63,2022,37357.7,billion VND (current prices),"https://www.nso.gov.
 Quảng Trị,63,2023,40546.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Trị,63,2024,44165.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Quảng Trị,63,2025,47441.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Sóc Trăng,63,2010,22782.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Sóc Trăng,63,2011,28518.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Sóc Trăng,63,2012,34965.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Sóc Trăng,63,2013,37563.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Sóc Trăng,63,2014,42673.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Sóc Trăng,63,2015,47265.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Sóc Trăng,63,2016,55357.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Sóc Trăng,63,2017,61958.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Sóc Trăng,63,2018,68124.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Sóc Trăng,63,2019,73612.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Sóc Trăng,63,2020,68234.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sóc Trăng,63,2021,70561.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -307,6 +703,15 @@ Sóc Trăng,63,2022,88625.3,billion VND (current prices),"https://www.nso.gov.vn
 Sóc Trăng,63,2023,99793.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sóc Trăng,63,2024,102991.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sóc Trăng,63,2025,112664.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Sơn La,63,2010,7543.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Sơn La,63,2011,8604.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Sơn La,63,2012,10328.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Sơn La,63,2013,12343.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Sơn La,63,2014,14394.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Sơn La,63,2015,15217.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Sơn La,63,2016,16710.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Sơn La,63,2017,19186.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Sơn La,63,2018,20531.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Sơn La,63,2019,22854.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Sơn La,63,2020,22544.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sơn La,63,2021,22993.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -314,6 +719,15 @@ Sơn La,63,2022,27868.2,billion VND (current prices),"https://www.nso.gov.vn/wp-
 Sơn La,63,2023,31713.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sơn La,63,2024,34552.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Sơn La,63,2025,37602.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+TP. Hồ Chí Minh,63,2010,448749.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+TP. Hồ Chí Minh,63,2011,560558.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+TP. Hồ Chí Minh,63,2012,606393.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+TP. Hồ Chí Minh,63,2013,614137.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+TP. Hồ Chí Minh,63,2014,664268.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+TP. Hồ Chí Minh,63,2015,711206.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+TP. Hồ Chí Minh,63,2016,779293.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+TP. Hồ Chí Minh,63,2017,871796.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+TP. Hồ Chí Minh,63,2018,967210.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 TP. Hồ Chí Minh,63,2019,1057217.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 TP. Hồ Chí Minh,63,2020,1006129.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 TP. Hồ Chí Minh,63,2021,705653.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -321,6 +735,15 @@ TP. Hồ Chí Minh,63,2022,843255.5,billion VND (current prices),"https://www.ns
 TP. Hồ Chí Minh,63,2023,999402.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 TP. Hồ Chí Minh,63,2024,1086760.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 TP. Hồ Chí Minh,63,2025,1196129.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Thanh Hóa,63,2010,23699.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Thanh Hóa,63,2011,29968.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Thanh Hóa,63,2012,37059.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Thanh Hóa,63,2013,45715.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Thanh Hóa,63,2014,52413.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Thanh Hóa,63,2015,61540.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Thanh Hóa,63,2016,71126.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Thanh Hóa,63,2017,82904.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Thanh Hóa,63,2018,94122.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Thanh Hóa,63,2019,107025.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Thanh Hóa,63,2020,112771.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thanh Hóa,63,2021,120149.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -328,6 +751,15 @@ Thanh Hóa,63,2022,142377.7,billion VND (current prices),"https://www.nso.gov.vn
 Thanh Hóa,63,2023,153549.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thanh Hóa,63,2024,169975.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thanh Hóa,63,2025,185913.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Thái Bình,63,2010,13612.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Thái Bình,63,2011,17733.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Thái Bình,63,2012,19859.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Thái Bình,63,2013,22629.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Thái Bình,63,2014,25504.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Thái Bình,63,2015,28226.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Thái Bình,63,2016,29148.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Thái Bình,63,2017,32848.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Thái Bình,63,2018,36400.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Thái Bình,63,2019,40507.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Thái Bình,63,2020,42348.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Bình,63,2021,44423.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -335,6 +767,15 @@ Thái Bình,63,2022,53085.7,billion VND (current prices),"https://www.nso.gov.vn
 Thái Bình,63,2023,60247.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Bình,63,2024,64679.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Bình,63,2025,70110.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Thái Nguyên,63,2010,8778.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Thái Nguyên,63,2011,11579.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Thái Nguyên,63,2012,13453.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Thái Nguyên,63,2013,15725.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Thái Nguyên,63,2014,17544.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Thái Nguyên,63,2015,19869.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Thái Nguyên,63,2016,23576.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Thái Nguyên,63,2017,26506.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Thái Nguyên,63,2018,29764.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Thái Nguyên,63,2019,33022.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Thái Nguyên,63,2020,35235.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Nguyên,63,2021,39073.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -342,6 +783,15 @@ Thái Nguyên,63,2022,49427.5,billion VND (current prices),"https://www.nso.gov.
 Thái Nguyên,63,2023,57299.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Nguyên,63,2024,63407.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thái Nguyên,63,2025,70101.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Thừa Thiên Huế,63,2010,14611.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Thừa Thiên Huế,63,2011,17885.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Thừa Thiên Huế,63,2012,21505.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Thừa Thiên Huế,63,2013,24409.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Thừa Thiên Huế,63,2014,26731.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Thừa Thiên Huế,63,2015,28909.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Thừa Thiên Huế,63,2016,31043.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Thừa Thiên Huế,63,2017,34430.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Thừa Thiên Huế,63,2018,37512.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Thừa Thiên Huế,63,2019,40732.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Thừa Thiên Huế,63,2020,37081.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thừa Thiên Huế,63,2021,38458.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -349,6 +799,15 @@ Thừa Thiên Huế,63,2022,46611.1,billion VND (current prices),"https://www.ns
 Thừa Thiên Huế,63,2023,50011.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thừa Thiên Huế,63,2024,55364.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Thừa Thiên Huế,63,2025,60382.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Tiền Giang,63,2010,23635.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Tiền Giang,63,2011,28364.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Tiền Giang,63,2012,33420.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Tiền Giang,63,2013,38256.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Tiền Giang,63,2014,43414.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Tiền Giang,63,2015,45894.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Tiền Giang,63,2016,51871.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Tiền Giang,63,2017,58231.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Tiền Giang,63,2018,63920.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Tiền Giang,63,2019,70094.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Tiền Giang,63,2020,73607.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tiền Giang,63,2021,62544.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -356,6 +815,15 @@ Tiền Giang,63,2022,75803.3,billion VND (current prices),"https://www.nso.gov.v
 Tiền Giang,63,2023,83735.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tiền Giang,63,2024,91122.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tiền Giang,63,2025,99045.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Trà Vinh,63,2010,9402.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Trà Vinh,63,2011,10821.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Trà Vinh,63,2012,13242.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Trà Vinh,63,2013,14551.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Trà Vinh,63,2014,16015.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Trà Vinh,63,2015,18475.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Trà Vinh,63,2016,20241.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Trà Vinh,63,2017,23046.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Trà Vinh,63,2018,26120.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Trà Vinh,63,2019,29655.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Trà Vinh,63,2020,30410.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Trà Vinh,63,2021,29035.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -363,6 +831,15 @@ Trà Vinh,63,2022,37601.2,billion VND (current prices),"https://www.nso.gov.vn/w
 Trà Vinh,63,2023,40429.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Trà Vinh,63,2024,42917.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Trà Vinh,63,2025,46776.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Tuyên Quang,63,2010,6708.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Tuyên Quang,63,2011,8299.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Tuyên Quang,63,2012,9328.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Tuyên Quang,63,2013,10126.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Tuyên Quang,63,2014,10419.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Tuyên Quang,63,2015,11530.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Tuyên Quang,63,2016,11970.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Tuyên Quang,63,2017,13279.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Tuyên Quang,63,2018,15074.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Tuyên Quang,63,2019,17465.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Tuyên Quang,63,2020,18755.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tuyên Quang,63,2021,19036.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -370,6 +847,15 @@ Tuyên Quang,63,2022,22006.0,billion VND (current prices),"https://www.nso.gov.v
 Tuyên Quang,63,2023,29062.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tuyên Quang,63,2024,31810.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tuyên Quang,63,2025,35054.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Tây Ninh,63,2010,30349.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Tây Ninh,63,2011,38395.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Tây Ninh,63,2012,41462.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Tây Ninh,63,2013,45716.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Tây Ninh,63,2014,49669.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Tây Ninh,63,2015,54532.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Tây Ninh,63,2016,59097.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Tây Ninh,63,2017,65414.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Tây Ninh,63,2018,71621.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Tây Ninh,63,2019,78445.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Tây Ninh,63,2020,79266.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tây Ninh,63,2021,75809.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -377,6 +863,15 @@ Tây Ninh,63,2022,90516.7,billion VND (current prices),"https://www.nso.gov.vn/w
 Tây Ninh,63,2023,99380.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tây Ninh,63,2024,103029.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Tây Ninh,63,2025,113061.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Vĩnh Long,63,2010,17508.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Vĩnh Long,63,2011,20599.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Vĩnh Long,63,2012,24466.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Vĩnh Long,63,2013,29635.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Vĩnh Long,63,2014,32049.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Vĩnh Long,63,2015,34312.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Vĩnh Long,63,2016,36757.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Vĩnh Long,63,2017,40364.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Vĩnh Long,63,2018,45854.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Vĩnh Long,63,2019,52477.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Vĩnh Long,63,2020,49927.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Long,63,2021,41895.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -384,6 +879,15 @@ Vĩnh Long,63,2022,54254.0,billion VND (current prices),"https://www.nso.gov.vn/
 Vĩnh Long,63,2023,58045.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Long,63,2024,63848.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Long,63,2025,71461.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Vĩnh Phúc,63,2010,17031.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Vĩnh Phúc,63,2011,21420.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Vĩnh Phúc,63,2012,24310.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Vĩnh Phúc,63,2013,25104.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Vĩnh Phúc,63,2014,28742.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Vĩnh Phúc,63,2015,32110.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Vĩnh Phúc,63,2016,37880.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Vĩnh Phúc,63,2017,39010.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Vĩnh Phúc,63,2018,45502.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Vĩnh Phúc,63,2019,50536.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Vĩnh Phúc,63,2020,52640.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Phúc,63,2021,56722.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -391,6 +895,15 @@ Vĩnh Phúc,63,2022,67783.7,billion VND (current prices),"https://www.nso.gov.vn
 Vĩnh Phúc,63,2023,71734.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Phúc,63,2024,78025.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Vĩnh Phúc,63,2025,84627.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Yên Bái,63,2010,5281.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Yên Bái,63,2011,6165.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Yên Bái,63,2012,7553.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Yên Bái,63,2013,8864.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Yên Bái,63,2014,10404.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Yên Bái,63,2015,11364.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Yên Bái,63,2016,12715.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Yên Bái,63,2017,14028.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Yên Bái,63,2018,15871.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Yên Bái,63,2019,18295.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Yên Bái,63,2020,19016.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Yên Bái,63,2021,21083.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -398,6 +911,15 @@ Yên Bái,63,2022,24074.4,billion VND (current prices),"https://www.nso.gov.vn/w
 Yên Bái,63,2023,24084.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Yên Bái,63,2024,26611.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Điện Biên,63,2010,3198.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.601-601)",final
+Điện Biên,63,2011,4393.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.503-503)",final
+Điện Biên,63,2012,4736.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.540-540)",final
+Điện Biên,63,2013,5787.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.544-544)",final
+Điện Biên,63,2014,6552.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.568-568)",final
+Điện Biên,63,2015,6925.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.620-620)",final
+Điện Biên,63,2016,7788.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.610-610)",final
+Điện Biên,63,2017,9848.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.620-620)",final
+Điện Biên,63,2018,10049.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.722-722)",final
 Điện Biên,63,2019,11156.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
 Điện Biên,63,2020,10730.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Điện Biên,63,2021,11824.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
@@ -405,6 +927,15 @@ Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/w
 Điện Biên,63,2023,18795.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Điện Biên,63,2024,22230.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Điện Biên,63,2025,24313.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Đà Nẵng,63,2010,33544.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Đà Nẵng,63,2011,41572.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Đà Nẵng,63,2012,45351.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Đà Nẵng,63,2013,48667.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Đà Nẵng,63,2014,55987.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Đà Nẵng,63,2015,60850.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Đà Nẵng,63,2016,70143.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Đà Nẵng,63,2017,71304.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Đà Nẵng,63,2018,80269.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Đà Nẵng,63,2019,90525.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Đà Nẵng,63,2020,70819.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đà Nẵng,63,2021,75171.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -412,6 +943,15 @@ Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/w
 Đà Nẵng,63,2023,96584.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đà Nẵng,63,2024,107861.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đà Nẵng,63,2025,122377.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Đắk Lắk,63,2010,26681.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Đắk Lắk,63,2011,32445.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Đắk Lắk,63,2012,38559.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Đắk Lắk,63,2013,43608.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Đắk Lắk,63,2014,48567.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Đắk Lắk,63,2015,52154.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Đắk Lắk,63,2016,55778.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Đắk Lắk,63,2017,63359.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Đắk Lắk,63,2018,65476.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Đắk Lắk,63,2019,73043.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Đắk Lắk,63,2020,80174.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Lắk,63,2021,76509.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -419,6 +959,15 @@ Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/w
 Đắk Lắk,63,2023,94872.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Lắk,63,2024,99556.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Lắk,63,2025,108833.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Đắk Nông,63,2010,5140.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Đắk Nông,63,2011,6623.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Đắk Nông,63,2012,7910.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Đắk Nông,63,2013,8968.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Đắk Nông,63,2014,9877.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Đắk Nông,63,2015,10932.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Đắk Nông,63,2016,11065.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Đắk Nông,63,2017,12378.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Đắk Nông,63,2018,13130.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Đắk Nông,63,2019,14605.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Đắk Nông,63,2020,15214.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Nông,63,2021,16075.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -426,6 +975,15 @@ Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/w
 Đắk Nông,63,2023,21502.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Nông,63,2024,23224.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đắk Nông,63,2025,25017.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Đồng Nai,63,2010,58045.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Đồng Nai,63,2011,73488.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Đồng Nai,63,2012,86178.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Đồng Nai,63,2013,94368.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Đồng Nai,63,2014,106597.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Đồng Nai,63,2015,122379.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Đồng Nai,63,2016,126730.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Đồng Nai,63,2017,142704.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Đồng Nai,63,2018,153233.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Đồng Nai,63,2019,169447.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Đồng Nai,63,2020,176702.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đồng Nai,63,2021,169346.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
@@ -433,6 +991,15 @@ Yên Bái,63,2025,28999.6,billion VND (current prices),"https://www.nso.gov.vn/w
 Đồng Nai,63,2023,221680.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đồng Nai,63,2024,252250.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đồng Nai,63,2025,280983.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+Đồng Tháp,63,2010,29181.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.602-602)",final
+Đồng Tháp,63,2011,39566.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.504-504)",final
+Đồng Tháp,63,2012,46874.6,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.541-541)",final
+Đồng Tháp,63,2013,49034.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.545-545)",final
+Đồng Tháp,63,2014,54716.8,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.569-569)",final
+Đồng Tháp,63,2015,59789.2,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.621-621)",final
+Đồng Tháp,63,2016,66288.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.611-611)",final
+Đồng Tháp,63,2017,75059.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.621-621)",final
+Đồng Tháp,63,2018,83065.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.723-723)",final
 Đồng Tháp,63,2019,93509.0,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final
 Đồng Tháp,63,2020,96110.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
 Đồng Tháp,63,2021,94109.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.719-719)",final

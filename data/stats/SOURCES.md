@@ -93,13 +93,13 @@ each row's `source_url`. Regional and national rows are dropped (NSO's national 
 - The 34-province cereal, paddy area and paddy production series are sums of the 63 former provinces (years where all
   63 are published: 2020, 2022–2025); the appendix's swapped rows (and its 2021 column) are not used.
 
-## 4b. Back-filled years (2019, 2021 and the rest NSO publishes) → `series/`, `series_national.csv`, `completeness.csv`
+## 4b. Back-filled years (2010-2019, 2021 and the rest NSO publishes) → `series/`, `series_national.csv`, `completeness.csv`
 Run `pipeline/nso/backfill.py data/stats data/interim/nso_dc` **after** `series.py` (it is idempotent: it drops the
 rows it wrote before and rebuilds them). Sources, all downloaded on 28 Nov 2026:
 - PX-Web (63 former provinces, every by-province table of the databases "Dân số và lao động", "Doanh nghiệp",
   "Công nghiệp"; JSON in `px/`, fetched with `pxget.py`): population and urban population (V02.03-07), crude birth/death
   rates (V02.12-14), total fertility (V02.16), infant mortality (V02.18), population growth (V02.20), migration
-  (V02.21-23), life expectancy (V02.25), literacy (V02.27, new series `literacy_rate_15plus` 2019-2024), age at first
+  (V02.21-23), life expectancy (V02.25), literacy (V02.27, new series `literacy_rate_15plus` 2010-2024), age at first
   marriage (V02.30), divorces (V02.31, 2024 only), labour force (V02.37), employed (V02.45), informal (V02.51), trained
   (V02.55), productivity (V02.58), unemployment (V02.63), underemployment (V02.70), industrial production index (V07.02),
   enterprises (V05.02, V05.04, V05.05 2021-2024, V05.08, V05.11, V05.23, V05.35, V05.38), cooperatives (V05.51),
@@ -108,9 +108,34 @@ rows it wrote before and rebuilds them). Sources, all downloaded on 28 Nov 2026:
   in `data/raw/`; text by `ext.py` into `data/interim/nso_dc/`): 2019 and 2021 columns of the agriculture, GRDP,
   trade, transport, living-standard and household tables; HDI 2019-2023 (63); FDI projects and capital and income per
   person 2019-2023 (each edition's own year; the 2022 edition's page 583 cannot be read by pypdf and is skipped).
+- Statistical Yearbooks 2010-2018 (registered as `nso_yearbooks_2010_2018` in `pipeline/sources_series2010.py`, in
+  `data/raw/nso_yearbooks_2010_2018/`, downloaded 28 Nov 2026 from https://www.nso.gov.vn/wp-content/uploads/2019/10/):
+  text by `ext.py`, then `tcvn3.py` (the 2010-2016 editions set Vietnamese in TCVN3 fonts, which pypdf reads as Latin-1
+  look-alikes: "§µ N½ng" = "Đà Nẵng"; a line is decoded when it has TCVN3-only characters and no Unicode Vietnamese
+  letters) into `data/interim/nso_dc/NGTK<edition>.txt`. Their by-province tables give 2010-2018: the same matching and
+  95% agreement rules, so an edition is used only when it agrees with the newer ones on the years both print (each
+  edition prints the base year 2010 and its last four years). Single-year tables: FDI 2010-2015 (a table title that
+  wraps after its year is read; the "Oil and gas" row counts in the national total, not as a province), income per
+  person 2010, 2012, 2014, 2016 (VHLSS, every two years until 2018; each from the next year's edition). The 2016
+  edition's FDI pages give no text (font), so FDI 2016 is missing.
+- PX-Web years 2010-2018 of the tables above (population, births, deaths, fertility, infant mortality, growth,
+  migration, literacy, age at first marriage, labour force, trained share 2010 on; industrial production index 2012 on;
+  enterprises 2010 and 2015 on). PX-Web's population 2010-2018 is NSO's series revised to the 2019 census: it differs
+  from the 2010-2018 yearbooks' estimates (Hà Nội 2018: 7,914.5 against 7,520.7 thousand), so the yearbook population
+  tables are not combined with it.
+- Not combined (older editions disagree with the newer ones on the years both print): livestock, fishery and wood
+  before 2018 except 2015 (NSO revised the series in the 2021 yearbook; e.g. cattle 2015 agrees in 20 of 63 provinces).
+  Not published by province before 2018 in any 2010-2021 edition: GRDP, Gini, HDI, clean water, latrines, income per
+  worker, labour productivity, unemployment, life expectancy (PX-Web from 2018). Every remaining gap and its reason is
+  in `completeness.csv` (KNOWN_GAPS in `tests/test_data_completeness.py`).
+- Poverty: the yearbook tables print income poverty (households below the Government's 2011-2015 line, CPI-updated;
+  2018 yearbook p.853 footnote) up to 2015 and multidimensional poverty from 2016 (2016-2020 standard; the 2022-2025
+  standard from 2022, 2025 yearbook p.934 footnote), sometimes in one table. `backfill.py` (SPLIT) writes the years
+  before 2016 to their own series `poverty_rate_income` (2010-2015, no lens); `poverty_rate_multidimensional` (the
+  poverty lens) starts in 2016. Both carry their definition as the timeline note.
 - 2025 yearbook appendix tables that `spec34.py` does not list: enterprises with business outcomes (A p.1258, 34
   provinces 2020-2024) and the index of industrial production 2025 (A p.1240).
-- Rules: only years 2019-2026 the series lacks are added, existing rows are never replaced. A source is used for an
+- Rules: only years 2010-2026 the series lacks are added, existing rows are never replaced. A source is used for an
   indicator only if, on every year it shares with the series (final values only), at least 95% of the provinces agree
   within one rounding unit; a table is matched by that agreement (its English title only breaks ties: titles change,
   e.g. "acting" → "active enterprises"). Without a 63-province series the 11 unmerged provinces are compared with the
@@ -123,11 +148,11 @@ rows it wrote before and rebuilds them). Sources, all downloaded on 28 Nov 2026:
   27/2011/TT-BNNPTNT, from 2020 Circular 02/2020/TT-BNNPTNT; 31,908 farms nationally in 2019 against 23,680 in 2020).
 - Breaks noted in timeline.json (`series[id].note`): labour figures from 2021 follow ICLS19 (2025 yearbook p.151
   footnote); HDI from 2020 uses 2017 PPPs (p.1485 footnote); population is adjusted to the 2019 census.
-- USD: `wb_fx.json` (World Bank PA.NUS.FCRF, `date=2019:2026`) has 2019-2024; each year's money values use that
+- USD: `wb_fx.json` (World Bank PA.NUS.FCRF, `date=2010:2026`, fetched 28 Nov 2026) has 2010-2024; each year's money values use that
   year's rate (2025 uses 2024's, recorded in timeline.json `fx_used`).
 - `series_national.csv`: NSO's national row ("CẢ NƯỚC") of each series' cited table, per year (2025 yearbook first,
   then PX-Web, then the older editions, then `national.csv`); nation.json `series`.
-- `completeness.csv`: indicator × level × year 2019-2026, provinces present, and the reason for every gap
+- `completeness.csv`: indicator × level × year 2010-2026, provinces present, and the reason for every gap
   (`python3 tests/test_data_completeness.py`; the test fails on an unexplained gap).
 
 ## 5. NSO PX-Web API
@@ -154,7 +179,12 @@ pupils per teacher; gdp, NSO's national GDP 2025 at current prices (12,847,571 b
 - 2024: https://pcivietnam.vn/data_pci_file/general_file/1746527576-Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx
   (composite score for the top 30 only).
 - 2025 (34 provinces): https://pcivietnam.vn/data_pci_file/general_file/1778745497-06.%20Du%20lieu%20PCI%202025.xlsx has the nine
-  sub-indices and a rank group (Tốt, Khá, Trung bình…) but no composite score, so it is not used.
+  sub-indices and a rank group (Tốt, Khá, Trung bình…) but no composite score. `p34/pci_2025.csv` is the composite
+  computed by the atlas (`python -m pipeline.nso.pci2025`): 10 × Σ weight × sub-index, weights 0.05 / 0.10 / 0.15 from
+  the PCI 2025 report (https://pcivietnam.vn/data_pci_file/general_file/1779092272-05.%20Bao%20cao%20PCI%202025.pdf,
+  Hình A1.1 p.138, Bảng 4.2 p.105). It reproduces all 34 published rank groups by the cut-offs of Bảng 4.3 p.107
+  (mean 63.76, SD 3.52). VCCI chose not to publish this score; the lens says it is computed.
+  `pci_series.csv` holds 2022 and 2024 (63) and 2025 (34) for the timeline.
 - Licence: VCCI asks users to cite it as the source (https://pcivietnam.vn/gioi-thieu/chinh-sach-trich-dan-du-lieu.html).
 
 ## 8. World Bank official exchange rate → `wb_fx.json`

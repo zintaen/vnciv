@@ -142,7 +142,7 @@ export function install(app) {
   style.textContent = CSS;
   document.head.appendChild(style);
 
-  const btn = app.ui?.addTopButton?.({ id: "btn-view3d", icon: "🧊", label: t("3D view"), title: t("Tilted 3D view: hexes rise with elevation, or with the lens's values (Esc leaves)"), onClick: () => toggle() });
+  const btn = app.ui?.addTopButton?.({ id: "btn-view3d", menu: true, icon: "🧊", label: t("3D view"), title: t("Tilted 3D view: hexes rise with elevation, or with the lens's values (Esc leaves)"), onClick: () => toggle() });
   btn?.setAttribute("aria-pressed", "false");
 
   // --- data → GPU -------------------------------------------------------------------------------------------------

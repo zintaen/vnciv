@@ -1,4 +1,8 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2015,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+An Giang,63,2016,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+An Giang,63,2017,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+An Giang,63,2018,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 An Giang,63,2019,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 An Giang,63,2020,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 An Giang,63,2021,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -6,6 +10,10 @@ An Giang,63,2022,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/
 An Giang,63,2023,97.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 An Giang,63,2024,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 An Giang,63,2025,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bà Rịa - Vũng Tàu,63,2015,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bà Rịa - Vũng Tàu,63,2016,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bà Rịa - Vũng Tàu,63,2017,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bà Rịa - Vũng Tàu,63,2018,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bà Rịa - Vũng Tàu,63,2019,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bà Rịa - Vũng Tàu,63,2020,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bà Rịa - Vũng Tàu,63,2021,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -13,6 +21,10 @@ Bà Rịa - Vũng Tàu,63,2022,99.5,males per 100 females,"https://www.nso.gov.v
 Bà Rịa - Vũng Tàu,63,2023,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bà Rịa - Vũng Tàu,63,2024,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bà Rịa - Vũng Tàu,63,2025,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bình Dương,63,2015,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bình Dương,63,2016,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bình Dương,63,2017,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bình Dương,63,2018,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bình Dương,63,2019,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bình Dương,63,2020,105.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Dương,63,2021,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -20,6 +32,10 @@ Bình Dương,63,2022,102.0,males per 100 females,"https://www.nso.gov.vn/wp-con
 Bình Dương,63,2023,103.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Dương,63,2024,108.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Dương,63,2025,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bình Phước,63,2015,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bình Phước,63,2016,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bình Phước,63,2017,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bình Phước,63,2018,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bình Phước,63,2019,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bình Phước,63,2020,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Phước,63,2021,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -27,6 +43,10 @@ Bình Phước,63,2022,101.7,males per 100 females,"https://www.nso.gov.vn/wp-co
 Bình Phước,63,2023,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Phước,63,2024,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Phước,63,2025,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bình Thuận,63,2015,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bình Thuận,63,2016,100.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bình Thuận,63,2017,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bình Thuận,63,2018,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bình Thuận,63,2019,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bình Thuận,63,2020,101.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Thuận,63,2021,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -34,6 +54,10 @@ Bình Thuận,63,2022,101.7,males per 100 females,"https://www.nso.gov.vn/wp-con
 Bình Thuận,63,2023,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Thuận,63,2024,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Thuận,63,2025,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bình Định,63,2015,95.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bình Định,63,2016,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bình Định,63,2017,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bình Định,63,2018,96.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bình Định,63,2019,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bình Định,63,2020,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Định,63,2021,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -41,6 +65,10 @@ Bình Định,63,2022,98.9,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Bình Định,63,2023,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Định,63,2024,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bình Định,63,2025,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bạc Liêu,63,2015,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bạc Liêu,63,2016,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bạc Liêu,63,2017,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bạc Liêu,63,2018,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bạc Liêu,63,2019,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bạc Liêu,63,2020,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bạc Liêu,63,2021,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -48,6 +76,10 @@ Bạc Liêu,63,2022,100.5,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Bạc Liêu,63,2023,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bạc Liêu,63,2024,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bạc Liêu,63,2025,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bắc Giang,63,2015,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bắc Giang,63,2016,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bắc Giang,63,2017,100.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bắc Giang,63,2018,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bắc Giang,63,2019,100.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bắc Giang,63,2020,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Giang,63,2021,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -55,6 +87,10 @@ Bắc Giang,63,2022,101.6,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Bắc Giang,63,2023,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Giang,63,2024,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Giang,63,2025,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bắc Kạn,63,2015,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bắc Kạn,63,2016,103.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bắc Kạn,63,2017,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bắc Kạn,63,2018,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bắc Kạn,63,2019,104.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bắc Kạn,63,2020,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Kạn,63,2021,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -62,6 +98,10 @@ Bắc Kạn,63,2022,104.9,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Bắc Kạn,63,2023,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Kạn,63,2024,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Kạn,63,2025,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bắc Ninh,63,2015,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bắc Ninh,63,2016,97.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bắc Ninh,63,2017,97.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bắc Ninh,63,2018,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bắc Ninh,63,2019,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bắc Ninh,63,2020,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Ninh,63,2021,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -69,6 +109,10 @@ Bắc Ninh,63,2022,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content
 Bắc Ninh,63,2023,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Ninh,63,2024,96.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bắc Ninh,63,2025,98.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Bến Tre,63,2015,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Bến Tre,63,2016,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Bến Tre,63,2017,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Bến Tre,63,2018,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Bến Tre,63,2019,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Bến Tre,63,2020,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bến Tre,63,2021,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -76,6 +120,10 @@ Bến Tre,63,2022,97.4,males per 100 females,"https://www.nso.gov.vn/wp-content/
 Bến Tre,63,2023,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bến Tre,63,2024,97.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Bến Tre,63,2025,98.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Cao Bằng,63,2015,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Cao Bằng,63,2016,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Cao Bằng,63,2017,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Cao Bằng,63,2018,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Cao Bằng,63,2019,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Cao Bằng,63,2020,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cao Bằng,63,2021,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -83,6 +131,10 @@ Cao Bằng,63,2022,101.0,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Cao Bằng,63,2023,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cao Bằng,63,2024,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cao Bằng,63,2025,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Cà Mau,63,2015,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Cà Mau,63,2016,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Cà Mau,63,2017,102.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Cà Mau,63,2018,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Cà Mau,63,2019,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Cà Mau,63,2020,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cà Mau,63,2021,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -90,6 +142,10 @@ Cà Mau,63,2022,104.5,males per 100 females,"https://www.nso.gov.vn/wp-content/u
 Cà Mau,63,2023,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cà Mau,63,2024,104.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cà Mau,63,2025,103.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Cần Thơ,63,2015,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Cần Thơ,63,2016,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Cần Thơ,63,2017,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Cần Thơ,63,2018,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Cần Thơ,63,2019,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Cần Thơ,63,2020,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cần Thơ,63,2021,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -97,6 +153,10 @@ Cần Thơ,63,2022,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content
 Cần Thơ,63,2023,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cần Thơ,63,2024,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Cần Thơ,63,2025,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Gia Lai,63,2015,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Gia Lai,63,2016,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Gia Lai,63,2017,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Gia Lai,63,2018,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Gia Lai,63,2019,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Gia Lai,63,2020,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Gia Lai,63,2021,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -104,6 +164,10 @@ Gia Lai,63,2022,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/u
 Gia Lai,63,2023,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Gia Lai,63,2024,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Gia Lai,63,2025,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hà Giang,63,2015,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hà Giang,63,2016,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hà Giang,63,2017,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hà Giang,63,2018,101.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hà Giang,63,2019,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hà Giang,63,2020,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Giang,63,2021,102.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -111,6 +175,10 @@ Hà Giang,63,2022,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content
 Hà Giang,63,2023,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Giang,63,2024,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Giang,63,2025,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hà Nam,63,2015,96.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hà Nam,63,2016,96.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hà Nam,63,2017,96.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hà Nam,63,2018,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hà Nam,63,2019,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hà Nam,63,2020,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nam,63,2021,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -118,6 +186,10 @@ Hà Nam,63,2022,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/up
 Hà Nam,63,2023,94.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nam,63,2024,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nam,63,2025,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hà Nội,63,2015,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hà Nội,63,2016,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hà Nội,63,2017,98.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hà Nội,63,2018,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hà Nội,63,2019,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hà Nội,63,2020,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nội,63,2021,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -125,6 +197,10 @@ Hà Nội,63,2022,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/
 Hà Nội,63,2023,96.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nội,63,2024,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Nội,63,2025,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hà Tĩnh,63,2015,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hà Tĩnh,63,2016,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hà Tĩnh,63,2017,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hà Tĩnh,63,2018,98.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hà Tĩnh,63,2019,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hà Tĩnh,63,2020,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Tĩnh,63,2021,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -132,6 +208,10 @@ Hà Tĩnh,63,2022,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/
 Hà Tĩnh,63,2023,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Tĩnh,63,2024,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hà Tĩnh,63,2025,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hòa Bình,63,2015,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hòa Bình,63,2016,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hòa Bình,63,2017,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hòa Bình,63,2018,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hòa Bình,63,2019,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hòa Bình,63,2020,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hòa Bình,63,2021,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -139,6 +219,10 @@ Hòa Bình,63,2022,101.4,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Hòa Bình,63,2023,98.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hòa Bình,63,2024,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hòa Bình,63,2025,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hưng Yên,63,2015,98.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hưng Yên,63,2016,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hưng Yên,63,2017,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hưng Yên,63,2018,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hưng Yên,63,2019,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hưng Yên,63,2020,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hưng Yên,63,2021,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -146,6 +230,10 @@ Hưng Yên,63,2022,100.9,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Hưng Yên,63,2023,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hưng Yên,63,2024,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hưng Yên,63,2025,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hải Dương,63,2015,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hải Dương,63,2016,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hải Dương,63,2017,98.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hải Dương,63,2018,98.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hải Dương,63,2019,98.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hải Dương,63,2020,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Dương,63,2021,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -153,6 +241,10 @@ Hải Dương,63,2022,100.4,males per 100 females,"https://www.nso.gov.vn/wp-con
 Hải Dương,63,2023,98.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Dương,63,2024,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Dương,63,2025,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hải Phòng,63,2015,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hải Phòng,63,2016,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hải Phòng,63,2017,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hải Phòng,63,2018,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hải Phòng,63,2019,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hải Phòng,63,2020,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Phòng,63,2021,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -160,6 +252,10 @@ Hải Phòng,63,2022,98.4,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Hải Phòng,63,2023,95.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Phòng,63,2024,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hải Phòng,63,2025,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Hậu Giang,63,2015,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Hậu Giang,63,2016,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Hậu Giang,63,2017,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Hậu Giang,63,2018,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Hậu Giang,63,2019,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Hậu Giang,63,2020,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hậu Giang,63,2021,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -167,6 +263,10 @@ Hậu Giang,63,2022,102.5,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Hậu Giang,63,2023,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hậu Giang,63,2024,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Hậu Giang,63,2025,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Khánh Hòa,63,2015,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Khánh Hòa,63,2016,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Khánh Hòa,63,2017,98.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Khánh Hòa,63,2018,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Khánh Hòa,63,2019,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Khánh Hòa,63,2020,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Khánh Hòa,63,2021,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -174,6 +274,10 @@ Khánh Hòa,63,2022,99.5,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Khánh Hòa,63,2023,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Khánh Hòa,63,2024,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Khánh Hòa,63,2025,96.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Kiên Giang,63,2015,102.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Kiên Giang,63,2016,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Kiên Giang,63,2017,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Kiên Giang,63,2018,102.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Kiên Giang,63,2019,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Kiên Giang,63,2020,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kiên Giang,63,2021,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -181,6 +285,10 @@ Kiên Giang,63,2022,104.8,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Kiên Giang,63,2023,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kiên Giang,63,2024,104.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kiên Giang,63,2025,100.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Kon Tum,63,2015,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Kon Tum,63,2016,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Kon Tum,63,2017,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Kon Tum,63,2018,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Kon Tum,63,2019,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Kon Tum,63,2020,100.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kon Tum,63,2021,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -188,6 +296,10 @@ Kon Tum,63,2022,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/u
 Kon Tum,63,2023,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kon Tum,63,2024,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Kon Tum,63,2025,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Lai Châu,63,2015,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Lai Châu,63,2016,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Lai Châu,63,2017,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Lai Châu,63,2018,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Lai Châu,63,2019,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Lai Châu,63,2020,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lai Châu,63,2021,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -195,6 +307,10 @@ Lai Châu,63,2022,102.7,males per 100 females,"https://www.nso.gov.vn/wp-content
 Lai Châu,63,2023,102.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lai Châu,63,2024,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lai Châu,63,2025,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Long An,63,2015,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Long An,63,2016,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Long An,63,2017,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Long An,63,2018,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Long An,63,2019,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Long An,63,2020,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Long An,63,2021,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -202,6 +318,10 @@ Long An,63,2022,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/up
 Long An,63,2023,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Long An,63,2024,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Long An,63,2025,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Lào Cai,63,2015,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Lào Cai,63,2016,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Lào Cai,63,2017,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Lào Cai,63,2018,103.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Lào Cai,63,2019,103.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Lào Cai,63,2020,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lào Cai,63,2021,103.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -209,6 +329,10 @@ Lào Cai,63,2022,104.1,males per 100 females,"https://www.nso.gov.vn/wp-content/
 Lào Cai,63,2023,104.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lào Cai,63,2024,104.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lào Cai,63,2025,103.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Lâm Đồng,63,2015,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Lâm Đồng,63,2016,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Lâm Đồng,63,2017,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Lâm Đồng,63,2018,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Lâm Đồng,63,2019,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Lâm Đồng,63,2020,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lâm Đồng,63,2021,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -216,6 +340,10 @@ Lâm Đồng,63,2022,101.7,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Lâm Đồng,63,2023,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lâm Đồng,63,2024,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lâm Đồng,63,2025,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Lạng Sơn,63,2015,102.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Lạng Sơn,63,2016,102.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Lạng Sơn,63,2017,103.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Lạng Sơn,63,2018,104.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Lạng Sơn,63,2019,104.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Lạng Sơn,63,2020,104.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lạng Sơn,63,2021,104.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -223,6 +351,10 @@ Lạng Sơn,63,2022,104.7,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Lạng Sơn,63,2023,104.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lạng Sơn,63,2024,104.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Lạng Sơn,63,2025,104.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Nam Định,63,2015,95.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Nam Định,63,2016,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Nam Định,63,2017,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Nam Định,63,2018,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Nam Định,63,2019,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Nam Định,63,2020,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nam Định,63,2021,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -230,6 +362,10 @@ Nam Định,63,2022,96.0,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Nam Định,63,2023,90.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nam Định,63,2024,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nam Định,63,2025,96.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Nghệ An,63,2015,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Nghệ An,63,2016,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Nghệ An,63,2017,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Nghệ An,63,2018,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Nghệ An,63,2019,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Nghệ An,63,2020,100.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nghệ An,63,2021,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -237,6 +373,10 @@ Nghệ An,63,2022,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content
 Nghệ An,63,2023,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nghệ An,63,2024,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Nghệ An,63,2025,100.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Ninh Bình,63,2015,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Ninh Bình,63,2016,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Ninh Bình,63,2017,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Ninh Bình,63,2018,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Ninh Bình,63,2019,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Ninh Bình,63,2020,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Bình,63,2021,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -244,6 +384,10 @@ Ninh Bình,63,2022,100.1,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Ninh Bình,63,2023,94.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Bình,63,2024,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Bình,63,2025,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Ninh Thuận,63,2015,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Ninh Thuận,63,2016,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Ninh Thuận,63,2017,100.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Ninh Thuận,63,2018,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Ninh Thuận,63,2019,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Ninh Thuận,63,2020,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Thuận,63,2021,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -251,6 +395,10 @@ Ninh Thuận,63,2022,102.8,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Ninh Thuận,63,2023,98.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Thuận,63,2024,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Ninh Thuận,63,2025,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Phú Thọ,63,2015,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Phú Thọ,63,2016,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Phú Thọ,63,2017,98.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Phú Thọ,63,2018,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Phú Thọ,63,2019,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Phú Thọ,63,2020,98.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Thọ,63,2021,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -258,6 +406,10 @@ Phú Thọ,63,2022,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content
 Phú Thọ,63,2023,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Thọ,63,2024,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Thọ,63,2025,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Phú Yên,63,2015,100.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Phú Yên,63,2016,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Phú Yên,63,2017,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Phú Yên,63,2018,101.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Phú Yên,63,2019,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Phú Yên,63,2020,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Yên,63,2021,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -265,6 +417,10 @@ Phú Yên,63,2022,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content
 Phú Yên,63,2023,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Yên,63,2024,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Phú Yên,63,2025,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Quảng Bình,63,2015,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Quảng Bình,63,2016,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Quảng Bình,63,2017,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Quảng Bình,63,2018,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Quảng Bình,63,2019,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Quảng Bình,63,2020,100.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Bình,63,2021,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -272,6 +428,10 @@ Quảng Bình,63,2022,101.5,males per 100 females,"https://www.nso.gov.vn/wp-con
 Quảng Bình,63,2023,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Bình,63,2024,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Bình,63,2025,101.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Quảng Nam,63,2015,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Quảng Nam,63,2016,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Quảng Nam,63,2017,96.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Quảng Nam,63,2018,96.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Quảng Nam,63,2019,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Quảng Nam,63,2020,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Nam,63,2021,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -279,6 +439,10 @@ Quảng Nam,63,2022,97.6,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Quảng Nam,63,2023,95.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Nam,63,2024,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Nam,63,2025,97.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Quảng Ngãi,63,2015,97.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Quảng Ngãi,63,2016,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Quảng Ngãi,63,2017,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Quảng Ngãi,63,2018,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Quảng Ngãi,63,2019,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Quảng Ngãi,63,2020,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ngãi,63,2021,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -286,6 +450,10 @@ Quảng Ngãi,63,2022,99.1,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Quảng Ngãi,63,2023,97.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ngãi,63,2024,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ngãi,63,2025,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Quảng Ninh,63,2015,103.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Quảng Ninh,63,2016,103.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Quảng Ninh,63,2017,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Quảng Ninh,63,2018,103.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Quảng Ninh,63,2019,103.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Quảng Ninh,63,2020,103.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ninh,63,2021,103.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -293,6 +461,10 @@ Quảng Ninh,63,2022,102.7,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Quảng Ninh,63,2023,102.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ninh,63,2024,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Ninh,63,2025,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Quảng Trị,63,2015,98.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Quảng Trị,63,2016,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Quảng Trị,63,2017,98.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Quảng Trị,63,2018,98.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Quảng Trị,63,2019,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Quảng Trị,63,2020,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Trị,63,2021,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -300,6 +472,10 @@ Quảng Trị,63,2022,99.4,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Quảng Trị,63,2023,97.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Trị,63,2024,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Quảng Trị,63,2025,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Sóc Trăng,63,2015,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Sóc Trăng,63,2016,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Sóc Trăng,63,2017,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Sóc Trăng,63,2018,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Sóc Trăng,63,2019,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Sóc Trăng,63,2020,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sóc Trăng,63,2021,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -307,6 +483,10 @@ Sóc Trăng,63,2022,102.5,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Sóc Trăng,63,2023,98.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sóc Trăng,63,2024,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sóc Trăng,63,2025,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Sơn La,63,2015,102.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Sơn La,63,2016,102.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Sơn La,63,2017,102.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Sơn La,63,2018,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Sơn La,63,2019,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Sơn La,63,2020,102.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sơn La,63,2021,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -314,6 +494,10 @@ Sơn La,63,2022,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/u
 Sơn La,63,2023,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sơn La,63,2024,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Sơn La,63,2025,103.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+TP. Hồ Chí Minh,63,2015,94.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+TP. Hồ Chí Minh,63,2016,94.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+TP. Hồ Chí Minh,63,2017,94.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+TP. Hồ Chí Minh,63,2018,94.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 TP. Hồ Chí Minh,63,2019,95.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 TP. Hồ Chí Minh,63,2020,94.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 TP. Hồ Chí Minh,63,2021,96.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -321,6 +505,10 @@ TP. Hồ Chí Minh,63,2022,94.4,males per 100 females,"https://www.nso.gov.vn/wp
 TP. Hồ Chí Minh,63,2023,93.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 TP. Hồ Chí Minh,63,2024,94.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 TP. Hồ Chí Minh,63,2025,95.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Thanh Hóa,63,2015,98.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Thanh Hóa,63,2016,99.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Thanh Hóa,63,2017,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Thanh Hóa,63,2018,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Thanh Hóa,63,2019,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Thanh Hóa,63,2020,98.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thanh Hóa,63,2021,98.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -328,6 +516,10 @@ Thanh Hóa,63,2022,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content
 Thanh Hóa,63,2023,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thanh Hóa,63,2024,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thanh Hóa,63,2025,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Thái Bình,63,2015,94.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Thái Bình,63,2016,94.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Thái Bình,63,2017,94.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Thái Bình,63,2018,94.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Thái Bình,63,2019,94.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Thái Bình,63,2020,95.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Bình,63,2021,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -335,6 +527,10 @@ Thái Bình,63,2022,97.3,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Thái Bình,63,2023,93.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Bình,63,2024,95.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Bình,63,2025,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Thái Nguyên,63,2015,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Thái Nguyên,63,2016,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Thái Nguyên,63,2017,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Thái Nguyên,63,2018,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Thái Nguyên,63,2019,95.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Thái Nguyên,63,2020,95.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Nguyên,63,2021,95.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -342,6 +538,10 @@ Thái Nguyên,63,2022,95.4,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Thái Nguyên,63,2023,95.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Nguyên,63,2024,95.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thái Nguyên,63,2025,95.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Thừa Thiên Huế,63,2015,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Thừa Thiên Huế,63,2016,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Thừa Thiên Huế,63,2017,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Thừa Thiên Huế,63,2018,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Thừa Thiên Huế,63,2019,98.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Thừa Thiên Huế,63,2020,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thừa Thiên Huế,63,2021,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -349,6 +549,10 @@ Thừa Thiên Huế,63,2022,99.4,males per 100 females,"https://www.nso.gov.vn/w
 Thừa Thiên Huế,63,2023,95.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thừa Thiên Huế,63,2024,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Thừa Thiên Huế,63,2025,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Tiền Giang,63,2015,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Tiền Giang,63,2016,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Tiền Giang,63,2017,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Tiền Giang,63,2018,96.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Tiền Giang,63,2019,96.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Tiền Giang,63,2020,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tiền Giang,63,2021,96.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -356,6 +560,10 @@ Tiền Giang,63,2022,97.0,males per 100 females,"https://www.nso.gov.vn/wp-conte
 Tiền Giang,63,2023,96.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tiền Giang,63,2024,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tiền Giang,63,2025,97.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Trà Vinh,63,2015,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Trà Vinh,63,2016,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Trà Vinh,63,2017,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Trà Vinh,63,2018,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Trà Vinh,63,2019,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Trà Vinh,63,2020,96.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Trà Vinh,63,2021,96.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -363,6 +571,10 @@ Trà Vinh,63,2022,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/
 Trà Vinh,63,2023,96.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Trà Vinh,63,2024,97.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Trà Vinh,63,2025,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Tuyên Quang,63,2015,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Tuyên Quang,63,2016,101.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Tuyên Quang,63,2017,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Tuyên Quang,63,2018,101.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Tuyên Quang,63,2019,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Tuyên Quang,63,2020,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tuyên Quang,63,2021,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -370,6 +582,10 @@ Tuyên Quang,63,2022,102.4,males per 100 females,"https://www.nso.gov.vn/wp-cont
 Tuyên Quang,63,2023,100.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tuyên Quang,63,2024,101.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tuyên Quang,63,2025,102.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Tây Ninh,63,2015,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Tây Ninh,63,2016,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Tây Ninh,63,2017,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Tây Ninh,63,2018,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Tây Ninh,63,2019,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Tây Ninh,63,2020,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tây Ninh,63,2021,100.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -377,6 +593,10 @@ Tây Ninh,63,2022,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content
 Tây Ninh,63,2023,97.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tây Ninh,63,2024,100.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Tây Ninh,63,2025,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Vĩnh Long,63,2015,97.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Vĩnh Long,63,2016,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Vĩnh Long,63,2017,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Vĩnh Long,63,2018,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Vĩnh Long,63,2019,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Vĩnh Long,63,2020,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Long,63,2021,97.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -384,6 +604,10 @@ Vĩnh Long,63,2022,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content
 Vĩnh Long,63,2023,95.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Long,63,2024,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Long,63,2025,98.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Vĩnh Phúc,63,2015,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Vĩnh Phúc,63,2016,96.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Vĩnh Phúc,63,2017,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Vĩnh Phúc,63,2018,98.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Vĩnh Phúc,63,2019,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Vĩnh Phúc,63,2020,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Phúc,63,2021,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -391,6 +615,10 @@ Vĩnh Phúc,63,2022,99.7,males per 100 females,"https://www.nso.gov.vn/wp-conten
 Vĩnh Phúc,63,2023,98.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Phúc,63,2024,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Vĩnh Phúc,63,2025,100.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Yên Bái,63,2015,100.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Yên Bái,63,2016,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Yên Bái,63,2017,101.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Yên Bái,63,2018,101.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Yên Bái,63,2019,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Yên Bái,63,2020,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Yên Bái,63,2021,101.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -398,6 +626,10 @@ Yên Bái,63,2022,102.6,males per 100 females,"https://www.nso.gov.vn/wp-content
 Yên Bái,63,2023,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Yên Bái,63,2024,101.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Điện Biên,63,2015,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Điện Biên,63,2016,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Điện Biên,63,2017,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Điện Biên,63,2018,102.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Điện Biên,63,2019,102.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Điện Biên,63,2020,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Điện Biên,63,2021,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -405,6 +637,10 @@ Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content
 Điện Biên,63,2023,103.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Điện Biên,63,2024,103.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Điện Biên,63,2025,103.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Đà Nẵng,63,2015,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Đà Nẵng,63,2016,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Đà Nẵng,63,2017,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Đà Nẵng,63,2018,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Đà Nẵng,63,2019,97.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Đà Nẵng,63,2020,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đà Nẵng,63,2021,97.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -412,6 +648,10 @@ Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content
 Đà Nẵng,63,2023,97.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đà Nẵng,63,2024,98.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đà Nẵng,63,2025,97.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Đắk Lắk,63,2015,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Đắk Lắk,63,2016,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Đắk Lắk,63,2017,101.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Đắk Lắk,63,2018,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Đắk Lắk,63,2019,101.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Đắk Lắk,63,2020,101.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Lắk,63,2021,101.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -419,6 +659,10 @@ Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content
 Đắk Lắk,63,2023,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Lắk,63,2024,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Lắk,63,2025,102.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Đắk Nông,63,2015,107.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Đắk Nông,63,2016,106.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Đắk Nông,63,2017,106.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Đắk Nông,63,2018,106.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Đắk Nông,63,2019,106.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Đắk Nông,63,2020,105.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Nông,63,2021,105.0,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -426,6 +670,10 @@ Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content
 Đắk Nông,63,2023,102.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Nông,63,2024,104.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đắk Nông,63,2025,104.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Đồng Nai,63,2015,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Đồng Nai,63,2016,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Đồng Nai,63,2017,100.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Đồng Nai,63,2018,100.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Đồng Nai,63,2019,100.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Đồng Nai,63,2020,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đồng Nai,63,2021,103.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
@@ -433,6 +681,10 @@ Yên Bái,63,2025,102.0,males per 100 females,"https://www.nso.gov.vn/wp-content
 Đồng Nai,63,2023,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đồng Nai,63,2024,101.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đồng Nai,63,2025,101.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+Đồng Tháp,63,2015,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.103-104)",final
+Đồng Tháp,63,2016,99.7,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.111-112)",final
+Đồng Tháp,63,2017,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.107-108)",final
+Đồng Tháp,63,2018,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.120-121)",final
 Đồng Tháp,63,2019,99.9,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
 Đồng Tháp,63,2020,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
 Đồng Tháp,63,2021,99.8,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final

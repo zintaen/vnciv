@@ -1,376 +1,943 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,48245.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+An Giang,63,2011,58067.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+An Giang,63,2012,55998.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+An Giang,63,2013,58108.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+An Giang,63,2014,56845.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+An Giang,63,2015,60633.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+An Giang,63,2016,62057.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+An Giang,63,2017,65718.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+An Giang,63,2018,68548.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 An Giang,63,2019,71999.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 An Giang,63,2020,68456.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 An Giang,63,2021,78514.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 An Giang,63,2022,80820.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 An Giang,63,2023,80710.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 An Giang,63,2024,88394.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bà Rịa - Vũng Tàu,63,2010,180738.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,148895.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bà Rịa - Vũng Tàu,63,2012,166318.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bà Rịa - Vũng Tàu,63,2013,165650.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bà Rịa - Vũng Tàu,63,2014,185990.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bà Rịa - Vũng Tàu,63,2015,188894.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,195527.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,202571.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,201445.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,197280.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,201337.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bà Rịa - Vũng Tàu,63,2021,199493.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bà Rịa - Vũng Tàu,63,2022,216964.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bà Rịa - Vũng Tàu,63,2023,224108.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bà Rịa - Vũng Tàu,63,2024,238119.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bình Dương,63,2010,728504.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bình Dương,63,2011,778410.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bình Dương,63,2012,823008.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bình Dương,63,2013,869842.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Dương,63,2014,942362.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Dương,63,2015,996020.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bình Dương,63,2016,1056201.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bình Dương,63,2017,1105958.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bình Dương,63,2018,1122043.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bình Dương,63,2019,1149430.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bình Dương,63,2020,1168700.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Dương,63,2021,1069969.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Dương,63,2022,1070967.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Dương,63,2023,1074834.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Dương,63,2024,1138294.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bình Phước,63,2010,65722.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bình Phước,63,2011,80121.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bình Phước,63,2012,85073.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bình Phước,63,2013,86257.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Phước,63,2014,95513.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Phước,63,2015,105276.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bình Phước,63,2016,118058.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bình Phước,63,2017,119522.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bình Phước,63,2018,120308.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bình Phước,63,2019,132636.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bình Phước,63,2020,129741.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Phước,63,2021,125459.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Phước,63,2022,131860.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Phước,63,2023,137719.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Phước,63,2024,147672.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bình Thuận,63,2010,49952.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bình Thuận,63,2011,55048.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bình Thuận,63,2012,56537.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bình Thuận,63,2013,57676.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Thuận,63,2014,63099.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Thuận,63,2015,70368.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bình Thuận,63,2016,72052.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bình Thuận,63,2017,72502.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bình Thuận,63,2018,74187.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bình Thuận,63,2019,74993.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bình Thuận,63,2020,67606.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Thuận,63,2021,70819.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Thuận,63,2022,71579.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Thuận,63,2023,72725.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Thuận,63,2024,73846.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bình Định,63,2010,106482.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bình Định,63,2011,112933.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bình Định,63,2012,113670.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bình Định,63,2013,117271.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Định,63,2014,119424.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bình Định,63,2015,123535.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bình Định,63,2016,123655.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bình Định,63,2017,125461.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bình Định,63,2018,127468.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bình Định,63,2019,128300.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bình Định,63,2020,131204.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Định,63,2021,143273.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Định,63,2022,145153.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Định,63,2023,146526.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bình Định,63,2024,151187.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bạc Liêu,63,2010,14164.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bạc Liêu,63,2011,19784.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bạc Liêu,63,2012,19343.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bạc Liêu,63,2013,21278.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bạc Liêu,63,2014,19325.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bạc Liêu,63,2015,19424.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bạc Liêu,63,2016,27350.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bạc Liêu,63,2017,28753.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bạc Liêu,63,2018,31717.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bạc Liêu,63,2019,34132.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bạc Liêu,63,2020,30119.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bạc Liêu,63,2021,30130.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bạc Liêu,63,2022,30108.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bạc Liêu,63,2023,28953.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bạc Liêu,63,2024,31440.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bắc Giang,63,2010,80791.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bắc Giang,63,2011,100965.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Bắc Giang,63,2012,111374.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Bắc Giang,63,2013,121864.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Bắc Giang,63,2014,128835.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Bắc Giang,63,2015,143125.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bắc Giang,63,2016,174718.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bắc Giang,63,2017,194714.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bắc Giang,63,2018,216200.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bắc Giang,63,2019,254603.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bắc Giang,63,2020,302376.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Giang,63,2021,338445.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Giang,63,2022,343771.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Giang,63,2023,350246.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Giang,63,2024,392213.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bắc Kạn,63,2010,8759.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bắc Kạn,63,2011,9267.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Bắc Kạn,63,2012,8713.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Bắc Kạn,63,2013,8272.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Bắc Kạn,63,2014,7710.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Bắc Kạn,63,2015,7900.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bắc Kạn,63,2016,7156.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bắc Kạn,63,2017,7222.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bắc Kạn,63,2018,7385.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bắc Kạn,63,2019,7597.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bắc Kạn,63,2020,6739.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Kạn,63,2021,7016.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Kạn,63,2022,7208.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Kạn,63,2023,8638.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Kạn,63,2024,9475.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bắc Ninh,63,2010,112902.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bắc Ninh,63,2011,148422.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Bắc Ninh,63,2012,181481.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Bắc Ninh,63,2013,220773.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Bắc Ninh,63,2014,245777.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Bắc Ninh,63,2015,281341.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bắc Ninh,63,2016,330826.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bắc Ninh,63,2017,399089.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bắc Ninh,63,2018,387507.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bắc Ninh,63,2019,414407.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bắc Ninh,63,2020,462754.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Ninh,63,2021,465976.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Ninh,63,2022,445434.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Ninh,63,2023,458821.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bắc Ninh,63,2024,459713.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Bến Tre,63,2010,34573.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Bến Tre,63,2011,46896.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Bến Tre,63,2012,51073.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Bến Tre,63,2013,57347.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bến Tre,63,2014,54551.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Bến Tre,63,2015,65753.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Bến Tre,63,2016,71860.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Bến Tre,63,2017,75355.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Bến Tre,63,2018,81725.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Bến Tre,63,2019,81423.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Bến Tre,63,2020,77434.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bến Tre,63,2021,82756.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bến Tre,63,2022,80948.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bến Tre,63,2023,83595.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Bến Tre,63,2024,89665.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Cao Bằng,63,2010,17960.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Cao Bằng,63,2011,19428.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Cao Bằng,63,2012,19670.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Cao Bằng,63,2013,19907.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Cao Bằng,63,2014,18842.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Cao Bằng,63,2015,18103.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Cao Bằng,63,2016,17407.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Cao Bằng,63,2017,17455.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Cao Bằng,63,2018,17231.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Cao Bằng,63,2019,16665.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Cao Bằng,63,2020,17030.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cao Bằng,63,2021,15417.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cao Bằng,63,2022,14963.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cao Bằng,63,2023,17222.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cao Bằng,63,2024,19042.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Cà Mau,63,2010,43404.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Cà Mau,63,2011,44976.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Cà Mau,63,2012,40318.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Cà Mau,63,2013,43926.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Cà Mau,63,2014,44431.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Cà Mau,63,2015,47477.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Cà Mau,63,2016,47163.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Cà Mau,63,2017,51580.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Cà Mau,63,2018,48804.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Cà Mau,63,2019,47077.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Cà Mau,63,2020,47160.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cà Mau,63,2021,47276.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cà Mau,63,2022,51007.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cà Mau,63,2023,49595.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cà Mau,63,2024,50617.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Cần Thơ,63,2010,96348.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Cần Thơ,63,2011,98322.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Cần Thơ,63,2012,94344.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Cần Thơ,63,2013,94279.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Cần Thơ,63,2014,99695.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Cần Thơ,63,2015,100468.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Cần Thơ,63,2016,112215.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Cần Thơ,63,2017,118787.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Cần Thơ,63,2018,115034.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Cần Thơ,63,2019,116676.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Cần Thơ,63,2020,112395.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cần Thơ,63,2021,121111.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cần Thơ,63,2022,124445.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cần Thơ,63,2023,126922.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Cần Thơ,63,2024,125276.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Gia Lai,63,2010,68183.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Gia Lai,63,2011,65512.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Gia Lai,63,2012,66432.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Gia Lai,63,2013,77352.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Gia Lai,63,2014,69874.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Gia Lai,63,2015,69467.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Gia Lai,63,2016,60445.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Gia Lai,63,2017,58936.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Gia Lai,63,2018,52400.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Gia Lai,63,2019,52540.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Gia Lai,63,2020,51416.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Gia Lai,63,2021,52585.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Gia Lai,63,2022,50843.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Gia Lai,63,2023,54711.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Gia Lai,63,2024,60270.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hà Giang,63,2010,29441.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hà Giang,63,2011,30329.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hà Giang,63,2012,28572.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hà Giang,63,2013,28923.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hà Giang,63,2014,30387.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hà Giang,63,2015,31611.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hà Giang,63,2016,24471.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hà Giang,63,2017,22177.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hà Giang,63,2018,22301.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hà Giang,63,2019,23032.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hà Giang,63,2020,24114.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Giang,63,2021,24179.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Giang,63,2022,22860.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Giang,63,2023,26956.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Giang,63,2024,28031.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hà Nam,63,2010,51825.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hà Nam,63,2011,61467.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hà Nam,63,2012,66945.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hà Nam,63,2013,75812.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hà Nam,63,2014,86155.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hà Nam,63,2015,98727.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hà Nam,63,2016,112841.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hà Nam,63,2017,123979.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hà Nam,63,2018,126230.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hà Nam,63,2019,129338.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hà Nam,63,2020,141891.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nam,63,2021,153277.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nam,63,2022,163159.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nam,63,2023,172614.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nam,63,2024,189953.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hà Nội,63,2010,1502832.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hà Nội,63,2011,1981640.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hà Nội,63,2012,1925451.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hà Nội,63,2013,2005140.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hà Nội,63,2014,2022052.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hà Nội,63,2015,2163380.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hà Nội,63,2016,2321533.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hà Nội,63,2017,2400215.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hà Nội,63,2018,2450715.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hà Nội,63,2019,2469072.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hà Nội,63,2020,2241791.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nội,63,2021,2247072.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nội,63,2022,2411714.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nội,63,2023,2441326.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Nội,63,2024,2593733.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hà Tĩnh,63,2010,51145.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hà Tĩnh,63,2011,59331.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hà Tĩnh,63,2012,66749.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hà Tĩnh,63,2013,71036.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hà Tĩnh,63,2014,69119.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hà Tĩnh,63,2015,73750.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hà Tĩnh,63,2016,70175.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hà Tĩnh,63,2017,72840.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hà Tĩnh,63,2018,72487.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hà Tĩnh,63,2019,75798.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hà Tĩnh,63,2020,73383.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Tĩnh,63,2021,74999.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Tĩnh,63,2022,73687.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Tĩnh,63,2023,75225.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hà Tĩnh,63,2024,78203.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hòa Bình,63,2010,33774.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hòa Bình,63,2011,34671.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hòa Bình,63,2012,32520.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hòa Bình,63,2013,39246.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hòa Bình,63,2014,40755.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hòa Bình,63,2015,44639.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hòa Bình,63,2016,45548.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hòa Bình,63,2017,48988.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hòa Bình,63,2018,49346.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hòa Bình,63,2019,47533.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hòa Bình,63,2020,49419.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hòa Bình,63,2021,59991.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hòa Bình,63,2022,57937.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hòa Bình,63,2023,58474.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hòa Bình,63,2024,63091.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hưng Yên,63,2010,96819.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hưng Yên,63,2011,115992.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hưng Yên,63,2012,126691.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hưng Yên,63,2013,139208.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hưng Yên,63,2014,152897.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hưng Yên,63,2015,173072.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hưng Yên,63,2016,194770.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hưng Yên,63,2017,199588.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hưng Yên,63,2018,202479.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hưng Yên,63,2019,220181.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hưng Yên,63,2020,221557.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hưng Yên,63,2021,237303.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hưng Yên,63,2022,244955.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hưng Yên,63,2023,241763.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hưng Yên,63,2024,259028.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hải Dương,63,2010,189091.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hải Dương,63,2011,214069.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hải Dương,63,2012,226900.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hải Dương,63,2013,242960.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hải Dương,63,2014,250928.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hải Dương,63,2015,270609.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hải Dương,63,2016,307220.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hải Dương,63,2017,326019.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hải Dương,63,2018,352250.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hải Dương,63,2019,347213.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hải Dương,63,2020,356790.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Dương,63,2021,374320.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Dương,63,2022,375660.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Dương,63,2023,379544.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Dương,63,2024,403364.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hải Phòng,63,2010,293765.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hải Phòng,63,2011,321476.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Hải Phòng,63,2012,325211.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Hải Phòng,63,2013,338148.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Hải Phòng,63,2014,338409.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Hải Phòng,63,2015,369064.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hải Phòng,63,2016,423994.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hải Phòng,63,2017,443650.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hải Phòng,63,2018,467848.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hải Phòng,63,2019,482603.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hải Phòng,63,2020,485274.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Phòng,63,2021,513121.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Phòng,63,2022,529118.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Phòng,63,2023,547775.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hải Phòng,63,2024,589564.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Hậu Giang,63,2010,15884.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Hậu Giang,63,2011,22101.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Hậu Giang,63,2012,24104.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Hậu Giang,63,2013,32433.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Hậu Giang,63,2014,35539.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Hậu Giang,63,2015,34614.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Hậu Giang,63,2016,37648.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Hậu Giang,63,2017,42703.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Hậu Giang,63,2018,45043.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Hậu Giang,63,2019,44194.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Hậu Giang,63,2020,44506.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hậu Giang,63,2021,47957.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hậu Giang,63,2022,48888.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hậu Giang,63,2023,50012.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Hậu Giang,63,2024,55698.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Khánh Hòa,63,2010,110764.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Khánh Hòa,63,2011,120458.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Khánh Hòa,63,2012,123495.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Khánh Hòa,63,2013,121836.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Khánh Hòa,63,2014,133997.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Khánh Hòa,63,2015,150073.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Khánh Hòa,63,2016,168898.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Khánh Hòa,63,2017,172156.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Khánh Hòa,63,2018,177782.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Khánh Hòa,63,2019,176405.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Khánh Hòa,63,2020,146047.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Khánh Hòa,63,2021,137965.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Khánh Hòa,63,2022,144640.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Khánh Hòa,63,2023,152288.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Khánh Hòa,63,2024,159406.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Kiên Giang,63,2010,55546.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Kiên Giang,63,2011,60381.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Kiên Giang,63,2012,58606.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Kiên Giang,63,2013,57231.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Kiên Giang,63,2014,62534.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Kiên Giang,63,2015,75683.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Kiên Giang,63,2016,83746.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Kiên Giang,63,2017,91604.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Kiên Giang,63,2018,98181.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Kiên Giang,63,2019,95408.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Kiên Giang,63,2020,87907.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kiên Giang,63,2021,91278.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kiên Giang,63,2022,94498.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kiên Giang,63,2023,96786.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kiên Giang,63,2024,103777.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Kon Tum,63,2010,29044.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Kon Tum,63,2011,30055.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Kon Tum,63,2012,31006.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Kon Tum,63,2013,31528.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Kon Tum,63,2014,30293.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Kon Tum,63,2015,30145.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Kon Tum,63,2016,28973.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Kon Tum,63,2017,29024.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Kon Tum,63,2018,29690.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Kon Tum,63,2019,29712.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Kon Tum,63,2020,26294.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kon Tum,63,2021,26308.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kon Tum,63,2022,26409.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kon Tum,63,2023,27978.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Kon Tum,63,2024,29370.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Lai Châu,63,2010,13425.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Lai Châu,63,2011,13539.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Lai Châu,63,2012,16095.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Lai Châu,63,2013,14039.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Lai Châu,63,2014,16135.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Lai Châu,63,2015,14856.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Lai Châu,63,2016,12273.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Lai Châu,63,2017,12080.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Lai Châu,63,2018,10830.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Lai Châu,63,2019,10356.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Lai Châu,63,2020,9175.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lai Châu,63,2021,10168.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lai Châu,63,2022,9948.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lai Châu,63,2023,10468.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lai Châu,63,2024,10791.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Long An,63,2010,153818.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Long An,63,2011,174857.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Long An,63,2012,178614.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Long An,63,2013,194395.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Long An,63,2014,245739.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Long An,63,2015,252546.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Long An,63,2016,274993.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Long An,63,2017,287861.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Long An,63,2018,330428.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Long An,63,2019,354970.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Long An,63,2020,338538.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Long An,63,2021,324627.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Long An,63,2022,334094.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Long An,63,2023,336801.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Long An,63,2024,368731.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Lào Cai,63,2010,43283.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Lào Cai,63,2011,46551.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Lào Cai,63,2012,53550.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Lào Cai,63,2013,53446.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Lào Cai,63,2014,53734.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Lào Cai,63,2015,56672.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Lào Cai,63,2016,55781.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Lào Cai,63,2017,60526.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Lào Cai,63,2018,51347.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Lào Cai,63,2019,52710.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Lào Cai,63,2020,46239.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lào Cai,63,2021,40037.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lào Cai,63,2022,40567.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lào Cai,63,2023,41172.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lào Cai,63,2024,42093.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Lâm Đồng,63,2010,48342.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Lâm Đồng,63,2011,48047.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Lâm Đồng,63,2012,48936.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Lâm Đồng,63,2013,51684.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Lâm Đồng,63,2014,54146.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Lâm Đồng,63,2015,55019.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Lâm Đồng,63,2016,61527.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Lâm Đồng,63,2017,61126.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Lâm Đồng,63,2018,65288.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Lâm Đồng,63,2019,65317.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Lâm Đồng,63,2020,57297.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lâm Đồng,63,2021,63801.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lâm Đồng,63,2022,70399.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lâm Đồng,63,2023,74780.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lâm Đồng,63,2024,77922.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Lạng Sơn,63,2010,18106.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Lạng Sơn,63,2011,19861.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Lạng Sơn,63,2012,20228.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Lạng Sơn,63,2013,20461.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Lạng Sơn,63,2014,20942.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Lạng Sơn,63,2015,21513.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Lạng Sơn,63,2016,24806.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Lạng Sơn,63,2017,24607.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Lạng Sơn,63,2018,22789.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Lạng Sơn,63,2019,21526.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Lạng Sơn,63,2020,19902.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lạng Sơn,63,2021,20146.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lạng Sơn,63,2022,19954.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lạng Sơn,63,2023,20718.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Lạng Sơn,63,2024,23763.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Nam Định,63,2010,104680.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Nam Định,63,2011,114334.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Nam Định,63,2012,115263.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Nam Định,63,2013,120101.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Nam Định,63,2014,126540.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Nam Định,63,2015,138458.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Nam Định,63,2016,156330.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Nam Định,63,2017,172039.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Nam Định,63,2018,184945.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Nam Định,63,2019,191464.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Nam Định,63,2020,186419.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nam Định,63,2021,201994.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nam Định,63,2022,211018.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nam Định,63,2023,211663.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nam Định,63,2024,223769.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Nghệ An,63,2010,125371.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Nghệ An,63,2011,144488.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Nghệ An,63,2012,154665.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Nghệ An,63,2013,166530.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Nghệ An,63,2014,171327.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Nghệ An,63,2015,183516.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Nghệ An,63,2016,188948.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Nghệ An,63,2017,202029.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Nghệ An,63,2018,196192.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Nghệ An,63,2019,201229.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Nghệ An,63,2020,192831.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nghệ An,63,2021,207976.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nghệ An,63,2022,222257.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nghệ An,63,2023,223017.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Nghệ An,63,2024,256648.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Ninh Bình,63,2010,106908.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Ninh Bình,63,2011,105304.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Ninh Bình,63,2012,117739.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Ninh Bình,63,2013,132703.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Ninh Bình,63,2014,139653.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Ninh Bình,63,2015,144362.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Ninh Bình,63,2016,141222.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Ninh Bình,63,2017,147566.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Ninh Bình,63,2018,151493.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Ninh Bình,63,2019,145710.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Ninh Bình,63,2020,144724.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Bình,63,2021,150841.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Bình,63,2022,152521.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Bình,63,2023,155058.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Bình,63,2024,162262.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Ninh Thuận,63,2010,19925.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Ninh Thuận,63,2011,21758.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Ninh Thuận,63,2012,21752.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Ninh Thuận,63,2013,21654.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Ninh Thuận,63,2014,24015.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Ninh Thuận,63,2015,23955.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Ninh Thuận,63,2016,24219.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Ninh Thuận,63,2017,24746.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Ninh Thuận,63,2018,24752.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Ninh Thuận,63,2019,26711.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Ninh Thuận,63,2020,26212.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Thuận,63,2021,29049.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Thuận,63,2022,31015.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Thuận,63,2023,34474.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Ninh Thuận,63,2024,36224.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Phú Thọ,63,2010,106271.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Phú Thọ,63,2011,111561.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Phú Thọ,63,2012,116905.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Phú Thọ,63,2013,120180.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Phú Thọ,63,2014,119109.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Phú Thọ,63,2015,125599.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Phú Thọ,63,2016,134552.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Phú Thọ,63,2017,141400.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Phú Thọ,63,2018,142366.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Phú Thọ,63,2019,151608.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Phú Thọ,63,2020,156543.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Thọ,63,2021,169674.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Thọ,63,2022,168724.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Thọ,63,2023,180886.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Thọ,63,2024,190440.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Phú Yên,63,2010,42949.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Phú Yên,63,2011,40579.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Phú Yên,63,2012,36636.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Phú Yên,63,2013,37949.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Phú Yên,63,2014,35312.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Phú Yên,63,2015,34946.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Phú Yên,63,2016,35990.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Phú Yên,63,2017,36473.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Phú Yên,63,2018,38098.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Phú Yên,63,2019,39779.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Phú Yên,63,2020,42898.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Yên,63,2021,41626.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Yên,63,2022,43894.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Yên,63,2023,47738.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Phú Yên,63,2024,47425.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Quảng Bình,63,2010,42722.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Quảng Bình,63,2011,41172.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Quảng Bình,63,2012,40989.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Quảng Bình,63,2013,39495.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Quảng Bình,63,2014,40076.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Quảng Bình,63,2015,40343.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Quảng Bình,63,2016,42286.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Quảng Bình,63,2017,43443.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Quảng Bình,63,2018,43920.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Quảng Bình,63,2019,45386.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Quảng Bình,63,2020,41972.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Bình,63,2021,44595.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Bình,63,2022,44583.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Bình,63,2023,46928.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Bình,63,2024,47187.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Quảng Nam,63,2010,85015.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Quảng Nam,63,2011,98316.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Quảng Nam,63,2012,101845.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Quảng Nam,63,2013,106391.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Quảng Nam,63,2014,114799.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Quảng Nam,63,2015,124357.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Quảng Nam,63,2016,147623.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Quảng Nam,63,2017,150948.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Quảng Nam,63,2018,157110.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Quảng Nam,63,2019,167224.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Quảng Nam,63,2020,159968.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Nam,63,2021,172331.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Nam,63,2022,177965.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Nam,63,2023,183535.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Nam,63,2024,186912.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Quảng Ngãi,63,2010,48366.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Quảng Ngãi,63,2011,48750.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Quảng Ngãi,63,2012,50845.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Quảng Ngãi,63,2013,50652.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Quảng Ngãi,63,2014,50547.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Quảng Ngãi,63,2015,57026.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Quảng Ngãi,63,2016,65424.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Quảng Ngãi,63,2017,70068.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Quảng Ngãi,63,2018,77367.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Quảng Ngãi,63,2019,82847.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Quảng Ngãi,63,2020,90921.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ngãi,63,2021,103067.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ngãi,63,2022,99091.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ngãi,63,2023,110378.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ngãi,63,2024,120564.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Quảng Ninh,63,2010,205568.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Quảng Ninh,63,2011,216645.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Quảng Ninh,63,2012,228172.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Quảng Ninh,63,2013,224557.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Quảng Ninh,63,2014,230745.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Quảng Ninh,63,2015,240296.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Quảng Ninh,63,2016,245588.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Quảng Ninh,63,2017,243286.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Quảng Ninh,63,2018,239139.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Quảng Ninh,63,2019,249875.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Quảng Ninh,63,2020,237058.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ninh,63,2021,233208.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ninh,63,2022,239069.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ninh,63,2023,250688.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Ninh,63,2024,260937.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Quảng Trị,63,2010,28559.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Quảng Trị,63,2011,31685.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Quảng Trị,63,2012,29833.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Quảng Trị,63,2013,29613.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Quảng Trị,63,2014,29237.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Quảng Trị,63,2015,29497.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Quảng Trị,63,2016,28210.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Quảng Trị,63,2017,28116.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Quảng Trị,63,2018,29477.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Quảng Trị,63,2019,29239.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Quảng Trị,63,2020,26355.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Trị,63,2021,29458.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Trị,63,2022,29758.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Trị,63,2023,31586.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Quảng Trị,63,2024,29946.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Sóc Trăng,63,2010,33814.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Sóc Trăng,63,2011,32077.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Sóc Trăng,63,2012,29485.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Sóc Trăng,63,2013,29227.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Sóc Trăng,63,2014,32101.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Sóc Trăng,63,2015,31901.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Sóc Trăng,63,2016,33380.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Sóc Trăng,63,2017,34711.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Sóc Trăng,63,2018,37224.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Sóc Trăng,63,2019,41356.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Sóc Trăng,63,2020,42892.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sóc Trăng,63,2021,45423.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sóc Trăng,63,2022,47249.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sóc Trăng,63,2023,49728.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sóc Trăng,63,2024,49776.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Sơn La,63,2010,31452.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Sơn La,63,2011,30200.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Sơn La,63,2012,32053.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Sơn La,63,2013,30921.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Sơn La,63,2014,28739.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Sơn La,63,2015,29867.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Sơn La,63,2016,27986.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Sơn La,63,2017,28181.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Sơn La,63,2018,26631.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Sơn La,63,2019,26729.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Sơn La,63,2020,19924.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sơn La,63,2021,19665.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sơn La,63,2022,19593.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sơn La,63,2023,19581.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Sơn La,63,2024,19583.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+TP. Hồ Chí Minh,63,2010,2283075.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+TP. Hồ Chí Minh,63,2011,2429728.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+TP. Hồ Chí Minh,63,2012,2371572.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+TP. Hồ Chí Minh,63,2013,2400510.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+TP. Hồ Chí Minh,63,2014,2566868.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+TP. Hồ Chí Minh,63,2015,2728603.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+TP. Hồ Chí Minh,63,2016,2932531.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+TP. Hồ Chí Minh,63,2017,2936548.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+TP. Hồ Chí Minh,63,2018,2958127.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 TP. Hồ Chí Minh,63,2019,2946688.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 TP. Hồ Chí Minh,63,2020,2813212.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 TP. Hồ Chí Minh,63,2021,2701011.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 TP. Hồ Chí Minh,63,2022,2872436.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 TP. Hồ Chí Minh,63,2023,2891944.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 TP. Hồ Chí Minh,63,2024,2980552.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Thanh Hóa,63,2010,202561.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Thanh Hóa,63,2011,172637.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Thanh Hóa,63,2012,181106.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Thanh Hóa,63,2013,187723.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Thanh Hóa,63,2014,209244.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Thanh Hóa,63,2015,217891.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Thanh Hóa,63,2016,267678.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Thanh Hóa,63,2017,287608.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Thanh Hóa,63,2018,293964.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Thanh Hóa,63,2019,328745.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Thanh Hóa,63,2020,313202.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thanh Hóa,63,2021,355131.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thanh Hóa,63,2022,362082.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thanh Hóa,63,2023,365717.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thanh Hóa,63,2024,392860.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Thái Bình,63,2010,110041.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Thái Bình,63,2011,120346.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Thái Bình,63,2012,132997.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Thái Bình,63,2013,144836.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Thái Bình,63,2014,150154.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Thái Bình,63,2015,156882.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Thái Bình,63,2016,172019.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Thái Bình,63,2017,174480.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Thái Bình,63,2018,179118.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Thái Bình,63,2019,186061.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Thái Bình,63,2020,182938.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Bình,63,2021,190412.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Bình,63,2022,199896.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Bình,63,2023,203468.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Bình,63,2024,219094.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Thái Nguyên,63,2010,66642.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Thái Nguyên,63,2011,81912.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Thái Nguyên,63,2012,82710.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Thái Nguyên,63,2013,80362.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Thái Nguyên,63,2014,131277.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Thái Nguyên,63,2015,171520.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Thái Nguyên,63,2016,195684.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Thái Nguyên,63,2017,214085.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Thái Nguyên,63,2018,212270.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Thái Nguyên,63,2019,202117.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Thái Nguyên,63,2020,186323.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Nguyên,63,2021,194461.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Nguyên,63,2022,191450.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Nguyên,63,2023,192738.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thái Nguyên,63,2024,198541.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Thừa Thiên Huế,63,2010,69033.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Thừa Thiên Huế,63,2011,74747.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Thừa Thiên Huế,63,2012,76562.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Thừa Thiên Huế,63,2013,78602.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Thừa Thiên Huế,63,2014,81300.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Thừa Thiên Huế,63,2015,84733.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Thừa Thiên Huế,63,2016,85421.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Thừa Thiên Huế,63,2017,87555.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Thừa Thiên Huế,63,2018,90187.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Thừa Thiên Huế,63,2019,89211.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Thừa Thiên Huế,63,2020,88328.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thừa Thiên Huế,63,2021,96148.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thừa Thiên Huế,63,2022,98198.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thừa Thiên Huế,63,2023,96006.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Thừa Thiên Huế,63,2024,102601.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Tiền Giang,63,2010,74422.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Tiền Giang,63,2011,97370.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Tiền Giang,63,2012,110443.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Tiền Giang,63,2013,121894.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Tiền Giang,63,2014,136835.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Tiền Giang,63,2015,155152.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Tiền Giang,63,2016,163222.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Tiền Giang,63,2017,173099.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Tiền Giang,63,2018,183549.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Tiền Giang,63,2019,185389.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Tiền Giang,63,2020,167467.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tiền Giang,63,2021,166689.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tiền Giang,63,2022,178525.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tiền Giang,63,2023,172872.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tiền Giang,63,2024,186493.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Trà Vinh,63,2010,31572.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Trà Vinh,63,2011,36044.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Trà Vinh,63,2012,41804.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Trà Vinh,63,2013,47004.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Trà Vinh,63,2014,49888.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Trà Vinh,63,2015,56175.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Trà Vinh,63,2016,55377.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Trà Vinh,63,2017,53333.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Trà Vinh,63,2018,48722.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Trà Vinh,63,2019,51916.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Trà Vinh,63,2020,34599.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Trà Vinh,63,2021,47216.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Trà Vinh,63,2022,48373.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Trà Vinh,63,2023,50194.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Trà Vinh,63,2024,56559.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Tuyên Quang,63,2010,21709.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Tuyên Quang,63,2011,23578.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Tuyên Quang,63,2012,24364.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Tuyên Quang,63,2013,26343.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Tuyên Quang,63,2014,28667.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Tuyên Quang,63,2015,29515.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Tuyên Quang,63,2016,28126.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Tuyên Quang,63,2017,26727.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Tuyên Quang,63,2018,24809.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Tuyên Quang,63,2019,27975.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Tuyên Quang,63,2020,32887.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tuyên Quang,63,2021,38373.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tuyên Quang,63,2022,39297.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tuyên Quang,63,2023,41703.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tuyên Quang,63,2024,47360.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Tây Ninh,63,2010,85871.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Tây Ninh,63,2011,107015.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Tây Ninh,63,2012,122631.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Tây Ninh,63,2013,134319.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Tây Ninh,63,2014,156196.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Tây Ninh,63,2015,174589.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Tây Ninh,63,2016,178880.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Tây Ninh,63,2017,185517.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Tây Ninh,63,2018,191145.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Tây Ninh,63,2019,201962.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Tây Ninh,63,2020,204030.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tây Ninh,63,2021,195708.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tây Ninh,63,2022,200363.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tây Ninh,63,2023,210402.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Tây Ninh,63,2024,222670.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Vĩnh Long,63,2010,45119.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Vĩnh Long,63,2011,52063.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Vĩnh Long,63,2012,51126.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Vĩnh Long,63,2013,52871.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Vĩnh Long,63,2014,52017.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Vĩnh Long,63,2015,60148.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Vĩnh Long,63,2016,66154.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Vĩnh Long,63,2017,63906.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Vĩnh Long,63,2018,68223.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Vĩnh Long,63,2019,75453.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Vĩnh Long,63,2020,74359.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Long,63,2021,75000.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Long,63,2022,80660.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Long,63,2023,79916.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Long,63,2024,86715.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Vĩnh Phúc,63,2010,75351.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Vĩnh Phúc,63,2011,99020.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Vĩnh Phúc,63,2012,100118.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Vĩnh Phúc,63,2013,109294.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Vĩnh Phúc,63,2014,110573.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Vĩnh Phúc,63,2015,129228.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Vĩnh Phúc,63,2016,159405.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Vĩnh Phúc,63,2017,185898.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Vĩnh Phúc,63,2018,194442.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Vĩnh Phúc,63,2019,206661.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Vĩnh Phúc,63,2020,220404.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Phúc,63,2021,232579.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Phúc,63,2022,238068.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Phúc,63,2023,241470.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Vĩnh Phúc,63,2024,241177.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Yên Bái,63,2010,28197.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Yên Bái,63,2011,27452.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Yên Bái,63,2012,28641.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Yên Bái,63,2013,28160.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Yên Bái,63,2014,27503.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Yên Bái,63,2015,27373.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Yên Bái,63,2016,29887.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Yên Bái,63,2017,34497.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Yên Bái,63,2018,34770.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Yên Bái,63,2019,35446.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Yên Bái,63,2020,35374.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Yên Bái,63,2021,37646.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Yên Bái,63,2022,39086.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Yên Bái,63,2023,44485.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Yên Bái,63,2024,48758.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Điện Biên,63,2010,25501.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Điện Biên,63,2011,29759.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.277-277)",final
+Điện Biên,63,2012,31956.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.285-285)",final
+Điện Biên,63,2013,34476.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.301-301)",final
+Điện Biên,63,2014,36421.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.332-332)",final
+Điện Biên,63,2015,38356.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Điện Biên,63,2016,40317.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Điện Biên,63,2017,42420.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Điện Biên,63,2018,39902.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Điện Biên,63,2019,38488.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Điện Biên,63,2020,30047.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Điện Biên,63,2021,29694.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Điện Biên,63,2022,26757.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Điện Biên,63,2023,26197.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Điện Biên,63,2024,27269.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Đà Nẵng,63,2010,209537.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Đà Nẵng,63,2011,239233.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Đà Nẵng,63,2012,250565.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Đà Nẵng,63,2013,247652.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đà Nẵng,63,2014,261779.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đà Nẵng,63,2015,289648.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Đà Nẵng,63,2016,320249.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Đà Nẵng,63,2017,314965.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Đà Nẵng,63,2018,296023.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Đà Nẵng,63,2019,306943.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Đà Nẵng,63,2020,273469.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đà Nẵng,63,2021,267088.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đà Nẵng,63,2022,287113.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đà Nẵng,63,2023,309190.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đà Nẵng,63,2024,295622.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Đắk Lắk,63,2010,79847.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Đắk Lắk,63,2011,75146.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Đắk Lắk,63,2012,82961.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Đắk Lắk,63,2013,68705.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đắk Lắk,63,2014,67657.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đắk Lắk,63,2015,68253.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Đắk Lắk,63,2016,71064.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Đắk Lắk,63,2017,72588.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Đắk Lắk,63,2018,75334.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Đắk Lắk,63,2019,72062.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Đắk Lắk,63,2020,71607.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Lắk,63,2021,61677.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Lắk,63,2022,64058.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Lắk,63,2023,71244.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Lắk,63,2024,74720.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Đắk Nông,63,2010,11417.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Đắk Nông,63,2011,13756.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Đắk Nông,63,2012,15229.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Đắk Nông,63,2013,15386.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đắk Nông,63,2014,15849.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đắk Nông,63,2015,16553.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Đắk Nông,63,2016,18511.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Đắk Nông,63,2017,18498.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Đắk Nông,63,2018,15570.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Đắk Nông,63,2019,17467.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Đắk Nông,63,2020,19414.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Nông,63,2021,19329.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Nông,63,2022,18399.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Nông,63,2023,19033.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đắk Nông,63,2024,17394.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Đồng Nai,63,2010,560781.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Đồng Nai,63,2011,621362.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Đồng Nai,63,2012,630046.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Đồng Nai,63,2013,663139.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đồng Nai,63,2014,693113.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đồng Nai,63,2015,744174.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Đồng Nai,63,2016,822858.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Đồng Nai,63,2017,836860.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Đồng Nai,63,2018,860205.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Đồng Nai,63,2019,872288.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Đồng Nai,63,2020,864321.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đồng Nai,63,2021,853597.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đồng Nai,63,2022,846620.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đồng Nai,63,2023,819890.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đồng Nai,63,2024,848540.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+Đồng Tháp,63,2010,53113.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2010)",final
+Đồng Tháp,63,2011,52502.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.278-278)",final
+Đồng Tháp,63,2012,57941.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.286-286)",final
+Đồng Tháp,63,2013,59718.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đồng Tháp,63,2014,59574.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.302-302)",final
+Đồng Tháp,63,2015,61412.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2015)",final
+Đồng Tháp,63,2016,66590.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2016)",final
+Đồng Tháp,63,2017,69675.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2017)",final
+Đồng Tháp,63,2018,66781.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2018)",final
 Đồng Tháp,63,2019,71424.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
 Đồng Tháp,63,2020,71114.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
 Đồng Tháp,63,2021,76371.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final

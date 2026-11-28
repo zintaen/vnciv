@@ -2,7 +2,7 @@
 # Fills years the 2025 yearbook does not print into data/stats/series/<indicator>.csv, from
 #  1. PX-Web tables (data/stats/px/*.json, pxget.py) for the 63 former provinces, and
 #  2. older yearbooks (NGTK<edition>.txt from ext.py; YB below) by matching the 2025 table's title.
-# Rules (published in SOURCES.md): only years 2019-2026 that the series lacks are added (existing rows are never
+# Rules (published in SOURCES.md): only years 2010-2026 that the series lacks are added (existing rows are never
 # replaced); a source is used for an indicator only if, on every year it shares with the series, it agrees with it on
 # at least 95% of the provinces (within one rounding unit) - otherwise it is reported and skipped (definition or unit
 # break). Among yearbooks, the newest edition that prints a year wins. Status: "Sơ bộ"/"Prel." -> prel, "Ước tính" -> est.
@@ -11,11 +11,14 @@ D = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, D)
 from names import std, key
 
 ST = sys.argv[1]; TXT = sys.argv[2] if len(sys.argv) > 2 else 'data/interim/nso_dc'
-YEARS = range(2019, 2027)
+YEARS = range(2010, 2027)
 NSO = 'https://www.nso.gov.vn/wp-content/uploads/'
 YB = {2024: NSO + '2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf', 2023: NSO + '2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf',
       2022: NSO + '2023/06/Sach-Nien-giam-TK-2022-final.pdf', 2021: NSO + '2022/08/Sach-Nien-giam-TK-2021-1.pdf',
       2020: NSO + '2021/07/Sach-NGTK-2020Ban-quyen.pdf', 2019: NSO + '2020/09/Nien-giam-thong-ke-day-du-2019.pdf'}
+# 2010-2018 editions (pipeline/sources_series2010.py; the 2010-2016 text is TCVN3, decoded by tcvn3.py)
+sys.path.insert(0, os.path.dirname(D)); from sources_series2010 import YB_OLD
+YB.update({e: NSO + '2019/10/' + f for e, f in YB_OLD.items()})
 
 # indicator: (PX table, {variable text: value text} filter for the non-province, non-year variables)
 PX = {
@@ -77,6 +80,10 @@ PX_ONLY_YEARS = {'divorces': ({2024}, 'V02.31 counts about 26-32 thousand divorc
 PX_YEAR_CHECK = {'enterprises_per_1000': per1000_check}
 # definition breaks printed in an older edition's own table footnote: years before the first comparable one are not
 # taken from the yearbooks (the 95% agreement test cannot see them, the shared years are all after the break)
+# a definition break inside one yearbook table: the years before `first` go to their own series (never spliced)
+SPLIT = {'poverty_rate_multidimensional': (2016, 'poverty_rate_income', '% of households (income poverty line 2011-2015)',
+                                           'income-based poverty (the Government poverty line for 2011-2015, CPI-updated) up '
+                                           'to 2015, multidimensional from 2016 (Statistical Yearbook 2018, p.853 footnote)')}
 YB_FIRST_YEAR = {'farms': (2020, 'farm criteria of Circular 27/2011/TT-BNNPTNT up to 2019, Circular 02/2020/TT-BNNPTNT '
                                  'from 2020 (Statistical Yearbook 2023, p.582 footnote)')}
 
@@ -156,7 +163,8 @@ def page_tables(P):
             if not vals:
                 if not rows: hdr.append(l.strip())
                 continue
-            s = NAT if ('CẢ NƯỚC' in nm or 'WHOLE COUNTRY' in nm) else std(nm) if len(nm) < 40 else None
+            # the national row: "CẢ NƯỚC - WHOLE COUNTRY", or "TỔNG SỐ - TOTAL" in some 2016-2019 tables
+            s = NAT if ('CẢ NƯỚC' in nm or 'WHOLE COUNTRY' in nm or nm.upper().startswith('TỔNG SỐ')) else std(nm) if len(nm) < 40 else None
             if s and s not in rows: rows[s] = ([num(v) for v in vals], bool(re.search(r'\S\s{2,}$', l)))
         if len(rows) >= 10 and ys:   # 10: the second page of a 34-province table
             out.append((p, en_title(hdr), ys, rows))
@@ -286,18 +294,24 @@ def main():
                     n = len({k[0] for k in fin if k in ref})
                     if bad or not shared or n < 10: continue   # a table split over pages counts page by page
                     cands.append(((t == title, n), a_, b_, vals))
-            first = YB_FIRST_YEAR.get(name, (0,))[0]
+            first = YB_FIRST_YEAR.get(name, SPLIT.get(name, (0,)))[0]
             for _, a_, b_, vals in sorted(cands, key=lambda c: c[0], reverse=True):
                 for (s, y), (v, stt) in vals.items():
-                    if y < first: continue
+                    n_, ex_, unit_ = name, ex, unit
+                    if y < first:
+                        if name not in SPLIT: continue
+                        n_, unit_ = SPLIT[name][1], SPLIT[name][2]; ex_ = have.setdefault(n_, {})
                     url = f'{YB[e]} (Statistical Yearbook {e}, table p.{a_}-{b_})'
                     if s == NAT:
-                        if y in YEARS: natl.setdefault((name, y), (v, stt, url, unit))
-                    elif y in YEARS and (s, 63, y) not in ex:
-                        ex[(s, 63, y)] = {'province_std': s, 'level': '63', 'year': str(y), 'value': v, 'unit': unit, 'status': stt,
-                                          'source_url': url}
-                        got.append((e, y)); ref[(s, y)] = v
+                        if y in YEARS: natl.setdefault((n_, y), (v, stt, url, unit_))
+                    elif y in YEARS and (s, 63, y) not in ex_:
+                        ex_[(s, 63, y)] = {'province_std': s, 'level': '63', 'year': str(y), 'value': v, 'unit': unit_, 'status': stt,
+                                           'source_url': url}
+                        ref[(s, y)] = v   # (split years too: they chain the older editions' tables)
+                        if n_ == name: got.append((e, y))
+                        else: added[n_] = added.get(n_, 0) + 1
         added[name] = added.get(name, 0) + len(got)
+        if name in SPLIT: rep.append(f'YB {name}: years before {SPLIT[name][0]} -> {SPLIT[name][1]} ({SPLIT[name][3]})')
         if name in YB_FIRST_YEAR: rep.append(f'YB {name}: years before {YB_FIRST_YEAR[name][0]} not used ({YB_FIRST_YEAR[name][1]})')
         if got: rep.append(f"YB {name}: +{len(got)} {sorted(set(got))}")
         else: rep.append(f'YB {name}: nothing added')
@@ -322,11 +336,16 @@ SINGLE = {
 }
 
 
+OIL = 'Dầu khí'   # FDI tables of the 2010-2015 editions: an "Oil and gas" row beside the provinces
+
+
 def single_tables(path, rx, ncol):
     """{year: (first page, last page, {std: vals}, national vals)} of the pages whose English title matches rx."""
     out = {}
     for p, L in sorted(pages(path).items()):
-        title = next((re.sub(r'^\(cont\.?\)\s*', '', l.strip(), flags=re.I) for l in L if re.match(r'(\(cont\.?\)\s*)?' + rx, l.strip().lower())), None)
+        # a title may wrap after its year ("... licensed in 2015" / "by province": the 2010-2018 editions' cont. pages)
+        joined = [re.sub(r'\s+', ' ', l.strip() + ' ' + n.strip()) for l, n in zip(L, L[1:] + [''])]
+        title = next((re.sub(r'^\(cont\.?\)\s*', '', l, flags=re.I) for l in joined if re.match(r'(\(cont\.?\)\s*)?' + rx, l.lower())), None)
         if not title: continue
         y = int(re.match(rx, title.lower())[1]); rows = {}; nat = None
         for l in L:
@@ -334,13 +353,14 @@ def single_tables(path, rx, ncol):
             while i > 0 and NUM.match(t[i - 1]): i -= 1
             nm = ' '.join(t[:i]); vals = t[i:]
             if not vals: continue
-            if 'TOTAL' in nm or 'CẢ NƯỚC' in nm: nat = [num(v) for v in vals]; continue
+            if 'TOTAL' in nm.upper() or 'CẢ NƯỚC' in nm or 'WHOLE COUNTRY' in nm: nat = [num(v) for v in vals]; continue
+            if 'Oil and gas' in nm and len(vals) == ncol: rows[OIL] = [num(v) for v in vals]; continue   # in the total, not a province
             s = std(nm) if len(nm) < 40 else None
             if s and s not in rows and len(vals) == ncol: rows[s] = [num(v) for v in vals]
             elif s and s not in rows and ncol == 2 and len(vals) == 1 and re.search(r'\S\s{2,}\S', l):
                 rows[s] = [None, num(vals[0])]   # FDI: blank project count (supplementary capital only)
         cont = y in out and out[y][1] >= p - 2
-        if len(rows) < (5 if cont else 20): continue
+        if len(rows) < (5 if cont else 15): continue   # 15: the first page of the 2013 and 2015 income tables lists 19
         if cont: a, _, r, n = out[y]; out[y] = (a, p, {**r, **rows}, n or nat)
         elif y not in out: out[y] = (p, p, rows, nat)
     return out
@@ -355,14 +375,14 @@ def single_stage(have, units, added, rep, natl):
         ref = {(s, y): float(r['value']) for (s, l, y), r in ex.items() if l == 63}
         for e in sorted(YB, reverse=True):
             for y, (a, b, rows, nat) in single_tables(f'{TXT}/NGTK{e}.txt', rx, ncol).items():
-                vals = {(s, y): (v[col], 'prel' if y == e else 'final') for s, v in rows.items() if v[col] is not None}
+                vals = {(s, y): (v[col], 'prel' if y == e else 'final') for s, v in rows.items() if v[col] is not None and s != OIL}
                 if nat and y in YEARS:
                     natl.setdefault((name, y), (nat[col], 'prel' if y == e else 'final', f'{YB[e]} (Statistical Yearbook {e}, table p.{a}-{b})', unit))
                 if any(k[1] == y for k in ref):   # the year we already have: the parse must reproduce it exactly
                     bad, _ = agree(vals, ref)
                     rep.append(f'SINGLE {name} {e}/{y}: {"MISMATCH " + str(bad) if bad else "reproduces existing"}')
                     continue
-                tot = sum(v for v, _ in vals.values())
+                tot = sum(v for v, _ in vals.values()) + ((rows.get(OIL) or [0] * ncol)[col] or 0)
                 if summ and (not nat or abs(tot - nat[col]) > max(1, abs(nat[col]) * 0.005)):
                     rep.append(f'SINGLE {name} {e}/{y}: SKIPPED, provinces sum {tot} != national {nat[col] if nat else None}'); continue
                 if y not in YEARS: continue

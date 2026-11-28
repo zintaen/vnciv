@@ -3,7 +3,7 @@
 // or on each other.
 //
 //   createModel(w) → model; model.setData(name, data) (re-runs the placement); model.version (bumps on change)
-//   model fields: net, ports, airports, installations, ranges (cell sets), parks (cell sets), wonders, routes, data
+//   model fields: net, ports, airports, installations, ranges (cell sets), parks (cell sets), wonders, routes, intl, data
 //   each site item: {kind, data, cell, x, y (km, where it is drawn), size(Rpx) → css px, minRpx, prio}
 //   visibleSites(model, layerId, Rpx) → items drawn at this zoom (decluttered, cached per zoom bucket)
 //   wonderMotif(wonder) → the sprite motif for a wonders.json row (WONDER_MOTIF_BY_ID, else a generic one by kind)
@@ -15,32 +15,41 @@ import { prepareNetwork, prepareRoutes, portTier, airportTier } from "../../rend
 import { prepareCellSet, fortKind, isAirfieldName } from "../../render/art/sites.js";
 import { metroSpill } from "../../render/art/city.js";
 
+/** International arcs of trade.json (in-frame routes marked drawn): the same arc art as the domestic routes, in their
+ * own colour, never "top" (thinner and lighter than the domestic ones). */
+export const INTL_STYLE = { color: "#c2459a", dash: [1.4, 1.2], marker: "plane", label: "International" };
+function prepareIntl(w, trade) {
+  const routes = (trade?.international?.routes || []).filter((r) => r.drawn && Array.isArray(r.path))
+    .map((r) => ({ ...r, a: r.city, b: r.foreign }));
+  return prepareRoutes(w, { zones: trade.zones, routes }).map((rt) => ({ ...rt, top: false, style: INTL_STYLE, intl: true }));
+}
+
 const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 // No port tonnage is published, so a port's glyph tier is its seaport class (Decision 804/QĐ-TTg): special, I, II/III.
 const PORT_TIER = { special: 0, I: 1, II: 2, III: 2 };
 
 /**
  * What each wonder looks like, by wonders.json id: the motif names a sprite in render/art/sites.js WONDER_MOTIFS.
- * Picked by hand from what the site is (a canyon, a forest, a statue, …); ids not listed get a generic motif for
- * their kind (see sites.js drawWonder).
+ * Picked by hand from what the site is (karst towers, a citadel gate, a pagoda, …); ids not listed get a generic motif
+ * for their kind: a national park a forest, a university a modern campus block (every listed university is a 20th
+ * century national or regional university system), anything else sites.js drawWonder's fallback by kind.
  */
 export const WONDER_MOTIF_BY_ID = {
   // UNESCO World Heritage sites
-  "wh-672": "karst", "wh-1438": "karst", "wh-951": "canyon", "wh-678": "citadel", "wh-1328": "citadel", "wh-1358": "citadel",
-  "wh-1732": "pagoda", "wh-948": "quarter", "wh-949": "carved",
+  "wh-672": "karst", "wh-1438": "karst", "wh-951": "cave", "wh-678": "citadel", "wh-1328": "citadel", "wh-1358": "citadel",
+  "wh-1732": "pagoda", "wh-948": "quarter", "wh-949": "chamtower",
   // national parks (unlisted ones fall back to a forest)
   "np-Q1137913": "peak", "np-Q1749733": "peak", "np-Q1258339": "coast", "np-Q1749599": "coast", "np-Q1537215": "karst",
   "np-Q3895700": "karst", "np-Q1320113": "coast", "np-Q125333": "coast", "np-Q1583627": "coast",
   // landmarks
-  "lm-Q1186292": "pagoda", "lm-Q1202019": "pagoda", "lm-Q5964889": "pagoda", "lm-Q2670019": "arch", "lm-Q55954790": "bridge",
-  "lm-Q28197259": "obelisk", "lm-Q933384": "brickhall", "lm-Q18640924": "gantry", "lm-Q874234": "memorial", "lm-Q192721": "mound",
+  "lm-Q1186292": "onepillar", "lm-Q1202019": "gate", "lm-Q5964889": "temple", "lm-Q2670019": "truss", "lm-Q55954790": "goldbridge",
+  "lm-Q28197259": "flagtower", "lm-Q933384": "palace", "lm-Q18640924": "skyscraper", "lm-Q874234": "mausoleum", "lm-Q192721": "tunnel",
 };
-const UNI_MOTIFS = ["hall", "redhall", "spire"];
 
 export function wonderMotif(x) {
   const m = WONDER_MOTIF_BY_ID[x?.id];
   if (m) return m;
-  if (x?.kind === "university") return UNI_MOTIFS[hashStr(x.id) % 3];
+  if (x?.kind === "university") return "campus";
   if (x?.rule === "national_park") return "forest";
   return null; // drawWonder falls back to a generic motif by kind and variant
 }
@@ -74,7 +83,7 @@ export const SITE_RULES = {
 export function createModel(w) {
   const m = {
     w, version: 0, data: {},
-    net: null, ports: [], airports: [], installations: [], ranges: [], parks: [], wonders: [], routes: [],
+    net: null, ports: [], airports: [], installations: [], ranges: [], parks: [], wonders: [], routes: [], intl: [],
     rangeById: new Map(),
     _vis: new Map(),
   };
@@ -106,6 +115,7 @@ export function createModel(w) {
         .map((x) => ({ wonder: x, ...prepareCellSet(w, x.cells) }));
     } else if (name === "trade") {
       m.routes = data ? prepareRoutes(w, data) : [];
+      m.intl = data ? prepareIntl(w, data) : [];
     }
     place(m);
     m._vis.clear();
@@ -177,7 +187,7 @@ function blockedCells(w) {
  * The hex to draw a site on: its own, or for a blocked hex the best free one: its own footprint nearby or one ring out,
  * and only when that ring is all taken (a dense metro on a coast) two rings out. Null-safe for sites without x/y.
  */
-const WATER_OK = new Set(["coast", "bridge", "dam"]);
+const WATER_OK = new Set(["coast", "truss"]);
 function chooseCell(m, it, blocked, load) {
   const { grid } = m.w;
   if (!blocked.has(it.cell)) return it.cell;

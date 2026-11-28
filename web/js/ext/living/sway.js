@@ -8,7 +8,7 @@
 // the map). A calm hex is one where nothing else is drawn over the trees in the cache: forest on flat or hilly
 // ground (no mountains next to it), away from province borders, rivers, roads, rail, city tiles, resource icons
 // and other map layers. Zoom-gated (hexes ≥ 22 css px), capped in count, culled to the view.
-// Houses (farmsteads and suburbs) are found the same way: smoke rises from them at cooking time (05:00–07:00 and
+// Houses (villages, stilt houses and suburbs) are found the same way: smoke rises from them at cooking time (05:00–07:00 and
 // 16:30–19:00 Vietnam time) and their windows glow while the sun is down (with the Day–night shading on). Both are
 // illustrative: no data on real smoke or lights.
 import { hash01 } from "../../hex.js";
@@ -20,7 +20,7 @@ import { mapToLonLat, sunState, elevationAt } from "../daynight/sun.js";
 export const SWAY_MIN_RPX = 22;
 const MAX_STAMPS = { desk: 1400, phone: 500 };
 const MAX_HOUSES = 220;
-const KIND = { tree: 1, clump: 1, hill: 2, barn: 3, suburbBuild: 4 };
+const KIND = { tree: 1, clump: 1, palm: 1, hill: 2, village: 3, stilt: 3, suburbBuild: 4 };
 
 export function createSway(app, { phone }) {
   const w = app.w, grid = w.grid, R = grid.R, raw = w.raw, n = grid.size;
@@ -48,7 +48,7 @@ export function createSway(app, { phone }) {
       sp[ns] = hash01(Math.round(x * 7 + y * 13), 9) * 6.283;
       ns++;
     } else if (recording === "houses" && (kind === 3 || kind === 4) && nh < MAX_HOUSES * 3) {
-      // a farmstead: one chimney near the roof ridge; a suburb hex: three houses picked inside the sprite
+      // a village or a stilt house: one kitchen fire near the roof ridge; a suburb hex: three houses picked inside the sprite
       const spots = kind === 3 ? 1 : 3;
       for (let j = 0; j < spots && nh < MAX_HOUSES * 3; j++) {
         const u = kind === 3 ? 0.6 : 0.2 + hash01(Math.round(x * 3) + j, 31) * 0.6;

@@ -52,6 +52,8 @@ export function initPedia(data) {
       <h4>${t("Controls")}</h4>
       <p>${t("Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search places, communes and provinces · L to cycle lenses · [ and ] to step the timeline's years · <i>Layers</i> for roads, rail, communes and more · R to show or hide power plants · ? for all shortcuts · Esc to close.")}</p>
       <p>${t("The address bar always holds a link to what you're looking at (lens, selection and view); use <i>Share</i> to copy it or to download a picture.")}</p>
+      <h4>${esc(t("Privacy"))}</h4>
+      <p>${esc(t("The atlas sets no cookies and keeps no ID in your browser. To find and fix problems it sends anonymous error reports, and it counts a few actions (page views, themes, layers, stories, searches by the kind of result, never what you typed) with no identifier, IP address or user agent. Nothing is sent when your browser has Do Not Track or Global Privacy Control on. The records hold nothing that identifies you and are kept to see how the atlas is used over time."))}</p>
       <h4>${esc(t("Who made this map"))}</h4>
       <p class="pd-maker"><img src="img/brand/cyberskill-logo-primary.svg" width="44" height="44" alt="CyberSkill">${esc(t("This atlas is made by CyberSkill, a software studio in Ho Chi Minh City founded in 2020. It builds web apps, mobile apps and internal systems, and offers AI services."))}</p>
       <p><a href="${esc(cyberskillUrl("almanac"))}" target="_blank" rel="noopener">cyberskill.world</a> ·

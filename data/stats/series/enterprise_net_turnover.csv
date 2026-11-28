@@ -1,376 +1,943 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,63006.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+An Giang,63,2011,73359.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+An Giang,63,2012,80900.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+An Giang,63,2013,85154.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+An Giang,63,2014,82843.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+An Giang,63,2015,103007.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+An Giang,63,2016,98999.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+An Giang,63,2017,90851.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+An Giang,63,2018,105629.74,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 An Giang,63,2019,117644.26,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 An Giang,63,2020,122127.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 An Giang,63,2021,153340.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 An Giang,63,2022,196282.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 An Giang,63,2023,212961.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 An Giang,63,2024,234032.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bà Rịa - Vũng Tàu,63,2010,283186.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,424229.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bà Rịa - Vũng Tàu,63,2012,435156.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bà Rịa - Vũng Tàu,63,2013,426109.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bà Rịa - Vũng Tàu,63,2014,467798.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bà Rịa - Vũng Tàu,63,2015,430026.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,454111.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,466489.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,539831.17,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,507040.41,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,488773.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bà Rịa - Vũng Tàu,63,2021,613990.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bà Rịa - Vũng Tàu,63,2022,720349.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bà Rịa - Vũng Tàu,63,2023,674490.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bà Rịa - Vũng Tàu,63,2024,741723.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bình Dương,63,2010,380181.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bình Dương,63,2011,496411.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bình Dương,63,2012,592787.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bình Dương,63,2013,690937.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Dương,63,2014,812358.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Dương,63,2015,904056.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bình Dương,63,2016,996447.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bình Dương,63,2017,1129585.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bình Dương,63,2018,1264020.78,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bình Dương,63,2019,1432764.44,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bình Dương,63,2020,1528577.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Dương,63,2021,1721234.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Dương,63,2022,1940293.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Dương,63,2023,1801883.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Dương,63,2024,2159941.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bình Phước,63,2010,32064.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bình Phước,63,2011,52244.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bình Phước,63,2012,51993.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bình Phước,63,2013,63390.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Phước,63,2014,70901.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Phước,63,2015,72536.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bình Phước,63,2016,94137.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bình Phước,63,2017,146445.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bình Phước,63,2018,149498.57,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bình Phước,63,2019,191355.5,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bình Phước,63,2020,193216.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Phước,63,2021,270922.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Phước,63,2022,326451.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Phước,63,2023,325714.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Phước,63,2024,400596.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bình Thuận,63,2010,26143.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bình Thuận,63,2011,34498.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bình Thuận,63,2012,39358.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bình Thuận,63,2013,42995.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Thuận,63,2014,53796.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Thuận,63,2015,57154.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bình Thuận,63,2016,78977.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bình Thuận,63,2017,72413.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bình Thuận,63,2018,84500.48,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bình Thuận,63,2019,110872.84,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bình Thuận,63,2020,116707.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Thuận,63,2021,132718.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Thuận,63,2022,161299.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Thuận,63,2023,164698.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Thuận,63,2024,167511.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bình Định,63,2010,43883.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bình Định,63,2011,55664.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bình Định,63,2012,68738.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bình Định,63,2013,78379.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Định,63,2014,90932.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bình Định,63,2015,102316.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bình Định,63,2016,95463.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bình Định,63,2017,94623.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bình Định,63,2018,109354.72,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bình Định,63,2019,121639.68,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bình Định,63,2020,136750.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Định,63,2021,151456.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Định,63,2022,192565.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Định,63,2023,182036.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bình Định,63,2024,200025.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bạc Liêu,63,2010,12005.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bạc Liêu,63,2011,21659.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bạc Liêu,63,2012,22753.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bạc Liêu,63,2013,26882.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bạc Liêu,63,2014,29337.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bạc Liêu,63,2015,31303.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bạc Liêu,63,2016,40659.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bạc Liêu,63,2017,48359.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bạc Liêu,63,2018,47078.05,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bạc Liêu,63,2019,45456.15,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bạc Liêu,63,2020,47223.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bạc Liêu,63,2021,43132.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bạc Liêu,63,2022,53449.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bạc Liêu,63,2023,55084.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bạc Liêu,63,2024,61367.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bắc Giang,63,2010,25557.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bắc Giang,63,2011,38377.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bắc Giang,63,2012,49635.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bắc Giang,63,2013,59434.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bắc Giang,63,2014,72591.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Bắc Giang,63,2015,86211.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bắc Giang,63,2016,115259.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bắc Giang,63,2017,160107.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bắc Giang,63,2018,213613.43,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bắc Giang,63,2019,277417.02,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bắc Giang,63,2020,331939.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Giang,63,2021,420515.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Giang,63,2022,689923.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Giang,63,2023,775548.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Giang,63,2024,935870.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bắc Kạn,63,2010,2855.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bắc Kạn,63,2011,3972.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bắc Kạn,63,2012,3571.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bắc Kạn,63,2013,4252.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bắc Kạn,63,2014,4263.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Bắc Kạn,63,2015,4047.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bắc Kạn,63,2016,4407.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bắc Kạn,63,2017,4999.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bắc Kạn,63,2018,5137.72,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bắc Kạn,63,2019,5305.45,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bắc Kạn,63,2020,5659.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Kạn,63,2021,6405.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Kạn,63,2022,8442.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Kạn,63,2023,8761.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Kạn,63,2024,10184.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bắc Ninh,63,2010,90223.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bắc Ninh,63,2011,231101.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bắc Ninh,63,2012,409430.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bắc Ninh,63,2013,694172.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bắc Ninh,63,2014,662146.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Bắc Ninh,63,2015,730736.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bắc Ninh,63,2016,816417.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bắc Ninh,63,2017,1174335.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bắc Ninh,63,2018,1372099.9,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bắc Ninh,63,2019,1358866.49,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bắc Ninh,63,2020,1441574.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Ninh,63,2021,1633496.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Ninh,63,2022,1690907.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Ninh,63,2023,1555425.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bắc Ninh,63,2024,1629523.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Bến Tre,63,2010,22190.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Bến Tre,63,2011,35237.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Bến Tre,63,2012,34174.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Bến Tre,63,2013,34630.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bến Tre,63,2014,41640.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Bến Tre,63,2015,43253.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Bến Tre,63,2016,47932.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Bến Tre,63,2017,56456.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Bến Tre,63,2018,65174.18,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Bến Tre,63,2019,72942.68,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Bến Tre,63,2020,80344.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bến Tre,63,2021,81298.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bến Tre,63,2022,93028.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bến Tre,63,2023,101794.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Bến Tre,63,2024,115982.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Cao Bằng,63,2010,5828.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Cao Bằng,63,2011,7695.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Cao Bằng,63,2012,8071.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Cao Bằng,63,2013,9182.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Cao Bằng,63,2014,10283.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Cao Bằng,63,2015,8404.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Cao Bằng,63,2016,9115.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Cao Bằng,63,2017,11456.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Cao Bằng,63,2018,12530.24,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Cao Bằng,63,2019,13327.94,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Cao Bằng,63,2020,15124.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cao Bằng,63,2021,17863.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cao Bằng,63,2022,19115.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cao Bằng,63,2023,23320.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cao Bằng,63,2024,23804.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Cà Mau,63,2010,69371.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Cà Mau,63,2011,91337.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Cà Mau,63,2012,73989.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Cà Mau,63,2013,85667.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Cà Mau,63,2014,91632.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Cà Mau,63,2015,91437.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Cà Mau,63,2016,95471.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Cà Mau,63,2017,104393.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Cà Mau,63,2018,117177.17,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Cà Mau,63,2019,118733.28,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Cà Mau,63,2020,116918.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cà Mau,63,2021,115803.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cà Mau,63,2022,139758.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cà Mau,63,2023,132488.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cà Mau,63,2024,136592.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Cần Thơ,63,2010,103569.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Cần Thơ,63,2011,137878.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Cần Thơ,63,2012,135425.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Cần Thơ,63,2013,143813.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Cần Thơ,63,2014,150038.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Cần Thơ,63,2015,169628.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Cần Thơ,63,2016,190839.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Cần Thơ,63,2017,187107.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Cần Thơ,63,2018,212078.07,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Cần Thơ,63,2019,225273.73,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Cần Thơ,63,2020,226716.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cần Thơ,63,2021,249086.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cần Thơ,63,2022,340332.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cần Thơ,63,2023,349244.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Cần Thơ,63,2024,377921.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Gia Lai,63,2010,31792.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Gia Lai,63,2011,50299.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Gia Lai,63,2012,77171.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Gia Lai,63,2013,55840.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Gia Lai,63,2014,65365.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Gia Lai,63,2015,57997.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Gia Lai,63,2016,60516.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Gia Lai,63,2017,68610.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Gia Lai,63,2018,71842.53,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Gia Lai,63,2019,71211.08,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Gia Lai,63,2020,83665.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Gia Lai,63,2021,91671.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Gia Lai,63,2022,117148.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Gia Lai,63,2023,131195.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Gia Lai,63,2024,168328.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hà Giang,63,2010,4543.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hà Giang,63,2011,6060.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hà Giang,63,2012,6434.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hà Giang,63,2013,7854.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hà Giang,63,2014,8895.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hà Giang,63,2015,9321.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hà Giang,63,2016,10870.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hà Giang,63,2017,12370.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hà Giang,63,2018,14074.43,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hà Giang,63,2019,15507.92,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hà Giang,63,2020,15140.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Giang,63,2021,16577.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Giang,63,2022,20760.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Giang,63,2023,21567.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Giang,63,2024,22532.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hà Nam,63,2010,24226.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hà Nam,63,2011,35282.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hà Nam,63,2012,42102.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hà Nam,63,2013,50926.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hà Nam,63,2014,63438.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hà Nam,63,2015,73291.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hà Nam,63,2016,83286.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hà Nam,63,2017,116991.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hà Nam,63,2018,148733.4,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hà Nam,63,2019,165368.51,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hà Nam,63,2020,184007.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nam,63,2021,223746.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nam,63,2022,288538.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nam,63,2023,295579.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nam,63,2024,360934.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hà Nội,63,2010,1530071.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hà Nội,63,2011,2147066.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hà Nội,63,2012,2208088.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hà Nội,63,2013,2368811.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hà Nội,63,2014,2451003.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hà Nội,63,2015,2753600.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hà Nội,63,2016,3094849.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hà Nội,63,2017,3596814.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hà Nội,63,2018,3973354.03,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hà Nội,63,2019,4571334.14,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hà Nội,63,2020,4884817.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nội,63,2021,5249883.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nội,63,2022,6138081.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nội,63,2023,6353146.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Nội,63,2024,7197064.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hà Tĩnh,63,2010,19201.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hà Tĩnh,63,2011,26353.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hà Tĩnh,63,2012,31709.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hà Tĩnh,63,2013,36500.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hà Tĩnh,63,2014,47825.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hà Tĩnh,63,2015,53251.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hà Tĩnh,63,2016,49861.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hà Tĩnh,63,2017,69392.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hà Tĩnh,63,2018,124727.08,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hà Tĩnh,63,2019,141133.97,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hà Tĩnh,63,2020,154239.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Tĩnh,63,2021,212182.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Tĩnh,63,2022,190353.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Tĩnh,63,2023,212988.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hà Tĩnh,63,2024,267640.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hòa Bình,63,2010,8779.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hòa Bình,63,2011,12766.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hòa Bình,63,2012,13309.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hòa Bình,63,2013,15500.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hòa Bình,63,2014,17992.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hòa Bình,63,2015,25819.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hòa Bình,63,2016,33040.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hòa Bình,63,2017,36346.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hòa Bình,63,2018,39992.21,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hòa Bình,63,2019,44384.4,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hòa Bình,63,2020,45966.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hòa Bình,63,2021,58307.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hòa Bình,63,2022,75875.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hòa Bình,63,2023,75062.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hòa Bình,63,2024,77905.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hưng Yên,63,2010,56028.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hưng Yên,63,2011,76615.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hưng Yên,63,2012,94036.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hưng Yên,63,2013,104305.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hưng Yên,63,2014,116744.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hưng Yên,63,2015,132620.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hưng Yên,63,2016,141364.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hưng Yên,63,2017,281258.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hưng Yên,63,2018,322801.24,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hưng Yên,63,2019,369745.32,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hưng Yên,63,2020,378463.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hưng Yên,63,2021,508243.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hưng Yên,63,2022,603059.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hưng Yên,63,2023,642613.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hưng Yên,63,2024,757196.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hải Dương,63,2010,88349.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hải Dương,63,2011,108313.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hải Dương,63,2012,127999.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hải Dương,63,2013,160781.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hải Dương,63,2014,173060.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hải Dương,63,2015,195167.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hải Dương,63,2016,237617.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hải Dương,63,2017,293386.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hải Dương,63,2018,349596.44,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hải Dương,63,2019,398317.74,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hải Dương,63,2020,409597.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Dương,63,2021,494487.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Dương,63,2022,559241.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Dương,63,2023,558779.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Dương,63,2024,650641.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hải Phòng,63,2010,181127.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hải Phòng,63,2011,266160.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hải Phòng,63,2012,249738.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hải Phòng,63,2013,261415.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hải Phòng,63,2014,306229.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Hải Phòng,63,2015,372537.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hải Phòng,63,2016,506390.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hải Phòng,63,2017,652067.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hải Phòng,63,2018,756048.93,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hải Phòng,63,2019,859475.7,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hải Phòng,63,2020,991676.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Phòng,63,2021,1114661.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Phòng,63,2022,1263181.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Phòng,63,2023,1311169.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hải Phòng,63,2024,1524049.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Hậu Giang,63,2010,15326.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Hậu Giang,63,2011,25094.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Hậu Giang,63,2012,33384.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Hậu Giang,63,2013,33389.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hậu Giang,63,2014,35351.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Hậu Giang,63,2015,33592.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Hậu Giang,63,2016,43542.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Hậu Giang,63,2017,56919.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Hậu Giang,63,2018,66071.02,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Hậu Giang,63,2019,64457.21,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Hậu Giang,63,2020,68451.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hậu Giang,63,2021,73855.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hậu Giang,63,2022,99588.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hậu Giang,63,2023,106046.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Hậu Giang,63,2024,107484.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Khánh Hòa,63,2010,61063.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Khánh Hòa,63,2011,80058.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Khánh Hòa,63,2012,92612.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Khánh Hòa,63,2013,93064.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Khánh Hòa,63,2014,106772.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Khánh Hòa,63,2015,121445.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Khánh Hòa,63,2016,138336.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Khánh Hòa,63,2017,153186.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Khánh Hòa,63,2018,178153.69,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Khánh Hòa,63,2019,182389.53,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Khánh Hòa,63,2020,168868.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Khánh Hòa,63,2021,151247.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Khánh Hòa,63,2022,203695.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Khánh Hòa,63,2023,220972.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Khánh Hòa,63,2024,265178.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Kiên Giang,63,2010,42117.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Kiên Giang,63,2011,59841.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Kiên Giang,63,2012,61945.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Kiên Giang,63,2013,67255.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Kiên Giang,63,2014,72314.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Kiên Giang,63,2015,90728.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Kiên Giang,63,2016,97675.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Kiên Giang,63,2017,113302.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Kiên Giang,63,2018,123297.68,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Kiên Giang,63,2019,140177.33,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Kiên Giang,63,2020,138001.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kiên Giang,63,2021,129611.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kiên Giang,63,2022,168683.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kiên Giang,63,2023,164349.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kiên Giang,63,2024,170397.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Kon Tum,63,2010,9551.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Kon Tum,63,2011,12402.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Kon Tum,63,2012,15064.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Kon Tum,63,2013,14749.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Kon Tum,63,2014,14561.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Kon Tum,63,2015,16679.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Kon Tum,63,2016,20057.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Kon Tum,63,2017,25686.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Kon Tum,63,2018,26642.47,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Kon Tum,63,2019,34478.99,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Kon Tum,63,2020,37894.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kon Tum,63,2021,38312.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kon Tum,63,2022,45437.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kon Tum,63,2023,45297.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Kon Tum,63,2024,46028.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Lai Châu,63,2010,3040.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Lai Châu,63,2011,3541.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Lai Châu,63,2012,4177.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Lai Châu,63,2013,4854.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Lai Châu,63,2014,5383.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Lai Châu,63,2015,6719.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Lai Châu,63,2016,6698.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Lai Châu,63,2017,8056.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Lai Châu,63,2018,9375.26,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Lai Châu,63,2019,10105.08,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Lai Châu,63,2020,10973.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lai Châu,63,2021,11657.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lai Châu,63,2022,14843.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lai Châu,63,2023,15939.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lai Châu,63,2024,18462.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Long An,63,2010,83544.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Long An,63,2011,119186.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Long An,63,2012,130285.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Long An,63,2013,149598.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Long An,63,2014,185298.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Long An,63,2015,219385.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Long An,63,2016,266168.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Long An,63,2017,317967.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Long An,63,2018,387849.85,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Long An,63,2019,438816.11,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Long An,63,2020,473663.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Long An,63,2021,516313.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Long An,63,2022,627569.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Long An,63,2023,645144.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Long An,63,2024,737844.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Lào Cai,63,2010,16630.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Lào Cai,63,2011,28539.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Lào Cai,63,2012,33433.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Lào Cai,63,2013,39999.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Lào Cai,63,2014,46378.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Lào Cai,63,2015,52971.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Lào Cai,63,2016,56410.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Lào Cai,63,2017,70060.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Lào Cai,63,2018,74665.92,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Lào Cai,63,2019,79383.58,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Lào Cai,63,2020,67025.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lào Cai,63,2021,77435.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lào Cai,63,2022,94352.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lào Cai,63,2023,91743.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lào Cai,63,2024,99857.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Lâm Đồng,63,2010,26125.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Lâm Đồng,63,2011,34756.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Lâm Đồng,63,2012,37830.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Lâm Đồng,63,2013,37225.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Lâm Đồng,63,2014,63247.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Lâm Đồng,63,2015,61911.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Lâm Đồng,63,2016,76473.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Lâm Đồng,63,2017,89741.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Lâm Đồng,63,2018,99669.04,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Lâm Đồng,63,2019,100269.03,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Lâm Đồng,63,2020,97164.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lâm Đồng,63,2021,123963.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lâm Đồng,63,2022,136363.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lâm Đồng,63,2023,143410.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lâm Đồng,63,2024,171901.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Lạng Sơn,63,2010,11265.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Lạng Sơn,63,2011,12595.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Lạng Sơn,63,2012,14382.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Lạng Sơn,63,2013,20310.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Lạng Sơn,63,2014,25687.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Lạng Sơn,63,2015,29064.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Lạng Sơn,63,2016,29971.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Lạng Sơn,63,2017,42574.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Lạng Sơn,63,2018,37794.28,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Lạng Sơn,63,2019,37155.3,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Lạng Sơn,63,2020,39845.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lạng Sơn,63,2021,55462.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lạng Sơn,63,2022,54590.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lạng Sơn,63,2023,78352.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Lạng Sơn,63,2024,76168.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Nam Định,63,2010,31617.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Nam Định,63,2011,41994.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Nam Định,63,2012,52907.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Nam Định,63,2013,61920.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Nam Định,63,2014,69007.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Nam Định,63,2015,75378.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Nam Định,63,2016,85792.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Nam Định,63,2017,107731.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Nam Định,63,2018,125546.51,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Nam Định,63,2019,141743.78,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Nam Định,63,2020,140505.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nam Định,63,2021,168979.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nam Định,63,2022,193324.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nam Định,63,2023,187746.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nam Định,63,2024,197488.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Nghệ An,63,2010,54978.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Nghệ An,63,2011,78337.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Nghệ An,63,2012,85978.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Nghệ An,63,2013,98403.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Nghệ An,63,2014,111554.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Nghệ An,63,2015,132631.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Nghệ An,63,2016,142853.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Nghệ An,63,2017,159986.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Nghệ An,63,2018,194588.4,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Nghệ An,63,2019,218792.91,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Nghệ An,63,2020,226502.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nghệ An,63,2021,271236.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nghệ An,63,2022,314935.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nghệ An,63,2023,317109.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Nghệ An,63,2024,360494.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Ninh Bình,63,2010,44910.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Ninh Bình,63,2011,65397.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Ninh Bình,63,2012,66595.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Ninh Bình,63,2013,91521.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Ninh Bình,63,2014,105954.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Ninh Bình,63,2015,128734.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Ninh Bình,63,2016,156893.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Ninh Bình,63,2017,166144.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Ninh Bình,63,2018,232620.43,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Ninh Bình,63,2019,299382.01,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Ninh Bình,63,2020,274546.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Bình,63,2021,322569.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Bình,63,2022,373472.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Bình,63,2023,320993.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Bình,63,2024,335301.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Ninh Thuận,63,2010,9578.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Ninh Thuận,63,2011,11976.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Ninh Thuận,63,2012,14110.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Ninh Thuận,63,2013,16714.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Ninh Thuận,63,2014,18503.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Ninh Thuận,63,2015,18653.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Ninh Thuận,63,2016,19178.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Ninh Thuận,63,2017,21208.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Ninh Thuận,63,2018,24010.57,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Ninh Thuận,63,2019,29645.11,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Ninh Thuận,63,2020,34618.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Thuận,63,2021,39145.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Thuận,63,2022,43619.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Thuận,63,2023,44158.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Ninh Thuận,63,2024,51077.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Phú Thọ,63,2010,40974.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Phú Thọ,63,2011,53613.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Phú Thọ,63,2012,59836.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Phú Thọ,63,2013,71814.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Phú Thọ,63,2014,79093.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Phú Thọ,63,2015,91160.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Phú Thọ,63,2016,99541.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Phú Thọ,63,2017,113372.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Phú Thọ,63,2018,139450.52,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Phú Thọ,63,2019,154906.33,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Phú Thọ,63,2020,148244.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Thọ,63,2021,176727.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Thọ,63,2022,206709.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Thọ,63,2023,237116.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Thọ,63,2024,313581.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Phú Yên,63,2010,16235.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Phú Yên,63,2011,21482.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Phú Yên,63,2012,23594.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Phú Yên,63,2013,29619.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Phú Yên,63,2014,33353.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Phú Yên,63,2015,36262.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Phú Yên,63,2016,32047.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Phú Yên,63,2017,32419.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Phú Yên,63,2018,35747.16,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Phú Yên,63,2019,36949.55,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Phú Yên,63,2020,39853.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Yên,63,2021,42091.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Yên,63,2022,58115.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Yên,63,2023,57596.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Phú Yên,63,2024,62419.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Quảng Bình,63,2010,20800.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Quảng Bình,63,2011,24958.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Quảng Bình,63,2012,25873.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Quảng Bình,63,2013,27424.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Bình,63,2014,32718.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Quảng Bình,63,2015,36027.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Quảng Bình,63,2016,37256.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Quảng Bình,63,2017,42337.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Quảng Bình,63,2018,59872.86,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Quảng Bình,63,2019,61705.16,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Quảng Bình,63,2020,67369.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Bình,63,2021,73181.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Bình,63,2022,84128.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Bình,63,2023,80577.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Bình,63,2024,90821.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Quảng Nam,63,2010,39371.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Quảng Nam,63,2011,52632.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Quảng Nam,63,2012,53347.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Quảng Nam,63,2013,65276.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Nam,63,2014,91372.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Nam,63,2015,120485.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Quảng Nam,63,2016,168771.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Quảng Nam,63,2017,157439.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Quảng Nam,63,2018,185579.82,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Quảng Nam,63,2019,191965.96,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Quảng Nam,63,2020,194823.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Nam,63,2021,221805.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Nam,63,2022,302810.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Nam,63,2023,245347.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Nam,63,2024,287095.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Quảng Ngãi,63,2010,83136.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Quảng Ngãi,63,2011,147021.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Quảng Ngãi,63,2012,170665.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Quảng Ngãi,63,2013,203897.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Ngãi,63,2014,178597.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Ngãi,63,2015,153715.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Quảng Ngãi,63,2016,131436.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Quảng Ngãi,63,2017,147544.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Quảng Ngãi,63,2018,191391.2,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Quảng Ngãi,63,2019,194885.15,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Quảng Ngãi,63,2020,187862.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ngãi,63,2021,297860.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ngãi,63,2022,377436.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ngãi,63,2023,342753.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ngãi,63,2024,348031.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Quảng Ninh,63,2010,139332.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Quảng Ninh,63,2011,186992.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Quảng Ninh,63,2012,197755.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Quảng Ninh,63,2013,259209.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Ninh,63,2014,295053.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Quảng Ninh,63,2015,331209.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Quảng Ninh,63,2016,364589.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Quảng Ninh,63,2017,434445.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Quảng Ninh,63,2018,529695.93,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Quảng Ninh,63,2019,537879.41,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Quảng Ninh,63,2020,573103.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ninh,63,2021,553795.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ninh,63,2022,690802.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ninh,63,2023,730435.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Ninh,63,2024,752106.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Quảng Trị,63,2010,15260.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Quảng Trị,63,2011,24177.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Quảng Trị,63,2012,26282.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Quảng Trị,63,2013,32276.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Quảng Trị,63,2014,31855.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Quảng Trị,63,2015,35027.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Quảng Trị,63,2016,35044.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Quảng Trị,63,2017,32839.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Quảng Trị,63,2018,35403.76,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Quảng Trị,63,2019,37578.23,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Quảng Trị,63,2020,39742.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Trị,63,2021,43579.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Trị,63,2022,52805.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Trị,63,2023,53445.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Quảng Trị,63,2024,55977.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Sóc Trăng,63,2010,23812.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Sóc Trăng,63,2011,33400.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Sóc Trăng,63,2012,36238.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Sóc Trăng,63,2013,37628.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Sóc Trăng,63,2014,42859.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Sóc Trăng,63,2015,43368.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Sóc Trăng,63,2016,60156.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Sóc Trăng,63,2017,56314.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Sóc Trăng,63,2018,61050.35,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Sóc Trăng,63,2019,68389.69,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Sóc Trăng,63,2020,80639.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sóc Trăng,63,2021,100508.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sóc Trăng,63,2022,116744.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sóc Trăng,63,2023,119240.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sóc Trăng,63,2024,135252.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Sơn La,63,2010,12143.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Sơn La,63,2011,11162.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Sơn La,63,2012,14085.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Sơn La,63,2013,16078.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Sơn La,63,2014,18673.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Sơn La,63,2015,19890.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Sơn La,63,2016,21933.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Sơn La,63,2017,22848.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Sơn La,63,2018,26493.13,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Sơn La,63,2019,31785.52,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Sơn La,63,2020,32778.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sơn La,63,2021,37248.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sơn La,63,2022,43921.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sơn La,63,2023,43677.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Sơn La,63,2024,43950.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+TP. Hồ Chí Minh,63,2010,2217835.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+TP. Hồ Chí Minh,63,2011,2784983.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+TP. Hồ Chí Minh,63,2012,2816180.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+TP. Hồ Chí Minh,63,2013,2905917.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+TP. Hồ Chí Minh,63,2014,3172073.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+TP. Hồ Chí Minh,63,2015,3410971.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+TP. Hồ Chí Minh,63,2016,4036521.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+TP. Hồ Chí Minh,63,2017,4684826.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+TP. Hồ Chí Minh,63,2018,5399432.32,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 TP. Hồ Chí Minh,63,2019,5993158.51,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 TP. Hồ Chí Minh,63,2020,6100375.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 TP. Hồ Chí Minh,63,2021,6665480.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 TP. Hồ Chí Minh,63,2022,8121198.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 TP. Hồ Chí Minh,63,2023,8166235.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 TP. Hồ Chí Minh,63,2024,8514706.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Thanh Hóa,63,2010,55169.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Thanh Hóa,63,2011,74462.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Thanh Hóa,63,2012,87641.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Thanh Hóa,63,2013,95755.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Thanh Hóa,63,2014,116171.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Thanh Hóa,63,2015,139949.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Thanh Hóa,63,2016,159795.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Thanh Hóa,63,2017,175212.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Thanh Hóa,63,2018,199763.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Thanh Hóa,63,2019,279441.04,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Thanh Hóa,63,2020,293931.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thanh Hóa,63,2021,399731.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thanh Hóa,63,2022,520859.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thanh Hóa,63,2023,500329.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thanh Hóa,63,2024,602623.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Thái Bình,63,2010,35575.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Thái Bình,63,2011,50984.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Thái Bình,63,2012,52263.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Thái Bình,63,2013,57600.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Thái Bình,63,2014,65586.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Thái Bình,63,2015,70038.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Thái Bình,63,2016,87976.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Thái Bình,63,2017,102743.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Thái Bình,63,2018,135764.98,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Thái Bình,63,2019,150994.3,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Thái Bình,63,2020,144648.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Bình,63,2021,172141.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Bình,63,2022,200411.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Bình,63,2023,193653.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Bình,63,2024,208026.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Thái Nguyên,63,2010,56304.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Thái Nguyên,63,2011,74486.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Thái Nguyên,63,2012,73613.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Thái Nguyên,63,2013,76141.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Thái Nguyên,63,2014,252081.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Thái Nguyên,63,2015,496880.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Thái Nguyên,63,2016,618942.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Thái Nguyên,63,2017,761569.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Thái Nguyên,63,2018,818036.21,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Thái Nguyên,63,2019,899208.99,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Thái Nguyên,63,2020,915369.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Nguyên,63,2021,972764.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Nguyên,63,2022,1007482.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Nguyên,63,2023,912288.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thái Nguyên,63,2024,986240.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Thừa Thiên Huế,63,2010,26735.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Thừa Thiên Huế,63,2011,39442.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Thừa Thiên Huế,63,2012,45315.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Thừa Thiên Huế,63,2013,47416.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Thừa Thiên Huế,63,2014,54339.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Thừa Thiên Huế,63,2015,60853.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Thừa Thiên Huế,63,2016,65319.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Thừa Thiên Huế,63,2017,71732.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Thừa Thiên Huế,63,2018,82229.89,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Thừa Thiên Huế,63,2019,85898.81,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Thừa Thiên Huế,63,2020,88739.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thừa Thiên Huế,63,2021,94995.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thừa Thiên Huế,63,2022,114708.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thừa Thiên Huế,63,2023,108172.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Thừa Thiên Huế,63,2024,119587.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Tiền Giang,63,2010,51905.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Tiền Giang,63,2011,65300.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Tiền Giang,63,2012,75862.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Tiền Giang,63,2013,88700.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Tiền Giang,63,2014,111140.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Tiền Giang,63,2015,124956.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Tiền Giang,63,2016,124830.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Tiền Giang,63,2017,123572.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Tiền Giang,63,2018,139284.4,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Tiền Giang,63,2019,152277.66,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Tiền Giang,63,2020,162582.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tiền Giang,63,2021,159505.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tiền Giang,63,2022,222785.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tiền Giang,63,2023,252712.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tiền Giang,63,2024,294400.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Trà Vinh,63,2010,15440.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Trà Vinh,63,2011,19528.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Trà Vinh,63,2012,21758.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Trà Vinh,63,2013,23618.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Trà Vinh,63,2014,29559.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Trà Vinh,63,2015,33084.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Trà Vinh,63,2016,42500.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Trà Vinh,63,2017,49668.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Trà Vinh,63,2018,49340.49,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Trà Vinh,63,2019,66097.78,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Trà Vinh,63,2020,64191.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Trà Vinh,63,2021,67750.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Trà Vinh,63,2022,84047.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Trà Vinh,63,2023,88997.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Trà Vinh,63,2024,96576.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Tuyên Quang,63,2010,6193.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Tuyên Quang,63,2011,9603.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Tuyên Quang,63,2012,11927.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Tuyên Quang,63,2013,13029.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Tuyên Quang,63,2014,14781.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Tuyên Quang,63,2015,13751.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Tuyên Quang,63,2016,14626.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Tuyên Quang,63,2017,16512.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Tuyên Quang,63,2018,20725.4,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Tuyên Quang,63,2019,24275.03,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Tuyên Quang,63,2020,28187.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tuyên Quang,63,2021,34381.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tuyên Quang,63,2022,39181.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tuyên Quang,63,2023,39415.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tuyên Quang,63,2024,40840.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Tây Ninh,63,2010,53629.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Tây Ninh,63,2011,75268.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Tây Ninh,63,2012,83208.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Tây Ninh,63,2013,99912.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Tây Ninh,63,2014,114027.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Tây Ninh,63,2015,131630.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Tây Ninh,63,2016,149776.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Tây Ninh,63,2017,175536.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Tây Ninh,63,2018,179473.56,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Tây Ninh,63,2019,210759.01,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Tây Ninh,63,2020,229761.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tây Ninh,63,2021,277992.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tây Ninh,63,2022,362718.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tây Ninh,63,2023,346829.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Tây Ninh,63,2024,402524.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Vĩnh Long,63,2010,30255.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Vĩnh Long,63,2011,37613.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Vĩnh Long,63,2012,39130.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Vĩnh Long,63,2013,38924.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Vĩnh Long,63,2014,36780.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Vĩnh Long,63,2015,40241.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Vĩnh Long,63,2016,44510.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Vĩnh Long,63,2017,44449.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Vĩnh Long,63,2018,61742.59,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Vĩnh Long,63,2019,68056.57,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Vĩnh Long,63,2020,71999.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Long,63,2021,74095.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Long,63,2022,106851.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Long,63,2023,114323.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Long,63,2024,128121.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Vĩnh Phúc,63,2010,84223.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Vĩnh Phúc,63,2011,122735.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Vĩnh Phúc,63,2012,130222.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Vĩnh Phúc,63,2013,140799.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Vĩnh Phúc,63,2014,174010.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Vĩnh Phúc,63,2015,200504.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Vĩnh Phúc,63,2016,239301.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Vĩnh Phúc,63,2017,325309.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Vĩnh Phúc,63,2018,399129.52,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Vĩnh Phúc,63,2019,453834.77,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Vĩnh Phúc,63,2020,468805.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Phúc,63,2021,527622.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Phúc,63,2022,654449.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Phúc,63,2023,614900.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Vĩnh Phúc,63,2024,672372.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Yên Bái,63,2010,8897.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Yên Bái,63,2011,11009.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Yên Bái,63,2012,12652.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Yên Bái,63,2013,14770.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Yên Bái,63,2014,15358.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Yên Bái,63,2015,17231.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Yên Bái,63,2016,19423.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Yên Bái,63,2017,24913.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Yên Bái,63,2018,28291.33,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Yên Bái,63,2019,32719.84,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Yên Bái,63,2020,40556.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Yên Bái,63,2021,52416.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Yên Bái,63,2022,58460.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Yên Bái,63,2023,56364.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Yên Bái,63,2024,69730.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Điện Biên,63,2010,6206.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Điện Biên,63,2011,7177.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Điện Biên,63,2012,8798.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Điện Biên,63,2013,9955.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Điện Biên,63,2014,11240.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.368-368)",final
+Điện Biên,63,2015,11992.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Điện Biên,63,2016,11984.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Điện Biên,63,2017,12054.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Điện Biên,63,2018,13167.87,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Điện Biên,63,2019,18994.13,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Điện Biên,63,2020,15677.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Điện Biên,63,2021,17101.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Điện Biên,63,2022,17884.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Điện Biên,63,2023,19426.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Điện Biên,63,2024,21008.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Đà Nẵng,63,2010,100890.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Đà Nẵng,63,2011,135072.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Đà Nẵng,63,2012,146845.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Đà Nẵng,63,2013,159546.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đà Nẵng,63,2014,195417.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đà Nẵng,63,2015,209618.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Đà Nẵng,63,2016,252823.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Đà Nẵng,63,2017,281478.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Đà Nẵng,63,2018,299544.35,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Đà Nẵng,63,2019,337132.62,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Đà Nẵng,63,2020,301147.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đà Nẵng,63,2021,306302.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đà Nẵng,63,2022,386682.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đà Nẵng,63,2023,376080.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đà Nẵng,63,2024,424854.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Đắk Lắk,63,2010,49262.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Đắk Lắk,63,2011,72622.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Đắk Lắk,63,2012,74516.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Đắk Lắk,63,2013,66084.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đắk Lắk,63,2014,65934.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đắk Lắk,63,2015,64701.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Đắk Lắk,63,2016,99871.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Đắk Lắk,63,2017,95935.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Đắk Lắk,63,2018,110207.21,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Đắk Lắk,63,2019,105182.14,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Đắk Lắk,63,2020,108880.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Lắk,63,2021,136006.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Lắk,63,2022,162911.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Lắk,63,2023,179425.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Lắk,63,2024,212166.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Đắk Nông,63,2010,10255.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Đắk Nông,63,2011,17495.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Đắk Nông,63,2012,22197.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Đắk Nông,63,2013,24000.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đắk Nông,63,2014,32516.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đắk Nông,63,2015,38152.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Đắk Nông,63,2016,46523.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Đắk Nông,63,2017,54177.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Đắk Nông,63,2018,54188.05,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Đắk Nông,63,2019,56382.83,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Đắk Nông,63,2020,61145.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Nông,63,2021,57773.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Nông,63,2022,64939.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Nông,63,2023,71025.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đắk Nông,63,2024,95843.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Đồng Nai,63,2010,404690.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Đồng Nai,63,2011,557245.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Đồng Nai,63,2012,610458.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Đồng Nai,63,2013,658023.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đồng Nai,63,2014,761337.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đồng Nai,63,2015,821358.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Đồng Nai,63,2016,972497.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Đồng Nai,63,2017,1030611.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Đồng Nai,63,2018,1178641.77,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Đồng Nai,63,2019,1250860.39,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Đồng Nai,63,2020,1241035.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đồng Nai,63,2021,1418050.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đồng Nai,63,2022,1567296.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đồng Nai,63,2023,1474371.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đồng Nai,63,2024,1660747.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+Đồng Tháp,63,2010,63967.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2010)",final
+Đồng Tháp,63,2011,89193.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.313-314)",final
+Đồng Tháp,63,2012,97151.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.321-322)",final
+Đồng Tháp,63,2013,103875.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đồng Tháp,63,2014,107876.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.337-338)",final
+Đồng Tháp,63,2015,104209.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2015)",final
+Đồng Tháp,63,2016,120150.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2016)",final
+Đồng Tháp,63,2017,125762.0,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2017)",final
+Đồng Tháp,63,2018,143861.8,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2018)",final
 Đồng Tháp,63,2019,154533.31,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
 Đồng Tháp,63,2020,154346.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
 Đồng Tháp,63,2021,158651.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final

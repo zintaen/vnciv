@@ -55,6 +55,7 @@ export async function install(app) {
     const panel = app.panels.element;
     const head = panel?.querySelector(".cp-head");
     if (!head || head.querySelector(".cv-open")) return;
+    app.lensValues?.("density"); // the City View's residents per hex: fetch the lens's values before it opens
     const b = document.createElement("button");
     b.type = "button";
     b.className = "cv-open";
@@ -102,6 +103,15 @@ export async function install(app) {
     const same = cv.city === city && cv.dock && !cv.dock.hidden;
     cv.city = city;
     const m = buildModel(app, city);
+    // Opened before the density lens's values arrived (a #view=city link): fill the hexes' residents when they land.
+    // ponytail: the dock's "together about N people" line stays out until the next show(); re-render it if that matters.
+    if (!app.lensById?.get("density")?.values) app.lensValues?.("density").then((v) => {
+      if (!v || cv.model !== m) return;
+      const fresh = buildModel(app, city);
+      m.tiles.forEach((t, k) => { t.residents = fresh.tiles[k]?.residents ?? null; });
+      m.residentsSum = fresh.residentsSum;
+      app.requestDraw();
+    });
     m.cityList = app.data.cities;
     m.landColor = layer.landColor;
     cv.model = m;

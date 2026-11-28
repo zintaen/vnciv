@@ -1,376 +1,943 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,239501.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+An Giang,63,2011,241529.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+An Giang,63,2012,245818.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+An Giang,63,2013,238981.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+An Giang,63,2014,248587.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+An Giang,63,2015,211999.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+An Giang,63,2016,220813.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+An Giang,63,2017,221549.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+An Giang,63,2018,214087.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 An Giang,63,2019,222843.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 An Giang,63,2020,202357.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 An Giang,63,2021,207121.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 An Giang,63,2022,231301.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 An Giang,63,2023,215629.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 An Giang,63,2024,218995.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bà Rịa - Vũng Tàu,63,2010,82761.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bà Rịa - Vũng Tàu,63,2011,80699.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bà Rịa - Vũng Tàu,63,2012,93972.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bà Rịa - Vũng Tàu,63,2013,91668.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bà Rịa - Vũng Tàu,63,2014,101296.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bà Rịa - Vũng Tàu,63,2015,103879.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,105272.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,99242.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,107161.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,117560.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,102738.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bà Rịa - Vũng Tàu,63,2021,100948.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bà Rịa - Vũng Tàu,63,2022,103370.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bà Rịa - Vũng Tàu,63,2023,100654.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bà Rịa - Vũng Tàu,63,2024,95742.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bình Dương,63,2010,118840.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bình Dương,63,2011,126746.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bình Dương,63,2012,136080.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bình Dương,63,2013,146098.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bình Dương,63,2014,151185.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bình Dương,63,2015,165754.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bình Dương,63,2016,173300.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bình Dương,63,2017,194401.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bình Dương,63,2018,189574.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bình Dương,63,2019,205220.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bình Dương,63,2020,200900.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bình Dương,63,2021,209497.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bình Dương,63,2022,224490.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bình Dương,63,2023,250398.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bình Dương,63,2024,239785.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bình Phước,63,2010,71604.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bình Phước,63,2011,73333.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bình Phước,63,2012,78013.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bình Phước,63,2013,85187.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bình Phước,63,2014,84321.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bình Phước,63,2015,81246.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bình Phước,63,2016,85983.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bình Phước,63,2017,86332.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bình Phước,63,2018,84870.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bình Phước,63,2019,90985.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bình Phước,63,2020,84758.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bình Phước,63,2021,87273.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bình Phước,63,2022,99959.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bình Phước,63,2023,99885.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bình Phước,63,2024,101402.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bình Thuận,63,2010,82940.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bình Thuận,63,2011,86665.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bình Thuận,63,2012,97827.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bình Thuận,63,2013,98063.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bình Thuận,63,2014,102226.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bình Thuận,63,2015,90195.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bình Thuận,63,2016,92621.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bình Thuận,63,2017,105225.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bình Thuận,63,2018,111462.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bình Thuận,63,2019,111978.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bình Thuận,63,2020,100295.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bình Thuận,63,2021,106127.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bình Thuận,63,2022,115066.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bình Thuận,63,2023,111044.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bình Thuận,63,2024,117522.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bình Định,63,2010,137825.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bình Định,63,2011,144793.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bình Định,63,2012,148089.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bình Định,63,2013,143578.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bình Định,63,2014,151161.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bình Định,63,2015,156601.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bình Định,63,2016,160661.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bình Định,63,2017,164608.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bình Định,63,2018,154303.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bình Định,63,2019,160981.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bình Định,63,2020,157040.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bình Định,63,2021,155562.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bình Định,63,2022,169390.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bình Định,63,2023,164621.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bình Định,63,2024,174688.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bạc Liêu,63,2010,100718.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bạc Liêu,63,2011,101834.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bạc Liêu,63,2012,92130.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bạc Liêu,63,2013,93715.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bạc Liêu,63,2014,85491.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bạc Liêu,63,2015,97298.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bạc Liêu,63,2016,96389.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bạc Liêu,63,2017,94244.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bạc Liêu,63,2018,97043.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bạc Liêu,63,2019,115991.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bạc Liêu,63,2020,80459.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bạc Liêu,63,2021,83899.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bạc Liêu,63,2022,87542.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bạc Liêu,63,2023,81871.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bạc Liêu,63,2024,81819.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bắc Giang,63,2010,95433.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bắc Giang,63,2011,94795.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bắc Giang,63,2012,110310.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bắc Giang,63,2013,111537.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bắc Giang,63,2014,112776.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bắc Giang,63,2015,117408.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bắc Giang,63,2016,119469.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bắc Giang,63,2017,128168.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bắc Giang,63,2018,126459.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bắc Giang,63,2019,128100.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bắc Giang,63,2020,134014.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bắc Giang,63,2021,134938.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bắc Giang,63,2022,135942.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bắc Giang,63,2023,136597.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bắc Giang,63,2024,143287.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bắc Kạn,63,2010,14669.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bắc Kạn,63,2011,14503.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bắc Kạn,63,2012,17617.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bắc Kạn,63,2013,17374.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bắc Kạn,63,2014,17414.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bắc Kạn,63,2015,18269.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bắc Kạn,63,2016,17253.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bắc Kạn,63,2017,18717.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bắc Kạn,63,2018,18691.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bắc Kạn,63,2019,19099.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bắc Kạn,63,2020,18951.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bắc Kạn,63,2021,20213.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bắc Kạn,63,2022,20970.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bắc Kạn,63,2023,19838.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bắc Kạn,63,2024,20605.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bắc Ninh,63,2010,150018.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bắc Ninh,63,2011,167358.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bắc Ninh,63,2012,182810.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bắc Ninh,63,2013,171735.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bắc Ninh,63,2014,181494.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bắc Ninh,63,2015,188044.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bắc Ninh,63,2016,195316.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bắc Ninh,63,2017,212376.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bắc Ninh,63,2018,221279.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bắc Ninh,63,2019,233695.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bắc Ninh,63,2020,211168.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bắc Ninh,63,2021,218740.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bắc Ninh,63,2022,232987.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bắc Ninh,63,2023,219425.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bắc Ninh,63,2024,229879.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Bến Tre,63,2010,118603.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Bến Tre,63,2011,120289.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Bến Tre,63,2012,131728.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Bến Tre,63,2013,123565.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Bến Tre,63,2014,131012.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Bến Tre,63,2015,127707.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Bến Tre,63,2016,127599.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Bến Tre,63,2017,143073.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Bến Tre,63,2018,143960.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Bến Tre,63,2019,151976.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Bến Tre,63,2020,135976.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Bến Tre,63,2021,137302.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Bến Tre,63,2022,145272.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Bến Tre,63,2023,143800.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Bến Tre,63,2024,134507.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Cao Bằng,63,2010,21208.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Cao Bằng,63,2011,17800.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Cao Bằng,63,2012,19494.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Cao Bằng,63,2013,20721.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Cao Bằng,63,2014,21369.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Cao Bằng,63,2015,22093.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Cao Bằng,63,2016,22553.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Cao Bằng,63,2017,25566.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Cao Bằng,63,2018,24758.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Cao Bằng,63,2019,25530.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Cao Bằng,63,2020,27092.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Cao Bằng,63,2021,28496.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Cao Bằng,63,2022,30890.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Cao Bằng,63,2023,31478.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Cao Bằng,63,2024,33259.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Cà Mau,63,2010,85477.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Cà Mau,63,2011,91209.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Cà Mau,63,2012,92151.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Cà Mau,63,2013,100595.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Cà Mau,63,2014,109747.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Cà Mau,63,2015,100018.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Cà Mau,63,2016,105723.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Cà Mau,63,2017,106121.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Cà Mau,63,2018,103308.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Cà Mau,63,2019,115720.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Cà Mau,63,2020,113381.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Cà Mau,63,2021,118227.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Cà Mau,63,2022,119749.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Cà Mau,63,2023,119657.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Cà Mau,63,2024,117946.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Cần Thơ,63,2010,127374.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Cần Thơ,63,2011,137533.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Cần Thơ,63,2012,132057.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Cần Thơ,63,2013,126267.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Cần Thơ,63,2014,133858.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Cần Thơ,63,2015,136858.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Cần Thơ,63,2016,148135.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Cần Thơ,63,2017,146507.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Cần Thơ,63,2018,150667.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Cần Thơ,63,2019,159071.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Cần Thơ,63,2020,152369.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Cần Thơ,63,2021,151109.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Cần Thơ,63,2022,158526.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Cần Thơ,63,2023,161862.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Cần Thơ,63,2024,177732.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Gia Lai,63,2010,57411.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Gia Lai,63,2011,59204.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Gia Lai,63,2012,68342.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Gia Lai,63,2013,72399.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Gia Lai,63,2014,81942.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Gia Lai,63,2015,71088.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Gia Lai,63,2016,71596.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Gia Lai,63,2017,76874.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Gia Lai,63,2018,81931.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Gia Lai,63,2019,85353.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Gia Lai,63,2020,84069.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Gia Lai,63,2021,90570.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Gia Lai,63,2022,90003.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Gia Lai,63,2023,90523.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Gia Lai,63,2024,90390.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hà Giang,63,2010,21126.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hà Giang,63,2011,23023.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hà Giang,63,2012,27518.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hà Giang,63,2013,27851.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hà Giang,63,2014,28048.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hà Giang,63,2015,30621.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hà Giang,63,2016,31030.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hà Giang,63,2017,34486.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hà Giang,63,2018,34778.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hà Giang,63,2019,36106.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hà Giang,63,2020,42666.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hà Giang,63,2021,39274.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hà Giang,63,2022,42956.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hà Giang,63,2023,41585.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hà Giang,63,2024,43594.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hà Nam,63,2010,102003.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hà Nam,63,2011,102317.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hà Nam,63,2012,102759.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hà Nam,63,2013,98709.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hà Nam,63,2014,96746.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hà Nam,63,2015,90051.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hà Nam,63,2016,96758.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hà Nam,63,2017,93682.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hà Nam,63,2018,90099.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hà Nam,63,2019,91419.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hà Nam,63,2020,88282.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hà Nam,63,2021,87696.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hà Nam,63,2022,91882.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hà Nam,63,2023,90314.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hà Nam,63,2024,89805.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hà Nội,63,2010,585186.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hà Nội,63,2011,586343.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hà Nội,63,2012,671814.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hà Nội,63,2013,595153.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hà Nội,63,2014,634233.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hà Nội,63,2015,631556.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hà Nội,63,2016,663934.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hà Nội,63,2017,705954.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hà Nội,63,2018,672948.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hà Nội,63,2019,693842.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hà Nội,63,2020,765410.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hà Nội,63,2021,660314.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hà Nội,63,2022,684650.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hà Nội,63,2023,665623.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hà Nội,63,2024,661918.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hà Tĩnh,63,2010,95225.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hà Tĩnh,63,2011,103322.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hà Tĩnh,63,2012,114215.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hà Tĩnh,63,2013,116055.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hà Tĩnh,63,2014,115248.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hà Tĩnh,63,2015,120817.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hà Tĩnh,63,2016,102195.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hà Tĩnh,63,2017,115796.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hà Tĩnh,63,2018,115290.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hà Tĩnh,63,2019,118065.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hà Tĩnh,63,2020,121000.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hà Tĩnh,63,2021,119819.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hà Tĩnh,63,2022,118693.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hà Tĩnh,63,2023,117328.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hà Tĩnh,63,2024,118720.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hòa Bình,63,2010,96927.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hòa Bình,63,2011,89444.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hòa Bình,63,2012,45346.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hòa Bình,63,2013,48486.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hòa Bình,63,2014,49027.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hòa Bình,63,2015,49913.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hòa Bình,63,2016,52519.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hòa Bình,63,2017,53829.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hòa Bình,63,2018,52004.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hòa Bình,63,2019,53829.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hòa Bình,63,2020,54150.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hòa Bình,63,2021,55507.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hòa Bình,63,2022,59111.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hòa Bình,63,2023,61129.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hòa Bình,63,2024,63365.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hưng Yên,63,2010,125737.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hưng Yên,63,2011,130685.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hưng Yên,63,2012,136670.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hưng Yên,63,2013,141878.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hưng Yên,63,2014,138777.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hưng Yên,63,2015,134506.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hưng Yên,63,2016,143073.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hưng Yên,63,2017,144786.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hưng Yên,63,2018,140260.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hưng Yên,63,2019,152070.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hưng Yên,63,2020,137956.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hưng Yên,63,2021,134241.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hưng Yên,63,2022,139873.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hưng Yên,63,2023,147722.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hưng Yên,63,2024,145534.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hải Dương,63,2010,185666.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hải Dương,63,2011,181177.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hải Dương,63,2012,216939.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hải Dương,63,2013,191781.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hải Dương,63,2014,188971.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hải Dương,63,2015,190161.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hải Dương,63,2016,190459.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hải Dương,63,2017,195615.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hải Dương,63,2018,188483.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hải Dương,63,2019,190592.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hải Dương,63,2020,186753.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hải Dương,63,2021,181788.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hải Dương,63,2022,185737.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hải Dương,63,2023,176305.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hải Dương,63,2024,169631.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hải Phòng,63,2010,134875.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hải Phòng,63,2011,133778.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hải Phòng,63,2012,146153.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hải Phòng,63,2013,143175.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hải Phòng,63,2014,144393.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hải Phòng,63,2015,143077.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hải Phòng,63,2016,143372.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hải Phòng,63,2017,158778.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hải Phòng,63,2018,146192.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hải Phòng,63,2019,150937.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hải Phòng,63,2020,158460.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hải Phòng,63,2021,151103.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hải Phòng,63,2022,162464.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hải Phòng,63,2023,156825.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hải Phòng,63,2024,162612.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Hậu Giang,63,2010,62402.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Hậu Giang,63,2011,70544.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Hậu Giang,63,2012,71594.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Hậu Giang,63,2013,66783.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Hậu Giang,63,2014,73991.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Hậu Giang,63,2015,76298.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Hậu Giang,63,2016,78817.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Hậu Giang,63,2017,82632.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Hậu Giang,63,2018,81637.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Hậu Giang,63,2019,90766.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Hậu Giang,63,2020,79196.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Hậu Giang,63,2021,81920.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Hậu Giang,63,2022,94006.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Hậu Giang,63,2023,91668.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Hậu Giang,63,2024,95925.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Khánh Hòa,63,2010,96453.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Khánh Hòa,63,2011,99359.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Khánh Hòa,63,2012,96868.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Khánh Hòa,63,2013,88437.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Khánh Hòa,63,2014,89725.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Khánh Hòa,63,2015,97371.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Khánh Hòa,63,2016,109105.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Khánh Hòa,63,2017,107510.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Khánh Hòa,63,2018,108601.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Khánh Hòa,63,2019,109387.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Khánh Hòa,63,2020,98860.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Khánh Hòa,63,2021,87811.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Khánh Hòa,63,2022,93888.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Khánh Hòa,63,2023,89203.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Khánh Hòa,63,2024,89707.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Kiên Giang,63,2010,130312.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Kiên Giang,63,2011,137183.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Kiên Giang,63,2012,134230.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Kiên Giang,63,2013,128895.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Kiên Giang,63,2014,134546.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Kiên Giang,63,2015,138104.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Kiên Giang,63,2016,156324.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Kiên Giang,63,2017,176713.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Kiên Giang,63,2018,181154.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Kiên Giang,63,2019,196491.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Kiên Giang,63,2020,163513.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Kiên Giang,63,2021,161742.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Kiên Giang,63,2022,174294.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Kiên Giang,63,2023,168261.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Kiên Giang,63,2024,174888.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Kon Tum,63,2010,38578.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Kon Tum,63,2011,29926.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Kon Tum,63,2012,30850.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Kon Tum,63,2013,30152.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Kon Tum,63,2014,30917.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Kon Tum,63,2015,34027.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Kon Tum,63,2016,36487.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Kon Tum,63,2017,38508.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Kon Tum,63,2018,39298.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Kon Tum,63,2019,40281.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Kon Tum,63,2020,38759.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Kon Tum,63,2021,38773.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Kon Tum,63,2022,40053.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Kon Tum,63,2023,40860.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Kon Tum,63,2024,43563.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Lai Châu,63,2010,10966.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Lai Châu,63,2011,10471.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Lai Châu,63,2012,13304.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Lai Châu,63,2013,13390.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Lai Châu,63,2014,13523.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Lai Châu,63,2015,14166.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Lai Châu,63,2016,15251.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Lai Châu,63,2017,17603.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Lai Châu,63,2018,17675.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Lai Châu,63,2019,18244.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Lai Châu,63,2020,17347.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Lai Châu,63,2021,17460.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Lai Châu,63,2022,18905.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Lai Châu,63,2023,18483.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Lai Châu,63,2024,18761.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Long An,63,2010,119847.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Long An,63,2011,115394.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Long An,63,2012,112713.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Long An,63,2013,109964.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Long An,63,2014,109550.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Long An,63,2015,107619.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Long An,63,2016,110627.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Long An,63,2017,117591.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Long An,63,2018,124111.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Long An,63,2019,129513.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Long An,63,2020,120279.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Long An,63,2021,115887.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Long An,63,2022,131492.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Long An,63,2023,126289.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Long An,63,2024,129044.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Lào Cai,63,2010,26340.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Lào Cai,63,2011,26592.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Lào Cai,63,2012,29891.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Lào Cai,63,2013,29341.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Lào Cai,63,2014,30639.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Lào Cai,63,2015,32159.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Lào Cai,63,2016,34362.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Lào Cai,63,2017,39134.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Lào Cai,63,2018,38656.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Lào Cai,63,2019,40264.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Lào Cai,63,2020,41077.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Lào Cai,63,2021,41593.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Lào Cai,63,2022,45802.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Lào Cai,63,2023,44213.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Lào Cai,63,2024,45188.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Lâm Đồng,63,2010,87585.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Lâm Đồng,63,2011,92194.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Lâm Đồng,63,2012,96417.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Lâm Đồng,63,2013,96329.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Lâm Đồng,63,2014,98938.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Lâm Đồng,63,2015,98128.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Lâm Đồng,63,2016,105564.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Lâm Đồng,63,2017,107849.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Lâm Đồng,63,2018,107666.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Lâm Đồng,63,2019,122568.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Lâm Đồng,63,2020,108813.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Lâm Đồng,63,2021,112596.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Lâm Đồng,63,2022,124747.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Lâm Đồng,63,2023,125528.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Lâm Đồng,63,2024,130552.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Lạng Sơn,63,2010,39685.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Lạng Sơn,63,2011,39997.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Lạng Sơn,63,2012,44547.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Lạng Sơn,63,2013,42267.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Lạng Sơn,63,2014,43355.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Lạng Sơn,63,2015,43742.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Lạng Sơn,63,2016,43510.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Lạng Sơn,63,2017,47414.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Lạng Sơn,63,2018,43864.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Lạng Sơn,63,2019,46053.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Lạng Sơn,63,2020,45223.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Lạng Sơn,63,2021,47098.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Lạng Sơn,63,2022,46620.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Lạng Sơn,63,2023,46851.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Lạng Sơn,63,2024,45493.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Nam Định,63,2010,162569.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Nam Định,63,2011,169597.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Nam Định,63,2012,185154.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Nam Định,63,2013,177317.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Nam Định,63,2014,183292.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Nam Định,63,2015,192618.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Nam Định,63,2016,198754.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Nam Định,63,2017,198756.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Nam Định,63,2018,204973.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Nam Định,63,2019,203401.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Nam Định,63,2020,205441.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Nam Định,63,2021,213932.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Nam Định,63,2022,213189.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Nam Định,63,2023,212427.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Nam Định,63,2024,213218.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Nghệ An,63,2010,207981.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Nghệ An,63,2011,260777.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Nghệ An,63,2012,227154.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Nghệ An,63,2013,230704.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Nghệ An,63,2014,232163.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Nghệ An,63,2015,240243.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Nghệ An,63,2016,244573.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Nghệ An,63,2017,259175.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Nghệ An,63,2018,254050.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Nghệ An,63,2019,257055.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Nghệ An,63,2020,255235.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Nghệ An,63,2021,251551.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Nghệ An,63,2022,254864.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Nghệ An,63,2023,240186.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Nghệ An,63,2024,231932.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Ninh Bình,63,2010,142002.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Ninh Bình,63,2011,138684.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Ninh Bình,63,2012,146821.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Ninh Bình,63,2013,141935.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Ninh Bình,63,2014,147153.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Ninh Bình,63,2015,151934.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Ninh Bình,63,2016,151759.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Ninh Bình,63,2017,163529.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Ninh Bình,63,2018,163044.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Ninh Bình,63,2019,165851.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Ninh Bình,63,2020,149684.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Ninh Bình,63,2021,148580.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Ninh Bình,63,2022,156032.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Ninh Bình,63,2023,157461.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Ninh Bình,63,2024,163452.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Ninh Thuận,63,2010,54556.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Ninh Thuận,63,2011,57909.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Ninh Thuận,63,2012,54379.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Ninh Thuận,63,2013,53300.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Ninh Thuận,63,2014,56442.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Ninh Thuận,63,2015,52808.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Ninh Thuận,63,2016,53952.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Ninh Thuận,63,2017,54793.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Ninh Thuận,63,2018,56186.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Ninh Thuận,63,2019,61152.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Ninh Thuận,63,2020,59743.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Ninh Thuận,63,2021,61286.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Ninh Thuận,63,2022,59588.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Ninh Thuận,63,2023,59080.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Ninh Thuận,63,2024,60549.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Phú Thọ,63,2010,106910.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Phú Thọ,63,2011,105580.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Phú Thọ,63,2012,116417.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Phú Thọ,63,2013,105180.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Phú Thọ,63,2014,104220.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Phú Thọ,63,2015,108813.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Phú Thọ,63,2016,112404.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Phú Thọ,63,2017,113710.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Phú Thọ,63,2018,111112.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Phú Thọ,63,2019,114028.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Phú Thọ,63,2020,105081.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Phú Thọ,63,2021,106778.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Phú Thọ,63,2022,107929.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Phú Thọ,63,2023,101707.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Phú Thọ,63,2024,101062.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Phú Yên,63,2010,67810.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Phú Yên,63,2011,72428.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Phú Yên,63,2012,77645.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Phú Yên,63,2013,78021.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Phú Yên,63,2014,82682.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Phú Yên,63,2015,84509.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Phú Yên,63,2016,84766.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Phú Yên,63,2017,89862.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Phú Yên,63,2018,89898.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Phú Yên,63,2019,94995.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Phú Yên,63,2020,94396.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Phú Yên,63,2021,95118.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Phú Yên,63,2022,97296.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Phú Yên,63,2023,100277.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Phú Yên,63,2024,100625.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Quảng Bình,63,2010,86473.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Quảng Bình,63,2011,91125.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Quảng Bình,63,2012,95397.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Quảng Bình,63,2013,100223.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Quảng Bình,63,2014,102577.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Quảng Bình,63,2015,104114.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Quảng Bình,63,2016,106277.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Quảng Bình,63,2017,111742.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Quảng Bình,63,2018,114100.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Quảng Bình,63,2019,119144.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Quảng Bình,63,2020,113430.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Quảng Bình,63,2021,115569.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Quảng Bình,63,2022,120930.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Quảng Bình,63,2023,114436.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Quảng Bình,63,2024,117372.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Quảng Nam,63,2010,95190.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Quảng Nam,63,2011,98060.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Quảng Nam,63,2012,114563.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Quảng Nam,63,2013,110524.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Quảng Nam,63,2014,115745.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Quảng Nam,63,2015,124935.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Quảng Nam,63,2016,130588.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Quảng Nam,63,2017,140746.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Quảng Nam,63,2018,144441.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Quảng Nam,63,2019,146436.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Quảng Nam,63,2020,146102.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Quảng Nam,63,2021,145474.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Quảng Nam,63,2022,146639.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Quảng Nam,63,2023,143262.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Quảng Nam,63,2024,143630.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Quảng Ngãi,63,2010,100060.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Quảng Ngãi,63,2011,102134.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Quảng Ngãi,63,2012,105174.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Quảng Ngãi,63,2013,108296.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Quảng Ngãi,63,2014,110104.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Quảng Ngãi,63,2015,110878.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Quảng Ngãi,63,2016,114959.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Quảng Ngãi,63,2017,123229.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Quảng Ngãi,63,2018,122926.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Quảng Ngãi,63,2019,128465.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Quảng Ngãi,63,2020,124997.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Quảng Ngãi,63,2021,122902.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Quảng Ngãi,63,2022,125700.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Quảng Ngãi,63,2023,125771.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Quảng Ngãi,63,2024,126909.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Quảng Ninh,63,2010,115938.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Quảng Ninh,63,2011,89751.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Quảng Ninh,63,2012,106706.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Quảng Ninh,63,2013,102614.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Quảng Ninh,63,2014,104399.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Quảng Ninh,63,2015,99782.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Quảng Ninh,63,2016,100809.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Quảng Ninh,63,2017,118933.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Quảng Ninh,63,2018,118612.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Quảng Ninh,63,2019,132779.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Quảng Ninh,63,2020,111106.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Quảng Ninh,63,2021,107436.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Quảng Ninh,63,2022,110907.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Quảng Ninh,63,2023,102778.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Quảng Ninh,63,2024,106412.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Quảng Trị,63,2010,47751.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Quảng Trị,63,2011,50063.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Quảng Trị,63,2012,53707.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Quảng Trị,63,2013,55261.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Quảng Trị,63,2014,57424.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Quảng Trị,63,2015,61302.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Quảng Trị,63,2016,64207.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Quảng Trị,63,2017,67491.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Quảng Trị,63,2018,68541.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Quảng Trị,63,2019,72754.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Quảng Trị,63,2020,69579.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Quảng Trị,63,2021,72546.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Quảng Trị,63,2022,73566.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Quảng Trị,63,2023,69474.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Quảng Trị,63,2024,71020.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Sóc Trăng,63,2010,123342.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Sóc Trăng,63,2011,114456.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Sóc Trăng,63,2012,118496.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Sóc Trăng,63,2013,112655.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Sóc Trăng,63,2014,115207.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Sóc Trăng,63,2015,107311.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Sóc Trăng,63,2016,113570.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Sóc Trăng,63,2017,104978.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Sóc Trăng,63,2018,98631.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Sóc Trăng,63,2019,106433.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Sóc Trăng,63,2020,101025.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Sóc Trăng,63,2021,101678.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Sóc Trăng,63,2022,109061.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Sóc Trăng,63,2023,104443.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Sóc Trăng,63,2024,113205.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Sơn La,63,2010,34826.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Sơn La,63,2011,37050.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Sơn La,63,2012,40619.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Sơn La,63,2013,41878.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Sơn La,63,2014,41802.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Sơn La,63,2015,42782.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Sơn La,63,2016,44528.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Sơn La,63,2017,47702.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Sơn La,63,2018,47737.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Sơn La,63,2019,52002.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Sơn La,63,2020,45698.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Sơn La,63,2021,48449.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Sơn La,63,2022,50242.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Sơn La,63,2023,51356.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Sơn La,63,2024,48506.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+TP. Hồ Chí Minh,63,2010,732081.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+TP. Hồ Chí Minh,63,2011,691673.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+TP. Hồ Chí Minh,63,2012,728015.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+TP. Hồ Chí Minh,63,2013,735129.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+TP. Hồ Chí Minh,63,2014,723534.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+TP. Hồ Chí Minh,63,2015,760819.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+TP. Hồ Chí Minh,63,2016,787343.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+TP. Hồ Chí Minh,63,2017,810433.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+TP. Hồ Chí Minh,63,2018,829877.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 TP. Hồ Chí Minh,63,2019,843321.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 TP. Hồ Chí Minh,63,2020,807227.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 TP. Hồ Chí Minh,63,2021,707674.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 TP. Hồ Chí Minh,63,2022,837513.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 TP. Hồ Chí Minh,63,2023,847891.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 TP. Hồ Chí Minh,63,2024,891454.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Thanh Hóa,63,2010,268982.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Thanh Hóa,63,2011,268178.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Thanh Hóa,63,2012,288427.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Thanh Hóa,63,2013,276489.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Thanh Hóa,63,2014,281081.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Thanh Hóa,63,2015,282952.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Thanh Hóa,63,2016,292305.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Thanh Hóa,63,2017,325114.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Thanh Hóa,63,2018,322089.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Thanh Hóa,63,2019,330857.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Thanh Hóa,63,2020,316357.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Thanh Hóa,63,2021,312127.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Thanh Hóa,63,2022,292911.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Thanh Hóa,63,2023,288305.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Thanh Hóa,63,2024,279276.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Thái Bình,63,2010,248869.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Thái Bình,63,2011,257603.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Thái Bình,63,2012,253032.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Thái Bình,63,2013,213754.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Thái Bình,63,2014,223120.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Thái Bình,63,2015,201341.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Thái Bình,63,2016,216902.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Thái Bình,63,2017,236529.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Thái Bình,63,2018,219986.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Thái Bình,63,2019,221124.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Thái Bình,63,2020,198018.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Thái Bình,63,2021,204109.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Thái Bình,63,2022,207035.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Thái Bình,63,2023,205961.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Thái Bình,63,2024,207263.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Thái Nguyên,63,2010,76841.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Thái Nguyên,63,2011,87528.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Thái Nguyên,63,2012,92149.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Thái Nguyên,63,2013,85936.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Thái Nguyên,63,2014,97069.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Thái Nguyên,63,2015,96468.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Thái Nguyên,63,2016,101037.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Thái Nguyên,63,2017,109193.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Thái Nguyên,63,2018,107401.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Thái Nguyên,63,2019,115440.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Thái Nguyên,63,2020,100492.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Thái Nguyên,63,2021,102243.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Thái Nguyên,63,2022,104206.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Thái Nguyên,63,2023,101047.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Thái Nguyên,63,2024,97510.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Thừa Thiên Huế,63,2010,91814.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Thừa Thiên Huế,63,2011,87040.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Thừa Thiên Huế,63,2012,99250.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Thừa Thiên Huế,63,2013,104238.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Thừa Thiên Huế,63,2014,110825.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Thừa Thiên Huế,63,2015,105027.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Thừa Thiên Huế,63,2016,107818.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Thừa Thiên Huế,63,2017,120037.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Thừa Thiên Huế,63,2018,120295.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Thừa Thiên Huế,63,2019,127079.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Thừa Thiên Huế,63,2020,114528.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Thừa Thiên Huế,63,2021,114135.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Thừa Thiên Huế,63,2022,111985.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Thừa Thiên Huế,63,2023,113139.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Thừa Thiên Huế,63,2024,113220.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Tiền Giang,63,2010,112062.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Tiền Giang,63,2011,116336.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Tiền Giang,63,2012,132054.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Tiền Giang,63,2013,126246.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Tiền Giang,63,2014,127048.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Tiền Giang,63,2015,133110.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Tiền Giang,63,2016,138226.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Tiền Giang,63,2017,147082.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Tiền Giang,63,2018,138416.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Tiền Giang,63,2019,152411.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Tiền Giang,63,2020,144479.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Tiền Giang,63,2021,147729.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Tiền Giang,63,2022,202465.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Tiền Giang,63,2023,201633.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Tiền Giang,63,2024,200449.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Trà Vinh,63,2010,103346.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Trà Vinh,63,2011,94509.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Trà Vinh,63,2012,105464.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Trà Vinh,63,2013,99289.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Trà Vinh,63,2014,101899.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Trà Vinh,63,2015,105292.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Trà Vinh,63,2016,108164.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Trà Vinh,63,2017,110802.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Trà Vinh,63,2018,113087.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Trà Vinh,63,2019,117614.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Trà Vinh,63,2020,114409.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Trà Vinh,63,2021,114458.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Trà Vinh,63,2022,126361.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Trà Vinh,63,2023,134284.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Trà Vinh,63,2024,128732.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Tuyên Quang,63,2010,35576.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Tuyên Quang,63,2011,37146.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Tuyên Quang,63,2012,43789.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Tuyên Quang,63,2013,43411.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Tuyên Quang,63,2014,41992.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Tuyên Quang,63,2015,45324.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Tuyên Quang,63,2016,43769.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Tuyên Quang,63,2017,53760.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Tuyên Quang,63,2018,51533.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Tuyên Quang,63,2019,51272.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Tuyên Quang,63,2020,45704.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Tuyên Quang,63,2021,48305.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Tuyên Quang,63,2022,51376.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Tuyên Quang,63,2023,55301.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Tuyên Quang,63,2024,54390.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Tây Ninh,63,2010,106392.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Tây Ninh,63,2011,109438.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Tây Ninh,63,2012,106048.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Tây Ninh,63,2013,104103.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Tây Ninh,63,2014,113734.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Tây Ninh,63,2015,114556.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Tây Ninh,63,2016,119954.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Tây Ninh,63,2017,120412.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Tây Ninh,63,2018,127782.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Tây Ninh,63,2019,138893.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Tây Ninh,63,2020,123407.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Tây Ninh,63,2021,123274.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Tây Ninh,63,2022,128816.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Tây Ninh,63,2023,127617.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Tây Ninh,63,2024,123653.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Vĩnh Long,63,2010,122286.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Vĩnh Long,63,2011,129569.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Vĩnh Long,63,2012,120766.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Vĩnh Long,63,2013,123702.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Vĩnh Long,63,2014,119971.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Vĩnh Long,63,2015,115976.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Vĩnh Long,63,2016,121272.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Vĩnh Long,63,2017,117981.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Vĩnh Long,63,2018,125454.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Vĩnh Long,63,2019,119631.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Vĩnh Long,63,2020,121153.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Vĩnh Long,63,2021,123895.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Vĩnh Long,63,2022,134970.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Vĩnh Long,63,2023,132037.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Vĩnh Long,63,2024,135765.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Vĩnh Phúc,63,2010,98695.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Vĩnh Phúc,63,2011,109341.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Vĩnh Phúc,63,2012,114449.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Vĩnh Phúc,63,2013,96023.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Vĩnh Phúc,63,2014,101488.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Vĩnh Phúc,63,2015,111812.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Vĩnh Phúc,63,2016,108125.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Vĩnh Phúc,63,2017,119186.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Vĩnh Phúc,63,2018,116524.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Vĩnh Phúc,63,2019,128074.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Vĩnh Phúc,63,2020,120684.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Vĩnh Phúc,63,2021,116760.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Vĩnh Phúc,63,2022,117208.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Vĩnh Phúc,63,2023,119937.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Vĩnh Phúc,63,2024,118686.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Yên Bái,63,2010,39063.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Yên Bái,63,2011,40062.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Yên Bái,63,2012,44326.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Yên Bái,63,2013,45099.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Yên Bái,63,2014,46620.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Yên Bái,63,2015,44003.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Yên Bái,63,2016,42748.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Yên Bái,63,2017,49050.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Yên Bái,63,2018,49255.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Yên Bái,63,2019,51854.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Yên Bái,63,2020,51459.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Yên Bái,63,2021,54294.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Yên Bái,63,2022,52806.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Yên Bái,63,2023,50736.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Yên Bái,63,2024,48107.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Điện Biên,63,2010,16067.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Điện Biên,63,2011,17357.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Điện Biên,63,2012,20507.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Điện Biên,63,2013,20734.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Điện Biên,63,2014,21900.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Điện Biên,63,2015,22337.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Điện Biên,63,2016,23317.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Điện Biên,63,2017,26059.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Điện Biên,63,2018,24480.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Điện Biên,63,2019,24960.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Điện Biên,63,2020,25524.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Điện Biên,63,2021,28074.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Điện Biên,63,2022,28710.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Điện Biên,63,2023,28105.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Điện Biên,63,2024,27265.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Đà Nẵng,63,2010,86042.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Đà Nẵng,63,2011,93578.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Đà Nẵng,63,2012,96512.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Đà Nẵng,63,2013,97325.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Đà Nẵng,63,2014,99715.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Đà Nẵng,63,2015,100168.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Đà Nẵng,63,2016,110838.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Đà Nẵng,63,2017,109464.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Đà Nẵng,63,2018,114905.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Đà Nẵng,63,2019,120764.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Đà Nẵng,63,2020,122506.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Đà Nẵng,63,2021,117261.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Đà Nẵng,63,2022,128740.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Đà Nẵng,63,2023,121062.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Đà Nẵng,63,2024,132265.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Đắk Lắk,63,2010,90486.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Đắk Lắk,63,2011,94673.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Đắk Lắk,63,2012,104428.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Đắk Lắk,63,2013,105989.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Đắk Lắk,63,2014,105797.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Đắk Lắk,63,2015,104778.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Đắk Lắk,63,2016,108944.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Đắk Lắk,63,2017,114997.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Đắk Lắk,63,2018,112371.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Đắk Lắk,63,2019,122085.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Đắk Lắk,63,2020,115828.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Đắk Lắk,63,2021,116469.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Đắk Lắk,63,2022,127461.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Đắk Lắk,63,2023,129601.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Đắk Lắk,63,2024,135257.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Đắk Nông,63,2010,23723.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Đắk Nông,63,2011,25772.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Đắk Nông,63,2012,30047.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Đắk Nông,63,2013,30137.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Đắk Nông,63,2014,31670.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Đắk Nông,63,2015,32234.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Đắk Nông,63,2016,34315.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Đắk Nông,63,2017,38018.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Đắk Nông,63,2018,38824.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Đắk Nông,63,2019,40670.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Đắk Nông,63,2020,38972.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Đắk Nông,63,2021,39800.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Đắk Nông,63,2022,42628.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Đắk Nông,63,2023,40493.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Đắk Nông,63,2024,44218.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Đồng Nai,63,2010,193253.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Đồng Nai,63,2011,196903.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Đồng Nai,63,2012,206659.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Đồng Nai,63,2013,214558.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Đồng Nai,63,2014,223706.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Đồng Nai,63,2015,229177.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Đồng Nai,63,2016,232775.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Đồng Nai,63,2017,247706.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Đồng Nai,63,2018,256157.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Đồng Nai,63,2019,268647.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Đồng Nai,63,2020,256513.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Đồng Nai,63,2021,257200.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final
 Đồng Nai,63,2022,287939.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2022)",final
 Đồng Nai,63,2023,281283.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2023)",final
 Đồng Nai,63,2024,295913.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2024)",final
+Đồng Tháp,63,2010,181348.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2018.pdf (Statistical Yearbook 2018, table p.467-468)",final
+Đồng Tháp,63,2011,183667.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2014-pdf.pdf (Statistical Yearbook 2014, table p.379-380)",final
+Đồng Tháp,63,2012,180279.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.410-411)",final
+Đồng Tháp,63,2013,183167.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.418-419)",final
+Đồng Tháp,63,2014,186527.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.434-435)",final
+Đồng Tháp,63,2015,179281.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2015)",final
+Đồng Tháp,63,2016,186802.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2016)",final
+Đồng Tháp,63,2017,189967.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2017)",final
+Đồng Tháp,63,2018,192564.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2018)",final
 Đồng Tháp,63,2019,195084.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
 Đồng Tháp,63,2020,183660.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2020)",final
 Đồng Tháp,63,2021,186279.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2021)",final

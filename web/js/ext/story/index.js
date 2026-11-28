@@ -10,18 +10,40 @@ import { t } from "../../i18n.js";
 import { esc, viOrder } from "../../format.js";
 import { stateIndex } from "../../world.js";
 import { formatLensValue } from "../../ui/lenses.js";
-import { buildChapters } from "./chapters.js";
+import { buildChapters, fmtDate } from "./chapters.js";
+import { evTitle } from "./more.js";
 import { createSplit } from "./split.js";
 import { pairRows } from "./pair.js";
 
 const MODE = "story";
+const THEMES = [["history", "History and heritage"], ["growth", "Economy and cities"], ["nature", "Nature and hazards"], ["people", "People"]];
 const HL = "#f2d27a";
 
 export async function install(app) {
   const [T, history, merger, disasters, sealevel] = await Promise.all(["timeline", "history", "merger", "disasters", "sealevel"].map((n) => app.loadData(n)));
   const D = app.data;
-  const chapters = buildChapters({ T, N: D.nation, states: D.states, raw: app.w.raw, grid: app.w.grid, lenses: D.lenses, cities: D.cities, history, merger, disasters, sealevel });
-  const byId = new Map(chapters.map((c) => [c.id, c]));
+  // Files only some chapters need load when one of them opens (NEEDS); the chapters are rebuilt then.
+  const extra = {};
+  const NEEDS = { expressway: { roads: "living_roads" }, hcmc: { built: "living_built" }, bacninh: { geo: "geo" }, forest: { forest: "forest_loss" },
+    highlands: { ethnic: "ethnic" }, rice: { living: "living" }, unesco: { wonders: "wonders" }, thanglong: { wonders: "wonders" }, sea: { places: "places" },
+    // "lens:<id>": a lens's per-hex values (they load on demand; chapters.js reads them from D.lenses)
+    mekong: { lensLow: "lens:low_lying" }, ageing: { lensAgeing: "lens:ageing_index" }, floods: { lensDD: "lens:disaster_deaths" } };
+  const ready = (id) => Object.keys(NEEDS[id] || {}).every((k) => extra[k] !== undefined);
+  let chapters = [], byId = new Map();
+  const rebuild = () => {
+    const all = buildChapters({ T, N: D.nation, states: D.states, raw: app.w.raw, grid: app.w.grid, lenses: D.lenses, cities: D.cities, history, merger,
+      disasters, sealevel, sources: D.sources, ...extra }, { keepShort: true });
+    chapters = all.filter((c) => c.steps.length >= 4 || !ready(c.id));
+    byId = new Map(chapters.map((c) => [c.id, c]));
+  };
+  rebuild();
+  async function ensure(id) {
+    const want = Object.entries(NEEDS[id] || {}).filter(([k]) => extra[k] === undefined);
+    if (!want.length) return;
+    const got = await Promise.all(want.map(([, f]) => (f.startsWith("lens:") ? Promise.resolve(app.lensValues?.(f.slice(5))) : app.loadData(f)).catch(() => null)));
+    want.forEach(([k], j) => { extra[k] = got[j]; });
+    rebuild();
+  }
   const states = D.states || [];
   const sorted = [...states].sort((a, b) => viOrder(a.name, b.name));
   const nso = (D.sources || []).find((s) => s.id === "nso_yearbook");
@@ -39,8 +61,7 @@ export async function install(app) {
   pick.innerHTML = `<div class="panel story-pick" role="dialog" aria-modal="true" aria-labelledby="story-pick-h">
     <div class="story-head"><h2 id="story-pick-h">${esc(t("Stories"))}</h2>
       <button type="button" class="icon-btn story-x" aria-label="${esc(t("Close"))}" title="${esc(t("Close (Esc)"))}">✕</button></div>
-    <ul class="story-list">${chapters.map((c) => `<li><button type="button" class="story-ch" data-ch="${esc(c.id)}"><b>${esc(c.title)}</b>
-      <span>${esc(c.blurb)} · ${esc(t("{n} steps", { n: c.steps.length }))}</span></button></li>`).join("")}</ul>
+    <div class="story-themes"></div>
     <h3>${esc(t("Compare"))}</h3>
     <ul class="story-list"><li><button type="button" class="story-ch" data-go="split"><b>${esc(t("Split screen"))}</b><span>${esc(t("Two lenses or two years side by side, with a divider"))}</span></button></li>
       <li><button type="button" class="story-ch" data-go="pair"><b>${esc(t("Two provinces"))}</b><span>${esc(t("Key figures of two provinces side by side"))}</span></button></li></ul>
@@ -48,8 +69,17 @@ export async function install(app) {
   document.body.appendChild(pick);
   const pickBox = pick.querySelector(".story-pick");
   const focusables = (root) => [...root.querySelectorAll("button, select, input, a[href], [tabindex]:not([tabindex='-1'])")].filter((e) => !e.disabled && e.getClientRects().length);
+  // chapters grouped by theme (rebuilt on each open: a chapter's step count is known once its data has loaded)
+  const themesHtml = () => THEMES.map(([id, name]) => {
+    const cs = chapters.filter((c) => c.theme === id);
+    return cs.length ? `<h3>${esc(t(name))}</h3><ul class="story-list story-grid">${cs.map((c) => `<li><button type="button" class="story-ch" data-ch="${esc(c.id)}"><b>${esc(c.title)}</b>
+      <span>${esc(c.blurb)}${ready(c.id) ? ` · ${esc(t("{n} steps", { n: c.steps.length }))}` : ""}</span></button></li>`).join("")}</ul>` : "";
+  }).join("");
+  // explore's fly-along journeys (ext/explore: app.explore.journeys, app.explore.fly) listed with the chapters
+  const flyHtml = () => (app.explore?.journeys?.length ? `<h3>${esc(t("Fly-along journeys"))}</h3><ul class="story-list story-grid">${app.explore.journeys.map((j) => `<li><button type="button" class="story-ch" data-fly="${esc(j.id)}"><b>${esc(`${j.icon} ${j.title}`)}</b><span>${esc(j.sub)}</span></button></li>`).join("")}</ul>` : "");
   function openPicker() {
     if (!pick.hidden) return;
+    pickBox.querySelector(".story-themes").innerHTML = themesHtml() + flyHtml();
     opener = document.activeElement;
     pick.hidden = false;
     pickBox.querySelector(".story-ch")?.focus();
@@ -64,6 +94,7 @@ export async function install(app) {
     const b = e.target.closest(".story-ch");
     if (!b) return;
     closePicker(false);
+    if (b.dataset.fly) return app.explore?.fly(b.dataset.fly);
     if (b.dataset.ch) open({ kind: "chapter", ch: b.dataset.ch, i: 0 });
     else if (b.dataset.go === "split") open(defaultSplit());
     else open({ kind: "pair", ...defaultPair() });
@@ -91,6 +122,7 @@ export async function install(app) {
     const s = saved;
     saved = null;
     if (!s) return;
+    if (monthSet) { document.querySelector(".lv-card .lv-now")?.click(); monthSet = false; }
     for (const [id, v] of s.layers) app.ui.setMapToggle?.(id, v);
     app.setLens(s.lens);
     app.timeline?.setYear(s.year);
@@ -98,6 +130,7 @@ export async function install(app) {
   }
   /** v = {kind, ...}; fromHash: a link / Back / Forward (no push, no replay of a merger it did not cross). */
   function open(v, { fromHash = false } = {}) {
+    if (v.kind === "chapter" && !ready(v.ch)) return void ensure(v.ch).then(() => { if (ready(v.ch)) open(v, { fromHash }); });
     if (v.kind === "chapter" && !byId.has(v.ch)) return;
     if (!fromHash && !saved && v.kind === "chapter") remember();
     if (app.mode !== MODE) {
@@ -189,6 +222,25 @@ export async function install(app) {
     else if (s.cam?.x == null) app.home(900);
     else app.flyTo(s.cam.x, s.cam.y, (app.cam.fitScale || app.cam.scale) * 2 ** s.cam.z, 900);
     if (s.replay === "storm" && s.storm >= 0) replayStorm(s.storm, s.year);
+    if (s.replay === "growth" || s.replay === "forest") clickWhenThere(s.replay === "growth" ? ".lv-card .lv-play" : "#turn .tl-fplay:not([hidden])");
+    if (s.month) setMonth(s.month);
+  }
+  // ext/living's month (the Rice seasons card's ‹ › buttons, there once living.json has loaded); put back on close
+  let monthSet = false;
+  function setMonth(m, n = 40) {
+    const L = app.living, btn = (c) => document.querySelector(`.lv-card:not([hidden]) .${c}`);
+    // the card shows once the layer is switched on by hand (not while it is merely on by default): switch it on again
+    if (L?.seasons && !btn("lv-next")) { app.ui.setMapToggle?.("seasons", false); app.ui.setMapToggle?.("seasons", true); }
+    if (!L?.seasons || !btn("lv-next")) { if (n > 0) setTimeout(() => setMonth(m, n - 1), 150); return; }
+    // each click re-renders the card: query the button again every time
+    for (let k = 0; k < 12 && L.month() !== m; k++) btn((m - L.month() + 12) % 12 <= 6 ? "lv-next" : "lv-prev")?.click();
+    monthSet = true;
+  }
+  // ext/living's growth ▶ and ext/timeline's forest ▶ (their own buttons, shown once their data has loaded): a few tries
+  function clickWhenThere(sel, n = 20) {
+    const b = document.querySelector(sel);
+    if (b && !/Stop|Dừng/.test(b.textContent)) return void b.click();
+    if (!b && n > 0) setTimeout(() => clickWhenThere(sel, n - 1), 150);
   }
   // ext/timeline's storm replay: its API if the timeline exposes it, else the ▶ of the storms card it shows for a
   // typhoon-lens year (the same handler).
@@ -208,6 +260,7 @@ export async function install(app) {
       <div class="story-prog" aria-hidden="true"><i style="width:${((100 * (i + 1)) / n).toFixed(1)}%"></i></div>
       <div class="story-body" aria-live="polite" aria-atomic="true"><h3 class="story-title" tabindex="-1">${esc(s.title)}</h3>
         <ul class="story-facts">${s.facts.map((f) => `<li>${esc(f)}</li>`).join("")}</ul></div>
+      ${relatedHtml(ch)}
       <p class="story-cite">${esc(t("Source"))}: ${s.cite.map((c) => `<a href="${esc(c.url)}" target="_blank" rel="noopener noreferrer">${esc(c.label)}</a>`).join(" · ")}</p>
       <div class="story-ctl"><button type="button" class="btn" data-act="prev" ${i === 0 ? "disabled" : ""} aria-label="${esc(t("Previous step (←)"))}">‹ ${esc(t("Back"))}</button>
         ${i < n - 1 ? `<button type="button" class="btn story-next" data-act="next" aria-label="${esc(t("Next step (→)"))}">${esc(t("Next"))} ›</button>`
@@ -216,6 +269,15 @@ export async function install(app) {
     const target = had && r.querySelector(`[data-act="${had}"]:not(:disabled)`);
     if (target) target.focus();
     else if (had || !keepFocus) (r.querySelector(".story-next") || r.querySelector(".story-title")).focus({ preventScroll: true });
+  }
+
+  // the History events that belong to the chapter (history.json `story`), on the last step
+  function relatedHtml(ch) {
+    if (view.i !== ch.steps.length - 1) return "";
+    const evs = (history?.events || []).filter((e) => (e.story || []).includes(ch.id));
+    if (!evs.length) return "";
+    return `<details class="story-rel"><summary>${esc(t("Related events ({n})", { n: evs.length }))}</summary><ul>${evs.map((e) => `<li>
+      <span class="story-yr">${esc(fmtDate(e.date))}</span> ${e.x != null ? `<button type="button" class="tl-link story-ev" data-act="ev" data-x="${e.x}" data-y="${e.y}">${esc(evTitle(e))}</button>` : esc(evTitle(e))}</li>`).join("")}</ul></details>`;
   }
 
   function lensOptions(sel) {
@@ -276,9 +338,13 @@ export async function install(app) {
 
   function defaultSplit() {
     const L = app.state.lens?.id || "poverty";
-    const sv = T?.series && Object.values(T.series).some((s) => s.lens === L);
+    const ser = T?.series && Object.values(T.series).find((s) => s.lens === L);
+    // the lens's own first year with values (a series can start after the timeline does, e.g. poverty from 2016)
+    let y0 = null;
+    for (const lv of Object.values(ser?.lens_values || {})) for (const byYear of Object.values(lv || {}))
+      for (const k of Object.keys(byYear || {})) if (y0 == null || +k < y0) y0 = +k;
     const y = app.timeline?.year ?? null;
-    return { kind: "split", left: { lens: L, year: y }, right: { lens: L, year: sv ? (y === T.years[0] ? null : T.years[0]) : null } };
+    return { kind: "split", left: { lens: L, year: y }, right: { lens: L, year: y0 != null ? (y === y0 ? null : y0) : null } };
   }
   function defaultPair() {
     const s = app.state.selectedState != null ? states[stateIndex(app.w, app.state.selectedState)]?.abbr : null;
@@ -300,6 +366,7 @@ export async function install(app) {
       open({ kind: "split", left: R, right: L });
       r.querySelector('[data-act="swap"]')?.focus();
     } else if (act === "divider") split.knob.focus();
+    else if (act === "ev") app.flyTo(+b.dataset.x, +b.dataset.y, Math.max(app.cam.scale, (app.cam.fitScale || app.cam.scale) * 4), 900);
     else if (act === "pswap") { open({ kind: "pair", a: view.b, b: view.a }); root()?.querySelector('[data-act="pswap"]')?.focus(); }
   });
   document.addEventListener("change", (e) => {
@@ -384,14 +451,14 @@ export async function install(app) {
   app.hash.register("pp", { get: () => (view?.kind === "pair" ? `${view.a},${view.b}` : null), set() {} });
 
   injectStyle();
-  app.story = { chapters, open, close, openPicker, get view() { return view; }, split };
+  app.story = { get chapters() { return chapters; }, open, close, openPicker, get view() { return view; }, split };
 }
 
 function injectStyle() {
   const css = `
 .story-pick-bg { position: fixed; inset: 0; z-index: 40; background: rgba(4,8,14,.55); display: grid; place-items: center; padding: 16px; }
 .story-pick-bg[hidden] { display: none; }
-.story-pick { width: min(460px, 100%); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow: auto; padding: 12px 14px; box-sizing: border-box; color: var(--ink); font-size: 13px; }
+.story-pick { width: min(680px, 100%); max-height: calc(100vh - 32px); max-height: calc(100dvh - 32px); overflow: auto; padding: 12px 14px; box-sizing: border-box; color: var(--ink); font-size: 13px; }
 .story-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
 .story-head h2, .story-pick h2 { margin: 0; font: 600 18px var(--serif); color: var(--gold-bright); }
 .story-pick h3 { margin: 12px 0 6px; font: 600 14px var(--serif); color: var(--gold-bright); }
@@ -401,6 +468,11 @@ function injectStyle() {
 .story-ch b { font: 600 14px var(--serif); color: var(--gold-bright); }
 .story-ch span { color: var(--ink-dim); font-size: 12px; }
 .story-ch:hover, .story-ch:focus-visible { background: rgba(201,164,92,.16); outline: 2px solid var(--gold-bright); outline-offset: 1px; }
+.story-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.story-rel { margin: 8px 0 0; font-size: 12px; }
+.story-rel summary { cursor: pointer; color: var(--gold-bright); }
+.story-rel ul { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 3px; max-height: 180px; overflow: auto; }
+.story-rel .tl-link { background: none; border: 0; padding: 0; color: var(--ink); text-align: left; cursor: pointer; font: inherit; text-decoration: underline dotted; }
 .story-foot { margin: 10px 0 0; color: var(--ink-dim); font-size: 11px; }
 .story-dock .story-root { padding: 10px 14px 14px; font-size: 13px; color: var(--ink); }
 .story-kick { color: var(--ink-dim); font-size: 11px; letter-spacing: .04em; text-transform: uppercase; }

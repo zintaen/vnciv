@@ -1,0 +1,277 @@
+[
+ {
+  "id": "can_vuong_1885",
+  "date": "1885",
+  "category": "modern",
+  "title_en": "The Cần Vương movement",
+  "title_vi": "Phong trào Cần Vương",
+  "text_en": "After the court fled Huế, the regent Tôn Thất Thuyết had the young king Hàm Nghi issue an edict calling on the people to “aid the king”, starting an insurgency against French rule that lasted from 1885 to 1896.",
+  "text_vi": "Sau khi triều đình rời Huế, phụ chính Tôn Thất Thuyết giúp vua Hàm Nghi ra chiếu kêu gọi “cần vương”, mở đầu cuộc khởi nghĩa chống Pháp kéo dài từ 1885 đến 1896.",
+  "raw_file": "can_vuong.json",
+  "evidence": "'Aid the King') movement was a large-scale Vietnamese insurgency between 1885 and 1896 against French colonial rule.",
+  "also": [
+   {
+    "raw_file": "can_vuong.json",
+    "evidence": "The regent Tôn Thất Thuyết, who had helped Hàm Nghi escape from Huế, persuaded Hàm Nghi to issue an edict calling for the people to rise up and \"aid the king\" (\"cần vương\")."
+   }
+  ],
+  "at": "hue.json",
+  "place": "Huế"
+ },
+ {
+  "id": "cpv_founded_1930",
+  "date": "1930-02-03",
+  "category": "modern",
+  "title_en": "Communist Party of Vietnam founded",
+  "title_vi": "Thành lập Đảng Cộng sản Việt Nam",
+  "text_en": "Communist groups merged to form the Communist Party of Vietnam, founded by Hồ Chí Minh in Kowloon, Hong Kong, from 3 February 1930.",
+  "text_vi": "Ngày 3/2/1930, các tổ chức cộng sản hợp nhất thành Đảng Cộng sản Việt Nam do Hồ Chí Minh sáng lập tại Cửu Long, Hồng Kông.",
+  "raw_file": "cpv.json",
+  "evidence": "The Communist Party of Indochina and Communist Party of Annam, together with individual members of the Communist League of Indochina, merged to form the modern Communist Party of Vietnam, founded by Ho Chi Minh in Kowloon, Hong Kong, from 3 February 1930.",
+  "at": null,
+  "place": "Cửu Long (Hồng Kông)"
+ },
+ {
+  "id": "yen_bai_1930",
+  "date": "1930-02-10",
+  "category": "modern",
+  "title_en": "Yên Bái mutiny",
+  "title_vi": "Khởi nghĩa Yên Bái",
+  "text_en": "Vietnamese soldiers in the French colonial army rose up at Yên Bái on 10 February 1930, with civilian members of the VNQDĐ.",
+  "text_vi": "Ngày 10/2/1930, binh lính người Việt trong quân đội thuộc địa Pháp cùng đảng viên Việt Nam Quốc dân Đảng nổi dậy ở Yên Bái.",
+  "raw_file": "yen_bai.json",
+  "evidence": "The Yên Bái mutiny (Vietnamese: Bạo-động Yên-bái) or officially Yên Báy general uprising (Tổng khởi-nghĩa Yên-báy) was an uprising of Vietnamese soldiers in the French colonial army on 10 February 1930.",
+  "at": "yen_bai_city.json",
+  "place": "Yên Bái"
+ },
+ {
+  "id": "japanese_coup_1945",
+  "date": "1945-03-09",
+  "category": "modern",
+  "title_en": "Japanese coup in French Indochina",
+  "title_vi": "Nhật đảo chính Pháp ở Đông Dương",
+  "text_en": "On 9 March 1945 Japan overthrew the French administration of Indochina; on 11 March Emperor Bảo Đại announced Vietnamese “independence” under Japanese direction (the Empire of Vietnam).",
+  "text_vi": "Ngày 9/3/1945, Nhật đảo chính lật đổ chính quyền Pháp ở Đông Dương; ngày 11/3, vua Bảo Đại tuyên bố “độc lập” dưới sự chỉ đạo của Nhật (Đế quốc Việt Nam).",
+  "raw_file": "japanese_coup_1945.json",
+  "evidence": "The Japanese coup d'état in French Indochina, known as Meigō Sakusen (明号作戦, Operation Bright Moon; Minh Hào tác chiến or Chiến dịch Giăng Sáng), was a Japanese operation that took place on 9 March 1945, towards the end of World War II.",
+  "also": [
+   {
+    "raw_file": "japanese_coup_1945.json",
+    "evidence": "On 11 March 1945, Emperor Bảo Đại was permitted to announce Vietnamese \"independence\"; this declaration had been prepared by Yokoyama Seiko, Minister for Economic Affairs of the Japanese diplomatic mission in Indochina and later advisor to Bao Dai."
+   }
+  ],
+  "at": "nation"
+ },
+ {
+  "id": "august_revolution",
+  "date": "1945-08-19",
+  "category": "modern",
+  "title_en": "August Revolution",
+  "title_vi": "Cách mạng Tháng Tám",
+  "text_en": "The Việt Minh's uprising ran from 16 to 30 August 1945; on the morning of 19 August it took control of Hà Nội.",
+  "text_vi": "Cuộc tổng khởi nghĩa do Việt Minh lãnh đạo diễn ra từ 16 đến 30/8/1945; sáng 19/8, Việt Minh giành chính quyền ở Hà Nội.",
+  "raw_file": "august_revolution.json",
+  "evidence": "'Total uprising to seize power'), was a revolution led by the Viet Minh against the Japanese occupation of Vietnam and the Empire of Vietnam from 16 to 30 August 1945.",
+  "also": [
+   {
+    "raw_file": "august_revolution.json",
+    "evidence": "On the morning of 19 August, the Việt Minh took control of Hanoi, seizing northern Vietnam in the next few days."
+   }
+  ],
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "battle_hanoi_1946",
+  "date": "1946-12-19",
+  "category": "modern",
+  "title_en": "Battle of Hà Nội: the First Indochina War begins",
+  "title_vi": "Toàn quốc kháng chiến: trận Hà Nội",
+  "text_en": "On 19 December 1946 Việt Minh forces opened the Battle of Hà Nội, the start of the First Indochina War; the next day Hồ Chí Minh appealed to the people to resist.",
+  "text_vi": "Ngày 19/12/1946, Việt Minh mở trận Hà Nội, khởi đầu Chiến tranh Đông Dương lần thứ nhất; hôm sau, Hồ Chí Minh ra lời kêu gọi toàn dân kháng chiến.",
+  "raw_file": "battle_hanoi_1946.json",
+  "evidence": "On December 19, 1946, Viet Minh soldiers detonated explosives in Hanoi, and the ensuing battle, known as the Battle of Hanoi marked the opening salvo of the First Indochina War.",
+  "at": "battle_hanoi_1946.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "dien_bien_phu",
+  "date": "1954-05-07",
+  "category": "modern",
+  "title_en": "Battle of Điện Biên Phủ",
+  "title_vi": "Chiến dịch Điện Biên Phủ",
+  "text_en": "The siege lasted from 13 March to 7 May 1954 and ended with the French garrison overrun and the surviving French forces surrendering.",
+  "text_vi": "Trận đánh kéo dài từ 13/3 đến 7/5/1954, kết thúc khi tập đoàn cứ điểm của Pháp bị tràn ngập và quân Pháp còn lại đầu hàng.",
+  "raw_file": "dien_bien_phu.json",
+  "evidence": "It took place between 13 March and 7 May 1954.",
+  "also": [
+   {
+    "raw_file": "dien_bien_phu.json",
+    "evidence": "After a two-month siege, the garrison was overrun, with the surviving French forces forced to surrender."
+   }
+  ],
+  "at": "dien_bien_phu.json",
+  "place": "Điện Biên Phủ"
+ },
+ {
+  "id": "rvn_1955",
+  "date": "1955-10-26",
+  "category": "modern",
+  "title_en": "Republic of Vietnam proclaimed in Sài Gòn",
+  "title_vi": "Thành lập Việt Nam Cộng hòa",
+  "text_en": "After the referendum of 23 October 1955, Ngô Đình Diệm proclaimed himself president of the newly created Republic of Vietnam on 26 October 1955.",
+  "text_vi": "Sau cuộc trưng cầu dân ý ngày 23/10/1955, ngày 26/10/1955 Ngô Đình Diệm tuyên bố làm tổng thống nước Việt Nam Cộng hòa mới thành lập.",
+  "raw_file": "referendum_1955.json",
+  "evidence": "After his brother Ngô Đình Nhu had rigged the referendum, Diệm proclaimed himself president of the newly created Republic of Vietnam on 26 October 1955.",
+  "at": "hcmc.json",
+  "place": "Sài Gòn",
+  "story": [
+   "hcmc"
+  ]
+ },
+ {
+  "id": "nlf_1960",
+  "date": "1960-12-20",
+  "category": "modern",
+  "title_en": "National Liberation Front founded",
+  "title_vi": "Thành lập Mặt trận Dân tộc Giải phóng miền Nam Việt Nam",
+  "text_en": "The National Liberation Front of South Vietnam was established on 20 December 1960 at Tân Lập village in Tây Ninh Province.",
+  "text_vi": "Ngày 20/12/1960, Mặt trận Dân tộc Giải phóng miền Nam Việt Nam được thành lập tại xã Tân Lập, tỉnh Tây Ninh.",
+  "raw_file": "viet_cong.json",
+  "evidence": "North Vietnam established the National Liberation Front (NLF) on December 20, 1960, at Tân Lập village in Tây Ninh Province to foment insurgency in the South.",
+  "at": "tay_ninh.json",
+  "place": "Tây Ninh"
+ },
+ {
+  "id": "tonkin_gulf_1964",
+  "date": "1964-08-02",
+  "category": "modern",
+  "title_en": "Gulf of Tonkin incident",
+  "title_vi": "Sự kiện Vịnh Bắc Bộ",
+  "text_en": "On 2 August 1964 a US Navy destroyer collecting signals intelligence near North Vietnamese waters clashed with three North Vietnamese naval vessels.",
+  "text_vi": "Ngày 2/8/1964, một tàu khu trục Hải quân Mỹ đang thu thập tín hiệu tình báo gần vùng biển miền Bắc đụng độ với ba tàu hải quân Bắc Việt Nam.",
+  "raw_file": "tonkin_gulf.json",
+  "evidence": "On 2 August 1964 there was a clash between a destroyer of the United States Navy that was collecting signals intelligence close to North Vietnamese waters, and three North Vietnamese naval vessels.",
+  "at": "tonkin_gulf.json",
+  "place": "Vịnh Bắc Bộ"
+ },
+ {
+  "id": "tet_offensive_1968",
+  "date": "1968-01-30",
+  "category": "modern",
+  "title_en": "Tết Offensive",
+  "title_vi": "Tổng tiến công và nổi dậy Tết Mậu Thân",
+  "text_en": "On 30 and 31 January 1968 the PAVN and the Việt Cộng launched a surprise attack on command and control centres throughout South Vietnam.",
+  "text_vi": "Ngày 30 và 31/1/1968, Quân đội Nhân dân Việt Nam và Quân Giải phóng mở cuộc tấn công bất ngờ vào các trung tâm chỉ huy trên khắp miền Nam.",
+  "raw_file": "tet_offensive.json",
+  "evidence": "The North Vietnamese People's Army of Vietnam (PAVN) and the Viet Cong (VC) launched a surprise attack on 30 and 31 January 1968 against the forces of the South Vietnamese Army of the Republic of Vietnam (ARVN), the United States Armed Forces and their allies, targeting military and civilian command and control centers throughout South Vietnam.",
+  "at": "tet_offensive.json",
+  "place": "Miền Nam Việt Nam"
+ },
+ {
+  "id": "ho_chi_minh_dies",
+  "date": "1969-09-02",
+  "category": "modern",
+  "title_en": "Death of Hồ Chí Minh",
+  "title_vi": "Chủ tịch Hồ Chí Minh qua đời",
+  "text_en": "Hồ Chí Minh (born 19 May 1890), founder and first president of the Democratic Republic of Vietnam, died on 2 September 1969.",
+  "text_vi": "Hồ Chí Minh (sinh 19/5/1890), người sáng lập và Chủ tịch đầu tiên của nước Việt Nam Dân chủ Cộng hòa, qua đời ngày 2/9/1969.",
+  "raw_file": "ho_chi_minh.json",
+  "evidence": "Hồ Chí Minh (born Nguyễn Sinh Cung; 19 May 1890 – 2 September 1969), colloquially known as Uncle Ho (Bác Hồ) among other aliases and sobriquets, was a Vietnamese communist revolutionary and statesman who founded the Democratic Republic of Vietnam in 1945 (known as North Vietnam after 1954).",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "paris_accords_1973",
+  "date": "1973-01-27",
+  "category": "modern",
+  "title_en": "Paris Peace Accords",
+  "title_vi": "Hiệp định Paris",
+  "text_en": "The Agreement on ending the war and restoring peace in Viet-Nam was signed in Paris on 27 January 1973.",
+  "text_vi": "Ngày 27/1/1973, Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam được ký tại Paris.",
+  "raw_file": "paris_accords.json",
+  "evidence": "'Paris Treaty about Vietnam'), officially the Agreement on ending the war and restoring peace in Viet-Nam (Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam), was a peace agreement signed on 27 January 1973 to establish peace in Vietnam and end the Vietnam War.",
+  "at": null,
+  "place": "Paris"
+ },
+ {
+  "id": "paracels_1974",
+  "date": "1974-01-19",
+  "category": "modern",
+  "title_en": "Battle of the Paracel Islands (Hoàng Sa)",
+  "title_vi": "Hải chiến Hoàng Sa",
+  "text_en": "Chinese and South Vietnamese navies fought near the Paracel Islands on 19–20 January 1974; China then occupied the part South Vietnam had controlled and took full de facto control of the archipelago.",
+  "text_vi": "Ngày 19–20/1/1974, hải quân Trung Quốc và Việt Nam Cộng hòa giao chiến gần quần đảo Hoàng Sa; sau đó Trung Quốc chiếm phần do Việt Nam Cộng hòa kiểm soát và kiểm soát trên thực tế toàn bộ quần đảo.",
+  "raw_file": "paracel_battle.json",
+  "evidence": "The Battle of the Paracel Islands (Chinese: 西沙海战; pinyin: Xisha haizhan; Vietnamese: Hải chiến Hoàng Sa) was an engagement between the Chinese and South Vietnamese navies near the Paracel Islands from 19 to 20 January 1974.",
+  "also": [
+   {
+    "raw_file": "paracel_battle.json",
+    "evidence": "Consequently, China occupied the portion formerly controlled by South Vietnam and established full de facto control over the Paracels."
+   }
+  ],
+  "at": "paracel_battle.json",
+  "place": "Quần đảo Hoàng Sa",
+  "story": [
+   "sea"
+  ]
+ },
+ {
+  "id": "sino_vietnamese_war_1979",
+  "date": "1979-02",
+  "category": "modern",
+  "title_en": "Sino-Vietnamese War",
+  "title_vi": "Chiến tranh biên giới Việt – Trung 1979",
+  "text_en": "In February 1979 Chinese forces invaded northern Vietnam and captured several cities near the border; China withdrew its troops in March 1979.",
+  "text_vi": "Tháng 2/1979, quân Trung Quốc tiến công miền Bắc Việt Nam và chiếm một số thị xã gần biên giới; Trung Quốc rút quân vào tháng 3/1979.",
+  "raw_file": "sino_viet_war.json",
+  "evidence": "In February 1979, Chinese forces launched a surprise invasion of northern Vietnam and quickly captured several cities near the border.",
+  "also": [
+   {
+    "raw_file": "sino_viet_war.json",
+    "evidence": "The conflict lasted for about a month, with China withdrawing its troops in March 1979."
+   }
+  ],
+  "at": "p_lang_son.json",
+  "place": "Lạng Sơn"
+ },
+ {
+  "id": "hanoi_indochina_1902",
+  "date": "1902",
+  "category": "modern",
+  "title_en": "Hà Nội becomes the capital of French Indochina",
+  "title_vi": "Hà Nội thành thủ phủ Liên bang Đông Dương",
+  "text_en": "Hà Nội served as the capital of French Indochina from 1902 to 1945, and of the protectorate of Tonkin from 1883 to 1949.",
+  "text_vi": "Hà Nội là thủ phủ của Liên bang Đông Dương thuộc Pháp từ 1902 đến 1945, và của xứ bảo hộ Bắc Kỳ từ 1883 đến 1949.",
+  "raw_file": "hanoi.json",
+  "evidence": "Hanoi served as the capital of French Indochina from 1902 to 1945 and of the French protectorate of Tonkin from 1883 to 1949.",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "cambodia_1978",
+  "date": "1978",
+  "category": "modern",
+  "title_en": "Vietnamese forces enter Cambodia",
+  "title_vi": "Quân đội Việt Nam vào Campuchia",
+  "text_en": "In 1978, in response to Khmer Rouge massacres of Vietnamese residents in border villages of An Giang and Kiên Giang, the Vietnamese military entered Cambodia and removed the Khmer Rouge from power after occupying Phnom Penh.",
+  "text_vi": "Năm 1978, trước việc chính quyền Khmer Đỏ thảm sát cư dân Việt Nam ở các làng biên giới thuộc An Giang và Kiên Giang, quân đội Việt Nam tiến vào Campuchia và lật đổ Khmer Đỏ sau khi chiếm Phnôm Pênh.",
+  "raw_file": "vietnam.json",
+  "evidence": "In 1978, in response to the Khmer Rouge government of Cambodia ordering massacres of Vietnamese residents in the border villages in the districts of An Giang and Kiên Giang, the Vietnamese military invaded Cambodia and removed them from power after occupying Phnom Penh.",
+  "at": null,
+  "place": "Cambodia border (An Giang, Kiên Giang)",
+  "place_vi": "Biên giới Campuchia (An Giang, Kiên Giang)"
+ }
+]

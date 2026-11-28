@@ -201,13 +201,6 @@ SOURCES = [
          used_for=["Wonders: which national and regional universities"],
          files=[("https://vi.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=" +
                  urllib.parse.quote("Đại học (Việt Nam)") + "&redirects=1&format=json&formatversion=2", "dai_hoc_viet_nam.json")]),
-    dict(id="openflights_routes", title="OpenFlights route database", publisher="OpenFlights.org",
-         homepage="https://openflights.org/data", license="Open Database License (ODbL)",
-         description="Airline routes as of June 2014 (the last update): each row is one airline flying one airport "
-         "pair. The domestic Vietnamese pairs are the map's trade routes; the number of airlines per pair is the "
-         "route's weight. It is old: routes opened since 2014 are missing.",
-         used_for=["Trade routes (domestic air routes)"],
-         files=[("https://raw.githubusercontent.com/jpatokal/openflights/master/data/routes.dat", "routes.dat")]),
     dict(id="wikipedia_airports", title="List of the busiest airports in Vietnam", publisher="Wikipedia (figures from "
          "Airports Corporation of Vietnam, ACV)", homepage="https://en.wikipedia.org/wiki/List_of_the_busiest_airports_in_Vietnam",
          license="CC BY-SA 4.0", description="Yearly passengers per airport, as compiled on Wikipedia from ACV reports.",

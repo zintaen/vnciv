@@ -1,3 +1,5 @@
+import { EMBED } from "./app/embed.js"; // first: embed mode swaps localStorage before any module reads it
+import { watchApp } from "./app/telemetry.js"; // early: it reports uncaught errors (anonymous; off on localhost)
 import { Camera } from "./camera.js";
 import { prepareWorld, applyLens, stateIndex } from "./world.js";
 import * as mapRender from "./render/map.js";
@@ -24,6 +26,7 @@ import { initDonate } from "./app/donate.js";
 import { createMotion } from "./app/motion.js";
 import { createSearchHighlight } from "./app/highlight.js";
 import { maybeWelcome } from "./app/welcome.js";
+import { initEmbed, openEmbedDialog } from "./app/embedui.js";
 import { cyberskillUrl, REPO_URL, GITHUB_SVG } from "./app/brand.js";
 import { t, lang, setLang } from "./i18n.js";
 import { esc, setAirportNames } from "./format.js";
@@ -94,7 +97,10 @@ const DATA_NAME = /^[a-z0-9_-]+$/;
 const snapshotModule = import("./render/snapshot.js").catch(() => null);
 
 const PANEL_W = 394; // city panel width + margins (css #city-panel)
-const TOPBAR_H = 40;
+// The top bar's height: 40 px, two rows (74 px) on narrow desktops and tablets (style.css).
+let topH = 0; // cached; re-read after a resize
+if (typeof addEventListener === "function") addEventListener("resize", () => { topH = 0; });
+const topbarH = () => topH || (topH = document.getElementById("topbar")?.offsetHeight || 40);
 const CACHE_MARGIN = 160; // css px of map rendered beyond each edge of the viewport, so short pans are a blit
 const PAN_LEAD = 0.6; // a pan that runs off the cache re-renders it shifted this share of the margin ahead
 const DOUBLE_MS = 260;
@@ -102,12 +108,20 @@ const SELECT_ANIM_MS = 33; // ~30 fps while a state's border highlight animates
 const isMobile = () => matchMedia("(max-width: 700px)").matches;
 
 async function main() {
-  // lenses.json is the biggest start-up file (~14 MB raw, as much to download as world.json) and the terrain needs
-  // none of it. A plain visit fetches it after the core files (so it does not share their bandwidth), paints the
-  // map, and fills lensFile / lensById in place when it lands (everything holds these same objects). A deep link
-  // (#lens=…, #advisor=…) fetches it alongside and waits for it, as its first frame may need a lens.
+  // Lenses: lenses_index.json (every lens without its per-hex values, ~35 kB) loads beside the core files and fills
+  // lensFile / lensById in place (everything holds these same objects); a lens's values (data/lens/<id>.json) load
+  // only when something needs them (lensValues; setLens waits for them). A plain visit paints the map without
+  // waiting for the index; a deep link (#lens=…, #advisor=…) waits for it and for its lens's values, which start
+  // downloading now, as its first frame may need a lens. (pipeline/build/pack.py makes the split files.)
   const deep = location.hash.length > 1;
-  let lensesP = deep ? loadJSON("lenses", true) : null;
+  const lensLoads = new Map(); // lens id → Promise<values | null>
+  const fetchLensValues = (id) => {
+    if (!lensLoads.has(id)) lensLoads.set(id, loadJSON(`lens/${id}`, true).then((v) => (Array.isArray(v) ? v : (lensLoads.delete(id), null))));
+    return lensLoads.get(id);
+  };
+  const hashLens = parseHash(location.hash).lens;
+  if (hashLens && /^[a-z0-9_]+$/.test(hashLens)) fetchLensValues(hashLens);
+  const lensesP = loadJSON("lenses_index", true);
   const [world, cities, nation, sources, resources, statesData] = await Promise.all([
     loadJSON("world"), loadJSON("cities"), loadJSON("nation"),
     loadJSON("sources", true), loadJSON("resources", true), loadJSON("states", true),
@@ -121,11 +135,18 @@ async function main() {
     lensFile.lenses.push(...f.lenses);
     for (const l of f.lenses) lensById.set(l.id, l);
   };
-  if (deep) fillLenses(await lensesP);
-  else lensesP = loadJSON("lenses", true);
+  const lensesReady = lensesP.then(fillLenses);
+  /** A lens's per-hex values (a lens object or id), fetched once and kept on the lens object; null if unavailable. */
+  async function lensValues(ref) {
+    if (typeof ref === "string") { await lensesReady; ref = lensById.get(ref); }
+    if (!ref?.id) return null;
+    if (!ref.values && lensById.get(ref.id) === ref) { const v = await fetchLensValues(ref.id); if (v && !ref.values) ref.values = v; }
+    return ref.values || null;
+  }
+  if (deep) { await lensesReady; if (hashLens) await lensValues(hashLens); }
   const w = prepareWorld(world, cities, { resources });
   const state = {
-    cities, lens: null, band: null, hoverCell: -1, selectedCity: null, selectedState: null, showResources: !!w.resources,
+    cities, lens: null, band: null, hoverCell: -1, selectedCity: null, selectedState: null, showResources: false, // power plants: off by default (a switch in the Map panel, R)
     highlight: null, // {cells?, cities?, states?, resources?, dimOthers?, color?} (render/overlays.js)
     resourceFilter: null, // {types?: Set<typeId>, minValue?: number}
   };
@@ -648,11 +669,11 @@ async function main() {
     const d = docks === true ? dockState() : docks || NO_DOCKS;
     if (isMobile()) {
       const sheet = panelOpen || d.open;
-      return { x0: 0, y0: TOPBAR_H, x1: cam.w, y1: sheet ? cam.h * 0.45 : cam.h - 56 };
+      return { x0: 0, y0: topbarH(), x1: cam.w, y1: sheet ? cam.h * 0.45 : cam.h - (EMBED ? 26 : 56) }; // (embed: no dock, only the maker badge)
     }
     const dl = d.l, dr = d.r;
     const x1 = cam.w - dr - (panelOpen && cam.w > 760 ? PANEL_W : 0);
-    return { x0: Math.min(dl, x1 - 100), y0: TOPBAR_H, x1, y1: cam.h - 52 }; // above the lens dock
+    return { x0: Math.min(dl, x1 - 100), y0: topbarH(), x1, y1: cam.h - (EMBED ? 26 : 52) }; // above the lens dock (embed: the maker badge)
   }
 
   // Fly so that world point (x, y) lands in the middle of the visible area at scale s.
@@ -747,7 +768,18 @@ async function main() {
   let lastShown = null; // the lens object last coloured (a change fades the map: lensFade)
   const shownLens = () => (state.lens && lensView ? lensView(state.lens) || state.lens : state.lens);
 
+  // A lens whose values are still downloading: setLens(lens) applies it when they land, unless another lens (or
+  // none) was picked meanwhile. curLens() is the lens the user asked for last.
+  let wantLens = null;
+  const curLens = () => wantLens || state.lens;
   function setLens(lens) {
+    if (lens && !lens.values) {
+      wantLens = lens;
+      lensValues(lens).then((v) => { if (wantLens === lens) { wantLens = null; if (v) setLens(lens); else url.schedule(); } });
+      url.schedule();
+      return;
+    }
+    wantLens = null;
     const changed = lens !== state.lens;
     state.lens = lens;
     state.band = null;
@@ -876,6 +908,7 @@ async function main() {
   }
   let stateHashRef = null; // {idx, raw}: the form of the #state value the current selection came from
   const url = createHashState({
+    replaceOnly: EMBED,
     // A flight is not "busy": read() reports its destination. Pans and wheel zooms are, until they settle.
     busy: () => cam.moving && !cam.flight && !held.size,
     read() {
@@ -886,7 +919,7 @@ async function main() {
       return {
         // While lenses.json is still downloading, a link's lens cannot be applied yet: keep it in the URL, where
         // url.applyCurrent() picks it up once the lenses land.
-        lens: state.lens?.id || (!lensFile.lenses.length ? parseHash(location.hash).lens : null),
+        lens: curLens()?.id || (!lensFile.lenses.length ? parseHash(location.hash).lens : null),
         ...sel,
         // at = [x km, y km, log2(scale / home-fit scale)]; during a flight, where it will land. x, y is the world point
         // in the middle of visibleArea() (not of the canvas), so a link frames the same place beside a desktop
@@ -896,7 +929,7 @@ async function main() {
     },
     apply(p, { initial }) {
       const lens = p.lens ? lensById.get(p.lens) || null : null;
-      if (lens !== state.lens || state.band) setLens(lens);
+      if (lens !== curLens() || state.band) setLens(lens);
       if (lens) dock.remember(lens.id);
       const city = p.city ? cities.find((c) => c.id === p.city) : null;
       const sIdx = p.state ? stateFromHash(p.state) : -1;
@@ -1113,6 +1146,7 @@ async function main() {
       return `vietnam-${state.lens?.id || "terrain"}${sel ? "-" + slug(sel.name) : ""}.png`;
     },
     onToast: toast,
+    onEmbed: () => { url.flush(); openEmbedDialog({ lens: shownLens(), restore: document.getElementById("btn-more") }); },
   });
 
   function focusPanel() {
@@ -1131,7 +1165,7 @@ async function main() {
     onLens: (id) => {
       const lens = lensById.get(id);
       if (!lens) return;
-      if (lens !== state.lens) setLens(lens);
+      if (lens !== curLens()) setLens(lens);
       dock.remember(lens.id);
     },
   });
@@ -1190,7 +1224,7 @@ async function main() {
   if (resBtn && w.resources) {
     resBtn.hidden = true;
     ui.addMapToggle({
-      id: "resources", group: "energy", label: t("Power plants"), icon: "resources", title: t("Show or hide power plants (R)"), default: true,
+      id: "resources", group: "energy", label: t("Power plants"), icon: "resources", title: t("Show or hide power plants (R)"), default: false,
       get: () => state.showResources,
       set: (v) => { if (!!v !== state.showResources) resBtn.click(); },
     });
@@ -1483,7 +1517,7 @@ async function main() {
     else if (k === "l") {
       const all = [null, ...lensFile.lenses];
       const step = e.shiftKey ? -1 : 1;
-      setLens(all[(all.indexOf(state.lens) + step + all.length) % all.length]);
+      setLens(all[(all.indexOf(curLens()) + step + all.length) % all.length]);
     } else if (k === "r" && w.resources) resBtn?.click();
   });
   window.addEventListener("keyup", (e) => {
@@ -1535,6 +1569,7 @@ async function main() {
     loadData,
     loadCounties: () => loadData("counties"),
     w, cam, state, cityById, lensById,
+    lensValues, // (id | lens) → Promise<per-hex values | null>; lensById's lenses carry `values` only once loaded
     // drawing
     requestDraw,
     motion, // app/motion.js; docs/DATA_CONTRACTS.md "Motion"
@@ -1586,7 +1621,7 @@ async function main() {
     clearSelection,
     setLens(ref) {
       const lens = ref == null ? null : typeof ref === "string" ? lensById.get(ref) || null : ref;
-      if (lens !== state.lens) setLens(lens);
+      if (lens !== curLens()) setLens(lens);
       // A mode's own lens (an advisor colouring the map) shows on the lens button but does not take a quick slot.
       if (lens && !modes.mode) dock.remember(lens.id);
     },
@@ -1637,6 +1672,7 @@ async function main() {
     modeParams: { get: () => modes.modeParams, enumerable: true },
   });
   window.__app = app;
+  watchApp(app);
 
   // --- go --------------------------------------------------------------------------------------------------------
   renderTopbar(nation);
@@ -1644,8 +1680,8 @@ async function main() {
   setLens(null);
   dock.render(null, null);
   if (!lensFile.lenses.length) {
-    document.getElementById("loading").remove(); // the first frame paints while lenses.json downloads
-    fillLenses(await lensesP);
+    document.getElementById("loading").remove(); // the first frame paints while lenses_index.json downloads
+    await lensesReady;
     dock.render(shownLens(), state.band);
   }
   url.applyCurrent(true); // after the home fit, so "at" zoom is relative to it
@@ -1666,7 +1702,8 @@ async function main() {
       dock.setTour(start);
     }
     // First visit: a welcome card (once per browser; never over a link that carries a view, nor in automated runs).
-    if (!deep && !location.hash.length) welcome = maybeWelcome({ tour: app.tour?.start ? () => app.tour.start() : null });
+    if (EMBED) initEmbed(app);
+    else if (!deep && !location.hash.length) welcome = maybeWelcome({ tour: app.tour?.start ? () => app.tour.start() : null });
   });
 }
 

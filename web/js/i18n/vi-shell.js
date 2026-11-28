@@ -174,8 +174,8 @@ export default {
   // --- share dialog and image ---
   "A strategy-map atlas of the real economy": "Tập bản đồ chiến thuật về nền kinh tế thật",
   "CITY": "THÀNH PHỐ",
-  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors":
-    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © những người đóng góp OpenStreetMap",
+  "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, Wikipedia, © OpenStreetMap contributors":
+    "Dữ liệu: Cục Thống kê, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, Wikipedia, © những người đóng góp OpenStreetMap",
   "Copy link": "Sao chép liên kết",
   "Download image": "Tải ảnh",
   "Link to this view": "Liên kết tới góc nhìn này",
@@ -252,6 +252,7 @@ export default {
   "national park": "vườn quốc gia",
   "founded {year}": "thành lập năm {year}",
   "hand-picked (curated, not ranked by data)": "chọn thủ công (biên tập, không xếp hạng theo dữ liệu)",
+  "International route, as listed in the Vietnamese airport's Wikipedia articles; no flight or passenger counts.": "Đường bay quốc tế, theo các bài Wikipedia về sân bay Việt Nam; không có số chuyến bay hay hành khách.",
   "air route #{n}": "đường bay #{n}",
   "<b>{n}</b> airline": "<b>{n}</b> hãng bay",
   "<b>{n}</b> airlines": "<b>{n}</b> hãng bay",
@@ -279,9 +280,9 @@ export default {
   "Drag or arrow keys / WASD to pan · scroll, +/– or double-click to zoom · click a city or a province to open it · / or ⌘K to search places, communes and provinces · L to cycle lenses · [ and ] to step the timeline's years · <i>Layers</i> for roads, rail, communes and more · R to show or hide power plants · ? for all shortcuts · Esc to close.":
     "Kéo hoặc dùng phím mũi tên / WASD để di chuyển · cuộn, +/– hoặc bấm đúp để thu phóng · bấm vào thành phố hoặc tỉnh để mở · / hoặc ⌘K để tìm địa danh, xã phường và tỉnh · L để chuyển bản đồ chủ đề · [ và ] để chuyển năm trên dòng thời gian · <i>Lớp</i> để bật đường bộ, đường sắt, xã phường và hơn nữa · R để hiện hoặc ẩn nhà máy điện · ? để xem mọi phím tắt · Esc để đóng.",
   "Land cover, relief, rivers and power plants": "Lớp phủ đất, địa hình, sông ngòi và nhà máy điện",
-  "Air routes (2014)": "Đường bay (2014)",
-  "The 30 domestic air routes flown by the most airlines, from the OpenFlights route database (last updated June 2014)":
-    "30 đường bay nội địa có nhiều hãng khai thác nhất, theo cơ sở dữ liệu đường bay OpenFlights (cập nhật lần cuối tháng 6/2014)",
+  "Air routes (2026)": "Đường bay (2026)",
+  "Domestic air routes flown by at least 3 airlines, and in pink the international routes to airports on the map flown by at least 2, as listed in the airlines-and-destinations tables of Wikipedia's airport articles (November 2026)":
+    "Các đường bay nội địa có từ 3 hãng khai thác trở lên, và (màu hồng) các đường bay quốc tế tới sân bay trên bản đồ có từ 2 hãng trở lên, theo bảng hãng hàng không và điểm đến trong các bài Wikipedia về sân bay (tháng 11/2026)",
   // --- phase D: the "Map" panel, top-bar labels, welcome card, search marker ---
   "Choose what colours the map and which layers show (L cycles themes)": "Chọn chủ đề tô màu bản đồ và các lớp hiển thị (phím L đổi chủ đề)",
   "layers on.": "lớp đang bật.",
@@ -326,4 +327,27 @@ export default {
   "Open source": "Mã nguồn mở",
   "Source on GitHub": "Mã nguồn trên GitHub",
   "The atlas itself is open source under the MIT licence:": "Bản thân atlas là mã nguồn mở theo giấy phép MIT:",
+  "More": "Thêm",
+  "More: advisors, 3D view, share": "Thêm: cố vấn, nhìn 3D, chia sẻ",
+  // --- embed mode (app/embedui.js) and the Share menu's Embed dialog ---
+  "Open on {site}": "Mở trên {site}",
+  "Click to interact": "Bấm để tương tác",
+  "Map of Vietnam": "Bản đồ Việt Nam",
+  "Map: {site} · CyberSkill": "Bản đồ: {site} · CyberSkill",
+  "Embed": "Nhúng",
+  "in a website": "vào trang web",
+  "Embed this map": "Nhúng bản đồ này",
+  "Paste this code into an article or blog post. It shows the current view; readers can pan, zoom and click.":
+    "Dán mã này vào bài báo hoặc bài blog. Mã hiển thị đúng góc nhìn hiện tại; người đọc có thể kéo, phóng to và bấm chọn.",
+  "Frame size": "Kích thước khung",
+  "Wide 16:9": "Rộng 16:9",
+  "Square": "Vuông",
+  "Search box": "Ô tìm kiếm",
+  "Embed code": "Mã nhúng",
+  "Copy code": "Sao chép mã",
+  "Preview": "Xem trước",
+  "Code copied": "Đã sao chép mã",
+  "Select the code and copy it (Ctrl C)": "Hãy chọn mã và sao chép (Ctrl C)",
+  "Privacy": "Quyền riêng tư",
+  "The atlas sets no cookies and keeps no ID in your browser. To find and fix problems it sends anonymous error reports, and it counts a few actions (page views, themes, layers, stories, searches by the kind of result, never what you typed) with no identifier, IP address or user agent. Nothing is sent when your browser has Do Not Track or Global Privacy Control on. The records hold nothing that identifies you and are kept to see how the atlas is used over time.": "Atlas không đặt cookie và không lưu mã định danh nào trong trình duyệt của bạn. Để tìm và sửa lỗi, atlas gửi báo cáo lỗi ẩn danh và đếm một vài thao tác (lượt xem trang, bản đồ chủ đề, lớp, câu chuyện, lượt tìm kiếm theo loại kết quả, không bao giờ là nội dung bạn gõ) mà không kèm mã định danh, địa chỉ IP hay thông tin trình duyệt. Không có gì được gửi khi trình duyệt của bạn bật Do Not Track hoặc Global Privacy Control. Dữ liệu không chứa gì nhận diện được bạn và được lưu lại để theo dõi cách atlas được dùng theo thời gian.",
 };

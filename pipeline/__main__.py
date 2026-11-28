@@ -21,6 +21,8 @@ def cmd_build(*_):
 
 def cmd_serve(port="8765"):
     import functools, http.server
+    from .build import pack
+    pack.ensure()  # the page loads lenses_index.json + lens/<id>.json (gitignored, made from lenses.json)
     h = functools.partial(http.server.SimpleHTTPRequestHandler, directory=str(fetch.ROOT / "web"))
     print(f"http://127.0.0.1:{port}")
     class Server(http.server.ThreadingHTTPServer):

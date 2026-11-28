@@ -1,0 +1,52 @@
+/* Embed mode (?embed=1, app/embed.js + app/embedui.js): the map alone in another site's iframe, a thin strip on top
+   (theme key, optional search, "Open on atlasvn.online ↗"), the maker badge bottom right. Plus the Share menu's
+   "Embed" dialog on the full site. */
+html.embed { --topbar-h: 30px; }
+html.embed #topbar { gap: 10px; padding: 0 8px; flex-wrap: nowrap; overflow: hidden; font-size: 12px; }
+html.embed #topbar::before, html.embed #topbar::after { display: none; }
+html.embed #topbar > :not(.search):not(.embed-legend):not(.embed-open),
+html.embed:not(.embed-search) #topbar > .search,
+html.embed #lens-area, html.embed #minimap-wrap { display: none !important; }
+html.embed #topbar > .search { order: 1; flex: 0 1 180px; min-width: 110px; margin: 0; }
+html.embed .search-kbd { display: none; }
+html.embed #search-input { height: 22px; }
+.embed-legend { display: flex; align-items: center; gap: 6px; flex: 1 1 auto; min-width: 0; white-space: nowrap; color: var(--ink-dim); }
+.emb-name { font: normal 13px var(--serif); color: var(--gold-bright); overflow: hidden; text-overflow: ellipsis; min-width: 40px; flex: 0 1 auto; }
+.emb-ramp { flex: 0 0 80px; height: 9px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.6); }
+.emb-lo, .emb-hi { flex: none; font-size: 11px; font-variant-numeric: tabular-nums; }
+.emb-cats { display: flex; gap: 8px; overflow: hidden; min-width: 0; font-size: 11px; }
+.emb-cat { display: inline-flex; align-items: center; gap: 3px; }
+.emb-cat i { width: 9px; height: 9px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(0,0,0,.6); }
+.embed-open { order: 2; flex: none; color: var(--gold-bright); text-decoration: none; font-size: 12px; white-space: nowrap; }
+.embed-open:hover { text-decoration: underline; }
+@media (max-width: 520px) { .emb-lo, .emb-hi, .emb-cats { display: none; } .emb-ramp { flex-basis: 48px; } }
+@media (max-width: 760px) { html.embed-search .emb-lo, html.embed-search .emb-hi { display: none; } }
+
+.embed-badge {
+  position: fixed; right: 6px; bottom: 6px; z-index: 11; display: flex; align-items: center; gap: 5px; padding: 3px 9px 3px 5px;
+  border-radius: 13px; background: rgba(20,36,61,.78); color: rgba(244,236,214,.92); font: 600 11px var(--sans); text-decoration: none;
+}
+.embed-badge:hover { color: var(--gold-bright); }
+.embed-hint {
+  position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%); z-index: 20; pointer-events: none;
+  padding: 8px 16px; border-radius: 18px; background: rgba(10,18,28,.82); border: 1px solid var(--gold); color: var(--gold-bright); font-size: 14px;
+}
+html.embed #map:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: -2px; }
+/* Until the map is clicked or tapped, a touch swipe scrolls the host page (a tap still selects). */
+html.embed:not(.embed-active) #map { touch-action: pan-x pan-y; }
+
+/* --- the "Embed" dialog --- */
+.embed-card { position: relative; width: min(600px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; padding: 16px 18px; }
+.embed-card h2 { margin: 0 30px 6px 0; font: normal 20px var(--serif); color: var(--gold-bright); }
+.embed-card p { margin: 0 0 10px; font-size: 13px; }
+.embed-card .close { position: absolute; top: 12px; right: 12px; }
+.ed-opts { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-bottom: 8px; font-size: 13px; }
+.ed-sizes { display: flex; gap: 12px; border: 0; padding: 0; margin: 0; }
+.ed-sizes legend { float: left; margin-right: 4px; color: var(--ink-dim); }
+.ed-code { width: 100%; resize: vertical; font: 12px ui-monospace, Menlo, Consolas, monospace; color: var(--ink); background: rgba(0,0,0,.4);
+  border: 1px solid var(--line); border-radius: 4px; padding: 6px 8px; }
+.ed-row { display: flex; align-items: center; gap: 10px; margin: 6px 0 10px; }
+.ed-status { font-size: 12px; color: var(--ink-dim); }
+.ed-label { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 4px; }
+.ed-preview { width: 100%; margin: 0 auto; aspect-ratio: 16 / 9; border: 1px solid var(--line); border-radius: 4px; overflow: hidden; background: #0d2a47; }
+.ed-preview iframe { display: block; width: 100%; height: 100%; border: 0; }

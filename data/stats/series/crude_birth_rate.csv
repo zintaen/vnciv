@@ -1,4 +1,13 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,17.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+An Giang,63,2011,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+An Giang,63,2012,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+An Giang,63,2013,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+An Giang,63,2014,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+An Giang,63,2015,12.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+An Giang,63,2016,12.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+An Giang,63,2017,11.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+An Giang,63,2018,11.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 An Giang,63,2019,11.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 An Giang,63,2020,12.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 An Giang,63,2021,12.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -6,6 +15,15 @@ An Giang,63,2022,11.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/
 An Giang,63,2023,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 An Giang,63,2024,10.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 An Giang,63,2025,10.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bà Rịa - Vũng Tàu,63,2010,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bà Rịa - Vũng Tàu,63,2012,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bà Rịa - Vũng Tàu,63,2013,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bà Rịa - Vũng Tàu,63,2014,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bà Rịa - Vũng Tàu,63,2015,12.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,12.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,10.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,15.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bà Rịa - Vũng Tàu,63,2021,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -13,6 +31,15 @@ Bà Rịa - Vũng Tàu,63,2022,15.7,per mille,"https://www.nso.gov.vn/wp-content
 Bà Rịa - Vũng Tàu,63,2023,11.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bà Rịa - Vũng Tàu,63,2024,10.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bà Rịa - Vũng Tàu,63,2025,10.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bình Dương,63,2010,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bình Dương,63,2011,19.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bình Dương,63,2012,21.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bình Dương,63,2013,22.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bình Dương,63,2014,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bình Dương,63,2015,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bình Dương,63,2016,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bình Dương,63,2017,20.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bình Dương,63,2018,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bình Dương,63,2019,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bình Dương,63,2020,18.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Dương,63,2021,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -20,6 +47,15 @@ Bình Dương,63,2022,16.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Bình Dương,63,2023,17.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Dương,63,2024,15.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Dương,63,2025,14.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bình Phước,63,2010,21.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bình Phước,63,2011,20.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bình Phước,63,2012,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bình Phước,63,2013,19.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bình Phước,63,2014,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bình Phước,63,2015,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bình Phước,63,2016,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bình Phước,63,2017,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bình Phước,63,2018,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bình Phước,63,2019,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bình Phước,63,2020,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Phước,63,2021,16.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -27,6 +63,15 @@ Bình Phước,63,2022,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads
 Bình Phước,63,2023,15.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Phước,63,2024,14.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Phước,63,2025,14.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bình Thuận,63,2010,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bình Thuận,63,2011,16.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bình Thuận,63,2012,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bình Thuận,63,2013,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bình Thuận,63,2014,12.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bình Thuận,63,2015,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bình Thuận,63,2016,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bình Thuận,63,2017,12.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bình Thuận,63,2018,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bình Thuận,63,2019,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bình Thuận,63,2020,11.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Thuận,63,2021,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -34,6 +79,15 @@ Bình Thuận,63,2022,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Bình Thuận,63,2023,15.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Thuận,63,2024,14.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Thuận,63,2025,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bình Định,63,2010,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bình Định,63,2011,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bình Định,63,2012,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bình Định,63,2013,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bình Định,63,2014,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bình Định,63,2015,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bình Định,63,2016,13.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bình Định,63,2017,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bình Định,63,2018,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bình Định,63,2019,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bình Định,63,2020,15.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Định,63,2021,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -41,6 +95,15 @@ Bình Định,63,2022,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Bình Định,63,2023,12.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Định,63,2024,12.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bình Định,63,2025,10.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bạc Liêu,63,2010,15.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bạc Liêu,63,2011,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bạc Liêu,63,2012,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bạc Liêu,63,2013,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bạc Liêu,63,2014,15.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bạc Liêu,63,2015,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bạc Liêu,63,2016,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bạc Liêu,63,2017,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bạc Liêu,63,2018,10.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bạc Liêu,63,2019,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bạc Liêu,63,2020,12.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bạc Liêu,63,2021,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -48,6 +111,15 @@ Bạc Liêu,63,2022,11.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Bạc Liêu,63,2023,11.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bạc Liêu,63,2024,11.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bạc Liêu,63,2025,10.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bắc Giang,63,2010,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bắc Giang,63,2011,15.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bắc Giang,63,2012,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bắc Giang,63,2013,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bắc Giang,63,2014,21.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bắc Giang,63,2015,21.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bắc Giang,63,2016,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bắc Giang,63,2017,19.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bắc Giang,63,2018,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bắc Giang,63,2019,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bắc Giang,63,2020,17.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Giang,63,2021,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -55,6 +127,15 @@ Bắc Giang,63,2022,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Bắc Giang,63,2023,16.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Giang,63,2024,15.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Giang,63,2025,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bắc Kạn,63,2010,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bắc Kạn,63,2011,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bắc Kạn,63,2012,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bắc Kạn,63,2013,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bắc Kạn,63,2014,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bắc Kạn,63,2015,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bắc Kạn,63,2016,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bắc Kạn,63,2017,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bắc Kạn,63,2018,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bắc Kạn,63,2019,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bắc Kạn,63,2020,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Kạn,63,2021,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -62,6 +143,15 @@ Bắc Kạn,63,2022,13.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Bắc Kạn,63,2023,12.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Kạn,63,2024,11.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Kạn,63,2025,12.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bắc Ninh,63,2010,18.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bắc Ninh,63,2011,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bắc Ninh,63,2012,22.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bắc Ninh,63,2013,19.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bắc Ninh,63,2014,22.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bắc Ninh,63,2015,22.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bắc Ninh,63,2016,20.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bắc Ninh,63,2017,20.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bắc Ninh,63,2018,19.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bắc Ninh,63,2019,24.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bắc Ninh,63,2020,23.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Ninh,63,2021,23.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -69,6 +159,15 @@ Bắc Ninh,63,2022,21.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Bắc Ninh,63,2023,18.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Ninh,63,2024,18.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bắc Ninh,63,2025,19.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Bến Tre,63,2010,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Bến Tre,63,2011,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Bến Tre,63,2012,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Bến Tre,63,2013,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Bến Tre,63,2014,13.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Bến Tre,63,2015,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Bến Tre,63,2016,11.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Bến Tre,63,2017,11.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Bến Tre,63,2018,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Bến Tre,63,2019,11.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Bến Tre,63,2020,12.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bến Tre,63,2021,10.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -76,6 +175,15 @@ Bến Tre,63,2022,9.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/
 Bến Tre,63,2023,10.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bến Tre,63,2024,9.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Bến Tre,63,2025,10.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Cao Bằng,63,2010,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Cao Bằng,63,2011,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Cao Bằng,63,2012,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Cao Bằng,63,2013,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Cao Bằng,63,2014,20.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Cao Bằng,63,2015,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Cao Bằng,63,2016,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Cao Bằng,63,2017,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Cao Bằng,63,2018,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Cao Bằng,63,2019,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Cao Bằng,63,2020,16.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cao Bằng,63,2021,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -83,6 +191,15 @@ Cao Bằng,63,2022,16.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Cao Bằng,63,2023,15.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cao Bằng,63,2024,14.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cao Bằng,63,2025,13.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Cà Mau,63,2010,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Cà Mau,63,2011,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Cà Mau,63,2012,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Cà Mau,63,2013,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Cà Mau,63,2014,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Cà Mau,63,2015,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Cà Mau,63,2016,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Cà Mau,63,2017,11.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Cà Mau,63,2018,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Cà Mau,63,2019,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Cà Mau,63,2020,13.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cà Mau,63,2021,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -90,6 +207,15 @@ Cà Mau,63,2022,12.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Cà Mau,63,2023,9.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cà Mau,63,2024,11.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cà Mau,63,2025,11.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Cần Thơ,63,2010,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Cần Thơ,63,2011,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Cần Thơ,63,2012,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Cần Thơ,63,2013,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Cần Thơ,63,2014,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Cần Thơ,63,2015,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Cần Thơ,63,2016,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Cần Thơ,63,2017,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Cần Thơ,63,2018,11.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Cần Thơ,63,2019,13.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Cần Thơ,63,2020,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cần Thơ,63,2021,13.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -97,6 +223,15 @@ Cần Thơ,63,2022,13.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Cần Thơ,63,2023,11.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cần Thơ,63,2024,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Cần Thơ,63,2025,11.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Gia Lai,63,2010,23.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Gia Lai,63,2011,23.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Gia Lai,63,2012,19.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Gia Lai,63,2013,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Gia Lai,63,2014,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Gia Lai,63,2015,19.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Gia Lai,63,2016,18.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Gia Lai,63,2017,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Gia Lai,63,2018,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Gia Lai,63,2019,19.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Gia Lai,63,2020,19.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Gia Lai,63,2021,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -104,6 +239,15 @@ Gia Lai,63,2022,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Gia Lai,63,2023,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Gia Lai,63,2024,17.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Gia Lai,63,2025,17.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hà Giang,63,2010,27.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hà Giang,63,2011,22.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hà Giang,63,2012,23.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hà Giang,63,2013,22.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hà Giang,63,2014,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hà Giang,63,2015,23.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hà Giang,63,2016,19.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hà Giang,63,2017,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hà Giang,63,2018,20.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hà Giang,63,2019,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hà Giang,63,2020,19.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Giang,63,2021,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -111,6 +255,15 @@ Hà Giang,63,2022,20.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Hà Giang,63,2023,19.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Giang,63,2024,18.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Giang,63,2025,17.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hà Nam,63,2010,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hà Nam,63,2011,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hà Nam,63,2012,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hà Nam,63,2013,13.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hà Nam,63,2014,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hà Nam,63,2015,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hà Nam,63,2016,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hà Nam,63,2017,12.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hà Nam,63,2018,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hà Nam,63,2019,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hà Nam,63,2020,16.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nam,63,2021,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -118,6 +271,15 @@ Hà Nam,63,2022,15.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Hà Nam,63,2023,14.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nam,63,2024,12.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nam,63,2025,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hà Nội,63,2010,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hà Nội,63,2011,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hà Nội,63,2012,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hà Nội,63,2013,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hà Nội,63,2014,18.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hà Nội,63,2015,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hà Nội,63,2016,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hà Nội,63,2017,15.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hà Nội,63,2018,14.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hà Nội,63,2019,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hà Nội,63,2020,17.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nội,63,2021,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -125,6 +287,15 @@ Hà Nội,63,2022,16.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Hà Nội,63,2023,14.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nội,63,2024,13.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Nội,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hà Tĩnh,63,2010,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hà Tĩnh,63,2011,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hà Tĩnh,63,2012,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hà Tĩnh,63,2013,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hà Tĩnh,63,2014,19.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hà Tĩnh,63,2015,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hà Tĩnh,63,2016,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hà Tĩnh,63,2017,19.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hà Tĩnh,63,2018,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hà Tĩnh,63,2019,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hà Tĩnh,63,2020,17.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Tĩnh,63,2021,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -132,6 +303,15 @@ Hà Tĩnh,63,2022,18.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Hà Tĩnh,63,2023,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Tĩnh,63,2024,13.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hà Tĩnh,63,2025,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hòa Bình,63,2010,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hòa Bình,63,2011,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hòa Bình,63,2012,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hòa Bình,63,2013,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hòa Bình,63,2014,19.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hòa Bình,63,2015,21.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hòa Bình,63,2016,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hòa Bình,63,2017,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hòa Bình,63,2018,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hòa Bình,63,2019,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hòa Bình,63,2020,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hòa Bình,63,2021,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -139,6 +319,15 @@ Hòa Bình,63,2022,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Hòa Bình,63,2023,13.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hòa Bình,63,2024,12.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hòa Bình,63,2025,11.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hưng Yên,63,2010,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hưng Yên,63,2011,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hưng Yên,63,2012,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hưng Yên,63,2013,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hưng Yên,63,2014,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hưng Yên,63,2015,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hưng Yên,63,2016,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hưng Yên,63,2017,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hưng Yên,63,2018,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hưng Yên,63,2019,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hưng Yên,63,2020,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hưng Yên,63,2021,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -146,6 +335,15 @@ Hưng Yên,63,2022,17.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Hưng Yên,63,2023,16.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hưng Yên,63,2024,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hưng Yên,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hải Dương,63,2010,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hải Dương,63,2011,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hải Dương,63,2012,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hải Dương,63,2013,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hải Dương,63,2014,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hải Dương,63,2015,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hải Dương,63,2016,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hải Dương,63,2017,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hải Dương,63,2018,16.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hải Dương,63,2019,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hải Dương,63,2020,18.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Dương,63,2021,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -153,6 +351,15 @@ Hải Dương,63,2022,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Hải Dương,63,2023,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Dương,63,2024,13.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Dương,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hải Phòng,63,2010,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hải Phòng,63,2011,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hải Phòng,63,2012,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hải Phòng,63,2013,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hải Phòng,63,2014,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hải Phòng,63,2015,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hải Phòng,63,2016,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hải Phòng,63,2017,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hải Phòng,63,2018,13.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hải Phòng,63,2019,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hải Phòng,63,2020,14.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Phòng,63,2021,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -160,6 +367,15 @@ Hải Phòng,63,2022,16.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Hải Phòng,63,2023,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Phòng,63,2024,14.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hải Phòng,63,2025,14.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Hậu Giang,63,2010,14.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Hậu Giang,63,2011,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Hậu Giang,63,2012,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Hậu Giang,63,2013,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Hậu Giang,63,2014,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Hậu Giang,63,2015,12.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Hậu Giang,63,2016,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Hậu Giang,63,2017,10.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Hậu Giang,63,2018,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Hậu Giang,63,2019,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Hậu Giang,63,2020,13.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hậu Giang,63,2021,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -167,6 +383,15 @@ Hậu Giang,63,2022,10.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Hậu Giang,63,2023,10.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hậu Giang,63,2024,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Hậu Giang,63,2025,10.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Khánh Hòa,63,2010,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Khánh Hòa,63,2011,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Khánh Hòa,63,2012,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Khánh Hòa,63,2013,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Khánh Hòa,63,2014,12.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Khánh Hòa,63,2015,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Khánh Hòa,63,2016,13.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Khánh Hòa,63,2017,12.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Khánh Hòa,63,2018,10.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Khánh Hòa,63,2019,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Khánh Hòa,63,2020,14.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Khánh Hòa,63,2021,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -174,6 +399,15 @@ Khánh Hòa,63,2022,14.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Khánh Hòa,63,2023,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Khánh Hòa,63,2024,12.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Khánh Hòa,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Kiên Giang,63,2010,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Kiên Giang,63,2011,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Kiên Giang,63,2012,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Kiên Giang,63,2013,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Kiên Giang,63,2014,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Kiên Giang,63,2015,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Kiên Giang,63,2016,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Kiên Giang,63,2017,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Kiên Giang,63,2018,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Kiên Giang,63,2019,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Kiên Giang,63,2020,14.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kiên Giang,63,2021,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -181,6 +415,15 @@ Kiên Giang,63,2022,12.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Kiên Giang,63,2023,11.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kiên Giang,63,2024,11.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kiên Giang,63,2025,9.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Kon Tum,63,2010,27.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Kon Tum,63,2011,25.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Kon Tum,63,2012,25.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Kon Tum,63,2013,21.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Kon Tum,63,2014,25.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Kon Tum,63,2015,19.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Kon Tum,63,2016,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Kon Tum,63,2017,19.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Kon Tum,63,2018,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Kon Tum,63,2019,21.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Kon Tum,63,2020,21.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kon Tum,63,2021,20.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -188,6 +431,15 @@ Kon Tum,63,2022,20.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Kon Tum,63,2023,19.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kon Tum,63,2024,18.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Kon Tum,63,2025,20.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Lai Châu,63,2010,26.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Lai Châu,63,2011,26.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Lai Châu,63,2012,23.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Lai Châu,63,2013,21.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Lai Châu,63,2014,26.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Lai Châu,63,2015,25.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Lai Châu,63,2016,24.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Lai Châu,63,2017,22.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Lai Châu,63,2018,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Lai Châu,63,2019,21.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Lai Châu,63,2020,21.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lai Châu,63,2021,22.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -195,6 +447,15 @@ Lai Châu,63,2022,20.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Lai Châu,63,2023,20.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lai Châu,63,2024,18.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lai Châu,63,2025,21.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Long An,63,2010,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Long An,63,2011,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Long An,63,2012,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Long An,63,2013,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Long An,63,2014,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Long An,63,2015,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Long An,63,2016,11.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Long An,63,2017,11.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Long An,63,2018,12.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Long An,63,2019,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Long An,63,2020,14.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Long An,63,2021,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -202,6 +463,15 @@ Long An,63,2022,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Long An,63,2023,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Long An,63,2024,11.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Long An,63,2025,13.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Lào Cai,63,2010,24.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Lào Cai,63,2011,22.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Lào Cai,63,2012,21.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Lào Cai,63,2013,21.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Lào Cai,63,2014,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Lào Cai,63,2015,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Lào Cai,63,2016,22.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Lào Cai,63,2017,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Lào Cai,63,2018,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Lào Cai,63,2019,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Lào Cai,63,2020,19.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lào Cai,63,2021,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -209,6 +479,15 @@ Lào Cai,63,2022,18.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/
 Lào Cai,63,2023,20.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lào Cai,63,2024,17.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lào Cai,63,2025,19.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Lâm Đồng,63,2010,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Lâm Đồng,63,2011,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Lâm Đồng,63,2012,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Lâm Đồng,63,2013,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Lâm Đồng,63,2014,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Lâm Đồng,63,2015,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Lâm Đồng,63,2016,16.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Lâm Đồng,63,2017,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Lâm Đồng,63,2018,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Lâm Đồng,63,2019,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Lâm Đồng,63,2020,16.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lâm Đồng,63,2021,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -216,6 +495,15 @@ Lâm Đồng,63,2022,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Lâm Đồng,63,2023,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lâm Đồng,63,2024,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lâm Đồng,63,2025,15.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Lạng Sơn,63,2010,15.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Lạng Sơn,63,2011,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Lạng Sơn,63,2012,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Lạng Sơn,63,2013,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Lạng Sơn,63,2014,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Lạng Sơn,63,2015,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Lạng Sơn,63,2016,18.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Lạng Sơn,63,2017,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Lạng Sơn,63,2018,15.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Lạng Sơn,63,2019,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Lạng Sơn,63,2020,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lạng Sơn,63,2021,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -223,6 +511,15 @@ Lạng Sơn,63,2022,13.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Lạng Sơn,63,2023,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lạng Sơn,63,2024,12.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Lạng Sơn,63,2025,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Nam Định,63,2010,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Nam Định,63,2011,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Nam Định,63,2012,12.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Nam Định,63,2013,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Nam Định,63,2014,18.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Nam Định,63,2015,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Nam Định,63,2016,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Nam Định,63,2017,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Nam Định,63,2018,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Nam Định,63,2019,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Nam Định,63,2020,15.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nam Định,63,2021,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -230,6 +527,15 @@ Nam Định,63,2022,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Nam Định,63,2023,13.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nam Định,63,2024,12.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nam Định,63,2025,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Nghệ An,63,2010,19.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Nghệ An,63,2011,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Nghệ An,63,2012,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Nghệ An,63,2013,20.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Nghệ An,63,2014,21.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Nghệ An,63,2015,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Nghệ An,63,2016,21.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Nghệ An,63,2017,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Nghệ An,63,2018,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Nghệ An,63,2019,20.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Nghệ An,63,2020,20.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nghệ An,63,2021,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -237,6 +543,15 @@ Nghệ An,63,2022,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Nghệ An,63,2023,16.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nghệ An,63,2024,15.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Nghệ An,63,2025,18.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Ninh Bình,63,2010,13.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Ninh Bình,63,2011,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Ninh Bình,63,2012,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Ninh Bình,63,2013,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Ninh Bình,63,2014,20.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Ninh Bình,63,2015,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Ninh Bình,63,2016,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Ninh Bình,63,2017,13.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Ninh Bình,63,2018,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Ninh Bình,63,2019,16.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Ninh Bình,63,2020,16.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Bình,63,2021,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -244,6 +559,15 @@ Ninh Bình,63,2022,13.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Ninh Bình,63,2023,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Bình,63,2024,14.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Bình,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Ninh Thuận,63,2010,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Ninh Thuận,63,2011,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Ninh Thuận,63,2012,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Ninh Thuận,63,2013,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Ninh Thuận,63,2014,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Ninh Thuận,63,2015,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Ninh Thuận,63,2016,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Ninh Thuận,63,2017,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Ninh Thuận,63,2018,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Ninh Thuận,63,2019,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Ninh Thuận,63,2020,15.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Thuận,63,2021,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -251,6 +575,15 @@ Ninh Thuận,63,2022,16.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Ninh Thuận,63,2023,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Thuận,63,2024,14.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Ninh Thuận,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Phú Thọ,63,2010,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Phú Thọ,63,2011,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Phú Thọ,63,2012,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Phú Thọ,63,2013,17.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Phú Thọ,63,2014,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Phú Thọ,63,2015,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Phú Thọ,63,2016,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Phú Thọ,63,2017,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Phú Thọ,63,2018,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Phú Thọ,63,2019,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Phú Thọ,63,2020,16.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Thọ,63,2021,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -258,6 +591,15 @@ Phú Thọ,63,2022,15.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Phú Thọ,63,2023,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Thọ,63,2024,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Thọ,63,2025,12.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Phú Yên,63,2010,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Phú Yên,63,2011,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Phú Yên,63,2012,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Phú Yên,63,2013,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Phú Yên,63,2014,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Phú Yên,63,2015,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Phú Yên,63,2016,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Phú Yên,63,2017,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Phú Yên,63,2018,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Phú Yên,63,2019,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Phú Yên,63,2020,14.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Yên,63,2021,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -265,6 +607,15 @@ Phú Yên,63,2022,14.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Phú Yên,63,2023,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Yên,63,2024,12.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Phú Yên,63,2025,14.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Quảng Bình,63,2010,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Quảng Bình,63,2011,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Quảng Bình,63,2012,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Quảng Bình,63,2013,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Quảng Bình,63,2014,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Quảng Bình,63,2015,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Quảng Bình,63,2016,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Quảng Bình,63,2017,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Quảng Bình,63,2018,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Quảng Bình,63,2019,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Quảng Bình,63,2020,17.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Bình,63,2021,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -272,6 +623,15 @@ Quảng Bình,63,2022,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Quảng Bình,63,2023,18.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Bình,63,2024,16.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Bình,63,2025,15.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Quảng Nam,63,2010,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Quảng Nam,63,2011,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Quảng Nam,63,2012,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Quảng Nam,63,2013,20.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Quảng Nam,63,2014,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Quảng Nam,63,2015,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Quảng Nam,63,2016,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Quảng Nam,63,2017,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Quảng Nam,63,2018,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Quảng Nam,63,2019,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Quảng Nam,63,2020,16.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Nam,63,2021,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -279,6 +639,15 @@ Quảng Nam,63,2022,14.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Quảng Nam,63,2023,14.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Nam,63,2024,14.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Nam,63,2025,16.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Quảng Ngãi,63,2010,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Quảng Ngãi,63,2011,17.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Quảng Ngãi,63,2012,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Quảng Ngãi,63,2013,19.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Quảng Ngãi,63,2014,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Quảng Ngãi,63,2015,13.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Quảng Ngãi,63,2016,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Quảng Ngãi,63,2017,12.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Quảng Ngãi,63,2018,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Quảng Ngãi,63,2019,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Quảng Ngãi,63,2020,15.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ngãi,63,2021,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -286,6 +655,15 @@ Quảng Ngãi,63,2022,15.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Quảng Ngãi,63,2023,13.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ngãi,63,2024,13.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ngãi,63,2025,12.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Quảng Ninh,63,2010,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Quảng Ninh,63,2011,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Quảng Ninh,63,2012,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Quảng Ninh,63,2013,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Quảng Ninh,63,2014,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Quảng Ninh,63,2015,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Quảng Ninh,63,2016,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Quảng Ninh,63,2017,15.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Quảng Ninh,63,2018,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Quảng Ninh,63,2019,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Quảng Ninh,63,2020,15.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ninh,63,2021,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -293,6 +671,15 @@ Quảng Ninh,63,2022,15.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Quảng Ninh,63,2023,12.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ninh,63,2024,13.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Ninh,63,2025,14.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Quảng Trị,63,2010,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Quảng Trị,63,2011,18.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Quảng Trị,63,2012,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Quảng Trị,63,2013,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Quảng Trị,63,2014,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Quảng Trị,63,2015,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Quảng Trị,63,2016,19.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Quảng Trị,63,2017,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Quảng Trị,63,2018,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Quảng Trị,63,2019,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Quảng Trị,63,2020,16.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Trị,63,2021,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -300,6 +687,15 @@ Quảng Trị,63,2022,15.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Quảng Trị,63,2023,14.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Trị,63,2024,14.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Quảng Trị,63,2025,14.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Sóc Trăng,63,2010,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Sóc Trăng,63,2011,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Sóc Trăng,63,2012,15.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Sóc Trăng,63,2013,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Sóc Trăng,63,2014,13.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Sóc Trăng,63,2015,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Sóc Trăng,63,2016,13.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Sóc Trăng,63,2017,11.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Sóc Trăng,63,2018,11.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Sóc Trăng,63,2019,11.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Sóc Trăng,63,2020,11.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sóc Trăng,63,2021,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -307,6 +703,15 @@ Sóc Trăng,63,2022,11.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Sóc Trăng,63,2023,11.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sóc Trăng,63,2024,10.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sóc Trăng,63,2025,11.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Sơn La,63,2010,24.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Sơn La,63,2011,23.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Sơn La,63,2012,23.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Sơn La,63,2013,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Sơn La,63,2014,23.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Sơn La,63,2015,23.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Sơn La,63,2016,23.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Sơn La,63,2017,22.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Sơn La,63,2018,18.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Sơn La,63,2019,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Sơn La,63,2020,19.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sơn La,63,2021,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -314,6 +719,15 @@ Sơn La,63,2022,17.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/0
 Sơn La,63,2023,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sơn La,63,2024,16.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Sơn La,63,2025,16.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+TP. Hồ Chí Minh,63,2010,15.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+TP. Hồ Chí Minh,63,2011,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+TP. Hồ Chí Minh,63,2012,13.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+TP. Hồ Chí Minh,63,2013,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+TP. Hồ Chí Minh,63,2014,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+TP. Hồ Chí Minh,63,2015,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+TP. Hồ Chí Minh,63,2016,11.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+TP. Hồ Chí Minh,63,2017,12.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+TP. Hồ Chí Minh,63,2018,11.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 TP. Hồ Chí Minh,63,2019,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 TP. Hồ Chí Minh,63,2020,14.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 TP. Hồ Chí Minh,63,2021,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -321,6 +735,15 @@ TP. Hồ Chí Minh,63,2022,13.6,per mille,"https://www.nso.gov.vn/wp-content/upl
 TP. Hồ Chí Minh,63,2023,12.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 TP. Hồ Chí Minh,63,2024,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 TP. Hồ Chí Minh,63,2025,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Thanh Hóa,63,2010,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Thanh Hóa,63,2011,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Thanh Hóa,63,2012,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Thanh Hóa,63,2013,15.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Thanh Hóa,63,2014,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Thanh Hóa,63,2015,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Thanh Hóa,63,2016,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Thanh Hóa,63,2017,16.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Thanh Hóa,63,2018,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Thanh Hóa,63,2019,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Thanh Hóa,63,2020,16.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thanh Hóa,63,2021,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -328,6 +751,15 @@ Thanh Hóa,63,2022,15.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Thanh Hóa,63,2023,13.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thanh Hóa,63,2024,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thanh Hóa,63,2025,13.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Thái Bình,63,2010,13.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Thái Bình,63,2011,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Thái Bình,63,2012,11.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Thái Bình,63,2013,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Thái Bình,63,2014,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Thái Bình,63,2015,13.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Thái Bình,63,2016,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Thái Bình,63,2017,12.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Thái Bình,63,2018,11.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Thái Bình,63,2019,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Thái Bình,63,2020,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Bình,63,2021,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -335,6 +767,15 @@ Thái Bình,63,2022,12.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Thái Bình,63,2023,12.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Bình,63,2024,12.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Bình,63,2025,12.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Thái Nguyên,63,2010,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Thái Nguyên,63,2011,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Thái Nguyên,63,2012,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Thái Nguyên,63,2013,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Thái Nguyên,63,2014,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Thái Nguyên,63,2015,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Thái Nguyên,63,2016,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Thái Nguyên,63,2017,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Thái Nguyên,63,2018,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Thái Nguyên,63,2019,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Thái Nguyên,63,2020,15.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Nguyên,63,2021,14.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -342,6 +783,15 @@ Thái Nguyên,63,2022,14.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/
 Thái Nguyên,63,2023,13.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Nguyên,63,2024,13.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thái Nguyên,63,2025,14.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Thừa Thiên Huế,63,2010,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Thừa Thiên Huế,63,2011,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Thừa Thiên Huế,63,2012,18.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Thừa Thiên Huế,63,2013,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Thừa Thiên Huế,63,2014,16.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Thừa Thiên Huế,63,2015,15.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Thừa Thiên Huế,63,2016,15.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Thừa Thiên Huế,63,2017,16.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Thừa Thiên Huế,63,2018,13.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Thừa Thiên Huế,63,2019,17.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Thừa Thiên Huế,63,2020,17.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thừa Thiên Huế,63,2021,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -349,6 +799,15 @@ Thừa Thiên Huế,63,2022,17.9,per mille,"https://www.nso.gov.vn/wp-content/up
 Thừa Thiên Huế,63,2023,16.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thừa Thiên Huế,63,2024,15.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Thừa Thiên Huế,63,2025,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Tiền Giang,63,2010,14.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Tiền Giang,63,2011,14.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Tiền Giang,63,2012,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Tiền Giang,63,2013,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Tiền Giang,63,2014,13.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Tiền Giang,63,2015,11.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Tiền Giang,63,2016,14.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Tiền Giang,63,2017,13.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Tiền Giang,63,2018,11.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Tiền Giang,63,2019,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Tiền Giang,63,2020,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tiền Giang,63,2021,12.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -356,6 +815,15 @@ Tiền Giang,63,2022,11.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Tiền Giang,63,2023,10.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tiền Giang,63,2024,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tiền Giang,63,2025,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Trà Vinh,63,2010,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Trà Vinh,63,2011,14.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Trà Vinh,63,2012,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Trà Vinh,63,2013,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Trà Vinh,63,2014,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Trà Vinh,63,2015,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Trà Vinh,63,2016,16.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Trà Vinh,63,2017,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Trà Vinh,63,2018,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Trà Vinh,63,2019,13.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Trà Vinh,63,2020,13.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Trà Vinh,63,2021,13.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -363,6 +831,15 @@ Trà Vinh,63,2022,10.8,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Trà Vinh,63,2023,11.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Trà Vinh,63,2024,11.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Trà Vinh,63,2025,10.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Tuyên Quang,63,2010,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Tuyên Quang,63,2011,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Tuyên Quang,63,2012,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Tuyên Quang,63,2013,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Tuyên Quang,63,2014,22.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Tuyên Quang,63,2015,20.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Tuyên Quang,63,2016,20.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Tuyên Quang,63,2017,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Tuyên Quang,63,2018,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Tuyên Quang,63,2019,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Tuyên Quang,63,2020,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tuyên Quang,63,2021,14.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -370,6 +847,15 @@ Tuyên Quang,63,2022,14.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2
 Tuyên Quang,63,2023,13.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tuyên Quang,63,2024,12.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tuyên Quang,63,2025,14.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Tây Ninh,63,2010,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Tây Ninh,63,2011,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Tây Ninh,63,2012,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Tây Ninh,63,2013,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Tây Ninh,63,2014,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Tây Ninh,63,2015,15.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Tây Ninh,63,2016,14.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Tây Ninh,63,2017,12.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Tây Ninh,63,2018,10.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Tây Ninh,63,2019,11.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Tây Ninh,63,2020,12.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tây Ninh,63,2021,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -377,6 +863,15 @@ Tây Ninh,63,2022,13.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Tây Ninh,63,2023,10.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tây Ninh,63,2024,10.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Tây Ninh,63,2025,11.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Vĩnh Long,63,2010,12.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Vĩnh Long,63,2011,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Vĩnh Long,63,2012,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Vĩnh Long,63,2013,15.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Vĩnh Long,63,2014,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Vĩnh Long,63,2015,11.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Vĩnh Long,63,2016,13.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Vĩnh Long,63,2017,10.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Vĩnh Long,63,2018,11.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Vĩnh Long,63,2019,11.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Vĩnh Long,63,2020,11.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Long,63,2021,10.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -384,6 +879,15 @@ Vĩnh Long,63,2022,10.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/202
 Vĩnh Long,63,2023,11.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Long,63,2024,9.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Long,63,2025,9.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Vĩnh Phúc,63,2010,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Vĩnh Phúc,63,2011,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Vĩnh Phúc,63,2012,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Vĩnh Phúc,63,2013,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Vĩnh Phúc,63,2014,20.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Vĩnh Phúc,63,2015,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Vĩnh Phúc,63,2016,19.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Vĩnh Phúc,63,2017,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Vĩnh Phúc,63,2018,17.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Vĩnh Phúc,63,2019,17.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Vĩnh Phúc,63,2020,17.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Phúc,63,2021,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -391,6 +895,15 @@ Vĩnh Phúc,63,2022,15.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/20
 Vĩnh Phúc,63,2023,14.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Phúc,63,2024,14.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Vĩnh Phúc,63,2025,12.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Yên Bái,63,2010,19.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Yên Bái,63,2011,19.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Yên Bái,63,2012,20.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Yên Bái,63,2013,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Yên Bái,63,2014,22.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Yên Bái,63,2015,20.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Yên Bái,63,2016,21.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Yên Bái,63,2017,19.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Yên Bái,63,2018,19.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Yên Bái,63,2019,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Yên Bái,63,2020,19.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Yên Bái,63,2021,19.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -398,6 +911,15 @@ Yên Bái,63,2022,16.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Yên Bái,63,2023,15.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Yên Bái,63,2024,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Điện Biên,63,2010,24.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Điện Biên,63,2011,24.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Điện Biên,63,2012,25.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Điện Biên,63,2013,22.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Điện Biên,63,2014,27.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Điện Biên,63,2015,23.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Điện Biên,63,2016,20.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Điện Biên,63,2017,23.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Điện Biên,63,2018,21.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Điện Biên,63,2019,21.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Điện Biên,63,2020,21.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Điện Biên,63,2021,21.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -405,6 +927,15 @@ Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Điện Biên,63,2023,19.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Điện Biên,63,2024,18.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Điện Biên,63,2025,20.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Đà Nẵng,63,2010,19.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Đà Nẵng,63,2011,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Đà Nẵng,63,2012,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Đà Nẵng,63,2013,19.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Đà Nẵng,63,2014,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Đà Nẵng,63,2015,17.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Đà Nẵng,63,2016,18.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Đà Nẵng,63,2017,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Đà Nẵng,63,2018,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Đà Nẵng,63,2019,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Đà Nẵng,63,2020,19.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đà Nẵng,63,2021,18.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -412,6 +943,15 @@ Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Đà Nẵng,63,2023,17.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đà Nẵng,63,2024,17.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đà Nẵng,63,2025,16.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Đắk Lắk,63,2010,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Đắk Lắk,63,2011,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Đắk Lắk,63,2012,18.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Đắk Lắk,63,2013,21.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Đắk Lắk,63,2014,17.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Đắk Lắk,63,2015,16.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Đắk Lắk,63,2016,18.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Đắk Lắk,63,2017,16.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Đắk Lắk,63,2018,17.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Đắk Lắk,63,2019,18.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Đắk Lắk,63,2020,18.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Lắk,63,2021,15.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -419,6 +959,15 @@ Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Đắk Lắk,63,2023,15.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Lắk,63,2024,14.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Lắk,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Đắk Nông,63,2010,20.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Đắk Nông,63,2011,19.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Đắk Nông,63,2012,21.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Đắk Nông,63,2013,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Đắk Nông,63,2014,19.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Đắk Nông,63,2015,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Đắk Nông,63,2016,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Đắk Nông,63,2017,15.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Đắk Nông,63,2018,21.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Đắk Nông,63,2019,20.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Đắk Nông,63,2020,19.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Nông,63,2021,19.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -426,6 +975,15 @@ Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Đắk Nông,63,2023,17.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Nông,63,2024,17.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đắk Nông,63,2025,16.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Đồng Nai,63,2010,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Đồng Nai,63,2011,18.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Đồng Nai,63,2012,16.2,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Đồng Nai,63,2013,18.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Đồng Nai,63,2014,16.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Đồng Nai,63,2015,17.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Đồng Nai,63,2016,14.7,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Đồng Nai,63,2017,13.0,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Đồng Nai,63,2018,14.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Đồng Nai,63,2019,17.1,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Đồng Nai,63,2020,17.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đồng Nai,63,2021,18.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final
@@ -433,6 +991,15 @@ Yên Bái,63,2025,17.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026
 Đồng Nai,63,2023,12.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đồng Nai,63,2024,12.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đồng Nai,63,2025,12.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+Đồng Tháp,63,2010,15.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2010)",final
+Đồng Tháp,63,2011,14.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2011)",final
+Đồng Tháp,63,2012,12.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2012)",final
+Đồng Tháp,63,2013,14.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2013)",final
+Đồng Tháp,63,2014,14.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2014)",final
+Đồng Tháp,63,2015,12.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2015)",final
+Đồng Tháp,63,2016,11.6,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2016)",final
+Đồng Tháp,63,2017,9.5,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2017)",final
+Đồng Tháp,63,2018,9.8,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2018)",final
 Đồng Tháp,63,2019,11.9,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
 Đồng Tháp,63,2020,13.0,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
 Đồng Tháp,63,2021,12.4,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2021)",final

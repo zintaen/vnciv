@@ -10,6 +10,10 @@
 import { t } from "../../i18n.js";
 import { esc, int, compact, dec } from "../../format.js";
 
+// Minderhoud et al. 2019, Nature Communications 10:3847 (abstract): "the Mekong delta has an extremely low mean elevation
+// of ~0.8 m above sea level, dramatically lower than the earlier assumed ~2.6 m".
+const DELTA_NOTE = "Global elevation models can misjudge low deltas: in the Mekong delta the map uses the elevation model of Minderhoud et al. (2019, Nature Communications), built from national topographic-map points, which puts the delta's mean elevation at about 0.8 m above sea level, not the about 2.6 m assumed earlier."
+
 const COLOR = "#2a7fc1";
 const BUCKETS = 10; // alpha steps: one path per step keeps the draw cheap
 const GROUPS = 12; // per threshold step, cells fade in 12 batches in order of their share
@@ -82,7 +86,7 @@ export function install(app) {
     const h = level < 0 ? 0 : data.levels[level];
     return `<div class="slr-stats"><b class="slr-n-hex">${int(s.hexes)}</b> ${t("hexes")} · ≈ <b class="slr-n-km">${int(s.km2)}</b> ${t("km² of land")} · ≈ <b class="slr-n-pop">${compact(s.people)}</b> ${t("residents")}</div>
       <div class="slr-top">${topHtml(s.prov)}</div>
-      <div class="slr-note">${esc(t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(h) }))}</div>`;
+      <div class="slr-note">${esc(t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(h) }))} ${esc(t(DELTA_NOTE))}</div>`;
   }
 
   // --- threshold steps ------------------------------------------------------------------------------------------
@@ -216,7 +220,7 @@ export function install(app) {
       slider.value = String(Math.max(0, level));
       slider.setAttribute("aria-valuetext", vt);
       if (!keepBody) panel.querySelector(".slr-body").innerHTML = readout();
-      else panel.querySelector(".slr-note").textContent = t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(lv[level]) });
+      else panel.querySelector(".slr-note").textContent = `${t("Land at or below {h} m. Coarse elevation (ETOPO1, ~1.8 km), no defences/tides: an exposure indicator, not a forecast. Residents are WorldPop 2025 in every timeline year, spread evenly over each hex's land.", { h: dec(lv[level]) })} ${t(DELTA_NOTE)}`;
       return;
     }
     panel.innerHTML = `${head}
@@ -376,7 +380,8 @@ export function install(app) {
       on = !!val;
       if (!on) cancel();
       if (on && !data) {
-        app.loadData("sealevel").then((d) => {
+        // (the density lens's values give the residents; they load on demand: app.lensValues)
+        Promise.all([app.loadData("sealevel"), app.lensValues?.("density")]).then(([d]) => {
           if (!d || !Array.isArray(d.levels)) { failed = true; render(); return; }
           data = d;
           level = drawn = Math.min(level, d.levels.length - 1);

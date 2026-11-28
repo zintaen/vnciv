@@ -1,0 +1,16 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "title": "Bản đồ Việt Nam · atlasvn.online",
+  "provider_name": "atlasvn.online",
+  "provider_url": "https://atlasvn.online/",
+  "author_name": "CyberSkill",
+  "author_url": "https://cyberskill.world/",
+  "html": "<iframe src=\"https://atlasvn.online/?embed=1\" title=\"Bản đồ Việt Nam · atlasvn.online\" width=\"640\" height=\"360\" style=\"width:100%;height:auto;aspect-ratio:640/360;border:0\" loading=\"lazy\"></iframe>",
+  "width": 640,
+  "height": 360,
+  "thumbnail_url": "https://atlasvn.online/og-image.png",
+  "thumbnail_width": 1200,
+  "thumbnail_height": 630,
+  "cache_age": 86400
+}

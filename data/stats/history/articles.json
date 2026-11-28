@@ -1,0 +1,838 @@
+{
+ "an_duong_vuong.json": {
+  "lang": "en",
+  "title": "An Dương Vương"
+ },
+ "apec2006.json": {
+  "lang": "en",
+  "title": "APEC Vietnam 2006"
+ },
+ "asean.json": {
+  "lang": "en",
+  "title": "ASEAN"
+ },
+ "august_revolution.json": {
+  "lang": "en",
+  "title": "August Revolution"
+ },
+ "ba_trieu_temple.json": {
+  "lang": "vi",
+  "title": "Đền Bà Triệu"
+ },
+ "bac_ninh.json": {
+  "lang": "en",
+  "title": "Bắc Ninh province"
+ },
+ "bach_dang_1288.json": {
+  "lang": "en",
+  "title": "Battle of Bạch Đằng (1288)"
+ },
+ "bach_dang_938.json": {
+  "lang": "en",
+  "title": "Battle of Bạch Đằng (938)"
+ },
+ "bach_dang_981.json": {
+  "lang": "en",
+  "title": "Battle of Bạch Đằng (981)"
+ },
+ "bai_chay.json": {
+  "lang": "en",
+  "title": "Bãi Cháy Bridge"
+ },
+ "battle_hanoi_1946.json": {
+  "lang": "en",
+  "title": "Battle of Hanoi (1946)"
+ },
+ "bualoi25.json": {
+  "lang": "en",
+  "title": "Typhoon Bualoi (2025)"
+ },
+ "ca_mau.json": {
+  "lang": "en",
+  "title": "Cà Mau province"
+ },
+ "can_tho.json": {
+  "lang": "en",
+  "title": "Cần Thơ"
+ },
+ "can_tho_br.json": {
+  "lang": "en",
+  "title": "Cần Thơ Bridge"
+ },
+ "can_vuong.json": {
+  "lang": "en",
+  "title": "Cần Vương movement"
+ },
+ "cao_bang_city.json": {
+  "lang": "en",
+  "title": "Cao Bằng"
+ },
+ "caobang_geopark.json": {
+  "lang": "vi",
+  "title": "Công viên địa chất Non nước Cao Bằng"
+ },
+ "cecil85.json": {
+  "lang": "en",
+  "title": "Typhoon Cecil (1985)"
+ },
+ "chauban.json": {
+  "lang": "vi",
+  "title": "Châu bản triều Nguyễn"
+ },
+ "chuong_duong.json": {
+  "lang": "en",
+  "title": "Chương Dương Bridge"
+ },
+ "co_loa.json": {
+  "lang": "en",
+  "title": "Cổ Loa Citadel"
+ },
+ "cptpp.json": {
+  "lang": "en",
+  "title": "Comprehensive and Progressive Agreement for Trans-Pacific Partnership"
+ },
+ "cpv.json": {
+  "lang": "en",
+  "title": "Communist Party of Vietnam"
+ },
+ "ct_bacnam.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Bắc – Nam phía Đông"
+ },
+ "ct_dn_qng.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Đà Nẵng – Quảng Ngãi"
+ },
+ "ct_hcm_lt_dg.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Thành phố Hồ Chí Minh – Long Thành – Dầu Giây"
+ },
+ "ct_hcm_tl.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Thành phố Hồ Chí Minh – Trung Lương"
+ },
+ "ct_hn_hp.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Hà Nội – Hải Phòng"
+ },
+ "ct_mt_ct.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Mỹ Thuận – Cần Thơ"
+ },
+ "ct_noibai_laocai.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Nội Bài – Lào Cai"
+ },
+ "ct_phapvan.json": {
+  "lang": "vi",
+  "title": "Đường cao tốc Pháp Vân – Cầu Giẽ"
+ },
+ "da_nang.json": {
+  "lang": "en",
+  "title": "Da Nang"
+ },
+ "dak_lak.json": {
+  "lang": "en",
+  "title": "Đắk Lắk province"
+ },
+ "daknong_geopark.json": {
+  "lang": "vi",
+  "title": "Công viên địa chất Đắk Nông"
+ },
+ "damrey17.json": {
+  "lang": "en",
+  "title": "Typhoon Damrey (2017)"
+ },
+ "dien_bien_phu.json": {
+  "lang": "en",
+  "title": "Battle of Dien Bien Phu"
+ },
+ "dinh_dynasty.json": {
+  "lang": "en",
+  "title": "Đinh dynasty"
+ },
+ "doi_moi_en.json": {
+  "lang": "en",
+  "title": "Đổi Mới"
+ },
+ "dong_da.json": {
+  "lang": "en",
+  "title": "Battle of Ngọc Hồi-Đống Đa"
+ },
+ "dong_nai.json": {
+  "lang": "en",
+  "title": "Đồng Nai province"
+ },
+ "drought20.json": {
+  "lang": "en",
+  "title": "2020 Mekong Delta drought"
+ },
+ "early_le.json": {
+  "lang": "en",
+  "title": "Early Lê dynasty"
+ },
+ "evfta.json": {
+  "lang": "en",
+  "title": "European Union–Vietnam Free Trade Agreement"
+ },
+ "fall_saigon.json": {
+  "lang": "en",
+  "title": "Fall of Saigon"
+ },
+ "floods16.json": {
+  "lang": "en",
+  "title": "2016 Vietnam floods"
+ },
+ "floods20.json": {
+  "lang": "en",
+  "title": "2020 Central Vietnam floods"
+ },
+ "floods25.json": {
+  "lang": "en",
+  "title": "2025 Central Vietnam floods"
+ },
+ "floods99.json": {
+  "lang": "en",
+  "title": "1999 Vietnamese floods"
+ },
+ "french_conquest.json": {
+  "lang": "en",
+  "title": "French conquest of Vietnam"
+ },
+ "geneva.json": {
+  "lang": "en",
+  "title": "1954 Geneva Conference"
+ },
+ "gia_long.json": {
+  "lang": "en",
+  "title": "Gia Long"
+ },
+ "gp_langson.json": {
+  "lang": "vi",
+  "title": "Công viên địa chất Lạng Sơn"
+ },
+ "ha_son_binh.json": {
+  "lang": "en",
+  "title": "Hà Sơn Bình province"
+ },
+ "ha_tay.json": {
+  "lang": "en",
+  "title": "Hà Tây province"
+ },
+ "ha_tinh.json": {
+  "lang": "en",
+  "title": "Hà Tĩnh province"
+ },
+ "hai_phong.json": {
+  "lang": "en",
+  "title": "Haiphong"
+ },
+ "hai_van_tunnel.json": {
+  "lang": "en",
+  "title": "Hải Vân Tunnel"
+ },
+ "hanoi.json": {
+  "lang": "en",
+  "title": "Hanoi"
+ },
+ "hcm_metro1.json": {
+  "lang": "en",
+  "title": "Line 1 (Ho Chi Minh City Metro)"
+ },
+ "hcmc.json": {
+  "lang": "en",
+  "title": "Ho Chi Minh City"
+ },
+ "hn_metro2a.json": {
+  "lang": "en",
+  "title": "Hanoi Metro Line 2A"
+ },
+ "hn_metro3.json": {
+  "lang": "en",
+  "title": "Hanoi Metro Line 3"
+ },
+ "ho_chi_minh.json": {
+  "lang": "en",
+  "title": "Ho Chi Minh"
+ },
+ "ho_citadel.json": {
+  "lang": "en",
+  "title": "Citadel of the Hồ Dynasty"
+ },
+ "ho_dynasty.json": {
+  "lang": "en",
+  "title": "Hồ dynasty"
+ },
+ "hoa_binh_dam.json": {
+  "lang": "en",
+  "title": "Hòa Bình Dam"
+ },
+ "hoa_lu_ancient.json": {
+  "lang": "en",
+  "title": "Hoa Lư Ancient Capital"
+ },
+ "hue.json": {
+  "lang": "en",
+  "title": "Huế"
+ },
+ "hue_treaty.json": {
+  "lang": "en",
+  "title": "Treaty of Huế (1884)"
+ },
+ "hxvinh.json": {
+  "lang": "en",
+  "title": "Hoàng Xuân Vinh"
+ },
+ "ich_baichoi.json": {
+  "lang": "vi",
+  "title": "Bài chòi"
+ },
+ "ich_catru.json": {
+  "lang": "vi",
+  "title": "Ca trù"
+ },
+ "ich_congchieng.json": {
+  "lang": "vi",
+  "title": "Không gian văn hóa Cồng Chiêng Tây Nguyên"
+ },
+ "ich_giong.json": {
+  "lang": "vi",
+  "title": "Hội Gióng"
+ },
+ "ich_gomcham.json": {
+  "lang": "vi",
+  "title": "Nghệ thuật làm gốm của người Chăm"
+ },
+ "ich_hung.json": {
+  "lang": "vi",
+  "title": "Tín ngưỡng thờ cúng Hùng Vương"
+ },
+ "ich_nhanhac.json": {
+  "lang": "vi",
+  "title": "Nhã nhạc cung đình Huế"
+ },
+ "ich_quanho.json": {
+  "lang": "vi",
+  "title": "Quan họ"
+ },
+ "ich_taitu.json": {
+  "lang": "vi",
+  "title": "Đờn ca tài tử Nam Bộ"
+ },
+ "ich_then.json": {
+  "lang": "vi",
+  "title": "Hát then"
+ },
+ "ich_vigiam.json": {
+  "lang": "vi",
+  "title": "Dân ca ví, giặm Nghệ Tĩnh"
+ },
+ "ich_xoan.json": {
+  "lang": "vi",
+  "title": "Hát xoan"
+ },
+ "ich_xoe.json": {
+  "lang": "vi",
+  "title": "Xòe Thái"
+ },
+ "imperial_hue.json": {
+  "lang": "en",
+  "title": "Imperial City of Huế"
+ },
+ "japanese_coup_1945.json": {
+  "lang": "en",
+  "title": "Japanese coup d'état in French Indochina"
+ },
+ "kalmaegi25.json": {
+  "lang": "en",
+  "title": "Typhoon Kalmaegi (2025)"
+ },
+ "ketsana09.json": {
+  "lang": "en",
+  "title": "Typhoon Ketsana"
+ },
+ "khanh_hoa.json": {
+  "lang": "en",
+  "title": "Khánh Hòa province"
+ },
+ "lady_trieu.json": {
+  "lang": "en",
+  "title": "Lady Triệu"
+ },
+ "lam_son.json": {
+  "lang": "en",
+  "title": "Lam Sơn uprising"
+ },
+ "later_le.json": {
+  "lang": "en",
+  "title": "Later Lê dynasty"
+ },
+ "le_thanh_tong.json": {
+  "lang": "en",
+  "title": "Lê Thánh Tông"
+ },
+ "linda97.json": {
+  "lang": "en",
+  "title": "Typhoon Linda (1997)"
+ },
+ "long_bien.json": {
+  "lang": "en",
+  "title": "Long Biên Bridge"
+ },
+ "long_thanh.json": {
+  "lang": "en",
+  "title": "Long Thanh Airport"
+ },
+ "ly_dynasty.json": {
+  "lang": "en",
+  "title": "Lý dynasty"
+ },
+ "ly_nam_de.json": {
+  "lang": "en",
+  "title": "Lý Nam Đế"
+ },
+ "mac_dynasty.json": {
+  "lang": "en",
+  "title": "Mạc dynasty"
+ },
+ "me_linh.json": {
+  "lang": "en",
+  "title": "Mê Linh district"
+ },
+ "molave20.json": {
+  "lang": "en",
+  "title": "Typhoon Molave"
+ },
+ "mongol_vn.json": {
+  "lang": "en",
+  "title": "Mongol invasions of Vietnam"
+ },
+ "my_thuan.json": {
+  "lang": "en",
+  "title": "Mỹ Thuận Bridge"
+ },
+ "ngo_dynasty.json": {
+  "lang": "en",
+  "title": "Ngô dynasty"
+ },
+ "ngobaochau.json": {
+  "lang": "en",
+  "title": "Ngô Bảo Châu"
+ },
+ "nguyen_dynasty.json": {
+  "lang": "en",
+  "title": "Nguyễn dynasty"
+ },
+ "nguyen_woodblocks.json": {
+  "lang": "vi",
+  "title": "Mộc bản triều Nguyễn"
+ },
+ "nhat_tan.json": {
+  "lang": "en",
+  "title": "Nhật Tân Bridge"
+ },
+ "noi_bai.json": {
+  "lang": "en",
+  "title": "Noi Bai International Airport"
+ },
+ "noru22.json": {
+  "lang": "en",
+  "title": "Typhoon Noru"
+ },
+ "nse.json": {
+  "lang": "en",
+  "title": "North–South Expressway"
+ },
+ "p_an_giang.json": {
+  "lang": "en",
+  "title": "An Giang province"
+ },
+ "p_ba_ria.json": {
+  "lang": "en",
+  "title": "Bà Rịa–Vũng Tàu province"
+ },
+ "p_bac_kan.json": {
+  "lang": "en",
+  "title": "Bắc Kạn province"
+ },
+ "p_bac_lieu.json": {
+  "lang": "en",
+  "title": "Bạc Liêu province"
+ },
+ "p_binh_duong.json": {
+  "lang": "en",
+  "title": "Bình Dương province"
+ },
+ "p_ca_mau.json": {
+  "lang": "en",
+  "title": "Cà Mau province"
+ },
+ "p_cao_bang.json": {
+  "lang": "en",
+  "title": "Cao Bằng province"
+ },
+ "p_dak_lak.json": {
+  "lang": "en",
+  "title": "Đắk Lắk province"
+ },
+ "p_dak_nong.json": {
+  "lang": "en",
+  "title": "Đắk Nông province"
+ },
+ "p_dien_bien.json": {
+  "lang": "en",
+  "title": "Điện Biên province"
+ },
+ "p_dong_thap.json": {
+  "lang": "en",
+  "title": "Đồng Tháp province"
+ },
+ "p_gia_lai.json": {
+  "lang": "en",
+  "title": "Gia Lai province"
+ },
+ "p_ha_giang.json": {
+  "lang": "en",
+  "title": "Hà Giang province"
+ },
+ "p_ha_nam.json": {
+  "lang": "en",
+  "title": "Hà Nam province"
+ },
+ "p_hai_duong.json": {
+  "lang": "en",
+  "title": "Hải Dương province"
+ },
+ "p_hoa_binh.json": {
+  "lang": "en",
+  "title": "Hòa Bình province"
+ },
+ "p_hung_yen.json": {
+  "lang": "en",
+  "title": "Hưng Yên province"
+ },
+ "p_khanh_hoa.json": {
+  "lang": "en",
+  "title": "Khánh Hòa province"
+ },
+ "p_lam_dong.json": {
+  "lang": "en",
+  "title": "Lâm Đồng province"
+ },
+ "p_lang_son.json": {
+  "lang": "en",
+  "title": "Lạng Sơn province"
+ },
+ "p_lao_cai.json": {
+  "lang": "en",
+  "title": "Lào Cai province"
+ },
+ "p_nghe_an.json": {
+  "lang": "en",
+  "title": "Nghệ An province"
+ },
+ "p_ninh_binh.json": {
+  "lang": "en",
+  "title": "Ninh Bình province"
+ },
+ "p_ninh_thuan.json": {
+  "lang": "en",
+  "title": "Ninh Thuận province"
+ },
+ "p_phu_tho.json": {
+  "lang": "en",
+  "title": "Phú Thọ province"
+ },
+ "p_phu_yen.json": {
+  "lang": "en",
+  "title": "Phú Yên province"
+ },
+ "p_quang_binh.json": {
+  "lang": "en",
+  "title": "Quảng Bình province"
+ },
+ "p_quang_nam.json": {
+  "lang": "en",
+  "title": "Quảng Nam province"
+ },
+ "p_quang_ngai.json": {
+  "lang": "en",
+  "title": "Quảng Ngãi province"
+ },
+ "p_quang_tri.json": {
+  "lang": "en",
+  "title": "Quảng Trị province"
+ },
+ "p_tay_ninh.json": {
+  "lang": "en",
+  "title": "Tây Ninh province"
+ },
+ "p_thai_nguyen.json": {
+  "lang": "en",
+  "title": "Thái Nguyên province"
+ },
+ "p_thanh_hoa.json": {
+  "lang": "en",
+  "title": "Thanh Hóa province"
+ },
+ "p_tuyen_quang.json": {
+  "lang": "en",
+  "title": "Tuyên Quang province"
+ },
+ "p_vinh_long.json": {
+  "lang": "en",
+  "title": "Vĩnh Long province"
+ },
+ "p_yen_bai.json": {
+  "lang": "en",
+  "title": "Yên Bái province"
+ },
+ "paracel_battle.json": {
+  "lang": "en",
+  "title": "Battle of the Paracel Islands"
+ },
+ "paris_accords.json": {
+  "lang": "en",
+  "title": "Paris Peace Accords"
+ },
+ "phamtuan.json": {
+  "lang": "en",
+  "title": "Phạm Tuân"
+ },
+ "proclamation.json": {
+  "lang": "en",
+  "title": "Proclamation of Independence of the Democratic Republic of Vietnam"
+ },
+ "quang_ninh.json": {
+  "lang": "en",
+  "title": "Quảng Ninh province"
+ },
+ "quang_tri.json": {
+  "lang": "en",
+  "title": "Quảng Trị province"
+ },
+ "rach_gam.json": {
+  "lang": "en",
+  "title": "Battle of Rạch Gầm-Xoài Mút"
+ },
+ "rach_mieu.json": {
+  "lang": "en",
+  "title": "Rạch Miễu Bridge"
+ },
+ "rail_dongdang.json": {
+  "lang": "en",
+  "title": "Hanoi–Đồng Đăng railway"
+ },
+ "rail_hp.json": {
+  "lang": "en",
+  "title": "Hanoi–Haiphong railway"
+ },
+ "rail_kunming.json": {
+  "lang": "en",
+  "title": "Kunming–Haiphong railway"
+ },
+ "rail_laocai.json": {
+  "lang": "en",
+  "title": "Hanoi–Lào Cai railway"
+ },
+ "rail_nsr.json": {
+  "lang": "en",
+  "title": "North–South railway (Vietnam)"
+ },
+ "rcep.json": {
+  "lang": "en",
+  "title": "Regional Comprehensive Economic Partnership"
+ },
+ "referendum_1955.json": {
+  "lang": "en",
+  "title": "1955 State of Vietnam referendum"
+ },
+ "reforms2025.json": {
+  "lang": "en",
+  "title": "2025 Vietnamese administrative reforms"
+ },
+ "seagames03.json": {
+  "lang": "en",
+  "title": "2003 SEA Games"
+ },
+ "sino_viet_war.json": {
+  "lang": "en",
+  "title": "Sino-Vietnamese War"
+ },
+ "son_la_dam.json": {
+  "lang": "en",
+  "title": "Sơn La Dam"
+ },
+ "spratly.json": {
+  "lang": "en",
+  "title": "Spratly Islands"
+ },
+ "story_coffee.json": {
+  "lang": "en",
+  "title": "Coffee production in Vietnam"
+ },
+ "story_highlands.json": {
+  "lang": "en",
+  "title": "Central Highlands (Vietnam)"
+ },
+ "story_rail.json": {
+  "lang": "en",
+  "title": "North–South railway (Vietnam)"
+ },
+ "tan_son_nhat.json": {
+  "lang": "en",
+  "title": "Tan Son Nhat International Airport"
+ },
+ "tay_ninh.json": {
+  "lang": "en",
+  "title": "Tây Ninh province"
+ },
+ "tay_son.json": {
+  "lang": "en",
+  "title": "Tây Sơn dynasty"
+ },
+ "temple_lit.json": {
+  "lang": "en",
+  "title": "Temple of Literature, Hanoi"
+ },
+ "tet_offensive.json": {
+  "lang": "en",
+  "title": "Tet Offensive"
+ },
+ "thang_long_br.json": {
+  "lang": "en",
+  "title": "Thăng Long Bridge"
+ },
+ "thu_thiem_tunnel.json": {
+  "lang": "en",
+  "title": "Thủ Thiêm Tunnel"
+ },
+ "thua_thien_hue.json": {
+  "lang": "en",
+  "title": "Thừa Thiên Huế province"
+ },
+ "tonkin_gulf.json": {
+  "lang": "en",
+  "title": "Gulf of Tonkin incident"
+ },
+ "tran_dynasty.json": {
+  "lang": "en",
+  "title": "Trần dynasty"
+ },
+ "trinh_nguyen.json": {
+  "lang": "en",
+  "title": "Trịnh–Nguyễn War"
+ },
+ "trung_sisters.json": {
+  "lang": "en",
+  "title": "Trưng sisters"
+ },
+ "us_vn_relations.json": {
+  "lang": "en",
+  "title": "Vietnam–United States relations"
+ },
+ "us_vn_trade.json": {
+  "lang": "en",
+  "title": "United States–Vietnam trade relations"
+ },
+ "vam_cong.json": {
+  "lang": "en",
+  "title": "Vàm Cống Bridge"
+ },
+ "van_lang.json": {
+  "lang": "en",
+  "title": "Văn Lang"
+ },
+ "vi_captinh.json": {
+  "lang": "vi",
+  "title": "Đơn vị hành chính cấp tỉnh (Việt Nam)"
+ },
+ "vi_hanhchinh.json": {
+  "lang": "vi",
+  "title": "Phân cấp hành chính Việt Nam"
+ },
+ "vi_hatay_tinh.json": {
+  "lang": "vi",
+  "title": "Hà Tây (tỉnh)"
+ },
+ "vi_nhu_nguyet.json": {
+  "lang": "vi",
+  "title": "Trận Như Nguyệt"
+ },
+ "vi_phuxuan.json": {
+  "lang": "vi",
+  "title": "Phú Xuân"
+ },
+ "viet_cong.json": {
+  "lang": "en",
+  "title": "Viet Cong"
+ },
+ "vietnam.json": {
+  "lang": "en",
+  "title": "Vietnam"
+ },
+ "vinasat1.json": {
+  "lang": "en",
+  "title": "Vinasat-1"
+ },
+ "vkfta.json": {
+  "lang": "en",
+  "title": "Vietnam–Korea Free Trade Agreement"
+ },
+ "vn_disasters.json": {
+  "lang": "en",
+  "title": "List of disasters in Vietnam by death toll"
+ },
+ "vung_tau.json": {
+  "lang": "en",
+  "title": "Vũng Tàu"
+ },
+ "wh_halong.json": {
+  "lang": "en",
+  "title": "Hạ Long Bay"
+ },
+ "wh_hue.json": {
+  "lang": "en",
+  "title": "Complex of Huế Monuments"
+ },
+ "wh_phongnha.json": {
+  "lang": "en",
+  "title": "Phong Nha-Kẻ Bàng National Park"
+ },
+ "wh_thanglong.json": {
+  "lang": "en",
+  "title": "Imperial Citadel of Thăng Long"
+ },
+ "wh_trangan.json": {
+  "lang": "en",
+  "title": "Tràng An"
+ },
+ "wh_yentu.json": {
+  "lang": "en",
+  "title": "Yên Tử"
+ },
+ "wh_yentu_vi.json": {
+  "lang": "vi",
+  "title": "Quần thể di tích và danh thắng Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc"
+ },
+ "whlist.json": {
+  "lang": "en",
+  "title": "List of World Heritage Sites in Vietnam"
+ },
+ "xangsane06.json": {
+  "lang": "en",
+  "title": "Typhoon Xangsane"
+ },
+ "yagi24.json": {
+  "lang": "en",
+  "title": "Typhoon Yagi"
+ },
+ "yen_bai.json": {
+  "lang": "en",
+  "title": "Yên Bái mutiny"
+ },
+ "yen_bai_city.json": {
+  "lang": "en",
+  "title": "Yên Bái"
+ }
+}

@@ -1,20 +1,23 @@
 // Land-tile art: a painterly texture over the flat tile colours, then per-cell "stamps" for land cover (forests,
-// farmland patchwork, pasture, prairie grass, desert scrub, marsh, suburbs, barren rock, ice) and relief (rolling
-// hills, mountain ranges, snowy peaks, desert mesas), combined sensibly (forested hills, desert mountains...).
+// rice paddies, pasture, grass, scrub, marsh, suburbs, barren rock, ice) and relief (rolling hills, mountain ranges,
+// peaks), combined sensibly (forested hills, terraced slopes...), with Vietnamese countryside motifs on farmed land.
 //
-// Interface (used by render/map.js and web/dev/gallery.js):
+// Interface (used by render/map.js, ext/living and web/dev/gallery.js):
 //
 //   drawTerrainGlyphs(ctx, cells, w, {Rpx, s, lod, bridges})
-//     ctx    2D context in WORLD transform (1 unit = 1 km; s css px per km already applied, dpr included)
+//     ctx    2D context in WORLD transform (map units; s css px per unit already applied, dpr included)
 //     cells  iterable of cell indices to decorate (water cells are skipped; pass every visible cell)
 //     w      prepared world (world.js prepareWorld) or anything with the same fields:
 //              grid {R, cols, rows, size, cx(i), cy(i), corners, neighbour(i, d)}, cover[], relief[], water[],
-//              pct? {forest[], ...}, raw.elev[], raw.owner[], raw.margin, raw.projection?, cityByCell: Map<cell, city>,
+//              pct? {forest[], crop[], ...}, raw.elev[], raw.owner[], raw.margin, cityByCell: Map<cell, city>,
 //              coverRGB? [id] → [r, g, b]
 //     Rpx    hex radius in css px (grid.R * s)
-//     s      css px per km
+//     s      css px per map unit
 //     lod    "far" | "mid" | "near" | "close" (render/art/lod.js lodFor(Rpx)); optional
 //     bridges  join relief across neighbouring hexes (default: on, except when `cells` is a single cell)
+//   fieldArt(w, i) → "paddy" | "terrace" | "rows": the field art of a cropland hex; isFieldCell(w, i, Rpx): drawn as
+//   a field tile; pondSpot(w, i): where a delta hex's pond sits (ext/hexlife)
+//   STAMP_KIND: sprite canvas → stamp name (ext/living/sway.js, ext/hexlife)
 //
 //   Cells under a full city tile are skipped (render/art/city.js draws them); a city drawn as a dot keeps its
 //   relief. Foreign land (owner -2) is painted at 40% opacity ("fog of war").
@@ -22,35 +25,36 @@
 // How it is drawn (fast enough to re-render the static layer on every zoom settle):
 //   1. Texture: one world-anchored repeating pattern per texture family (grass strokes, canopy dapples, sand
 //      ripples, rock speckle, marsh streaks, snow), filled through one Path2D of hexes per family.
-//   2. Fields: cropland is one world-anchored patchwork pattern (big fields, furrows, windbreaks), so fields run on
-//      across neighbouring hexes. Its orientation follows the survey grid: west of ~82.5°W the fields are squared
-//      to the meridians (the township-and-range grid), rotated per 3° band by the projection's convergence; in the
-//      East each ~280 km region gets its own irregular direction.
+//   2. Fields: each cropland hex is its own tile, like the other terrain: a world-anchored pattern (wet-rice paddies
+//      with dikes, terraced paddies, coffee rows) clipped to the hex and turned one of six ways per cell, with a
+//      soft hex edge, so neighbouring field hexes match in style but never run into one patchwork.
 //   3. Stamps: every piece of art is a sprite (render/art/sprites.js) painted once per (kind, variant, zoom
 //      bucket) in "R units" (1 unit = the hex radius) and blitted with drawImage. Ground-level stamps (pastures,
-//      marsh pools, centre pivots) go first; upright stamps (trees, hills, mountains, houses) are then sorted by
-//      their base line so nearer things overlap farther ones, also across cells.
+//      marsh pools, ponds, terrace and coffee patches) go first; upright stamps (trees, hills, mountains, houses,
+//      palms) are then sorted by their base line so nearer things overlap farther ones, also across cells.
 //   Relief is composed per cell, not stamped once: 1–3 jittered, rescaled massifs or mounds, plus "bridge"
 //   stamps on the edges shared with neighbours of the same relief so ranges run on across hexes. Wooded hills
-//   are earthy mounds strung along the local ridge direction (Appalachian Valley-and-Ridge) with single trees on
-//   their crests and flanks; desert ranges are grey-brown fault-block mountains, lined up north–south and broken
-//   by sage basins in the Great Basin; snow follows the highest sample (elev_max); mesas and buttes only appear on
-//   the Colorado Plateau between 1,400 and 2,400 m.
+//   are earthy mounds strung along the local ridge direction (NW–SE where the slope gives none, like the ranges of
+//   the north and the Trường Sơn) with single trees on their crests and flanks; snow follows the highest sample
+//   (elev_max).
 //   Sprites are never mirrored: the light always comes from the upper left, so variety comes from variants,
 //   jitter, scale and composition instead.
-//   LOD: far = texture, fields, mountains, hills and one clump per forest; mid = + marsh, suburbs, sparse scrub;
-//   near = full composition, meadows; close = denser clusters, farmsteads, flowers. Sprite detail (furrows,
-//   windows, cattails) also scales with the sprite's pixel size.
+//   LOD: far = texture, fields, mountains, hills and one clump per forest; mid = + marsh, suburbs, sparse scrub,
+//   ponds, terraces; near = full composition, meadows, villages, palms; close = denser clusters, flowers. Sprite
+//   detail (rice hills, roof tiles, windows, cattails) also scales with the sprite's pixel size.
 //   Everything is deterministic per cell (hash01(cell, salt)), so tiles never shimmer between renders.
+//   The Vietnamese motifs (paddies, terraces, villages, stilt houses, bamboo, palms, ponds, coffee) are
+//   illustrative: placed by the simple lon/lat, elevation and cropland rules at "Where the Vietnamese motifs go",
+//   not from farm surveys.
 //
-// Geography: lon/lat come from the world projection (world.json `projection` {min_x, max_y, margin} when present,
-// else the constants of the shipped grid). Worlds without one (the dev gallery) fall back to hash-based choices.
+// Geography: lon/lat come from the shipped grid's projection (see geo()); other worlds (the dev gallery) get no
+// regional motifs.
 import { hash01 } from "../../hex.js";
 import { COVER } from "../../terrain.js";
 import { FOREIGN } from "../../world.js";
 import { css, mix, shade, parseHex } from "../../color.js";
-import { cityIsDot, metroSpill, SUBURB_ART } from "./city.js";
-import { lodFor, atLeast } from "./lod.js";
+import { cityIsDot, metroSpill, SUBURB_ART, INDUSTRIAL_CELLS } from "./city.js";
+import { lodFor, atLeast, hexAt } from "./lod.js";
 import { bucketPx, deviceScale, getSprite, drawSprite, makePattern, wrapDraw, rng, spriteStats } from "./sprites.js";
 
 /** Below this hex radius (css px) no terrain art is drawn at all (map.js checks it too). */
@@ -59,7 +63,7 @@ export const GLYPHS_MIN_RPX = 7;
 /** Sprite cache counters, for profiling ({count, pixels, hits, misses, painted ms}). */
 export const terrainArtStats = spriteStats;
 
-/** Sprite canvas → stamp name ("tree", "clump", "barn", ...): ext/living finds the trees it sways and the houses it
+/** Sprite canvas → stamp name ("tree", "clump", "village", "stilt", ...): ext/living finds the trees it sways and the houses it
  *  lights among the stamps a render draws. */
 export const STAMP_KIND = new WeakMap();
 
@@ -374,25 +378,25 @@ function speckle(g, S, r, n, dark, light) {
 
 // --- geography (lon/lat of a cell) ---------------------------------------------------------------------------------
 
-// Albers equal-area conic of the pipeline (pipeline/core/geo.py Albers + MapProjection); keep in sync.
+// Map units → lon/lat: the inverse Albers equal-area conic of pipeline/geo.py MapProjection (lat1 11°, lat2 21°,
+// lat0 16°, lon0 106°) with pipeline/build/world.py FRAME min_x / max_y and MARGIN, 5 map units per km: the same
+// maths as ext/daynight/sun.js mapToLonLat (keep in sync). Only the shipped grid has it; other worlds (the dev
+// gallery) fall back to hash-based choices.
 const RAD = Math.PI / 180;
-const ALBERS = (() => {
-  const RE = 6371.0088, p1 = 29.5 * RAD, p2 = 45.5 * RAD, p0 = 37.5 * RAD;
-  const n = (Math.sin(p1) + Math.sin(p2)) / 2;
-  const c = Math.cos(p1) ** 2 + 2 * n * Math.sin(p1);
-  return { RE, n, c, rho0: (RE * Math.sqrt(c - 2 * n * Math.sin(p0))) / n, lon0: -96 };
+const VN = (() => {
+  const RE = 6371.0088, p1 = 11 * RAD, p2 = 21 * RAD, p0 = 16 * RAD;
+  const n = (Math.sin(p1) + Math.sin(p2)) / 2, c = Math.cos(p1) ** 2 + 2 * n * Math.sin(p1);
+  return { RE, n, c, rho0: (RE * Math.sqrt(c - 2 * n * Math.sin(p0))) / n, lon0: 106, unit: 5, margin: 200,
+    min_x: -801.2961167935589, max_y: 822.7997851038526, grid: [25, 263, 235] };
 })();
-// The shipped grid's projection (data/interim/_world.json), used when world.json does not carry `projection`.
-const SHIPPED_PROJ = { min_x: -2350.109311515341, max_y: 1559.2228881834299, margin: 200, grid: [25, 117, 90] };
 const geoTables = new WeakMap();
 
 function geoTable(w) {
   let t = geoTables.get(w);
   if (t === undefined) {
-    const raw = w.raw, g = w.grid, sp = SHIPPED_PROJ;
-    const p = raw.projection
-      || (raw.margin === sp.margin && g.R === sp.grid[0] && g.cols === sp.grid[1] && g.rows === sp.grid[2] ? sp : null);
-    t = p ? { p, lon: new Float32Array(g.size).fill(NaN), lat: new Float32Array(g.size) } : null;
+    const g = w.grid, [R, cols, rows] = VN.grid;
+    t = w.raw.margin === VN.margin && g.R === R && g.cols === cols && g.rows === rows
+      ? { lon: new Float32Array(g.size).fill(NaN), lat: new Float32Array(g.size) } : null;
     geoTables.set(w, t);
   }
   return t;
@@ -402,8 +406,8 @@ function geoTable(w) {
 function geo(w, i) {
   const t = geoTable(w);
   if (t && Number.isNaN(t.lon[i])) {
-    const { RE, n, c, rho0, lon0 } = ALBERS;
-    const X = w.grid.cx(i) + t.p.min_x - t.p.margin, Y = t.p.max_y + t.p.margin - w.grid.cy(i);
+    const { RE, n, c, rho0, lon0 } = VN;
+    const X = (w.grid.cx(i) - VN.margin) / VN.unit + VN.min_x, Y = VN.max_y - (w.grid.cy(i) - VN.margin) / VN.unit;
     const dy = rho0 - Y, rho = Math.hypot(X, dy);
     const s = (c - ((rho * n) / RE) ** 2) / (2 * n);
     t.lon[i] = lon0 + Math.atan2(X, dy) / n / RAD;
@@ -411,169 +415,260 @@ function geo(w, i) {
   }
   return t;
 }
+const inBox = (w, i, f) => { const t = geo(w, i); return !!t && f(t.lon[i], t.lat[i]); };
 
-/** Colorado Plateau (canyon country): the only place mesas and buttes are drawn. */
-function onPlateau(w, i) {
-  const e = w.raw.elev[i];
-  if (e < 1400 || e > 2400) return false; // tablelands, not the high ranges or the low desert
-  const t = geo(w, i);
-  if (!t) return hash01(i, 97) < 0.5; // synthetic worlds (the dev gallery): some high desert
-  const lon = t.lon[i], lat = t.lat[i];
-  return lat > 35.8 && lat < 38.6 && lon > -112.6 && lon < -107.8;
+// Where the Vietnamese countryside motifs go. They are illustrative (no farm survey behind them): each rule is a
+// lon/lat box plus the hex's elevation, relief and cropland share from world.json.
+/** Red River delta: 19.8°–21.7° N, 105.4°–107.1° E, below 15 m. */
+const redRiverDelta = (w, i) => w.raw.elev[i] < 15 && inBox(w, i, (lo, la) => la > 19.8 && la < 21.7 && lo > 105.4 && lo < 107.1);
+/** Mekong delta: south of 11.1° N and west of 107° E, below 15 m. */
+const mekongDelta = (w, i) => w.raw.elev[i] < 15 && inBox(w, i, (lo, la) => la < 11.1 && lo < 107);
+/** Northern uplands: north of 20.3° N, 100 m and higher (the Red River delta and the coast stay lowland). */
+const northUplands = (w, i) => w.raw.elev[i] >= 100 && inBox(w, i, (lo, la) => la >= 20.3);
+/** Central Highlands: 11.3°–15.6° N, west of 108.9° E, at `minElev` m and higher. */
+const highlands = (w, i, minElev = 300) => w.raw.elev[i] >= minElev && inBox(w, i, (lo, la) => la > 11.3 && la < 15.6 && lo < 108.9);
+/** Terraced paddies (ruộng bậc thang): hilly or mountain ground in the northern uplands or on the Central
+ *  Highlands' edges (from 200 m). */
+const terraceLand = (w, i) => w.relief[i] >= 1 && w.relief[i] <= 2 && (northUplands(w, i) || highlands(w, i, 200));
+/** Coffee / pepper rows: the Central Highlands' basalt plateaus, flat ground at 400–1000 m. */
+const coffeeLand = (w, i) => w.relief[i] === 0 && w.raw.elev[i] <= 1000 && highlands(w, i, 400);
+/** Stilt houses (nhà sàn) in the uplands (250 m and higher, or hills in the north); tiled-roof houses elsewhere. */
+const uplandHome = (w, i) => w.raw.elev[i] >= 250 || (w.relief[i] >= 1 && northUplands(w, i));
+/** Fish ponds (ao) in both deltas; shrimp ponds on the Mekong delta's coast, south of 9.9° N. */
+const pondLand = (w, i) => redRiverDelta(w, i) || mekongDelta(w, i);
+const shrimpCoast = (w, i) => w.raw.elev[i] < 5 && inBox(w, i, (lo, la) => la < 9.9 && lo < 107);
+/** The pond on a farmed delta hex (40% of them), in R units from the hex centre: {x, y, f, shrimp}, or null. Only
+ *  flat cropland and pasture outside city tiles get it (planCell); ext/hexlife puts its ducks there. */
+export function pondSpot(w, i) {
+  if (!pondLand(w, i) || hash01(i, 150) >= 0.4) return null;
+  return { x: (hash01(i, 152) - 0.5) * 0.6, y: 0.25 + (hash01(i, 153) - 0.5) * 0.4, f: 1.1 + hash01(i, 154) * 0.3, shrimp: shrimpCoast(w, i) };
 }
+/** Coconut palms: the Mekong delta below 20 m, and the south-central coast (10.5°–16.2° N, east of 107.9° E) below
+ *  40 m. */
+const palmLand = (w, i) => (w.raw.elev[i] < 20 && inBox(w, i, (lo, la) => la < 11.1 && lo < 107))
+  || (w.raw.elev[i] < 40 && inBox(w, i, (lo, la) => la > 10.5 && la < 16.2 && lo > 107.9));
+/** The dry coast of Ninh Thuận – Bình Thuận (10.5°–12.3° N, east of 108.3° E): the only cactus and dunes. */
+const dryCoast = (w, i) => inBox(w, i, (lo, la) => la > 10.5 && la < 12.3 && lo > 108.3);
 
-/** The Great Basin (Nevada, western Utah, eastern Oregon and California): basin-and-range country. */
-function inGreatBasin(w, i) {
-  const t = geo(w, i);
-  if (!t) return false;
-  const lon = t.lon[i], lat = t.lat[i];
-  return lat > 36.2 && lat < 43.6 && lon > -120.3 && lon < -111.8;
-}
+// --- 2. cropland: one tile per hex --------------------------------------------------------------------------------
 
-/** Centre-pivot irrigation belongs to the dry High Plains and the West (west of ~98°W). */
-function pivotCountry(w, i) {
-  const t = geo(w, i);
-  return !t || t.lon[i] < -98;
-}
-
-// --- 2. cropland patchwork ----------------------------------------------------------------------------------------
-
-const FIELD_T = 256; // km per pattern tile (about six hexes across, so the repeat is hard to spot)
+// Each cropland hex is its own tile: a world-anchored pattern (paddies, terraces or coffee rows) clipped to the hex,
+// turned to one of six directions picked per cell, then a soft hex edge (a darker rim and a light dike, bờ ruộng),
+// so neighbouring field hexes share a style but read as separate tiles, like the forest and grass hexes. Cells are
+// grouped by (art, direction), so a render costs a handful of pattern fills and two strokes.
 const FIELD_TILE_MAX_PX = 2048;
 const FIELD_ALPHA = { far: 0.6, mid: 0.9, near: 1, close: 1 };
 
-/** Cells that get the field patchwork: cropland on flat or hilly ground, not under a full city tile. */
-function isFieldCell(w, i, Rpx) {
+/** Cells drawn as field tiles: cropland on flat or hilly ground, not under a full city tile. */
+export function isFieldCell(w, i, Rpx) {
   if (w.cover[i] !== COVER.CROP || w.relief[i] > 1 || w.water[i]) return false;
   const city = w.cityByCell.get(i);
   return !city || cityIsDot(city, Rpx);
 }
 
-/** Field orientation region of a cell: {key, ang (rad), ox, oy (km pattern offset)}. */
-function fieldRegion(w, i) {
-  const t = geo(w, i);
-  if (t && t.lon[i] < -82.5) {
-    // Township-and-range country: fields squared to the meridians. Rotating north by the Albers convergence
-    // n·(lon − lon0) per 3° band keeps them aligned with the real section lines.
-    const band = Math.floor((t.lon[i] + 130) / 3);
-    const lonMid = band * 3 - 130 + 1.5;
-    return { key: `p${band}`, ang: -ALBERS.n * (lonMid - ALBERS.lon0) * RAD, ox: band * 37.3, oy: band * 23.9 };
-  }
-  // Metes-and-bounds country (or no projection): an irregular direction per ~280 km region.
-  const bx = Math.floor(w.grid.cx(i) / 280), by = Math.floor(w.grid.cy(i) / 280);
-  const id = bx * 7919 + by * 104729;
-  const ang = [-0.42, -0.2, 0.12, 0.3, 0.52, -0.08][Math.floor(hash01(id, 5) * 6)];
-  return { key: `e${bx},${by}`, ang, ox: hash01(id, 6) * FIELD_T, oy: hash01(id, 7) * FIELD_T };
+/** The field art of a cropland hex: "terrace" (terraced paddies on hilly upland ground), "rows" (coffee / pepper on
+ *  the highland plateaus) or "paddy" (wet rice with dikes, everywhere else). ext/hexlife reads it. */
+export function fieldArt(w, i) {
+  return terraceLand(w, i) ? "terrace" : coffeeLand(w, i) ? "rows" : "paddy";
 }
 
 function drawFields(ctx, cells, w, s, dpr, lod, Rpx) {
-  const groups = new Map();
+  const { grid } = w, R = grid.R;
+  const groups = new Map(), all = [];
   for (const i of cells) {
     if (!isFieldCell(w, i, Rpx)) continue;
-    const reg = fieldRegion(w, i);
-    const key = reg.key + (w.raw.owner[i] === FOREIGN ? "|f" : "");
+    const art = fieldArt(w, i), dir = Math.floor(hash01(i, 509) * 6), f = w.raw.owner[i] === FOREIGN;
+    const key = `${art}|${dir}|${f ? 1 : 0}`;
     let gr = groups.get(key);
-    if (!gr) groups.set(key, (gr = { reg, foreign: key.endsWith("|f"), cells: [] }));
-    gr.cells.push(i);
+    if (!gr) groups.set(key, (gr = { art, dir, f, path: new Path2D() }));
+    hexAt(gr.path, grid.cx(i), grid.cy(i), R, 1);
+    all.push(i);
   }
-  if (!groups.size) return;
-  // Pattern pixels per km: the power-of-two bucket of the zoom, capped so the tile canvas stays small.
-  let sb = 2 ** Math.round(Math.log2(s));
-  while (FIELD_T * sb * dpr > FIELD_TILE_MAX_PX && sb > 1 / 64) sb /= 2;
-  const dpx = sb * dpr;
+  if (!all.length) return;
+  const sb0 = 2 ** Math.round(Math.log2(s));
   const base = FIELD_ALPHA[lod] ?? 1;
-  const pat = makePattern(ctx, `terrain-fields@${base}`, FIELD_T * sb, dpr, bakedAlpha(base, (g, size) => {
-    g.scale(size / FIELD_T, size / FIELD_T);
-    paintFieldTile(g, dpx);
-  }));
-  for (const { reg, foreign, cells: list } of groups.values()) {
-    pat.setTransform(new DOMMatrix().translateSelf(reg.ox, reg.oy).rotateSelf(reg.ang / RAD).scaleSelf(1 / dpx));
-    ctx.globalAlpha = foreign ? FOREIGN_ALPHA : 1;
+  for (const { art, dir, f, path } of groups.values()) {
+    const F = FIELD_ART[art];
+    // Pattern pixels per map unit: the power-of-two bucket of the zoom, capped so the tile canvas stays small.
+    let sb = sb0;
+    while (F.T * sb * dpr > FIELD_TILE_MAX_PX && sb > 1 / 64) sb /= 2;
+    const dpx = sb * dpr;
+    const pat = makePattern(ctx, `terrain-fields:${art}@${base}`, F.T * sb, dpr, bakedAlpha(base, (g, size) => {
+      g.scale(size / F.T, size / F.T);
+      F.paint(g, dpx);
+    }));
+    const ox = hash01(dir, 511) * F.T, oy = hash01(dir, 512) * F.T;
+    pat.setTransform(new DOMMatrix().translateSelf(ox, oy).rotateSelf(F.ang[dir] / RAD).scaleSelf(1 / dpx));
+    ctx.globalAlpha = f ? FOREIGN_ALPHA : 1;
     ctx.fillStyle = pat;
-    ctx.fill(hexRunsPath(w.grid, list));
+    ctx.fill(path);
   }
   ctx.globalAlpha = 1;
+  // The soft hex edge: a wide, faint earthy rim just inside the hex, then a thin light dike.
+  if (Rpx < 9) return;
+  const rim = new Path2D(), dike = new Path2D();
+  for (const i of all) {
+    const x = grid.cx(i), y = grid.cy(i);
+    hexAt(rim, x, y, R, 0.95);
+    hexAt(dike, x, y, R, 0.885);
+  }
+  ctx.lineJoin = "round";
+  ctx.strokeStyle = "rgba(70,54,24,.22)";
+  ctx.lineWidth = R * 0.09;
+  ctx.stroke(rim);
+  ctx.strokeStyle = "rgba(238,226,182,.34)";
+  ctx.lineWidth = Math.max(R * 0.022, 0.8 / s);
+  ctx.stroke(dike);
 }
 
-// Crop colours (corn, soy, wheat, stubble, ploughed earth, hay) and their weights.
-const CROPS = [
-  ["#7f9f3c", 3], ["#94b04a", 2.5], ["#6c8c36", 2], ["#d8b84f", 2.5], ["#e2c86c", 1.5], ["#c9a446", 1.2],
-  ["#d9cc98", 1], ["#a97f50", 1], ["#8d6a45", 0.8], ["#b4bf62", 1.2],
+// Paddy colours (young and green rice, flooded plots, ripening and ripe rice, a fallow plot) and their weights.
+// With "Rice seasons" on, ext/living recolours rice hexes by the month; the dikes keep their light tone under it.
+const PADDY = [
+  ["#6f9e3e", 3], ["#86b34a", 3], ["#5c8f37", 2], ["#7fae8f", 1.6], ["#9cc2a8", 1], ["#b6bd4c", 1.2], ["#d3b448", 0.8],
+  ["#a58c5a", 0.4],
 ].map(([c, wgt]) => [C(c), wgt]);
-const CROP_W = CROPS.map((c) => c[1]);
+const PADDY_W = PADDY.map((c) => c[1]);
+const WET = new Set([3, 4]);
 
-/** One seamless tile of fields, painted in km (dpx = device px per km): lanes between fields, furrows, windbreaks. */
-function paintFieldTile(g, dpx) {
-  const r = rng(4021);
-  const T = FIELD_T, px = 1 / dpx;
-  g.fillStyle = "#a18f5d"; // lanes and field margins
+/** Field art by kind: T = pattern tile size (map units), paint(g, dpx) in map units, ang = the six directions (rad). */
+const FIELD_ART = {
+  paddy: { T: 96, paint: paintPaddyTile, ang: [-0.62, -0.3, 0.02, 0.33, 0.66, 1.05] },
+  terrace: { T: 96, paint: paintTerraceTile, ang: [-0.2, -0.12, -0.05, 0.03, 0.1, 0.18] },
+  rows: { T: 48, paint: paintRowsTile, ang: [-0.55, -0.25, 0, 0.28, 0.52, 0.8] },
+};
+
+/** Wet-rice paddies: small plots in long strips, light earthen dikes (bờ) between them, flooded plots shining. */
+function paintPaddyTile(g, dpx) {
+  const r = rng(5113), T = 96, px = 1 / dpx;
+  g.fillStyle = "#a99a6a";
   g.fillRect(0, 0, T, T);
-  const lane = Math.max(0.35, px * 0.9);
-  const furrows = dpx >= 1.6;
-  const breaks = [];
+  const dike = Math.max(0.3, px * 1.1);
   for (let x = 0; x < T; ) {
-    let cw = 13 + r() * 15;
-    if (T - x - cw < 9) cw = T - x;
+    let cw = 3.5 + r() * 4.5;
+    if (T - x - cw < 3) cw = T - x;
     for (let y = 0; y < T; ) {
-      let rh = 9 + r() * 19;
-      if (T - y - rh < 8) rh = T - y;
-      // Some fields are split into two strips along their long side.
-      const split = r() < 0.28 ? 2 : 1;
-      for (let k = 0; k < split; k++) {
-        const vert = cw > rh;
-        const fx = vert ? x + (cw / split) * k : x, fy = vert ? y : y + (rh / split) * k;
-        const fw = vert ? cw / split : cw, fh = vert ? rh : rh / split;
-        paintField(g, r, fx + lane / 2, fy + lane / 2, fw - lane, fh - lane, px, furrows);
-      }
-      if (r() < 0.07) breaks.push([x, y + rh, cw, true]);
+      let rh = 2.5 + r() * 3.5;
+      if (T - y - rh < 2) rh = T - y;
+      paintPlot(g, r, x + dike / 2, y + dike / 2, cw - dike, rh - dike, px, dpx);
       y += rh;
     }
-    if (r() < 0.2) breaks.push([x + cw, r() * T * 0.6, 30 + r() * 60, false]);
+    // now and then a wider dike with a path along it
+    if (r() < 0.18) {
+      g.fillStyle = "#bcae80";
+      g.fillRect(x + cw - dike * 0.9, 0, dike * 1.8, T);
+    }
     x += cw;
   }
-  // Windbreaks: soft continuous tree lines along a few lanes (never across the tile edge).
-  if (dpx >= 1.2) {
-    for (const [x0, y0, len, horiz] of breaks) {
-      const pts = [];
-      for (let t = 0; t <= len; t += 0.5) {
-        const p = horiz ? [x0 + t, y0] : [x0, y0 + t];
-        if (p[0] > 1 && p[0] < T - 1 && p[1] > 1 && p[1] < T - 1) pts.push(p);
+}
+
+function paintPlot(g, r, x, y, w, h, px, dpx) {
+  const k = pickWeighted(r, PADDY_W), c = PADDY[k][0];
+  g.fillStyle = css(c);
+  g.fillRect(x, y, w, h);
+  const gr = g.createLinearGradient(x, y, x + w, y + h);
+  if (WET.has(k)) {
+    // standing water: a sky sheen across the plot
+    gr.addColorStop(0, "rgba(235,248,250,.32)");
+    gr.addColorStop(0.5, "rgba(235,248,250,0)");
+    gr.addColorStop(1, "rgba(20,60,70,.12)");
+  } else {
+    gr.addColorStop(0, "rgba(255,248,215,.14)");
+    gr.addColorStop(0.6, "rgba(255,248,215,0)");
+    gr.addColorStop(1, "rgba(30,40,0,.12)");
+  }
+  g.fillStyle = gr;
+  g.fillRect(x, y, w, h);
+  if (dpx >= 3) {
+    // rows of rice hills, close up
+    const step = Math.max(0.55, px * 2.6);
+    g.fillStyle = css(shade(c, WET.has(k) ? -0.3 : -0.22), 0.4);
+    const d = Math.max(px * 0.8, step * 0.3);
+    for (let yy = y + step / 2; yy < y + h; yy += step) for (let xx = x + step / 2; xx < x + w; xx += step) g.fillRect(xx, yy, d, d);
+  }
+  // the dike's lip: lit on the upper left, its shadow on the plot's lower right
+  g.lineWidth = Math.max(px, 0.14);
+  g.strokeStyle = "rgba(255,246,212,.24)";
+  g.beginPath();
+  g.moveTo(x, y + h); g.lineTo(x, y); g.lineTo(x + w, y);
+  g.stroke();
+  g.strokeStyle = "rgba(60,46,18,.26)";
+  g.beginPath();
+  g.moveTo(x + w, y); g.lineTo(x + w, y + h); g.lineTo(x, y + h);
+  g.stroke();
+}
+
+/** Terraced paddies: contour bands that follow the slope, each with a light dike on its lip and a shaded riser
+ *  below; seamless (the curves repeat across the tile and the bands wrap top to bottom). */
+function paintTerraceTile(g, dpx) {
+  const r = rng(7027), T = 96, px = 1 / dpx;
+  const ys = [0];
+  while (ys.at(-1) < T - 4) ys.push(ys.at(-1) + 2.4 + r() * 1.6);
+  ys[ys.length - 1] = T;
+  const K = ys.length - 1, ph = r() * TAU, ph2 = r() * TAU;
+  const curve = (k, x) => ys[k] + 1.7 * Math.sin((TAU * x) / T + ph) + 0.7 * Math.sin((2 * TAU * x) / T + ph2 + (k % K) * (TAU / K));
+  const STEP = 3;
+  const line = (k, dy, back) => {
+    if (!back) for (let x = 0; x <= T; x += STEP) g.lineTo(x, curve(k, x) + dy);
+    else for (let x = T; x >= 0; x -= STEP) g.lineTo(x, curve(k, x) + dy);
+  };
+  for (let k = 0; k < K; k++) {
+    const pk = pickWeighted(r, PADDY_W), c = PADDY[pk][0];
+    for (const dy of [-T, 0, T]) {
+      g.beginPath();
+      g.moveTo(0, curve(k, 0) + dy);
+      line(k, dy, false);
+      line(k + 1, dy, true);
+      g.closePath();
+      g.fillStyle = css(c);
+      g.fill();
+      if (WET.has(pk)) {
+        g.fillStyle = "rgba(235,248,250,.18)";
+        g.fill();
       }
-      if (pts.length > 3) treeLine(g, pts, 0.42, px, rng(Math.floor(x0 * 31 + y0 * 17)));
+      // the riser's shade under the next band, then the dike on this band's lip
+      g.beginPath();
+      g.moveTo(0, curve(k + 1, 0) + dy - 0.35);
+      line(k + 1, dy - 0.35, false);
+      g.strokeStyle = "rgba(64,48,20,.42)";
+      g.lineWidth = Math.max(px * 1.2, 0.6);
+      g.stroke();
+      g.beginPath();
+      g.moveTo(0, curve(k + 1, 0) + dy - 0.75);
+      line(k + 1, dy - 0.75, false);
+      g.strokeStyle = "rgba(238,228,186,.7)";
+      g.lineWidth = Math.max(px, 0.3);
+      g.stroke();
     }
   }
 }
 
-function paintField(g, r, x, y, fw, fh, px, furrows) {
-  const c = CROPS[pickWeighted(r, CROP_W)][0];
-  g.fillStyle = css(c);
-  g.fillRect(x, y, fw, fh);
-  // A soft within-field variation (wetter / drier ground), lit from the upper left.
-  const gr = g.createLinearGradient(x, y, x + fw, y + fh);
-  gr.addColorStop(0, "rgba(255,248,215,.16)");
-  gr.addColorStop(0.6, "rgba(255,248,215,0)");
-  gr.addColorStop(1, "rgba(40,30,0,.12)");
-  g.fillStyle = gr;
-  g.fillRect(x, y, fw, fh);
-  if (furrows) {
-    const step = Math.max(0.7, px * 3.2);
-    const alongX = fw > fh ? r() < 0.8 : r() < 0.2;
-    g.strokeStyle = css(shade(c, -0.28), 0.38);
-    g.lineWidth = Math.max(px * 0.9, step * 0.28);
-    g.beginPath();
-    if (alongX) for (let yy = y + step / 2; yy < y + fh; yy += step) { g.moveTo(x + 0.2, yy); g.lineTo(x + fw - 0.2, yy); }
-    else for (let xx = x + step / 2; xx < x + fw; xx += step) { g.moveTo(xx, y + 0.2); g.lineTo(xx, y + fh - 0.2); }
-    g.stroke();
+/** Coffee (or pepper) rows on red basalt soil: dark round shrubs in straight rows, a farm track every few rows. */
+function paintRowsTile(g, dpx) {
+  const r = rng(3301), T = 48, px = 1 / dpx;
+  g.fillStyle = "#8c5636";
+  g.fillRect(0, 0, T, T);
+  blotches(g, T, r, 10, 2, 6, "rgba(200,120,70,.18)", "rgba(60,25,10,.16)");
+  const row = 4, gap = 3.3, rad = Math.max(1.45, px * 1.2);
+  for (let y = row / 2, n = 0; y < T; y += row, n++) {
+    if (n % 5 === 4) continue; // a farm track
+    for (let x = gap / 2 + (n % 2) * 0.8; x < T; x += gap) {
+      const jx = (r() - 0.5) * 0.25, jy = (r() - 0.5) * 0.2, rr = rad * (0.85 + r() * 0.3);
+      g.fillStyle = "rgba(40,20,8,.35)";
+      g.beginPath();
+      g.arc(x + jx + rr * 0.3, y + jy + rr * 0.3, rr, 0, TAU);
+      g.fill();
+      g.fillStyle = "#2f5524";
+      g.beginPath();
+      g.arc(x + jx, y + jy, rr, 0, TAU);
+      g.fill();
+      if (dpx >= 2) {
+        g.fillStyle = "#5f913c";
+        g.beginPath();
+        g.arc(x + jx - rr * 0.3, y + jy - rr * 0.32, rr * 0.45, 0, TAU);
+        g.fill();
+      }
+    }
   }
-  g.lineWidth = Math.max(px, 0.15);
-  g.strokeStyle = "rgba(255,246,210,.3)";
-  g.beginPath();
-  g.moveTo(x, y + fh); g.lineTo(x, y); g.lineTo(x + fw, y);
-  g.stroke();
-  g.strokeStyle = "rgba(70,50,20,.3)";
-  g.beginPath();
-  g.moveTo(x + fw, y); g.lineTo(x + fw, y + fh); g.lineTo(x, y + fh);
-  g.stroke();
 }
 
 /**
@@ -645,11 +740,13 @@ const CLUMPS = [
 // Midpoints of the edges shared with the E, SE and SW neighbours (R units): where "bridge" stamps go, so a range
 // runs on across hexes. Each pair of cells is bridged once (by the cell to the west / north).
 const BRIDGE = [[Math.sqrt(3) / 2, 0], [Math.sqrt(3) / 4, 0.75], [-Math.sqrt(3) / 4, 0.75]];
-const NV_MTN = 12, NV_HILL = 12, NV_RIDGE = 4, NV_MESA = 6;
+const NV_MTN = 12, NV_HILL = 12, NV_RIDGE = 4;
 
-// Ridge directions on screen (rad; 0 = east, negative = rising to the north-east), already foreshortened.
-const RIDGE_ANG = [-0.9, -0.72, -0.54, -0.37, -0.2, -0.04, 0.12];
-const RIDGE_BIAS = -0.45; // SW–NE, the trend of the Appalachians, used where the terrain gives no clear direction
+// Ridge directions on screen (rad; 0 = east, negative = rising to the north-east, positive = falling to the
+// south-east), already foreshortened.
+const RIDGE_ANG = [-0.9, -0.6, -0.3, 0, 0.3, 0.6, 0.9];
+// NW–SE, the trend of the Hoàng Liên Sơn and the Trường Sơn, used where the terrain gives no clear direction.
+const RIDGE_BIAS = 0.45;
 
 function planCell(env, i) {
   const { w, R, lod } = env;
@@ -668,31 +765,43 @@ function planCell(env, i) {
   const up = (name, arg, v, px, py, f, z) => put(env.upright, name, arg, v, px, py, f, z);
   const flat = (name, arg, v, px = 0, py = 0, f = 1) => put(env.ground, name, arg, v, px, py, f);
   if (tiled) {
-    // A full city tile covers the middle of the cell; its feathered edge fades into suburban lawn and streets.
+    // A full city tile covers the middle of the cell; its feathered edge fades into the urban-fringe ground and streets.
     if (cv === COVER.URBAN && atLeast(lod, "mid")) flat("suburbGround", "", vary(130, 8));
+    return;
+  }
+  // An industrial park (render/art/city.js INDUSTRIAL_CELLS, from geo.json parks): a factory estate on flat land in
+  // place of the cell's own art, from the region view in.
+  if (rel === 0 && atLeast(lod, "mid") && INDUSTRIAL_CELLS.has(i)) {
+    flat("suburbGround", "factory", vary(130, 8));
+    up("suburbBuild", "factory", vary(130, 8), 0, 0, 1, 0);
     return;
   }
 
   const isForest = cv === COVER.DECIDUOUS || cv === COVER.EVERGREEN || cv === COVER.MIXED;
   const forestPct = w.pct?.forest ? w.pct.forest[i] || 0 : isForest ? 70 : 0;
   const desert = cv === COVER.SCRUB || cv === COVER.BARREN;
-  // Snow from absolute height: the highest sample in the hex (world.json elev_max) catches ranges like the Sierra
-  // Nevada whose mean is held down by their valleys. Arid ranges stay bare below ~3200 m.
+  // Snow from absolute height: the highest sample in the hex (world.json elev_max) catches peaks whose mean is held
+  // down by their valleys. Arid ranges stay bare below ~3200 m.
   const emax = w.raw.elev_max ? w.raw.elev_max[i] : elev;
   const snowy = cv === COVER.ICE || rel === 3 || (desert ? elev > 3000 || emax > 3200 : elev > 2400 || emax > 3000);
   const alpine = rel === 3 || (rel === 2 && emax > 3500); // the tallest summits get the big snow-capped peak
   const near = atLeast(lod, "near"), mid = atLeast(lod, "mid"), close = lod === "close";
   const c = { w, i, h, vary, up, rel, cv, elev, alpine, isForest, forestPct, desert, snowy, near, lod, city, bridges: env.bridges };
 
-  // Basin and range: in the Great Basin about a third of the "mountain" hexes are drawn as the basin between two
-  // ranges (sage flats and a dry lake), so the ranges read as separate north–south ridges, not a carpet of peaks.
-  if (rel >= 2 && desert && !snowy && !city && inGreatBasin(w, i) && h(61) < 0.32) {
-    flat("cracks", "", vary(62, 6), (h(63) - 0.5) * 0.3, (h(64) - 0.5) * 0.3, 0.7 + h(65) * 0.3);
-    if (mid) {
-      const n = lod === "mid" ? 2 : lod === "near" ? 4 : 6;
-      for (let k = 0; k < n; k++) up(h(66 + k) < 0.8 ? "sage" : "rocks", "", vary(70 + k, 6), (h(80 + k) - 0.5) * 1.1, (h(90 + k) - 0.5) * 1.0, 0.8 + h(100 + k) * 0.3);
+  // Farmed patches on hexes that are not field tiles (illustrative; rules at "Where the Vietnamese motifs go"):
+  // terraced paddies on the near flank of hill and mountain hexes with at least 5% cropland (world.json pct.crop) in
+  // the northern uplands or on the Central Highlands' edges, often with a stilt house; coffee / pepper rows on flat
+  // highland-plateau hexes with at least 15% cropland.
+  if (mid && !city && cv !== COVER.CROP && w.pct?.crop) {
+    const crop = w.pct.crop[i] || 0;
+    if (crop >= 5 && terraceLand(w, i)) {
+      // upright, sorted in front of the massifs: the steps are cut into the near slope
+      const tx = (h(500) - 0.5) * 0.5, ty = rel === 2 ? 0.5 : 0.44;
+      up("terraces", "", vary(501, 6), tx, ty + (h(502) - 0.5) * 0.08, 1 + h(503) * 0.3, 0.62);
+      if (near && h(504) < 0.4) up("stilt", "", vary(505, 4), tx + (h(506) < 0.5 ? -0.46 : 0.46), ty + 0.16, 1.05, 0.66);
+    } else if (crop >= 15 && coffeeLand(w, i)) {
+      flat("coffee", "", vary(510, 6), (h(511) - 0.5) * 0.6, 0.3 + (h(512) - 0.5) * 0.3, 0.8 + h(513) * 0.3);
     }
-    return;
   }
   if (rel >= 2) return planMountains(c);
   // tops: spots on the hills where small stamps can sit ([x, y, z, spread]); null on flat ground.
@@ -730,31 +839,41 @@ function planCell(env, i) {
 
   if (!mid) return; // far: texture, fields, relief and forests only
 
+  // Farm life (illustrative; rules at "Where the Vietnamese motifs go"), at near zoom unless noted:
+  //   a village on `chance` of the hexes: tiled-roof houses (nhà mái ngói) in a bamboo hedge (lũy tre) in the
+  //     lowlands, a stilt house (nhà sàn) in the uplands;
+  //   fish ponds (ao) on 40% of the delta hexes from mid zoom, shrimp ponds on the Mekong delta's coast;
+  //   1–3 coconut palms on 55% of the hexes in the Mekong delta and on the south-central coast.
+  const farm = (chance) => {
+    const pd = !onHill && pondSpot(w, i);
+    if (pd) flat("pond", pd.shrimp ? "shrimp" : "", vary(151, 6), pd.x, pd.y, pd.f);
+    if (!near) return;
+    if (h(101) < chance) {
+      const kind = uplandHome(w, i) ? "stilt" : "village", f = kind === "village" ? 1.3 : 1.15;
+      if (onHill) onTops(1, 115, (px, py, z) => up(kind, "", vary(102, 4), px, py, f * 0.8, z));
+      else up(kind, "", vary(102, 4), (h(103) - 0.5) * 0.6, 0.1 + (h(104) - 0.5) * 0.45, f);
+    }
+    if (!onHill && palmLand(w, i) && h(160) < 0.55) {
+      spots(1 + vary(161, 3), 162, 1).forEach(([px, py], k) => up("palm", "", vary(163 + k, 6), px, py, 0.85 + h(166 + k) * 0.3));
+    }
+  };
+
   // Ground cover.
   switch (cv) {
-    case COVER.CROP: {
-      // The fields themselves are the world-anchored patchwork (drawFields); here: pivots and farmsteads.
-      if (!onHill && pivotCountry(w, i) && h(105) < (elev > 700 ? 0.5 : 0.3)) {
-        const two = h(106) < 0.35;
-        const P = two ? [[-0.3, -0.16], [0.3, 0.24]] : [[0, 0.04]];
-        P.forEach(([px, py], k) => flat("pivot", "", vary(107 + k, 6), px + (h(109 + k) - 0.5) * 0.3, py + (h(111 + k) - 0.5) * 0.24, 0.85 + h(113 + k) * 0.3));
-      }
-      if (near && h(101) < 0.3) {
-        if (onHill) onTops(1, 115, (px, py, z) => up("barn", "", vary(102, 4), px, py, 0.8, z));
-        else up("barn", "", vary(102, 4), (h(103) - 0.5) * 0.7, 0.1 + (h(104) - 0.5) * 0.5, 1);
-      }
+    case COVER.CROP:
+      // The fields themselves are hex tiles (drawFields); here the farm life on them.
+      farm(0.3);
       break;
-    }
     case COVER.PASTURE:
       if (onHill) break;
       flat("pasture", "", vary(110, 8));
-      if (near && h(111) < 0.22) up("barn", "", vary(112, 4), (h(113) - 0.5) * 0.7, 0.1 + (h(114) - 0.5) * 0.5, 0.9);
+      farm(0.22);
       break;
     case COVER.WETLAND:
       if (!onHill) flat("marsh", "", vary(120, 8));
       break;
     case COVER.URBAN:
-      // Suburbs (render/art/city.js SUBURB_ART): lawn, winding roads and cul-de-sacs, houses and tree clumps.
+      // Urban fringe (render/art/city.js SUBURB_ART): townhouse rows, khu đô thị slabs or factory sheds on straight streets.
       if (!onHill) {
         flat("suburbGround", "", vary(130, 8));
         up("suburbBuild", "", vary(130, 8), 0, 0, 1, 0);
@@ -775,7 +894,8 @@ function planCell(env, i) {
         if (near) onTops(close ? 3 : 2, 200, (px, py, z, k) => up(h(220 + k) < 0.75 ? "sage" : "rocks", "", vary(240 + k, 6), px, py, 0.8 + h(260 + k) * 0.3, z));
         break;
       }
-      const low = elev < 800;
+      // Dunes and cactus only on the dry Ninh Thuận – Bình Thuận coast; shrubs and boulders elsewhere.
+      const low = elev < 800 && dryCoast(w, i);
       const n = lod === "mid" ? 3 : lod === "near" ? 5 : 8;
       if (low && h(190) < 0.35) up("dune", "", vary(191, 6), (h(192) - 0.5) * 0.3, 0.3 + (h(193) - 0.5) * 0.3, 1);
       spots(n, 200).forEach(([px, py], k) => {
@@ -821,35 +941,23 @@ function planCell(env, i) {
 /** Mountains and peaks: 1–3 massifs per cell (jittered, rescaled), bridges toward mountain neighbours, foothills. */
 function planMountains(c) {
   const { w, i, h, vary, up, cv, elev, desert, isForest, snowy, near, city, lod, bridges } = c;
-  const plateau = desert && !snowy && onPlateau(w, i);
   const hf = Math.min(1.14, Math.max(0.82, 0.8 + (elev - 1200) / 6000)); // higher ground, taller peaks
-  if (plateau && h(3) < 0.34) {
-    // Canyon country: a table mesa, sometimes with a butte standing off it.
-    const jx = (h(1) - 0.5) * 0.4, jy = (h(2) - 0.5) * 0.16;
-    up("mesa", "mesa", vary(4, NV_MESA), jx, 0.3 + jy, 0.9 + h(5) * 0.25);
-    if (h(6) < 0.5) up("mesa", "butte", vary(7, NV_MESA), jx + (h(8) < 0.5 ? -0.62 : 0.64), 0.52 + (h(9) - 0.5) * 0.1, 0.62 + h(10) * 0.2);
-  } else {
-    const style = mtnStyle(c, plateau);
-    const basin = desert && !snowy && inGreatBasin(w, i);
-    const jx = (h(1) - 0.5) * 0.5, jy = (h(2) - 0.5) * 0.22;
-    // Great Basin ranges vary more in size and line up north–south; elsewhere massifs cluster side by side.
-    const f0 = basin ? 0.6 + h(5) * 0.55 : 0.8 + h(5) * 0.3;
-    up("mtn", style, vary(4, NV_MTN), jx * (basin ? 0.5 : 1), (basin ? 0.02 : 0.26) + jy, f0 * hf);
-    const extra = lod === "far" ? 0 : h(8) < 0.3 ? 0 : h(8) < 0.78 ? 1 : 2;
-    const side = h(9) < 0.5 ? -1 : 1;
-    for (let k = 0; k < extra; k++) {
-      const sd = k ? -side : side;
-      const ex = basin ? jx * 0.5 + (h(10 + k) - 0.5) * 0.3 : jx * 0.4 + sd * (0.45 + h(10 + k) * 0.2);
-      const ey = basin ? (k ? -0.42 : 0.52) + (h(12 + k) - 0.5) * 0.1
-        : k ? 0.5 + (h(12 + k) - 0.5) * 0.1 : 0.02 + (h(12 + k) - 0.5) * 0.14;
-      up("mtn", style, vary(16 + k, NV_MTN), ex, ey, (basin ? 0.4 + h(14 + k) * 0.35 : 0.5 + h(14 + k) * 0.22) * hf);
-    }
-    for (let d = 0; d < (bridges ? 3 : 0); d++) {
-      const j = w.grid.neighbour(i, d);
-      if (j < 0 || w.water[j] || w.relief[j] < 2 || h(20 + d) > 0.8) continue;
-      const [bx, by] = BRIDGE[d];
-      up("mtn", style, vary(24 + d, NV_MTN), bx + (h(27 + d) - 0.5) * 0.2, by + 0.2 + (h(30 + d) - 0.5) * 0.1, (0.55 + h(33 + d) * 0.2) * hf);
-    }
+  const style = mtnStyle(c);
+  const jx = (h(1) - 0.5) * 0.5, jy = (h(2) - 0.5) * 0.22;
+  up("mtn", style, vary(4, NV_MTN), jx, 0.26 + jy, (0.8 + h(5) * 0.3) * hf);
+  const extra = lod === "far" ? 0 : h(8) < 0.3 ? 0 : h(8) < 0.78 ? 1 : 2;
+  const side = h(9) < 0.5 ? -1 : 1;
+  for (let k = 0; k < extra; k++) {
+    const sd = k ? -side : side;
+    const ex = jx * 0.4 + sd * (0.45 + h(10 + k) * 0.2);
+    const ey = k ? 0.5 + (h(12 + k) - 0.5) * 0.1 : 0.02 + (h(12 + k) - 0.5) * 0.14;
+    up("mtn", style, vary(16 + k, NV_MTN), ex, ey, (0.5 + h(14 + k) * 0.22) * hf);
+  }
+  for (let d = 0; d < (bridges ? 3 : 0); d++) {
+    const j = w.grid.neighbour(i, d);
+    if (j < 0 || w.water[j] || w.relief[j] < 2 || h(20 + d) > 0.8) continue;
+    const [bx, by] = BRIDGE[d];
+    up("mtn", style, vary(24 + d, NV_MTN), bx + (h(27 + d) - 0.5) * 0.2, by + 0.2 + (h(30 + d) - 0.5) * 0.1, (0.55 + h(33 + d) * 0.2) * hf);
   }
   if (!near || city) return;
   // Foothills: a stand of trees or some sage and boulders at the foot of the range.
@@ -863,24 +971,20 @@ function planMountains(c) {
   }
 }
 
-function mtnStyle({ alpine, cv, desert, snowy, isForest }, plateau) {
+function mtnStyle({ alpine, cv, desert, snowy, isForest }) {
   if (alpine) return snowy ? "peak" : "arid";
-  if (desert) return snowy ? "rocksnow" : plateau ? "desert" : "arid";
+  if (desert) return snowy ? "rocksnow" : "arid";
   if (isForest || cv === COVER.GRASS || cv === COVER.PASTURE || cv === COVER.CROP || cv === COVER.WETLAND) return snowy ? "greensnow" : "green";
   return snowy ? "rocksnow" : "rock";
 }
 
-/** Hills: forest ridges, plateau buttes, or 1–3 cover-tinted mounds plus bridges. Returns the spots on top. */
+/** Hills: forest ridges or 1–3 cover-tinted mounds plus bridges. Returns the spots on top. */
 function planHills(c) {
-  const { w, i, h, vary, up, cv, desert, isForest, forestPct, lod, bridges } = c;
+  const { w, i, h, vary, up, cv, isForest, forestPct, lod, bridges } = c;
   const tops = [];
   if (isForest ? forestPct >= 20 : forestPct >= 40) {
     planWoodedHills(c);
     tops.ridge = true;
-    return tops;
-  }
-  if (desert && onPlateau(w, i) && h(3) < 0.34) {
-    up("mesa", "butte", vary(4, NV_MESA), (h(1) - 0.5) * 0.4, 0.3 + (h(2) - 0.5) * 0.16, 0.72 + h(5) * 0.25);
     return tops;
   }
   const tone = hillTone(w, cv);
@@ -907,8 +1011,8 @@ function planHills(c) {
 }
 
 /**
- * Wooded hills: 1–3 earthy hill mounds strung along the local ridge direction (so the Appalachian Valley-and-Ridge
- * still runs SW–NE), then individual trees scattered over their crests and flanks, depth-sorted with them. Each
+ * Wooded hills: 1–3 earthy hill mounds strung along the local ridge direction (so the ranges of the north and the
+ * Trường Sơn run NW–SE), then individual trees scattered over their crests and flanks, depth-sorted with them. Each
  * cell varies the count, size, spacing and tilt, so ranges never look stamped.
  */
 function planWoodedHills(c) {
@@ -992,7 +1096,9 @@ function ridgeAngle(w, i) {
     vx = bx * (1 - wgt) + (ax / m) * wgt;
     vy = by * (1 - wgt) + (ay / m) * wgt;
   }
-  const ang = Math.atan2(vy, vx) + (hash01(i, 77) - 0.5) * 0.1;
+  let ang = Math.atan2(vy, vx) + (hash01(i, 77) - 0.5) * 0.1;
+  if (ang > Math.PI / 2) ang -= Math.PI; // a line, not an arrow: keep it in [-90°, 90°]
+  else if (ang < -Math.PI / 2) ang += Math.PI;
   let best = 0;
   for (let k = 1; k < RIDGE_ANG.length; k++) if (Math.abs(RIDGE_ANG[k] - ang) < Math.abs(RIDGE_ANG[best] - ang)) best = k;
   return best;
@@ -1012,7 +1118,6 @@ const SPRITES = {
   clump: { box: { x0: -0.54, y0: -0.76, x1: 0.7, y1: 0.18 }, paint: paintClump },
   tree: { box: { x0: -0.2, y0: -0.6, x1: 0.32, y1: 0.1 }, paint: paintTree },
   mtn: { box: { x0: -1.0, y0: -1.46, x1: 1.12, y1: 0.26 }, paint: paintMountain },
-  mesa: { box: { x0: -1.02, y0: -0.8, x1: 1.08, y1: 0.24 }, paint: paintMesa },
   hill: { box: { x0: -0.76, y0: -0.5, x1: 0.94, y1: 0.2 }, paint: paintHill },
   ridge: { box: { x0: -1.2, y0: -1.02, x1: 1.3, y1: 1.16 }, paint: paintRidge },
   tuft: { box: { x0: -0.17, y0: -0.26, x1: 0.2, y1: 0.06 }, paint: paintTuft },
@@ -1020,8 +1125,12 @@ const SPRITES = {
   cactus: { box: { x0: -0.1, y0: -0.32, x1: 0.2, y1: 0.06 }, paint: paintCactus },
   rocks: { box: { x0: -0.22, y0: -0.2, x1: 0.32, y1: 0.07 }, paint: paintRocks },
   dune: { box: { x0: -0.46, y0: -0.2, x1: 0.6, y1: 0.12 }, paint: paintDune },
-  barn: { box: { x0: -0.3, y0: -0.36, x1: 0.42, y1: 0.09 }, paint: paintBarn },
-  pivot: { box: { x0: -0.38, y0: -0.38, x1: 0.42, y1: 0.4 }, paint: paintPivot },
+  village: { box: { x0: -0.48, y0: -0.42, x1: 0.56, y1: 0.12 }, paint: paintVillage },
+  stilt: { box: { x0: -0.32, y0: -0.46, x1: 0.42, y1: 0.08 }, paint: paintStilt },
+  palm: { box: { x0: -0.3, y0: -0.66, x1: 0.42, y1: 0.06 }, paint: paintPalm },
+  pond: { box: { x0: -0.36, y0: -0.22, x1: 0.42, y1: 0.24 }, paint: paintPond },
+  terraces: { box: { x0: -0.56, y0: -0.36, x1: 0.56, y1: 0.36 }, paint: paintTerraces },
+  coffee: { box: { x0: -0.54, y0: -0.36, x1: 0.54, y1: 0.36 }, paint: paintCoffee },
   pasture: { box: HEX_BOX, paint: paintPasture },
   meadow: { box: HEX_BOX, paint: paintMeadow },
   marsh: { box: HEX_BOX, paint: paintMarsh },
@@ -1253,14 +1362,12 @@ function paintTree(g, upx, v, kind) {
 
 // --- mountains ---------------------------------------------------------------------------------------------------
 
-// Rock palettes. arid = Great Basin fault-block ranges (grey-brown, sage on the lower slopes, no snow);
-// desert = the red rock of the Colorado Plateau (faint bedding only, so nothing reads as a striped pyramid).
+// Rock palettes. arid = bare grey-brown ranges (scrub on the lower slopes, no snow).
 const MTN = {
   rock: { lit: "#b9a990", lit2: "#8d7d68", sh: "#5f5246", sh2: "#43392f", line: "#2a2119", snow: 0, h: 0.95 },
   rocksnow: { lit: "#aea89f", lit2: "#837c72", sh: "#5b5752", sh2: "#3d3a37", line: "#24211e", snow: 0.42, h: 1.02 },
   peak: { lit: "#b3aea7", lit2: "#8a847c", sh: "#5c5956", sh2: "#3e3c3a", line: "#211f1d", snow: 0.6, h: 1.24 },
   arid: { lit: "#c3b296", lit2: "#9a876b", sh: "#6b6052", sh2: "#4a4239", line: "#2b241c", snow: 0, h: 0.84, sage: true },
-  desert: { lit: "#cf9a6c", lit2: "#a8754e", sh: "#7b4c34", sh2: "#583626", line: "#361f13", snow: 0, h: 0.82, strata: true, sage: true },
   green: { lit: "#a59b85", lit2: "#6c7a4a", sh: "#4f5442", sh2: "#2e3a25", line: "#1d2317", snow: 0, h: 0.9, trees: true },
   greensnow: { lit: "#aaa49a", lit2: "#6f7b52", sh: "#55574d", sh2: "#30392a", line: "#1f2219", snow: 0.36, h: 1.02, trees: true },
 };
@@ -1351,21 +1458,7 @@ function drawPeak(g, p, S, r, px) {
   g.fillStyle = gr;
   g.fill();
 
-  // Strata for desert rock; gullies on both faces.
-  if (S.strata) {
-    g.save();
-    poly(g, sil);
-    g.clip();
-    for (let yy = sy + p.h * 0.3, k = 0; yy < by - 0.04; yy += 0.09 + r() * 0.05, k++) {
-      g.beginPath();
-      g.moveTo(sx - p.wl - 0.1, yy);
-      g.quadraticCurveTo(sx, yy + (r() - 0.5) * 0.05, sx + p.wr + 0.1, yy + 0.02);
-      g.strokeStyle = k % 2 ? "rgba(255,214,160,.13)" : "rgba(90,36,14,.13)";
-      g.lineWidth = 0.014;
-      g.stroke();
-    }
-    g.restore();
-  }
+  // Gullies on both faces.
   g.lineWidth = Math.max(px, 0.012);
   for (let k = 1; k < ridge.length - 1; k++) {
     const [rx, ry] = ridge[k];
@@ -1418,170 +1511,6 @@ function drawPeak(g, p, S, r, px) {
   g.strokeStyle = snowF > 0 ? "rgba(255,255,255,.85)" : "rgba(255,240,210,.45)";
   g.lineWidth = Math.max(px * 1.2, 0.012);
   g.stroke();
-}
-
-/**
- * Colorado Plateau tablelands. "mesa": a broad table (sometimes with a butte standing off it); "butte": a narrow
- * tower. Both: a flat caprock top, sheer cliffs (lit front face, shaded side face, vertical fluting, a dark caprock
- * lip) standing on a concave talus skirt that fans out onto the ground.
- */
-function paintMesa(g, upx, v, kind) {
-  const r = rng(v * 331 + kind.length * 17 + 5);
-  const px = 1 / upx;
-  const butte = kind === "butte";
-  const forms = butte
-    ? [{ x: (r() - 0.5) * 0.08, tw: 0.1 + r() * 0.04, h: 0.6 + r() * 0.1, y: 0 }]
-    : v % 2
-      ? [{ x: -0.16, tw: 0.27 + r() * 0.07, h: 0.5 + r() * 0.08, y: 0 }, { x: 0.56, tw: 0.075 + r() * 0.03, h: 0.52 + r() * 0.08, y: 0.07 }]
-      : [{ x: (r() - 0.5) * 0.1, tw: 0.3 + r() * 0.08, h: 0.5 + r() * 0.08, y: 0 }];
-  softShadow(g, 0.26, 0.05, butte ? 0.42 : 0.72, 0.15, 0.42);
-  for (const f of forms) paintTable(g, f, r, px, upx);
-}
-
-// Bedding of the cliff, top to bottom: a cream caprock, then rust and ochre sandstone.
-const STRATA = [["#efd3a2", "#a88a62"], ["#c8693c", "#7c3820"], ["#d8975a", "#8a5530"], ["#b9583a", "#6e301c"]];
-
-/**
- * A mesa or butte standing on its base line (0 = ground): a sheer banded cliff on top of a broad sloping talus
- * apron, a flat caprock with a ragged lip, lit from the upper left (front face lit, right face in shade).
- */
-function paintTable(g, { x, tw, h, y: by }, r, px, upx) {
-  const top = by - h, cliffB = by - h * 0.48; // the cliff is the upper half; the talus apron is the lower
-  const out = 0.08 + h * 0.42; // how far the apron fans out beyond the cliff foot
-  const lean = Math.min(0.02, tw * 0.08); // cliffs lean in slightly toward the top
-  const split = x + tw * 0.38; // corner between the lit front and the shaded side
-  const d = Math.min(0.055, tw * 0.28); // depth of the flat top seen from above
-  const line = Math.max(px * 1.4, 0.009);
-
-  // Talus apron: a concave skirt from the cliff foot out onto the plain.
-  const talus = new Path2D();
-  talus.moveTo(x - tw - 0.004, cliffB - 0.008);
-  talus.bezierCurveTo(x - tw - out * 0.25, cliffB + (by - cliffB) * 0.55, x - tw - out * 0.6, by - 0.004, x - tw - out, by);
-  talus.lineTo(x + tw + out * 1.2, by);
-  talus.bezierCurveTo(x + tw + out * 0.7, by - 0.004, x + tw + out * 0.3, cliffB + (by - cliffB) * 0.55, x + tw + 0.01, cliffB - 0.008);
-  talus.closePath();
-  let gr = g.createLinearGradient(0, cliffB, 0, by);
-  gr.addColorStop(0, "#a85f3a");
-  gr.addColorStop(0.6, "#c48a5c");
-  gr.addColorStop(1, "rgba(206,160,112,.0)");
-  g.fillStyle = gr;
-  g.fill(talus);
-  g.save();
-  g.clip(talus);
-  // shade on the right of the apron, gullies and scree streaks fanning down it
-  poly(g, [[split, cliffB - 0.02], [x + tw + out * 0.5, by + 0.02], [x + tw + out * 2, by + 0.02], [x + tw + 0.3, cliffB - 0.02]]);
-  g.fillStyle = "rgba(78,32,14,.32)";
-  g.fill();
-  g.lineWidth = Math.max(px, 0.006);
-  for (let k = 0, n = Math.round(tw * 26) + 4; k < n; k++) {
-    const sx = x - tw + ((k + 0.5) / n) * tw * 2, ex = sx + (sx - x) * 0.9 + (r() - 0.5) * 0.04;
-    g.strokeStyle = k % 2 ? "rgba(80,34,14,.28)" : "rgba(255,228,184,.2)";
-    g.beginPath();
-    g.moveTo(sx, cliffB);
-    g.quadraticCurveTo(sx + (sx - x) * 0.2, (cliffB + by) / 2, ex, by - 0.01);
-    g.stroke();
-  }
-  if (upx * h > 20) {
-    for (let k = 0; k < 12; k++) {
-      const t = r(), bx = x - tw - out * 0.5 + t * (tw * 2 + out * 1.4), byy = cliffB + (by - cliffB) * (0.25 + r() * 0.65);
-      const br = Math.max(px * 1.1, 0.006 + r() * 0.008);
-      g.fillStyle = "rgba(60,26,10,.5)";
-      g.beginPath();
-      g.arc(bx + br * 0.4, byy + br * 0.3, br, 0, TAU);
-      g.fill();
-      g.fillStyle = "#d9aa7c";
-      g.beginPath();
-      g.arc(bx, byy, br, 0, TAU);
-      g.fill();
-    }
-  }
-  g.restore();
-
-  // Cliff block: lit front face and shaded side face, leaning in a little; a ragged caprock edge.
-  const xl = x - tw, xr = x + tw;
-  const lip = [];
-  for (let k = 0, n = Math.max(5, Math.round(tw * 30)); k <= n; k++) {
-    const t = k / n, lx = xl + lean + (xr - xl - 2 * lean) * t;
-    const notch = k > 0 && k < n && r() < 0.22 ? 0.012 + r() * 0.012 : (r() - 0.5) * 0.006;
-    lip.push([lx, top + notch]);
-  }
-  const front = [[xl + lean, top], ...lip.filter(([lx]) => lx <= split), [split, top], [split + 0.004, cliffB], [xl - 0.004, cliffB]];
-  const side = [[split, top], ...lip.filter(([lx]) => lx > split), [xr - lean, top], [xr + 0.01, cliffB], [split + 0.004, cliffB]];
-  const block = new Path2D();
-  [[xl + lean, top], ...lip, [xr - lean, top], [xr + 0.01, cliffB], [xl - 0.004, cliffB]].forEach(([qx, qy], k) => (k ? block.lineTo(qx, qy) : block.moveTo(qx, qy)));
-  block.closePath();
-  g.strokeStyle = "rgba(52,22,9,.8)";
-  g.lineWidth = line * 1.3;
-  g.stroke(block);
-  // Strata: horizontal bands across both faces (lit colour on the front, shade colour on the side).
-  const bands = [0, 0.2 + r() * 0.06, 0.46 + r() * 0.08, 0.74 + r() * 0.06, 1];
-  for (let b = 0; b < 4; b++) {
-    const y0 = top + (cliffB - top) * bands[b], y1 = top + (cliffB - top) * bands[b + 1] + 0.002;
-    const [lit, shd] = STRATA[b];
-    g.save();
-    g.beginPath();
-    g.rect(xl - 0.05, y0, xr - xl + 0.1, y1 - y0);
-    g.clip();
-    poly(g, front);
-    g.fillStyle = lit;
-    g.fill();
-    poly(g, side);
-    g.fillStyle = shd;
-    g.fill();
-    g.restore();
-  }
-  g.save();
-  g.clip(block);
-  // soft vertical shading on the front (darker toward the corner), varnish streaks, a dark seam at each bed
-  gr = g.createLinearGradient(xl, 0, split, 0);
-  gr.addColorStop(0, "rgba(255,236,200,.12)");
-  gr.addColorStop(1, "rgba(60,20,8,.18)");
-  g.fillStyle = gr;
-  g.fillRect(xl - 0.02, top - 0.03, split - xl + 0.02, cliffB - top + 0.04);
-  g.lineWidth = Math.max(px, 0.006);
-  for (let fx = xl + 0.012; fx < xr; fx += 0.02 + r() * 0.024) {
-    g.strokeStyle = fx < split ? "rgba(92,36,14,.24)" : "rgba(30,10,4,.26)";
-    g.beginPath();
-    g.moveTo(fx, top + 0.015);
-    g.lineTo(fx + (r() - 0.5) * 0.006, cliffB - r() * (cliffB - top) * 0.45);
-    g.stroke();
-  }
-  for (let b = 1; b < 4; b++) {
-    g.fillStyle = "rgba(50,18,6,.28)";
-    g.fillRect(xl - 0.02, top + (cliffB - top) * bands[b] - Math.max(px * 0.6, 0.003), xr - xl + 0.05, Math.max(px, 0.005));
-  }
-  g.restore();
-  g.beginPath();
-  g.moveTo(split, top);
-  g.lineTo(split + 0.004, cliffB);
-  g.strokeStyle = "rgba(255,226,186,.4)";
-  g.lineWidth = Math.max(px, 0.006);
-  g.stroke();
-
-  // Flat caprock top seen from above, a lit lip along its front edge, a little juniper.
-  const capTop = [[xl + lean, top], [xl + lean + d * 0.6, top - d * 0.8], [x - tw * 0.1, top - d + (r() - 0.5) * 0.01], [xr - lean - d * 0.4, top - d * 0.75], [xr - lean, top], ...lip.slice().reverse()];
-  poly(g, capTop);
-  gr = g.createLinearGradient(xl, top - d, xr, top);
-  gr.addColorStop(0, "#f3d2a0");
-  gr.addColorStop(1, "#d2a06c");
-  g.fillStyle = gr;
-  g.fill();
-  g.strokeStyle = "rgba(52,22,9,.7)";
-  g.lineWidth = line;
-  g.stroke();
-  g.beginPath();
-  lip.filter(([lx]) => lx <= split + 0.01).forEach(([lx, ly], k) => (k ? g.lineTo(lx, ly) : g.moveTo(lx, ly)));
-  g.strokeStyle = "rgba(255,240,210,.85)";
-  g.lineWidth = Math.max(px * 1.1, 0.007);
-  g.stroke();
-  if (upx * tw > 16) {
-    g.fillStyle = "#6f7a4c";
-    for (let k = 0, n = Math.round(tw * 12); k < n; k++) {
-      g.beginPath();
-      g.arc(x - tw * 0.75 + r() * tw * 1.5, top - d * (0.25 + r() * 0.55), Math.max(px * 1.1, 0.009), 0, TAU);
-      g.fill();
-    }
-  }
 }
 
 // --- hills -------------------------------------------------------------------------------------------------------
@@ -1998,60 +1927,356 @@ function paintDune(g, upx, v) {
   }
 }
 
-// --- farm buildings ------------------------------------------------------------------------------------------------
+// --- Vietnamese countryside (illustrative motifs; placement rules at "Where the Vietnamese motifs go") -------------
 
-function paintBarn(g, upx, v) {
-  const px = 1 / upx;
-  const roofs = ["#4b4a4f", "#5a3b2e", "#3f4b57", "#6b6a66"];
-  softShadow(g, 0.1, 0.01, 0.28, 0.07, 0.34);
-  // Silo behind.
-  const sx = -0.2, sw = 0.055, sh = 0.24;
-  let gr = g.createLinearGradient(sx - sw, 0, sx + sw, 0);
-  gr.addColorStop(0, "#f2f0e8");
-  gr.addColorStop(0.5, "#c9c7bd");
-  gr.addColorStop(1, "#86857e");
-  g.fillStyle = gr;
-  g.fillRect(sx - sw, -0.02 - sh, sw * 2, sh);
-  g.beginPath();
-  g.ellipse(sx, -0.02 - sh, sw, sw * 0.9, 0, Math.PI, 0);
-  g.fillStyle = "#9aa7b3";
-  g.fill();
-  g.strokeStyle = "rgba(40,40,40,.6)";
-  g.lineWidth = px;
-  g.strokeRect(sx - sw, -0.02 - sh, sw * 2, sh);
-  // Barn: gable end facing the viewer (lit), long side going back to the right (shade), roof on top.
-  const d = [0.15, -0.06];
-  const A = [-0.13, 0], B = [0.03, 0], Cc = [0.03, -0.12], P = [-0.05, -0.2], D = [-0.13, -0.12];
-  const add = (p) => [p[0] + d[0], p[1] + d[1]];
-  const outline = (pts) => {
+/** A bamboo clump (tre) with its base at (x, y), height hh: arching culms and feathery leaf masses. */
+function bamboo(g, x, y, hh, px, r) {
+  softShadow(g, x + hh * 0.2, y, hh * 0.4, hh * 0.1, 0.28);
+  g.strokeStyle = "#6f7a2e";
+  g.lineWidth = Math.max(px, hh * 0.025);
+  const tips = [];
+  for (let k = 0; k < 5; k++) {
+    const lean = (k - 2) * 0.22 + (r() - 0.5) * 0.15, top = hh * (0.85 + r() * 0.2);
+    const tx = x + Math.sin(lean) * top * 0.75, ty = y - Math.cos(lean) * top;
+    g.beginPath();
+    g.moveTo(x + (k - 2) * hh * 0.03, y);
+    g.quadraticCurveTo(x + Math.sin(lean) * top * 0.2, y - top * 0.6, tx, ty);
+    g.stroke();
+    tips.push([tx, ty]);
+  }
+  for (const [lit, col] of [[0, "#4f7426"], [1, "#86a83e"], [2, "#b9cf6a"]]) {
+    g.fillStyle = col;
+    for (const [tx, ty] of tips) {
+      const n = lit === 2 ? 1 : 3;
+      for (let q = 0; q < n; q++) {
+        const ex = tx + (r() - 0.5) * hh * 0.25 - lit * hh * 0.03, ey = ty + hh * (0.12 + r() * 0.25) - lit * hh * 0.05;
+        g.beginPath();
+        g.ellipse(ex, ey, hh * (0.13 - lit * 0.03), hh * (0.06 - lit * 0.012), -0.4 + r() * 0.8, 0, TAU);
+        g.fill();
+      }
+    }
+  }
+}
+
+/** A Vietnamese tiled-roof house (nhà mái ngói) with its front-left foot at (x, y): long side facing the viewer,
+ *  cream walls, a terracotta roof with tile rows up close, the gable end in shade. */
+function tileHouse(g, x, y, wd, ht, px, upx, wall, roof) {
+  const d = [wd * 0.32, -wd * 0.2]; // depth: back to the upper right
+  const A = [x, y], B = [x + wd, y], Bt = [x + wd, y - ht], At = [x, y - ht];
+  const eave = wd * 0.06, rise = ht * 0.95;
+  const R0 = [x - eave, y - ht + eave * 0.2], R1 = [x + wd + eave, y - ht + eave * 0.2];
+  const ridge0 = [x + d[0] * 0.5 + eave * 0.4, y - ht - rise + d[1] * 0.5], ridge1 = [x + wd + d[0] * 0.5 - eave * 0.4, y - ht - rise + d[1] * 0.5];
+  const out = (pts, fill) => {
     poly(g, pts);
-    g.strokeStyle = "rgba(30,14,8,.85)";
-    g.lineWidth = px * 1.6;
+    g.fillStyle = fill;
+    g.fill();
+    g.strokeStyle = "rgba(40,22,12,.75)";
+    g.lineWidth = px * 1.2;
     g.stroke();
   };
-  outline([B, add(B), add(Cc), Cc]);
-  g.fillStyle = "#7e2a1f";
+  // gable end (shade) and the front wall (lit), then the front roof slope
+  out([B, [B[0] + d[0], B[1] + d[1]], [Bt[0] + d[0], Bt[1] + d[1]], [ridge1[0] + eave * 0.4, ridge1[1]], Bt], css(shade(wall, -0.3)));
+  out([A, B, Bt, At], css(wall));
+  out([R0, R1, ridge1, ridge0], css(roof));
+  // the roof's lit upper half and the ridge line
+  g.fillStyle = "rgba(255,220,180,.18)";
+  poly(g, [R0, R1, [(R1[0] + ridge1[0]) / 2, (R1[1] + ridge1[1]) / 2], [(R0[0] + ridge0[0]) / 2, (R0[1] + ridge0[1]) / 2]]);
   g.fill();
-  outline([Cc, P, add(P), add(Cc)]);
-  g.fillStyle = roofs[v % roofs.length];
+  g.strokeStyle = css(shade(roof, -0.45));
+  g.lineWidth = Math.max(px * 1.4, wd * 0.03);
+  g.beginPath();
+  g.moveTo(...ridge0); g.lineTo(...ridge1);
+  g.stroke();
+  if (upx > 60) {
+    // tile rows and the door and windows
+    g.strokeStyle = css(shade(roof, -0.3), 0.6);
+    g.lineWidth = px;
+    for (let t = 0.25; t < 1; t += 0.25) {
+      g.beginPath();
+      g.moveTo(R0[0] + (ridge0[0] - R0[0]) * t, R0[1] + (ridge0[1] - R0[1]) * t);
+      g.lineTo(R1[0] + (ridge1[0] - R1[0]) * t, R1[1] + (ridge1[1] - R1[1]) * t);
+      g.stroke();
+    }
+    g.fillStyle = "#5a3a22";
+    g.fillRect(x + wd * 0.42, y - ht * 0.72, wd * 0.16, ht * 0.72);
+    g.fillStyle = "#3e3a36";
+    g.fillRect(x + wd * 0.14, y - ht * 0.66, wd * 0.14, ht * 0.32);
+    g.fillRect(x + wd * 0.72, y - ht * 0.66, wd * 0.14, ht * 0.32);
+  }
+}
+
+const WALLS = ["#ece0b8", "#e9d48f", "#efe7d0", "#dccf9e"].map(C);
+const ROOFS = ["#b4532e", "#a54a2a", "#c0643a", "#9b4630"].map(C);
+
+/** A lowland village hamlet: two or three tiled-roof houses with a brick yard, behind and inside a bamboo hedge. */
+function paintVillage(g, upx, v) {
+  const r = rng(v * 677 + 41);
+  const px = 1 / upx;
+  softShadow(g, 0.05, 0, 0.46, 0.13, 0.3);
+  // the bamboo hedge behind
+  for (let k = 0; k < 6; k++) bamboo(g, -0.36 + k * 0.15 + (r() - 0.5) * 0.04, -0.1 + Math.sin(k * 0.9) * 0.02, 0.24 + r() * 0.07, px, r);
+  // a brick yard (sân gạch) for drying rice
+  g.fillStyle = "#c98a62";
+  poly(g, [[-0.14, 0.02], [0.2, 0.02], [0.28, -0.04], [-0.06, -0.04]]);
   g.fill();
-  gr = g.createLinearGradient(-0.13, -0.2, 0.03, 0);
-  gr.addColorStop(0, "#d0563c");
-  gr.addColorStop(1, "#a63a28");
-  outline([A, B, Cc, P, D]);
-  g.fillStyle = gr;
+  const n = 2 + (v % 2);
+  const H = [[-0.3, -0.02, 0.2], [0.02, -0.06, 0.24], [0.2, 0.05, 0.16]].slice(0, n);
+  H.sort((p, q) => p[1] - q[1]);
+  for (const [hx, hy, wd] of H) tileHouse(g, hx, hy, wd, wd * 0.42, px, upx, WALLS[Math.floor(r() * 4)], ROOFS[Math.floor(r() * 4)]);
+  // bamboo at the front corners
+  bamboo(g, -0.36, 0.06, 0.2, px, r);
+  bamboo(g, 0.4, 0.05, 0.22, px, r);
+}
+
+/** An upland stilt house (nhà sàn): a wooden house on posts under a big hipped roof of thatch or dark tile, a ladder
+ *  up to the floor, a tree behind. */
+function paintStilt(g, upx, v) {
+  const px = 1 / upx;
+  const thatch = v % 2 === 0;
+  softShadow(g, 0.08, 0.01, 0.32, 0.09, 0.32);
+  decidTree(g, 0.26, -0.06, 0.26, DECID[v % 3], px);
+  const x0 = -0.2, x1 = 0.22, fy = -0.11, wh = 0.09; // floor level and wall height
+  g.strokeStyle = "#3b2a1a";
+  g.lineWidth = Math.max(px * 1.3, 0.012);
+  g.beginPath();
+  for (const px0 of [x0 + 0.02, x0 + 0.15, x1 - 0.15, x1 - 0.02]) { g.moveTo(px0, 0); g.lineTo(px0, fy); }
+  for (const px0 of [x0 + 0.08, x1 + 0.04]) { g.moveTo(px0, -0.03); g.lineTo(px0, fy - 0.02); }
+  g.stroke();
+  // floor and walls (woven bamboo / planks)
+  g.fillStyle = "#6e4a2a";
+  g.fillRect(x0 - 0.01, fy - 0.012, x1 - x0 + 0.02, 0.016);
+  g.fillStyle = "#b48a58";
+  g.fillRect(x0, fy - wh, x1 - x0, wh);
+  g.fillStyle = "#8a6438";
+  poly(g, [[x1, fy], [x1 + 0.07, fy - 0.04], [x1 + 0.07, fy - 0.04 - wh], [x1, fy - wh]]);
   g.fill();
-  if (upx > 40) {
-    g.strokeStyle = "rgba(255,245,230,.85)";
-    g.lineWidth = Math.max(px, 0.008);
-    g.strokeRect(-0.085, -0.075, 0.07, 0.075);
+  if (upx > 50) {
+    g.strokeStyle = "rgba(70,45,20,.5)";
+    g.lineWidth = px;
     g.beginPath();
-    g.moveTo(-0.085, -0.075); g.lineTo(-0.015, 0);
-    g.moveTo(-0.015, -0.075); g.lineTo(-0.085, 0);
-    g.moveTo(D[0], D[1]); g.lineTo(P[0], P[1]); g.lineTo(Cc[0], Cc[1]);
+    for (let xx = x0 + 0.03; xx < x1; xx += 0.03) { g.moveTo(xx, fy - wh); g.lineTo(xx, fy); }
+    g.stroke();
+    g.fillStyle = "#3a2614";
+    g.fillRect(-0.02, fy - wh * 0.8, 0.05, wh * 0.8);
+  }
+  // the ladder
+  g.strokeStyle = "#4a3320";
+  g.lineWidth = Math.max(px, 0.008);
+  g.beginPath();
+  g.moveTo(-0.03, 0.03); g.lineTo(-0.01, fy);
+  g.moveTo(0.03, 0.03); g.lineTo(0.05, fy);
+  for (let t = 0.2; t < 1; t += 0.25) { g.moveTo(-0.03 + 0.02 * t, 0.03 - (0.03 - fy) * t); g.lineTo(0.03 + 0.02 * t, 0.03 - (0.03 - fy) * t); }
+  g.stroke();
+  // the big hipped roof
+  const top = fy - wh - 0.17, ey = fy - wh + 0.02;
+  const roof = thatch ? ["#a7834a", "#7c5e30", "#5e4422"] : ["#6a625a", "#4e4842", "#36322e"];
+  poly(g, [[x0 - 0.06, ey], [x1 + 0.03, ey], [x1 - 0.05, top], [x0 + 0.05, top]]);
+  g.fillStyle = roof[0];
+  g.fill();
+  g.strokeStyle = "rgba(35,22,10,.8)";
+  g.lineWidth = px * 1.3;
+  g.stroke();
+  poly(g, [[x1 + 0.03, ey], [x1 + 0.1, ey - 0.04], [x1 - 0.03, top - 0.01], [x1 - 0.05, top]]);
+  g.fillStyle = roof[1];
+  g.fill();
+  g.stroke();
+  g.strokeStyle = roof[2];
+  g.lineWidth = Math.max(px * 1.5, 0.012);
+  g.beginPath();
+  g.moveTo(x0 + 0.05, top); g.lineTo(x1 - 0.04, top - 0.005);
+  g.stroke();
+  if (upx > 50) {
+    g.strokeStyle = thatch ? "rgba(70,50,20,.45)" : "rgba(20,18,16,.4)";
+    g.lineWidth = px;
+    g.beginPath();
+    for (let t = 0.1; t < 1; t += 0.09) {
+      const bx = x0 - 0.06 + (x1 + 0.09 - x0) * t, tx = x0 + 0.05 + (x1 - 0.1 - x0) * t;
+      g.moveTo(bx, ey); g.lineTo(tx, top);
+    }
     g.stroke();
   }
-  decidTree(g, 0.22, 0.03, 0.2, DECID[v % 3], px);
+}
+
+/** One or two coconut palms (dừa): a leaning ringed trunk, a crown of drooping fronds, a cluster of nuts. */
+function paintPalm(g, upx, v) {
+  const r = rng(v * 263 + 11);
+  const px = 1 / upx;
+  const two = v % 3 === 0;
+  const palms = two ? [[-0.06, 0.48, -0.12], [0.1, 0.38, 0.18]] : [[0, 0.5, (v % 2 ? 1 : -1) * (0.08 + r() * 0.1)]];
+  for (const [x, hh, lean] of palms) {
+    softShadow(g, x + hh * 0.3, 0, hh * 0.3, hh * 0.07, 0.3);
+    const tx = x + lean * hh, ty = -hh;
+    g.strokeStyle = "#7d6646";
+    g.lineWidth = Math.max(px * 1.4, hh * 0.05);
+    g.beginPath();
+    g.moveTo(x, 0);
+    g.quadraticCurveTo(x + lean * hh * 0.1, -hh * 0.5, tx, ty);
+    g.stroke();
+    if (upx * hh > 30) {
+      g.strokeStyle = "rgba(60,45,25,.55)";
+      g.lineWidth = px;
+      for (let t = 0.15; t < 0.95; t += 0.1) {
+        const bx = x + (tx - x) * t * t, by = -hh * t;
+        g.beginPath();
+        g.moveTo(bx - hh * 0.025, by); g.lineTo(bx + hh * 0.025, by);
+        g.stroke();
+      }
+    }
+    // fronds: back ones darker, then lit ones
+    const fronds = 8;
+    for (const [col, lw, off] of [["#2f5a22", 0.055, 0], ["#4f8a32", 0.042, 0.02], ["#8fbf55", 0.018, 0.035]]) {
+      g.strokeStyle = col;
+      g.lineWidth = Math.max(px * 1.2, hh * lw);
+      for (let k = 0; k < fronds; k++) {
+        const a = (k / fronds) * TAU + 0.3, len = hh * (0.42 + (k % 3) * 0.05);
+        const ex = tx + Math.cos(a) * len, ey = ty + Math.sin(a) * len * 0.45 + len * 0.28;
+        g.beginPath();
+        g.moveTo(tx, ty - off * hh);
+        g.quadraticCurveTo(tx + Math.cos(a) * len * 0.55, ty + Math.sin(a) * len * 0.3 - len * 0.22 - off * hh, ex, ey - off * hh);
+        g.stroke();
+      }
+    }
+    g.fillStyle = "#5c4422";
+    for (const [dx, dy] of [[-0.02, 0.02], [0.02, 0.025], [0, 0.04]]) {
+      g.beginPath();
+      g.arc(tx + dx * hh * 2, ty + dy * hh * 2, hh * 0.035, 0, TAU);
+      g.fill();
+    }
+  }
+}
+
+/** Fish ponds (ao) with earthen banks; "shrimp" = a grid of rectangular shrimp ponds with paddle-wheel aerators. */
+function paintPond(g, upx, v, kind) {
+  const r = rng(v * 919 + 7);
+  const px = 1 / upx;
+  const water = (x, y, w, h, rr) => {
+    g.fillStyle = "#c9b685"; // the bank
+    roundRect(g, x - 0.025, y - 0.02, w + 0.05, h + 0.04, rr + 0.02);
+    g.fill();
+    const gr = g.createLinearGradient(x, y, x + w, y + h);
+    gr.addColorStop(0, "#6b9ea4");
+    gr.addColorStop(0.5, "#3f727a");
+    gr.addColorStop(1, "#2c5960");
+    g.fillStyle = gr;
+    roundRect(g, x, y, w, h, rr);
+    g.fill();
+    g.strokeStyle = "rgba(240,250,250,.45)";
+    g.lineWidth = Math.max(px, 0.006);
+    g.beginPath();
+    g.moveTo(x + w * 0.15, y + h * 0.3); g.lineTo(x + w * 0.45, y + h * 0.3);
+    g.stroke();
+  };
+  if (kind === "shrimp") {
+    const cw = 0.17, ch = 0.11;
+    for (let a = 0; a < 3; a++) for (let b = 0; b < 2; b++) {
+      const x = -0.27 + a * (cw + 0.05), y = -0.12 + b * (ch + 0.045);
+      water(x, y, cw, ch, 0.008);
+      if (upx > 50 && r() < 0.6) {
+        g.fillStyle = "rgba(255,255,255,.8)";
+        g.fillRect(x + cw * 0.4, y + ch * 0.45, Math.max(px * 2, 0.02), Math.max(px, 0.006));
+      }
+    }
+    return;
+  }
+  const n = 1 + (v % 3 === 0);
+  for (let k = 0; k < n; k++) {
+    const w = 0.26 + r() * 0.14, h = 0.14 + r() * 0.06;
+    water(-w / 2 + (k ? 0.16 : -0.06), -h / 2 + (k ? 0.1 : -0.04), w, h, 0.05);
+  }
+}
+
+function roundRect(g, x, y, w, h, rr) {
+  g.beginPath();
+  g.moveTo(x + rr, y);
+  g.arcTo(x + w, y, x + w, y + h, rr);
+  g.arcTo(x + w, y + h, x, y + h, rr);
+  g.arcTo(x, y + h, x, y, rr);
+  g.arcTo(x, y, x + w, y, rr);
+  g.closePath();
+}
+
+/** A patch of terraced paddies (ruộng bậc thang) on a slope: curved contour steps, each with a light dike and a
+ *  shaded riser, inside a soft irregular outline. Rice green, water and gold mixed like neighbouring families' plots. */
+function paintTerraces(g, upx, v) {
+  const r = rng(v * 787 + 3);
+  const px = 1 / upx;
+  blobPath(g, 0, 0, 0.5, 0.3, r, 10, 0.25);
+  g.save();
+  g.clip();
+  g.fillStyle = "#8a7448";
+  g.fillRect(-0.6, -0.4, 1.2, 0.8);
+  const steps = 5 + (v % 3), hgt = 0.62 / steps, bow = 0.12 + r() * 0.08, tilt = (r() - 0.5) * 0.12;
+  const yAt = (k, x) => -0.31 + k * hgt + bow * (x * x) / 0.25 + tilt * x;
+  for (let k = 0; k < steps; k++) {
+    const pk = pickWeighted(r, PADDY_W);
+    g.beginPath();
+    for (let x = -0.55; x <= 0.551; x += 0.05) g.lineTo(x, yAt(k, x));
+    for (let x = 0.55; x >= -0.551; x -= 0.05) g.lineTo(x, yAt(k + 1, x) - hgt * 0.22);
+    g.closePath();
+    g.fillStyle = css(PADDY[pk][0]);
+    g.fill();
+    if (WET.has(pk)) {
+      g.fillStyle = "rgba(235,248,250,.22)";
+      g.fill();
+    }
+    g.beginPath();
+    for (let x = -0.55; x <= 0.551; x += 0.05) g.lineTo(x, yAt(k + 1, x) - hgt * 0.22);
+    g.strokeStyle = "rgba(236,226,186,.55)";
+    g.lineWidth = Math.max(px, 0.008);
+    g.stroke();
+  }
+  g.restore();
+  // a soft edge into the hillside
+  blobPath(g, 0, 0, 0.5, 0.3, rng(v * 787 + 3), 10, 0.25);
+  g.strokeStyle = "rgba(70,60,30,.28)";
+  g.lineWidth = Math.max(px * 2, 0.025);
+  g.stroke();
+}
+
+/** A coffee (or pepper) garden on red basalt soil: rows of dark shrubs; every third variant has pepper vines on
+ *  poles (tall dark columns) and a few shade trees. */
+function paintCoffee(g, upx, v) {
+  const r = rng(v * 557 + 13);
+  const px = 1 / upx;
+  const pepper = v % 3 === 0;
+  blobPath(g, 0, 0, 0.48, 0.3, r, 9, 0.25);
+  g.save();
+  g.clip();
+  g.fillStyle = "#8c5636";
+  g.fillRect(-0.6, -0.4, 1.2, 0.8);
+  const ang = (r() - 0.5) * 0.6, ca = Math.cos(ang), sa = Math.sin(ang);
+  const sp = pepper ? 0.09 : 0.08, rad = pepper ? 0.022 : 0.03;
+  for (let a = -0.6; a <= 0.6; a += sp) for (let b = -0.4; b <= 0.4; b += sp * 0.8) {
+    const x = a * ca - b * sa, y = (a * sa + b * ca) * 0.75;
+    if (pepper) {
+      g.fillStyle = "rgba(40,20,8,.35)";
+      g.fillRect(x + rad * 0.4, y - rad * 0.2, rad * 1.6, rad * 0.8);
+      g.fillStyle = "#24461d";
+      g.fillRect(x - rad * 0.8, y - rad * 3.4, rad * 1.6, rad * 3.4);
+      g.fillStyle = "#4f7f33";
+      g.fillRect(x - rad * 0.8, y - rad * 3.4, rad * 0.6, rad * 3);
+    } else {
+      g.fillStyle = "rgba(40,20,8,.35)";
+      g.beginPath();
+      g.arc(x + rad * 0.35, y + rad * 0.25, rad, 0, TAU);
+      g.fill();
+      g.fillStyle = "#2f5524";
+      g.beginPath();
+      g.arc(x, y, rad, 0, TAU);
+      g.fill();
+      if (upx > 40) {
+        g.fillStyle = "#5f913c";
+        g.beginPath();
+        g.arc(x - rad * 0.3, y - rad * 0.35, rad * 0.45, 0, TAU);
+        g.fill();
+      }
+    }
+  }
+  g.restore();
+  blobPath(g, 0, 0, 0.48, 0.3, rng(v * 557 + 13), 9, 0.25);
+  g.strokeStyle = "rgba(80,40,20,.3)";
+  g.lineWidth = Math.max(px * 2, 0.022);
+  g.stroke();
 }
 
 // --- ground sprites (whole hex) -------------------------------------------------------------------------------------
@@ -2060,47 +2285,6 @@ function pickWeighted(r, weights) {
   let t = r() * weights.reduce((p, q) => p + q, 0);
   for (let k = 0; k < weights.length; k++) if ((t -= weights[k]) <= 0) return k;
   return weights.length - 1;
-}
-
-/** A centre-pivot circle (High Plains irrigation) laid over the field patchwork: a green or ripening disc with
- *  wheel tracks and the sprinkler arm, a soft dark rim where it meets the surrounding dry corners. */
-function paintPivot(g, upx, v) {
-  const r = rng(v * 557 + 19);
-  const px = 1 / upx;
-  const pr = 0.3;
-  const ripe = v % 3 === 2;
-  g.beginPath();
-  g.arc(0.012, 0.012, pr + Math.max(px, 0.008), 0, TAU);
-  g.fillStyle = "rgba(60,48,20,.35)";
-  g.fill();
-  const gr = g.createRadialGradient(-pr * 0.35, -pr * 0.35, pr * 0.05, 0, 0, pr);
-  gr.addColorStop(0, ripe ? "#e6cd72" : "#a8cc5e");
-  gr.addColorStop(1, ripe ? "#c19c45" : "#5f8f35");
-  g.fillStyle = gr;
-  g.beginPath();
-  g.arc(0, 0, pr, 0, TAU);
-  g.fill();
-  if (upx * pr > 10) {
-    g.strokeStyle = ripe ? "rgba(110,80,20,.3)" : "rgba(30,60,10,.3)";
-    g.lineWidth = Math.max(px, 0.005);
-    for (const f of [0.3, 0.52, 0.74, 0.92]) {
-      g.beginPath();
-      g.arc(0, 0, pr * f, 0, TAU);
-      g.stroke();
-    }
-    const a = r() * TAU;
-    g.strokeStyle = "rgba(245,245,235,.75)";
-    g.lineWidth = Math.max(px * 1.2, 0.007);
-    g.beginPath();
-    g.moveTo(0, 0);
-    g.lineTo(Math.cos(a) * pr, Math.sin(a) * pr);
-    g.stroke();
-  }
-  g.strokeStyle = "rgba(255,250,215,.3)";
-  g.lineWidth = Math.max(px, 0.006);
-  g.beginPath();
-  g.arc(0, 0, pr, Math.PI * 0.9, Math.PI * 1.6);
-  g.stroke();
 }
 
 /** Meadow underlay for grassland up close: dense grass strokes in mixed greens and straw, wildflower patches

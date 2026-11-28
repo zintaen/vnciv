@@ -84,7 +84,9 @@ export function createSplit(app, T, { onRender } = {}) {
     const c = app.cam, dpr = Math.min(2, devicePixelRatio || 1);
     const W = Math.max(1, Math.round(c.w * dpr)), H = Math.max(1, Math.round(c.h * dpr));
     if (off.cv.width !== W || off.cv.height !== H) { off.cv.width = W; off.cv.height = H; }
-    const { lens } = viewOf(lensById(right.lens), right.year);
+    const base = lensById(right.lens);
+    if (base && !base.values && app.lensValues) { app.lensValues(base).then((v) => { if (v && on) schedule(0); }); return; } // values load on demand
+    const { lens } = viewOf(base, right.year);
     const wB = { ...w };
     applyLens(wB, lens, null);
     const b = bordersFor(right.year);

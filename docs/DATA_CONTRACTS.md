@@ -38,7 +38,14 @@
 >   uses numpy, rasterio and openpyxl (not the standard library only).
 > * **military.json** comes from OpenStreetMap military land: components army / navy / air_force / other; tiers by mapped
 >   area; personnel, spending and veterans are null (not published). **trade.json** holds domestic air routes
->   (OpenFlights 2014): routes carry `airlines`, `airline_codes`, `airports`, `dist_km`; `value_musd`/`tons_k` are null.
+>   (Wikipedia airport articles' airlines-and-destinations tables, built from air_routes.json): routes carry `airlines`,
+>   `airline_codes` (IATA designators, else the airline's name), `airports`, `dist_km`; `value_musd`/`tons_k` are null.
+>   Optional `international: {rule, min_airlines, foreign: {IATA: {city (English link label), country (ISO), x?, y?
+>   (map units, only inside the map frame)}}, routes: [{vn, city, foreign, airlines, airline_codes, in_frame, drawn,
+>   dist_km, path ([vn cell, foreign cell] when in the frame, else null), rank}]}`: routes with `drawn` are the pink arcs
+>   of the air-routes layer and planes of motion_routes.json `air` (`international: true`).
+>   **states.json** adds `pci_2025`: the PCI 2025 composite computed by the atlas from VCCI's nine sub-indices and
+>   published weights (VCCI does not publish it; data/stats/p34/pci_2025.csv).
 >   Ports carry no tonnage.
 > * **infrastructure.json** airports: `name` is OurAirports' English name, `name_vi` the Vietnamese one (the vi
 >   Wikipedia title linked from Wikidata, else the Wikidata vi label; `format.js` airportName() shows it in vi).
@@ -71,10 +78,23 @@
 >     `note` says what the shares count.
 >   * **world.json** `tables.cover` entries have no `color`/`nlcd`; `tables.notes: {water, relief, cover, provinces}`.
 > * **Vietnam-only files** (all optional, `version: 1`, built by `pipeline/build/ext_*.py`, `places.py`, `timeline.py`):
->   * **communes.json** (lazy): `{year, sources, vintage, rules, kinds: [Xã, Phường, Đặc khu], q, unit_km, count,
->     official_2025: {total, communes, wards, special}, by_province: {abbr: {communes, wards, special, total,
->     official_2025}}, count_differences, count_note, outline_check, arcs, communes: [{id, n (name), k (kinds index),
->     p (province), x, y, a (km²), r (rings of arc indices)}]}`.
+>   * **communes.json** (lazy): `{year, as_of (date of the NSO register the types match), sources, vintage, rules,
+>     kinds: [Xã, Phường, Đặc khu], q, unit_km, count, official_2025: {total, communes, wards, special}, official_now
+>     (same, NSO register), changes: [{id (resolution), by, province, adopted, effective, kind_from, kind_to, source,
+>     ids}], by_province: {abbr: {communes, wards, special, total, official_2025, official_now}}, count_differences, count_note, outline_check, stats, arcs, communes: [{id, n (name), k (kinds index),
+>     p (province), x, y, a (outline area computed from the boundary, km²), r (rings of arc indices), area_km2, population,
+>     density, res, null_reason?}]}`.
+>     Commune statistics (pipeline/build/communestats.py): `area_km2` (natural area as the source states it, km²),
+>     `population` (population 2025, people, int) and `density` (population / area_km2, people/km², 1 decimal) are from
+>     the official merger map (source `sapnhap_bando_official`, retrieved 2026-11-28; the map labels the population
+>     "Dân số 2025") and are each a number or null; when any is null, `null_reason` is a key of `stats.reasons` (copy,
+>     no_area, reef, area_mismatch, pending, province_total, implausible). `area_km2` null ⇒ `population` null; `density`
+>     is set exactly when `population` is. `res` indexes `stats.resolutions` ({id, link}: the resolution the source
+>     cites, linked on vanban.chinhphu.vn). `a` is a different basis (the outline) and is always set. `stats`: `{source,
+>     check_sources, as_of, population_year, basis, fields, rules, reasons, resolutions, matched_by_name, count: {units,
+>     area_km2, population, density, by_reason}, by_province: {abbr: {units, with_area, with_population, population_sum,
+>     province_population_2025, ratio, worldpop_share, ratio_vs_share, source_sum_all_units, source_sum_ratio}}}`; the
+>     build stops unless every province's `ratio_vs_share` is within 1 ± 0.2.
 >   * **poi.json** (lazy): `{vintage, sources, rules, states: [abbr], religions, cols: {layer: [column]}, points: {layer:
 >     [[row]]} (state = index into states), metro: [{name, ref, colour, route, km, state, paths}], counts}`.
 >   * **relics.json** (lazy): `{vintage, sources, rules, states, cols: [x, y, name, state, year, category, article,
@@ -85,15 +105,28 @@
 >     largest, pop}}}` (nation has the same fields without name/province).
 >   * **forest_loss.json**: `{source, years, canopy_min, unit: "ha", rules, note, cells, forest2000_ha, peak_year,
 >     loss_ha: [per year, per cell], provinces: [{abbr, forest2000_ha, loss_ha, share}], national}` (cells = the hexes listed).
->   * **sealevel.json**: `{source, levels: [m], unit, hex_area_km2, rule, note, cells, land_pct, share: [per level, per cell]}`.
->   * **history.json**: `{source, rules, events: [{id, date, year, category (capital | dynasty | admin | national),
->     title, text, cite, evidence, x, y, lon, lat}]}`.
+>   * **sealevel.json**: `{source (etopo: ETOPO1), delta_source (mekong_dem), delta_cells (hexes whose shares come from the Mekong-delta DEM), levels: [m], unit, hex_area_km2, rule, note, cells, land_pct, share: [per level, per cell]}`.
+>   * **history.json** (lazy, built by `ext_society_history.py` from data/stats/history/events*.json): `{version: 2, source,
+>     rules (what qualifies, date, position, cite, neutral, legend), categories: {id: name}, events: [{id, date, year,
+>     category (dynasty | modern | admin | infra | disaster | culture | economy | science), title, text, title_vi, text_vi,
+>     cite (the article, or an official page in data/stats/history/web.json), revid (the Wikipedia revision holding the
+>     evidence; null for an official page), evidence (verbatim sentence), x, y, lon, lat (null = no single place), place,
+>     placed (how it was placed), also?: [{cite, revid, evidence}], story?: [chapter id], storm?: {name, season} (a
+>     timeline.json storm), wonder?: (a wonders.json id)}]}`.
 >   * **places.json** (eager): `{sources, rules, archipelagos: [{id, name, owner, x, y, islands}], slogan: {text, en, x, y},
 >     islands: [{name, en, group, x, y}], towns: [{name, x, y, population, kind}]}`.
->   * **timeline.json** (lazy): `{sources, years, fx, fx_used, provisional_seasons (IBTrACS provisional seasons, from disasters.json), merger: {date, before, after}, series: {id: {unit, source,
+>   * **timeline.json** (lazy): `{sources, years (2010 to the newest storm season: the first year with an NSO series; every
+>     pre-2025 year is drawn on the 63-province frame, which holds from 2008), fx, fx_used, provisional_seasons (IBTrACS provisional seasons, from disasters.json), merger: {date, before, after}, series: {id: {unit, source,
 >     lens, levels: {"63"|"34": {code: {year: value}}}, lens_values, status: {year: final | prel | est}, status_levels?,
->     note (a definition break inside the series, or null)}},
+>     note (a definition break inside the series, or null: e.g. poverty 2016-2020 vs 2022-2025 multidimensional standard
+>     (income poverty 2010-2015 is its own series `poverty_rate_income`, lens null), labour ICLS19 from 2021, HDI PPPs, population revised to the 2019 census)}},
 >     storms: [{name, season, date, max_kt, cells}], events: [{date, id, title, text, wonder?, source}], note}`.
+>   * **air_routes.json** (lazy, built by `trade.py`): `{version, sources, rules: {tables, service, domestic,
+>     international}, articles: {"en:SGN": {title, revid, timestamp, retrieved, url}}, airlines: {id (Wikidata item, or
+>     "lang:link" when none): {name, iata|null}}, domestic: [{a, b (IATA, a < b), airlines: [{id, service (scheduled |
+>     seasonal | charter), listed_in: [article keys]}]}], one_sided (same shape: airlines listed at one end only),
+>     international: [{vn, foreign (IATA), airlines}], foreign_airports: {IATA: {name, country, municipality, lon, lat}},
+>     dropped_links}`. Every domestic airline is listed in the articles of both airports.
 >   * Motion data (lazy, `pipeline/build/ext_motion.py`; every selection rule is in the file's `rules`):
 >     * **storm_tracks.json**: `{sources, cols: [time, x, y, kt], rules, storms: [{id (IBTrACS SID), name, season, date,
 >       max_kt, agency (JMA | JTWC), points: [[time (ISO UTC "1980-06-26T00:00Z"), x, y, kt | null]]}]}`; `storms[i]` is
@@ -103,7 +136,7 @@
 >     * **motion_routes.json**: `{sources, rules: {rail, sea, air}, rail: [{id (north_south | branch_n), kind (main |
 >       branch), from, to, from_city, to_city, cells, pts: [[x, y]], km}], sea: [{port, name, seaport, class, land_hexes,
 >       pts}] (illustrative; pts[0] = the port), air: [{a, b (city ids), airport_a, airport_b, rank, airlines, dist_km,
->       p0, c, p1 (quadratic Bézier)}]}`.
+>       p0, c, p1 (quadratic Bézier), international? (true: b is the foreign airport's IATA code)}]}`.
 >     * **night_lights.json**: `{sources, rules, domain: [lo, hi] (people / km²), values: [0..1 per cell, null off
 >       Vietnamese land], seats: [{id, name, x, y, population, capital}]}` (derived from population, not satellite data).
 
@@ -308,6 +341,14 @@ Produced by `pipeline/build/lenses.py`.
   }]
 }
 ```
+
+**What the browser loads.** lenses.json is the build artefact every lens builder appends to; it is not deployed.
+`pipeline/build/pack.py` (run by `store.write_web("lenses.json", …)`, by `pipeline serve`, by `tools/regress.py` and by
+CI before the Pages upload; its output is gitignored) splits it into `lenses_index.json` (the same object with every
+lens's `values` removed, ~35 kB) and `lens/<id>.json` (that lens's `values` array). The page loads the index at start
+and a lens's values only when something needs them: `app.setLens` waits for them (the hash keeps the requested lens
+meanwhile), other readers call `app.lensValues(id | lens) → Promise<values | null>`, which also sets `lens.values`
+on the shared lens object. A lens in `app.lensById` / `app.data.lenses` has no `values` until then.
 
 **Categorical lenses** (`"format": "category"`): each value is an integer index into `categories` (or null);
 `"categories": [{"id": "catholic", "name": "Catholic", "color": "#…", "description"?: "…"}]` (≥ 2), `ramp` = the
@@ -827,6 +868,45 @@ NOAA events span many states: never add state costs together into a national fig
 helper `disasters.county_declarations(fema_interim, geoids)` gives the per-county counts used by the `disasters` lens,
 the counties.json column and this file, so the three always agree.
 
+### borders_history.json (lazy)
+
+The province map at each change from 1976 to 2026, for the Historical boundaries mode (`web/js/ext/borders`, hash
+`borders=<frame id | year>`). Built by `pipeline/build/ext_borders.py` from sources `borders_legal` (the National
+Assembly resolutions of 1975–2008: Wikisource, and thuvienphapluat.vn / vbpl.vn via the Internet Archive),
+`borders_wiki` (Vietnamese Wikipedia revisions, chiefly the year-by-year list in "Đơn vị hành chính cấp tỉnh (Việt
+Nam)"), `hdx_cod_ab_vnm_2020` (admin 2: the 708 districts of 2020) and `hdx_cod_ab_vnm` (the 34). The builder fails when
+a frame's province count or kind split is not the stated one, when a district is lost or claimed twice, or when a
+change's `evidence` sentence is not in its downloaded source file.
+
+```js
+{
+  version: 1, sources: [...], n_land: 5195,        // world.json hexes with owner >= 0
+  rules: {frames, cells, districts, members, 2025, counts}, rules_vi: {...},   // the selection rules, as text
+  frames: [{
+    id: "1976" | "1977" | "1978" | "1979" | "1982" | "1989" | "1991-08" | "1991-12" | "1996" | "2003" | "2008" | "2024" | "2025" | "2026",
+    date: "1976-07-02",                  // the resolution's adoption (2008: in force 1 Aug; `adopted` holds 29 May)
+    count: 38, count_note?: "derived",   // province-level units; 1991-08 (49) is derived, see rules.counts
+    kinds: {province: 35, city: 3, zone?: 1},
+    title, title_vi,
+    legal: [{text, text_vi, url, file, source}],                   // legal basis; url = the human-readable page
+    changes: [{text, text_vi, status, url, evidence}],             // one card per change; status = name/rank only
+    approx: [{text, text_vi}],                                     // where the hex map is coarser than the law
+    provinces: [{name, kind: "province" | "city" | "zone", from: [2020 provinces], plus?: [...], minus?: [...], hexes}],
+    cells: [province, run, province, run, ...],                    // over the land hexes in hex order; runs sum to n_land
+  }],
+}
+```
+
+* Before 2025 a province is a set of 2020 districts; a land hex takes the province of its 2020 district (the district
+  under most of its 7 sample points among those of its former province on world.json, so the 63 nest exactly). The
+  1976 map is unions of 2020 provinces with a few district exceptions (Đình Lập, Côn Đảo, Cần Giờ, Trường Sa, Than
+  Uyên/Tân Uyên, the Hà Nội districts); each later frame applies its resolution's splits and moves to the one before.
+* `2008` equals world.json's 63 former provinces hex for hex; `2025` and `2026` equal its 34 (`owner`) hex for hex
+  (tests/test_borders.py checks both, the counts, and that every land hex is assigned in every frame).
+* Province names are those of the time; `from`/`plus`/`minus` name 2020 units ("Huyện Mê Linh (Hà Nội)").
+* Browser handle `app.borders`: `show(idOrYear) → Promise<bool>`, `close()`, `frame` (current id or null),
+  `frames() → Promise<[{id, date, count}]>` (e.g. a "see this year's boundaries" link from the History list).
+
 ## sources.json
 
 A list of `{id, title, publisher, homepage, license, description, used_for, vintage, files: [{file, url, retrieved, sha256, bytes}]}`.
@@ -855,7 +935,8 @@ Extensions live in `web/js/ext/<name>/index.js` and export `install(app)`; `ext/
 
 **Data.**
 * `app.data.<name>`: the core files (`world`, `cities`, `states`, `nation`, `lenses`, `resources`, `sources`) are loaded
-  before anything runs. Optional files: `undefined` until loaded, `null` when missing (404) or invalid.
+  before anything runs (`lenses` holds lenses_index.json, filled in place after the first frame on a plain visit;
+  per-hex `values` via `app.lensValues`, see lenses.json). Optional files: `undefined` until loaded, `null` when missing (404) or invalid.
 * `app.loadData(name) → Promise<data | null>`: loads `data/<name>.json` once (cached promise; later calls return the same
   promise) and sets `app.data[name]`. Emits `"data"` `{name, data}` when it arrives. `infrastructure`, `military`,
   `wonders`, `trade`, `places` are requested automatically right after the first frame; `citizens`, `districts`, `disasters` (and
@@ -917,6 +998,13 @@ it, and ids whose extension has not loaded yet stay in the URL. `app.ui.mapToggl
 `app.ui.setMapToggle(id, on) → bool` switches one from code exactly as the panel would (redraw, hash), e.g. an
 advisor's "show roads, rail and forts" button; false if no toggle has that id (yet).
 
+**Top-bar buttons.** `app.ui.addTopButton({id, icon, label, onClick, title, menu?}) → button`: a button before the
+"Thêm ▾ / More ▾" menu; `menu: true` puts it in that menu instead (role=menuitem; advisors, 3D view and Share live
+there). Ids, `click()` and `focus()` keep working; focusing an item of the closed menu lands on `#btn-more`, and
+`aria-pressed` on an item becomes `menuitemcheckbox` / `aria-checked`.
+Default map layers (no `layers=` in the URL), the "gọn hơn" set: roads, rail, hubs, rivers, wonders, places, ambient,
+the living switches (trees off on phones), military and hexlife on; everything else off.
+
 **Search.** `app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick(), at?, line?, box?}]) →
 remove()`. After `pick()` runs, main marks the place on the map (pin, pulsing ring, floating `label`) until the next
 pick, Esc or a click on the map. Give the geometry so the mark lands exactly: `at: {x, y}` (or `[x, y]`, map km) for a
@@ -941,6 +1029,9 @@ minute without input, with Effects off or with reduced motion.
   of the flight starting); after a pan or wheel zoom it catches up 350 ms after the camera settles; `app.setMode`
   writes it on the next task. Lens, selection and mode changes push a history entry (Back undoes them); camera moves
   replace the current one. `app.hash.flush()` writes immediately (Share calls it before copying).
+* Embed mode (`?embed=1`, app/embed.js + app/embedui.js; `&search=1` keeps the search box, `&lang=en`): every write
+  replaces the current entry (the host page's Back is never touched), `tour=` is dropped, localStorage is an in-memory
+  store, and the top bar shows only the theme key and "Open on atlasvn.online ↗".
 
 **Year views (ext/timeline).** `app.setLensView(fn | null)`: `fn(lens)` returns a lens-shaped object (own `id`,
 `values` per hex, `domain`, `note`, ...) that is coloured, shown in the legend and the hex tooltip instead of the active
@@ -1035,11 +1126,32 @@ Each lives in `web/js/ext/<name>/`, adds its toggles with `app.ui.addMapToggle` 
 - **living** (`pipeline/build/ext_living*.py`): `living.json` (crop calendar by region, flood-season provinces and
   months, Tết dates 1990–2040), `living_built.json` (first GHSL built-up epoch per hex, observed epochs 1975–2020
   only), `living_roads.json` (expressway links with their opening year and its source). `app.living` exposes the
-  growth model; `render/art/terrain.js` exports `STAMP_KIND` (sprite canvas → stamp name) so the sway overlay can
-  find trees and houses. Hidden preview: `?living=tet`, `?living=m8`, `?living=t2027-02-05T22:00`.
+  growth model; `render/art/terrain.js` exports `STAMP_KIND` (sprite canvas → stamp name: `tree`, `clump`, `palm`
+  sway; `village` and `stilt` houses smoke and light up) so the sway overlay can find trees and houses. Hidden preview: `?living=tet`, `?living=m8`, `?living=t2027-02-05T22:00`.
   `app.daynight.now()` gives the simulated time while the 24 h play runs.
-- **story**: hash keys `story=<doimoi|mekong|yagi|p34>&step=n`, `story=split&cmp=<lens|terrain>~<year|now>`,
+- **story**: hash keys `story=<chapter id>&step=n` (doimoi, mekong, yagi, p34, bachdang, thanglong, railway, expressway, bacninh,
+  hcmc, forest, unesco, sea, ageing, floods, highlands; `app.story.chapters`), chapters grouped by `theme` (history | growth |
+  nature | people) in the picker, a chapter's data files loaded when it opens, `story=split&cmp=<lens|terrain>~<year|now>`,
   `story=pair&pp=A,B`. Uses `app.timeline.replay` (`storms`, `merger`, `forest`, `close`, `kind`).
 - **atmos**: live weather from Open-Meteo (CC BY 4.0), fetched by the browser only when the layer is switched on
   (CSP `connect-src` allows `https://api.open-meteo.com`), cached 30 min in sessionStorage; synthesized ambient sound
   (WebAudio, off by default, never in the hash).
+- **hexlife** (Living tiles / Ô sống động, `ext/hexlife/`, switch in `display`, not in the hash): mouse hover lifts the
+  hex and stirs its trees, paddy or water (that hex and its 6 neighbours only, ~1.4 s); a click or tap adds a ripple
+  ring and a card (terrain, elevation, land cover, rice stage, province, commune, "Open <province>") beside the usual
+  selection (its "mapclick" handler never consumes the click; no card for city tiles, layer sites or modes); `I` opens
+  the card for the hex in the middle of the map. Close zoom (hex radius ≥ 44 px): a few buffaloes, farmers, boats and
+  ducks (`life.js`, illustrative, hashed per hex). All `app.motion` with a frame cap; still with Effects off. Uses
+  `render/art/terrain.js` `fieldArt`, `isFieldCell`, `pondSpot` (the Vietnamese field art and where the delta ponds
+  sit). Debug handle `app.hexlife`. Each time the card is filled it emits `"hexcard"` `{cell, el}` (`el` = the card's inner box) so other
+  extensions can add to it; `app.hexlife.place()` re-positions it after its height changed, `app.hexlife.cell` is the
+  open card's cell (-1 = none).
+- **explore** (`ext/explore/`): photos in the hexlife card (Wikimedia Commons via the MediaWiki API, fetched only when a
+  card opens, cached per cell / place; only CC0, public domain, CC BY and CC BY-SA files, each with author, licence and
+  file-page link; CSP allows `connect-src https://commons.wikimedia.org https://www.wikidata.org` and `img-src
+  https://upload.wikimedia.org https://thumb.wikimedia.org`); a search pick of a point or city and a click on an everyday
+  place / geography site / wonder open the card with that place's name. Modes `measure` (great-circle path) and `radius`
+  (hex-level counts inside a circle) with hash key `measure=x,y;x,y…` or `measure=r<km>@x,y`; fly-along journeys
+  (`app.explore.fly("rail_ns" | "mekong" | "red")`, hash `fly=<id>`); the "Season calendar" switch (`seasoncal`, group
+  `living`) reading `seasons.json` (`pipeline/build/ext_seasons.py`: storms by month, festivals' solar dates per lunar
+  year, sourced flower and terrace seasons with their quotes) and `living.json`.

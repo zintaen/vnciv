@@ -1,0 +1,1312 @@
+[
+ {
+  "id": "merge_1975_cao_lang",
+  "date": "1975",
+  "category": "admin",
+  "title_en": "Cao Bằng and Lạng Sơn merged into Cao Lạng",
+  "title_vi": "Cao Bằng và Lạng Sơn hợp nhất thành tỉnh Cao Lạng",
+  "text_en": "In late 1975 the provinces of Cao Bằng and Lạng Sơn were merged into Cao Lạng province.",
+  "text_vi": "Cuối năm 1975, các tỉnh Cao Bằng và Lạng Sơn hợp nhất thành tỉnh Cao Lạng.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Cuối năm 1975:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Cao Bằng và Lạng Sơn hợp nhất thành tỉnh Cao Lạng"
+   }
+  ],
+  "at": "p_cao_bang.json",
+  "place": "Cao Lạng"
+ },
+ {
+  "id": "merge_1975_ha_nam_ninh",
+  "date": "1975",
+  "category": "admin",
+  "title_en": "Nam Hà and Ninh Bình merged into Hà Nam Ninh",
+  "title_vi": "Nam Hà và Ninh Bình hợp nhất thành tỉnh Hà Nam Ninh",
+  "text_en": "In late 1975 the provinces of Nam Hà and Ninh Bình were merged into Hà Nam Ninh province.",
+  "text_vi": "Cuối năm 1975, các tỉnh Nam Hà và Ninh Bình hợp nhất thành tỉnh Hà Nam Ninh.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Cuối năm 1975:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Nam Hà và Ninh Bình hợp nhất thành tỉnh Hà Nam Ninh"
+   }
+  ],
+  "at": "p_ninh_binh.json",
+  "place": "Hà Nam Ninh"
+ },
+ {
+  "id": "merge_1975_ha_tuyen",
+  "date": "1975",
+  "category": "admin",
+  "title_en": "Hà Giang and Tuyên Quang merged into Hà Tuyên",
+  "title_vi": "Hà Giang và Tuyên Quang hợp nhất thành tỉnh Hà Tuyên",
+  "text_en": "In late 1975 the provinces of Hà Giang and Tuyên Quang were merged into Hà Tuyên province.",
+  "text_vi": "Cuối năm 1975, các tỉnh Hà Giang và Tuyên Quang hợp nhất thành tỉnh Hà Tuyên.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Cuối năm 1975:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Hà Giang và Tuyên Quang hợp nhất thành tỉnh Hà Tuyên"
+   }
+  ],
+  "at": "p_ha_giang.json",
+  "place": "Hà Tuyên"
+ },
+ {
+  "id": "merge_1975_hoang_lien_son",
+  "date": "1975",
+  "category": "admin",
+  "title_en": "Lào Cai, Nghĩa Lộ and Yên Bái merged into Hoàng Liên Sơn",
+  "title_vi": "Lào Cai, Nghĩa Lộ và Yên Bái hợp nhất thành tỉnh Hoàng Liên Sơn",
+  "text_en": "In late 1975 the provinces of Lào Cai, Nghĩa Lộ and Yên Bái were merged into Hoàng Liên Sơn province.",
+  "text_vi": "Cuối năm 1975, các tỉnh Lào Cai, Nghĩa Lộ và Yên Bái hợp nhất thành tỉnh Hoàng Liên Sơn.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Cuối năm 1975:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Lào Cai, Nghĩa Lộ (trừ 2 huyện Bắc Yên, Phù Yên nhập vào tỉnh Sơn La) và Yên Bái hợp nhất thành tỉnh Hoàng Liên Sơn"
+   }
+  ],
+  "at": "p_lao_cai.json",
+  "place": "Hoàng Liên Sơn"
+ },
+ {
+  "id": "merge_1975_nghe_tinh",
+  "date": "1975",
+  "category": "admin",
+  "title_en": "Nghệ An and Hà Tĩnh merged into Nghệ Tĩnh",
+  "title_vi": "Nghệ An và Hà Tĩnh hợp nhất thành tỉnh Nghệ Tĩnh",
+  "text_en": "In late 1975 the provinces of Nghệ An and Hà Tĩnh were merged into Nghệ Tĩnh province.",
+  "text_vi": "Cuối năm 1975, các tỉnh Nghệ An và Hà Tĩnh hợp nhất thành tỉnh Nghệ Tĩnh.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Cuối năm 1975:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Nghệ An và Hà Tĩnh hợp nhất thành tỉnh Nghệ Tĩnh"
+   }
+  ],
+  "at": "p_nghe_an.json",
+  "place": "Nghệ Tĩnh"
+ },
+ {
+  "id": "merge_1976_binh_tri_thien",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Quảng Bình, Quảng Trị, Thừa Thiên and the Vĩnh Linh zone merged into Bình Trị Thiên",
+  "title_vi": "Quảng Bình, Quảng Trị, Thừa Thiên và khu Vĩnh Linh hợp nhất thành tỉnh Bình Trị Thiên",
+  "text_en": "In early 1976 the provinces of Quảng Bình, Quảng Trị, Thừa Thiên and the Vĩnh Linh zone were merged into Bình Trị Thiên province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Quảng Bình, Quảng Trị, Thừa Thiên và khu Vĩnh Linh hợp nhất thành tỉnh Bình Trị Thiên.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Quảng Bình, Quảng Trị, Thừa Thiên và khu Vĩnh Linh hợp nhất thành tỉnh Bình Trị Thiên"
+   }
+  ],
+  "at": "p_quang_binh.json",
+  "place": "Bình Trị Thiên"
+ },
+ {
+  "id": "merge_1976_quang_nam_da_nang",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Quảng Nam and Quảng Tín merged into Quảng Nam – Đà Nẵng",
+  "title_vi": "Quảng Nam và Quảng Tín hợp nhất thành tỉnh Quảng Nam – Đà Nẵng",
+  "text_en": "In early 1976 the provinces of Quảng Nam and Quảng Tín were merged into Quảng Nam – Đà Nẵng province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Quảng Nam và Quảng Tín hợp nhất thành tỉnh Quảng Nam – Đà Nẵng.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Quảng Nam và Quảng Tín hợp nhất thành tỉnh Quảng Nam – Đà Nẵng"
+   }
+  ],
+  "at": "p_quang_nam.json",
+  "place": "Quảng Nam – Đà Nẵng"
+ },
+ {
+  "id": "merge_1976_nghia_binh",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Quảng Ngãi and Bình Định merged into Nghĩa Bình",
+  "title_vi": "Quảng Ngãi và Bình Định hợp nhất thành tỉnh Nghĩa Bình",
+  "text_en": "In early 1976 the provinces of Quảng Ngãi and Bình Định were merged into Nghĩa Bình province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Quảng Ngãi và Bình Định hợp nhất thành tỉnh Nghĩa Bình.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Quảng Ngãi và Bình Định hợp nhất thành tỉnh Nghĩa Bình"
+   }
+  ],
+  "at": "p_quang_ngai.json",
+  "place": "Nghĩa Bình"
+ },
+ {
+  "id": "merge_1976_phu_khanh",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Phú Yên and Khánh Hòa merged into Phú Khánh",
+  "title_vi": "Phú Yên và Khánh Hòa hợp nhất thành tỉnh Phú Khánh",
+  "text_en": "In early 1976 the provinces of Phú Yên and Khánh Hòa were merged into Phú Khánh province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Phú Yên và Khánh Hòa hợp nhất thành tỉnh Phú Khánh.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "2 tỉnh Phú Yên và Khánh Hòa hợp nhất thành tỉnh Phú Khánh"
+   }
+  ],
+  "at": "p_phu_yen.json",
+  "place": "Phú Khánh"
+ },
+ {
+  "id": "merge_1976_thuan_hai",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Ninh Thuận, Bình Thuận and Bình Tuy merged into Thuận Hải",
+  "title_vi": "Ninh Thuận, Bình Thuận và Bình Tuy hợp nhất thành tỉnh Thuận Hải",
+  "text_en": "In early 1976 the provinces of Ninh Thuận, Bình Thuận and Bình Tuy were merged into Thuận Hải province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Ninh Thuận, Bình Thuận và Bình Tuy hợp nhất thành tỉnh Thuận Hải.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Ninh Thuận, Bình Thuận và Bình Tuy hợp nhất thành tỉnh Thuận Hải"
+   }
+  ],
+  "at": "p_ninh_thuan.json",
+  "place": "Thuận Hải"
+ },
+ {
+  "id": "merge_1976_gia_lai_kon_tum",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Kon Tum, Pleiku and Phú Bổn merged into Gia Lai – Kon Tum",
+  "title_vi": "Kon Tum, Pleiku và Phú Bổn hợp nhất thành tỉnh Gia Lai – Kon Tum",
+  "text_en": "In early 1976 the provinces of Kon Tum, Pleiku and Phú Bổn were merged into Gia Lai – Kon Tum province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Kon Tum, Pleiku và Phú Bổn hợp nhất thành tỉnh Gia Lai – Kon Tum.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Kon Tum, Pleiku, Phú Bổn hợp nhất thành tỉnh Gia Lai – Kon Tum"
+   }
+  ],
+  "at": "p_gia_lai.json",
+  "place": "Gia Lai – Kon Tum"
+ },
+ {
+  "id": "merge_1976_dong_nai",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Biên Hòa, Long Khánh and Phước Tuy merged into Đồng Nai",
+  "title_vi": "Biên Hòa, Long Khánh và Phước Tuy hợp nhất thành tỉnh Đồng Nai",
+  "text_en": "In early 1976 the provinces of Biên Hòa, Long Khánh and Phước Tuy were merged into Đồng Nai province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Biên Hòa, Long Khánh và Phước Tuy hợp nhất thành tỉnh Đồng Nai.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Biên Hòa, Long Khánh và Phước Tuy hợp nhất thành tỉnh Đồng Nai"
+   }
+  ],
+  "at": "dong_nai.json",
+  "place": "Đồng Nai"
+ },
+ {
+  "id": "merge_1976_song_be",
+  "date": "1976",
+  "category": "admin",
+  "title_en": "Bình Dương, Bình Long and Phước Long merged into Sông Bé",
+  "title_vi": "Bình Dương, Bình Long và Phước Long hợp nhất thành tỉnh Sông Bé",
+  "text_en": "In early 1976 the provinces of Bình Dương, Bình Long and Phước Long were merged into Sông Bé province.",
+  "text_vi": "Đầu năm 1976, các tỉnh Bình Dương, Bình Long và Phước Long hợp nhất thành tỉnh Sông Bé.",
+  "raw_file": "vi_hanhchinh.json",
+  "evidence": "Đầu năm 1976:",
+  "also": [
+   {
+    "raw_file": "vi_hanhchinh.json",
+    "evidence": "3 tỉnh Bình Dương, Bình Long, Phước Long hợp nhất thành tỉnh Sông Bé"
+   }
+  ],
+  "at": "p_binh_duong.json",
+  "place": "Sông Bé"
+ },
+ {
+  "id": "split_1978_cao_lang",
+  "date": "1978-12-29",
+  "category": "admin",
+  "title_en": "Cao Lạng split into Cao Bằng and Lạng Sơn",
+  "title_vi": "Chia tỉnh Cao Lạng thành Cao Bằng và Lạng Sơn",
+  "text_en": "On 29 December 1978 Cao Lạng province was divided into Cao Bằng and Lạng Sơn.",
+  "text_vi": "Ngày 29/12/1978, tỉnh Cao Lạng được chia thành các tỉnh Cao Bằng và Lạng Sơn.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 29 tháng 12 năm 1978:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Cao Lạng thành hai tỉnh Cao Bằng và Lạng Sơn"
+   }
+  ],
+  "at": "p_cao_bang.json",
+  "place": "Cao Bằng"
+ },
+ {
+  "id": "split_1989_nghia_binh",
+  "date": "1989-06-30",
+  "category": "admin",
+  "title_en": "Nghĩa Bình split into Quảng Ngãi and Bình Định",
+  "title_vi": "Chia tỉnh Nghĩa Bình thành Quảng Ngãi và Bình Định",
+  "text_en": "On 30 June 1989 Nghĩa Bình province was divided into Quảng Ngãi and Bình Định.",
+  "text_vi": "Ngày 30/6/1989, tỉnh Nghĩa Bình được chia thành các tỉnh Quảng Ngãi và Bình Định.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 30 tháng 6 năm 1989:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Nghĩa Bình thành 2 tỉnh mới lấy tên là tỉnh Quảng Ngãi và tỉnh Bình Định"
+   }
+  ],
+  "at": "p_quang_ngai.json",
+  "place": "Quảng Ngãi"
+ },
+ {
+  "id": "split_1989_phu_khanh",
+  "date": "1989-06-30",
+  "category": "admin",
+  "title_en": "Phú Khánh split into Phú Yên and Khánh Hòa",
+  "title_vi": "Chia tỉnh Phú Khánh thành Phú Yên và Khánh Hòa",
+  "text_en": "On 30 June 1989 Phú Khánh province was divided into Phú Yên and Khánh Hòa.",
+  "text_vi": "Ngày 30/6/1989, tỉnh Phú Khánh được chia thành các tỉnh Phú Yên và Khánh Hòa.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 30 tháng 6 năm 1989:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Phú Khánh thành 2 tỉnh mới lấy tên là tỉnh Phú Yên và tỉnh Khánh Hòa"
+   }
+  ],
+  "at": "p_phu_yen.json",
+  "place": "Phú Yên"
+ },
+ {
+  "id": "split_1989_binh_tri_thien",
+  "date": "1989-06-30",
+  "category": "admin",
+  "title_en": "Bình Trị Thiên split into Quảng Bình, Quảng Trị and Thừa Thiên Huế",
+  "title_vi": "Chia tỉnh Bình Trị Thiên thành Quảng Bình, Quảng Trị và Thừa Thiên Huế",
+  "text_en": "On 30 June 1989 Bình Trị Thiên province was divided into Quảng Bình, Quảng Trị and Thừa Thiên Huế.",
+  "text_vi": "Ngày 30/6/1989, tỉnh Bình Trị Thiên được chia thành các tỉnh Quảng Bình, Quảng Trị và Thừa Thiên Huế.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 30 tháng 6 năm 1989:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Bình Trị Thiên thành 3 tỉnh mới lấy tên là tỉnh Quảng Bình, tỉnh Quảng Trị và tỉnh Thừa Thiên Huế"
+   }
+  ],
+  "at": "p_quang_binh.json",
+  "place": "Quảng Bình"
+ },
+ {
+  "id": "split_1991_nghe_tinh",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Nghệ Tĩnh split into Nghệ An and Hà Tĩnh",
+  "title_vi": "Chia tỉnh Nghệ Tĩnh thành Nghệ An và Hà Tĩnh",
+  "text_en": "On 12 August 1991 Nghệ Tĩnh province was divided into Nghệ An and Hà Tĩnh.",
+  "text_vi": "Ngày 12/8/1991, tỉnh Nghệ Tĩnh được chia thành các tỉnh Nghệ An và Hà Tĩnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Nghệ Tĩnh thành 2 tỉnh, lấy tên là tỉnh Nghệ An và tỉnh Hà Tĩnh"
+   }
+  ],
+  "at": "p_nghe_an.json",
+  "place": "Nghệ An"
+ },
+ {
+  "id": "split_1991_hoang_lien_son",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Hoàng Liên Sơn split into Yên Bái and Lào Cai",
+  "title_vi": "Chia tỉnh Hoàng Liên Sơn thành Yên Bái và Lào Cai",
+  "text_en": "On 12 August 1991 Hoàng Liên Sơn province was divided into Yên Bái and Lào Cai.",
+  "text_vi": "Ngày 12/8/1991, tỉnh Hoàng Liên Sơn được chia thành các tỉnh Yên Bái và Lào Cai.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hoàng Liên Sơn thành 2 tỉnh, lấy tên là tỉnh Yên Bái và tỉnh Lào Cai"
+   }
+  ],
+  "at": "p_yen_bai.json",
+  "place": "Yên Bái"
+ },
+ {
+  "id": "split_1991_ha_tuyen",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Hà Tuyên split into Hà Giang and Tuyên Quang",
+  "title_vi": "Chia tỉnh Hà Tuyên thành Hà Giang và Tuyên Quang",
+  "text_en": "On 12 August 1991 Hà Tuyên province was divided into Hà Giang and Tuyên Quang.",
+  "text_vi": "Ngày 12/8/1991, tỉnh Hà Tuyên được chia thành các tỉnh Hà Giang và Tuyên Quang.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hà Tuyên thành 2 tỉnh, lấy tên là tỉnh Hà Giang và tỉnh Tuyên Quang"
+   }
+  ],
+  "at": "p_ha_giang.json",
+  "place": "Hà Giang"
+ },
+ {
+  "id": "split_1991_gia_lai_kon_tum",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Gia Lai – Kon Tum split into Gia Lai and Kon Tum",
+  "title_vi": "Chia tỉnh Gia Lai – Kon Tum thành Gia Lai và Kon Tum",
+  "text_en": "On 12 August 1991 Gia Lai – Kon Tum province was divided into Gia Lai and Kon Tum.",
+  "text_vi": "Ngày 12/8/1991, tỉnh Gia Lai – Kon Tum được chia thành các tỉnh Gia Lai và Kon Tum.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Gia Lai – Kon Tum thành 2 tỉnh, lấy tên là tỉnh Gia Lai và tỉnh Kon Tum"
+   }
+  ],
+  "at": "p_gia_lai.json",
+  "place": "Gia Lai"
+ },
+ {
+  "id": "split_1991_ha_son_binh",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Hà Sơn Bình split into Hòa Bình and Hà Tây",
+  "title_vi": "Chia tỉnh Hà Sơn Bình thành Hòa Bình và Hà Tây",
+  "text_en": "On 12 August 1991 Hà Sơn Bình province was divided into Hòa Bình and Hà Tây.",
+  "text_vi": "Ngày 12/8/1991, tỉnh Hà Sơn Bình được chia thành các tỉnh Hòa Bình và Hà Tây.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hà Sơn Bình thành 2 tỉnh, lấy tên là tỉnh Hòa Bình và tỉnh Hà Tây"
+   }
+  ],
+  "at": "p_hoa_binh.json",
+  "place": "Hòa Bình"
+ },
+ {
+  "id": "split_1991_thuan_hai",
+  "date": "1991-12-26",
+  "category": "admin",
+  "title_en": "Thuận Hải split into Ninh Thuận and Bình Thuận",
+  "title_vi": "Chia tỉnh Thuận Hải thành Ninh Thuận và Bình Thuận",
+  "text_en": "On 26 December 1991 Thuận Hải province was divided into Ninh Thuận and Bình Thuận.",
+  "text_vi": "Ngày 26/12/1991, tỉnh Thuận Hải được chia thành các tỉnh Ninh Thuận và Bình Thuận.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 12 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Thuận Hải thành 2 tỉnh, lấy tên là tỉnh Ninh Thuận và tỉnh Bình Thuận"
+   }
+  ],
+  "at": "p_ninh_thuan.json",
+  "place": "Ninh Thuận"
+ },
+ {
+  "id": "split_1991_hau_giang",
+  "date": "1991-12-26",
+  "category": "admin",
+  "title_en": "Hậu Giang split into Cần Thơ and Sóc Trăng",
+  "title_vi": "Chia tỉnh Hậu Giang thành Cần Thơ và Sóc Trăng",
+  "text_en": "On 26 December 1991 Hậu Giang province was divided into Cần Thơ and Sóc Trăng.",
+  "text_vi": "Ngày 26/12/1991, tỉnh Hậu Giang được chia thành các tỉnh Cần Thơ và Sóc Trăng.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 12 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hậu Giang thành 2 tỉnh, lấy tên là tỉnh Cần Thơ và tỉnh Sóc Trăng"
+   }
+  ],
+  "at": "can_tho.json",
+  "place": "Cần Thơ"
+ },
+ {
+  "id": "split_1991_cuu_long",
+  "date": "1991-12-26",
+  "category": "admin",
+  "title_en": "Cửu Long split into Vĩnh Long and Trà Vinh",
+  "title_vi": "Chia tỉnh Cửu Long thành Vĩnh Long và Trà Vinh",
+  "text_en": "On 26 December 1991 Cửu Long province was divided into Vĩnh Long and Trà Vinh.",
+  "text_vi": "Ngày 26/12/1991, tỉnh Cửu Long được chia thành các tỉnh Vĩnh Long và Trà Vinh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 12 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Cửu Long thành 2 tỉnh, lấy tên là tỉnh Vĩnh Long và tỉnh Trà Vinh"
+   }
+  ],
+  "at": "p_vinh_long.json",
+  "place": "Vĩnh Long"
+ },
+ {
+  "id": "split_1991_ha_nam_ninh",
+  "date": "1991-12-26",
+  "category": "admin",
+  "title_en": "Hà Nam Ninh split into Nam Hà and Ninh Bình",
+  "title_vi": "Chia tỉnh Hà Nam Ninh thành Nam Hà và Ninh Bình",
+  "text_en": "On 26 December 1991 Hà Nam Ninh province was divided into Nam Hà and Ninh Bình.",
+  "text_vi": "Ngày 26/12/1991, tỉnh Hà Nam Ninh được chia thành các tỉnh Nam Hà và Ninh Bình.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 12 năm 1991:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hà Nam Ninh thành 2 tỉnh, lấy tên là tỉnh Nam Hà và tỉnh Ninh Bình"
+   }
+  ],
+  "at": "p_ninh_binh.json",
+  "place": "Ninh Bình"
+ },
+ {
+  "id": "split_1996_bac_thai",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Bắc Thái split into Bắc Kạn and Thái Nguyên",
+  "title_vi": "Chia tỉnh Bắc Thái thành Bắc Kạn và Thái Nguyên",
+  "text_en": "On 6 November 1996 Bắc Thái province was divided into Bắc Kạn and Thái Nguyên.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Bắc Thái được chia thành các tỉnh Bắc Kạn và Thái Nguyên.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Bắc Thái thành hai tỉnh là tỉnh Bắc Kạn"
+   }
+  ],
+  "at": "p_bac_kan.json",
+  "place": "Bắc Kạn"
+ },
+ {
+  "id": "split_1996_ha_bac",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Hà Bắc split into Bắc Giang and Bắc Ninh",
+  "title_vi": "Chia tỉnh Hà Bắc thành Bắc Giang và Bắc Ninh",
+  "text_en": "On 6 November 1996 Hà Bắc province was divided into Bắc Giang and Bắc Ninh.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Hà Bắc được chia thành các tỉnh Bắc Giang và Bắc Ninh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hà Bắc thành hai tỉnh là tỉnh Bắc Giang và tỉnh Bắc Ninh"
+   }
+  ],
+  "at": "bac_ninh.json",
+  "place": "Bắc Ninh",
+  "story": [
+   "bacninh"
+  ]
+ },
+ {
+  "id": "split_1996_hai_hung",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Hải Hưng split into Hải Dương and Hưng Yên",
+  "title_vi": "Chia tỉnh Hải Hưng thành Hải Dương và Hưng Yên",
+  "text_en": "On 6 November 1996 Hải Hưng province was divided into Hải Dương and Hưng Yên.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Hải Hưng được chia thành các tỉnh Hải Dương và Hưng Yên.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Hải Hưng thành hai tỉnh là tỉnh Hải Dương và tỉnh Hưng Yên"
+   }
+  ],
+  "at": "p_hai_duong.json",
+  "place": "Hải Dương"
+ },
+ {
+  "id": "split_1996_minh_hai",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Minh Hải split into Bạc Liêu and Cà Mau",
+  "title_vi": "Chia tỉnh Minh Hải thành Bạc Liêu và Cà Mau",
+  "text_en": "On 6 November 1996 Minh Hải province was divided into Bạc Liêu and Cà Mau.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Minh Hải được chia thành các tỉnh Bạc Liêu và Cà Mau.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Minh Hải thành hai tỉnh là tỉnh Bạc Liêu và tỉnh Cà Mau"
+   }
+  ],
+  "at": "p_bac_lieu.json",
+  "place": "Bạc Liêu"
+ },
+ {
+  "id": "split_1996_nam_ha",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Nam Hà split into Hà Nam and Nam Định",
+  "title_vi": "Chia tỉnh Nam Hà thành Hà Nam và Nam Định",
+  "text_en": "On 6 November 1996 Nam Hà province was divided into Hà Nam and Nam Định.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Nam Hà được chia thành các tỉnh Hà Nam và Nam Định.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Nam Hà thành hai tỉnh là tỉnh Hà Nam và tỉnh Nam Định"
+   }
+  ],
+  "at": "p_ha_nam.json",
+  "place": "Hà Nam"
+ },
+ {
+  "id": "split_1996_song_be",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Sông Bé split into Bình Dương and Bình Phước",
+  "title_vi": "Chia tỉnh Sông Bé thành Bình Dương và Bình Phước",
+  "text_en": "On 6 November 1996 Sông Bé province was divided into Bình Dương and Bình Phước.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Sông Bé được chia thành các tỉnh Bình Dương và Bình Phước.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Sông Bé thành hai tỉnh là tỉnh Bình Dương và tỉnh Bình Phước"
+   }
+  ],
+  "at": "p_binh_duong.json",
+  "place": "Bình Dương"
+ },
+ {
+  "id": "split_1996_vinh_phu",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Vĩnh Phú split into Phú Thọ and Vĩnh Phúc",
+  "title_vi": "Chia tỉnh Vĩnh Phú thành Phú Thọ và Vĩnh Phúc",
+  "text_en": "On 6 November 1996 Vĩnh Phú province was divided into Phú Thọ and Vĩnh Phúc.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Vĩnh Phú được chia thành các tỉnh Phú Thọ và Vĩnh Phúc.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Vĩnh Phú thành hai tỉnh là tỉnh Phú Thọ và tỉnh Vĩnh Phúc"
+   }
+  ],
+  "at": "p_phu_tho.json",
+  "place": "Phú Thọ"
+ },
+ {
+  "id": "split_2003_dak_lak",
+  "date": "2003-11-26",
+  "category": "admin",
+  "title_en": "Đắk Lắk split into Đắk Lắk and Đắk Nông",
+  "title_vi": "Chia tỉnh Đắk Lắk thành Đắk Lắk và Đắk Nông",
+  "text_en": "On 26 November 2003 Đắk Lắk province was divided into Đắk Lắk and Đắk Nông.",
+  "text_vi": "Ngày 26/11/2003, tỉnh Đắk Lắk được chia thành các tỉnh Đắk Lắk và Đắk Nông.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 11 năm 2003, chia tỉnh Cần Thơ, tỉnh Đắk Lắk và tỉnh Lai Châu như sau:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Đắk Lắk thành tỉnh Đắk Lắk và tỉnh Đắk Nông"
+   }
+  ],
+  "at": "p_dak_nong.json",
+  "place": "Đắk Nông"
+ },
+ {
+  "id": "split_2003_lai_chau",
+  "date": "2003-11-26",
+  "category": "admin",
+  "title_en": "Lai Châu split into Lai Châu and Điện Biên",
+  "title_vi": "Chia tỉnh Lai Châu thành Lai Châu và Điện Biên",
+  "text_en": "On 26 November 2003 Lai Châu province was divided into Lai Châu and Điện Biên.",
+  "text_vi": "Ngày 26/11/2003, tỉnh Lai Châu được chia thành các tỉnh Lai Châu và Điện Biên.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 11 năm 2003, chia tỉnh Cần Thơ, tỉnh Đắk Lắk và tỉnh Lai Châu như sau:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Lai Châu thành tỉnh Lai Châu và tỉnh Điện Biên"
+   }
+  ],
+  "at": "p_dien_bien.json",
+  "place": "Điện Biên"
+ },
+ {
+  "id": "hanoi_1978_expanded",
+  "date": "1978-12-29",
+  "category": "admin",
+  "title_en": "Hà Nội expanded with districts of Hà Sơn Bình and Vĩnh Phú",
+  "title_vi": "Hà Nội mở rộng, nhận thêm một số huyện của Hà Sơn Bình và Vĩnh Phú",
+  "text_en": "On 29 December 1978 several districts and towns of Hà Sơn Bình and Vĩnh Phú provinces, among them Sơn Tây and Hà Đông, were merged into Hà Nội.",
+  "text_vi": "Ngày 29/12/1978, một số huyện, thị xã của tỉnh Hà Sơn Bình và Vĩnh Phú, trong đó có Sơn Tây và Hà Đông, được sáp nhập vào Hà Nội.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 29 tháng 12 năm 1978:",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sáp nhập một số huyện, thị xã, xã và thị trấn sau đây của tỉnh Hà Sơn Bình và tỉnh Vĩnh Phú vào thành phố Hà Nội:"
+   }
+  ],
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "vung_tau_con_dao_1979",
+  "date": "1979-05-30",
+  "category": "admin",
+  "title_en": "Vũng Tàu – Côn Đảo special zone",
+  "title_vi": "Đặc khu Vũng Tàu – Côn Đảo",
+  "text_en": "On 30 May 1979 the Vũng Tàu – Côn Đảo special zone was formed from Vũng Tàu town, Long Sơn commune of Đồng Nai and Côn Đảo district of Hậu Giang.",
+  "text_vi": "Ngày 30/5/1979, thành lập đặc khu Vũng Tàu – Côn Đảo gồm thị xã Vũng Tàu, xã Long Sơn (Đồng Nai) và huyện Côn Đảo (Hậu Giang).",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 30 tháng 5 năm 1979, thành lập đặc khu Vũng Tàu – Côn Đảo gồm có: thị xã Vũng Tàu, xã Long Sơn thuộc huyện Châu Thành, tỉnh Đồng Nai và huyện Côn Đảo thuộc tỉnh Hậu Giang.",
+  "at": "vung_tau.json",
+  "place": "Vũng Tàu"
+ },
+ {
+  "id": "truong_sa_1982",
+  "date": "1982-12-28",
+  "category": "admin",
+  "title_en": "Trường Sa district joins Phú Khánh",
+  "title_vi": "Huyện Trường Sa nhập vào tỉnh Phú Khánh",
+  "text_en": "On 28 December 1982 Trường Sa district was transferred from Đồng Nai province to Phú Khánh province.",
+  "text_vi": "Ngày 28/12/1982, huyện Trường Sa thuộc tỉnh Đồng Nai được sáp nhập vào tỉnh Phú Khánh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 28 tháng 12 năm 1982, sáp nhập huyện Trường Sa thuộc tỉnh Đồng Nai vào tỉnh Phú Khánh.",
+  "at": "spratly.json",
+  "place": "Trường Sa",
+  "story": [
+   "sea"
+  ]
+ },
+ {
+  "id": "ba_ria_vung_tau_1991",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Bà Rịa – Vũng Tàu province formed",
+  "title_vi": "Thành lập tỉnh Bà Rịa – Vũng Tàu",
+  "text_en": "On 12 August 1991 Bà Rịa – Vũng Tàu province was formed from the Vũng Tàu – Côn Đảo special zone and three districts of Đồng Nai.",
+  "text_vi": "Ngày 12/8/1991, thành lập tỉnh Bà Rịa – Vũng Tàu gồm đặc khu Vũng Tàu – Côn Đảo và 3 huyện Long Đất, Châu Thành, Xuyên Mộc của tỉnh Đồng Nai.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "at": "p_ba_ria.json",
+  "place": "Bà Rịa – Vũng Tàu",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Thành lập tỉnh Bà Rịa – Vũng Tàu gồm đặc khu Vũng Tàu – Côn Đảo và 3 huyện Long Đất, Châu Thành, Xuyên Mộc của tỉnh Đồng Nai."
+   }
+  ]
+ },
+ {
+  "id": "hanoi_1991_reduced",
+  "date": "1991-08-12",
+  "category": "admin",
+  "title_en": "Hà Nội returns Sơn Tây and five districts to Hà Tây",
+  "title_vi": "Hà Nội trả Sơn Tây và 5 huyện về tỉnh Hà Tây",
+  "text_en": "On 12 August 1991 Sơn Tây town and five districts went from Hà Nội to the re-established Hà Tây province, and Mê Linh district to Vĩnh Phú.",
+  "text_vi": "Ngày 12/8/1991, thị xã Sơn Tây và 5 huyện của Hà Nội được chuyển về tỉnh Hà Tây vừa tái lập, huyện Mê Linh về tỉnh Vĩnh Phú.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 8 năm 1991:",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chuyển thị xã Sơn Tây và 5 huyện: Hoài Đức, Phúc Thọ, Đan Phượng, Ba Vì, Thạch Thất của thành phố Hà Nội về tỉnh Hà Tây vừa mới tái lập."
+   },
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chuyển huyện Mê Linh của thành phố Hà Nội về tỉnh Vĩnh Phú"
+   }
+  ],
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "da_nang_1996",
+  "date": "1996-11-06",
+  "category": "admin",
+  "title_en": "Quảng Nam – Đà Nẵng split: Đà Nẵng a centrally governed city",
+  "title_vi": "Tách Quảng Nam – Đà Nẵng: Đà Nẵng thành thành phố trực thuộc trung ương",
+  "text_en": "On 6 November 1996 Quảng Nam – Đà Nẵng province was divided into Quảng Nam province and the centrally governed city of Đà Nẵng.",
+  "text_vi": "Ngày 6/11/1996, tỉnh Quảng Nam – Đà Nẵng được tách thành tỉnh Quảng Nam và thành phố Đà Nẵng trực thuộc trung ương.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 6 tháng 11 năm 1996, chia và điều chỉnh địa giới hành chính một số tỉnh sau đây:",
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Tách tỉnh Quảng Nam – Đà Nẵng thành tỉnh Quảng Nam và thành phố Đà Nẵng trực thuộc trung ương."
+   }
+  ]
+ },
+ {
+  "id": "can_tho_2003",
+  "date": "2003-11-26",
+  "category": "admin",
+  "title_en": "Cần Thơ split: Cần Thơ a centrally governed city, and Hậu Giang",
+  "title_vi": "Chia tỉnh Cần Thơ: thành phố Cần Thơ trực thuộc trung ương và tỉnh Hậu Giang",
+  "text_en": "On 26 November 2003 Cần Thơ province was divided into the centrally governed city of Cần Thơ and Hậu Giang province.",
+  "text_vi": "Ngày 26/11/2003, tỉnh Cần Thơ được chia thành thành phố Cần Thơ trực thuộc trung ương và tỉnh Hậu Giang.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 26 tháng 11 năm 2003, chia tỉnh Cần Thơ, tỉnh Đắk Lắk và tỉnh Lai Châu như sau:",
+  "at": "can_tho.json",
+  "place": "Cần Thơ",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Chia tỉnh Cần Thơ thành thành phố Cần Thơ trực thuộc trung ương và tỉnh Hậu Giang."
+   }
+  ]
+ },
+ {
+  "id": "merge_2025_tuyen_quang",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Tuyên Quang: new province from Hà Giang and Tuyên Quang",
+  "title_vi": "Tuyên Quang: tỉnh mới từ Hà Giang và Tuyên Quang",
+  "text_en": "The resolution of 12 June 2025 merged Hà Giang and Tuyên Quang into the new province of Tuyên Quang, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Hà Giang và Tuyên Quang được sắp xếp thành tỉnh Tuyên Quang mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Hà Giang và tỉnh Tuyên Quang thành tỉnh mới có tên gọi là tỉnh Tuyên Quang"
+   }
+  ],
+  "at": "p_tuyen_quang.json",
+  "place": "Tuyên Quang",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_lao_cai",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Lào Cai: new province from Yên Bái and Lào Cai",
+  "title_vi": "Lào Cai: tỉnh mới từ Yên Bái và Lào Cai",
+  "text_en": "The resolution of 12 June 2025 merged Yên Bái and Lào Cai into the new province of Lào Cai, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Yên Bái và Lào Cai được sắp xếp thành tỉnh Lào Cai mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Yên Bái và tỉnh Lào Cai thành tỉnh mới có tên gọi là tỉnh Lào Cai"
+   }
+  ],
+  "at": "p_lao_cai.json",
+  "place": "Lào Cai",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_thai_nguyen",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Thái Nguyên: new province from Bắc Kạn and Thái Nguyên",
+  "title_vi": "Thái Nguyên: tỉnh mới từ Bắc Kạn và Thái Nguyên",
+  "text_en": "The resolution of 12 June 2025 merged Bắc Kạn and Thái Nguyên into the new province of Thái Nguyên, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bắc Kạn và Thái Nguyên được sắp xếp thành tỉnh Thái Nguyên mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bắc Kạn và tỉnh Thái Nguyên thành tỉnh mới có tên gọi là tỉnh Thái Nguyên"
+   }
+  ],
+  "at": "p_thai_nguyen.json",
+  "place": "Thái Nguyên",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_phu_tho",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Phú Thọ: new province from Vĩnh Phúc, Hòa Bình and Phú Thọ",
+  "title_vi": "Phú Thọ: tỉnh mới từ Vĩnh Phúc, Hòa Bình và Phú Thọ",
+  "text_en": "The resolution of 12 June 2025 merged Vĩnh Phúc, Hòa Bình and Phú Thọ into the new province of Phú Thọ, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Vĩnh Phúc, Hòa Bình và Phú Thọ được sắp xếp thành tỉnh Phú Thọ mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Vĩnh Phúc, tỉnh Hòa Bình và tỉnh Phú Thọ thành tỉnh mới có tên gọi là tỉnh Phú Thọ"
+   }
+  ],
+  "at": "p_phu_tho.json",
+  "place": "Phú Thọ",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_bac_ninh",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Bắc Ninh: new province from Bắc Giang and Bắc Ninh",
+  "title_vi": "Bắc Ninh: tỉnh mới từ Bắc Giang và Bắc Ninh",
+  "text_en": "The resolution of 12 June 2025 merged Bắc Giang and Bắc Ninh into the new province of Bắc Ninh, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bắc Giang và Bắc Ninh được sắp xếp thành tỉnh Bắc Ninh mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bắc Giang và tỉnh Bắc Ninh thành tỉnh mới có tên gọi là tỉnh Bắc Ninh"
+   }
+  ],
+  "at": "bac_ninh.json",
+  "place": "Bắc Ninh",
+  "story": [
+   "p34",
+   "bacninh"
+  ]
+ },
+ {
+  "id": "merge_2025_hung_yen",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Hưng Yên: new province from Thái Bình and Hưng Yên",
+  "title_vi": "Hưng Yên: tỉnh mới từ Thái Bình và Hưng Yên",
+  "text_en": "The resolution of 12 June 2025 merged Thái Bình and Hưng Yên into the new province of Hưng Yên, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Thái Bình và Hưng Yên được sắp xếp thành tỉnh Hưng Yên mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Thái Bình và tỉnh Hưng Yên thành tỉnh mới có tên gọi là tỉnh Hưng Yên"
+   }
+  ],
+  "at": "p_hung_yen.json",
+  "place": "Hưng Yên",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_hai_phong",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Hải Phòng: new city from Hải Phòng and Hải Dương",
+  "title_vi": "Hải Phòng: thành phố mới từ Hải Phòng và Hải Dương",
+  "text_en": "The resolution of 12 June 2025 merged Hải Phòng and Hải Dương into the new city of Hải Phòng, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Hải Phòng và Hải Dương được sắp xếp thành thành phố Hải Phòng mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp thành phố Hải Phòng và tỉnh Hải Dương thành thành phố mới có tên gọi là thành phố Hải Phòng"
+   }
+  ],
+  "at": "hai_phong.json",
+  "place": "Hải Phòng",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_ninh_binh",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Ninh Bình: new province from Hà Nam, Nam Định and Ninh Bình",
+  "title_vi": "Ninh Bình: tỉnh mới từ Hà Nam, Nam Định và Ninh Bình",
+  "text_en": "The resolution of 12 June 2025 merged Hà Nam, Nam Định and Ninh Bình into the new province of Ninh Bình, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Hà Nam, Nam Định và Ninh Bình được sắp xếp thành tỉnh Ninh Bình mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Hà Nam, tỉnh Nam Định và tỉnh Ninh Bình thành tỉnh mới có tên gọi là tỉnh Ninh Bình"
+   }
+  ],
+  "at": "p_ninh_binh.json",
+  "place": "Ninh Bình",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_quang_tri",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Quảng Trị: new province from Quảng Bình and Quảng Trị",
+  "title_vi": "Quảng Trị: tỉnh mới từ Quảng Bình và Quảng Trị",
+  "text_en": "The resolution of 12 June 2025 merged Quảng Bình and Quảng Trị into the new province of Quảng Trị, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Quảng Bình và Quảng Trị được sắp xếp thành tỉnh Quảng Trị mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Quảng Bình và tỉnh Quảng Trị thành tỉnh mới có tên gọi là tỉnh Quảng Trị"
+   }
+  ],
+  "at": "p_quang_tri.json",
+  "place": "Quảng Trị",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_da_nang",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Đà Nẵng: new city from Đà Nẵng and Quảng Nam",
+  "title_vi": "Đà Nẵng: thành phố mới từ Đà Nẵng và Quảng Nam",
+  "text_en": "The resolution of 12 June 2025 merged Đà Nẵng and Quảng Nam into the new city of Đà Nẵng, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Đà Nẵng và Quảng Nam được sắp xếp thành thành phố Đà Nẵng mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp thành phố Đà Nẵng và tỉnh Quảng Nam thành thành phố mới có tên gọi là thành phố Đà Nẵng"
+   }
+  ],
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_quang_ngai",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Quảng Ngãi: new province from Kon Tum and Quảng Ngãi",
+  "title_vi": "Quảng Ngãi: tỉnh mới từ Kon Tum và Quảng Ngãi",
+  "text_en": "The resolution of 12 June 2025 merged Kon Tum and Quảng Ngãi into the new province of Quảng Ngãi, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Kon Tum và Quảng Ngãi được sắp xếp thành tỉnh Quảng Ngãi mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Kon Tum và tỉnh Quảng Ngãi thành tỉnh mới có tên gọi là tỉnh Quảng Ngãi"
+   }
+  ],
+  "at": "p_quang_ngai.json",
+  "place": "Quảng Ngãi",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_gia_lai",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Gia Lai: new province from Bình Định and Gia Lai",
+  "title_vi": "Gia Lai: tỉnh mới từ Bình Định và Gia Lai",
+  "text_en": "The resolution of 12 June 2025 merged Bình Định and Gia Lai into the new province of Gia Lai, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bình Định và Gia Lai được sắp xếp thành tỉnh Gia Lai mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bình Định và tỉnh Gia Lai thành tỉnh mới có tên gọi là tỉnh Gia Lai"
+   }
+  ],
+  "at": "p_gia_lai.json",
+  "place": "Gia Lai",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_khanh_hoa",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Khánh Hòa: new province from Ninh Thuận and Khánh Hòa",
+  "title_vi": "Khánh Hòa: tỉnh mới từ Ninh Thuận và Khánh Hòa",
+  "text_en": "The resolution of 12 June 2025 merged Ninh Thuận and Khánh Hòa into the new province of Khánh Hòa, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Ninh Thuận và Khánh Hòa được sắp xếp thành tỉnh Khánh Hòa mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Ninh Thuận và tỉnh Khánh Hòa thành tỉnh mới có tên gọi là tỉnh Khánh Hòa"
+   }
+  ],
+  "at": "p_khanh_hoa.json",
+  "place": "Khánh Hòa",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_lam_dong",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Lâm Đồng: new province from Đắk Nông, Bình Thuận and Lâm Đồng",
+  "title_vi": "Lâm Đồng: tỉnh mới từ Đắk Nông, Bình Thuận và Lâm Đồng",
+  "text_en": "The resolution of 12 June 2025 merged Đắk Nông, Bình Thuận and Lâm Đồng into the new province of Lâm Đồng, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Đắk Nông, Bình Thuận và Lâm Đồng được sắp xếp thành tỉnh Lâm Đồng mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Đắk Nông, tỉnh Bình Thuận và tỉnh Lâm Đồng thành tỉnh mới có tên gọi là tỉnh Lâm Đồng"
+   }
+  ],
+  "at": "p_lam_dong.json",
+  "place": "Lâm Đồng",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_dak_lak",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Đắk Lắk: new province from Phú Yên and Đắk Lắk",
+  "title_vi": "Đắk Lắk: tỉnh mới từ Phú Yên và Đắk Lắk",
+  "text_en": "The resolution of 12 June 2025 merged Phú Yên and Đắk Lắk into the new province of Đắk Lắk, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Phú Yên và Đắk Lắk được sắp xếp thành tỉnh Đắk Lắk mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Phú Yên và tỉnh Đắk Lắk thành tỉnh mới có tên gọi là tỉnh Đắk Lắk"
+   }
+  ],
+  "at": "p_dak_lak.json",
+  "place": "Đắk Lắk",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_tp_ho_chi_minh",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "TP. Hồ Chí Minh: new city from TP. Hồ Chí Minh, Bà Rịa – Vũng Tàu and Bình Dương",
+  "title_vi": "TP. Hồ Chí Minh: thành phố mới từ TP. Hồ Chí Minh, Bà Rịa – Vũng Tàu và Bình Dương",
+  "text_en": "The resolution of 12 June 2025 merged TP. Hồ Chí Minh, Bà Rịa – Vũng Tàu and Bình Dương into the new city of TP. Hồ Chí Minh, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, TP. Hồ Chí Minh, Bà Rịa – Vũng Tàu và Bình Dương được sắp xếp thành thành phố TP. Hồ Chí Minh mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp Thành phố Hồ Chí Minh, tỉnh Bà Rịa – Vũng Tàu và tỉnh Bình Dương thành thành phố mới có tên gọi là Thành phố Hồ Chí Minh"
+   }
+  ],
+  "at": "hcmc.json",
+  "place": "TP. Hồ Chí Minh",
+  "story": [
+   "p34",
+   "hcmc"
+  ]
+ },
+ {
+  "id": "merge_2025_dong_nai",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Đồng Nai: new province from Bình Phước and Đồng Nai",
+  "title_vi": "Đồng Nai: tỉnh mới từ Bình Phước và Đồng Nai",
+  "text_en": "The resolution of 12 June 2025 merged Bình Phước and Đồng Nai into the new province of Đồng Nai, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bình Phước và Đồng Nai được sắp xếp thành tỉnh Đồng Nai mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bình Phước và tỉnh Đồng Nai thành tỉnh mới có tên gọi là tỉnh Đồng Nai"
+   }
+  ],
+  "at": "dong_nai.json",
+  "place": "Đồng Nai",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_tay_ninh",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Tây Ninh: new province from Long An and Tây Ninh",
+  "title_vi": "Tây Ninh: tỉnh mới từ Long An và Tây Ninh",
+  "text_en": "The resolution of 12 June 2025 merged Long An and Tây Ninh into the new province of Tây Ninh, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Long An và Tây Ninh được sắp xếp thành tỉnh Tây Ninh mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Long An và tỉnh Tây Ninh thành tỉnh mới có tên gọi là tỉnh Tây Ninh"
+   }
+  ],
+  "at": "p_tay_ninh.json",
+  "place": "Tây Ninh",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_can_tho",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Cần Thơ: new city from Cần Thơ, Sóc Trăng and Hậu Giang",
+  "title_vi": "Cần Thơ: thành phố mới từ Cần Thơ, Sóc Trăng và Hậu Giang",
+  "text_en": "The resolution of 12 June 2025 merged Cần Thơ, Sóc Trăng and Hậu Giang into the new city of Cần Thơ, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Cần Thơ, Sóc Trăng và Hậu Giang được sắp xếp thành thành phố Cần Thơ mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp thành phố Cần Thơ, tỉnh Sóc Trăng và tỉnh Hậu Giang thành thành phố mới có tên gọi là thành phố Cần Thơ"
+   }
+  ],
+  "at": "can_tho.json",
+  "place": "Cần Thơ",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_vinh_long",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Vĩnh Long: new province from Bến Tre, Trà Vinh and Vĩnh Long",
+  "title_vi": "Vĩnh Long: tỉnh mới từ Bến Tre, Trà Vinh và Vĩnh Long",
+  "text_en": "The resolution of 12 June 2025 merged Bến Tre, Trà Vinh and Vĩnh Long into the new province of Vĩnh Long, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bến Tre, Trà Vinh và Vĩnh Long được sắp xếp thành tỉnh Vĩnh Long mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bến Tre, tỉnh Trà Vinh và tỉnh Vĩnh Long thành tỉnh mới có tên gọi là tỉnh Vĩnh Long"
+   }
+  ],
+  "at": "p_vinh_long.json",
+  "place": "Vĩnh Long",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_dong_thap",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Đồng Tháp: new province from Tiền Giang and Đồng Tháp",
+  "title_vi": "Đồng Tháp: tỉnh mới từ Tiền Giang và Đồng Tháp",
+  "text_en": "The resolution of 12 June 2025 merged Tiền Giang and Đồng Tháp into the new province of Đồng Tháp, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Tiền Giang và Đồng Tháp được sắp xếp thành tỉnh Đồng Tháp mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Tiền Giang và tỉnh Đồng Tháp thành tỉnh mới có tên gọi là tỉnh Đồng Tháp"
+   }
+  ],
+  "at": "p_dong_thap.json",
+  "place": "Đồng Tháp",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_ca_mau",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "Cà Mau: new province from Bạc Liêu and Cà Mau",
+  "title_vi": "Cà Mau: tỉnh mới từ Bạc Liêu và Cà Mau",
+  "text_en": "The resolution of 12 June 2025 merged Bạc Liêu and Cà Mau into the new province of Cà Mau, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Bạc Liêu và Cà Mau được sắp xếp thành tỉnh Cà Mau mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Bạc Liêu và tỉnh Cà Mau thành tỉnh mới có tên gọi là tỉnh Cà Mau"
+   }
+  ],
+  "at": "p_ca_mau.json",
+  "place": "Cà Mau",
+  "story": [
+   "p34"
+  ]
+ },
+ {
+  "id": "merge_2025_an_giang",
+  "date": "2025-06-12",
+  "category": "admin",
+  "title_en": "An Giang: new province from Kiên Giang and An Giang",
+  "title_vi": "An Giang: tỉnh mới từ Kiên Giang và An Giang",
+  "text_en": "The resolution of 12 June 2025 merged Kiên Giang and An Giang into the new province of An Giang, one of the 34 province-level units.",
+  "text_vi": "Theo nghị quyết ngày 12/6/2025, Kiên Giang và An Giang được sắp xếp thành tỉnh An Giang mới, một trong 34 đơn vị hành chính cấp tỉnh.",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 12 tháng 6 năm 2025, sắp xếp đơn vị hành chính cấp tỉnh:",
+  "also": [
+   {
+    "raw_file": "vi_captinh.json",
+    "evidence": "Sắp xếp tỉnh Kiên Giang và tỉnh An Giang thành tỉnh mới có tên gọi là tỉnh An Giang"
+   }
+  ],
+  "at": "p_an_giang.json",
+  "place": "An Giang",
+  "story": [
+   "p34"
+  ]
+ }
+]

@@ -1,5 +1,6 @@
 """Audit round 2 (data, b): relic article links, relic name typos, history citations."""
 import json
+import urllib.parse
 import unittest
 from pathlib import Path
 
@@ -50,12 +51,14 @@ class TestHistoryCitations(unittest.TestCase):
     @BUILT
     def test_split_1991_cites_the_article_that_lists_the_splits(self):
         ev = {e["id"]: e for e in json.loads((ROOT / "data" / "stats" / "history" / "events.json").read_text())}["split_1991"]
-        page = json.loads((ROOT / "data" / "raw" / "wikipedia_history" / ev["raw_file"]).read_text())["query"]["pages"][0]
+        page = json.loads((ROOT / "data" / "raw" / "wikipedia_events" / ev["raw_file"]).read_text())["query"]["pages"][0]
         for prov in ("Nghệ Tĩnh", "Hoàng Liên Sơn", "Hà Tuyên", "Gia Lai – Kon Tum", "Hà Sơn Bình", "Hà Tây"):
             self.assertIn(prov, ev["evidence"])
         self.assertIn(ev["evidence"], page["extract"])
         h = {e["id"]: e for e in json.loads((DATA / "history.json").read_text())["events"]}["split_1991"]
-        self.assertEqual(h["cite"], ev["cite_url"])
+        # the cite is derived from the article that holds the evidence (pipeline/build/ext_society_history.py)
+        self.assertEqual(urllib.parse.unquote(h["cite"]).split("/wiki/")[1].replace("_", " "), page["title"])
+        self.assertEqual(h["revid"], page["revisions"][0]["revid"])
         self.assertTrue(h["cite"].startswith("https://vi.wikipedia.org/"))
 
 

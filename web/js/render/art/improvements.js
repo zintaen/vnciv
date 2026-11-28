@@ -16,7 +16,7 @@
 //   ROAD_MIN_RPX, MAJOR_MIN_RPX, RAIL2_MIN_RPX           zoom thresholds (hex radius in css px)
 //   portTier(port), drawPort(ctx, x, y, sizeKm, opts), drawAirport(ctx, x, y, sizeKm, opts)   (any transform)
 //   prepareRoutes(w, trade) → routes; drawTradeRoutes(ctx, routes, vp, o); hitRoute(routes, x, y, Rpx, s)
-//   MODE_STYLE                                          per FAF mode: colour, dash, marker kind, label
+//   MODE_STYLE                                          per transport mode: colour, dash, marker kind, label
 //   routeArc(grid, cellA, cellB, bow) → arc               the trade-route arc geometry (for advisors drawing the same)
 //   drawTradeMarker(ctx, kind, x, y, sizePx)              the medallion marker (screen units)
 import { bucketPx, deviceScale, getSprite, drawSprite } from "./sprites.js";
@@ -26,7 +26,7 @@ const TILE_KM = 300;
 const DIR_COS = [0, 1, 2, 3, 4, 5].map((d) => Math.cos((d * Math.PI) / 3));
 const DIR_SIN = [0, 1, 2, 3, 4, 5].map((d) => Math.sin((d * Math.PI) / 3));
 
-export const ROAD_MIN_RPX = 10; // Interstates and main-line rail from the region view ("mid") in
+export const ROAD_MIN_RPX = 10; // Expressways and main-line rail from the region view ("mid") in
 export const MAJOR_MIN_RPX = 18; // major highways and secondary rail once hexes are big enough to read them
 export const RAIL2_MIN_RPX = 18;
 const DETAIL_RPX = 30; // cobbles, centre dashes, sleepers
@@ -94,7 +94,7 @@ function buildPieces(w, links, classes, offsetOf = null) {
 
 /**
  * infrastructure.json → {roads: tiles, rail: tiles, roadLinks: Set, ports, airports, counts}.
- * Road classes: 0 Interstate, 1 major highway. Rail tiers: 0 main, 1 secondary.
+ * Road classes: 0 expressway (cao tốc), 1 national highway (quốc lộ). Rail tiers: 0 main, 1 secondary.
  */
 export function prepareNetwork(w, infra) {
   const roads = Array.isArray(infra?.roads) ? infra.roads : [];
@@ -132,7 +132,7 @@ export function roadWidths(Rpx) {
   return { inter: clamp(Rpx * 0.095, 1.7, 9), major: clamp(Rpx * 0.06, 1.1, 5.5) };
 }
 
-/** Paved Interstates (stone kerbs, pale paving, cobble joints when close) and dirt-track major highways. */
+/** Paved expressways (stone kerbs, pale paving, cobble joints when close) and dirt-track national highways. */
 export function drawRoads(ctx, net, vp, o) {
   if (!net || o.Rpx < ROAD_MIN_RPX) return;
   const s = vp.s, Rpx = o.Rpx;
@@ -160,7 +160,7 @@ export function drawRoads(ctx, net, vp, o) {
       ctx.setLineDash([]);
     }
   }
-  // Interstates: dark stone kerb, pale paving, then (close) a cobble rhythm and a faint crown line.
+  // Expressways: dark stone kerb, pale paving, then (close) a cobble rhythm and a faint crown line.
   ctx.strokeStyle = "rgba(52,40,26,.8)";
   ctx.lineWidth = (inter + 2.2) / s;
   strokeAll(ctx, tiles, 0);
@@ -480,7 +480,7 @@ function paintAirport(g, upx, tier) {
 
 // --- trade routes ---------------------------------------------------------------------------------------------------
 
-/** Per FAF mode: line colour (saturated, to read on any terrain over a parchment halo), dash pattern (in line widths;
+/** Per transport mode: line colour (saturated, to read on any terrain over a parchment halo), dash pattern (in line widths;
  * null = solid), marker kind and a label. */
 export const MODE_STYLE = {
   truck: { color: "#ee8a1e", dash: [2.4, 1.1], marker: "cart", label: "Truck" },
@@ -528,8 +528,8 @@ export function routeArc(grid, ca, cb, bow = 0.16) {
  * trade.json → [{route, a, b, pts: Float64Array [x,y,…] (a sampled arc), path, ends, len, bbox, weight, top, bow, style}],
  * biggest first. Each route is drawn as a gentle arc between its two anchor cities (the ends of trade.json `path`),
  * like a caravan route on a strategy map: arcs keep the 30 routes legible where a road-following drawing would bundle
- * them along the same Interstates. Routes that share an anchor fan out (alternating sides, growing bow by rank) so
- * they leave it as a spray rather than a single wedge. Neither form is data: FAF assigns no route.
+ * them along the same expressways. Routes that share an anchor fan out (alternating sides, growing bow by rank) so
+ * they leave it as a spray rather than a single wedge. Neither form is data: the route data assigns no path.
  */
 export function prepareRoutes(w, trade) {
   const { grid } = w;

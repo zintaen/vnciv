@@ -1,5 +1,7 @@
 // Vietnamese translations (env). Keys are the exact English strings passed to t().
 export default {
+  "Global elevation models can misjudge low deltas: in the Mekong delta the map uses the elevation model of Minderhoud et al. (2019, Nature Communications), built from national topographic-map points, which puts the delta's mean elevation at about 0.8 m above sea level, not the about 2.6 m assumed earlier.":
+    "Các mô hình độ cao toàn cầu có thể đánh giá sai độ cao của các đồng bằng thấp: ở đồng bằng sông Cửu Long, bản đồ dùng mô hình độ cao của Minderhoud và cộng sự (2019, Nature Communications), xây dựng từ các điểm độ cao trên bản đồ địa hình quốc gia, theo đó độ cao trung bình của đồng bằng chỉ khoảng 0,8 m so với mực nước biển, không phải khoảng 2,6 m như giả định trước đây.",
   "Sea level rise": "Nước biển dâng",
   "Environment": "Môi trường",
   "Land hexes at or below a chosen sea level (ETOPO1): an exposure indicator, not a forecast":

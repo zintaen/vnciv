@@ -1,0 +1,80 @@
+[
+ {
+  "id": "pham_tuan_1980",
+  "date": "1980-07-23",
+  "category": "science",
+  "title_en": "Phạm Tuân, the first Vietnamese in space",
+  "title_vi": "Phạm Tuân, người Việt Nam đầu tiên bay vào vũ trụ",
+  "text_en": "On 23 July 1980 Phạm Tuân was launched from Baikonur with Viktor Gorbatko on Soyuz 37; he returned to Earth on 31 July 1980.",
+  "text_vi": "Ngày 23/7/1980, Phạm Tuân cùng Viktor Gorbatko bay lên từ sân bay vũ trụ Baikonur trên tàu Soyuz 37; ông trở về Trái Đất ngày 31/7/1980.",
+  "raw_file": "phamtuan.json",
+  "evidence": "Tuân, along with Soviet cosmonaut Viktor Gorbatko, was launched from Baikonur Cosmodrome on 23 July 1980, on board the Soyuz 37 mission to the Salyut 6 space station.",
+  "at": null,
+  "place": "Baikonur (Kazakhstan)",
+  "also": [
+   {
+    "raw_file": "phamtuan.json",
+    "evidence": "Tuân was in space for 7 days, 20 hours, and 42 minutes, completing 142 orbits, and returned to Earth on 31 July 1980."
+   }
+  ]
+ },
+ {
+  "id": "seagames_2003",
+  "date": "2003-12-05",
+  "category": "science",
+  "title_en": "Vietnam hosts the SEA Games",
+  "title_vi": "Việt Nam đăng cai SEA Games 22",
+  "text_en": "The 22nd Southeast Asian Games were held in Hà Nội from 5 to 13 December 2003, centred on the Mỹ Đình Sports Complex.",
+  "text_vi": "Đại hội Thể thao Đông Nam Á lần thứ 22 (SEA Games 22) diễn ra tại Hà Nội từ 5 đến 13/12/2003, với trung tâm là Khu liên hợp thể thao Mỹ Đình.",
+  "raw_file": "seagames03.json",
+  "evidence": "The games was held from 5 to 13 December 2003, although several events had commenced from 29 November 2003.",
+  "at": "hanoi.json",
+  "place": "Hà Nội"
+ },
+ {
+  "id": "vinasat1_2008",
+  "date": "2008-04-18",
+  "category": "science",
+  "title_en": "VINASAT-1, Vietnam's first satellite",
+  "title_vi": "VINASAT-1, vệ tinh đầu tiên của Việt Nam",
+  "text_en": "Vietnam's first satellite, VINASAT-1, was launched on 18 April 2008 on an Ariane 5 rocket from Kourou, French Guiana.",
+  "text_vi": "Vệ tinh đầu tiên của Việt Nam, VINASAT-1, được phóng ngày 18/4/2008 bằng tên lửa Ariane 5 từ Kourou, Guyane thuộc Pháp.",
+  "raw_file": "vinasat1.json",
+  "evidence": "The launch took place on April 18, 2008, at 22:17 GMT, using an Ariane 5 ECA rocket from the Guiana Space Centre in Kourou, French Guiana, facilitated by Arianespace.",
+  "at": null,
+  "place": "Kourou (French Guiana)",
+  "place_vi": "Kourou (Guyane thuộc Pháp)"
+ },
+ {
+  "id": "ngo_bao_chau_2010",
+  "date": "2010",
+  "category": "science",
+  "title_en": "Ngô Bảo Châu wins the Fields Medal",
+  "title_vi": "Ngô Bảo Châu nhận Huy chương Fields",
+  "text_en": "In 2010 Ngô Bảo Châu received the Fields Medal, the first Vietnamese national to do so.",
+  "text_vi": "Năm 2010, Ngô Bảo Châu nhận Huy chương Fields, người Việt Nam đầu tiên được trao giải này.",
+  "raw_file": "ngobaochau.json",
+  "evidence": "In 2010, he received the Fields Medal.",
+  "at": null,
+  "place": null,
+  "also": [
+   {
+    "raw_file": "ngobaochau.json",
+    "evidence": "He is the first Vietnamese national to have received the Fields Medal."
+   }
+  ]
+ },
+ {
+  "id": "olympic_gold_2016",
+  "date": "2016",
+  "category": "science",
+  "title_en": "Vietnam's first Olympic gold medal",
+  "title_vi": "Huy chương vàng Olympic đầu tiên của Việt Nam",
+  "text_en": "At the 2016 Summer Olympics shooter Hoàng Xuân Vinh won gold in the 10 m air pistol, Vietnam's first Olympic gold medal.",
+  "text_vi": "Tại Thế vận hội Mùa hè 2016, xạ thủ Hoàng Xuân Vinh giành huy chương vàng nội dung 10 m súng ngắn hơi, tấm huy chương vàng Olympic đầu tiên của Việt Nam.",
+  "raw_file": "hxvinh.json",
+  "evidence": "He won a gold medal in the 10 meter air pistol and a silver in the 50 meter pistol competitions at the 2016 Summer Olympics, becoming the first-ever and currently only athlete from Vietnam to win an Olympic gold medal.",
+  "at": null,
+  "place": "Rio de Janeiro (Brazil)"
+ }
+]

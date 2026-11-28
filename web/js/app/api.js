@@ -59,7 +59,8 @@ const DEBOUNCE_MS = 350;
  * Shareable URL state:  #lens=income&city=35620&at=x,y,zoom&<extension keys>
  * Lens, selection and extension-key changes push a history entry (so Back undoes them); camera moves replace it.
  *
- * opts: {read() → {lens, city, state, at}, apply(core, {initial}), busy() → true while the camera animates}
+ * opts: {read() → {lens, city, state, at}, apply(core, {initial}), busy() → true while the camera animates,
+ *        replaceOnly (every write replaces the current entry: embed mode)}
  * Returns {schedule(), soon(), flush(), applyCurrent(initial), register(key, {get, set}) → unregister, value(key)}.
  *   value(key) → the key in the link the page was opened / navigated with (null if absent).
  *   get() → string | null   the key's current value (null = leave it out of the hash)
@@ -131,7 +132,7 @@ export function createHashState(opts) {
         entrySig = s;
         replaceNext = false;
         return;
-      } else if (s !== entrySig && !replaceNext) {
+      } else if (s !== entrySig && !replaceNext && !opts.replaceOnly) { // replaceOnly: embed mode, the host page's Back stays its own
         undoSig = entrySig;
         history.pushState(null, "", url);
       } else history.replaceState(null, "", url);
@@ -311,9 +312,12 @@ export function createModes(app) {
  *     frame your own view instead.
  *   undock(side)            hide and empty that dock
  *   dockWidth(side) → px    its current width (0 when hidden)
- *   addTopButton({id, icon, label, onClick, title}) → HTMLButtonElement
- *     A top-bar button before Share / Help / Almanac. `icon` is an icons.js id (or a short text / emoji);
+ *   addTopButton({id, icon, label, onClick, title, menu}) → HTMLButtonElement
+ *     A top-bar button before the "More ▾" menu, Help / Almanac. `icon` is an icons.js id (or a short text / emoji);
  *     the label hides on narrow screens like the other buttons'. Calling it again with the same id replaces it.
+ *     `menu: true` puts it in the "More ▾" menu instead (role=menuitem, before Share); its id, click() and focus()
+ *     keep working (focus() on a closed menu's item lands on the More button). aria-pressed on a menu item is shown
+ *     as menuitemcheckbox / aria-checked.
  *   toast(msg)              a short message under the top bar
  */
 export function createUi(app, { toast, onLayout }) {
@@ -366,9 +370,10 @@ export function createUi(app, { toast, onLayout }) {
     layout();
   }
 
-  function addTopButton({ id, icon: ic, label = "", onClick, title = "" } = {}) {
+  function addTopButton({ id, icon: ic, label = "", onClick, title = "", menu = false } = {}) {
     const host = document.querySelector("#topbar .tb-more");
-    if (!host) return null;
+    const list = menu ? document.getElementById("tb-menu-list") : null;
+    if (!host || (menu && !list)) return null;
     if (id) document.getElementById(id)?.remove();
     const b = document.createElement("button");
     if (id) b.id = id;
@@ -379,12 +384,19 @@ export function createUi(app, { toast, onLayout }) {
     const glyph = ic ? (hasIcon(ic) ? icon(ic, "•", { size: 15 }) : `<span class="emoji" aria-hidden="true">${esc(ic)}</span>`) : "";
     b.innerHTML = `${glyph}${label ? `<span class="lbl">${esc(label)}</span>` : ""}`;
     if (onClick) b.addEventListener("click", (e) => onClick(e, b));
-    // Extension buttons go before the built-in ones (Share, Help, Almanac), in the order they were added.
-    const firstBuiltIn = host.querySelector("#btn-share") || host.firstChild;
-    host.insertBefore(b, firstBuiltIn);
+    if (menu) {
+      // Menu items go before Share, in the order they were added.
+      b.setAttribute("role", "menuitem");
+      list.insertBefore(b, list.querySelector("#btn-share"));
+      topMenu?.adopt(b);
+    } else {
+      // Extension buttons go before the More menu (and the Author mark), in the order they were added.
+      host.insertBefore(b, host.querySelector(".tb-menu") || host.firstChild);
+    }
     document.body.classList.add("tb-ext");
     return b;
   }
+  const topMenu = wireTopMenu();
 
   addEventListener("resize", layout);
   return {
@@ -396,6 +408,83 @@ export function createUi(app, { toast, onLayout }) {
     toast,
     _layout: layout,
   };
+}
+
+/**
+ * The top bar's "More ▾" (Thêm ▾) menu button (index.html #btn-more / #tb-menu-list): a WAI-ARIA menu button.
+ * Enter / Space / ↓ open it on the first item, ↑ on the last; ↑ ↓ Home End move; Esc closes it and returns focus
+ * to the button; Tab or a click outside closes it. Picking an item closes the menu and focuses the button before the
+ * item's own click handler runs, so a dialog it opens returns focus to the button.
+ */
+function wireTopMenu() {
+  const btn = document.getElementById("btn-more"), list = document.getElementById("tb-menu-list");
+  if (!btn || !list) return null;
+  const wrap = btn.parentElement;
+  // The list lives on <body>: inside the top bar (z-index 10) a city panel or dock (z-index 12) would cover it.
+  document.body.appendChild(list);
+  btn.innerHTML = `<span class="tbm-lbl">${esc(tr("More"))}</span><span class="tbm-caret" aria-hidden="true">▾</span>`;
+  btn.title = tr("More: advisors, 3D view, share");
+  const items = () => [...list.children].filter((b) => !b.hidden && /^menuitem/.test(b.getAttribute("role") || ""));
+  const isOpen = () => !list.hidden;
+  function position() {
+    const r = btn.getBoundingClientRect();
+    list.style.top = `${Math.round(r.bottom + 6)}px`;
+    list.style.left = `${Math.round(Math.max(8, Math.min(innerWidth - list.offsetWidth - 8, r.right - list.offsetWidth)))}px`;
+  }
+  function open(at = 0) {
+    // Phones: the bar scrolls under the pinned Language / Help / Almanac group; bring the button out from under it.
+    const pin = document.querySelector("#topbar .tb-buttons")?.getBoundingClientRect(), r = btn.getBoundingClientRect();
+    if (pin && pin.left > r.left && r.right > pin.left - 8) btn.closest("#topbar").scrollLeft += r.right - pin.left + 8;
+    list.hidden = false;
+    btn.setAttribute("aria-expanded", "true");
+    position();
+    const it = items();
+    if (it.length && at != null) it[at < 0 ? it.length - 1 : 0].focus();
+  }
+  function close(focusBtn = true) {
+    if (!isOpen()) return;
+    list.hidden = true;
+    btn.setAttribute("aria-expanded", "false");
+    if (focusBtn) btn.focus();
+  }
+  // A keyboard click (detail 0) opens on the first item; a mouse / touch click just opens.
+  btn.addEventListener("click", (e) => (isOpen() ? close() : open(e.detail === 0 ? 0 : null)));
+  btn.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") { e.preventDefault(); open(e.key === "ArrowUp" ? -1 : 0); }
+  });
+  list.addEventListener("keydown", (e) => {
+    const it = items(), k = it.indexOf(document.activeElement);
+    const go = (i) => { e.preventDefault(); it[(i + it.length) % it.length]?.focus(); };
+    if (e.key === "ArrowDown") go(k + 1);
+    else if (e.key === "ArrowUp") go(k - 1);
+    else if (e.key === "Home") go(0);
+    else if (e.key === "End") go(-1);
+    else if (e.key === "Escape") { e.preventDefault(); e.stopPropagation(); close(); }
+    else if (e.key === "Tab") { e.preventDefault(); close(); }
+  });
+  list.addEventListener("click", (e) => { if (e.target.closest?.("[role^=menuitem]")) close(); }, true);
+  document.addEventListener("pointerdown", (e) => { if (isOpen() && !wrap.contains(e.target) && !list.contains(e.target)) close(false); }, true);
+  addEventListener("resize", () => close(false));
+  // aria-pressed is not allowed on a menuitem: show a pressed item as a checked menuitemcheckbox instead.
+  const pressed = (b) => {
+    const v = b.getAttribute("aria-pressed");
+    if (v == null) return;
+    b.removeAttribute("aria-pressed");
+    b.setAttribute("role", "menuitemcheckbox");
+    b.setAttribute("aria-checked", v === "true" ? "true" : "false");
+  };
+  if (typeof MutationObserver === "function") {
+    new MutationObserver((ms) => ms.forEach((m) => m.target.parentElement === list && pressed(m.target)))
+      .observe(list, { subtree: true, attributes: true, attributeFilter: ["aria-pressed"] });
+  }
+  // Code that focuses an item of the closed menu (a dialog returning focus) lands on the More button.
+  function adopt(b) {
+    b.tabIndex = -1;
+    b.focus = (o) => (isOpen() ? HTMLElement.prototype.focus.call(b, o) : btn.focus(o));
+    pressed(b);
+  }
+  [...list.children].forEach(adopt);
+  return { adopt, open, close, get isOpen() { return isOpen(); } };
 }
 
 // --- map layer toggles -------------------------------------------------------------------------------------------

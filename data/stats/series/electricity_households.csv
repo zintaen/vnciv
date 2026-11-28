@@ -1,314 +1,503 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,93.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+An Giang,63,2012,96.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+An Giang,63,2014,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 An Giang,63,2016,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 An Giang,63,2018,99.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 An Giang,63,2020,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 An Giang,63,2022,98.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 An Giang,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bà Rịa - Vũng Tàu,63,2010,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bà Rịa - Vũng Tàu,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bà Rịa - Vũng Tàu,63,2014,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bà Rịa - Vũng Tàu,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bà Rịa - Vũng Tàu,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bà Rịa - Vũng Tàu,63,2020,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bà Rịa - Vũng Tàu,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bà Rịa - Vũng Tàu,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bình Dương,63,2010,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bình Dương,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bình Dương,63,2014,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bình Dương,63,2016,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Dương,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Dương,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Dương,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Dương,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bình Phước,63,2010,94.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bình Phước,63,2012,96.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bình Phước,63,2014,98.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bình Phước,63,2016,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Phước,63,2018,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Phước,63,2020,97.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Phước,63,2022,87.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Phước,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bình Thuận,63,2010,97.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bình Thuận,63,2012,97.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bình Thuận,63,2014,96.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bình Thuận,63,2016,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Thuận,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Thuận,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Thuận,63,2022,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Thuận,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bình Định,63,2010,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bình Định,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bình Định,63,2014,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bình Định,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Định,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Định,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Định,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bình Định,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bạc Liêu,63,2010,97.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bạc Liêu,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bạc Liêu,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bạc Liêu,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bạc Liêu,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bạc Liêu,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bạc Liêu,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bạc Liêu,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bắc Giang,63,2010,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bắc Giang,63,2012,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bắc Giang,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bắc Giang,63,2016,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Giang,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Giang,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Giang,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Giang,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bắc Kạn,63,2010,87.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bắc Kạn,63,2012,90.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bắc Kạn,63,2014,88.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bắc Kạn,63,2016,95.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Kạn,63,2018,97.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Kạn,63,2020,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Kạn,63,2022,98.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Kạn,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bắc Ninh,63,2010,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bắc Ninh,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bắc Ninh,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bắc Ninh,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Ninh,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Ninh,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Ninh,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bắc Ninh,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Bến Tre,63,2010,97.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Bến Tre,63,2012,98.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Bến Tre,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Bến Tre,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bến Tre,63,2018,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bến Tre,63,2020,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bến Tre,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Bến Tre,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Cao Bằng,63,2010,80.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Cao Bằng,63,2012,81.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Cao Bằng,63,2014,82.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Cao Bằng,63,2016,82.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cao Bằng,63,2018,89.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cao Bằng,63,2020,91.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cao Bằng,63,2022,96.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cao Bằng,63,2024,94.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Cà Mau,63,2010,97.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Cà Mau,63,2012,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Cà Mau,63,2014,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Cà Mau,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cà Mau,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cà Mau,63,2020,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cà Mau,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cà Mau,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Cần Thơ,63,2010,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Cần Thơ,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Cần Thơ,63,2014,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Cần Thơ,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cần Thơ,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cần Thơ,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cần Thơ,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Cần Thơ,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Gia Lai,63,2010,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Gia Lai,63,2012,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Gia Lai,63,2014,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Gia Lai,63,2016,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Gia Lai,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Gia Lai,63,2020,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Gia Lai,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Gia Lai,63,2024,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hà Giang,63,2010,81.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hà Giang,63,2012,78.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hà Giang,63,2014,77.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hà Giang,63,2016,90.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Giang,63,2018,85.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Giang,63,2020,95.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Giang,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Giang,63,2024,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hà Nam,63,2010,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hà Nam,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hà Nam,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hà Nam,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nam,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nam,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nam,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nam,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hà Nội,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hà Nội,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hà Nội,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hà Nội,63,2016,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nội,63,2018,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nội,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nội,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Nội,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hà Tĩnh,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hà Tĩnh,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hà Tĩnh,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hà Tĩnh,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Tĩnh,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Tĩnh,63,2020,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Tĩnh,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hà Tĩnh,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hòa Bình,63,2010,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hòa Bình,63,2012,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hòa Bình,63,2014,97.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hòa Bình,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hòa Bình,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hòa Bình,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hòa Bình,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hòa Bình,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hưng Yên,63,2010,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hưng Yên,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hưng Yên,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hưng Yên,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hưng Yên,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hưng Yên,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hưng Yên,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hưng Yên,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hải Dương,63,2010,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hải Dương,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hải Dương,63,2014,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hải Dương,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Dương,63,2018,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Dương,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Dương,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Dương,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hải Phòng,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hải Phòng,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hải Phòng,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hải Phòng,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Phòng,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Phòng,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Phòng,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hải Phòng,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Hậu Giang,63,2010,98.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Hậu Giang,63,2012,98.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Hậu Giang,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Hậu Giang,63,2016,99.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hậu Giang,63,2018,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hậu Giang,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hậu Giang,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Hậu Giang,63,2024,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Khánh Hòa,63,2010,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Khánh Hòa,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Khánh Hòa,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Khánh Hòa,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Khánh Hòa,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Khánh Hòa,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Khánh Hòa,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Khánh Hòa,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Kiên Giang,63,2010,90.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Kiên Giang,63,2012,92.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Kiên Giang,63,2014,95.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Kiên Giang,63,2016,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kiên Giang,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kiên Giang,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kiên Giang,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kiên Giang,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Kon Tum,63,2010,96.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Kon Tum,63,2012,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Kon Tum,63,2014,98.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Kon Tum,63,2016,98.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kon Tum,63,2018,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kon Tum,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kon Tum,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Kon Tum,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Lai Châu,63,2010,69.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Lai Châu,63,2012,55.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Lai Châu,63,2014,72.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Lai Châu,63,2016,89.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lai Châu,63,2018,89.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lai Châu,63,2020,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lai Châu,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lai Châu,63,2024,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Long An,63,2010,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Long An,63,2012,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Long An,63,2014,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Long An,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Long An,63,2018,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Long An,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Long An,63,2022,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Long An,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Lào Cai,63,2010,85.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Lào Cai,63,2012,91.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Lào Cai,63,2014,89.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Lào Cai,63,2016,93.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lào Cai,63,2018,93.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lào Cai,63,2020,98.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lào Cai,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lào Cai,63,2024,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Lâm Đồng,63,2010,98.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Lâm Đồng,63,2012,98.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Lâm Đồng,63,2014,98.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Lâm Đồng,63,2016,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lâm Đồng,63,2018,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lâm Đồng,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lâm Đồng,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lâm Đồng,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Lạng Sơn,63,2010,92.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Lạng Sơn,63,2012,86.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Lạng Sơn,63,2014,89.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Lạng Sơn,63,2016,96.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lạng Sơn,63,2018,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lạng Sơn,63,2020,96.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lạng Sơn,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Lạng Sơn,63,2024,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Nam Định,63,2010,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Nam Định,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Nam Định,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Nam Định,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nam Định,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nam Định,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nam Định,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nam Định,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Nghệ An,63,2010,93.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Nghệ An,63,2012,92.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Nghệ An,63,2014,97.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Nghệ An,63,2016,94.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nghệ An,63,2018,94.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nghệ An,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nghệ An,63,2022,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Nghệ An,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Ninh Bình,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Ninh Bình,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Ninh Bình,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Ninh Bình,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Bình,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Bình,63,2020,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Bình,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Bình,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Ninh Thuận,63,2010,98.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Ninh Thuận,63,2012,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Ninh Thuận,63,2014,98.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Ninh Thuận,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Thuận,63,2018,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Thuận,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Thuận,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Ninh Thuận,63,2024,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Phú Thọ,63,2010,97.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Phú Thọ,63,2012,97.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Phú Thọ,63,2014,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Phú Thọ,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Thọ,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Thọ,63,2020,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Thọ,63,2022,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Thọ,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Phú Yên,63,2010,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Phú Yên,63,2012,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Phú Yên,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Phú Yên,63,2016,99.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Yên,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Yên,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Yên,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Phú Yên,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Quảng Bình,63,2010,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Quảng Bình,63,2012,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Quảng Bình,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Quảng Bình,63,2016,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Bình,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Bình,63,2020,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Bình,63,2022,97.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Bình,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Quảng Nam,63,2010,94.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Quảng Nam,63,2012,95.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Quảng Nam,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Quảng Nam,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Nam,63,2018,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Nam,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Nam,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Nam,63,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Quảng Ngãi,63,2010,95.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Quảng Ngãi,63,2012,98.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Quảng Ngãi,63,2014,95.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Quảng Ngãi,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ngãi,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ngãi,63,2020,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ngãi,63,2022,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ngãi,63,2024,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Quảng Ninh,63,2010,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Quảng Ninh,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Quảng Ninh,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Quảng Ninh,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ninh,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ninh,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ninh,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Ninh,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Quảng Trị,63,2010,98.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Quảng Trị,63,2012,95.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Quảng Trị,63,2014,99.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Quảng Trị,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Trị,63,2018,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Trị,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Trị,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Quảng Trị,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Sóc Trăng,63,2010,94.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Sóc Trăng,63,2012,96.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Sóc Trăng,63,2014,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Sóc Trăng,63,2016,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sóc Trăng,63,2018,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sóc Trăng,63,2020,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sóc Trăng,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sóc Trăng,63,2024,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Sơn La,63,2010,79.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Sơn La,63,2012,73.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Sơn La,63,2014,90.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Sơn La,63,2016,88.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sơn La,63,2018,93.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sơn La,63,2020,98.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sơn La,63,2022,98.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Sơn La,63,2024,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+TP. Hồ Chí Minh,63,2010,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+TP. Hồ Chí Minh,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+TP. Hồ Chí Minh,63,2014,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 TP. Hồ Chí Minh,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 TP. Hồ Chí Minh,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 TP. Hồ Chí Minh,63,2020,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 TP. Hồ Chí Minh,63,2022,98.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 TP. Hồ Chí Minh,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Thanh Hóa,63,2010,97.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Thanh Hóa,63,2012,98.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Thanh Hóa,63,2014,97.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Thanh Hóa,63,2016,98.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thanh Hóa,63,2018,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thanh Hóa,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thanh Hóa,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thanh Hóa,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Thái Bình,63,2010,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Thái Bình,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Thái Bình,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Thái Bình,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Bình,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Bình,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Bình,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Bình,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Thái Nguyên,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Thái Nguyên,63,2012,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Thái Nguyên,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Thái Nguyên,63,2016,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Nguyên,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Nguyên,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Nguyên,63,2022,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thái Nguyên,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Thừa Thiên Huế,63,2010,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Thừa Thiên Huế,63,2012,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Thừa Thiên Huế,63,2014,98.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Thừa Thiên Huế,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thừa Thiên Huế,63,2018,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thừa Thiên Huế,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thừa Thiên Huế,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Thừa Thiên Huế,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Tiền Giang,63,2010,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Tiền Giang,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Tiền Giang,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Tiền Giang,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tiền Giang,63,2018,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tiền Giang,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tiền Giang,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tiền Giang,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Trà Vinh,63,2010,93.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Trà Vinh,63,2012,95.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Trà Vinh,63,2014,97.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Trà Vinh,63,2016,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Trà Vinh,63,2018,98.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Trà Vinh,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Trà Vinh,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Trà Vinh,63,2024,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Tuyên Quang,63,2010,88.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Tuyên Quang,63,2012,97.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Tuyên Quang,63,2014,96.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Tuyên Quang,63,2016,96.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tuyên Quang,63,2018,96.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tuyên Quang,63,2020,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tuyên Quang,63,2022,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tuyên Quang,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Tây Ninh,63,2010,98.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Tây Ninh,63,2012,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Tây Ninh,63,2014,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Tây Ninh,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tây Ninh,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tây Ninh,63,2020,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tây Ninh,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Tây Ninh,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Vĩnh Long,63,2010,98.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Vĩnh Long,63,2012,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Vĩnh Long,63,2014,99.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Vĩnh Long,63,2016,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Long,63,2018,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Long,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Long,63,2022,98.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Long,63,2024,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Vĩnh Phúc,63,2010,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Vĩnh Phúc,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Vĩnh Phúc,63,2014,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Vĩnh Phúc,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Phúc,63,2018,99.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Phúc,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Phúc,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Vĩnh Phúc,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Yên Bái,63,2010,90.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Yên Bái,63,2012,91.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Yên Bái,63,2014,93.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Yên Bái,63,2016,92.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Yên Bái,63,2018,95.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Yên Bái,63,2020,98.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Yên Bái,63,2022,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Yên Bái,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Điện Biên,63,2010,76.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Điện Biên,63,2012,75.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Điện Biên,63,2014,84.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Điện Biên,63,2016,80.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Điện Biên,63,2018,94.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Điện Biên,63,2020,88.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Điện Biên,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Điện Biên,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Đà Nẵng,63,2010,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Đà Nẵng,63,2012,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Đà Nẵng,63,2014,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Đà Nẵng,63,2016,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đà Nẵng,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đà Nẵng,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đà Nẵng,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đà Nẵng,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Đắk Lắk,63,2010,94.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Đắk Lắk,63,2012,95.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Đắk Lắk,63,2014,96.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Đắk Lắk,63,2016,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Lắk,63,2018,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Lắk,63,2020,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Lắk,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Lắk,63,2024,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Đắk Nông,63,2010,95.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Đắk Nông,63,2012,96.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Đắk Nông,63,2014,99.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Đắk Nông,63,2016,98.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Nông,63,2018,98.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Nông,63,2020,96.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Nông,63,2022,99.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đắk Nông,63,2024,97.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Đồng Nai,63,2010,97.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Đồng Nai,63,2012,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Đồng Nai,63,2014,98.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Đồng Nai,63,2016,99.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Nai,63,2018,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Nai,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Nai,63,2022,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Nai,63,2024,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+Đồng Tháp,63,2010,98.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1048-1049)",final
+Đồng Tháp,63,2012,99.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.889-890)",final
+Đồng Tháp,63,2014,99.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.891-892)",final
 Đồng Tháp,63,2016,99.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Tháp,63,2018,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
 Đồng Tháp,63,2020,100.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final

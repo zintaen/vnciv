@@ -5,6 +5,7 @@ import { t, lang } from "../i18n.js";
 import { kindOf } from "../format.js";
 import { fmtYear, yearNum } from "../ui/infoPanel.js";
 import { naturalEnd } from "../ui/lenses.js";
+import { track } from "./telemetry.js";
 
 // The address printed on shared images. Set it to the published site (e.g. "example.com/vnciv"); when left
 // empty, the page's own host and path are used, except on a local dev server, where SITE_FALLBACK is printed.
@@ -29,7 +30,7 @@ export const IMG_H = 900;
 export const CAPTION_H = 118;
 const SERIF = '"Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif';
 const SANS = '-apple-system, "Segoe UI", system-ui, sans-serif';
-const CREDIT = "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, OpenFlights, © OpenStreetMap contributors";
+const CREDIT = "Data: NSO Vietnam, WorldPop, ESA WorldCover, NOAA, WRI, Wikidata, Natural Earth, OCHA COD-AB, GeoNames, Wikipedia, © OpenStreetMap contributors";
 
 /** "CHELSA" / "Hansen/UMD/Google/USGS/NASA" for a lens source ({title, publisher}) that CREDIT does not already
  *  name (by any of its capitalised words: NOAA, WorldPop, NSO...), else "". */
@@ -41,7 +42,7 @@ export function lensCredit(src) {
   return acro || src.publisher.replace(/\s*\(.*?\)/g, "").trim();
 }
 
-async function copyText(text) {
+export async function copyText(text) {
   try {
     if (navigator.clipboard?.writeText) {
       await navigator.clipboard.writeText(text);
@@ -329,13 +330,15 @@ export function initShare(opts) {
     <div class="sp-title">${t("Share this view")}</div>
     <button class="sp-item" data-act="copy">${icon("share", "🔗", { size: 16 })}<span>${t("Copy link")}</span></button>
     <button class="sp-item" data-act="image">${icon("terrain", "🖼️", { size: 16 })}<span>${t("Download image")} <span class="muted">1600×900 PNG</span></span></button>
+    <button class="sp-item" data-act="embed">${icon(null, "</>", { size: 16 })}<span>${t("Embed")} <span class="muted">${t("in a website")}</span></span></button>
     <div class="sp-status" role="status" aria-live="polite"></div>
     <input class="sp-url" type="text" readonly hidden aria-label="${t("Link to this view")}">`;
   const status = pop.querySelector(".sp-status");
   const urlBox = pop.querySelector(".sp-url");
 
   function position() {
-    const r = btn.getBoundingClientRect();
+    // Share sits in the top bar's "More ▾" menu: once the menu closes, anchor under the More button.
+    const r = (btn.getClientRects().length ? btn : document.getElementById("btn-more") || btn).getBoundingClientRect();
     const w = pop.offsetWidth || 250;
     pop.style.top = r.bottom + 8 + "px";
     pop.style.left = Math.max(8, Math.min(window.innerWidth - w - 8, r.right - w)) + "px";
@@ -364,6 +367,7 @@ export function initShare(opts) {
   pop.addEventListener("click", async (e) => {
     const b = e.target.closest("[data-act]");
     if (!b) return;
+    track("share", { kind: b.dataset.act });
     if (b.dataset.act === "copy") {
       opts.beforeCopy?.();
       const link = location.href;
@@ -377,6 +381,9 @@ export function initShare(opts) {
         urlBox.focus();
         urlBox.select();
       }
+    } else if (b.dataset.act === "embed") {
+      close(false);
+      opts.onEmbed?.(); // app/embedui.js openEmbedDialog
     } else if (b.dataset.act === "image") {
       status.textContent = t("Drawing the map…");
       await new Promise((r) => setTimeout(r, 30)); // let the status paint

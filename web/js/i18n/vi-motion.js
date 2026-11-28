@@ -42,9 +42,9 @@ export default {
     "Chỉ số tương đối về xu hướng, không phải số liệu thống kê chính thức: nhóm tác giả lưu ý rằng cảm biến Landsat và phương pháp đã thay đổi theo thời gian (chênh lệch giữa các năm có thể là sai lệch kỹ thuật) và số điểm ảnh không phải là ước tính diện tích chính xác. Phần lớn diện tích rừng mất ở Việt Nam là do khai thác rừng trồng (keo, cao su) rồi trồng lại.",
   // motion-traffic (ext/traffic: planes, ships and trains)
   "Moving traffic": "Giao thông chuyển động",
-  "Planes on the air routes, ships at the seaports and trains on the railways. Illustrative, not a flight schedule; air routes from OpenFlights (2014). Ship and train frequency are illustrative too. Off with Effects off or reduced motion.":
-    "Máy bay trên các tuyến bay, tàu thuyền ở các cảng biển và tàu hỏa trên đường sắt. Minh họa, không phải lịch bay; tuyến bay OpenFlights 2014. Tần suất tàu thuyền và tàu hỏa cũng chỉ để minh họa. Tắt khi tắt Hiệu ứng hoặc khi bật giảm chuyển động.",
-  "Illustrative, not a flight schedule; air routes from OpenFlights (2014)": "Minh họa, không phải lịch bay; tuyến bay OpenFlights 2014",
+  "Planes on the air routes, ships at the seaports and trains on the railways. Illustrative, not a flight schedule; air routes from Wikipedia's airport articles (2026). Ship and train frequency are illustrative too. Off with Effects off or reduced motion.":
+    "Máy bay trên các tuyến bay, tàu thuyền ở các cảng biển và tàu hỏa trên đường sắt. Minh họa, không phải lịch bay; tuyến bay theo các bài Wikipedia về sân bay (2026). Tần suất tàu thuyền và tàu hỏa cũng chỉ để minh họa. Tắt khi tắt Hiệu ứng hoặc khi bật giảm chuyển động.",
+  "Illustrative, not a flight schedule; air routes from Wikipedia's airport articles (2026)": "Minh họa, không phải lịch bay; tuyến bay theo các bài Wikipedia về sân bay (2026)",
   "Illustrative ship movement, not real shipping lanes or traffic": "Tàu thuyền minh họa, không phải luồng hàng hải hay lượt tàu thật",
   "Illustrative train frequency, not a timetable": "Tần suất tàu minh họa, không phải lịch chạy tàu",
   "North–South railway": "Đường sắt Bắc – Nam",

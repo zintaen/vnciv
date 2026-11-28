@@ -10,7 +10,7 @@ export function install(app) {
   const M = app.motion;
   if (!M?.register) return; // an older main.js without app.motion: the map stays still
   const phone = !!app.isMobile?.();
-  let on = !phone; // phones: off by default (battery), on with the Map-menu toggle
+  let on = true; // on by default, phones too (frames are capped at 20 fps there and stop after a minute idle)
   const ambient = createAmbient(app);
   const perf = app.perf ? (app.perf.ambient = []) : []; // ms per ambient draw (window.__app.perf.ambient)
   // Battery: ambient frames are capped (30 fps, 20 on phones) and stop after a minute without input (M.idle). Between
@@ -35,7 +35,7 @@ export function install(app) {
     },
   });
   app.ui?.addMapToggle?.({
-    id: "ambient", group: "nature", icon: "🌊", default: !phone,
+    id: "ambient", group: "nature", icon: "🌊", default: true,
     label: t("Living map"),
     title: t("Sea shimmer, surf, flowing rivers and drifting cloud shadows. Illustrative only: not weather, currents or real-time data. Off with Effects off or reduced motion."),
     get: () => on,

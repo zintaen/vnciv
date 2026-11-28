@@ -2,6 +2,7 @@
 // MoMo / VietQR code. The site is free and ad-free; this is the only ask, shown once in the bar and never as a pop-up.
 import { t, lang } from "../i18n.js";
 import { cyberskillUrl, REPO_URL, GITHUB_SVG } from "./brand.js";
+import { contactHtml, wireContact } from "./contact.js";
 
 export function initDonate() {
   const bar = document.querySelector("#topbar .tb-more");
@@ -9,11 +10,12 @@ export function initDonate() {
   const btn = document.createElement("button");
   btn.id = "btn-coffee";
   btn.type = "button";
-  btn.className = "btn coffee-btn";
+  btn.className = "btn btn-icon author-btn";
   btn.setAttribute("aria-haspopup", "dialog");
+  btn.setAttribute("aria-label", "Tác giả / Author");
   btn.title = t("About the author, and a coffee");
-  btn.innerHTML = `<span class="cup" aria-hidden="true">☕</span><span class="lbl">${t("Author")}</span>`;
-  bar.insertBefore(btn, bar.firstChild);
+  btn.innerHTML = `<img src="img/brand/cyberskill-logo-mark-gold.svg" width="20" height="20" alt="">`;
+  bar.appendChild(btn); // after the "More ▾" menu
 
   const modal = document.createElement("div");
   modal.className = "modal coffee-modal";
@@ -28,6 +30,7 @@ export function initDonate() {
       </div>
       <a class="coffee-cta" href="${cyberskillUrl("author", lang === "vi" ? "vi" : "en")}" target="_blank" rel="noopener">${t("Start a project")} <span aria-hidden="true">↗</span></a>
       <a class="coffee-gh" href="${REPO_URL}" target="_blank" rel="noopener">${GITHUB_SVG} ${t("Source on GitHub")}</a>
+      ${contactHtml()}
       <hr class="coffee-sep">
       <div class="coffee-steam" aria-hidden="true"><i></i><i></i><i></i></div>
       <div class="coffee-mug" aria-hidden="true">☕</div>
@@ -38,11 +41,13 @@ export function initDonate() {
       <p class="coffee-thanks">${t("Thank you so much!")} <span aria-hidden="true">💛🇻🇳</span></p>
     </div>`;
   document.body.appendChild(modal);
+  const contact = wireContact(modal);
   const close = () => { modal.hidden = true; btn.setAttribute("aria-expanded", "false"); btn.focus(); };
   const open = () => {
     const qr = modal.querySelector(".coffee-qr");
     if (!qr.src) qr.src = qr.dataset.src; // fetched on first open only
     modal.hidden = false;
+    contact.opened();
     btn.setAttribute("aria-expanded", "true");
     modal.querySelector(".coffee-close").focus();
   };
@@ -50,8 +55,8 @@ export function initDonate() {
   modal.addEventListener("click", (e) => { if (e.target === modal || e.target.closest(".coffee-close")) close(); });
   modal.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { e.stopPropagation(); close(); }
-    if (e.key !== "Tab") return; // keep Tab inside the dialog: the close button and the link
-    const f = [...modal.querySelectorAll(".coffee-close, .coffee-cta, .coffee-gh")];
+    if (e.key !== "Tab") return; // keep Tab inside the dialog: the close button, the links and the contact form
+    const f = [...modal.querySelectorAll("button, a[href], input, textarea")].filter((x) => x.tabIndex >= 0 && !x.disabled && x.getClientRects().length);
     const k = f.indexOf(document.activeElement);
     e.preventDefault();
     f[(k + (e.shiftKey ? -1 : 1) + f.length) % f.length].focus();

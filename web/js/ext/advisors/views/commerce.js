@@ -1,5 +1,5 @@
 // Commerce advisor ("Master of Trade"): Vietnam's seaports and airports, and the road and rail network
-// (infrastructure.json), plus the domestic air routes (trade.json, OpenFlights 2014) as its trade routes. Vietnam
+// (infrastructure.json), plus the domestic air routes (trade.json, from Wikipedia's airport articles) as its trade routes. Vietnam
 // publishes no open freight-flow or port-tonnage data, so there are no freight routes.
 import { esc, fin, el as mk } from "../core/util.js";
 import { int, count3 } from "../core/fmt.js";
@@ -9,7 +9,7 @@ import { createTable } from "../core/table.js";
 import { section, tiles, segmented, sourcesHtml } from "../core/view.js";
 import { focusPoint, frameBox } from "../core/frame.js";
 import { prepareRoutes } from "../../../render/art/improvements.js";
-import { t as tr } from "../../../i18n.js";
+import { t as tr, lang } from "../../../i18n.js";
 
 const PORT_COLOR = "#4f9ad6", AIR_COLOR = "#e6cf86";
 const HUB_SHORT = { L: tr("Major hub"), M: tr("Medium hub"), S: tr("Small hub"), N: tr("Local airport") };
@@ -45,7 +45,7 @@ export async function mount(ctx) {
     { label: tr("Air passengers"), value: count3(totalPax), sub: `${mixedYears ? tr("{n} airports, latest year each", { n: nPax }) : tr("{n} airports, {year}", { n: nPax, year: topAir?.year || "" })}${trade?.routes?.length && topAir ? ` · ${topAir.id} ${count3(topAir.enplanements)}` : ""}` },
     // With the air routes, the busiest airport moves into the passengers tile so the headline stays one row.
     trade?.routes?.length
-      ? { label: tr("Air routes"), value: int(trade.routes.length), sub: tr("domestic, OpenFlights {year}", { year: String(trade.year || 2014) }) }
+      ? { label: tr("Air routes"), value: int(trade.routes.length), sub: tr("domestic, Wikipedia {year}", { year: String(trade.year) }) }
       : { label: tr("Busiest airport"), value: topAir ? count3(topAir.enplanements) : "–", sub: topAir ? tr("{id} passengers", { id: topAir.id }) : "" },
   ]));
 
@@ -140,9 +140,9 @@ export async function mount(ctx) {
     focusPoint(app, p.x, p.y, Math.min(app.cam.maxScale, Math.max(app.cam.scale, (app.cam.fitScale || 1) * 3)));
   }
 
-  el.insertAdjacentHTML("beforeend", sourcesHtml(data, [...(infra.sources || []), ...(air ? trade.sources || ["openflights_routes"] : [])], [
+  el.insertAdjacentHTML("beforeend", sourcesHtml(data, [...(infra.sources || []), ...(air ? trade.sources || [] : [])], [
     tr("Vietnam publishes no open port throughput (Vinamarine) or freight-flow statistics, so ports are listed, not ranked, and there are no freight routes."),
-    ...(air ? [tr("The air routes are the OpenFlights route database as of June 2014, its last update: which airlines linked which airports then, with no passenger or cargo counts. Routes opened since 2014 are missing, and some listed then may have stopped.")] : []),
+    ...(air ? [tr("The air routes are the airlines-and-destinations tables of the English and Vietnamese Wikipedia articles on Vietnam's airports: an airline counts for a domestic route when the articles of both airports list it. They show which airlines link which airports, with no flight, passenger or cargo counts, and can lag behind schedule changes. International routes come from the Vietnamese airport's articles only; those to airports outside the map frame are listed, not drawn.")] : []),
     tr("Seaports and their classes are the Prime Minister's list (Decision 804/QĐ-TTg, 2022); each is drawn at its main port areas, placed at the port mapped in OpenStreetMap where one is found, else at a GeoNames or Wikidata port or at the town the area is named after. Positions are approximate, and only the main areas are shown."),
     tr("Airport passengers are Airports Corporation of Vietnam figures as compiled on Wikipedia; some are rounded."),
     tr("Roads and rails are OpenStreetMap ways snapped to hex links: map art, not statistics. Expressways appear as mappers tag them open to traffic; sections under construction are left out."),
@@ -160,6 +160,34 @@ export async function mount(ctx) {
     },
     onEscape: () => air?.onEscape() || false,
   };
+}
+
+/** International routes (trade.json international): every Vietnamese airport → foreign airport pair, by airlines;
+ * those inside the map frame with enough airlines are the pink arcs of the layer, the rest are only listed here. */
+function intlRoutes(body, trade) {
+  const I = trade.international;
+  if (!I?.routes?.length) return;
+  let names = null;
+  try { names = new Intl.DisplayNames([lang === "vi" ? "vi" : "en"], { type: "region" }); } catch { names = null; }
+  const country = (c) => { try { return (names && c && names.of(c)) || c || ""; } catch { return c || ""; } };
+  const rows = I.routes.map((r) => {
+    const f = I.foreign?.[r.foreign] || {};
+    return { ...r, key: `i${r.rank}`, dest: tr(f.city || r.foreign), country: country(f.country) };
+  });
+  const nOn = rows.filter((r) => r.drawn).length;
+  body.insertAdjacentHTML("beforeend", `<h4 class="adv-h4">${tr("International routes")}</h4>
+    <p class="adv-note">${esc(tr(I.rule || ""))} ${tr("{n} of {k} are drawn on the map in pink; the rest lie outside the map frame or have fewer airlines.", { n: int(nOn), k: int(rows.length) })}</p>`);
+  createTable(body, {
+    caption: tr("International air routes"), rank: false, maxHeight: 320, search: tr("Search routes, airports"),
+    searchText: (r) => `${r.vn} ${r.foreign} ${r.dest} ${r.country} ${(r.airline_codes || []).join(" ")}`,
+    columns: [
+      { key: "name", label: tr("Route"), align: "l", width: "minmax(0,2fr)", value: (r) => r.dest, html: (r) => `${esc(r.vn)} → ${esc(r.dest)} <span class="sub">${esc(r.foreign)} · ${esc(r.country)}</span>`, tip: (r) => `${r.vn}–${r.foreign}: ${(r.airline_codes || []).join(", ")}` },
+      { key: "airlines", label: tr("Airlines"), width: "64px", value: (r) => r.airlines, text: (r) => int(r.airlines), bar: { max: Math.max(1, ...rows.map((r) => r.airlines)), color: "rgba(194,69,154,.3)" } },
+      { key: "dist", label: tr("Distance"), value: (r) => r.dist_km, text: (r) => (fin(r.dist_km) ? `${int(r.dist_km)} km` : "–"), hideBelow: 360 },
+      { key: "map", label: tr("On map"), width: "58px", value: (r) => (r.drawn ? 1 : 0), text: (r) => (r.drawn ? "✈" : r.in_frame ? "·" : "–"), title: tr("✈ drawn on the map; · inside the map frame but under the airline threshold; – outside the map frame") },
+    ],
+    rows, sort: { key: "airlines", dir: "desc" },
+  });
 }
 
 /**
@@ -182,7 +210,7 @@ function airRoutes(ctx, trade) {
   const st = { zone: null, route: null, hot: null };
 
   const body = section(el, {
-    title: tr("Air routes"), kicker: trade.vintage ? tr(trade.vintage) : tr("OpenFlights routes, June 2014"),
+    title: tr("Air routes"), kicker: tr(trade.vintage || ""),
     note: `${esc(tr(trade.rule || ""))} ${esc(tr(trade.path_note || ""))} ${tr("Hover a route to light it up on the map; click to pin it.")}`,
   });
   const ctl = mk("div", "adv-row");
@@ -233,6 +261,7 @@ function airRoutes(ctx, trade) {
     onClick: (z) => setZone(st.zone === z.id ? null : z.id),
   });
   body.insertAdjacentHTML("beforeend", `<p class="adv-note">${tr("Click a city to list only its routes; click it again (or Esc) to show them all.")}</p>`);
+  intlRoutes(body, trade);
 
   function setZone(id) {
     st.zone = id;

@@ -71,7 +71,7 @@ export function install(app) {
 
   // --- top-bar button ---------------------------------------------------------------------------------------------
   const btn = app.ui.addTopButton({
-    id: "btn-advisors", icon: "g-people", label: tr("Advisors"), title: tr("Advisors: explore the data behind the map"),
+    id: "btn-advisors", icon: "g-people", label: tr("Advisors"), title: tr("Advisors: explore the data behind the map"), menu: true,
     onClick: () => {
       if (app.mode === "advisor") return app.setMode(null);
       // Phone: the city sheet sits above the advisor sheet (for a city picked inside an advisor), so an open one
@@ -229,7 +229,8 @@ export function install(app) {
           });
         }
         app.setLens(ref);
-        if (app.state.lens) a.lensSaved.ours.add(app.state.lens);
+        const l = typeof ref === "string" ? app.lensById?.get(ref) : ref; // (a lens may still be loading its values)
+        if (l) a.lensSaved.ours.add(l);
       },
       switchTo,
       cleanup: (fn) => a.cleanup.push(fn),

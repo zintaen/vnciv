@@ -1,4 +1,5 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2018,1064.06,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 An Giang,63,2019,972.16,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 An Giang,63,2020,962.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 An Giang,63,2021,883.74,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -6,6 +7,7 @@ An Giang,63,2022,902.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploa
 An Giang,63,2023,900.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 An Giang,63,2024,900.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 An Giang,63,2025,901.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bà Rịa - Vũng Tàu,63,2018,603.2,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,611.71,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,577.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bà Rịa - Vũng Tàu,63,2021,565.0,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -13,6 +15,7 @@ Bà Rịa - Vũng Tàu,63,2022,623.3,thousand persons,"https://www.nso.gov.vn/wp
 Bà Rịa - Vũng Tàu,63,2023,612.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bà Rịa - Vũng Tàu,63,2024,616.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bà Rịa - Vũng Tàu,63,2025,620.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bình Dương,63,2018,1431.58,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bình Dương,63,2019,1603.79,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bình Dương,63,2020,1597.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Dương,63,2021,1620.42,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -20,6 +23,7 @@ Bình Dương,63,2022,1760.3,thousand persons,"https://www.nso.gov.vn/wp-content
 Bình Dương,63,2023,1845.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Dương,63,2024,1910.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Dương,63,2025,1984.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bình Phước,63,2018,570.28,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bình Phước,63,2019,588.19,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bình Phước,63,2020,587.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Phước,63,2021,583.37,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -27,6 +31,7 @@ Bình Phước,63,2022,591.6,thousand persons,"https://www.nso.gov.vn/wp-content
 Bình Phước,63,2023,587.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Phước,63,2024,589.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Phước,63,2025,598.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bình Thuận,63,2018,700.99,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bình Thuận,63,2019,707.36,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bình Thuận,63,2020,693.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Thuận,63,2021,669.58,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -34,6 +39,7 @@ Bình Thuận,63,2022,673.5,thousand persons,"https://www.nso.gov.vn/wp-content/
 Bình Thuận,63,2023,685.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Thuận,63,2024,692.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Thuận,63,2025,695.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bình Định,63,2018,883.09,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bình Định,63,2019,864.56,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bình Định,63,2020,842.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Định,63,2021,814.0,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -41,6 +47,7 @@ Bình Định,63,2022,825.8,thousand persons,"https://www.nso.gov.vn/wp-content/
 Bình Định,63,2023,833.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Định,63,2024,836.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bình Định,63,2025,841.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bạc Liêu,63,2018,494.5,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bạc Liêu,63,2019,500.89,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bạc Liêu,63,2020,491.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bạc Liêu,63,2021,470.71,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -48,6 +55,7 @@ Bạc Liêu,63,2022,473.0,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Bạc Liêu,63,2023,474.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bạc Liêu,63,2024,476.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bạc Liêu,63,2025,477.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bắc Giang,63,2018,1078.52,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bắc Giang,63,2019,1099.78,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bắc Giang,63,2020,1095.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Giang,63,2021,945.3,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -55,6 +63,7 @@ Bắc Giang,63,2022,979.8,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Bắc Giang,63,2023,998.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Giang,63,2024,1018.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Giang,63,2025,1031.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bắc Kạn,63,2018,213.47,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bắc Kạn,63,2019,208.95,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bắc Kạn,63,2020,204.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Kạn,63,2021,140.08,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -62,6 +71,7 @@ Bắc Kạn,63,2022,147.1,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Bắc Kạn,63,2023,148.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Kạn,63,2024,152.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Kạn,63,2025,153.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bắc Ninh,63,2018,703.06,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bắc Ninh,63,2019,759.05,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bắc Ninh,63,2020,758.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Ninh,63,2021,746.34,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -69,6 +79,7 @@ Bắc Ninh,63,2022,768.7,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Bắc Ninh,63,2023,771.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Ninh,63,2024,781.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bắc Ninh,63,2025,792.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Bến Tre,63,2018,803.99,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Bến Tre,63,2019,815.0,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Bến Tre,63,2020,811.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bến Tre,63,2021,761.1,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -76,6 +87,7 @@ Bến Tre,63,2022,772.2,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Bến Tre,63,2023,773.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bến Tre,63,2024,774.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Bến Tre,63,2025,774.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Cao Bằng,63,2018,346.72,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Cao Bằng,63,2019,346.5,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Cao Bằng,63,2020,345.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cao Bằng,63,2021,157.3,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -83,6 +95,7 @@ Cao Bằng,63,2022,201.7,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Cao Bằng,63,2023,220.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cao Bằng,63,2024,228.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cao Bằng,63,2025,232.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Cà Mau,63,2018,669.56,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Cà Mau,63,2019,677.62,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Cà Mau,63,2020,656.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cà Mau,63,2021,583.26,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -90,6 +103,7 @@ Cà Mau,63,2022,601.8,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Cà Mau,63,2023,615.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cà Mau,63,2024,623.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cà Mau,63,2025,624.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Cần Thơ,63,2018,678.87,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Cần Thơ,63,2019,700.21,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Cần Thơ,63,2020,693.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cần Thơ,63,2021,562.85,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -97,6 +111,7 @@ Cần Thơ,63,2022,586.7,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Cần Thơ,63,2023,596.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cần Thơ,63,2024,607.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Cần Thơ,63,2025,610.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Gia Lai,63,2018,895.73,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Gia Lai,63,2019,898.7,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Gia Lai,63,2020,884.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Gia Lai,63,2021,909.43,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -104,6 +119,7 @@ Gia Lai,63,2022,925.2,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Gia Lai,63,2023,944.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Gia Lai,63,2024,954.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Gia Lai,63,2025,963.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hà Giang,63,2018,526.85,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hà Giang,63,2019,528.0,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hà Giang,63,2020,524.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Giang,63,2021,350.52,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -111,6 +127,7 @@ Hà Giang,63,2022,361.3,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Hà Giang,63,2023,366.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Giang,63,2024,372.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Giang,63,2025,372.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hà Nam,63,2018,479.04,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hà Nam,63,2019,478.9,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hà Nam,63,2020,460.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nam,63,2021,432.36,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -118,6 +135,7 @@ Hà Nam,63,2022,453.3,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Hà Nam,63,2023,456.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nam,63,2024,461.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nam,63,2025,465.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hà Nội,63,2018,4098.87,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hà Nội,63,2019,4048.73,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hà Nội,63,2020,4042.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nội,63,2021,3839.69,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -125,6 +143,7 @@ Hà Nội,63,2022,3928.7,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Hà Nội,63,2023,4028.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nội,63,2024,4109.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Nội,63,2025,4190.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hà Tĩnh,63,2018,681.24,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hà Tĩnh,63,2019,687.08,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hà Tĩnh,63,2020,654.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Tĩnh,63,2021,489.6,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -132,6 +151,7 @@ Hà Tĩnh,63,2022,503.0,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Hà Tĩnh,63,2023,502.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Tĩnh,63,2024,506.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hà Tĩnh,63,2025,514.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hòa Bình,63,2018,545.44,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hòa Bình,63,2019,553.01,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hòa Bình,63,2020,528.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hòa Bình,63,2021,464.17,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -139,6 +159,7 @@ Hòa Bình,63,2022,497.5,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Hòa Bình,63,2023,499.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hòa Bình,63,2024,508.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hòa Bình,63,2025,513.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hưng Yên,63,2018,723.16,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hưng Yên,63,2019,713.58,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hưng Yên,63,2020,705.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hưng Yên,63,2021,668.53,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -146,6 +167,7 @@ Hưng Yên,63,2022,672.0,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Hưng Yên,63,2023,680.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hưng Yên,63,2024,683.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hưng Yên,63,2025,686.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hải Dương,63,2018,1037.56,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hải Dương,63,2019,1053.91,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hải Dương,63,2020,999.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Dương,63,2021,930.06,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -153,6 +175,7 @@ Hải Dương,63,2022,940.3,thousand persons,"https://www.nso.gov.vn/wp-content/
 Hải Dương,63,2023,936.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Dương,63,2024,935.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Dương,63,2025,935.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hải Phòng,63,2018,1108.81,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hải Phòng,63,2019,1090.67,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hải Phòng,63,2020,1054.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Phòng,63,2021,1011.46,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -160,6 +183,7 @@ Hải Phòng,63,2022,1015.6,thousand persons,"https://www.nso.gov.vn/wp-content/
 Hải Phòng,63,2023,1020.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Phòng,63,2024,1024.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hải Phòng,63,2025,1041.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Hậu Giang,63,2018,441.68,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Hậu Giang,63,2019,408.16,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Hậu Giang,63,2020,391.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hậu Giang,63,2021,374.22,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -167,6 +191,7 @@ Hậu Giang,63,2022,405.6,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Hậu Giang,63,2023,404.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hậu Giang,63,2024,406.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Hậu Giang,63,2025,407.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Khánh Hòa,63,2018,682.49,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Khánh Hòa,63,2019,671.92,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Khánh Hòa,63,2020,642.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Khánh Hòa,63,2021,591.96,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -174,6 +199,7 @@ Khánh Hòa,63,2022,651.2,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Khánh Hòa,63,2023,667.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Khánh Hòa,63,2024,681.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Khánh Hòa,63,2025,686.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Kiên Giang,63,2018,918.5,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Kiên Giang,63,2019,921.84,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Kiên Giang,63,2020,887.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kiên Giang,63,2021,878.05,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -181,6 +207,7 @@ Kiên Giang,63,2022,905.9,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Kiên Giang,63,2023,900.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kiên Giang,63,2024,901.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kiên Giang,63,2025,904.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Kon Tum,63,2018,310.28,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Kon Tum,63,2019,312.67,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Kon Tum,63,2020,309.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kon Tum,63,2021,313.55,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -188,6 +215,7 @@ Kon Tum,63,2022,326.4,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Kon Tum,63,2023,336.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kon Tum,63,2024,344.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Kon Tum,63,2025,359.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Lai Châu,63,2018,271.28,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Lai Châu,63,2019,281.78,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Lai Châu,63,2020,283.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lai Châu,63,2021,165.01,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -195,6 +223,7 @@ Lai Châu,63,2022,206.4,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Lai Châu,63,2023,215.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lai Châu,63,2024,231.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lai Châu,63,2025,233.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Long An,63,2018,969.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Long An,63,2019,1001.55,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Long An,63,2020,1008.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Long An,63,2021,971.96,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -202,6 +231,7 @@ Long An,63,2022,982.0,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Long An,63,2023,995.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Long An,63,2024,1001.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Long An,63,2025,1005.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Lào Cai,63,2018,437.47,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Lào Cai,63,2019,428.2,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Lào Cai,63,2020,426.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lào Cai,63,2021,375.98,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -209,6 +239,7 @@ Lào Cai,63,2022,390.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploa
 Lào Cai,63,2023,391.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lào Cai,63,2024,393.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lào Cai,63,2025,393.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Lâm Đồng,63,2018,792.31,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Lâm Đồng,63,2019,763.74,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Lâm Đồng,63,2020,763.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lâm Đồng,63,2021,768.54,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -216,6 +247,7 @@ Lâm Đồng,63,2022,793.5,thousand persons,"https://www.nso.gov.vn/wp-content/u
 Lâm Đồng,63,2023,795.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lâm Đồng,63,2024,797.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lâm Đồng,63,2025,798.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Lạng Sơn,63,2018,484.45,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Lạng Sơn,63,2019,487.33,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Lạng Sơn,63,2020,479.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lạng Sơn,63,2021,299.98,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -223,6 +255,7 @@ Lạng Sơn,63,2022,306.2,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Lạng Sơn,63,2023,315.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lạng Sơn,63,2024,321.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Lạng Sơn,63,2025,323.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Nam Định,63,2018,1082.87,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Nam Định,63,2019,1039.06,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Nam Định,63,2020,1010.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nam Định,63,2021,933.89,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -230,6 +263,7 @@ Nam Định,63,2022,952.0,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Nam Định,63,2023,955.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nam Định,63,2024,957.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nam Định,63,2025,959.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Nghệ An,63,2018,1915.72,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Nghệ An,63,2019,1904.36,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Nghệ An,63,2020,1906.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nghệ An,63,2021,1590.66,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -237,6 +271,7 @@ Nghệ An,63,2022,1597.0,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Nghệ An,63,2023,1597.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nghệ An,63,2024,1601.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Nghệ An,63,2025,1602.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Ninh Bình,63,2018,576.25,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Ninh Bình,63,2019,579.14,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Ninh Bình,63,2020,557.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Bình,63,2021,481.65,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -244,6 +279,7 @@ Ninh Bình,63,2022,483.5,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Ninh Bình,63,2023,487.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Bình,63,2024,493.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Bình,63,2025,493.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Ninh Thuận,63,2018,330.17,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Ninh Thuận,63,2019,328.76,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Ninh Thuận,63,2020,318.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Thuận,63,2021,315.16,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -251,6 +287,7 @@ Ninh Thuận,63,2022,326.9,thousand persons,"https://www.nso.gov.vn/wp-content/u
 Ninh Thuận,63,2023,327.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Thuận,63,2024,329.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Ninh Thuận,63,2025,328.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Phú Thọ,63,2018,828.25,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Phú Thọ,63,2019,840.01,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Phú Thọ,63,2020,836.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Thọ,63,2021,673.0,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -258,6 +295,7 @@ Phú Thọ,63,2022,706.7,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Phú Thọ,63,2023,713.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Thọ,63,2024,716.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Thọ,63,2025,719.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Phú Yên,63,2018,517.7,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Phú Yên,63,2019,510.13,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Phú Yên,63,2020,497.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Yên,63,2021,451.15,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -265,6 +303,7 @@ Phú Yên,63,2022,456.0,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Phú Yên,63,2023,462.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Yên,63,2024,466.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Phú Yên,63,2025,468.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Quảng Bình,63,2018,511.31,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Quảng Bình,63,2019,510.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Quảng Bình,63,2020,489.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Bình,63,2021,419.33,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -272,6 +311,7 @@ Quảng Bình,63,2022,422.0,thousand persons,"https://www.nso.gov.vn/wp-content/
 Quảng Bình,63,2023,423.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Bình,63,2024,423.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Bình,63,2025,424.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Quảng Nam,63,2018,881.23,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Quảng Nam,63,2019,871.74,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Quảng Nam,63,2020,859.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Nam,63,2021,790.23,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -279,6 +319,7 @@ Quảng Nam,63,2022,808.7,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Quảng Nam,63,2023,808.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Nam,63,2024,815.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Nam,63,2025,834.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Quảng Ngãi,63,2018,725.03,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Quảng Ngãi,63,2019,725.05,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Quảng Ngãi,63,2020,711.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ngãi,63,2021,657.7,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -286,6 +327,7 @@ Quảng Ngãi,63,2022,664.0,thousand persons,"https://www.nso.gov.vn/wp-content/
 Quảng Ngãi,63,2023,667.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ngãi,63,2024,668.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ngãi,63,2025,669.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Quảng Ninh,63,2018,721.35,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Quảng Ninh,63,2019,716.48,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Quảng Ninh,63,2020,673.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ninh,63,2021,654.37,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -293,6 +335,7 @@ Quảng Ninh,63,2022,664.3,thousand persons,"https://www.nso.gov.vn/wp-content/u
 Quảng Ninh,63,2023,671.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ninh,63,2024,678.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Ninh,63,2025,681.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Quảng Trị,63,2018,334.79,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Quảng Trị,63,2019,340.41,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Quảng Trị,63,2020,336.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Trị,63,2021,321.35,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -300,6 +343,7 @@ Quảng Trị,63,2022,326.4,thousand persons,"https://www.nso.gov.vn/wp-content/
 Quảng Trị,63,2023,327.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Trị,63,2024,330.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Quảng Trị,63,2025,331.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Sóc Trăng,63,2018,649.14,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Sóc Trăng,63,2019,639.4,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Sóc Trăng,63,2020,629.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sóc Trăng,63,2021,596.87,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -307,6 +351,7 @@ Sóc Trăng,63,2022,607.2,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Sóc Trăng,63,2023,608.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sóc Trăng,63,2024,609.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sóc Trăng,63,2025,608.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Sơn La,63,2018,741.5,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Sơn La,63,2019,765.71,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Sơn La,63,2020,765.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sơn La,63,2021,550.07,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -314,6 +359,7 @@ Sơn La,63,2022,585.9,thousand persons,"https://www.nso.gov.vn/wp-content/upload
 Sơn La,63,2023,598.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sơn La,63,2024,603.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Sơn La,63,2025,613.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+TP. Hồ Chí Minh,63,2018,4522.91,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 TP. Hồ Chí Minh,63,2019,4692.57,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 TP. Hồ Chí Minh,63,2020,4589.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 TP. Hồ Chí Minh,63,2021,4331.54,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -321,6 +367,7 @@ TP. Hồ Chí Minh,63,2022,4507.5,thousand persons,"https://www.nso.gov.vn/wp-co
 TP. Hồ Chí Minh,63,2023,4666.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 TP. Hồ Chí Minh,63,2024,4754.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 TP. Hồ Chí Minh,63,2025,4885.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Thanh Hóa,63,2018,2237.19,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Thanh Hóa,63,2019,2267.3,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Thanh Hóa,63,2020,2190.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thanh Hóa,63,2021,1947.97,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -328,6 +375,7 @@ Thanh Hóa,63,2022,1955.3,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Thanh Hóa,63,2023,1957.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thanh Hóa,63,2024,1958.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thanh Hóa,63,2025,1958.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Thái Bình,63,2018,1109.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Thái Bình,63,2019,1121.12,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Thái Bình,63,2020,1073.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Bình,63,2021,942.59,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -335,6 +383,7 @@ Thái Bình,63,2022,973.0,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Thái Bình,63,2023,978.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Bình,63,2024,986.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Bình,63,2025,997.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Thái Nguyên,63,2018,741.09,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Thái Nguyên,63,2019,766.39,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Thái Nguyên,63,2020,758.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Nguyên,63,2021,590.14,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -342,6 +391,7 @@ Thái Nguyên,63,2022,602.6,thousand persons,"https://www.nso.gov.vn/wp-content/
 Thái Nguyên,63,2023,606.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Nguyên,63,2024,611.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thái Nguyên,63,2025,614.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Thừa Thiên Huế,63,2018,590.32,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Thừa Thiên Huế,63,2019,597.47,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Thừa Thiên Huế,63,2020,561.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thừa Thiên Huế,63,2021,560.35,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -349,6 +399,7 @@ Thừa Thiên Huế,63,2022,578.6,thousand persons,"https://www.nso.gov.vn/wp-co
 Thừa Thiên Huế,63,2023,588.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thừa Thiên Huế,63,2024,598.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Thừa Thiên Huế,63,2025,605.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Tiền Giang,63,2018,1099.88,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Tiền Giang,63,2019,1105.11,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Tiền Giang,63,2020,1081.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tiền Giang,63,2021,983.22,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -356,6 +407,7 @@ Tiền Giang,63,2022,1044.0,thousand persons,"https://www.nso.gov.vn/wp-content/
 Tiền Giang,63,2023,1059.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tiền Giang,63,2024,1067.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tiền Giang,63,2025,1068.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Trà Vinh,63,2018,570.9,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Trà Vinh,63,2019,563.74,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Trà Vinh,63,2020,550.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Trà Vinh,63,2021,517.03,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -363,6 +415,7 @@ Trà Vinh,63,2022,534.5,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Trà Vinh,63,2023,532.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Trà Vinh,63,2024,530.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Trà Vinh,63,2025,531.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Tuyên Quang,63,2018,470.81,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Tuyên Quang,63,2019,483.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Tuyên Quang,63,2020,474.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tuyên Quang,63,2021,366.61,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -370,6 +423,7 @@ Tuyên Quang,63,2022,368.1,thousand persons,"https://www.nso.gov.vn/wp-content/u
 Tuyên Quang,63,2023,369.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tuyên Quang,63,2024,372.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tuyên Quang,63,2025,372.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Tây Ninh,63,2018,663.3,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Tây Ninh,63,2019,696.4,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Tây Ninh,63,2020,681.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tây Ninh,63,2021,639.39,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -377,6 +431,7 @@ Tây Ninh,63,2022,659.5,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Tây Ninh,63,2023,669.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tây Ninh,63,2024,678.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Tây Ninh,63,2025,688.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Vĩnh Long,63,2018,585.66,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Vĩnh Long,63,2019,607.56,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Vĩnh Long,63,2020,589.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Long,63,2021,567.84,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -384,6 +439,7 @@ Vĩnh Long,63,2022,568.5,thousand persons,"https://www.nso.gov.vn/wp-content/upl
 Vĩnh Long,63,2023,576.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Long,63,2024,585.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Long,63,2025,595.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Vĩnh Phúc,63,2018,643.43,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Vĩnh Phúc,63,2019,636.93,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Vĩnh Phúc,63,2020,622.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Phúc,63,2021,570.05,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -391,6 +447,7 @@ Vĩnh Phúc,63,2022,584.3,thousand persons,"https://www.nso.gov.vn/wp-content/up
 Vĩnh Phúc,63,2023,597.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Phúc,63,2024,604.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Vĩnh Phúc,63,2025,611.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Yên Bái,63,2018,518.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Yên Bái,63,2019,507.71,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Yên Bái,63,2020,517.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Yên Bái,63,2021,360.77,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -398,6 +455,7 @@ Yên Bái,63,2022,361.8,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Yên Bái,63,2023,362.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Yên Bái,63,2024,365.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Điện Biên,63,2018,354.4,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Điện Biên,63,2019,349.82,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Điện Biên,63,2020,351.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Điện Biên,63,2021,299.62,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -405,6 +463,7 @@ Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Điện Biên,63,2023,338.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Điện Biên,63,2024,347.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Điện Biên,63,2025,348.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Đà Nẵng,63,2018,581.67,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Đà Nẵng,63,2019,586.25,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Đà Nẵng,63,2020,534.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đà Nẵng,63,2021,534.86,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -412,6 +471,7 @@ Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Đà Nẵng,63,2023,633.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đà Nẵng,63,2024,643.4,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đà Nẵng,63,2025,668.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Đắk Lắk,63,2018,1111.1,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Đắk Lắk,63,2019,1095.01,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Đắk Lắk,63,2020,1079.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Lắk,63,2021,1110.97,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -419,6 +479,7 @@ Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Đắk Lắk,63,2023,1133.2,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Lắk,63,2024,1137.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Lắk,63,2025,1139.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Đắk Nông,63,2018,370.88,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Đắk Nông,63,2019,370.02,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Đắk Nông,63,2020,367.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Nông,63,2021,386.76,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -426,6 +487,7 @@ Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Đắk Nông,63,2023,392.5,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Nông,63,2024,396.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đắk Nông,63,2025,400.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Đồng Nai,63,2018,1624.69,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Đồng Nai,63,2019,1737.59,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Đồng Nai,63,2020,1735.9,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đồng Nai,63,2021,1719.64,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final
@@ -433,6 +495,7 @@ Yên Bái,63,2025,366.1,thousand persons,"https://www.nso.gov.vn/wp-content/uplo
 Đồng Nai,63,2023,1785.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đồng Nai,63,2024,1807.8,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đồng Nai,63,2025,1873.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+Đồng Tháp,63,2018,1023.76,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2018)",final
 Đồng Tháp,63,2019,918.08,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
 Đồng Tháp,63,2020,894.1,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
 Đồng Tháp,63,2021,869.09,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2021)",final

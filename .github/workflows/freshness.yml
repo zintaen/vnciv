@@ -1,0 +1,49 @@
+name: Data freshness
+
+# Once a week: does any source have a newer release than the one in web/data? (tools/freshness_check.py; small
+# requests only.) If so, open or update a single issue "Data freshness: N sources have newer releases" with the
+# table. Data is never changed or committed here.
+on:
+  schedule:
+    - cron: "17 2 * * 1" # Mondays 02:17 UTC (09:17 in Vietnam)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: freshness
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Check the sources
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          n=$(python3 tools/freshness_check.py --out body.md)
+          echo "newer=$n" >> "$GITHUB_OUTPUT"
+          cat body.md >> "$GITHUB_STEP_SUMMARY"
+        id: check
+      - name: Open or update the issue
+        if: steps.check.outputs.newer != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          N: ${{ steps.check.outputs.newer }}
+        run: |
+          if [ "$N" = 1 ]; then title="Data freshness: 1 source has newer releases"; else title="Data freshness: $N sources have newer releases"; fi
+          num=$(gh issue list --state open --search 'in:title "Data freshness:"' --json number,title \
+            --jq '[.[] | select(.title | startswith("Data freshness:"))][0].number // empty')
+          if [ -n "$num" ]; then
+            gh issue edit "$num" --title "$title" --body-file body.md
+          else
+            gh issue create --title "$title" --body-file body.md
+          fi

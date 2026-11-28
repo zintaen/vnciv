@@ -81,6 +81,18 @@ input[type=range]::-moz-range-thumb { box-sizing: border-box; width: 14px; heigh
 .btn:hover { background: linear-gradient(180deg, #4a6584, #2b4057); }
 .btn[aria-expanded="true"] { background: linear-gradient(180deg, #5a4a24, #3a2f15); }
 .btn-icon { padding: 4px 7px; }
+/* "More ▾" (app/api.js wireTopMenu): a menu button; the list is moved to <body> and fixed-positioned, so neither
+   the phone bar's scroll box nor a panel above the bar's stacking level hides it. */
+.tb-menu { display: flex; flex: none; }
+.tbm-caret { font-size: 10px; opacity: .8; }
+body:has(#tb-menu-list [aria-checked="true"]) #btn-more { border-color: var(--gold-bright); box-shadow: inset 0 -2px 0 var(--gold-bright), 0 1px 2px rgba(0,0,0,.5); }
+.tb-menu-list { position: fixed; z-index: 41; display: flex; flex-direction: column; gap: 4px; min-width: 170px; padding: 6px; }
+.tb-menu-list[hidden] { display: none; }
+.tb-menu-list .btn { flex-direction: row; justify-content: flex-start; gap: 8px; height: auto; padding: 6px 10px; font-size: 13px; line-height: 18px; width: 100%; }
+.tb-menu-list .btn .lbl { display: inline; }
+.tb-menu-list .btn svg { width: 15px; height: 15px; }
+.tb-menu-list .btn:focus-visible { outline: 2px solid var(--gold-bright); outline-offset: 1px; }
+.tb-menu-list [aria-checked="true"] { background: linear-gradient(180deg, #5a4a24, #3a2f15); border-color: var(--gold-bright); }
 
 /* search */
 .search { position: relative; display: flex; align-items: center; flex: 0 1 230px; min-width: 150px; }
@@ -120,7 +132,7 @@ kbd {
 .sp-status:empty { display: none; }
 .sp-url { width: 100%; margin-top: 6px; font: 12px var(--sans); padding: 5px; color: var(--ink); background: rgba(0,0,0,.4); border: 1px solid var(--line); border-radius: 3px; }
 .toast {
-  position: fixed; top: 54px; left: 50%; transform: translateX(-50%); z-index: 45; padding: 7px 14px; border-radius: 16px;
+  position: fixed; top: calc(var(--topbar-h) + 14px); left: 50%; transform: translateX(-50%); z-index: 45; padding: 7px 14px; border-radius: 16px;
   background: rgba(16,25,35,.96); border: 1px solid var(--gold); color: var(--gold-bright); font: 13px var(--serif); letter-spacing: .04em;
   box-shadow: 0 6px 18px rgba(0,0,0,.5);
 }
@@ -214,6 +226,7 @@ kbd {
   .tb-more .btn svg, .tb-buttons .btn svg { width: 14px; height: 14px; }
   .tb-more .btn .emoji, .tb-more .btn .cup { font-size: 13px; line-height: 14px; }
   #btn-lang { font-size: 13px; }
+  .tb-more #btn-more { flex-direction: row; gap: 4px; font-size: 12px; }
   .tb-buttons, .tb-more { gap: 4px; }
 }
 /* A docked dashboard plus the minimap leave the lens dock no room on smaller desktops: drop the minimap. */
@@ -234,7 +247,7 @@ kbd {
 
 /* ---------- city / state panel ---------- */
 #city-panel {
-  position: fixed; top: 52px; right: calc(12px + var(--dock-right, 0px)); bottom: 12px; width: 370px; z-index: 12;
+  position: fixed; top: calc(var(--topbar-h) + 12px); right: calc(12px + var(--dock-right, 0px)); bottom: 12px; width: 370px; z-index: 12;
   overflow-y: auto; padding: 0 0 12px; overscroll-behavior: contain;
 }
 .sheet-grip { display: none; }
@@ -557,9 +570,23 @@ svg.gh { vertical-align: -1px; margin-right: 3px; }
 /* The yields row gives way first when the bar is short of room (topbar.js marks it .clipped). Phones scroll the
    whole bar instead. */
 @media (min-width: 701px) {
-  .yields { flex: 0 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  /* padding-inline holds the first and last yield's -5px hover margins, which otherwise overflow the row by 5px and
+     marked a bar with room to spare as .clipped (the last yield faded out even at 1830 px) */
+  .yields { flex: 0 1 auto; min-width: 0; overflow-x: auto; scrollbar-width: none; padding-inline: 5px; }
   .yields::-webkit-scrollbar { display: none; }
   .yields.clipped { -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 22px), transparent); mask-image: linear-gradient(90deg, #000 calc(100% - 22px), transparent); }
+}
+
+/* Desktop: the search box gives way before the yields (it shrinks to its min-width first). */
+@media (min-width: 701px) { .search { flex-shrink: 12; min-width: 140px; } .yields { flex-shrink: .01; } }
+/* Narrow desktops and tablets (701–1200 px): one 40 px row cannot hold every yield and button, so the bar takes two
+   rows: brand, search and buttons on top, the yields across the second row. --topbar-h follows, so docks, panels and
+   the map's visible area (main.js topbarH()) move down with it. */
+@media (min-width: 701px) and (max-width: 1200px) {
+  :root { --topbar-h: 74px; }
+  #topbar { flex-wrap: wrap; align-content: center; row-gap: 3px; padding-top: 2px; padding-bottom: 2px; }
+  .search { flex: 0 1 300px; min-width: 112px; }
+  .yields { order: 10; flex: 0 1 100%; min-width: 0; height: 26px; }
 }
 
 /* ---------- phones ---------- */
@@ -569,6 +596,8 @@ svg.gh { vertical-align: -1px; margin-right: 3px; }
   .brand-text { display: none; }
   .spacer { display: none; }
   .search { flex: 0 0 160px; min-width: 160px; order: -1; margin-left: 4px; }
+  /* 320–360 px: the whole box fits beside the pinned Language / Help / Almanac group at rest */
+  @media (max-width: 360px) { .search { flex-basis: 134px; min-width: 134px; } }
   .brand { order: -2; }
   .search-kbd { display: none; }
   .btn .lbl { display: none; }
@@ -599,6 +628,8 @@ svg.gh { vertical-align: -1px; margin-right: 3px; }
   /* A bottom sheet (panel, advisor) covers the bottom row: the year bar moves to the top of the map instead
      (absolute in #lens-area, whose top is just under the top bar; the sheet takes the bottom 55%). */
   body:is(.panel-open, .dock-open) #turn { position: absolute; top: 0; left: 0; right: 0; }
+  /* ...and the small © OpenStreetMap credit moves below it instead of hiding under it */
+  body:is(.panel-open, .dock-open) .attrib-mini { top: calc(var(--topbar-h) + 56px); }
   .ml-row { min-height: 42px; }
   .legend { width: auto; margin: 0 8px; }
   .legend .desc { display: none; }
@@ -607,7 +638,8 @@ svg.gh { vertical-align: -1px; margin-right: 3px; }
   .bp-filter { order: 3; flex: 1 1 100%; max-width: none; margin: 0; height: 34px; }
   .lp-close { width: 32px; height: 32px; margin-left: auto; }
 
-  #minimap-wrap { display: none; bottom: 64px; left: 8px; }
+  /* above the whole bottom row (Map button and, when it wraps, the year bar): its attribution line never sits on them */
+  #minimap-wrap { display: none; bottom: calc(var(--bottom-ui, 56px) + 8px); left: 8px; }
   body.minimap-on #minimap-wrap { display: block; z-index: 14; } /* asked for: above a legend */
   /* at the right end of the lens dock (index.html), where no legend, sea-level panel or replay bar can cover it */
   .minimap-toggle {

@@ -298,7 +298,7 @@ export default {
   "{n} qualifying installations in the former province.": "{n} cơ sở đạt tiêu chí trong tỉnh cũ.",
   "Vietnam publishes no troop numbers by place.": "Việt Nam không công bố quân số theo địa phương.",
   "{n} of the {k} domestic routes flown by the most airlines:": "{n} trong số {k} đường bay nội địa có nhiều hãng khai thác nhất:",
-  "Number = airlines flying the route in the OpenFlights database (June 2014, its last update): no passenger counts, and newer routes are missing.": "Con số = số hãng bay khai thác đường bay trong cơ sở dữ liệu OpenFlights (tháng 6/2014, lần cập nhật cuối): không có số hành khách, và thiếu các đường bay mới hơn.",
+  "Number = airlines flying the route, as listed in the Wikipedia articles of both airports: no flight or passenger counts.": "Con số = số hãng bay khai thác đường bay, theo bài Wikipedia của cả hai sân bay: không có số chuyến bay hay hành khách.",
   "A site district: it counts as LQ 2 in the ranking": "Khu theo địa điểm: được tính là LQ 2 khi xếp hạng",
   "Loading districts…": "Đang tải các khu…",
   "District data is not available.": "Không có dữ liệu khu.",

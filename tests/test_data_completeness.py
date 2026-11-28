@@ -1,4 +1,4 @@
-"""Completeness of the NSO province statistics: every indicator x level (63 former / 34 provinces) x year 2019-2026.
+"""Completeness of the NSO province statistics: every indicator x level (63 former / 34 provinces) x year 2010-2026.
 
 `matrix()` counts the provinces each data/stats/series/<indicator>.csv has per level and year. Every cell short of a
 full set (63 or 34) must be explained by KNOWN_GAPS (what NSO does not publish, and why); a KNOWN_GAPS entry that no
@@ -13,7 +13,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATS, DATA = ROOT / "data" / "stats", ROOT / "web" / "data"
-YEARS = range(2019, 2027)
+YEARS = range(2010, 2027)
+PRE = list(range(2010, 2018))   # 2010-2017
 FULL = {"63": 63, "34": 34}
 ALL = "*"
 ENTERPRISE_63 = ("active_enterprises", "new_enterprises", "cooperatives", "enterprise_employees", "enterprise_monthly_wage",
@@ -27,48 +28,88 @@ TIC = ("internet_users", "internet_households", "mobile_phone_users", "social_ne
 KNOWN_GAPS = [
     (ALL, ALL, [2026], 0, "Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 "
      "figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."),
-    (ALL, "34", [2019], 0, "NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020)."),
+    (ALL, "34", list(range(2010, 2020)), 0, "NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020)."),
     (ENTERPRISE_63, "63", [2025], 0, "The 2025 yearbook's 63-province enterprise, cooperative, household-business and "
      "housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."),
     (("cooperatives", "enterprise_employees", "enterprise_monthly_wage", "enterprise_net_turnover", "enterprise_profit",
       "enterprises_with_results", "household_businesses", "household_business_workers", "housing_floor_area_built"),
      "34", [2025], 0, "The appendix tables for these stop at 2024."),
-    (("enterprises_per_1000",), "63", [2019, 2020], 0, "PX-Web V05.05 is inconsistent for 2017-2020 (Bắc Ninh and "
-     "Quảng Ninh differ from V05.04 enterprises / V02.03 population), so those years are not used."),
+    (("enterprises_per_1000",), "63", list(range(2010, 2021)), 0, "PX-Web V05.05 starts at 2017 and is inconsistent "
+     "for 2017-2020 (Bắc Ninh and Quảng Ninh differ from V05.04 enterprises / V02.03 population), so those years are not "
+     "used; no yearbook prints it by province before 2021."),
     (("hdi", "fdi_projects", "fdi_registered_capital", "literacy_rate_15plus"), "63", [2025], 0,
      "Since 2025 NSO publishes HDI and FDI only for the 34 provinces; literacy has no 2025 by-province table."),
     (("divorces",), ALL, [2019, 2020, 2021, 2022, 2023], 0, "PX-Web V02.31 counts about 26-32 thousand divorces a year "
      "nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years "
      "are not combined; the yearbooks have no other by-province divorce table."),
     (("divorces",), "63", [2025], 0, "2025 divorces are published for the 34 provinces only."),
-    (("electricity_households",), ALL, [2019, 2021, 2023, 2025], 0, "From the Household Living Standards Survey "
-     "module asked every two years (2016-2024, even years)."),
+    (("divorces",), "63", list(range(2010, 2019)), 0, "PX-Web V02.31 starts at 2013 and its 2013-2023 counts are of the "
+     "narrower scope (see 2019-2023); no yearbook prints divorces by province."),
+    (("electricity_households",), ALL, [2011, 2013, 2015, 2017, 2019, 2021, 2023, 2025], 0, "From the Household "
+     "Living Standards Survey module asked every two years (2010-2024, even years)."),
     (("fdi_projects", "fdi_registered_capital"), "34", [2020, 2021, 2022, 2023, 2024], 0,
      "The appendix FDI table is for 2025 only."),
-    (("fdi_projects", "fdi_registered_capital"), ALL, list(range(2019, 2026)), 1, "Provinces with no project licensed "
+    (("fdi_projects", "fdi_registered_capital"), "63", [2016], 0, "The 2016 yearbook's FDI pages cannot be read "
+     "(pypdf gives no text for their font) and the 2017 edition prints 2017 only."),
+    (("fdi_projects", "fdi_registered_capital"), ALL, list(range(2010, 2026)), 1, "Provinces with no project licensed "
      "that year have no row (none licensed); a blank project count with capital means supplementary capital only."),
     (("income_per_capita_monthly",), "34", [2020, 2021, 2022, 2023, 2024], 0,
      "The appendix income table is for 2025 only."),
-    (("income_quintile_ratio",), ALL, [2019, 2020, 2021, 2022, 2023, 2024], 0, "The top/bottom quintile ratio by "
+    (("income_quintile_ratio",), ALL, list(range(2010, 2025)), 0, "The top/bottom quintile ratio by "
      "province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."),
     (("industrial_production_index",), "34", [2020, 2021, 2022, 2023, 2024], 0,
      "The appendix index of industrial production is for 2025 only."),
-    (TIC, ALL, [2019, 2020, 2021, 2022, 2023], 0, "NSO's ICT-use indicators by province start in 2024."),
-    (("literacy_rate_15plus",), "34", list(range(2019, 2026)), 0, "No literacy table for the 34 provinces."),
-    (ONLY_34, "63", list(range(2019, 2026)), 0, "Published only for the 34 provinces (2025 yearbook appendix)."),
+    (TIC, ALL, list(range(2010, 2024)), 0, "NSO's ICT-use indicators by province start in 2024."),
+    (("literacy_rate_15plus",), "34", list(range(2010, 2026)), 0, "No literacy table for the 34 provinces."),
+    (ONLY_34, "63", list(range(2010, 2026)), 0, "Published only for the 34 provinces (2025 yearbook appendix)."),
     (("orange_production", "tea_production"), "34", list(range(2020, 2026)), 9,
      "The appendix lists the main producing provinces only."),
     (("shrimp_aquaculture",), "34", list(range(2020, 2026)), 28, "Provinces without shrimp farming have no row."),
     (("shopping_centres",), "34", list(range(2020, 2026)), 32, "Provinces without a shopping centre have no row."),
-    (("farms",), "63", [2019], 0, "The farm criteria changed in 2020 (Circular 27/2011/TT-BNNPTNT up to 2019, "
+    (("farms",), "63", list(range(2010, 2020)), 0, "The farm criteria changed in 2020 (Circular 27/2011/TT-BNNPTNT up to 2019, "
      "Circular 02/2020/TT-BNNPTNT from 2020; Statistical Yearbook 2023, p.582 footnote), so 2019 is not combined."),
     (("farms",), "63", list(range(2020, 2026)), 61, "Two former provinces have no farm row (no farms)."),
     (("farms",), "34", list(range(2020, 2026)), 33, "One province has no farm row (no farms)."),
-    (("sugarcane_production",), "63", list(range(2019, 2025)), 61, "Two former provinces grow no sugarcane (no row)."),
+    (("sugarcane_production",), "63", list(range(2018, 2025)), 61, "Two former provinces grow no sugarcane (no row)."),
     (("sugarcane_production",), "63", [2025], 59, "Also Bến Tre and Hưng Yên: their 2025 rows have blank cells "
      "that the text extraction cannot place (0.0-0.3 thousand t in 2022-2024)."),
     (("tourism_travel_turnover",), "63", list(range(2019, 2026)), 60, "Blank cells in the yearbook: Điện Biên 2019, "
      "Hòa Bình 2022-2025, Bắc Kạn 2025."),
+    # 2010-2018 (pipeline/nso/backfill.py with the 2010-2018 editions, pipeline/sources_series2010.py)
+    (("gini", "grdp_growth", "grdp_per_capita", "hdi", "hygienic_latrine_share", "hygienic_water_share",
+      "income_per_employee_monthly", "pork_production", "labour_productivity", "life_expectancy", "unemployment_rate",
+      "underemployment_rate", "informal_employment_rate", "employed_workers"), "63", PRE, 0,
+     "First published by province for 2018: the yearbook tables start at 2018 (2022 edition) and so do PX-Web's "
+     "(V02.25, V02.45, V02.51, V02.58, V02.63, V02.70); the 2010-2021 editions have no by-province table of it."),
+    (("aquaculture_production", "buffalo", "capture_fishery", "cattle", "fishery_production", "pigs", "poultry",
+      "wood_production"), "63", PRE[:5] + [2016, 2017], 0,
+     "NSO revised the series in the 2021 yearbook: the 2015-2020 editions disagree with it on the years both print "
+     "(e.g. cattle 2015: 20 of 63 provinces agree), so their 2010-2017 figures are not combined with it; the revised "
+     "series prints 2015 and 2018 on."),
+    (("income_per_capita_monthly",), "63", [2011, 2013, 2015, 2017], 0, "From the Household Living Standards Survey, "
+     "by province every two years until 2018 (the 2011-2018 editions print 2010, 2012, 2014, 2016 and 2018)."),
+    (("computer_households",), "63", PRE + [2018], 0, "First printed by province for 2019 (2023 yearbook)."),
+    (("active_enterprises", "new_enterprises"), "63", PRE[:7], 0, "PX-Web starts at 2017 (V05.04, active) and 2016 "
+     "(V05.02, new), and so do the first by-province yearbook tables (2019 and 2018 editions)."),
+    (("housing_floor_area_built",), "63", [2011, 2012], 0, "No edition prints 2011 or 2012 by province: the 2017 "
+     "edition, the first with this table, prints 2010 and 2013-2016."),
+    (("industrial_production_index",), "63", [2010, 2011], 0, "PX-Web V07.02 starts at 2012; the 2010-2021 yearbooks "
+     "print no by-province index."),
+    (("mean_age_first_marriage",), "63", [2011, 2012], 0, "PX-Web V02.30 has 2010 and 2013 on, and the yearbooks "
+     "(from the 2016 edition) print 2010 and 2013 on."),
+    (("sex_ratio",), "63", PRE[:5], 0, "The yearbooks print the sex ratio by province from the 2019 edition (2015 on); "
+     "PX-Web V02.09 disagrees with the 2025 yearbook (SOURCES.md) and is not used."),
+    (("sugarcane_production",), "63", PRE, 0, "The 2016-2021 editions print no by-province sugarcane table, so the "
+     "2010-2015 editions' tables share no year with the series and cannot be checked against it."),
+    (("poverty_rate_multidimensional",), "63", list(range(2010, 2016)), 0, "Multidimensional poverty starts in 2016; "
+     "the yearbooks' 2010-2015 rates are income-based (Government poverty line 2011-2015; 2018 yearbook p.853 footnote) "
+     "and are kept apart as poverty_rate_income."),
+    (("poverty_rate_income",), ALL, list(range(2016, 2026)), 0, "Income poverty under the 2011-2015 line is printed "
+     "by province up to 2015; from 2016 NSO publishes multidimensional poverty (poverty_rate_multidimensional)."),
+    (("tourism_travel_turnover",), "63", [2011], 0, "No edition prints 2011: the 2016 edition, the first by-province "
+     "travel table, prints 2010 and 2012-2015."),
+    (("tourism_travel_turnover",), "63", PRE + [2018], 55, "Blank cells in the yearbook (e.g. Bắc Kạn, Điện Biên, Lai "
+     "Châu, Hòa Bình for some years)."),
 ]
 # Newest period of each 2026 estimate (NSO monthly reports): the October 2026 report (published November 2026) is
 # the latest as of 28 November 2026; provincial GRDP is quarterly (Q3 / 9 months in the September report).
@@ -76,7 +117,8 @@ LATEST_2026 = {"grdp_growth_9M2026.csv": "9M2026 (est.)", "industrial_employment
 # series years whose table prints no national row ("CẢ NƯỚC")
 NO_NATIONAL = {("grdp_growth", 2019), ("grdp_per_capita", 2019), ("housing_floor_area_built", 2019),
                ("in_migration_rate", 2019), ("out_migration_rate", 2019), ("tourism_travel_turnover", 2019),
-               ("income_quintile_ratio", 2025)} | {("net_migration_rate", y) for y in range(2019, 2026)}
+               ("income_quintile_ratio", 2025), ("grdp_growth", 2018), ("grdp_per_capita", 2018),
+               ("in_migration_rate", 2018), ("out_migration_rate", 2018)} | {("net_migration_rate", y) for y in range(2010, 2026)}
 
 
 def read(path):

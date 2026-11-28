@@ -69,6 +69,9 @@ class TestEthnic(unittest.TestCase):
             self.assertTrue(all(v is None or (v >= 0 and owner[i] >= 0) for i, v in enumerate(l["values"])), lid)
 
 
+WEB_PAGES = set(json.loads((ROOT / "data" / "stats" / "history" / "web.json").read_text(encoding="utf-8")).values())
+
+
 class TestHistory(unittest.TestCase):
     def test_events(self):
         p = WEB / "history.json"
@@ -81,7 +84,9 @@ class TestHistory(unittest.TestCase):
         for ev in h["events"]:
             for k in ("id", "date", "year", "title", "text", "category", "cite"):
                 self.assertTrue(ev.get(k) is not None, (ev.get("id"), k))
-            self.assertTrue(ev["cite"].startswith("https://") and "wikipedia.org/wiki/" in ev["cite"], ev["id"])
+            # a Wikipedia revision, or an official page listed in data/stats/history/web.json
+            self.assertTrue(ev["cite"].startswith("https://") and ("wikipedia.org/wiki/" in ev["cite"] and ev["revid"]
+                            or ev["cite"] in WEB_PAGES), ev["id"])
             self.assertEqual(ev["year"], -int(ev["date"][1:5]) if ev["date"][0] == "-" else int(ev["date"][:4]), ev["id"])
             if ev.get("x") is not None:
                 self.assertTrue(0 <= ev["x"] <= w["width"] and 0 <= ev["y"] <= w["height"], ev["id"])

@@ -1,0 +1,445 @@
+[
+ {
+  "id": "wh_hue_1993",
+  "date": "1993",
+  "category": "culture",
+  "title_en": "Huế monuments: Vietnam's first World Heritage site",
+  "title_vi": "Quần thể di tích Cố đô Huế: Di sản Thế giới đầu tiên của Việt Nam",
+  "text_en": "In 1993 the Complex of Huế Monuments became the first site in Vietnam inscribed on the World Heritage List.",
+  "text_vi": "Năm 1993, Quần thể di tích Cố đô Huế trở thành di sản đầu tiên của Việt Nam được ghi vào Danh sách Di sản Thế giới.",
+  "raw_file": "whlist.json",
+  "evidence": "The Complex of Huế Monuments was the first site in Vietnam to be inscribed on the list at the 17th session of the World Heritage Committee held in Colombia in 1993.",
+  "at": "wonder:wh-678",
+  "place": null,
+  "wonder": "wh-678",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_halong_1994",
+  "date": "1994",
+  "category": "culture",
+  "title_en": "Hạ Long Bay a World Heritage site",
+  "title_vi": "Vịnh Hạ Long thành Di sản Thế giới",
+  "text_en": "Hạ Long Bay was first listed as a UNESCO World Heritage Site in 1994, for its outstanding aesthetic value; its geology was recognised in 2000.",
+  "text_vi": "Năm 1994, vịnh Hạ Long lần đầu được UNESCO ghi danh là Di sản Thế giới vì giá trị thẩm mỹ nổi bật; năm 2000 được công nhận thêm về giá trị địa chất.",
+  "raw_file": "wh_halong.json",
+  "evidence": "Hạ Long Bay was first listed as a UNESCO World Heritage Site in 1994, in recognition of its outstanding, universal aesthetic value.",
+  "at": "wonder:wh-672",
+  "place": null,
+  "wonder": "wh-672",
+  "story": [
+   "unesco"
+  ],
+  "also": [
+   {
+    "raw_file": "wh_halong.json",
+    "evidence": "In 2000, the World Heritage Committee additionally recognised Hạ Long Bay for its outstanding geological and geomorphological value, and its World Heritage Listing was updated."
+   }
+  ]
+ },
+ {
+  "id": "wh_hoian_1999",
+  "date": "1999",
+  "category": "culture",
+  "title_en": "Hội An Ancient Town a World Heritage site",
+  "title_vi": "Phố cổ Hội An thành Di sản Thế giới",
+  "text_en": "Hội An Ancient Town was inscribed on the World Heritage List in 1999, one of two sites in Quảng Nam listed that year.",
+  "text_vi": "Năm 1999, Phố cổ Hội An được ghi vào Danh sách Di sản Thế giới, một trong hai di sản của Quảng Nam được ghi danh năm đó.",
+  "raw_file": "whlist.json",
+  "evidence": "Two cultural sites from Quảng Nam were listed in 1999: Hội An Ancient Town and Mỹ Sơn Sanctuary.",
+  "at": "wonder:wh-948",
+  "place": null,
+  "wonder": "wh-948",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_myson_1999",
+  "date": "1999",
+  "category": "culture",
+  "title_en": "Mỹ Sơn Sanctuary a World Heritage site",
+  "title_vi": "Thánh địa Mỹ Sơn thành Di sản Thế giới",
+  "text_en": "The Mỹ Sơn Sanctuary was inscribed on the World Heritage List in 1999, with Hội An.",
+  "text_vi": "Năm 1999, Thánh địa Mỹ Sơn được ghi vào Danh sách Di sản Thế giới, cùng với Hội An.",
+  "raw_file": "whlist.json",
+  "evidence": "Two cultural sites from Quảng Nam were listed in 1999: Hội An Ancient Town and Mỹ Sơn Sanctuary.",
+  "at": "wonder:wh-949",
+  "place": null,
+  "wonder": "wh-949",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_phongnha_2003",
+  "date": "2003",
+  "category": "culture",
+  "title_en": "Phong Nha–Kẻ Bàng a World Heritage site",
+  "title_vi": "Phong Nha – Kẻ Bàng thành Di sản Thế giới",
+  "text_en": "Phong Nha–Kẻ Bàng National Park was listed as a World Heritage Site in 2003 for its geological values.",
+  "text_vi": "Năm 2003, Vườn quốc gia Phong Nha – Kẻ Bàng được ghi danh Di sản Thế giới vì giá trị địa chất.",
+  "raw_file": "wh_phongnha.json",
+  "evidence": "This national park was listed in UNESCO's World Heritage Sites in 2003 for its geological values as defined in its criteria viii.",
+  "at": "wonder:wh-951",
+  "place": null,
+  "wonder": "wh-951",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_thanglong_2010",
+  "date": "2010-07-31",
+  "category": "culture",
+  "title_en": "Imperial Citadel of Thăng Long a World Heritage site",
+  "title_vi": "Hoàng thành Thăng Long thành Di sản Thế giới",
+  "text_en": "On 31 July 2010 the Central Sector of the Imperial Citadel of Thăng Long – Hà Nội was inscribed on the World Heritage List.",
+  "text_vi": "Ngày 31/7/2010, Khu trung tâm Hoàng thành Thăng Long – Hà Nội được ghi vào Danh sách Di sản Thế giới.",
+  "raw_file": "wh_thanglong.json",
+  "evidence": "The Central Sector of the Imperial Citadel was listed in UNESCO's World Heritage Site on July 31, 2010, at its session in Brazil, as \"The Central Sector of the Imperial Citadel of Thăng Long – Hanoi\".",
+  "at": "wonder:wh-1328",
+  "place": null,
+  "wonder": "wh-1328",
+  "story": [
+   "unesco",
+   "thanglong"
+  ]
+ },
+ {
+  "id": "wh_ho_2011",
+  "date": "2011-06-27",
+  "category": "culture",
+  "title_en": "Citadel of the Hồ Dynasty a World Heritage site",
+  "title_vi": "Thành nhà Hồ thành Di sản Thế giới",
+  "text_en": "The Citadel of the Hồ Dynasty was inscribed on the World Heritage List on 27 June 2011.",
+  "text_vi": "Ngày 27/6/2011, Thành nhà Hồ được ghi vào Danh sách Di sản Thế giới.",
+  "raw_file": "ho_citadel.json",
+  "evidence": "The citadel was inscribed on UNESCO World Heritage Sites on June 27, 2011.",
+  "at": "wonder:wh-1358",
+  "place": null,
+  "wonder": "wh-1358",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_trangan_2014",
+  "date": "2014-06-23",
+  "category": "culture",
+  "title_en": "Tràng An a World Heritage site",
+  "title_vi": "Tràng An thành Di sản Thế giới",
+  "text_en": "On 23 June 2014, at the World Heritage Committee's 38th session in Doha, the Tràng An Landscape Complex was inscribed as a World Heritage Site.",
+  "text_vi": "Ngày 23/6/2014, tại kỳ họp thứ 38 của Ủy ban Di sản Thế giới ở Doha, Quần thể danh thắng Tràng An được ghi danh Di sản Thế giới.",
+  "raw_file": "wh_trangan.json",
+  "evidence": "On 23 June 2014, at the 38th session of the World Heritage Committee in Doha, the Trang An Scenic Landscape Complex was inscribed as a UNESCO World Heritage Site.",
+  "at": "wonder:wh-1438",
+  "place": null,
+  "wonder": "wh-1438",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "wh_yentu_2025",
+  "date": "2025-07-12",
+  "category": "culture",
+  "title_en": "Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc a World Heritage site",
+  "title_vi": "Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc thành Di sản Thế giới",
+  "text_en": "On 12 July 2025, at the World Heritage Committee's 47th session, UNESCO recognised the Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc complex as World Cultural Heritage.",
+  "text_vi": "Ngày 12/7/2025, tại kỳ họp thứ 47 của Ủy ban Di sản Thế giới, UNESCO công nhận Quần thể di tích và danh thắng Yên Tử – Vĩnh Nghiêm – Côn Sơn, Kiếp Bạc là Di sản văn hóa thế giới.",
+  "raw_file": "wh_yentu_vi.json",
+  "evidence": "Ngày 12 tháng 7 năm 2025, tại Kỳ họp lần thứ 47 của Ủy ban Di sản Thế giới, UNESCO công nhận Quần thể di tích và danh thắng Yên Tử - Vĩnh Nghiêm, Côn Sơn, Kiếp Bạc là Di sản văn hóa thế giới.",
+  "at": "wonder:wh-1732",
+  "place": null,
+  "wonder": "wh-1732",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "ich_nhanhac_2003",
+  "date": "2003",
+  "category": "culture",
+  "title_en": "Huế royal court music recognised by UNESCO",
+  "title_vi": "Nhã nhạc cung đình Huế được UNESCO công nhận",
+  "text_en": "In 2003 UNESCO recognised Nhã nhạc, the royal court music of Huế, as a Masterpiece of the Oral and Intangible Heritage of Humanity.",
+  "text_vi": "Năm 2003, Nhã nhạc cung đình Huế được UNESCO công nhận là Kiệt tác truyền khẩu và phi vật thể của nhân loại.",
+  "raw_file": "ich_nhanhac.json",
+  "evidence": "Nhã nhạc cung đình Huế đã được UNESCO công nhận là Kiệt tác truyền khẩu và phi vật thể nhân loại vào năm 2003.",
+  "at": "hue.json",
+  "place": "Huế",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "ich_congchieng_2005",
+  "date": "2005-11-25",
+  "category": "culture",
+  "title_en": "Gong culture of the Central Highlands recognised by UNESCO",
+  "title_vi": "Không gian văn hóa Cồng chiêng Tây Nguyên được UNESCO công nhận",
+  "text_en": "On 25 November 2005 UNESCO recognised the Space of Gong Culture in the Central Highlands as a Masterpiece of the Oral and Intangible Heritage of Humanity.",
+  "text_vi": "Ngày 25/11/2005, Không gian văn hóa Cồng chiêng Tây Nguyên được UNESCO công nhận là Kiệt tác truyền khẩu và phi vật thể của nhân loại.",
+  "raw_file": "ich_congchieng.json",
+  "evidence": "Không gian văn hóa cồng chiêng Tây Nguyên được UNESCO công nhận là Kiệt tác truyền khẩu và phi vật thể nhân loại vào ngày 25 tháng 11 năm 2005.",
+  "at": "story_highlands.json",
+  "place": "Tây Nguyên",
+  "story": [
+   "unesco",
+   "highlands"
+  ]
+ },
+ {
+  "id": "ich_quanho_2009",
+  "date": "2009-09-30",
+  "category": "culture",
+  "title_en": "Quan họ folk songs of Bắc Ninh inscribed by UNESCO",
+  "title_vi": "Dân ca Quan họ Bắc Ninh được UNESCO ghi danh",
+  "text_en": "On 30 September 2009 UNESCO inscribed Quan họ Bắc Ninh folk songs on the Representative List of the Intangible Cultural Heritage of Humanity.",
+  "text_vi": "Ngày 30/9/2009, Dân ca Quan họ Bắc Ninh được UNESCO ghi danh vào Danh sách Di sản văn hóa phi vật thể đại diện của nhân loại.",
+  "raw_file": "ich_quanho.json",
+  "evidence": "Ngày 30 tháng 9 năm 2009, tại kỳ họp lần thứ tư của Ủy ban Liên Chính phủ Công ước năm 2003 của UNESCO về Bảo vệ di sản văn hóa phi vật thể, Hồ sơ Di sản Dân ca Quan họ ở Bắc Ninh đã được UNESCO chính thức thông qua và ghi danh vào Danh sách Di sản Văn hoá Phi vật thể Đại diện của Nhân loại.",
+  "at": "bac_ninh.json",
+  "place": "Bắc Ninh",
+  "story": [
+   "unesco",
+   "bacninh"
+  ]
+ },
+ {
+  "id": "ich_catru_2009",
+  "date": "2009-10-01",
+  "category": "culture",
+  "title_en": "Ca trù inscribed as heritage in need of urgent safeguarding",
+  "title_vi": "Ca trù được ghi danh là di sản cần bảo vệ khẩn cấp",
+  "text_en": "On 1 October 2009 ca trù singing was inscribed as intangible heritage in need of urgent safeguarding; its file covered 16 northern provinces and cities.",
+  "text_vi": "Ngày 1/10/2009, ca trù được ghi danh là di sản văn hóa phi vật thể cần bảo vệ khẩn cấp; hồ sơ gồm 16 tỉnh, thành phố ở nửa phía Bắc.",
+  "raw_file": "ich_catru.json",
+  "evidence": "Ngày 1 tháng 10 năm 2009, ca trù được ghi danh là di sản phi vật thể cần bảo vệ khẩn cấp.",
+  "at": null,
+  "place": "16 northern provinces",
+  "story": [
+   "unesco"
+  ],
+  "place_vi": "16 tỉnh, thành phía Bắc"
+ },
+ {
+  "id": "ich_xoan_2011",
+  "date": "2011-11-24",
+  "category": "culture",
+  "title_en": "Xoan singing of Phú Thọ inscribed by UNESCO",
+  "title_vi": "Hát Xoan Phú Thọ được UNESCO ghi danh",
+  "text_en": "On 24 November 2011, in Bali, Xoan singing of Phú Thọ was inscribed as intangible heritage in need of urgent safeguarding.",
+  "text_vi": "Ngày 24/11/2011, tại Bali, Hát Xoan Phú Thọ được ghi danh là di sản văn hóa phi vật thể cần bảo vệ khẩn cấp.",
+  "raw_file": "ich_xoan.json",
+  "evidence": "Ngày 24 tháng 11 năm 2011, tại Hội nghị lần thứ sáu của Ủy ban liên chính phủ về Bảo tồn Di sản văn hóa phi vật thể của UNESCO tổ chức tại Bali - Indonesia, Hồ sơ Hát Xoan - Phú Thọ của Việt Nam đã được ghi danh là Di sản văn hóa phi vật thể của nhân loại cần bảo vệ khẩn cấp.",
+  "at": "p_phu_tho.json",
+  "place": "Phú Thọ",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "ich_hung_2012",
+  "date": "2012-12-06",
+  "category": "culture",
+  "title_en": "Worship of the Hùng kings inscribed by UNESCO",
+  "title_vi": "Tín ngưỡng thờ cúng Hùng Vương được UNESCO ghi danh",
+  "text_en": "At the intergovernmental committee's 7th session in Paris on 6 December 2012, UNESCO inscribed the worship of the Hùng kings in Phú Thọ as Representative Intangible Heritage of Humanity.",
+  "text_vi": "Tại kỳ họp thứ 7 của Ủy ban liên chính phủ ở Paris ngày 6/12/2012, UNESCO ghi danh Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ là Di sản văn hóa phi vật thể đại diện của nhân loại.",
+  "raw_file": "ich_hung.json",
+  "evidence": "Ngày 6 tháng 12 năm 2012, tại kỳ họp lần thứ 7 Ủy ban liên chính phủ về bảo vệ Di sản văn hóa phi vật thể diễn ra ở Paris, Pháp.",
+  "at": "p_phu_tho.json",
+  "place": "Phú Thọ",
+  "story": [
+   "unesco"
+  ],
+  "also": [
+   {
+    "raw_file": "ich_hung.json",
+    "evidence": "Tổ chức Giáo dục, Khoa học và Văn hóa của Liên hợp quốc (UNESCO) đã chính thức thông qua quyết định thông qua hồ sơ và ghi danh Tín ngưỡng thờ cúng Hùng Vương ở Phú Thọ là Di sản Văn hóa Phi vật thể Đại diện của Nhân loại."
+   }
+  ]
+ },
+ {
+  "id": "ich_taitu_2013",
+  "date": "2013-12-05",
+  "category": "culture",
+  "title_en": "Đờn ca tài tử music of the South inscribed by UNESCO",
+  "title_vi": "Đờn ca tài tử Nam Bộ được UNESCO ghi danh",
+  "text_en": "On 5 December 2013 UNESCO inscribed Đờn ca tài tử, the amateur music of southern Vietnam, as intangible cultural heritage.",
+  "text_vi": "Ngày 5/12/2013, Đờn ca tài tử Nam Bộ được UNESCO ghi danh là di sản văn hóa phi vật thể.",
+  "raw_file": "ich_taitu.json",
+  "evidence": "Đờn ca tài tử Nam bộ là một dòng nhạc dân tộc của Việt Nam đã được UNESCO ghi danh là di sản văn hóa phi vật thể vào ngày 5 tháng 12 năm 2013 và là một danh hiệu UNESCO ở Việt Nam có vùng ảnh hưởng lớn, với phạm vi 8 tỉnh thành phía Nam và 2 tỉnh ven biển miền Trung (sau sáp nhập).",
+  "at": null,
+  "place": "Southern provinces",
+  "story": [
+   "unesco"
+  ],
+  "place_vi": "Các tỉnh phía Nam"
+ },
+ {
+  "id": "ich_vigiam_2014",
+  "date": "2014-11-27",
+  "category": "culture",
+  "title_en": "Ví and giặm folk songs of Nghệ Tĩnh inscribed by UNESCO",
+  "title_vi": "Dân ca ví, giặm Nghệ Tĩnh được UNESCO ghi danh",
+  "text_en": "On 27 November 2014, in Paris, the ví and giặm folk songs of Nghệ Tĩnh were inscribed as Representative Intangible Heritage of Humanity.",
+  "text_vi": "Ngày 27/11/2014, tại Paris, Dân ca ví, giặm Nghệ Tĩnh được ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại.",
+  "raw_file": "ich_vigiam.json",
+  "evidence": "Dân ca ví giặm (cũng viết là giặm) tại Nghệ - Tĩnh là một di sản văn hóa phi vật thể cấp quốc gia đã được ghi danh là di sản văn hóa phi vật thể đại diện cho nhân loại tại kỳ họp thứ 9 của Ủy ban Liên Chính phủ Công ước UNESCO về bảo vệ di sản văn hóa phi vật thể ngày 27/11/2014 tại Paris (Pháp)",
+  "at": "p_nghe_an.json",
+  "place": "Nghệ An – Hà Tĩnh",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "ich_baichoi_2017",
+  "date": "2017-12-07",
+  "category": "culture",
+  "title_en": "Bài chòi of central Vietnam inscribed by UNESCO",
+  "title_vi": "Nghệ thuật Bài Chòi Trung Bộ được UNESCO ghi danh",
+  "text_en": "On 7 December 2017, at the committee's 12th session in Jeju, the art of Bài chòi of central Vietnam was inscribed by UNESCO.",
+  "text_vi": "Ngày 7/12/2017, tại phiên họp lần thứ 12 ở Jeju, Nghệ thuật Bài Chòi Trung Bộ được UNESCO ghi danh.",
+  "raw_file": "ich_baichoi.json",
+  "evidence": "Lúc 17 giò 15 phút (giờ Hàn Quốc) ngày 7 tháng 12 năm 2017, (khoảng 15 giờ 15 phút, giờ Việt Nam), tại Phiên họp Ủy ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể lần thứ 12 của UNESCO diễn ra tại Jeju, Hồ sơ Nghệ thuật Bài Chòi Trung Bộ của Việt Nam đã được UNESCO chính thức thông qua",
+  "at": null,
+  "place": "Central Vietnam",
+  "story": [
+   "unesco"
+  ],
+  "place_vi": "Miền Trung"
+ },
+ {
+  "id": "ich_xoe_2021",
+  "date": "2021-12-15",
+  "category": "culture",
+  "title_en": "Xòe dance of the Thái inscribed by UNESCO",
+  "title_vi": "Nghệ thuật Xòe Thái được UNESCO ghi danh",
+  "text_en": "At the committee's 16th session in Paris on 15 December 2021, the Thái people's Xòe dance of the north-west was inscribed as Representative Intangible Heritage of Humanity.",
+  "text_vi": "Tại phiên họp lần thứ 16 ở Paris ngày 15/12/2021, Nghệ thuật Xòe Thái của các tỉnh Tây Bắc được ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại.",
+  "raw_file": "ich_xoe.json",
+  "evidence": "Ngày 15 tháng 12 năm 2021 tại Phiên họp Uỷ ban Liên Chính phủ Công ước 2003 về bảo vệ di sản văn hóa phi vật thể lần thứ 16 của UNESCO diễn ra tại Paris, Pháp.",
+  "at": null,
+  "place": "North-west provinces",
+  "story": [
+   "unesco"
+  ],
+  "also": [
+   {
+    "raw_file": "ich_xoe.json",
+    "evidence": "Di sản Nghệ thuật Xoè Thái của Việt Nam chính thức được UNESCO ghi danh vào danh sách Di sản văn hóa phi vật thể đại diện của nhân loại."
+   }
+  ],
+  "place_vi": "Các tỉnh Tây Bắc"
+ },
+ {
+  "id": "ich_gomcham_2022",
+  "date": "2022-11-29",
+  "category": "culture",
+  "title_en": "Cham pottery inscribed by UNESCO",
+  "title_vi": "Nghệ thuật làm gốm của người Chăm được UNESCO ghi danh",
+  "text_en": "On 29 November 2022, in Rabat, the pottery-making art of the Cham people, practised in the villages of Bàu Trúc and Bình Đức, was inscribed as heritage in need of urgent safeguarding.",
+  "text_vi": "Ngày 29/11/2022, tại Rabat, Nghệ thuật làm gốm của người Chăm ở hai làng Bàu Trúc và Bình Đức được ghi danh là di sản cần được bảo vệ khẩn cấp.",
+  "raw_file": "ich_gomcham.json",
+  "evidence": "Ngày 29 tháng 11 năm 2022, tại Rabat, Maroc, Hồ sơ Di sản Nghệ thuật làm gốm của người Chăm đã được UNESCO chính thức thông qua và ghi danh vào Danh sách Di sản Văn hoá Phi vật thể Cần được Bảo vệ Khẩn cấp.",
+  "at": "p_ninh_thuan.json",
+  "place": "Bàu Trúc (former Ninh Thuận)",
+  "story": [
+   "unesco"
+  ],
+  "also": [
+   {
+    "raw_file": "ich_gomcham.json",
+    "evidence": "Nghệ thuật làm gốm của người Chăm hiện diện ở vùng Nam Trung Bộ Việt Nam tại hai làng gốm là Bàu Trúc và Bình Đức."
+   }
+  ],
+  "place_vi": "Bàu Trúc (Ninh Thuận cũ)"
+ },
+ {
+  "id": "doc_woodblocks_2009",
+  "date": "2009-07-31",
+  "category": "culture",
+  "title_en": "Nguyễn dynasty woodblocks on the Memory of the World register",
+  "title_vi": "Mộc bản triều Nguyễn thành Di sản tư liệu thế giới",
+  "text_en": "On 31 July 2009 UNESCO recognised the woodblocks of the Nguyễn dynasty, Vietnam's first documentary heritage on the Memory of the World register.",
+  "text_vi": "Ngày 31/7/2009, Mộc bản triều Nguyễn được UNESCO công nhận, là di sản tư liệu thế giới đầu tiên của Việt Nam.",
+  "raw_file": "nguyen_woodblocks.json",
+  "evidence": "Mộc bản triều Nguyễn là di sản tư liệu thế giới đầu tiên tại Việt Nam do UNESCO công nhận ngày 31 tháng 7 năm 2009.",
+  "at": null,
+  "place": null,
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "doc_steles_2011",
+  "date": "2011",
+  "category": "culture",
+  "title_en": "Doctors' steles of the Temple of Literature on the Memory of the World register",
+  "title_vi": "Bia tiến sĩ Văn Miếu – Quốc Tử Giám thành Di sản tư liệu thế giới",
+  "text_en": "In 2011 the doctoral steles of the Temple of Literature in Hà Nội were inscribed on UNESCO's Memory of the World Register.",
+  "text_vi": "Năm 2011, các bia tiến sĩ ở Văn Miếu – Quốc Tử Giám, Hà Nội được ghi vào danh mục Di sản tư liệu thế giới (Ký ức thế giới) của UNESCO.",
+  "raw_file": "temple_lit.json",
+  "evidence": "The stelae were inscribed on UNESCO's Memory of the World Register in 2011.",
+  "at": "temple_lit.json",
+  "place": "Văn Miếu, Hà Nội",
+  "story": [
+   "unesco",
+   "thanglong"
+  ]
+ },
+ {
+  "id": "doc_chauban_2014",
+  "date": "2014-05-14",
+  "category": "culture",
+  "title_en": "Nguyễn imperial records on the Asia-Pacific Memory of the World register",
+  "title_vi": "Châu bản triều Nguyễn thành Di sản tư liệu khu vực",
+  "text_en": "On 14 May 2014 the imperial records (châu bản) of the Nguyễn dynasty were recognised as documentary heritage of the Memory of the World programme for Asia and the Pacific.",
+  "text_vi": "Ngày 14/5/2014, Châu bản triều Nguyễn được UNESCO công nhận là Di sản tư liệu Chương trình Ký ức thế giới khu vực châu Á – Thái Bình Dương.",
+  "raw_file": "chauban.json",
+  "evidence": "Ngày 14/5/2014, Châu bản triều Nguyễn của Việt Nam được UNESCO công nhận là Di sản tư liệu Chương trình Ký ức thế giới Khu vực châu Á - Thái Bình Dương.",
+  "at": null,
+  "place": null,
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "gp_caobang_2018",
+  "date": "2018-04-12",
+  "category": "culture",
+  "title_en": "Non nước Cao Bằng a UNESCO Global Geopark",
+  "title_vi": "Non nước Cao Bằng thành Công viên địa chất toàn cầu UNESCO",
+  "text_en": "On 12 April 2018 UNESCO recognised Non nước Cao Bằng as a Global Geopark, Vietnam's second after the Đồng Văn Karst Plateau.",
+  "text_vi": "Ngày 12/4/2018, Non nước Cao Bằng được UNESCO công nhận là công viên địa chất toàn cầu, thứ hai ở Việt Nam sau Cao nguyên đá Đồng Văn.",
+  "raw_file": "caobang_geopark.json",
+  "evidence": "Ngày 12 tháng 4 năm 2018, công viên chính thức được UNESCO công nhận là công viên địa chất toàn cầu, trở thành công viên địa chất toàn cầu thứ hai tại Việt Nam sau Công viên địa chất Cao nguyên đá Đồng Văn tại Tuyên Quang.",
+  "at": "p_cao_bang.json",
+  "place": "Cao Bằng",
+  "story": [
+   "unesco"
+  ]
+ },
+ {
+  "id": "gp_daknong_2020",
+  "date": "2020-07-07",
+  "category": "culture",
+  "title_en": "Đắk Nông a UNESCO Global Geopark",
+  "title_vi": "Đắk Nông thành Công viên địa chất toàn cầu UNESCO",
+  "text_en": "On 7 July 2020 UNESCO's executive board approved Đắk Nông Geopark as a Global Geopark.",
+  "text_vi": "Ngày 7/7/2020, UNESCO thông qua quyết định công nhận Công viên địa chất Đắk Nông là Công viên địa chất toàn cầu.",
+  "raw_file": "daknong_geopark.json",
+  "evidence": "Ngày 7 tháng 7 năm 2020, Ủy ban chương trình và quan hệ quốc tế của Hội đồng Chấp hành Tổ chức Giáo dục, Khoa học và Văn hóa Liên hợp quốc (UNESCO) đã thông qua quyết định của Hội đồng Công viên địa chất toàn cầu công nhận Công viên địa chất Đắk Nông của Việt Nam là Công viên địa chất toàn cầu.",
+  "at": "p_dak_nong.json",
+  "place": "Đắk Nông",
+  "story": [
+   "unesco",
+   "highlands"
+  ]
+ }
+]

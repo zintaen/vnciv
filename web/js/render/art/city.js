@@ -1,6 +1,6 @@
 // City-tile art: the city-centre hex (a village, or a pseudo-isometric street grid that grows from a small town into
-// a dense skyline), the capital's domed landmark, the small marker used for cities when hexes are too small for a
-// tile, and the suburban-fringe art that terrain.js can stamp on urban cells.
+// a dense skyline), the capital's Ba Đình square and hall, the small marker used for cities when hexes are too small
+// for a tile, and the urban-fringe art that terrain.js stamps on urban cells.
 //
 // Interface (used by render/map.js, render/art/terrain.js and web/dev/gallery.js):
 //
@@ -9,36 +9,42 @@
 //   cityClass(population) → {id, ...}     size class: village, town, city, metropolis, megalopolis
 //   metroSpill(w) → Map(cell → pseudo-city)  urban neighbours of 1.5M+ metros drawn as smaller city tiles (map.js);
 //                                         terrain.js leaves them bare like real city cells
+//   OLD_QUARTER                           city ids that get an old quarter (see the rule there)
 //   drawCityTile(ctx, city, x, y, R, {Rpx, s, lod, selected, stateColor, seed})
 //     ctx        2D context in WORLD transform (km; s css px per km applied)
-//     city       a cities.json record (uses population, capital/id via world.js isCapital)
+//     city       a cities.json record (uses population, id, capital via world.js isCapital)
 //     x, y, R    hex centre and radius in km
 //     Rpx        hex radius in css px; s css px per km; lod "far"|"mid"|"near"|"close" (optional)
 //     selected   true for the selected city; the selection ring itself is drawn by render/map.js drawOverlay
-//     stateColor [r, g, b] of the owning state (rim, accent roofs, crowns, steeples, water towers, dot)
+//     stateColor [r, g, b] of the owning state (crowns on towers, a few roofs, the hairline rim at close zoom)
 //     seed       per-city integer for deterministic variation (map.js passes city.cell)
 //   Draws a dot or a tile according to cityIsDot(); the caller checks cityTileVisible() first.
 //   SUBURB_ART = {ground, build}: sprite definitions {box, paint(g, upx, v, kind)} in R units (1 unit = the hex
-//     radius, kind "" or "small"), the same shape as terrain.js SPRITES entries: ground = lawn, cul-de-sac roads,
-//     a parking lot or a school field; build = rows of houses, tree clumps, a strip mall or a school.
+//     radius, kind "", "small" or "factory"), the same shape as terrain.js SPRITES entries. Urban cells (kind ""), by
+//     variant v (0-7): 0-4 townhouse rows (nhà phố liền kề) on a straight street grid, 5-7 a new urban area (khu đô
+//     thị: apartment slabs, townhouse rows, a small park); "small" (on hills) is one street of houses; "factory" is
+//     a factory estate (sheds with corrugated roofs on concrete yards, an office by the gate) on a patch of the cell,
+//     stamped on the INDUSTRIAL_CELLS hexes.
+//   INDUSTRIAL_CELLS                      hexes that hold an industrial park (see the rule there)
 //
-// How a city tile is made:
-//   village      6-10 houses along one or two country roads, a church with a steeple or a water tower, garden
-//                trees and a few crop fields around it, straight on the terrain (no paving), within ~45% of the hex.
-//   town+        the hex gets a lawn base; the built-up area is a paved pad (an asphalt street grid with a lighter
+// How a city tile is made (the Vietnamese townscape is illustrative, drawn from the population class and a seed):
+//   village      6-10 tiled-roof houses along one or two roads, a đình (communal house) or a small chùa, garden
+//                trees and a few fields around it, straight on the terrain, within ~45% of the hex.
+//   town+        the hex gets a pale base; the built-up area is a paved pad (an asphalt street grid with a lighter
 //                kerb and a short soft feather) made of iso blocks packed edge to edge. Each block has a sidewalk
-//                and becomes: core (a podium filling the block with one or two towers), mid-rise (1, 2 or 4 parcels
-//                of packed buildings), residential (a lawn block with houses at its corners and a tree), a park
-//                (paths, trees, a pond), a plaza (fountain) or a civic church. Bigger classes have smaller blocks,
-//                a bigger pad and taller towers; outside the pad the hex has scattered houses and trees.
+//                and becomes: core (a podium with one or two modern towers: only the city class and up), mid
+//                (taller tube-house rows, or a modern mid-rise block), residential (rows of tube houses, nhà ống:
+//                narrow, 2-6 storeys, each its own façade colour, flat roofs with a water tank, a few small tiled
+//                roofs, laundry and balconies up close), a park (paths, trees, a pond), a market (chợ: a hall with
+//                a corrugated roof, coloured awnings round its yard) or a pagoda / đình in its courtyard. Old-quarter
+//                blocks (OLD_QUARTER cities) are rows of low, deep shophouses under dark tiled roofs. Motorbikes
+//                line the streets at close zoom. Bigger classes have smaller blocks, a bigger pad and taller towers;
+//                outside the pad the hex has scattered houses and trees.
 //   Buildings are boxes with a lit top, a half-lit south-west face and a shaded south-east face (light from the
-//   upper left), cast shadows to the lower right (one fill, so overlaps don't darken twice), gable roofs, set-backs,
-//   crowns in the state colour, a spire on the tallest tower, windows at close zoom. The capital gets a domed
-//   capitol on a stone plaza at the head of a tree-lined mall with an obelisk, and a low skyline around it.
+//   upper left), cast shadows to the lower right (one fill, so overlaps don't darken twice), crowns in the state
+//   colour, a spire on the tallest tower, windows at close zoom. The capital gets a Ba Đình-style complex: a pale
+//   stone hall with a colonnade and a stepped flat roof at the head of a square of lawn plots, with the flag.
 //
-// Every tile is painted once into an offscreen sprite keyed by (city seed, class, colour, capital, zoom bucket,
-// device scale) and blitted with drawImage afterwards; an LRU with a pixel budget bounds the memory. Close-zoom tiles
-// (over 220 device px of hex radius) have their own smaller LRU; past 480 px they are painted directly.
 import { hash01 } from "../../hex.js";
 import { css, mix, shade } from "../../color.js";
 import { isCapital } from "../../world.js";
@@ -87,17 +93,45 @@ export const cityTileVisible = (city, Rpx) => !(Rpx < 9 && city.population < (Rp
 //   height   tallest tower in R
 //   park     share of blocks that are parks
 //   ragged   chance that an outer block is left out (an irregular edge)
-//   grey     how grey the lawn base of the hex is (0 green … 1 concrete)
+//   grey     how grey the base of the hex is (0 green … 1 concrete)
 //   fringe   houses and trees on the unpaved rest of the hex
-//   civic    one block becomes a church / meeting house
+//   civic    one block becomes a pagoda or a đình in its courtyard (every class but the capital, which has Ba Đình)
 export const CITY_CLASSES = [
   { id: "village", min: 0, village: true },
-  { id: "town", min: 1.5e5, extent: 0.66, lot: 0.2, core: 0.9, mid: 0.55, height: 0.2, park: 0.05, ragged: 0.4, grey: 0.08, fringe: true, civic: true },
-  { id: "city", min: 4e5, extent: 0.8, lot: 0.18, core: 0.66, mid: 0.33, height: 0.44, park: 0.06, ragged: 0.32, grey: 0.14, fringe: true, civic: true },
-  { id: "metropolis", min: 1.5e6, extent: 0.9, lot: 0.16, core: 0.5, mid: 0.18, height: 0.58, park: 0.06, ragged: 0.25, grey: 0.2, fringe: true },
-  { id: "megalopolis", min: 5e6, extent: 0.96, lot: 0.145, core: 0.36, mid: 0.08, height: 0.68, park: 0.05, ragged: 0.12, grey: 0.26, fringe: false },
+  { id: "town", min: 1.5e5, extent: 0.66, lot: 0.2, core: 1.01, mid: 0.55, height: 0.2, park: 0.05, ragged: 0.4, grey: 0.08, fringe: true, civic: true },
+  { id: "city", min: 4e5, extent: 0.8, lot: 0.18, core: 0.8, mid: 0.33, height: 0.44, park: 0.06, ragged: 0.32, grey: 0.14, fringe: true, civic: true },
+  { id: "metropolis", min: 1.5e6, extent: 0.9, lot: 0.16, core: 0.5, mid: 0.18, height: 0.58, park: 0.06, ragged: 0.25, grey: 0.2, fringe: true, civic: true },
+  { id: "megalopolis", min: 5e6, extent: 0.96, lot: 0.145, core: 0.36, mid: 0.08, height: 0.68, park: 0.05, ragged: 0.12, grey: 0.26, fringe: false, civic: true },
 ];
 const LOT_MIN_PX = 5.5;
+
+/**
+ * Cities with an old quarter (Phố Cổ-style rows of low shophouses under dark tiled roofs). Rule: the city's hex or
+ * a neighbouring hex holds a UNESCO World Heritage cultural site (wonders.json rule "world_heritage", kind
+ * "landmark"). That gives Hà Nội (Hoàng thành Thăng Long, same hex) and Huế (Cố đô Huế, the next hex); Hội An is
+ * not a city tile and shows as its own wonder. tests/test_cityart.py recomputes this set from the data.
+ */
+export const OLD_QUARTER = new Set(["HN", "26"]);
+
+/**
+ * Hexes that hold an industrial park: the hex containing the centre of each park in geo.json "parks" (OpenStreetMap
+ * industrial land named Khu công nghiệp / KCN / Industrial Park, 20 ha or more; see its rule there). terrain.js
+ * stamps a factory estate there on flat land. tests/test_cityart.py recomputes this set from geo.json.
+ */
+export const INDUSTRIAL_CELLS = new Set([
+  4293, 4571, 7195, 8774, 8799, 9029, 9038, 9060, 9557, 9561, 9820, 9824, 9825, 9827, 9828, 9829, 9830, 10088,
+  10090, 10091, 10094, 10350, 10351, 10353, 10354, 10355, 10356, 10359, 10616, 10617, 10618, 10619, 10620, 10629,
+  10875, 10879, 10880, 10884, 10889, 10890, 10892, 11136, 11138, 11139, 11144, 11145, 11146, 11147, 11150, 11151,
+  11152, 11153, 11398, 11406, 11412, 11415, 11670, 11676, 11931, 11941, 12193, 12194, 12195, 12200, 12459, 12720,
+  12725, 12985, 12987, 12988, 13246, 13248, 13253, 13773, 13774, 14039, 14297, 14298, 14827, 15348, 15611, 19292,
+  19817, 22721, 24562, 24563, 24827, 25355, 27199, 27992, 28784, 29842, 30105, 30368, 30633, 31160, 32478, 33532,
+  38796, 38798, 39059, 39061, 39850, 41429, 41956, 43779, 45372, 47204, 47475, 47970, 47974, 47986, 48234, 48237,
+  48497, 48754, 49023, 49024, 49282, 49284, 49285, 49293, 49549, 49550, 49551, 49552, 49808, 49809, 49812, 49813,
+  50073, 50074, 50075, 50076, 50077, 50078, 50079, 50080, 50083, 50092, 50094, 50334, 50336, 50338, 50339, 50340,
+  50341, 50342, 50344, 50347, 50599, 50600, 50601, 50605, 50861, 50862, 50863, 50865, 50868, 51125, 51131, 51387,
+  51388, 51389, 51390, 51391, 51395, 51398, 51658, 51659, 51660, 51912, 51924, 52185, 52427, 52438, 52690, 52692,
+  52701, 52702, 53222, 53482, 53738, 53747, 55063, 56638
+]);
 
 export function cityClass(population) {
   let c = CITY_CLASSES[0];
@@ -108,16 +142,24 @@ export function cityClass(population) {
 // --- palette -------------------------------------------------------------------------------------------------------
 const P = {
   asphalt: [74, 72, 70], kerb: [182, 176, 160], walk: [196, 190, 174], concrete: [168, 162, 148],
-  lawn: [118, 150, 80], lawnBlock: [128, 160, 88], park: [96, 146, 70], path: [218, 208, 176],
+  lawn: [118, 150, 80], park: [96, 146, 70], path: [218, 208, 176],
   plaza: [204, 194, 168], plazaInner: [224, 216, 194], pond: [92, 160, 206],
   tree: [60, 108, 50], treeMid: [82, 132, 60], treeLit: [128, 170, 82], conifer: [44, 88, 54],
   field: [[214, 186, 104], [176, 178, 86], [196, 160, 92], [150, 172, 80]],
   road: [196, 186, 160], roadEdge: [92, 84, 70],
-  walls: [[236, 226, 204], [242, 238, 228], [218, 200, 164], [226, 214, 190], [214, 222, 226]],
-  roofs: [[170, 78, 56], [124, 82, 60], [92, 98, 112], [184, 110, 66], [70, 82, 100]],
-  stone: [[208, 196, 172], [188, 178, 160], [168, 98, 74], [196, 188, 176], [150, 118, 96]],
+  // tube-house façades: ochre, cream, mint, pink, sky blue, white, sand, lemon
+  facades: [[236, 204, 116], [242, 232, 212], [204, 228, 198], [240, 198, 186], [192, 216, 234], [246, 244, 238], [228, 212, 160], [246, 226, 150]],
+  walls: [[238, 226, 196], [242, 236, 222], [230, 210, 160], [226, 214, 190]],
+  // terracotta tiles and corrugated sheet (tôn: blue, green, red)
+  roofs: [[176, 80, 54], [158, 70, 48], [188, 104, 64], [78, 112, 146], [92, 128, 100], [160, 62, 52]],
+  oldWalls: [[228, 196, 120], [214, 200, 170], [204, 176, 128], [222, 208, 180]],
+  oldRoofs: [[118, 64, 48], [104, 70, 56], [96, 78, 62], [126, 72, 52]],
+  stone: [[208, 196, 172], [188, 178, 160], [222, 214, 198], [196, 188, 176], [214, 204, 184]],
   glass: [[118, 160, 190], [96, 128, 158], [150, 178, 196], [196, 170, 112], [128, 170, 176]],
-  marble: [240, 236, 224], dome: [246, 244, 236], white: [244, 240, 230],
+  templeWall: [226, 206, 160], templeRoof: [150, 66, 44], templeCol: [150, 44, 30],
+  awnings: [[214, 64, 52], [60, 110, 180], [236, 176, 52], [70, 150, 96], [230, 120, 60]],
+  bikes: ["#c8302a", "#2a4a8a", "#1c1c1e", "#e8e4da"],
+  marble: [226, 224, 216], white: [244, 240, 230], tank: [214, 220, 226],
 };
 
 // --- geometry ------------------------------------------------------------------------------------------------------
@@ -379,94 +421,155 @@ class Painter {
 
 // --- landmarks -----------------------------------------------------------------------------------------------------
 
-/** A white church with a gabled nave along A and a steeple at its front (lower right) end. */
-function drawChurch(p, x, y, sz, accent) {
-  const g = p.g;
-  const roof = mix([88, 92, 104], accent, 0.35);
-  const F = foot(x, y, sz, sz * 0.55);
-  const hw = sz * 0.62;
-  p.shadow(F, hw + sz * 0.4);
-  gable(g, F, hw, sz * 0.48, P.white, roof, 0, p.detail >= 1 ? p.px(0.5) : 0);
-  // steeple: a square tower, a belfry band and a spire in the state colour, a gold finial
-  const [tx, ty] = iso(sz * 0.95, 0);
-  const t = sz * 0.3, th = sz * 1.55, sh = sz * 1.15;
-  const Ft = foot(x + tx, y + ty, t, t);
-  p.shadow(Ft, th + sh * 0.6);
-  const top = p.box(Ft, 0, th, P.white);
-  if (p.detail >= 1) {
-    const [, E, S, W] = Ft.map((q) => up(q, th * 0.72));
-    const bh = th * 0.14;
-    fillPoly(g, [W, S, up(S, bh), up(W, bh)], "rgba(60,52,44,.7)");
-    fillPoly(g, [S, E, up(E, bh), up(S, bh)], "rgba(30,26,22,.75)");
-  }
-  const tip = [x + tx, y + ty - th - sh];
-  fillPoly(g, [top.W, top.S, tip], css(shade(accent, 0.12)));
-  fillPoly(g, [top.S, top.E, tip], css(shade(accent, -0.3)));
-  g.beginPath();
-  g.arc(tip[0], tip[1], Math.max(p.px(0.7), sz * 0.07), 0, Math.PI * 2);
-  g.fillStyle = "#f0d27a";
-  g.fill();
+/** The two ends of the ridge of a gable() roof along A (along = 0) on footprint F with walls hw and rise hr. */
+function ridgeA(F, hw, hr) {
+  const [Nt, Et, St, Wt] = F.map((q) => up(q, hw));
+  return [up([(Nt[0] + Wt[0]) / 2, (Nt[1] + Wt[1]) / 2], hr), up([(Et[0] + St[0]) / 2, (Et[1] + St[1]) / 2], hr)];
+}
+/** Curled ridge ends (the upswept "horns" of a đình or chùa roof) at the two ends of a ridge. */
+function horns(g, r0, r1, sz, roof) {
+  const c = css(shade(roof, -0.1));
+  fillPoly(g, [[r0[0] - sz * 0.02, r0[1] + sz * 0.04], [r0[0] - sz * 0.2, r0[1] - sz * 0.2], [r0[0] + sz * 0.1, r0[1] + sz * 0.02]], c);
+  fillPoly(g, [[r1[0] + sz * 0.02, r1[1] + sz * 0.04], [r1[0] + sz * 0.2, r1[1] - sz * 0.2], [r1[0] - sz * 0.1, r1[1] + sz * 0.02]], c);
 }
 
-/** A water tower: four legs, a white tank with a band in the state colour and a conical cap. */
-function drawWaterTower(p, x, y, sz, accent) {
-  const g = p.g;
-  const z = sz * 1.9, rx = sz * 0.62, ry = rx * 0.5, th = sz * 0.7;
-  g.beginPath();
-  g.ellipse(x + z * 0.5, y + z * 0.2, rx * 1.1, ry * 0.9, 0, 0, Math.PI * 2);
-  g.fillStyle = "rgba(22,18,12,.22)";
-  g.fill();
-  // legs (back pair darker)
-  const lw = Math.max(p.px(0.7), sz * 0.07);
-  for (const [lx, ly, a] of [[-0.45, -0.18, 0.55], [0.45, -0.18, 0.55], [-0.5, 0.2, 0.9], [0.5, 0.2, 0.9]]) {
-    g.beginPath();
-    g.moveTo(x + lx * rx, y + ly * rx);
-    g.lineTo(x + lx * rx * 0.55, y - z + ly * ry * 0.5);
-    g.strokeStyle = `rgba(70,74,80,${a})`;
-    g.lineWidth = lw;
-    g.stroke();
+/** A đình (one tier) or a chùa hall (two tiers): low walls on red columns under a big tiled roof with curled ends. */
+function drawTemple(p, x, y, sz, tiers = 1) {
+  const g = p.g, lw = p.detail >= 1 ? p.px(0.5) : 0;
+  const F = foot(x, y, sz, sz * 0.62);
+  const hw = sz * 0.34, hr = sz * 0.5;
+  p.shadow(F, hw + hr * 0.6);
+  gable(g, F, hw, hr, P.templeWall, P.templeRoof, 0, lw);
+  if (p.detail >= 1) {
+    // red columns across the front (south-west) face
+    const [, , S, W] = F;
+    const cols = new Path2D();
+    for (let k = 1; k < 6; k++) {
+      const t = k / 6, cx = W[0] + (S[0] - W[0]) * t, cy = W[1] + (S[1] - W[1]) * t;
+      cols.moveTo(cx, cy);
+      cols.lineTo(cx, cy - hw);
+    }
+    g.strokeStyle = css(P.templeCol);
+    g.lineWidth = Math.max(p.px(0.6), sz * 0.05);
+    g.stroke(cols);
   }
-  const cy = y - z;
-  const body = g.createLinearGradient(x - rx, 0, x + rx, 0);
-  body.addColorStop(0, "#fbfaf6");
-  body.addColorStop(0.5, "#e6e4de");
-  body.addColorStop(1, "#9c9a96");
-  g.beginPath();
-  g.ellipse(x, cy, rx, ry, 0, 0, Math.PI);
-  g.lineTo(x - rx, cy - th);
-  g.ellipse(x, cy - th, rx, ry, 0, Math.PI, 2 * Math.PI);
-  g.closePath();
-  g.fillStyle = body;
-  g.fill();
-  // band in the state colour
-  const b0 = cy - th * 0.38, bh = th * 0.28;
-  g.beginPath();
-  g.ellipse(x, b0, rx, ry, 0, 0, Math.PI);
-  g.lineTo(x - rx, b0 - bh);
-  g.ellipse(x, b0 - bh, rx, ry, 0, Math.PI, 0, true);
-  g.closePath();
-  g.fillStyle = css(accent);
-  g.fill();
-  // cap
-  g.beginPath();
-  g.ellipse(x, cy - th, rx, ry, 0, 0, Math.PI);
-  g.lineTo(x, cy - th - sz * 0.55);
-  g.closePath();
-  g.fillStyle = "#d2d0ca";
-  g.fill();
-  g.beginPath();
-  g.moveTo(x - rx, cy - th);
-  g.lineTo(x, cy - th - sz * 0.55);
-  g.lineTo(x - rx * 0.1, cy - th + ry);
-  g.closePath();
-  g.fillStyle = "rgba(255,255,255,.55)";
-  g.fill();
+  let [r0, r1] = ridgeA(F, hw, hr);
+  if (tiers === 2) {
+    const z = hw + hr * 0.55, F2 = foot(x, y - z, sz * 0.55, sz * 0.34);
+    gable(g, F2, sz * 0.16, hr * 0.62, P.templeWall, shade(P.templeRoof, 0.06), 0, lw);
+    [r0, r1] = ridgeA(F2, sz * 0.16, hr * 0.62);
+  }
+  horns(g, r0, r1, sz, P.templeRoof);
+  if (p.detail >= 1) {
+    g.beginPath();
+    g.arc((r0[0] + r1[0]) / 2, (r0[1] + r1[1]) / 2 - sz * 0.06, Math.max(p.px(0.6), sz * 0.06), 0, Math.PI * 2);
+    g.fillStyle = "#f0d27a";
+    g.fill();
+  }
+}
+
+/** One tube house (nhà ống) on footprint half sizes a × b; old = a low shophouse under a dark tiled roof. */
+function tubeHouse(p, x, y, a, b, h, wall, old, r) {
+  const g = p.g, F = foot(x, y, a, b);
+  if (old) {
+    const hr = Math.max(p.px(1), b * 0.45);
+    p.shadow(F, h + hr * 0.6);
+    gable(g, F, h, hr, wall, pick(P.oldRoofs, r(1)), 0, p.detail >= 1 ? p.px(0.4) : 0);
+    return;
+  }
+  p.shadow(F, h);
+  p.box(F, 0, h, wall, { outline: p.detail >= 2 });
+  const [, , S, W] = F;
+  if (p.detail >= 1) {
+    // the open shop front on the ground floor of the street (south-west) face
+    const fh = Math.min(h * 0.4, p.R * 0.014);
+    const q = (t, z) => [W[0] + (S[0] - W[0]) * t, W[1] + (S[1] - W[1]) * t - z];
+    fillPoly(g, [q(0.15, 0), q(0.85, 0), q(0.85, fh * 0.8), q(0.15, fh * 0.8)], "rgba(44,38,34,.6)");
+    if (p.detail >= 2) {
+      // balcony rails, one per floor, and now and then laundry on the top one
+      const rails = new Path2D();
+      for (let z = fh * 1.9; z < h - fh * 0.3; z += fh) {
+        const [ax, ay] = q(0.05, z), [bx, by] = q(0.95, z);
+        rails.moveTo(ax, ay);
+        rails.lineTo(bx, by);
+      }
+      g.strokeStyle = "rgba(60,56,52,.55)";
+      g.lineWidth = p.px(0.5);
+      g.stroke(rails);
+      if (r(4) < 0.3 && h > fh * 2.5) {
+        for (let k = 0; k < 3; k++) {
+          const [lx, ly] = q(0.25 + k * 0.22, h - fh * 0.55);
+          g.fillStyle = css(pick(P.awnings, r(5 + k)));
+          g.fillRect(lx - p.px(0.35), ly, p.px(0.7), p.px(0.9));
+        }
+      }
+    }
+  }
+  // the roof: a small tiled roof on some, a stainless water tank on most (near+)
+  if (r(2) < 0.18) {
+    const [bx, by] = iso(0, -b * 0.4);
+    gable(g, foot(x + bx, y - h + by, a * 0.92, b * 0.42), p.px(0.4), Math.max(p.px(0.8), a * 0.5), wall, pick(P.roofs, r(3)), 0, 0);
+  } else if (p.detail >= 1 && r(3) < 0.75) {
+    const [bx, by] = iso(-a * 0.3, -b * 0.4), tx = x + bx, ty = y - h + by;
+    const tr = Math.max(p.px(0.7), Math.min(a, b) * 0.38), th = tr * 1.2;
+    g.fillStyle = css(shade(P.tank, -0.25));
+    g.fillRect(tx - tr, ty - th, tr * 2, th);
+    g.fillStyle = css(P.tank);
+    g.fillRect(tx - tr, ty - th, tr, th);
+    g.beginPath();
+    g.ellipse(tx, ty - th, tr, tr * 0.5, 0, 0, Math.PI * 2);
+    g.fillStyle = css(shade(P.tank, 0.12));
+    g.fill();
+  }
+}
+
+/** A row of tube houses along A on a parcel (half sizes a, b): items for the depth sort. */
+function tubeRow(p, x, y, a, b, floors, r, salt, old) {
+  const items = [];
+  const fh = Math.max(p.px(1.5), p.R * 0.014);
+  const n = Math.max(1, Math.round((2 * a) / Math.max(p.px(old ? 3.4 : 2.6), p.R * (old ? 0.05 : 0.036))));
+  const w = (2 * a) / n;
+  for (let i = 0; i < n; i++) {
+    const [ox, oy] = iso(-a + w * (i + 0.5), 0);
+    const hx = x + ox, hy = y + oy;
+    const fl = old ? 1 + (r(salt + i) < 0.5 ? 1 : 0) : Math.max(2, Math.round(floors * (0.7 + 0.6 * r(salt + i))));
+    const wall = pick(old ? P.oldWalls : P.facades, r(salt + 40 + i));
+    const bb = b * (old ? 1 : 0.84 + 0.16 * r(salt + 80 + i));
+    const hr = (s2) => r(salt + 120 + i * 7 + s2);
+    items.push({ y: hy, draw: () => tubeHouse(p, hx, hy, (w / 2) * 0.97, bb, fl * fh, wall, old, hr) });
+  }
+  return items;
+}
+
+/** A market (chợ): a paved yard, a long hall under a corrugated roof, coloured stall awnings along its front. */
+function drawMarket(p, x, y, bh) {
+  const g = p.g;
+  const Y = foot(x, y, bh * 0.9, bh * 0.9);
+  fillPoly(g, Y, css(P.plaza));
+  const F = foot(x, y, bh * 0.62, bh * 0.42);
+  const hw = Math.max(p.px(1.6), p.R * 0.018), hr = Math.max(p.px(1.2), bh * 0.18);
+  p.shadow(F, hw + hr * 0.6);
+  gable(g, F, hw, hr, [222, 210, 182], [92, 124, 140], 0, p.detail >= 1 ? p.px(0.5) : 0);
+  // awnings on the yard's two front edges (near+): short slanted flaps in market colours
+  if (p.detail >= 1) {
+    const [, E, S, W] = Y;
+    const n = Math.max(3, Math.round((bh * p.s) / 4));
+    const ah = Math.max(p.px(1.4), bh * 0.12), d = Math.max(p.px(1.2), bh * 0.1);
+    for (const [A, B, dx, dy] of [[W, S, ...iso(0, -1)], [S, E, ...iso(-1, 0)]]) {
+      for (let k = 0; k < n; k++) {
+        const t0 = (k + 0.1) / n, t1 = (k + 0.9) / n;
+        const p0 = [A[0] + (B[0] - A[0]) * t0, A[1] + (B[1] - A[1]) * t0], p1 = [A[0] + (B[0] - A[0]) * t1, A[1] + (B[1] - A[1]) * t1];
+        const back = (q) => [q[0] + dx * d, q[1] + dy * d - ah];
+        fillPoly(g, [[p0[0], p0[1] - ah * 0.7], [p1[0], p1[1] - ah * 0.7], back(p1), back(p0)], css(pick(P.awnings, hash01(k * 31 + Math.round(x * 97), 3))));
+      }
+    }
+  }
 }
 
 // --- village -------------------------------------------------------------------------------------------------------
 
-/** A village: one or two country roads, 6-10 houses along them, a landmark, garden trees and fields around. */
-function paintVillage(p, seed, accent, Rpx) {
+/** A village: one or two country roads, 6-10 tiled-roof houses along them, a đình or a chùa, garden trees and fields. */
+function paintVillage(p, seed, Rpx) {
   const g = p.g, R = p.R;
   const r = rng(seed * 7919 + 101);
   const roadW = Math.max(R * 0.05, p.px(2.6)), roadIn = Math.max(R * 0.03, p.px(1.4));
@@ -494,21 +597,21 @@ function paintVillage(p, seed, accent, Rpx) {
   spots.sort((a, b) => a.d - b.d);
 
   // The landmark sits behind the main road near the crossroads; spots too close to it are dropped.
-  const church = r() < 0.62;
-  const lm = { u: cu + S * 1.1, v: v0 - side - hs * (church ? 0.5 : 0.2) };
+  const pagoda = r() < 0.4; // a chùa (two-tier roof), else a đình
+  const lm = { u: cu + S * 1.1, v: v0 - side - hs * 0.5 };
   const free = spots.filter((sp) => Math.hypot(sp.u - lm.u, sp.v - lm.v) > hs * 3.2);
   const houses = free.slice(0, nHouses);
 
   const items = [];
   for (const sp of houses) {
     const [x, y] = iso(sp.u, sp.v);
-    const wall = pick(P.walls, r()), roof = r() < 0.2 ? mix(P.roofs[0], accent, 0.55) : pick(P.roofs, r());
+    const wall = pick(P.walls, r()), roof = pick(P.roofs, r());
     const a = hs * (sp.along === 0 ? 1.05 : 0.75) * (0.9 + r() * 0.2), b = hs * (sp.along === 0 ? 0.75 : 1.05) * (0.9 + r() * 0.2);
     items.push({ y, draw: () => p.house(x, y, a, b, wall, roof, sp.along) });
   }
   {
     const [x, y] = iso(lm.u, lm.v);
-    items.push({ y, draw: () => (church ? drawChurch(p, x, y, hs * 1.35, accent) : drawWaterTower(p, x, y, hs * 1.1, accent)) });
+    items.push({ y, draw: () => drawTemple(p, x, y, hs * 1.35, pagoda ? 2 : 1) });
   }
   // Garden trees between and behind the houses, away from the roads and the buildings.
   const roadDist = (u, v) => Math.min(Math.abs(v - v0), cross && Math.abs(v) <= cross.v1 + S ? Math.abs(u - cross.u) : Infinity);
@@ -523,8 +626,8 @@ function paintVillage(p, seed, accent, Rpx) {
     if (roadDist(u, v) < roadW + treeR) continue;
     if (placed.some(([pu, pv]) => Math.hypot(pu - u, pv - v) < hs * 1.7)) continue;
     placed.push([u, v]);
-    const conifer = r() < 0.25, tr = treeR * (0.85 + r() * 0.3);
-    items.push({ y, draw: () => p.tree(x, y, tr, conifer) });
+    const tr = treeR * (0.85 + r() * 0.3);
+    items.push({ y, draw: () => p.tree(x, y, tr) });
     k++;
   }
 
@@ -602,21 +705,21 @@ function paintVillage(p, seed, accent, Rpx) {
 
 /** Blocks of the tile: {L (pitch), sw (street width), bh (block half size), lots: [{x, y, u, v, c, id, type}],
  *  fringe: [{x, y, id}]} (km). */
-function gridLayout(cls, seed, R, Rpx, capital) {
+function gridLayout(cls, seed, R, Rpx, capital, old) {
   const L = Math.max(cls.lot * R, (LOT_MIN_PX / Rpx) * R);
   const sw = Math.max(L * 0.19, (1.3 / Rpx) * R);
   const half = L / 2, bh = half - sw / 2;
   const n = Math.ceil((R * 1.2) / L) + 1;
   const lots = [], fringe = [];
   const H = (id, salt) => hash01(seed * 7919 + id, salt);
-  const capR = capital ? capitolExtent(R, Rpx) : null;
+  const capR = capital ? squareExtent(R, Rpx) : null;
   for (let u = -n; u <= n; u++) {
     for (let v = -n; v <= n; v++) {
       const [x, y] = iso(u * L, v * L);
       const id = (u + 64) * 131 + (v + 64);
       const rho = Math.max(...foot(x, y, half, half).map((q) => hexRho(q[0], q[1], R)));
       const rc = hexRho(x, y, R);
-      const reserved = capR && reservedByCapitol(u * L, v * L, L, capR);
+      const reserved = capR && reservedBySquare(u * L, v * L, L, capR);
       const cut = !reserved && rc > cls.extent * 0.68 && H(id, 10) < cls.ragged;
       if (rho <= cls.extent && !cut) {
         const c = Math.max(0, Math.min(1, 1 - rc / cls.extent + (H(id, 11) - 0.5) * 0.16));
@@ -626,7 +729,12 @@ function gridLayout(cls, seed, R, Rpx, capital) {
       }
     }
   }
-  // Types: towers in the core, mid-rise around it, houses at the edge; a park, a plaza, a civic building.
+  // Types: towers in the core, mid-rise around it, houses at the edge; a park, a market, a pagoda or đình.
+  // An old quarter takes the inner lots of one quadrant (chosen by the seed) before anything else.
+  if (old) {
+    const su = hash01(seed, 70) < 0.5 ? -1 : 1, sv = hash01(seed, 71) < 0.5 ? -1 : 1;
+    for (const l of lots) if (!l.type && l.c > 0.35 && l.u * su > 0 && l.v * sv >= 0) l.type = "old";
+  }
   const free = lots.filter((l) => !l.type);
   const best = (ok, salt) => {
     let b = null, bv = -1;
@@ -641,9 +749,9 @@ function gridLayout(cls, seed, R, Rpx, capital) {
     const park = best((l) => l.c > 0.2 && l.c < 0.7, 12);
     if (park) park.type = "park";
   }
-  if (free.length > 12 && cls.core < 1) {
-    const plaza = best((l) => l.c > 0.45 && l.c < 0.82, 14);
-    if (plaza) plaza.type = "plaza";
+  if (free.length > 6) {
+    const market = best((l) => l.c > 0.45 && l.c < 0.82, 14);
+    if (market) market.type = "market";
   }
   if (cls.civic && free.length >= 8 && !capital) {
     const civ = best((l) => l.c > 0.3 && l.c < 0.75, 16);
@@ -659,183 +767,114 @@ function gridLayout(cls, seed, R, Rpx, capital) {
   return { L, sw, half, bh, lots, fringe };
 }
 
-// --- the capitol complex ---------------------------------------------------------------------------------------
+// --- the Ba Đình complex --------------------------------------------------------------------------------------
 
-function capitolExtent(R, Rpx) {
+function squareExtent(R, Rpx) {
   const q = R * 0.1 * Math.max(1, Math.min(1.5, 26 / Rpx)); // grows a bit when zoomed out, to stay legible
   return { q, half: q * 2.9, mallFrom: q * 2.9, mallTo: Math.min(R * 0.78, q * 8.5), mallHalf: q * 1.05 };
 }
-function reservedByCapitol(u, v, L, C) {
+function reservedBySquare(u, v, L, C) {
   const h = L * 0.5;
   const inSq = Math.abs(u) - h < C.half && Math.abs(v) - h < C.half;
   const inMall = u + h > C.mallFrom && u - h < C.mallTo && Math.abs(v) - h < C.mallHalf;
   return inSq || inMall;
 }
 
-function paintCapitolGround(p, C) {
+/** Ba Đình square: a stone forecourt round the hall, then a long square of lawn plots between paved walks. */
+function paintSquareGround(p, C) {
   const g = p.g;
-  // stone plaza
   fillPoly(g, foot(0, 0, C.half, C.half), css(P.plaza));
   fillPoly(g, foot(0, 0, C.half * 0.82, C.half * 0.82), css(P.plazaInner));
-  // the mall: lawn with two gravel walks and rows of trees
   const mu = (C.mallFrom + C.mallTo) / 2, mh = (C.mallTo - C.mallFrom) / 2;
-  const [mx, my] = iso(mu, 0);
-  fillPoly(g, foot(mx, my, mh, C.mallHalf), css(P.lawn));
-  if (p.detail >= 1) {
-    for (const sv of [-0.55, 0.55]) {
-      const [ax, ay] = iso(C.mallFrom, sv * C.mallHalf), [bx, by] = iso(C.mallTo, sv * C.mallHalf);
-      g.beginPath();
-      g.moveTo(ax, ay);
-      g.lineTo(bx, by);
-      g.strokeStyle = css(P.path, 0.85);
-      g.lineWidth = Math.max(p.px(1), C.q * 0.12);
-      g.stroke();
-    }
-    // reflecting pool near the far end
-    const [rx, ry] = iso(C.mallTo - C.q * 1.6, 0);
-    fillPoly(g, foot(rx, ry, C.q * 0.9, C.q * 0.22), "rgba(110,170,210,.95)");
+  fillPoly(g, foot(...iso(mu, 0), mh, C.mallHalf), css(P.plazaInner));
+  // lawn plots in a grid (the square's grass squares), 2 across and as many along as fit
+  const nu = Math.max(3, Math.round(mh / (C.mallHalf * 0.55))), du = (2 * mh) / nu, dv = C.mallHalf;
+  const plots = new Path2D();
+  for (let i = 0; i < nu; i++) {
+    for (const sv of [-0.5, 0.5]) poly(plots, foot(...iso(C.mallFrom + du * (i + 0.5), sv * dv), du * 0.4, dv * 0.4));
   }
+  g.fillStyle = css(P.lawn);
+  g.fill(plots);
 }
 
-/** Items to draw in depth order for the capitol complex: [{y, draw()}]. */
-function capitolItems(p, C) {
+/** Items to draw in depth order for the Ba Đình complex: [{y, draw()}]. */
+function squareItems(p, C) {
   const items = [];
   const q = C.q;
-  // tree rows along the mall
+  // tree rows along the square
   if (p.detail >= 1) {
     const nT = Math.max(2, Math.floor((C.mallTo - C.mallFrom - q) / Math.max(q * 0.9, p.px(5))));
     for (let k = 0; k <= nT; k++) {
       const u = C.mallFrom + q * 0.5 + ((C.mallTo - C.mallFrom - q * 1.6) * k) / nT;
-      for (const sv of [-0.95, 0.95]) {
+      for (const sv of [-1.08, 1.08]) {
         const [tx, ty] = iso(u, sv * C.mallHalf);
         items.push({ y: ty, draw: () => p.tree(tx, ty, Math.max(q * 0.22, p.px(1.6))) });
       }
     }
   }
-  // the obelisk at the far end of the mall
-  const [ox, oy] = iso(C.mallTo - q * 0.4, 0);
-  items.push({
-    y: oy,
-    draw: () => {
-      const a = Math.max(q * 0.13, p.px(1.2)), h = q * 2.1;
-      const F = foot(ox, oy, a, a);
-      p.shadow(F, h);
-      const t = p.box(F, 0, h, P.marble, { outline: false });
-      const tip = [ox, oy - h - a * 2.4];
-      fillPoly(p.g, [t.W, t.S, tip], css(shade(P.marble, 0.05)));
-      fillPoly(p.g, [t.S, t.E, tip], css(shade(P.marble, -0.3)));
-    },
-  });
-  // the capitol: a long marble block (long axis along B), a portico toward the mall, a drum and a dome
+  // the flagpole in the middle of the square
+  const [fx, fy] = iso(C.mallFrom + (C.mallTo - C.mallFrom) * 0.42, 0);
+  items.push({ y: fy, draw: () => flagpole(p, fx, fy, q * 2.4, q) });
+  // the hall: a long pale-stone block (long axis along B) on a stepped base, a colonnade of square pillars facing the
+  // square (the south-east face), a stepped flat roof and the flag
   items.push({
     y: 0,
     draw: () => {
-      const g = p.g;
-      const wingH = q * 0.55;
-      const F = foot(0, 0, q * 0.95, q * 2.5);
-      p.shadow(F, q * 1.4);
-      p.box(F, 0, wingH, P.marble);
-      // centre block, a little taller
-      const Fc = foot(0, 0, q * 1.05, q * 0.95);
-      p.box(Fc, 0, wingH * 1.25, P.marble);
-      // portico on the SE face with columns
-      const Fp = foot(q * 1.25, 0, q * 0.3, q * 0.6);
-      const por = p.box(Fp, 0, wingH * 1.1, shade(P.marble, -0.02));
-      // pediment
-      const ped = [por.S, por.E, [(por.S[0] + por.E[0]) / 2, (por.S[1] + por.E[1]) / 2 - q * 0.28]];
-      fillPoly(g, ped, css(shade(P.marble, -0.12)));
-      if (p.detail >= 1) {
-        const [, E, S] = Fp;
-        g.beginPath();
-        for (let k = 1; k < 6; k++) {
-          const t = k / 6;
-          const bx = S[0] + (E[0] - S[0]) * t, by = S[1] + (E[1] - S[1]) * t;
-          g.moveTo(bx, by - q * 0.05);
-          g.lineTo(bx, by - wingH * 1.0);
-        }
-        g.strokeStyle = "rgba(255,255,250,.85)";
-        g.lineWidth = Math.max(p.px(0.6), q * 0.05);
-        g.stroke();
+      const g = p.g, stone = [206, 204, 196];
+      const base = q * 0.14, wallH = q * 0.6;
+      const F0 = foot(0, 0, q * 1.1, q * 2.65), F = foot(0, 0, q * 0.95, q * 2.5);
+      p.shadow(F0, base + wallH + q * 0.3);
+      p.box(F0, 0, base, shade(stone, -0.12));
+      p.box(F, base, wallH, stone);
+      // the colonnade: a dark loggia behind square pillars on the face toward the square
+      const [, E, S] = F.map((v) => up(v, base));
+      const pt = (t, z) => [S[0] + (E[0] - S[0]) * t, S[1] + (E[1] - S[1]) * t - z];
+      fillPoly(g, [pt(0.04, wallH * 0.08), pt(0.96, wallH * 0.08), pt(0.96, wallH * 0.82), pt(0.04, wallH * 0.82)], "rgba(52,52,50,.85)");
+      const n = p.detail >= 1 ? 14 : 8, pw = 0.42 / n;
+      for (let k = 0; k < n; k++) {
+        const t = (k + 0.5) / n;
+        fillPoly(g, [pt(t - pw, wallH * 0.04), pt(t + pw, wallH * 0.04), pt(t + pw, wallH * 0.86), pt(t - pw, wallH * 0.86)], css(shade(stone, 0.06)));
       }
-      // drum (a short cylinder) on the centre block
-      const z = wingH * 1.25;
-      const rx = q * 0.78, ry = rx * 0.5, dh = q * 0.55;
-      const cy = -z;
-      const drum = g.createLinearGradient(-rx, 0, rx, 0);
-      drum.addColorStop(0, css(shade(P.dome, 0.0)));
-      drum.addColorStop(0.45, css(shade(P.dome, -0.08)));
-      drum.addColorStop(1, css(shade(P.dome, -0.4)));
-      g.beginPath();
-      g.ellipse(0, cy, rx, ry, 0, 0, Math.PI);
-      g.lineTo(-rx, cy - dh);
-      g.ellipse(0, cy - dh, rx, ry, 0, Math.PI, 2 * Math.PI);
-      g.closePath();
-      g.fillStyle = drum;
-      g.fill();
-      g.beginPath();
-      g.ellipse(0, cy - dh, rx, ry, 0, 0, Math.PI * 2);
-      g.fillStyle = css(shade(P.dome, -0.12));
-      g.fill();
-      if (p.detail >= 1) {
-        g.beginPath();
-        for (let k = 1; k < 10; k++) {
-          const a = Math.PI - (k * Math.PI) / 10;
-          const cx = Math.cos(a) * rx;
-          g.moveTo(cx, cy + Math.sin(a) * ry - q * 0.04);
-          g.lineTo(cx, cy + Math.sin(a) * ry - dh + q * 0.04);
-        }
-        g.strokeStyle = "rgba(120,110,95,.45)";
-        g.lineWidth = Math.max(p.px(0.5), q * 0.035);
-        g.stroke();
-      }
-      // dome: a tall half-ellipse with a highlight from the upper left
-      const dy = cy - dh, dr = rx * 0.9, dhh = q * 1.05;
-      const dome = g.createRadialGradient(-dr * 0.35, dy - dhh * 0.6, dr * 0.05, 0, dy - dhh * 0.3, dr * 1.25);
-      dome.addColorStop(0, "#ffffff");
-      dome.addColorStop(0.5, css(P.dome));
-      dome.addColorStop(1, css(shade(P.dome, -0.42)));
-      g.beginPath();
-      g.ellipse(0, dy, dr, ry * 0.9, 0, 0, Math.PI);
-      g.ellipse(0, dy, dr, dhh, 0, Math.PI, 0);
-      g.closePath();
-      g.fillStyle = dome;
-      g.fill();
-      g.strokeStyle = "rgba(60,50,40,.4)";
-      g.lineWidth = p.px(0.6);
-      g.stroke();
-      if (p.detail >= 1) {
-        // ribs
-        g.beginPath();
-        for (const f of [-0.55, 0, 0.55]) {
-          g.moveTo(dr * f, dy + ry * 0.9 * Math.sqrt(1 - f * f) * 0.9);
-          g.quadraticCurveTo(dr * f * 0.95, dy - dhh * 0.7, 0, dy - dhh);
-        }
-        g.strokeStyle = "rgba(150,140,120,.45)";
-        g.lineWidth = p.px(0.5);
-        g.stroke();
-      }
-      // lantern and statue
-      const lw = Math.max(q * 0.16, p.px(1.2)), lh = q * 0.36;
-      g.fillStyle = css(shade(P.dome, -0.05));
-      g.fillRect(-lw, dy - dhh - lh, lw * 2, lh + q * 0.04);
-      g.fillStyle = css(shade(P.dome, -0.35));
-      g.fillRect(0, dy - dhh - lh, lw, lh + q * 0.04);
-      g.beginPath();
-      g.arc(0, dy - dhh - lh - lw * 0.5, lw * 0.75, 0, Math.PI * 2);
-      g.fillStyle = "#c9a45c";
-      g.fill();
+      // stepped flat roof
+      p.box(foot(0, -(base + wallH), q * 0.8, q * 2.3), 0, q * 0.14, shade(stone, -0.04));
+      p.box(foot(0, -(base + wallH + q * 0.14), q * 0.55, q * 1.6), 0, q * 0.12, shade(stone, 0.02));
+      flagpole(p, 0, -(base + wallH + q * 0.26), q * 0.9, q * 0.6);
     },
   });
   return items;
 }
 
+/** A flagpole at (x, y) of height h with the national flag (red, gold star) of width ~fw. */
+function flagpole(p, x, y, h, fw) {
+  const g = p.g;
+  g.beginPath();
+  g.moveTo(x, y);
+  g.lineTo(x, y - h);
+  g.strokeStyle = "rgba(230,230,226,.95)";
+  g.lineWidth = Math.max(p.px(0.7), fw * 0.05);
+  g.stroke();
+  const w = Math.max(p.px(4), fw * 0.7), fh = w * 0.66, y0 = y - h;
+  g.beginPath();
+  g.moveTo(x, y0);
+  g.quadraticCurveTo(x + w * 0.5, y0 - fh * 0.12, x + w, y0 + fh * 0.05);
+  g.lineTo(x + w, y0 + fh * 1.05);
+  g.quadraticCurveTo(x + w * 0.5, y0 + fh * 0.88, x, y0 + fh);
+  g.closePath();
+  g.fillStyle = "#da251d";
+  g.fill();
+  g.beginPath();
+  star(g, x + w * 0.5, y0 + fh * 0.52, fh * 0.3);
+  g.fillStyle = "#ffcd00";
+  g.fill();
+}
+
 // --- painting a whole tile ---------------------------------------------------------------------------------------
 
-function paintTile(g, city, R, Rpx, dev, detail, col, seed, capital) {
+function paintTile(g, city, R, Rpx, dev, detail, col, seed, capital, old) {
   const cls = cityClass(city.population);
   const sCss = Rpx / R;
   const p = new Painter(g, R, sCss, dev, detail, col);
-  const items = cls.village ? paintVillage(p, seed, col, Rpx) : paintGrid(p, cls, seed, Rpx, capital);
+  const items = cls.village ? paintVillage(p, seed, Rpx) : paintGrid(p, cls, seed, Rpx, capital, old);
   items.sort((a, b) => a.y - b.y);
 
   // All cast shadows first, as one fill so overlapping shadows don't darken twice, then the buildings. The
@@ -846,8 +885,8 @@ function paintTile(g, city, R, Rpx, dev, detail, col, seed, capital) {
   p.shadows = new Path2D(); // the real pass adds the same shapes again; they are dropped
   for (const it of items) it.draw();
 
-  // No hex rim: the built-up area fades into the land around it, and the state shows only through accents (roof
-  // trims, crowns, steeples, water-tower bands). Up close a faint hairline keeps the city hex findable.
+  // No hex rim: the built-up area fades into the land around it, and the state shows only through accents (crowns
+  // on the towers). Up close a faint hairline keeps the city hex findable.
   if (detail >= 2 && !cls.village) {
     hexPath(g, 0, 0, R, 0.95);
     g.lineJoin = "round";
@@ -857,21 +896,20 @@ function paintTile(g, city, R, Rpx, dev, detail, col, seed, capital) {
   }
 }
 
-/** Town and bigger: lawn base, paved street grid, block fills; returns the standing items. */
-function paintGrid(p, cls, seed, Rpx, capital) {
+/** Town and bigger: pale base, paved street grid, block fills; returns the standing items. */
+function paintGrid(p, cls, seed, Rpx, capital, old) {
   const g = p.g, R = p.R;
-  const lay = gridLayout(cls, seed, R, Rpx, capital);
+  const lay = gridLayout(cls, seed, R, Rpx, capital, old);
   const { L, half, bh, lots, fringe } = lay;
   const ci = CITY_CLASSES.indexOf(cls);
-  const accent = p.accent;
   const r0 = (id, salt) => hash01(seed * 7919 + id, salt);
 
-  // 1. A suburban lawn base, opaque in the middle and feathered out to nothing near the hex edge, so the built-up
-  //    land blends into the forest, fields or suburbs around it (no pad, no rim).
+  // 1. A pale base (worn grass and bare ground), opaque in the middle and feathered out to nothing near the hex
+  //    edge, so the built-up land blends into the fields, forest or suburbs around it (no pad, no rim).
   g.save();
   hexPath(g, 0, 0, R, 0.97);
   g.clip();
-  const lawn = mix(mix(P.lawn, [96, 128, 66], 0.4), P.concrete, cls.grey * 0.6);
+  const lawn = mix(mix(P.lawn, [150, 142, 100], 0.4), P.concrete, 0.2 + cls.grey * 0.7);
   const lg = g.createRadialGradient(-R * 0.08, -R * 0.1, 0, 0, 0, R * 0.97);
   lg.addColorStop(0, css(shade(lawn, 0.04)));
   lg.addColorStop(0.5, css(lawn, 0.96));
@@ -908,12 +946,12 @@ function paintGrid(p, cls, seed, Rpx, capital) {
 
   // 3. Blocks: a sidewalk, then the block's own surface.
   const swk = Math.max(p.px(0.55), L * 0.035);
-  const paths = { walk: new Path2D(), paved: new Path2D(), lawn: new Path2D(), park: new Path2D(), plaza: new Path2D() };
+  const paths = { walk: new Path2D(), paved: new Path2D(), park: new Path2D(), plaza: new Path2D() };
   const parkWalks = new Path2D();
   for (const l of lots) {
     if (l.type === "reserved") continue;
     poly(paths.walk, foot(l.x, l.y, bh, bh));
-    const kind = l.type === "res" ? "lawn" : l.type === "park" ? "park" : l.type === "plaza" ? "plaza" : "paved";
+    const kind = l.type === "park" ? "park" : l.type === "civic" ? "plaza" : "paved";
     const F = foot(l.x, l.y, bh - swk, bh - swk);
     poly(paths[kind], F);
     if (l.type === "park" && p.detail >= 1) {
@@ -928,8 +966,6 @@ function paintGrid(p, cls, seed, Rpx, capital) {
   g.fill(paths.walk);
   g.fillStyle = css(P.concrete);
   g.fill(paths.paved);
-  g.fillStyle = css(P.lawnBlock);
-  g.fill(paths.lawn);
   g.fillStyle = css(P.park);
   g.fill(paths.park);
   g.fillStyle = css(P.plazaInner);
@@ -960,10 +996,29 @@ function paintGrid(p, cls, seed, Rpx, capital) {
     g.setLineDash([]);
     g.restore();
   }
-  const C = capital ? capitolExtent(R, Rpx) : null;
-  if (C) paintCapitolGround(p, C);
+  // 5. Motorbikes parked along the kerbs (close): a few specks in four colours on the street side of each block.
+  if (p.detail >= 2) {
+    const bikes = P.bikes.map(() => new Path2D());
+    const br = Math.max(p.px(0.55), L * 0.02);
+    for (const l of lots) {
+      if (l.type === "reserved" || l.type === "park") continue;
+      for (let k = 0; k < 5; k++) {
+        const t = (r0(l.id, 300 + k) - 0.5) * 1.7 * bh, side = k % 2 ? iso(t, bh + br * 1.4) : iso(bh + br * 1.4, t);
+        const bx = l.x + side[0], by = l.y + side[1];
+        const P2 = bikes[Math.floor(r0(l.id, 310 + k) * bikes.length)];
+        P2.moveTo(bx + br, by);
+        P2.ellipse(bx, by, br, br * 0.6, 0, 0, Math.PI * 2);
+      }
+    }
+    P.bikes.forEach((c, k) => {
+      g.fillStyle = c;
+      g.fill(bikes[k]);
+    });
+  }
+  const C = capital ? squareExtent(R, Rpx) : null;
+  if (C) paintSquareGround(p, C);
 
-  // 5. Everything that stands up.
+  // 6. Everything that stands up.
   const items = [];
   const hMax = R * (capital ? Math.min(cls.height, 0.24) : cls.height);
   const big = bh * p.s >= 6; // blocks big enough to subdivide (css px)
@@ -977,31 +1032,26 @@ function paintGrid(p, cls, seed, Rpx, capital) {
       if (!tallest || h > tallest.h) tallest = it;
       items.push(it);
     } else if (l.type === "mid") {
+      // taller tube-house rows (two back to back), or now and then a modern mid-rise block (an office or a hotel)
       const h = Math.max(p.px(3.5), R * (0.045 + 0.06 * r(24)) * (0.8 + ci * 0.12) * (0.6 + 0.6 * l.c));
-      const split = !big ? 1 : r(25) < 0.3 ? 1 : r(25) < 0.55 ? 2 : r(25) < 0.8 ? 3 : 4;
-      for (const pc of parcels(split, bh)) {
-        const [ox, oy] = iso(pc.u, pc.v);
-        const gap = Math.max(p.px(0.45), L * 0.018);
-        const k = pc.k;
-        items.push({
-          y: y + oy,
-          draw: () => drawBlock(p, x + ox, y + oy, pc.a - gap, pc.b - gap, h * (0.7 + 0.55 * r(26 + k)), r, k),
-        });
+      if (r(25) < 0.3) {
+        const split = !big ? 1 : r(27) < 0.5 ? 1 : 2;
+        for (const pc of parcels(split, bh)) {
+          const [ox, oy] = iso(pc.u, pc.v);
+          const gap = Math.max(p.px(0.45), L * 0.018);
+          items.push({ y: y + oy, draw: () => drawBlock(p, x + ox, y + oy, pc.a - gap, pc.b - gap, h * (0.7 + 0.55 * r(26 + pc.k)), r, pc.k) });
+        }
+      } else {
+        const floors = 3 + ci * 0.6 + 2 * l.c;
+        for (const pc of parcels(big ? 3 : 1, bh)) items.push(...tubeRow(p, x + iso(pc.u, pc.v)[0], y + iso(pc.u, pc.v)[1], pc.a, pc.b * 0.92, floors, r, 400 + pc.k * 50, false));
       }
-    } else if (l.type === "res") {
-      const spots = big ? [[-0.5, -0.5], [0.5, -0.5], [-0.5, 0.5], [0.5, 0.5]] : [[0, 0]];
-      spots.forEach(([su, sv], k) => {
-        const [hx, hy] = iso(su * bh, sv * bh);
-        const sz = big ? 0.34 : 0.55;
-        const along = r(100 + k) < 0.5 ? 0 : 1;
-        const a = bh * sz * (along === 0 ? 1 : 0.75) * (0.9 + r(50 + k) * 0.2);
-        const b = bh * sz * (along === 0 ? 0.75 : 1) * (0.9 + r(60 + k) * 0.2);
-        const wall = pick(P.walls, r(70 + k));
-        const roof = r(80 + k) < 0.2 ? mix(P.roofs[0], accent, 0.6) : pick(P.roofs, r(90 + k));
-        items.push({ y: y + hy, draw: () => p.house(x + hx, y + hy, a, b, wall, roof, along) });
-      });
-      if (big && p.detail >= 1 && r(105) < 0.7) {
-        items.push({ y: y + 0.001, draw: () => p.tree(x, y, Math.max(bh * 0.2, p.px(1.6)), r(106) < 0.2) });
+    } else if (l.type === "res" || l.type === "old") {
+      // rows of tube houses (or an old quarter's shophouses) back to back across the block, a yard tree now and then
+      const o = l.type === "old";
+      for (const pc of parcels(big ? 3 : 1, bh)) items.push(...tubeRow(p, x + iso(pc.u, pc.v)[0], y + iso(pc.u, pc.v)[1], pc.a, pc.b * 0.92, 2 + ci * 0.4, r, 400 + pc.k * 50, o));
+      if (!o && big && p.detail >= 1 && r(105) < 0.25) {
+        const [tx, ty] = iso(-bh * 0.6, 0);
+        items.push({ y: y + ty + 0.001, draw: () => p.tree(x + tx, y + ty, Math.max(bh * 0.18, p.px(1.6))) });
       }
     } else if (l.type === "park") {
       const nT = p.detail === 0 ? 2 : big ? 6 : 3;
@@ -1017,12 +1067,15 @@ function paintGrid(p, cls, seed, Rpx, capital) {
       }
       for (let k = 0; k < nT; k++) {
         const [tx, ty] = iso((r(110 + k) - 0.5) * bh * 1.5, (r(120 + k) - 0.5) * bh * 1.5);
-        items.push({ y: y + ty, draw: () => p.tree(x + tx, y + ty, Math.max(bh * 0.2, p.px(1.6)), r(130 + k) < 0.3) });
+        items.push({ y: y + ty, draw: () => p.tree(x + tx, y + ty, Math.max(bh * 0.2, p.px(1.6))) });
       }
-    } else if (l.type === "plaza") {
-      items.push({ y, draw: () => drawPlaza(p, x, y, bh, accent) });
+    } else if (l.type === "market") {
+      items.push({ y, draw: () => drawMarket(p, x, y, bh) });
     } else if (l.type === "civic") {
-      items.push({ y, draw: () => drawChurch(p, x, y, bh * 0.5, accent) });
+      // a pagoda (two-tier roof) or a đình in its paved courtyard, an old tree behind it
+      const [tx, ty] = iso(-bh * 0.55, -bh * 0.55);
+      items.push({ y: y + ty, draw: () => p.tree(x + tx, y + ty, Math.max(bh * 0.28, p.px(1.8))) });
+      items.push({ y, draw: () => drawTemple(p, x, y, bh * 0.6, r(17) < 0.5 ? 2 : 1) });
     }
   }
   // Fringe: houses and trees on the lawn outside the pad.
@@ -1033,15 +1086,21 @@ function paintGrid(p, cls, seed, Rpx, capital) {
       const [ox, oy] = iso((r(201 + k) - 0.5) * L * 0.6, (r(211 + k) - 0.5) * L * 0.6);
       const hx = f.x + ox, hy = f.y + oy;
       if (r(221 + k) < 0.45) {
-        items.push({ y: hy, draw: () => p.tree(hx, hy, Math.max(L * 0.1, p.px(1.6)), r(231 + k) < 0.3) });
-      } else {
+        items.push({ y: hy, draw: () => p.tree(hx, hy, Math.max(L * 0.1, p.px(1.6))) });
+      } else if (r(271 + k) < 0.5) {
+        // a single-storey house under a tiled or corrugated roof
         const a = Math.max(L * 0.14, p.px(2)), b = a * 0.75;
         const wall = pick(P.walls, r(241 + k)), roof = pick(P.roofs, r(251 + k));
         items.push({ y: hy, draw: () => p.house(hx, hy, a, b, wall, roof, r(261 + k) < 0.5 ? 0 : 1) });
+      } else {
+        // a lone tube house
+        const a = Math.max(L * 0.07, p.px(1.4)), b = a * 1.6, h = Math.max(p.px(3), R * 0.014 * (2 + Math.floor(r(281 + k) * 3)));
+        const wall = pick(P.facades, r(241 + k)), hr = (s2) => r(291 + k * 7 + s2);
+        items.push({ y: hy, draw: () => tubeHouse(p, hx, hy, a, b, h, wall, false, hr) });
       }
     }
   }
-  if (C) items.push(...capitolItems(p, C));
+  if (C) items.push(...squareItems(p, C));
   return items;
 }
 
@@ -1159,269 +1218,189 @@ function drawBlock(p, x, y, a, b, h, r, k) {
   }
 }
 
-function drawPlaza(p, x, y, bh, accent) {
-  const g = p.g;
-  fillPoly(g, foot(x, y, bh * 0.72, bh * 0.72), css(P.plaza));
-  const r = Math.max(bh * 0.24, p.px(1.4));
-  g.beginPath();
-  g.ellipse(x, y, r, r * 0.55, 0, 0, Math.PI * 2);
-  g.fillStyle = p.detail >= 1 ? "#6fb0d8" : css(accent);
-  g.fill();
-  g.strokeStyle = "rgba(255,255,255,.7)";
-  g.lineWidth = p.px(0.6);
-  g.stroke();
-  if (p.detail >= 2) {
-    g.beginPath();
-    g.moveTo(x, y);
-    g.lineTo(x, y - r * 1.2);
-    g.strokeStyle = "rgba(235,248,255,.85)";
-    g.lineWidth = p.px(0.8);
-    g.stroke();
-  }
-}
-
-// --- suburban fringe art (for terrain.js urban cells) --------------------------------------------------------------
+// --- urban fringe art (for terrain.js urban cells) -----------------------------------------------------------------
 // Drawn in R units (1 = hex radius) around the cell centre; upx = device px per unit; v = variant; kind "small" is the
-// compact version used on hills. The plan (roads, houses, trees, amenity) is shared by the ground and build sprites.
+// compact version used on hills. The plan (streets, houses, slabs, sheds, trees) is shared by the ground and build
+// sprites. Streets run straight along the iso axes (A, and one across along B); (u, v) are ground coordinates.
 
-const SUB_ROOFS = [[164, 71, 58], [107, 111, 122], [138, 90, 60], [79, 93, 110], [179, 107, 69], [91, 74, 68], [128, 64, 54]];
-const SUB_WALLS = [[239, 230, 210], [226, 215, 189], [216, 223, 224], [240, 220, 192], [230, 225, 214]];
+const SUB_WALLS = [[240, 226, 196], [232, 236, 228], [240, 210, 140], [204, 226, 200], [238, 196, 180], [206, 220, 238], [246, 236, 170]];
+const SUB_ROOFS = [[170, 76, 52], [150, 66, 48], [96, 104, 116], [182, 100, 62]];
+const SLAB_WALLS = [[236, 234, 226], [226, 222, 210], [214, 224, 230], [238, 228, 206]];
+const SHED_ROOFS = [[72, 112, 152], [176, 180, 182], [210, 212, 208], [74, 128, 120]];
 const suburbPlans = new Map();
 
-function segDist(x, y, a, b) {
-  const dx = b[0] - a[0], dy = b[1] - a[1];
-  const l2 = dx * dx + dy * dy || 1e-9;
-  const t = Math.max(0, Math.min(1, ((x - a[0]) * dx + (y - a[1]) * dy) / l2));
-  return Math.hypot(x - a[0] - dx * t, y - a[1] - dy * t);
-}
-
-function suburbPlan(v, small) {
-  const key = `${v}|${small ? 1 : 0}`;
+function suburbPlan(v, kind) {
+  const key = `${v}|${kind}`, small = kind === "small", estate = kind === "factory";
   let plan = suburbPlans.get(key);
   if (plan) return plan;
-  const r = rng(v * 7349 + (small ? 5 : 11));
-  const lim = small ? 0.5 : 0.82;
-  const inHex = (x, y, m = 0) => hexRho(x, y, 1) <= lim - m;
-  const roads = [], bulbs = [];
-  // A gently winding collector road across the cell.
-  const ang = (r() - 0.5) * 1.0;
-  const ca = Math.cos(ang), sa = Math.sin(ang);
-  const off = (r() - 0.5) * 0.24, wa = 0.04 + r() * 0.05, wp = r() * 6.28;
-  const span = small ? 0.62 : 1.15;
-  const along = (t) => {
-    const nrm = off + wa * Math.sin(t * 2.4 + wp);
-    return [t * ca - nrm * sa, t * sa + nrm * ca];
-  };
-  const collector = [];
-  for (let k = 0; k <= 24; k++) collector.push(along(-span + (2 * span * k) / 24));
-  roads.push(collector);
-  // Cul-de-sacs and loops branching off it, alternating sides.
-  const nb = small ? 1 : 2 + (r() < 0.55 ? 1 : 0);
-  let sideSign = r() < 0.5 ? -1 : 1;
-  for (let b = 0; b < nb; b++) {
-    const t = small ? (r() - 0.5) * 0.3 : -0.5 + (1.0 * (b + 0.5)) / nb + (r() - 0.5) * 0.12;
-    const base = along(t);
-    sideSign = -sideSign;
-    const dir = ang + sideSign * (Math.PI / 2) + (r() - 0.5) * 0.5;
-    const dx = Math.cos(dir), dy = Math.sin(dir);
-    const len = small ? 0.16 : 0.2 + r() * 0.12;
-    const loopC = [base[0] + dx * (len + 0.13), base[1] + dy * (len + 0.13)];
-    if (!small && r() < 0.45 && inHex(loopC[0], loopC[1], 0.14)) {
-      const loop = [];
-      const lx = 0.16, ly = 0.1;
-      for (let k = 0; k <= 20; k++) {
-        const a = (k / 20) * Math.PI * 2;
-        const ex = Math.cos(a) * lx, ey = Math.sin(a) * ly;
-        loop.push([loopC[0] + ex * dx - ey * dy, loopC[1] + ex * dy + ey * dx]);
+  const r = rng(v * 7349 + (small ? 5 : estate ? 17 : 11));
+  const type = estate ? "factory" : small || v % 8 < 5 ? "rows" : "kdt";
+  const lim = small ? 0.5 : estate ? 0.62 : 0.84;
+  const fits = (F, m = 0) => F.every(([x, y]) => hexRho(x, y, 1) <= lim - m);
+  const sw = 0.05; // street width
+  const P2 = 0.3 + r() * 0.06, v0 = (r() - 0.5) * 0.12, u0 = small ? 9 : (r() - 0.5) * 0.3;
+  const vs = small || estate ? [v0] : [v0 - P2, v0, v0 + P2];
+  const streets = vs.map((sv) => [iso(-1.3, sv), iso(1.3, sv)]);
+  if (!small) streets.push([iso(u0, -1.3), iso(u0, 1.3)]);
+  const nearStreet = (u, vv, m) => vs.some((sv) => Math.abs(vv - sv) < sw / 2 + m) || Math.abs(u - u0) < sw / 2 + m;
+  // Blocks between the streets that hold something else than houses: a khu đô thị's slabs and park, a factory's sheds.
+  const zones = []; // {u0, u1, v0, v1, what}
+  if (type === "kdt") {
+    const side = r() < 0.5 ? -1 : 1;
+    zones.push({ u0: side < 0 ? -1 : u0, u1: side < 0 ? u0 : 1, v0: v0, v1: v0 + P2, what: "slabs" });
+    zones.push({ u0: side < 0 ? u0 : -1, u1: side < 0 ? 1 : u0, v0: v0, v1: v0 + P2, what: "park" });
+  } else if (type === "factory") {
+    for (const [a0, a1] of [[v0 - P2, v0], [v0, v0 + P2]]) {
+      zones.push({ u0: -1, u1: u0, v0: a0, v1: a1, what: "sheds" });
+      zones.push({ u0, u1: 1, v0: a0, v1: a1, what: "sheds" });
+    }
+  }
+  const inZone = (u, vv) => zones.some((z) => u > z.u0 && u < z.u1 && vv > z.v0 && vv < z.v1);
+  const houses = [], boxes = [], trees = [], yards = [], parks = [];
+  // Townhouse rows (nhà phố liền kề) on both sides of every street: runs of 4-9 houses of one design, a gap now and then.
+  const w = 0.052, hb = 0.05;
+  for (const sv of vs) {
+    for (const side of [-1, 1]) {
+      const rv = sv + side * (sw / 2 + 0.006 + hb);
+      let run = 0, wall = null, floors = 3, cap = null;
+      for (let u = -1.1; u < 1.1; u += w) {
+        if (!small && Math.abs(u - u0) < sw / 2 + w * 0.6) { run = 0; continue; }
+        if (inZone(u, rv)) continue;
+        if (run <= 0) {
+          run = 4 + Math.floor(r() * 6);
+          wall = pick(SUB_WALLS, r());
+          floors = 2 + Math.floor(r() * 3);
+          cap = r() < 0.4 ? pick(SUB_ROOFS, r()) : null;
+          if (r() < 0.22) { u += w * (1 + Math.floor(r() * 2)); continue; } // a vacant lot
+        }
+        run--;
+        const [x, y] = iso(u, rv), F = foot(x, y, w * 0.48, hb);
+        if (!fits(F, 0.02)) continue;
+        // one design per run, but owners repaint and add a floor: half the houses get their own colour, some a floor more
+        const own = r() < 0.5, fl = floors + (r() < 0.3 ? 1 : 0);
+        houses.push({ x, y, F, h: fl * 0.026, wall: own ? pick(SUB_WALLS, r()) : wall, cap: cap || (r() < 0.2 ? pick(SUB_ROOFS, r()) : null), tank: r() < 0.6 });
       }
-      roads.push(loop);
-      roads.push([base, [base[0] + dx * (len + 0.13 - lx), base[1] + dy * (len + 0.13 - lx)]]);
+    }
+  }
+  for (const z of zones) {
+    const zu0 = Math.max(z.u0, -0.9) + (z.u0 === u0 ? sw : 0.02), zu1 = Math.min(z.u1, 0.9) - (z.u1 === u0 ? sw : 0.02);
+    const zv0 = z.v0 + sw * 0.6, zv1 = z.v1 - sw * 0.6;
+    if (zu1 - zu0 < 0.12) continue;
+    const cu = (zu0 + zu1) / 2, cv = (zv0 + zv1) / 2, hu = (zu1 - zu0) / 2, hv = (zv1 - zv0) / 2;
+    if (z.what === "park") {
+      const F = foot(...iso(cu, cv), hu * 0.9, hv * 0.85);
+      if (fits(F, -0.04)) parks.push(F);
+      for (let k = 0; k < 6; k++) {
+        const tu = cu + (r() - 0.5) * hu * 1.6, tv = cv + (r() - 0.5) * hv * 1.5, [x, y] = iso(tu, tv);
+        if (hexRho(x, y, 1) <= lim - 0.04) trees.push({ x, y, h: 0.06 + r() * 0.025 });
+      }
+    } else if (z.what === "slabs") {
+      // apartment slabs, 12-20 floors, along A in two lines
+      const n = Math.max(1, Math.min(3, Math.floor((2 * hu) / 0.2)));
+      for (let k = 0; k < n; k++) {
+        for (const dv of [-0.5, 0.5]) {
+          const su = cu - hu + ((k + 0.5) * 2 * hu) / n, [x, y] = iso(su, cv + dv * hv), F = foot(x, y, Math.min(0.09, hu / n - 0.02), 0.04);
+          if (fits(F, 0.02)) boxes.push({ x, y, F, h: 0.26 + r() * 0.18, wall: pick(SLAB_WALLS, r()), slab: true });
+        }
+      }
     } else {
-      const bend = (r() - 0.5) * 0.08;
-      const mid = [base[0] + dx * len * 0.5 - dy * bend, base[1] + dy * len * 0.5 + dx * bend];
-      const end = [base[0] + dx * len, base[1] + dy * len];
-      roads.push([base, mid, end]);
-      bulbs.push([end[0], end[1], 0.05]);
-    }
-  }
-  const roadDist = (x, y) => {
-    let d = Infinity;
-    for (const R2 of roads) for (let k = 1; k < R2.length; k++) d = Math.min(d, segDist(x, y, R2[k - 1], R2[k]));
-    for (const [bx, by, br] of bulbs) d = Math.min(d, Math.hypot(x - bx, y - by) - br);
-    return d;
-  };
-  // An amenity by the collector: a strip mall with its parking lot, or a school with its playing field.
-  let amenity = null;
-  if (!small) {
-    for (const t of [0.45, -0.45, 0.15, -0.15]) {
-      for (const sg of [1, -1]) {
-        const [cx0, cy0] = along(t);
-        const x = cx0 - sa * sg * 0.17, y = cy0 + ca * sg * 0.17;
-        if (amenity || !inHex(x, y, 0.16)) continue;
-        let clear = Infinity;
-        for (let k = 1; k < roads.length; k++) for (let q = 1; q < roads[k].length; q++) clear = Math.min(clear, segDist(x, y, roads[k][q - 1], roads[k][q]));
-        for (const [bx, by, br] of bulbs) clear = Math.min(clear, Math.hypot(x - bx, y - by) - br);
-        if (clear < 0.17) continue;
-        amenity = { x, y, kind: r() < 0.5 ? "school" : "mall", a: 0.11, b: 0.065 };
+      // a factory: a concrete yard, one or two big sheds, an office block by the gate
+      const [x, y] = iso(cu, cv), Y = foot(x, y, hu * 0.96, hv * 0.96);
+      if (!fits(Y, -0.06)) continue;
+      yards.push(Y);
+      const two = hu > 0.3 && r() < 0.6;
+      for (const k of two ? [-1, 1] : [0]) {
+        const sa = two ? hu * 0.42 : hu * 0.7, [sx, sy] = iso(cu + k * hu * 0.5, cv - hv * 0.1), F = foot(sx, sy, sa, hv * 0.62);
+        if (fits(F, 0.01)) boxes.push({ x: sx, y: sy, F, h: 0.045 + r() * 0.02, wall: [214, 210, 200], roof: pick(SHED_ROOFS, r()), shed: true });
       }
+      const [ox, oy] = iso(cu - hu * 0.75, cv + hv * 0.72), Fo = foot(ox, oy, 0.035, 0.03);
+      if (fits(Fo, 0.01)) boxes.push({ x: ox, y: oy, F: Fo, h: 0.08, wall: pick(SLAB_WALLS, r()) });
     }
   }
-  const inAmenity = (x, y, m) => amenity && Math.abs(x - amenity.x) < 0.17 + m && Math.abs(y - amenity.y) < 0.12 + m;
-  // Houses: both sides of every road, then around the bulbs; nothing too close to a road or another house.
-  const roofs = [pick(SUB_ROOFS, r()), pick(SUB_ROOFS, r()), pick(SUB_ROOFS, r())];
-  const houses = [];
-  const hs = small ? 0.048 : 0.052;
-  const tryHouse = (x, y, ridge) => {
-    if (!inHex(x, y, 0.04) || roadDist(x, y) < 0.062 || inAmenity(x, y, 0.03)) return;
-    for (const h of houses) if (Math.hypot(h.x - x, h.y - y) < 0.098) return;
-    houses.push({ x, y, s: hs * (0.9 + r() * 0.2), ridge, wall: pick(SUB_WALLS, r()), roof: roofs[Math.floor(r() * 3)] });
-  };
-  for (const R2 of roads) {
-    let carry = 0.05;
-    for (let k = 1; k < R2.length; k++) {
-      const [ax, ay] = R2[k - 1], [bx, by] = R2[k];
-      const sl = Math.hypot(bx - ax, by - ay);
-      if (!sl) continue;
-      const tx = (bx - ax) / sl, ty = (by - ay) / sl;
-      const ridge = Math.abs(tx * 0.866 + ty * 0.5) >= Math.abs(-tx * 0.866 + ty * 0.5) ? 0 : 1;
-      let d = carry;
-      for (; d < sl; d += 0.106) {
-        const x = ax + tx * d, y = ay + ty * d;
-        tryHouse(x - ty * 0.088, y + tx * 0.088, ridge);
-        tryHouse(x + ty * 0.088, y - tx * 0.088, ridge);
-      }
-      carry = d - sl;
-    }
+  // Trees along the streets' edges and in the gaps (round canopy trees; no conifers in the lowlands).
+  const taken = (x, y) => houses.some((h) => Math.abs(h.x - x) < 0.05 && Math.abs(h.y - y) < 0.05) || boxes.some((b) => Math.abs(b.x - x) < 0.14 && Math.abs(b.y - y) < 0.1);
+  for (let k = 0, tries = 0; k < (small ? 3 : 9) && tries < 60; tries++) {
+    const tu = (r() - 0.5) * 2 * lim, tv = (r() - 0.5) * 2 * lim, [x, y] = iso(tu, tv);
+    if (hexRho(x, y, 1) > lim - 0.04 || nearStreet(tu, tv, 0.01) || inZone(tu, tv) || taken(x, y)) continue;
+    trees.push({ x, y, h: 0.06 + r() * 0.025 });
+    k++;
   }
-  for (const [bx, by, br] of bulbs) {
-    for (let k = 0; k < 5; k++) {
-      const a = (k / 5) * Math.PI * 2 + r() * 0.4;
-      tryHouse(bx + Math.cos(a) * (br + 0.08), by + Math.sin(a) * (br + 0.08), k % 2);
-    }
-  }
-  // Tree clumps in the gaps, plus a few yard trees.
-  const trees = [];
-  const tryTree = (x, y) => {
-    if (!inHex(x, y, 0.02) || roadDist(x, y) < 0.045 || inAmenity(x, y, 0)) return;
-    for (const h of houses) if (Math.hypot(h.x - x, h.y - y) < 0.07) return;
-    for (const t of trees) if (Math.hypot(t.x - x, t.y - y) < 0.045) return;
-    trees.push({ x, y, h: 0.06 + r() * 0.025, conifer: r() < 0.22 });
-  };
-  const nc = small ? 2 : 4 + Math.floor(r() * 3);
-  for (let c = 0; c < nc; c++) {
-    let cx = 0, cy = 0;
-    for (let tries = 0; tries < 14; tries++) {
-      cx = (r() - 0.5) * 1.5 * lim;
-      cy = (r() - 0.5) * 1.6 * lim;
-      if (inHex(cx, cy, 0.06) && roadDist(cx, cy) > 0.09) break;
-    }
-    const n = 3 + Math.floor(r() * 4);
-    for (let k = 0; k < n; k++) tryTree(cx + (r() - 0.5) * 0.2, cy + (r() - 0.5) * 0.15);
-  }
-  for (const h of houses) if (r() < 0.3) tryTree(h.x + (r() - 0.5) * 0.06, h.y - 0.075);
-  // Lawn tone varies by variant.
-  const lawn = shade(mix([116, 152, 80], [146, 156, 92], r()), (r() - 0.5) * 0.12);
-  plan = { lim, roads, bulbs, houses, trees, amenity, lawn };
+  // Ground tone: dusty, a little greener on some variants.
+  const ground = shade(mix([186, 182, 164], [140, 154, 102], 0.2 + r() * 0.3), (r() - 0.5) * 0.08);
+  plan = { lim, type, streets, houses, boxes, trees, yards, parks, ground };
   suburbPlans.set(key, plan);
   return plan;
 }
 
 function paintSuburbGround(g, upx, v, kind) {
-  const plan = suburbPlan(v, kind === "small");
+  const plan = suburbPlan(v, kind);
   const px = 1 / upx;
-  const small = kind === "small";
+  const small = kind !== ""; // a patch (hill houses, a factory estate) on the cell's own land, not the whole cell
   g.save();
-  hexPath(g, 0, 0, 1, small ? 0.92 : 1.01);
+  hexPath(g, 0, 0, 1, small ? plan.lim + 0.1 : 1.01);
   g.clip();
-  // Lawn over the cell (edge to edge, so neighbouring suburbs merge instead of showing a hex mosaic) with a
+  // Ground over the cell (edge to edge, so neighbouring cells merge instead of showing a hex mosaic) with a
   // feathered edge, then soft tone variation.
   g.save();
-  g.shadowColor = css(plan.lawn, 0.85);
+  g.shadowColor = css(plan.ground, 0.85);
   g.shadowBlur = Math.max(1, 0.07 * upx);
   hexPath(g, 0, 0, 1, small ? plan.lim + 0.05 : 0.97);
-  g.fillStyle = css(plan.lawn, 0.9);
+  g.fillStyle = css(plan.ground, 0.9);
   g.fill();
   g.restore();
   const rr = rng(v * 131 + 7);
   for (let k = 0; k < 5; k++) {
     const mx = (rr() - 0.5) * 1.3 * plan.lim, my = (rr() - 0.5) * 1.3 * plan.lim, mr = 0.18 + rr() * 0.2;
     const mg = g.createRadialGradient(mx, my, 0, mx, my, mr);
-    const c = k % 2 ? "40,64,22" : "232,238,190";
-    mg.addColorStop(0, `rgba(${c},.13)`);
+    const c = k % 2 ? "70,96,40" : "236,228,196";
+    mg.addColorStop(0, `rgba(${c},.14)`);
     mg.addColorStop(1, `rgba(${c},0)`);
     g.fillStyle = mg;
     g.fillRect(mx - mr, my - mr, 2 * mr, 2 * mr);
   }
-  // Amenity ground: a parking lot with stalls, or a playing field with a track.
-  const am = plan.amenity;
-  if (am) {
-    if (am.kind === "mall") {
-      const F = foot(am.x, am.y + 0.035, am.a + 0.05, am.b + 0.06);
-      fillPoly(g, F, "rgba(118,116,110,.92)");
-      if (upx > 50) {
-        g.beginPath();
-        const [N, E, S, W] = F;
-        for (let q = 1; q < 8; q++) {
-          const t = q / 8;
-          g.moveTo(W[0] + (S[0] - W[0]) * t, W[1] + (S[1] - W[1]) * t);
-          g.lineTo(W[0] + (S[0] - W[0]) * t + (N[0] - W[0]) * 0.35, W[1] + (S[1] - W[1]) * t + (N[1] - W[1]) * 0.35);
-        }
-        g.strokeStyle = "rgba(235,232,220,.55)";
-        g.lineWidth = px;
-        g.stroke();
-      }
-    } else {
-      const [ox, oy] = iso(0, am.b + 0.09);
-      const F = foot(am.x + ox, am.y + oy, am.a + 0.02, 0.075);
-      fillPoly(g, F, "rgba(132,178,88,.95)");
-      const cx = am.x + ox, cy = am.y + oy;
-      g.beginPath();
-      g.ellipse(cx, cy, 0.09, 0.045, 0, 0, Math.PI * 2);
-      g.strokeStyle = "rgba(196,110,84,.8)";
-      g.lineWidth = Math.max(px * 1.2, 0.012);
-      g.stroke();
-      fillPoly(g, foot(am.x, am.y, am.a + 0.03, am.b + 0.03), "rgba(150,146,136,.85)");
-    }
-  }
+  for (const Y of plan.yards) fillPoly(g, Y, "rgba(178,174,164,.95)");
+  for (const F of plan.parks) fillPoly(g, F, "rgba(112,152,78,.95)");
   suburbRoads(g, plan, px);
   g.restore();
 }
 
-/** The plan's roads: a dark casing, then the light surface; cul-de-sac bulbs as discs. */
+/** The plan's streets: a dark casing, then the light surface. */
 function suburbRoads(g, plan, px) {
-  g.lineCap = "round";
-  g.lineJoin = "round";
+  g.lineCap = "butt";
   const roadP = new Path2D();
-  for (const R2 of plan.roads) {
-    roadP.moveTo(R2[0][0], R2[0][1]);
-    for (let k = 1; k < R2.length; k++) roadP.lineTo(R2[k][0], R2[k][1]);
+  for (const [a, b] of plan.streets) {
+    roadP.moveTo(a[0], a[1]);
+    roadP.lineTo(b[0], b[1]);
   }
-  const bulbP = new Path2D();
-  for (const [bx, by, br] of plan.bulbs) {
-    bulbP.moveTo(bx + br, by);
-    bulbP.arc(bx, by, br, 0, Math.PI * 2);
+  g.strokeStyle = "rgba(70,66,58,.55)";
+  g.lineWidth = Math.max(0.05, px * 2.4);
+  g.stroke(roadP);
+  g.strokeStyle = "#b4b0a4";
+  g.lineWidth = Math.max(0.034, px * 1.4);
+  g.stroke(roadP);
+}
+
+/** A box on footprint F of height h (lit south-west face, shaded south-east face, lit top); returns the top corners. */
+function boxR(g, F, h, base, lw) {
+  const [N, E, S, W] = F, [Nt, Et, St, Wt] = F.map((q) => up(q, h));
+  fillPoly(g, [W, S, St, Wt], css(base));
+  fillPoly(g, [S, E, Et, St], css(shade(base, -0.34)));
+  fillPoly(g, [Nt, Et, St, Wt], css(shade(base, 0.12)));
+  if (lw) {
+    g.beginPath();
+    poly(g, [W, Wt, Nt, Et, E, S]);
+    g.strokeStyle = "rgba(40,28,18,.35)";
+    g.lineWidth = lw;
+    g.stroke();
   }
-  const casing = Math.max(0.05, px * 2.4), surface = Math.max(0.034, px * 1.4);
-  g.strokeStyle = "rgba(70,66,58,.55)";
-  g.lineWidth = casing;
-  g.stroke(roadP);
-  g.save();
-  g.lineWidth = casing - surface;
-  g.strokeStyle = "rgba(70,66,58,.55)";
-  g.stroke(bulbP);
-  g.restore();
-  g.strokeStyle = "#b8b4a8";
-  g.lineWidth = surface;
-  g.stroke(roadP);
-  g.fillStyle = "#b8b4a8";
-  g.fill(bulbP);
+  return [Nt, Et, St, Wt];
 }
 
 function paintSuburbBuild(g, upx, v, kind) {
-  const plan = suburbPlan(v, kind === "small");
+  const plan = suburbPlan(v, kind);
   const px = 1 / upx;
   if (kind === "small") {
-    // the small (hill) version has no ground sprite under it: its own roads, kept to its little patch
+    // the small (hill) version has no ground sprite under it: its own street, kept to its little patch
     g.save();
     hexPath(g, 0, 0, 1, plan.lim + 0.08);
     g.clip();
@@ -1430,43 +1409,48 @@ function paintSuburbBuild(g, upx, v, kind) {
   }
   const items = [];
   const shadows = new Path2D();
+  const lw = upx > 60 ? px * 0.8 : 0;
   for (const h of plan.houses) {
-    const a = h.ridge === 0 ? h.s : h.s * 0.72, b = h.ridge === 0 ? h.s * 0.72 : h.s;
-    const F = foot(h.x, h.y, a, b);
-    const hw = Math.max(h.s * 0.55, px * 2), hr = Math.max(h.s * 0.45, px * 1.5);
-    poly(shadows, shadowOf(F, hw + hr * 0.6));
-    items.push({ y: h.y, draw: () => gable(g, F, hw, hr, h.wall, h.roof, h.ridge, upx * h.s > 14 ? px * 0.8 : 0) });
-  }
-  for (const t of plan.trees) {
-    const rad = Math.max(t.h * 0.6, px * 2);
-    items.push({ y: t.y, draw: () => treeShape(g, t.x, t.y, rad, t.conifer, true) });
-  }
-  const am = plan.amenity;
-  if (am) {
-    const F = foot(am.x, am.y, am.a, am.b);
-    const h = am.kind === "mall" ? 0.05 : 0.07;
-    poly(shadows, shadowOf(F, h));
+    poly(shadows, shadowOf(h.F, h.h));
     items.push({
-      y: am.y,
+      y: h.y,
       draw: () => {
-        const wall = am.kind === "mall" ? [226, 214, 188] : [178, 96, 72];
-        const [N, E, S, W] = F;
-        const [Nt, Et, St, Wt] = F.map((q) => up(q, h));
-        fillPoly(g, [W, S, St, Wt], css(wall));
-        fillPoly(g, [S, E, Et, St], css(shade(wall, -0.32)));
-        fillPoly(g, [Nt, Et, St, Wt], css(am.kind === "mall" ? [196, 192, 182] : [150, 148, 140]));
-        // a storefront / window band on the lit face
-        const bz = h * 0.35, bh = h * 0.3;
-        fillPoly(g, [up(W, bz), up(S, bz), up(S, bz + bh), up(W, bz + bh)], am.kind === "mall" ? "rgba(60,80,104,.7)" : "rgba(240,236,224,.6)");
-        if (upx > 40) {
-          g.beginPath();
-          poly(g, [W, Wt, Nt, Et, E, S]);
-          g.strokeStyle = "rgba(40,28,18,.35)";
-          g.lineWidth = px * 0.8;
-          g.stroke();
+        const top = boxR(g, h.F, h.h, h.wall, lw);
+        if (h.cap) gable(g, top, 0, 0.022, h.wall, h.cap, 1, 0);
+        else if (h.tank && upx > 40) {
+          const tx = (top[0][0] + top[3][0]) / 2, ty = (top[0][1] + top[3][1]) / 2 + 0.006;
+          g.fillStyle = "#d8dee4";
+          g.fillRect(tx - 0.008, ty - 0.014, 0.016, 0.014);
         }
       },
     });
+  }
+  for (const b of plan.boxes) {
+    poly(shadows, shadowOf(b.F, b.h));
+    items.push({
+      y: b.y,
+      draw: () => {
+        if (b.shed) {
+          gable(g, b.F, b.h, 0.03, b.wall, b.roof, 0, lw);
+          return;
+        }
+        boxR(g, b.F, b.h, b.wall, lw);
+        if (b.slab && upx > 30) {
+          // floor bands on both faces
+          const [, E, S, W] = b.F, bands = new Path2D();
+          for (let z = 0.02; z < b.h - 0.01; z += 0.02) {
+            bands.moveTo(W[0], W[1] - z); bands.lineTo(S[0], S[1] - z); bands.lineTo(E[0], E[1] - z);
+          }
+          g.strokeStyle = "rgba(70,80,96,.35)";
+          g.lineWidth = Math.max(px * 0.7, 0.004);
+          g.stroke(bands);
+        }
+      },
+    });
+  }
+  for (const t of plan.trees) {
+    const rad = Math.max(t.h * 0.6, px * 2);
+    items.push({ y: t.y, draw: () => treeShape(g, t.x, t.y, rad, false, true) });
   }
   g.fillStyle = "rgba(22,24,12,.24)";
   g.fill(shadows);
@@ -1474,7 +1458,7 @@ function paintSuburbBuild(g, upx, v, kind) {
   for (const it of items) it.draw();
 }
 
-/** Suburban fringe sprites for terrain.js (same shape as its SPRITES entries; boxes in R units). */
+/** Urban fringe sprites for terrain.js (same shape as its SPRITES entries; boxes in R units). */
 export const SUBURB_ART = Object.freeze({
   ground: { box: { x0: -0.92, y0: -1.02, x1: 0.92, y1: 1.02 }, paint: paintSuburbGround },
   build: { box: { x0: -0.92, y0: -1.1, x1: 0.92, y1: 1.0 }, paint: paintSuburbBuild },
@@ -1558,7 +1542,7 @@ export function drawCityTile(ctx, city, x, y, R, opts = {}) {
   }
   const lod = opts.lod ?? lodFor(Rpx);
   const detail = lod === "close" ? 2 : lod === "near" ? 1 : 0;
-  const capital = isCapital(city);
+  const capital = isCapital(city), old = OLD_QUARTER.has(city.id);
   const RpxB = bucket(Rpx, 4); // layout zoom bucket (css px)
   const m = ctx.getTransform ? ctx.getTransform() : null;
   const kDev = m && m.a > 0 ? m.a : s; // device px per km
@@ -1580,13 +1564,13 @@ export function drawCityTile(ctx, city, x, y, R, opts = {}) {
   let sp = null;
   if (flat && R * kS <= MAX_BIG_RPX) {
     const key = `${seed}|${cityClass(city.population).id}|${col.join(",")}|${capital ? 1 : 0}|${RpxB.toFixed(3)}|${detail}|${kS.toFixed(4)}|${R}`;
-    const paint = (g, k) => paintTile(g, city, R, RpxB, k, detail, col, seed, capital);
+    const paint = (g, k) => paintTile(g, city, R, RpxB, k, detail, col, seed, capital, old);
     sp = isBig ? getSprite(bigSpriteCache, key, kS, R, paint, BIG_KEEP_MS) : getSprite(spriteCache, key, kS, R, paint);
   }
   if (!sp) {
     ctx.save();
     ctx.translate(x, y);
-    paintTile(ctx, city, R, RpxB, kDev, detail, col, seed, capital);
+    paintTile(ctx, city, R, RpxB, kDev, detail, col, seed, capital, old);
     ctx.restore();
     return;
   }
@@ -1625,7 +1609,7 @@ export function drawCityDot(ctx, x, y, R, { Rpx, s, capital = false, population 
   if (capital) drawCapitalLandmark(ctx, x, y - r * 0.05, r * 4.2, { s });
 }
 
-/** The capital marker used with dots: a small gold star (the full tile has the domed capitol instead). */
+/** The capital marker used with dots: a small gold star (the full tile has the Ba Đình hall and square instead). */
 export function drawCapitalLandmark(ctx, x, y, R, { s = 1 } = {}) {
   ctx.beginPath();
   star(ctx, x, y, Math.max(R * 0.2, 3.2 / s));

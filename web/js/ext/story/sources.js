@@ -34,3 +34,31 @@ export const WIKI = {
   units: { url: "https://vi.wikipedia.org/wiki/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_(Vi%E1%BB%87t_Nam)",
     end2024: { units: 63, provinces: 57, cities: 6 }, sep2026: { units: 34, provinces: 25, cities: 9 } },
 };
+
+// Wikipedia articles fetched through the MediaWiki API for the newer chapters (data/raw/wikipedia_events/<raw>, listed in
+// data/stats/history/articles.json). `quote` is verbatim from revision `rev`; tests/test_story2.py checks each quote is
+// in the cached extract and each number below is in its quote.
+const W = (t) => `https://en.wikipedia.org/wiki/${encodeURIComponent(t.replace(/ /g, "_")).replace(/%28/g, "(").replace(/%29/g, ")")}`;
+export const ARTICLES = {
+  rail: { raw: "story_rail.json", rev: 1384680358, url: W("North–South railway (Vietnam)"), km: 1726, from: 1899, to: 1936, share2007: { passengers: 85, cargo: 60 },
+    quotes: [
+      "It is a single-track metre gauge line connecting the capital Hanoi in the north to Ho Chi Minh City in the south, for a total length of 1,726 km (1,072 mi).",
+      "The line was established during French colonial rule, and was completed over a period of nearly forty years, from 1899 to 1936.",
+      "As of 2007, 85% of the network's passenger volume and 60% of its cargo volume was transported along the line.",
+    ] },
+  rail_vinh_hue: { raw: "story_rail.json", rev: 1384680358, url: W("North–South railway (Vietnam)"), from: 1913, to: 1927, last_from: 1930, last_to: 1936,
+    quotes: ["The Vinh-Huế section was constructed from 1913 to 1927, and finally, the remaining Huế–Nha Trang section was constructed from 1930 to 1936."] },
+  rail_1936: { raw: "story_rail.json", rev: 1384680358, url: W("North–South railway (Vietnam)"), date: "1936-10-02",
+    quotes: ["On 2 October 1936, the entire 1,726 km (1,072 mi) Hanoi–Saigon link was formally put into full operation."] },
+  rail_1976: { raw: "story_rail.json", rev: 1384680358, url: W("North–South railway (Vietnam)"), date: "1976-12-31",
+    quotes: ["Heavily damaged, the war-torn North–South railway line was nevertheless restored and returned to service on 31 December 1976, promoted as a symbol of Vietnamese unity."] },
+  highlands: { raw: "story_highlands.json", rev: 1378528282, url: W("Central Highlands (Vietnam)"), basalt_mha: 2, basalt_share: 60, coffee_kha: 290, coffee_share: 80,
+    quotes: [
+      "The region is home to nearly 2 million hectares of fertile basalt, making up for 60% of the national basalt soil, which is very suitable for industrial crops such as coffee, cocoa, pepper, mulberry, and tea.",
+      "The current coffee area here is over 290 thousand hectares, accounting for 80% of the country's coffee area.",
+    ] },
+  highlands_provinces: { raw: "story_highlands.json", rev: 1378528282, url: W("Central Highlands (Vietnam)"), abbr: ["DLA", "GLA", "LDO", "QNG"],
+    quotes: ["Lâm Đồng (before were Lâm Đồng and Đắk Nông)"] },
+  coffee: { raw: "story_coffee.json", rev: 1388220226, url: W("Coffee production in Vietnam"), robusta: 97,
+    quotes: ["Vietnam is the second largest producer in the world after Brazil, with Robusta coffee accounting to 97 per cent of Vietnam's total output."] },
+};

@@ -3,7 +3,7 @@
 // All original art drawn in code; painted once per (kind, size bucket) into sprites (render/art/sprites.js) and
 // stamped into the CACHED static map by ext/layers/ (never per frame).
 //
-//   FORT_KINDS, fortKind(component) → "army" | "navy" | "air" | "marines" | "guard" | "air_guard" | "reserve" | "other"
+//   FORT_KINDS, fortKind(component) → "army" | "navy" | "air" | "other"
 //   drawFort(ctx, kind, x, y, size, {tier, joint, muted, coastal})   size = glyph width in ctx user units
 //   drawRestricted(ctx, hatch, vp, o)                            hatched hexes + dashed boundary (see prepareCellSet)
 //   prepareCellSet(w, cells) → {path: Path2D, edges: Path2D, bbox}   hex area and its outer boundary, world km
@@ -60,40 +60,27 @@ function flag(g, upx, x, y, h, col) {
 
 // --- forts ----------------------------------------------------------------------------------------------------------
 
-/** Component palettes: walls, roof / accent, flag. */
+/** Component palettes (military.json components): walls, roof / accent, flag; `name` is only a fallback label. */
 export const FORT_KINDS = {
-  army: { name: "Army", wall: "#a8966a", accent: "#5f6b3a", flag: "#e0b44a", pad: "rgba(96,108,58,.72)" },
+  army: { name: "Ground forces", wall: "#a8966a", accent: "#5f6b3a", flag: "#e0b44a", pad: "rgba(96,108,58,.72)" },
   navy: { name: "Navy", wall: "#98a4b2", accent: "#22406a", flag: "#e8e2d0", pad: "rgba(34,64,106,.62)" },
-  air: { name: "Air Force & Space Force", wall: "#b2bac4", accent: "#3a6aa8", flag: "#9cc4ec", pad: "rgba(58,106,168,.55)" },
-  marines: { name: "Marine Corps", wall: "#b0946e", accent: "#8a2a2a", flag: "#e2b84a", pad: "rgba(138,42,42,.6)" },
-  guard: { name: "Army National Guard", wall: "#a8a28c", accent: "#6a6a52", flag: "#cfc3a0", pad: "rgba(110,110,84,.55)" },
-  air_guard: { name: "Air National Guard", wall: "#aeb0b2", accent: "#5a6a7a", flag: "#b9c8d8", pad: "rgba(90,106,122,.55)" },
-  reserve: { name: "Reserve", wall: "#a49e92", accent: "#6a6258", flag: "#d8cfba", pad: "rgba(106,98,88,.5)" },
-  other: { name: "Defense agency", wall: "#a2a2a2", accent: "#4a4a5a", flag: "#d0d0d0", pad: "rgba(74,74,90,.5)" },
+  air: { name: "Air Defence – Air Force", wall: "#b2bac4", accent: "#3a6aa8", flag: "#9cc4ec", pad: "rgba(58,106,168,.55)" },
+  other: { name: "Border guard, coast guard & other", wall: "#a2a2a2", accent: "#4a4a5a", flag: "#d0d0d0", pad: "rgba(74,74,90,.5)" },
 };
 
 /** military.json component id → a fort kind above. */
 export function fortKind(component) {
-  switch (component) {
-    case "army": return "army";
-    case "navy": return "navy";
-    case "air_force": return "air";
-    case "marines": return "marines";
-    case "army_guard": return "guard";
-    case "air_guard": return "air_guard";
-    case "army_reserve": case "navy_reserve": case "air_force_reserve": case "marine_reserve": return "reserve";
-    default: return "other";
-  }
+  return component === "army" ? "army" : component === "navy" ? "navy" : component === "air_force" ? "air" : "other";
 }
 
 /**
- * A fort glyph by component: Army = a star fort with bastions; Navy = a sea wall and quay with an anchor; Air = a
- * hangar and airstrip with a winged roundel; Marines = a palisade with a chevron banner; Guard / Reserve = a smaller
- * muted blockhouse. tier "major" adds a keep and a flag, "site" is a small outpost. joint = a gold ring at the base.
+ * A fort glyph by component: ground forces and border guard = a star fort with bastions; Navy = a sea wall and quay
+ * with an anchor; Air Defence – Air Force = a hangar and airstrip with a winged roundel (red disc, gold star). tier
+ * "major" adds a keep and a flag, "site" is a small outpost. joint = a gold ring at the base.
  */
 export function drawFort(ctx, kind, x, y, size, { tier = "base", joint = false, muted = false, coastal = true, airfield = false } = {}) {
-  // a Navy or Marine Corps air station is an airfield with the service's roundel, not a quay or a palisade
-  const air = airfield && (kind === "navy" || kind === "marines") ? 1 : 0;
+  // a naval air station is an airfield with the anchor roundel, not a quay
+  const air = airfield && kind === "navy" ? 1 : 0;
   const sea = kind === "navy" && coastal && !air ? 1 : 0;
   const key = `site:fort:${kind}:${tier}:${joint ? 1 : 0}:${muted ? 1 : 0}:${sea}:${air}`;
   stamp(ctx, key, x, y, size, { x0: -1.25, y0: -1.35, x1: 1.25, y1: 1.15 }, (g, upx) => paintFort(g, upx, kind, tier, joint, muted, !!sea, !!air));
@@ -101,8 +88,7 @@ export function drawFort(ctx, kind, x, y, size, { tier = "base", joint = false, 
 
 /** True when a military.json installation name is an air station or airfield (NAS, MCAS, outlying field …). */
 export function isAirfieldName(name) {
-  if (/\bAnnex\b/i.test(name || "")) return false; // e.g. Oceana's Dam Neck Annex is a training site, not a field
-  return /\bAir Station\b|\bNAS\b|\bMCAS\b|\bAir Facility\b|\bALF\b|\bN?OLF\b|Outlying (Landing )?Field|Air Field\b|Airfield\b/i.test(name || "");
+  return /^Sân bay|\bAirfield\b|\bAir Base\b/i.test(name || "");
 }
 
 function paintFort(g, upx, kind, tier, joint, muted, sea, air = false) {
@@ -130,9 +116,7 @@ function paintFort(g, upx, kind, tier, joint, muted, sea, air = false) {
   if (air) paintAirBase(g, upx / k, pal, tier, "anchor");
   else if (kind === "army" || kind === "other") paintStarFort(g, upx / k, pal, tier);
   else if (kind === "navy") paintNavalFort(g, upx / k, pal, tier, sea);
-  else if (kind === "air" || kind === "air_guard") paintAirBase(g, upx / k, pal, tier);
-  else if (kind === "marines") paintPalisade(g, upx / k, pal, tier, true);
-  else paintPalisade(g, upx / k, pal, tier, false);
+  else paintAirBase(g, upx / k, pal, tier);
   g.restore();
   g.globalAlpha = 1;
 }
@@ -281,11 +265,11 @@ function paintAirBase(g, upx, pal, tier, emblem = "star") {
   ink(g, upx, 0.9);
   g.beginPath();
   g.arc(0.42, -0.24, 0.24, 0, TAU);
-  g.fillStyle = "#f2ead6";
+  g.fillStyle = emblem === "anchor" ? "#f2ead6" : "#da251d";
   g.fill();
   ink(g, upx, 0.9);
   if (emblem === "anchor") {
-    // a small anchor in the roundel (Navy / Marine Corps aviation)
+    // a small anchor in the roundel (naval aviation)
     g.strokeStyle = pal.accent;
     g.lineWidth = Math.max(1.2 / upx, 0.045);
     g.lineCap = "round";
@@ -298,7 +282,7 @@ function paintAirBase(g, upx, pal, tier, emblem = "star") {
   } else {
     g.beginPath();
     star(g, 0.42, -0.24, 0.17, 5, 0.42);
-    g.fillStyle = pal.accent;
+    g.fillStyle = "#ffcd00";
     g.fill();
   }
   if (tier === "major") {
@@ -314,61 +298,6 @@ function paintAirBase(g, upx, pal, tier, emblem = "star") {
     g.fill();
     ink(g, upx, 0.8);
     g.restore();
-  }
-}
-
-function paintPalisade(g, upx, pal, tier, chevron) {
-  // a timber palisade ring around a blockhouse (Marines get a chevron banner, Guard / Reserve a plain pennant)
-  g.save();
-  g.translate(0, 0.25);
-  g.scale(1, 0.5);
-  g.beginPath();
-  g.arc(0, 0, 0.92, 0, TAU);
-  g.fillStyle = "#8a7656";
-  g.fill();
-  ink(g, upx / 0.5 * 0.7, 1);
-  g.beginPath();
-  g.arc(0, -0.1, 0.72, 0, TAU);
-  g.fillStyle = "#b7a47a";
-  g.fill();
-  g.restore();
-  // stakes along the front arc
-  g.fillStyle = "#6a4e2e";
-  for (let a = 0.15; a < Math.PI - 0.1; a += 0.22) {
-    const sx = Math.cos(a) * 0.92, sy = 0.25 + Math.sin(a) * 0.46;
-    g.beginPath();
-    g.moveTo(sx - 0.05, sy); g.lineTo(sx - 0.05, sy - 0.2); g.lineTo(sx, sy - 0.27); g.lineTo(sx + 0.05, sy - 0.2); g.lineTo(sx + 0.05, sy);
-    g.closePath();
-    g.fill();
-  }
-  // blockhouse
-  g.fillStyle = pal.wall;
-  g.beginPath();
-  g.rect(-0.32, -0.25, 0.64, 0.42);
-  g.fill();
-  ink(g, upx, 1);
-  g.fillStyle = pal.accent;
-  g.beginPath();
-  g.moveTo(-0.4, -0.22); g.lineTo(0, -0.52); g.lineTo(0.4, -0.22); g.closePath();
-  g.fill();
-  ink(g, upx, 1);
-  g.fillStyle = "#2e2618";
-  g.fillRect(-0.07, -0.05, 0.14, 0.22);
-  if (chevron) {
-    // banner with a chevron
-    g.strokeStyle = "#3a2c1c";
-    g.lineWidth = Math.max(1 / upx, 0.05);
-    g.beginPath(); g.moveTo(0.6, 0.2); g.lineTo(0.6, -0.75); g.stroke();
-    g.fillStyle = pal.accent;
-    g.beginPath();
-    g.moveTo(0.6, -0.75); g.lineTo(1.02, -0.75); g.lineTo(1.02, -0.28); g.lineTo(0.81, -0.4); g.lineTo(0.6, -0.28); g.closePath();
-    g.fill();
-    ink(g, upx, 0.8);
-    g.strokeStyle = pal.flag;
-    g.lineWidth = Math.max(1.2 / upx, 0.06);
-    g.beginPath(); g.moveTo(0.66, -0.62); g.lineTo(0.81, -0.52); g.lineTo(0.96, -0.62); g.stroke();
-  } else {
-    flag(g, upx, 0.55, 0.15, tier === "major" ? 0.85 : 0.65, pal.flag);
   }
 }
 
@@ -477,19 +406,18 @@ export const WONDER_KINDS = {
  * maps wonder ids to motifs); `variant` only picks a fallback for an id it does not know.
  */
 export const WONDER_MOTIFS = {
-  natural: ["peak", "canyon", "forest", "desert", "geyser", "coast", "bridge", "dam", "arch", "obelisk", "karst"],
-  university: ["hall", "redhall", "spire"],
-  landmark: ["statue", "mission", "gantry", "mound", "adobe", "ballpark", "brickhall", "rotunda", "carved", "quarter", "flight", "spike", "dam", "obelisk", "arch", "memorial", "pagoda", "citadel", "karst"],
+  natural: ["peak", "forest", "coast", "karst", "cave"],
+  university: ["campus", "gate"],
+  landmark: ["citadel", "pagoda", "onepillar", "temple", "gate", "quarter", "chamtower", "mausoleum", "palace", "flagtower", "skyscraper", "goldbridge", "truss", "tunnel"],
 };
 export const MOTIF_LABELS = {
-  peak: "Snow peak", canyon: "Canyon", forest: "Forest", desert: "Desert", geyser: "Hot springs & geysers", coast: "Coast & lighthouse",
-  bridge: "Bridge", dam: "Dam", arch: "Steel arch", obelisk: "Obelisk", hall: "Domed hall", redhall: "Domed hall (red)",
-  spire: "Bell tower", statue: "Statue", mission: "Mission", gantry: "Launch tower", mound: "Earth mound", adobe: "Pueblo",
-  ballpark: "Ballpark", brickhall: "Brick hall", rotunda: "Rotunda", carved: "Carved mountain", quarter: "Old quarter",
-  flight: "First flight", spike: "Golden spike", memorial: "Memorial arch",
-  karst: "Karst towers", pagoda: "Pagoda", citadel: "Citadel gate",
+  peak: "Misty peak", forest: "Forest", coast: "Coast & lighthouse", karst: "Karst towers", cave: "Karst cave",
+  campus: "University campus", gate: "Temple of Literature gate", citadel: "Citadel gate", pagoda: "Pagoda",
+  onepillar: "One-pillar shrine", temple: "Temple (đền)", quarter: "Old quarter (Hội An)", chamtower: "Cham towers",
+  mausoleum: "Mausoleum", palace: "Modernist palace", flagtower: "Flag tower", skyscraper: "Skyscraper",
+  goldbridge: "Bridge held by stone hands", truss: "Steel truss bridge", tunnel: "Tunnel hatch",
 };
-const FALLBACK = { natural: ["peak", "forest", "canyon"], university: ["hall", "redhall", "spire"], landmark: ["obelisk", "memorial", "rotunda"] };
+const FALLBACK = { natural: ["forest", "karst", "peak"], university: ["campus", "campus", "campus"], landmark: ["temple", "pagoda", "gate"] };
 
 /**
  * A wonder tile: a raised round plinth with a gold rim (the wonder "seal"), and the wonder itself on top, drawn from
@@ -526,7 +454,7 @@ function plinth(g, upx, pal, top) {
 function paintWonder(g, upx, kind, motif, top) {
   const pal = WONDER_KINDS[kind] || WONDER_KINDS.landmark;
   plinth(g, upx, pal, top);
-  (MOTIF_PAINT[motif] || MOTIF_PAINT.obelisk)(g, upx);
+  (MOTIF_PAINT[motif] || MOTIF_PAINT.temple)(g, upx);
   if (top) {
     // a small gold star for the top three of a rule
     g.beginPath();
@@ -558,12 +486,9 @@ function paintPeak(g, upx) {
   g.beginPath();
   g.moveTo(0.2, -1.05); g.lineTo(0.92, 0.36); g.lineTo(0.3, 0.36); g.lineTo(0.35, -0.4); g.closePath();
   g.fill();
-  // snow caps
-  g.fillStyle = "#f4f6fa";
-  g.beginPath();
-  g.moveTo(0.2, -1.05); g.lineTo(0.42, -0.62); g.lineTo(0.3, -0.68); g.lineTo(0.18, -0.58); g.lineTo(0.06, -0.7); g.closePath();
-  g.moveTo(-0.3, -0.85); g.lineTo(-0.16, -0.58); g.lineTo(-0.28, -0.63); g.lineTo(-0.4, -0.62); g.closePath();
-  g.fill();
+  // a band of mist round the summits (no permanent snow in Vietnam)
+  g.fillStyle = "rgba(242,246,250,.72)";
+  g.beginPath(); g.ellipse(-0.08, -0.6, 0.62, 0.09, 0, 0, TAU); g.ellipse(0.32, -0.78, 0.3, 0.06, 0, 0, TAU); g.fill();
   // waterfall
   g.fillStyle = "#cfe8f6";
   g.beginPath();
@@ -577,102 +502,6 @@ function paintPeak(g, upx) {
   pine(g, upx, -0.62, 0.42, 0.52);
   pine(g, upx, -0.38, 0.48, 0.4, "#3a6a3a");
   pine(g, upx, 0.6, 0.44, 0.5);
-}
-
-function paintUniversity(g, upx, v) {
-  const stone = "#e8dcc2", shade = "#c8b894", roof = v === 1 ? "#8a3a2a" : v === 2 ? "#4a7650" : "#3e6a8a";
-  // main hall
-  g.fillStyle = stone;
-  g.beginPath();
-  g.rect(-0.82, -0.2, 1.3, 0.56);
-  g.fill();
-  ink(g, upx, 1);
-  // portico columns
-  g.fillStyle = shade;
-  for (let c = 0; c < 5; c++) g.fillRect(-0.68 + c * 0.24, -0.08, 0.08, 0.42);
-  // pediment
-  g.fillStyle = stone;
-  g.beginPath();
-  g.moveTo(-0.9, -0.18); g.lineTo(-0.17, -0.52); g.lineTo(0.56, -0.18); g.closePath();
-  g.fill();
-  ink(g, upx, 1);
-  // dome
-  g.fillStyle = roof;
-  g.beginPath();
-  g.moveTo(-0.48, -0.42); g.bezierCurveTo(-0.46, -0.95, 0.12, -0.95, 0.14, -0.42); g.closePath();
-  g.fill();
-  ink(g, upx, 1);
-  g.fillStyle = "#f2d27a";
-  g.beginPath(); g.arc(-0.17, -0.86, 0.06, 0, TAU); g.fill();
-  // bell tower
-  g.fillStyle = stone;
-  g.beginPath();
-  g.rect(0.52, -0.82, 0.3, 1.18);
-  g.fill();
-  ink(g, upx, 1);
-  g.fillStyle = roof;
-  g.beginPath();
-  g.moveTo(0.48, -0.8); g.lineTo(0.67, -1.22); g.lineTo(0.86, -0.8); g.closePath();
-  g.fill();
-  ink(g, upx, 1);
-  g.beginPath(); g.arc(0.67, -0.6, 0.09, 0, TAU);
-  g.fillStyle = "#fbf4e0"; g.fill(); ink(g, upx, 0.8);
-  g.fillStyle = "#3a2e20";
-  g.fillRect(0.62, -0.38, 0.1, 0.16);
-  // steps
-  g.fillStyle = "#d4c6a6";
-  g.fillRect(-0.86, 0.32, 1.38, 0.08);
-}
-
-function paintLandmark(g, upx, v) {
-  const stone = "#ece2cc";
-  if (v === 1) {
-    // a tall memorial arch
-    g.fillStyle = stone;
-    g.beginPath();
-    g.moveTo(-0.7, 0.36); g.lineTo(-0.7, -0.72); g.lineTo(0.7, -0.72); g.lineTo(0.7, 0.36);
-    g.lineTo(0.3, 0.36); g.lineTo(0.3, -0.1); g.bezierCurveTo(0.3, -0.46, -0.3, -0.46, -0.3, -0.1); g.lineTo(-0.3, 0.36);
-    g.closePath();
-    g.fill();
-    ink(g, upx, 1.1);
-    g.fillStyle = "#d6c8a8";
-    g.fillRect(-0.76, -0.86, 1.52, 0.16);
-    g.strokeStyle = "rgba(28,20,10,.9)";
-    g.lineWidth = 1 / upx;
-    g.strokeRect(-0.76, -0.86, 1.52, 0.16);
-  } else if (v === 2) {
-    // a domed rotunda memorial
-    g.fillStyle = stone;
-    g.beginPath();
-    g.rect(-0.72, -0.25, 1.44, 0.6);
-    g.fill();
-    ink(g, upx, 1);
-    g.fillStyle = "#cfc0a0";
-    for (let c = 0; c < 6; c++) g.fillRect(-0.62 + c * 0.24, -0.18, 0.08, 0.5);
-    g.fillStyle = "#e2d6bc";
-    g.beginPath();
-    g.moveTo(-0.62, -0.25); g.bezierCurveTo(-0.6, -1.0, 0.6, -1.0, 0.62, -0.25); g.closePath();
-    g.fill();
-    ink(g, upx, 1);
-  } else {
-    // an obelisk in front of a low colonnade
-    g.fillStyle = "#d8ccb0";
-    g.beginPath();
-    g.rect(-0.85, -0.05, 1.7, 0.4);
-    g.fill();
-    ink(g, upx, 0.9);
-    g.fillStyle = "#c4b694";
-    for (let c = 0; c < 7; c++) g.fillRect(-0.78 + c * 0.24, 0.02, 0.07, 0.3);
-    g.fillStyle = stone;
-    g.beginPath();
-    g.moveTo(-0.14, 0.36); g.lineTo(-0.09, -0.98); g.lineTo(0, -1.12); g.lineTo(0.09, -0.98); g.lineTo(0.14, 0.36); g.closePath();
-    g.fill();
-    ink(g, upx, 1.1);
-    g.fillStyle = "rgba(0,0,0,.14)";
-    g.beginPath();
-    g.moveTo(0, -1.12); g.lineTo(0.09, -0.98); g.lineTo(0.14, 0.36); g.lineTo(0.02, 0.36); g.closePath();
-    g.fill();
-  }
 }
 
 // --- wonder motifs (all in plinth units: ground at y ≈ 0.36, the top of the box at y = -1.45) -----------------------
@@ -711,38 +540,6 @@ function water(g, upx, y0 = 0.2) {
   g.restore();
 }
 
-function paintCanyon(g, upx) {
-  // far butte, then two mesas with a gorge and a river between
-  poly(g, [-0.2, 0.1, -0.14, -0.86, 0.12, -0.92, 0.18, 0.1]);
-  fillInk(g, upx, "#c98256", 0.9);
-  const left = [-0.94, 0.36, -0.94, -0.3, -0.84, -0.44, -0.4, -0.44, -0.3, -0.3, -0.24, -0.1, -0.12, 0.36];
-  const right = [0.06, 0.36, 0.16, -0.5, 0.26, -0.66, 0.84, -0.66, 0.94, -0.5, 0.94, 0.36];
-  for (const pts of [left, right]) {
-    poly(g, pts);
-    g.fillStyle = "#b85a34";
-    g.fill();
-    g.save();
-    g.clip();
-    g.strokeStyle = "rgba(255,214,160,.6)";
-    g.lineWidth = Math.max(1 / upx, 0.05);
-    g.beginPath();
-    for (const y of [-0.42, -0.24, -0.04, 0.16]) { g.moveTo(-1, y); g.lineTo(1, y + 0.03); }
-    g.stroke();
-    g.fillStyle = "rgba(60,20,6,.22)";
-    g.fillRect(pts === left ? -0.4 : 0.6, -1, 0.4, 2);
-    g.restore();
-    poly(g, pts);
-    ink(g, upx, 1.1);
-  }
-  // gorge shadow and river
-  poly(g, [-0.12, 0.36, -0.2, -0.05, 0.12, -0.05, 0.06, 0.36]);
-  g.fillStyle = "#6a2e18";
-  g.fill();
-  poly(g, [-0.06, 0.36, -0.03, 0.02, 0.02, 0.02, 0.04, 0.36]);
-  g.fillStyle = "#5fa8d8";
-  g.fill();
-}
-
 function paintForest(g, upx) {
   // a blue-green ridge in the haze, then a valley of pines and broadleaf trees
   g.beginPath();
@@ -761,64 +558,6 @@ function paintForest(g, upx) {
   roundTree(g, upx, 0.3, 0.42, 0.3, "#5f8f3e");
   pine(g, upx, 0.64, 0.42, 0.66);
   pine(g, upx, 0.06, 0.5, 0.42, "#2a5230");
-}
-
-function joshua(g, upx, x, y, h) {
-  g.strokeStyle = "#6a4e30";
-  g.lineCap = "round";
-  g.lineWidth = Math.max(1.6 / upx, h * 0.1);
-  g.beginPath();
-  g.moveTo(x, y); g.lineTo(x, y - h * 0.55);
-  g.moveTo(x, y - h * 0.5); g.quadraticCurveTo(x - h * 0.3, y - h * 0.55, x - h * 0.32, y - h * 0.85);
-  g.moveTo(x, y - h * 0.55); g.quadraticCurveTo(x + h * 0.15, y - h * 0.7, x + h * 0.08, y - h * 0.95);
-  g.moveTo(x, y - h * 0.45); g.quadraticCurveTo(x + h * 0.35, y - h * 0.45, x + h * 0.4, y - h * 0.7);
-  g.stroke();
-  for (const [tx, ty] of [[x - h * 0.32, y - h * 0.85], [x + h * 0.08, y - h * 0.95], [x + h * 0.4, y - h * 0.7]]) {
-    star(g, tx, ty, h * 0.13, 7, 0.4);
-    fillInk(g, upx, "#6f8f3a", 0.7);
-  }
-}
-
-function paintDesert(g, upx) {
-  g.fillStyle = "#f0b04a";
-  g.beginPath(); g.arc(0.56, -0.86, 0.2, 0, TAU); g.fill();
-  g.beginPath();
-  g.moveTo(-0.95, 0.36); g.bezierCurveTo(-0.6, -0.12, -0.25, -0.1, 0.05, 0.08); g.bezierCurveTo(0.35, -0.02, 0.7, -0.08, 0.95, 0.3); g.lineTo(0.95, 0.4); g.lineTo(-0.95, 0.4);
-  g.closePath();
-  fillInk(g, upx, "#d9b37a", 0.9);
-  // granite boulders
-  for (const [bx, by, r] of [[0.48, 0.18, 0.22], [0.7, 0.24, 0.15], [-0.62, 0.22, 0.14]]) {
-    g.beginPath(); g.ellipse(bx, by, r, r * 0.8, 0, 0, TAU);
-    fillInk(g, upx, "#b8916a", 0.8);
-  }
-  joshua(g, upx, -0.18, 0.4, 1.15);
-  joshua(g, upx, 0.32, 0.34, 0.7);
-}
-
-function paintGeyser(g, upx) {
-  // a pale sinter mound, a rainbow hot pool and a steam plume
-  g.beginPath();
-  g.moveTo(-0.92, 0.36); g.bezierCurveTo(-0.6, 0.0, 0.6, 0.0, 0.92, 0.36); g.closePath();
-  fillInk(g, upx, "#d8ccb4", 0.9);
-  g.beginPath(); g.ellipse(-0.42, 0.24, 0.36, 0.1, 0, 0, TAU);
-  g.fillStyle = "#e08a3a"; g.fill();
-  g.beginPath(); g.ellipse(-0.42, 0.24, 0.27, 0.07, 0, 0, TAU);
-  g.fillStyle = "#e8d65a"; g.fill();
-  g.beginPath(); g.ellipse(-0.42, 0.24, 0.17, 0.045, 0, 0, TAU);
-  g.fillStyle = "#2fa8c4"; g.fill();
-  // plume
-  const puffs = [[0.3, 0.06, 0.14], [0.28, -0.18, 0.18], [0.34, -0.46, 0.22], [0.24, -0.76, 0.26], [0.36, -1.06, 0.24], [0.16, -1.2, 0.18]];
-  g.beginPath();
-  for (const [px, py, r] of puffs) { g.moveTo(px + r, py); g.arc(px, py, r, 0, TAU); }
-  g.fillStyle = "#f6f8fa";
-  g.fill();
-  g.lineWidth = 0.9 / upx;
-  g.strokeStyle = "rgba(90,100,110,.55)";
-  g.stroke();
-  g.fillStyle = "rgba(150,165,180,.35)";
-  g.beginPath(); g.arc(0.42, -0.5, 0.12, 0, TAU); g.arc(0.32, -0.8, 0.12, 0, TAU); g.fill();
-  pine(g, upx, -0.78, 0.42, 0.46);
-  pine(g, upx, 0.78, 0.44, 0.5);
 }
 
 function paintCoast(g, upx) {
@@ -852,404 +591,6 @@ function paintCoast(g, upx) {
   g.fillStyle = "rgba(255,236,160,.45)";
   poly(g, [-0.02, -0.96, 0.7, -1.18, 0.7, -0.82]);
   g.fill();
-}
-
-function paintBridge(g, upx) {
-  water(g, upx, 0.12);
-  // headlands
-  poly(g, [-0.96, 0.36, -0.96, -0.12, -0.7, -0.2, -0.5, 0.2, -0.5, 0.36]);
-  fillInk(g, upx, "#6f8a4a", 0.9);
-  poly(g, [0.96, 0.36, 0.96, -0.06, 0.72, -0.14, 0.52, 0.2, 0.52, 0.36]);
-  fillInk(g, upx, "#6f8a4a", 0.9);
-  const red = "#c0462e";
-  // main cable and hangers
-  g.strokeStyle = red;
-  g.lineWidth = Math.max(1.2 / upx, 0.05);
-  g.beginPath();
-  g.moveTo(-0.96, -0.02); g.quadraticCurveTo(-0.66, -0.35, -0.44, -0.92); g.quadraticCurveTo(0, 0.0, 0.44, -0.92); g.quadraticCurveTo(0.66, -0.35, 0.96, -0.02);
-  g.stroke();
-  g.lineWidth = Math.max(0.7 / upx, 0.025);
-  g.beginPath();
-  for (let k = -3; k <= 3; k++) {
-    const x = k * 0.11, t = (x + 0.44) / 0.88, yc = (1 - t) * (1 - t) * -0.92 + 2 * (1 - t) * t * 0 + t * t * -0.92;
-    g.moveTo(x, yc); g.lineTo(x, 0.04);
-  }
-  g.stroke();
-  // deck
-  g.beginPath(); g.rect(-0.96, 0.02, 1.92, 0.08);
-  fillInk(g, upx, red, 0.9);
-  // towers
-  for (const tx of [-0.44, 0.44]) {
-    g.beginPath(); g.rect(tx - 0.08, -1.02, 0.05, 1.24); g.rect(tx + 0.03, -1.02, 0.05, 1.24);
-    g.rect(tx - 0.08, -0.98, 0.16, 0.05); g.rect(tx - 0.08, -0.62, 0.16, 0.05); g.rect(tx - 0.08, -0.28, 0.16, 0.05);
-    fillInk(g, upx, red, 0.8);
-  }
-}
-
-function paintDam(g, upx) {
-  // canyon walls, the reservoir behind, the curved wall and the river below
-  poly(g, [-0.96, 0.36, -0.96, -0.74, -0.56, -0.8, -0.38, 0.36]);
-  fillInk(g, upx, "#b8683e", 1);
-  poly(g, [0.96, 0.36, 0.96, -0.74, 0.56, -0.8, 0.38, 0.36]);
-  fillInk(g, upx, "#a85a34", 1);
-  g.beginPath(); g.moveTo(-0.6, -0.62); g.quadraticCurveTo(0, -0.74, 0.6, -0.62); g.lineTo(0.6, -0.5); g.lineTo(-0.6, -0.5); g.closePath();
-  g.fillStyle = "#3f8cc0"; g.fill();
-  g.beginPath();
-  g.moveTo(-0.6, -0.56); g.quadraticCurveTo(0, -0.36, 0.6, -0.56);
-  g.lineTo(0.4, 0.3); g.quadraticCurveTo(0, 0.42, -0.4, 0.3); g.closePath();
-  g.fillStyle = "#d8d0c0"; g.fill();
-  g.save(); g.clip();
-  g.fillStyle = "rgba(0,0,0,.12)";
-  g.fillRect(0.1, -1, 0.6, 2);
-  g.strokeStyle = "rgba(80,70,60,.4)";
-  g.lineWidth = 0.8 / upx;
-  g.beginPath();
-  for (const y of [-0.3, -0.1, 0.1]) { g.moveTo(-0.6, y); g.quadraticCurveTo(0, y + 0.18, 0.6, y); }
-  g.stroke();
-  g.restore();
-  g.beginPath();
-  g.moveTo(-0.6, -0.56); g.quadraticCurveTo(0, -0.36, 0.6, -0.56); g.lineTo(0.4, 0.3); g.quadraticCurveTo(0, 0.42, -0.4, 0.3); g.closePath();
-  ink(g, upx, 1.1);
-  // intake towers
-  for (const tx of [-0.48, 0.42]) { g.beginPath(); g.rect(tx, -0.86, 0.08, 0.32); fillInk(g, upx, "#ece4d2", 0.8); }
-  g.beginPath(); g.ellipse(0, 0.38, 0.3, 0.07, 0, 0, TAU);
-  g.fillStyle = "#5fa8d8"; g.fill();
-}
-
-function paintSteelArch(g, upx) {
-  pine(g, upx, -0.82, 0.42, 0.34, "#4a7a3a");
-  pine(g, upx, 0.82, 0.42, 0.34, "#4a7a3a");
-  g.beginPath();
-  g.moveTo(-0.72, 0.36);
-  g.bezierCurveTo(-0.62, -0.7, -0.22, -1.32, 0, -1.32);
-  g.bezierCurveTo(0.22, -1.32, 0.62, -0.7, 0.72, 0.36);
-  g.lineTo(0.56, 0.36);
-  g.bezierCurveTo(0.48, -0.6, 0.18, -1.14, 0, -1.14);
-  g.bezierCurveTo(-0.18, -1.14, -0.48, -0.6, -0.56, 0.36);
-  g.closePath();
-  const gr = g.createLinearGradient(-0.7, 0, 0.7, 0);
-  gr.addColorStop(0, "#f4f6f8"); gr.addColorStop(0.45, "#b8c0c8"); gr.addColorStop(1, "#7a848e");
-  fillInk(g, upx, gr, 1.1);
-}
-
-function paintStatue(g, upx) {
-  // pedestal
-  poly(g, [-0.42, 0.36, -0.42, 0.06, -0.3, -0.02, 0.3, -0.02, 0.42, 0.06, 0.42, 0.36]);
-  fillInk(g, upx, "#d8ccb0", 1);
-  g.fillStyle = "rgba(0,0,0,.12)";
-  g.fillRect(0.12, 0.04, 0.28, 0.32);
-  const cu = "#6fae9a";
-  // robe
-  poly(g, [-0.26, -0.02, -0.18, -0.62, -0.04, -0.76, 0.1, -0.74, 0.2, -0.58, 0.24, -0.02]);
-  fillInk(g, upx, cu, 1);
-  g.strokeStyle = "rgba(30,70,60,.55)";
-  g.lineWidth = 0.8 / upx;
-  g.beginPath(); g.moveTo(-0.1, -0.6); g.lineTo(-0.14, -0.04); g.moveTo(0.06, -0.62); g.lineTo(0.1, -0.04); g.stroke();
-  // raised arm and torch
-  poly(g, [0.06, -0.72, 0.16, -0.76, 0.26, -1.12, 0.18, -1.14]);
-  fillInk(g, upx, cu, 0.9);
-  g.beginPath(); g.moveTo(0.22, -1.14); g.quadraticCurveTo(0.12, -1.3, 0.24, -1.42); g.quadraticCurveTo(0.36, -1.28, 0.26, -1.14); g.closePath();
-  fillInk(g, upx, "#f2b63a", 0.8);
-  // tablet
-  poly(g, [-0.3, -0.5, -0.14, -0.54, -0.1, -0.28, -0.26, -0.24]);
-  fillInk(g, upx, "#5f9e8a", 0.8);
-  // head and crown
-  g.beginPath(); g.arc(-0.02, -0.86, 0.1, 0, TAU);
-  fillInk(g, upx, cu, 0.9);
-  g.strokeStyle = cu;
-  g.lineWidth = Math.max(1 / upx, 0.04);
-  g.beginPath();
-  for (let k = 0; k < 5; k++) {
-    const a = -Math.PI * (0.18 + 0.16 * k);
-    g.moveTo(-0.02 + 0.1 * Math.cos(a), -0.88 + 0.1 * Math.sin(a)); g.lineTo(-0.02 + 0.22 * Math.cos(a), -0.88 + 0.22 * Math.sin(a));
-  }
-  g.stroke();
-}
-
-function paintMission(g, upx) {
-  const stone = "#e6d6b2";
-  g.beginPath();
-  g.moveTo(-0.8, 0.36); g.lineTo(-0.8, -0.3); g.lineTo(-0.3, -0.3);
-  g.bezierCurveTo(-0.28, -0.6, -0.14, -0.66, -0.12, -0.84); g.quadraticCurveTo(0, -0.96, 0.12, -0.84);
-  g.bezierCurveTo(0.14, -0.66, 0.28, -0.6, 0.3, -0.3); g.lineTo(0.8, -0.3); g.lineTo(0.8, 0.36); g.closePath();
-  fillInk(g, upx, stone, 1.1);
-  g.fillStyle = "rgba(120,90,50,.18)";
-  g.fillRect(0.4, -0.3, 0.4, 0.66);
-  // cornice
-  g.fillStyle = "#cdbb94";
-  g.fillRect(-0.84, -0.34, 1.68, 0.07);
-  // arched door
-  g.beginPath(); g.moveTo(-0.16, 0.36); g.lineTo(-0.16, 0.0); g.arc(0, 0.0, 0.16, Math.PI, 0); g.lineTo(0.16, 0.36); g.closePath();
-  fillInk(g, upx, "#4a3420", 0.9);
-  // niches and windows
-  g.fillStyle = "#8a7656";
-  for (const x of [-0.5, 0.5]) {
-    g.beginPath(); g.moveTo(x - 0.07, 0.12); g.lineTo(x - 0.07, -0.08); g.arc(x, -0.08, 0.07, Math.PI, 0); g.lineTo(x + 0.07, 0.12); g.closePath(); g.fill();
-  }
-  g.beginPath(); g.arc(0, -0.5, 0.07, 0, TAU); g.fill();
-  // columns either side of the door
-  g.fillStyle = "#d4c29c";
-  for (const x of [-0.3, -0.24, 0.2, 0.26]) g.fillRect(x, -0.22, 0.04, 0.58);
-}
-
-function paintGantry(g, upx) {
-  // pad
-  poly(g, [-0.8, 0.36, -0.7, 0.2, 0.7, 0.2, 0.8, 0.36]);
-  fillInk(g, upx, "#9aa0a6", 0.9);
-  // lattice tower
-  const red = "#c04a32";
-  g.strokeStyle = red;
-  g.lineWidth = Math.max(1 / upx, 0.04);
-  g.beginPath();
-  g.moveTo(-0.58, 0.2); g.lineTo(-0.58, -1.12); g.moveTo(-0.3, 0.2); g.lineTo(-0.3, -1.12);
-  for (let y = 0.2; y > -1.1; y -= 0.22) { g.moveTo(-0.58, y); g.lineTo(-0.3, y - 0.22); g.moveTo(-0.58, y - 0.22); g.lineTo(-0.3, y); g.moveTo(-0.58, y); g.lineTo(-0.3, y); }
-  g.moveTo(-0.3, -0.7); g.lineTo(0.02, -0.7); g.moveTo(-0.3, -0.36); g.lineTo(0.02, -0.36);
-  g.stroke();
-  g.beginPath(); g.rect(-0.64, -1.2, 0.4, 0.08);
-  fillInk(g, upx, red, 0.8);
-  // rocket
-  g.beginPath();
-  g.moveTo(0.1, 0.14); g.lineTo(0.1, -0.84); g.quadraticCurveTo(0.1, -1.14, 0.22, -1.3); g.quadraticCurveTo(0.34, -1.14, 0.34, -0.84); g.lineTo(0.34, 0.14); g.closePath();
-  fillInk(g, upx, "#f4f1ea", 1);
-  g.fillStyle = "#2a2e36";
-  g.fillRect(0.1, -0.5, 0.24, 0.06);
-  poly(g, [0.1, 0.14, 0.1, -0.12, 0.0, 0.18]);
-  fillInk(g, upx, "#2a2e36", 0.8);
-  poly(g, [0.34, 0.14, 0.34, -0.12, 0.44, 0.18]);
-  fillInk(g, upx, "#2a2e36", 0.8);
-  // exhaust cloud
-  g.beginPath();
-  for (const [cx, cy, r] of [[0.0, 0.3, 0.12], [0.22, 0.3, 0.16], [0.46, 0.3, 0.12]]) { g.moveTo(cx + r, cy); g.arc(cx, cy, r, 0, TAU); }
-  g.fillStyle = "rgba(240,240,236,.9)";
-  g.fill();
-}
-
-function paintMound(g, upx) {
-  // a flat-topped earthen platform mound with a stair and a thatched temple house
-  poly(g, [-0.92, 0.36, -0.52, -0.38, 0.52, -0.38, 0.92, 0.36]);
-  fillInk(g, upx, "#7f9048", 1.1);
-  g.fillStyle = "rgba(40,50,10,.18)";
-  poly(g, [0.52, -0.38, 0.92, 0.36, 0.5, 0.36]);
-  g.fill();
-  poly(g, [-0.1, 0.36, -0.06, -0.38, 0.06, -0.38, 0.1, 0.36]);
-  g.fillStyle = "#b89a62";
-  g.fill();
-  g.strokeStyle = "rgba(80,60,30,.6)";
-  g.lineWidth = 0.7 / upx;
-  g.beginPath();
-  for (let y = -0.28; y < 0.36; y += 0.12) { g.moveTo(-0.1, y); g.lineTo(0.1, y); }
-  g.stroke();
-  g.beginPath(); g.rect(-0.3, -0.66, 0.6, 0.28);
-  fillInk(g, upx, "#b0844e", 0.9);
-  poly(g, [-0.42, -0.62, 0, -1.0, 0.42, -0.62]);
-  fillInk(g, upx, "#c9a860", 0.9);
-  g.fillStyle = "#3a2a18";
-  g.fillRect(-0.06, -0.56, 0.12, 0.18);
-}
-
-function paintAdobe(g, upx) {
-  const mud = "#c89466", shade = "#a8764c";
-  const blocks = [[-0.86, -0.06, 0.7, 0.42], [-0.6, -0.42, 0.62, 0.36], [-0.34, -0.74, 0.5, 0.32], [-0.16, -0.06, 0.6, 0.42], [0.3, -0.34, 0.58, 0.7]];
-  for (const [x, y, w, h] of blocks) {
-    g.beginPath(); g.rect(x, y, w, h);
-    fillInk(g, upx, mud, 1);
-    g.fillStyle = shade;
-    g.fillRect(x + w - 0.08, y, 0.08, h);
-  }
-  // vigas (roof beams)
-  g.strokeStyle = "#4a3420";
-  g.lineWidth = Math.max(1 / upx, 0.035);
-  g.beginPath();
-  for (const [x, y, w] of blocks) for (let k = 1; k < 4; k++) { const vx = x + (w * k) / 4; g.moveTo(vx, y + 0.06); g.lineTo(vx + 0.05, y + 0.08); }
-  g.stroke();
-  // doors and windows
-  g.fillStyle = "#3a2618";
-  for (const [x, y] of [[-0.7, 0.12], [-0.4, -0.26], [0.02, 0.1], [0.5, -0.16], [-0.18, -0.6]]) g.fillRect(x, y, 0.1, 0.14);
-  // ladder
-  g.strokeStyle = "#7a5a34";
-  g.lineWidth = Math.max(1 / upx, 0.03);
-  g.beginPath();
-  g.moveTo(0.14, 0.36); g.lineTo(0.22, -0.2); g.moveTo(0.26, 0.36); g.lineTo(0.34, -0.2);
-  for (let k = 0; k < 5; k++) { const y = 0.28 - k * 0.11; g.moveTo(0.15 + k * 0.015, y); g.lineTo(0.27 + k * 0.015, y); }
-  g.stroke();
-}
-
-function paintBallpark(g, upx) {
-  // a brick grandstand bowl around a green diamond, with light towers
-  g.beginPath(); g.ellipse(0, 0.0, 0.92, 0.42, 0, 0, TAU);
-  fillInk(g, upx, "#9a3e2e", 1.1);
-  g.beginPath(); g.ellipse(0, 0.02, 0.74, 0.3, 0, 0, TAU);
-  g.fillStyle = "#3f7a3a";
-  g.fill();
-  g.strokeStyle = "#2f6a2c";
-  g.lineWidth = Math.max(1.4 / upx, 0.06);
-  g.stroke();
-  poly(g, [0, 0.26, -0.24, 0.06, 0, -0.08, 0.24, 0.06]);
-  g.fillStyle = "#c89a62";
-  g.fill();
-  poly(g, [0, 0.2, -0.16, 0.06, 0, -0.03, 0.16, 0.06]);
-  g.fillStyle = "#4f8a42";
-  g.fill();
-  // scoreboard
-  g.beginPath(); g.rect(-0.22, -0.68, 0.44, 0.26);
-  fillInk(g, upx, "#2f5a34", 0.9);
-  g.fillStyle = "#f4f1ea";
-  for (let k = 0; k < 4; k++) g.fillRect(-0.16 + k * 0.09, -0.6, 0.05, 0.08);
-  g.fillStyle = "#3a2a1c";
-  g.fillRect(-0.02, -0.42, 0.04, 0.1);
-  // light towers
-  for (const tx of [-0.8, 0.8]) {
-    g.fillStyle = "#3a3430";
-    g.fillRect(tx - 0.025, -0.9, 0.05, 0.9);
-    g.beginPath(); g.rect(tx - 0.14, -1.02, 0.28, 0.14);
-    fillInk(g, upx, "#f6e8a0", 0.8);
-  }
-}
-
-function paintBrickHall(g, upx) {
-  const brick = "#a5503a";
-  g.beginPath(); g.rect(-0.9, -0.24, 1.8, 0.6);
-  fillInk(g, upx, brick, 1);
-  g.fillStyle = "#f4efe2";
-  for (const x of [-0.78, -0.58, -0.38, 0.28, 0.48, 0.68]) { g.fillRect(x, -0.14, 0.1, 0.14); g.fillRect(x, 0.12, 0.1, 0.14); }
-  // tower
-  g.beginPath(); g.rect(-0.18, -0.62, 0.36, 0.98);
-  fillInk(g, upx, brick, 1);
-  g.beginPath(); g.moveTo(-0.08, 0.36); g.lineTo(-0.08, 0.14); g.arc(0, 0.14, 0.08, Math.PI, 0); g.lineTo(0.08, 0.36); g.closePath();
-  g.fillStyle = "#3a2418"; g.fill();
-  g.fillStyle = "#f4efe2";
-  g.fillRect(-0.05, -0.44, 0.1, 0.18);
-  // white belfry and spire
-  g.beginPath(); g.rect(-0.14, -0.9, 0.28, 0.28);
-  fillInk(g, upx, "#f4f1ea", 0.9);
-  g.beginPath(); g.arc(0, -0.76, 0.06, 0, TAU); g.fillStyle = "#3a3430"; g.fill();
-  g.beginPath(); g.rect(-0.1, -1.06, 0.2, 0.16);
-  fillInk(g, upx, "#f4f1ea", 0.9);
-  poly(g, [-0.08, -1.06, 0, -1.4, 0.08, -1.06]);
-  fillInk(g, upx, "#f4f1ea", 0.9);
-  // roof line
-  g.fillStyle = "#5a3a2e";
-  g.fillRect(-0.92, -0.3, 0.74, 0.07);
-  g.fillRect(0.18, -0.3, 0.74, 0.07);
-}
-
-function paintCarved(g, upx) {
-  // a granite ridge with four carved heads
-  g.beginPath();
-  g.moveTo(-0.95, 0.36); g.lineTo(-0.9, -0.3); g.lineTo(-0.7, -0.62); g.lineTo(-0.3, -0.86); g.lineTo(0.1, -0.9); g.lineTo(0.5, -0.76);
-  g.lineTo(0.8, -0.5); g.lineTo(0.95, -0.1); g.lineTo(0.95, 0.36); g.closePath();
-  fillInk(g, upx, "#8f959c", 1.1);
-  // talus
-  g.beginPath(); g.moveTo(-0.9, 0.36); g.quadraticCurveTo(0, -0.02, 0.9, 0.36); g.closePath();
-  g.fillStyle = "#b0aaa0"; g.fill();
-  for (const [hx, hy, r] of [[-0.54, -0.42, 0.17], [-0.2, -0.5, 0.18], [0.12, -0.48, 0.16], [0.44, -0.4, 0.16]]) {
-    g.beginPath(); g.ellipse(hx, hy, r * 0.8, r, 0, 0, TAU);
-    fillInk(g, upx, "#c6c8c8", 0.9);
-    g.fillStyle = "rgba(40,44,50,.35)";
-    g.beginPath(); g.ellipse(hx + r * 0.3, hy + r * 0.1, r * 0.35, r * 0.8, 0, 0, TAU); g.fill();
-    g.fillStyle = "rgba(40,44,50,.5)";
-    g.fillRect(hx - r * 0.4, hy - r * 0.2, r * 0.25, r * 0.12);
-    g.fillRect(hx + r * 0.1, hy - r * 0.2, r * 0.25, r * 0.12);
-  }
-  pine(g, upx, -0.72, 0.42, 0.42);
-  pine(g, upx, 0.66, 0.44, 0.46);
-  pine(g, upx, 0.84, 0.4, 0.36, "#3a6a3a");
-}
-
-function paintQuarter(g, upx) {
-  // a cathedral front (stone towers, slate spires, crosses) behind a row of balconied townhouses
-  g.beginPath(); g.rect(-0.46, -0.62, 0.92, 0.4);
-  fillInk(g, upx, "#d9ccb2", 0.9); // nave front
-  for (const [x, w, top] of [[-0.46, 0.22, -0.86], [0.24, 0.22, -0.86], [-0.12, 0.24, -0.98]]) {
-    g.beginPath(); g.rect(x, top, w, -top - 0.22);
-    fillInk(g, upx, "#e4d8c0", 0.9); // stone tower
-    g.fillStyle = "#3e3a36";
-    g.fillRect(x + w * 0.32, top + 0.1, w * 0.36, 0.14); // belfry opening
-    const tip = top - (x === -0.12 ? 0.42 : 0.34);
-    poly(g, [x - 0.02, top, x + w / 2, tip, x + w + 0.02, top]);
-    fillInk(g, upx, "#4c5866", 0.9); // slate spire
-    g.strokeStyle = "#2a2622";
-    g.lineWidth = Math.max(1.1 / upx, 0.04);
-    g.beginPath(); // cross finial
-    g.moveTo(x + w / 2, tip); g.lineTo(x + w / 2, tip - 0.16);
-    g.moveTo(x + w / 2 - 0.05, tip - 0.1); g.lineTo(x + w / 2 + 0.05, tip - 0.1);
-    g.stroke();
-  }
-  const houses = [[-0.9, "#e8b96a"], [-0.3, "#8fb8a8"], [0.3, "#d88a7a"]];
-  for (const [x, col] of houses) {
-    g.beginPath(); g.rect(x, -0.3, 0.6, 0.66);
-    fillInk(g, upx, col, 1);
-    g.fillStyle = "#2f4a3a";
-    for (const dx of [0.08, 0.34]) { g.fillRect(x + dx, -0.22, 0.18, 0.18); g.fillRect(x + dx, 0.08, 0.18, 0.24); }
-    // iron balcony
-    g.strokeStyle = "#1c1a18";
-    g.lineWidth = Math.max(1 / upx, 0.035);
-    g.beginPath();
-    g.moveTo(x + 0.02, 0.0); g.lineTo(x + 0.58, 0.0); g.moveTo(x + 0.02, -0.08); g.lineTo(x + 0.58, -0.08);
-    for (let k = 0; k <= 8; k++) { g.moveTo(x + 0.04 + k * 0.065, -0.08); g.lineTo(x + 0.04 + k * 0.065, 0.0); }
-    g.stroke();
-    g.fillStyle = "#4a3a2e";
-    g.fillRect(x - 0.02, -0.34, 0.64, 0.06);
-  }
-}
-
-function paintFlight(g, upx) {
-  // a grassy dune with the granite pylon, and a large early biplane banking over it
-  g.beginPath(); g.moveTo(-0.95, 0.36); g.bezierCurveTo(-0.5, -0.3, 0.5, -0.3, 0.95, 0.36); g.closePath();
-  fillInk(g, upx, "#a8b46a", 1);
-  poly(g, [-0.5, -0.04, -0.46, -0.6, -0.4, -0.66, -0.34, -0.6, -0.3, -0.04]);
-  fillInk(g, upx, "#e4dccc", 1);
-  g.save();
-  g.translate(0.22, -0.86);
-  g.rotate(-0.22);
-  const W = 0.78, wingH = 0.1;
-  // struts between the wings
-  g.strokeStyle = "#3a2c1c";
-  g.lineWidth = Math.max(1.1 / upx, 0.04);
-  g.beginPath();
-  for (const dx of [-0.6, -0.3, 0.3, 0.6]) { g.moveTo(dx * W, -0.2); g.lineTo(dx * W, 0.04); }
-  g.stroke();
-  // lower wing, fuselage and tail, upper wing (canvas-covered, dark outline so it reads at small size)
-  g.beginPath(); g.rect(-W, 0.02, W * 2, wingH);
-  fillInk(g, upx, "#e8d9a8", 1.1);
-  poly(g, [-0.16, -0.06, 0.62, -0.02, 0.62, 0.06, -0.16, 0.1]);
-  fillInk(g, upx, "#8a5a32", 1);
-  poly(g, [0.54, -0.22, 0.68, -0.22, 0.68, 0.06, 0.58, 0.06]);
-  fillInk(g, upx, "#e8d9a8", 1); // rudder
-  g.beginPath(); g.rect(-W, -0.24, W * 2, wingH);
-  fillInk(g, upx, "#f1e6bf", 1.1);
-  // propellers
-  g.fillStyle = "#3a2c1c";
-  g.fillRect(-0.24, -0.16, 0.05, 0.3);
-  g.restore();
-}
-
-function paintSpike(g, upx) {
-  // desert ground, a rail line meeting in the middle, a small steam engine, and the gold spike standing tall
-  g.beginPath(); g.moveTo(-0.95, 0.36); g.bezierCurveTo(-0.5, -0.12, 0.5, -0.12, 0.95, 0.36); g.closePath();
-  fillInk(g, upx, "#c8b27a", 1);
-  // ties and rails, a little perspective
-  g.fillStyle = "#6a4a2c";
-  for (let k = -4; k <= 4; k++) g.fillRect(k * 0.19 - 0.03, 0.02, 0.06, 0.18);
-  g.strokeStyle = "#2e2c2a";
-  g.lineWidth = Math.max(1.2 / upx, 0.045);
-  g.beginPath(); g.moveTo(-0.86, 0.06); g.lineTo(0.86, 0.06); g.moveTo(-0.86, 0.16); g.lineTo(0.86, 0.16); g.stroke();
-  // locomotive on the left, facing the spike
-  g.beginPath(); g.rect(-0.86, -0.3, 0.34, 0.32);
-  fillInk(g, upx, "#3a2e2a", 1); // cab
-  g.beginPath(); g.rect(-0.54, -0.2, 0.36, 0.22);
-  fillInk(g, upx, "#2a2a30", 1); // boiler
-  poly(g, [-0.36, -0.2, -0.4, -0.5, -0.24, -0.5, -0.28, -0.2]);
-  fillInk(g, upx, "#2a2a30", 1); // funnel stack
-  poly(g, [-0.18, -0.04, -0.06, 0.06, -0.18, 0.06]);
-  fillInk(g, upx, "#b8433a", 0.9); // cow-catcher
-  g.fillStyle = "#c9a45c";
-  g.fillRect(-0.82, -0.26, 0.12, 0.1); // cab window glint
-  // the golden spike
-  poly(g, [0.28, -1.12, 0.44, -1.12, 0.42, -0.98, 0.39, 0.06, 0.36, 0.14, 0.33, 0.06, 0.3, -0.98]);
-  fillInk(g, upx, "#f0c848", 1.1);
-  g.fillStyle = "rgba(255,250,220,.7)";
-  g.fillRect(0.32, -0.96, 0.03, 0.9);
 }
 
 function paintKarst(g, upx) {
@@ -1346,19 +687,328 @@ function paintCitadel(g, upx) {
   }
 }
 
+/** A tiled roof with upturned eaves and curled ridge ends (đình, chùa, gate pavilions): eave line at y, half width w. */
+function curvedRoof(g, upx, cx, y, w, h, col) {
+  g.beginPath();
+  g.moveTo(cx - w - 0.08, y - 0.04); g.quadraticCurveTo(cx - w * 0.72, y + 0.01, cx - w * 0.6, y - h);
+  g.lineTo(cx + w * 0.6, y - h); g.quadraticCurveTo(cx + w * 0.72, y + 0.01, cx + w + 0.08, y - 0.04); g.closePath();
+  fillInk(g, upx, col, 0.9);
+  for (const sg of [-1, 1]) { // the curled ends of the ridge
+    poly(g, [cx + sg * w * 0.6, y - h, cx + sg * (w * 0.6 + 0.09), y - h - 0.1, cx + sg * (w * 0.6 - 0.06), y - h]);
+    fillInk(g, upx, col, 0.7);
+  }
+}
+
+/** The national flag on a pole: red with a gold star; foot of the pole at (x, y), pole height h, flag width fw. */
+function flagVN(g, upx, x, y, h, fw = 0.36) {
+  g.strokeStyle = "#3a2c1c";
+  g.lineWidth = Math.max(1 / upx, 0.035);
+  g.beginPath(); g.moveTo(x, y); g.lineTo(x, y - h); g.stroke();
+  const fh = fw * 0.66, y0 = y - h;
+  g.beginPath();
+  g.moveTo(x, y0); g.quadraticCurveTo(x + fw * 0.5, y0 - 0.04, x + fw, y0 + 0.02);
+  g.lineTo(x + fw, y0 + fh + 0.02); g.quadraticCurveTo(x + fw * 0.5, y0 + fh - 0.04, x, y0 + fh); g.closePath();
+  fillInk(g, upx, "#da251d", 0.7);
+  g.beginPath(); star(g, x + fw * 0.5, y0 + fh * 0.5, fh * 0.32, 5, 0.42);
+  g.fillStyle = "#ffcd00"; g.fill();
+}
+
+function windowGrid(g, x0, y0, cols, rows, dx, dy, w, h, col, skip = null) {
+  g.fillStyle = col;
+  for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) if (!skip || !skip(c, r)) g.fillRect(x0 + c * dx, y0 + r * dy, w, h);
+}
+
+function paintCampus(g, upx) {
+  // a four-storey lecture block with window rows, a central stair tower under a tiled roof, the flag and campus trees
+  roundTree(g, upx, -0.8, 0.4, 0.24, "#4f7a3a");
+  g.beginPath(); g.rect(-0.86, -0.4, 1.72, 0.76);
+  fillInk(g, upx, "#f0dfa8", 1);
+  g.fillStyle = "rgba(0,0,0,.12)"; g.fillRect(0.2, -0.4, 0.66, 0.76); // the shaded wing
+  windowGrid(g, -0.79, -0.31, 10, 4, 0.165, 0.17, 0.09, 0.08, "#4a6676", (c) => c === 4 || c === 5);
+  g.beginPath(); g.rect(-0.2, -0.74, 0.4, 1.1);
+  fillInk(g, upx, "#f8efcf", 1);
+  windowGrid(g, -0.07, -0.6, 1, 4, 0, 0.17, 0.14, 0.09, "#4a6676");
+  g.fillStyle = "#5a3a24"; g.fillRect(-0.09, 0.14, 0.18, 0.22);
+  curvedRoof(g, upx, 0, -0.72, 0.3, 0.2, "#b0452c");
+  flagVN(g, upx, 0.62, -0.4, 0.58, 0.3);
+  roundTree(g, upx, 0.84, 0.42, 0.2, "#5f8f3e");
+}
+
+function paintGate(g, upx) {
+  // Khuê Văn Các (Văn Miếu – Quốc Tử Giám): brick piers carrying a red wooden pavilion with round "sun" windows, two
+  // tiers of curved tile roofs, the temple wall either side
+  g.beginPath(); g.rect(-0.96, 0.04, 1.92, 0.32);
+  fillInk(g, upx, "#ddd0ac", 0.9);
+  g.fillStyle = "#8a3a24"; g.fillRect(-0.98, 0.0, 1.96, 0.06);
+  g.beginPath(); g.rect(-0.5, -0.3, 1.0, 0.66);
+  fillInk(g, upx, "#c99a72", 1);
+  g.fillStyle = "#3a2a20";
+  for (const x of [-0.37, -0.07, 0.23]) g.fillRect(x, -0.16, 0.14, 0.52);
+  curvedRoof(g, upx, 0, -0.28, 0.6, 0.12, "#8a3a24");
+  g.beginPath(); g.rect(-0.3, -0.72, 0.6, 0.32);
+  fillInk(g, upx, "#a8321e", 0.9);
+  g.beginPath(); g.arc(0, -0.56, 0.11, 0, TAU);
+  fillInk(g, upx, "#f2d27a", 0.8);
+  g.strokeStyle = "#7a2a18"; g.lineWidth = Math.max(0.8 / upx, 0.02);
+  g.beginPath();
+  for (let k = 0; k < 4; k++) { const a = (k * Math.PI) / 4; g.moveTo(Math.cos(a) * 0.11, -0.56 + Math.sin(a) * 0.11); g.lineTo(-Math.cos(a) * 0.11, -0.56 - Math.sin(a) * 0.11); }
+  g.stroke();
+  curvedRoof(g, upx, 0, -0.7, 0.46, 0.22, "#8a3a24");
+}
+
+function paintOnePillar(g, upx) {
+  // Chùa Một Cột: a small shrine under a curved roof on one stone pillar in a lotus pond
+  g.beginPath(); g.ellipse(0, 0.28, 0.9, 0.2, 0, 0, TAU);
+  fillInk(g, upx, "#5f9fb8", 0.8);
+  for (const [x, y] of [[-0.62, 0.26], [-0.42, 0.36], [0.5, 0.3], [0.7, 0.22], [0.32, 0.4]]) {
+    g.beginPath(); g.ellipse(x, y, 0.08, 0.035, 0, 0, TAU); g.fillStyle = "#5f8f3e"; g.fill();
+  }
+  g.fillStyle = "#f2a6c0";
+  for (const [x, y] of [[-0.6, 0.22], [0.52, 0.26]]) { g.beginPath(); g.arc(x, y, 0.035, 0, TAU); g.fill(); }
+  g.beginPath(); g.rect(-0.07, -0.2, 0.14, 0.5);
+  fillInk(g, upx, "#bdb5a2", 0.9);
+  poly(g, [-0.07, -0.16, -0.3, -0.3, 0.3, -0.3, 0.07, -0.16]);
+  fillInk(g, upx, "#7a3a22", 0.8);
+  g.beginPath(); g.rect(-0.28, -0.58, 0.56, 0.28);
+  fillInk(g, upx, "#a8321e", 0.9);
+  g.fillStyle = "#f2d27a"; g.fillRect(-0.08, -0.52, 0.16, 0.2);
+  curvedRoof(g, upx, 0, -0.56, 0.42, 0.26, "#7a3420");
+  g.beginPath(); g.arc(0, -0.86, 0.04, 0, TAU);
+  fillInk(g, upx, "#f2d27a", 0.6);
+}
+
+function paintTemple(g, upx) {
+  // a đền on a wooded hill: stone steps up to a low hall of red columns under a big tiled roof, two gate pillars
+  g.beginPath(); g.moveTo(-0.96, 0.36); g.bezierCurveTo(-0.7, -0.22, 0.7, -0.22, 0.96, 0.36); g.closePath();
+  fillInk(g, upx, "#5f8a44", 0.9);
+  roundTree(g, upx, -0.74, 0.28, 0.26, "#3f6a34");
+  roundTree(g, upx, 0.76, 0.28, 0.24, "#4f7a3a");
+  g.beginPath(); g.rect(-0.56, -0.36, 1.12, 0.32);
+  fillInk(g, upx, "#9a2e1c", 0.9);
+  g.fillStyle = "#f2d27a"; g.fillRect(-0.12, -0.3, 0.24, 0.26);
+  g.fillStyle = "#6a1e12";
+  for (const x of [-0.46, -0.26, 0.2, 0.4]) g.fillRect(x, -0.32, 0.05, 0.28);
+  curvedRoof(g, upx, 0, -0.34, 0.72, 0.32, "#7a3a26");
+  g.beginPath(); g.arc(0, -0.7, 0.05, 0, TAU);
+  fillInk(g, upx, "#f2d27a", 0.6);
+  poly(g, [-0.14, 0.36, -0.08, -0.04, 0.08, -0.04, 0.14, 0.36]);
+  fillInk(g, upx, "#cfc2a2", 0.8);
+  for (const x of [-0.3, 0.26]) {
+    g.beginPath(); g.rect(x, -0.12, 0.06, 0.46);
+    fillInk(g, upx, "#e4dac0", 0.8);
+    poly(g, [x - 0.03, -0.12, x + 0.03, -0.2, x + 0.09, -0.12]);
+    fillInk(g, upx, "#7a3a26", 0.6);
+  }
+}
+
+function paintMausoleum(g, upx) {
+  // a grey granite mausoleum: a stepped base, a colonnade of square pillars, a flat stepped roof, the flag on top
+  for (const [y, w, h, col] of [[0.18, 0.92, 0.18, "#8a8a86"], [0.04, 0.8, 0.14, "#9c9b95"]]) {
+    g.beginPath(); g.rect(-w, y, 2 * w, h); fillInk(g, upx, col, 0.9);
+  }
+  g.beginPath(); g.rect(-0.6, -0.48, 1.2, 0.52);
+  fillInk(g, upx, "#4e4e4c", 1);
+  g.fillStyle = "#c4c2ba";
+  for (let k = 0; k < 8; k++) g.fillRect(-0.58 + k * 0.158, -0.46, 0.07, 0.5);
+  for (const [y, w, h, col] of [[-0.6, 0.68, 0.12, "#a6a49c"], [-0.72, 0.5, 0.12, "#b2b0a8"], [-0.8, 0.32, 0.08, "#bebcb4"]]) {
+    g.beginPath(); g.rect(-w, y, 2 * w, h); fillInk(g, upx, col, 0.9);
+  }
+  flagVN(g, upx, 0, -0.8, 0.42, 0.3);
+  for (const x of [-0.84, 0.84]) { g.beginPath(); g.ellipse(x, 0.1, 0.1, 0.07, 0, 0, TAU); fillInk(g, upx, "#4f7a3a", 0.6); }
+}
+
+function paintPalace(g, upx) {
+  // a white modernist palace (Dinh Độc Lập): a podium with a long canopy, the upper floors behind a screen of
+  // slender white louvres, a roof pavilion and the flag
+  g.beginPath(); g.ellipse(0, 0.3, 0.92, 0.14, 0, 0, TAU);
+  g.fillStyle = "#6f9a4a"; g.fill();
+  g.beginPath(); g.rect(-0.9, -0.02, 1.8, 0.3);
+  fillInk(g, upx, "#e8e6de", 0.9);
+  windowGrid(g, -0.84, 0.06, 12, 1, 0.145, 0, 0.08, 0.14, "#5e646c");
+  g.beginPath(); g.rect(-0.78, -0.5, 1.56, 0.48);
+  fillInk(g, upx, "#6e747c", 1);
+  g.fillStyle = "#f6f4ee";
+  for (let k = 0; k < 24; k++) g.fillRect(-0.76 + k * 0.065, -0.48, 0.032, 0.44);
+  g.beginPath(); g.rect(-0.88, -0.56, 1.76, 0.06);
+  fillInk(g, upx, "#dcd8cc", 0.8);
+  g.beginPath(); g.rect(-0.22, -0.7, 0.44, 0.14);
+  fillInk(g, upx, "#ecead2", 0.8);
+  g.beginPath(); g.rect(-0.34, -0.06, 0.68, 0.05);
+  fillInk(g, upx, "#dcd8cc", 0.7);
+  flagVN(g, upx, 0, -0.7, 0.46, 0.3);
+}
+
+function paintFlagTower(g, upx) {
+  // Cột cờ Lũng Cú: a flag tower on a rocky summit flying a very large national flag
+  g.beginPath(); g.moveTo(-0.96, 0.36); g.lineTo(-0.5, -0.1); g.lineTo(-0.2, -0.22); g.lineTo(0.22, -0.2); g.lineTo(0.56, -0.02); g.lineTo(0.96, 0.36); g.closePath();
+  fillInk(g, upx, "#6f8a5a", 1);
+  g.fillStyle = "rgba(0,0,0,.14)";
+  poly(g, [0.22, -0.2, 0.56, -0.02, 0.96, 0.36, 0.3, 0.36]); g.fill();
+  poly(g, [-0.16, -0.2, -0.12, -0.7, 0.12, -0.7, 0.16, -0.2]);
+  fillInk(g, upx, "#d8d2c2", 1);
+  g.fillStyle = "#a8a290";
+  for (const y of [-0.34, -0.5]) g.fillRect(-0.15, y, 0.3, 0.03);
+  g.beginPath(); g.rect(-0.19, -0.75, 0.38, 0.06);
+  fillInk(g, upx, "#c8c2b0", 0.8);
+  flagVN(g, upx, 0, -0.75, 0.66, 0.62);
+}
+
+function paintSkyscraper(g, upx) {
+  // a slender stepped glass tower over a podium, lower towers beside it (Landmark 81)
+  g.beginPath(); g.rect(-0.74, 0.08, 1.48, 0.28);
+  fillInk(g, upx, "#cdc8ba", 0.9);
+  for (const [x, w, top, col] of [[-0.68, 0.26, -0.36, "#9ab4c8"], [0.42, 0.24, -0.26, "#a8bccc"]]) {
+    g.beginPath(); g.rect(x, top, w, 0.44 - top);
+    fillInk(g, upx, col, 0.9);
+  }
+  for (const [w, top] of [[0.2, -0.98], [0.14, -1.16], [0.08, -1.28]]) {
+    g.beginPath(); g.rect(-w, top, 2 * w, 0.46 - top);
+    fillInk(g, upx, "#7fa4c4", 1);
+  }
+  g.fillStyle = "rgba(0,0,0,.16)"; g.fillRect(0, -1.28, 0.2, 1.36);
+  g.strokeStyle = "rgba(236,246,255,.6)"; g.lineWidth = Math.max(0.6 / upx, 0.015);
+  g.beginPath();
+  for (let y = -0.9; y < 0.08; y += 0.1) { g.moveTo(-0.2, y); g.lineTo(0.2, y); }
+  g.stroke();
+  g.strokeStyle = "#dfe6ea"; g.lineWidth = Math.max(1 / upx, 0.03);
+  g.beginPath(); g.moveTo(0, -1.28); g.lineTo(0, -1.42); g.stroke();
+}
+
+function paintGoldBridge(g, upx) {
+  // Cầu Vàng: a gold walkway in the misty hills, held up by two giant weathered stone hands
+  g.beginPath(); g.moveTo(-0.96, 0.36); g.bezierCurveTo(-0.7, -0.7, -0.2, -0.8, 0.1, -0.5); g.bezierCurveTo(0.4, -0.9, 0.8, -0.6, 0.96, 0.0); g.lineTo(0.96, 0.36); g.closePath();
+  fillInk(g, upx, "#5f8466", 1);
+  g.fillStyle = "rgba(240,244,246,.6)";
+  g.beginPath(); g.ellipse(0, -0.42, 0.86, 0.1, 0, 0, TAU); g.fill();
+  const hand = (x) => {
+    poly(g, [x - 0.14, 0.36, x - 0.12, -0.02, x + 0.12, -0.02, x + 0.14, 0.36]); // forearm
+    fillInk(g, upx, "#8c8a7c", 0.9);
+    g.beginPath(); g.ellipse(x, -0.08, 0.24, 0.12, 0, 0, TAU); // palm
+    fillInk(g, upx, "#949284", 0.9);
+  };
+  const fingers = (x) => {
+    for (let k = 0; k < 4; k++) {
+      g.beginPath(); g.rect(x - 0.21 + k * 0.11, -0.36, 0.09, 0.3);
+      fillInk(g, upx, "#9a9888", 0.7);
+    }
+  };
+  hand(-0.42); hand(0.42);
+  g.beginPath(); g.moveTo(-0.98, -0.18); g.quadraticCurveTo(0, -0.4, 0.98, -0.18); g.lineTo(0.98, -0.1); g.quadraticCurveTo(0, -0.32, -0.98, -0.1); g.closePath();
+  fillInk(g, upx, "#e0b23a", 0.9);
+  fingers(-0.42); fingers(0.42);
+}
+
+function paintTruss(g, upx) {
+  // a long steel truss bridge on stone piers over the river (Cầu Long Biên)
+  water(g, upx, 0.06);
+  g.fillStyle = "#b8aa90";
+  for (const x of [-0.66, 0.0, 0.66]) { g.beginPath(); g.rect(x - 0.05, -0.02, 0.1, 0.32); g.fill(); ink(g, upx, 0.7); }
+  g.beginPath(); g.rect(-0.98, -0.06, 1.96, 0.06);
+  fillInk(g, upx, "#4a4644", 0.8);
+  g.strokeStyle = "#5a4e48";
+  g.lineWidth = Math.max(1 / upx, 0.03);
+  g.beginPath();
+  for (let k = 0; k < 3; k++) {
+    const x0 = -0.98 + k * 0.653, x1 = x0 + 0.653, xm = (x0 + x1) / 2;
+    g.moveTo(x0, -0.06); g.quadraticCurveTo(xm, -0.62, x1, -0.06);
+    const top = (q) => [x0 + ((x1 - x0) * q) / 6, -0.06 - 1.12 * (q / 6) * (1 - q / 6)]; // on the top chord
+    for (let q = 0; q <= 6; q++) {
+      const [x, yt] = top(q);
+      g.moveTo(x, -0.06); g.lineTo(x, yt); // verticals
+      if (q < 6) { g.moveTo(x, yt); g.lineTo(top(q + 1)[0], -0.06); } // diagonals
+    }
+  }
+  g.stroke();
+}
+
+function paintChamTower(g, upx) {
+  // red-brick Cham tower temples (kalan) in the jungle (Mỹ Sơn)
+  g.beginPath(); g.ellipse(0, 0.06, 0.96, 0.34, 0, Math.PI, 0); g.closePath();
+  fillInk(g, upx, "#4f7a3a", 0.8);
+  for (const [x, w, h] of [[-0.5, 0.3, 0.8], [0.06, 0.4, 1.2], [0.6, 0.26, 0.64]]) {
+    const y0 = 0.34, yb = y0 - h * 0.5;
+    g.beginPath(); g.rect(x - w / 2, yb, w, h * 0.5);
+    fillInk(g, upx, "#b4603a", 0.9);
+    g.fillStyle = "#3a2218";
+    g.beginPath(); g.moveTo(x - w * 0.14, y0); g.lineTo(x - w * 0.14, y0 - h * 0.26); g.lineTo(x, y0 - h * 0.34); g.lineTo(x + w * 0.14, y0 - h * 0.26); g.lineTo(x + w * 0.14, y0); g.closePath(); g.fill();
+    let y = yb;
+    for (let t = 0; t < 3; t++) {
+      const tw = w * (0.86 - t * 0.2), th = h * 0.11;
+      g.beginPath(); g.rect(x - tw / 2, y - th, tw, th);
+      fillInk(g, upx, t % 2 ? "#a8562e" : "#c06a40", 0.7);
+      y -= th;
+    }
+    poly(g, [x - w * 0.2, y, x, y - h * 0.14, x + w * 0.2, y]);
+    fillInk(g, upx, "#a8562e", 0.7);
+    g.fillStyle = "rgba(0,0,0,.14)"; g.fillRect(x, yb, w / 2, h * 0.5);
+  }
+}
+
+function paintCave(g, upx) {
+  // a jungle-capped limestone mountain with a great cave mouth at river level and a boat going in (Phong Nha)
+  water(g, upx, 0.2);
+  g.beginPath();
+  g.moveTo(-0.94, 0.24); g.bezierCurveTo(-0.96, -0.4, -0.6, -0.9, -0.1, -0.86); g.bezierCurveTo(0.4, -1.0, 0.9, -0.5, 0.94, 0.24); g.closePath();
+  fillInk(g, upx, "#8e9c88", 1);
+  for (const [x, y, rx] of [[-0.5, -0.66, 0.36], [0.16, -0.84, 0.4], [0.62, -0.5, 0.26]]) {
+    g.beginPath(); g.ellipse(x, y, rx, 0.12, 0, 0, TAU); fillInk(g, upx, "#4f7a3a", 0.7);
+  }
+  g.beginPath(); g.ellipse(0, 0.24, 0.4, 0.5, 0, Math.PI, 0); g.closePath();
+  fillInk(g, upx, "#1e1a18", 1);
+  g.beginPath(); g.moveTo(0.3, 0.3); g.lineTo(0.62, 0.3); g.lineTo(0.56, 0.36); g.lineTo(0.34, 0.36); g.closePath();
+  fillInk(g, upx, "#7a5a32", 0.7);
+}
+
+function paintTunnel(g, upx) {
+  // a forest floor with a hidden tunnel hatch, its leaf-covered lid lifted, and a thatched shelter (Địa đạo Củ Chi)
+  g.beginPath(); g.ellipse(0, 0.32, 0.9, 0.16, 0, 0, TAU);
+  g.fillStyle = "#8a6a3e"; g.fill();
+  roundTree(g, upx, -0.66, 0.3, 0.36, "#3f6a34");
+  poly(g, [-0.02, -0.12, 0.3, -0.48, 0.66, -0.12]);
+  fillInk(g, upx, "#c8a45a", 0.9);
+  g.strokeStyle = "rgba(90,64,24,.6)"; g.lineWidth = Math.max(0.7 / upx, 0.02);
+  g.beginPath(); for (let k = 1; k < 5; k++) { g.moveTo(0.3, -0.48); g.lineTo(-0.02 + k * 0.136, -0.12); } g.stroke();
+  g.fillStyle = "#5a3e24";
+  for (const x of [0.06, 0.56]) g.fillRect(x, -0.14, 0.04, 0.46);
+  poly(g, [-0.34, 0.24, -0.06, 0.24, 0.02, 0.32, -0.26, 0.32]);
+  fillInk(g, upx, "#1a120c", 0.8);
+  poly(g, [-0.34, 0.24, -0.06, 0.24, -0.1, 0.02, -0.36, 0.02]);
+  fillInk(g, upx, "#7a6a3a", 0.8);
+  g.fillStyle = "#6a8a3a";
+  for (const [x, y] of [[-0.3, 0.08], [-0.2, 0.14], [-0.14, 0.06]]) { g.beginPath(); g.ellipse(x, y, 0.04, 0.02, 0.5, 0, TAU); g.fill(); }
+  roundTree(g, upx, 0.82, 0.36, 0.26, "#4f7a3a");
+}
+
+function paintQuarter(g, upx) {
+  // Hội An: ochre-yellow shophouses with wooden fronts and old tiled roofs on the river, silk lanterns strung across
+  g.beginPath(); g.ellipse(0, 0.32, 0.9, 0.08, 0, 0, TAU);
+  g.fillStyle = "#6aa0b0"; g.fill();
+  for (const [x, w, col] of [[-0.92, 0.6, "#e8c050"], [-0.3, 0.6, "#f0cc5a"], [0.32, 0.6, "#e2b84a"]]) {
+    g.beginPath(); g.rect(x, -0.3, w, 0.58);
+    fillInk(g, upx, col, 1);
+    g.fillStyle = "#5a3a22"; g.fillRect(x + 0.08, 0.02, w - 0.16, 0.26); // wooden shop front
+    g.fillStyle = "#3e6a5a"; g.fillRect(x + 0.1, -0.22, 0.14, 0.14); g.fillRect(x + w - 0.24, -0.22, 0.14, 0.14); // shutters
+    poly(g, [x - 0.04, -0.28, x + 0.08, -0.52, x + w - 0.08, -0.52, x + w + 0.04, -0.28]);
+    fillInk(g, upx, "#7a4a36", 0.9);
+    g.strokeStyle = "rgba(60,30,20,.45)"; g.lineWidth = Math.max(0.6 / upx, 0.015);
+    g.beginPath(); for (let k = 1; k < 7; k++) { const t = x + (w * k) / 7; g.moveTo(t, -0.5); g.lineTo(t + (t - x - w / 2) * 0.1, -0.3); } g.stroke();
+    g.fillStyle = "rgba(90,110,60,.35)"; g.fillRect(x + 0.1, -0.5, w * 0.3, 0.05); // moss on the old tiles
+  }
+  g.strokeStyle = "#3a2a1c"; g.lineWidth = Math.max(0.6 / upx, 0.012);
+  g.beginPath(); g.moveTo(-0.92, -0.04); g.quadraticCurveTo(0, 0.06, 0.92, -0.04); g.stroke();
+  for (let k = 0; k < 7; k++) {
+    const x = -0.78 + k * 0.26, y = -0.01 + 0.05 * (1 - ((x / 0.92) ** 2));
+    g.beginPath(); g.ellipse(x, y + 0.05, 0.045, 0.06, 0, 0, TAU);
+    fillInk(g, upx, k % 2 ? "#f2b630" : "#e23a2a", 0.6);
+  }
+}
+
 const MOTIF_PAINT = {
-  peak: paintPeak,
-  canyon: paintCanyon, forest: paintForest, desert: paintDesert, geyser: paintGeyser, coast: paintCoast, bridge: paintBridge,
-  dam: paintDam, arch: paintSteelArch,
-  obelisk: (g, upx) => paintLandmark(g, upx, 0),
-  memorial: (g, upx) => paintLandmark(g, upx, 1),
-  rotunda: (g, upx) => paintLandmark(g, upx, 2),
-  hall: (g, upx) => paintUniversity(g, upx, 0),
-  redhall: (g, upx) => paintUniversity(g, upx, 1),
-  spire: (g, upx) => paintUniversity(g, upx, 2),
-  statue: paintStatue, mission: paintMission, gantry: paintGantry, mound: paintMound, adobe: paintAdobe,
-  ballpark: paintBallpark, brickhall: paintBrickHall, carved: paintCarved, quarter: paintQuarter, flight: paintFlight,
-  spike: paintSpike, karst: paintKarst, pagoda: paintPagoda, citadel: paintCitadel,
+  peak: paintPeak, forest: paintForest, coast: paintCoast, karst: paintKarst, cave: paintCave,
+  campus: paintCampus, gate: paintGate,
+  pagoda: paintPagoda, onepillar: paintOnePillar, temple: paintTemple, citadel: paintCitadel, quarter: paintQuarter,
+  chamtower: paintChamTower, mausoleum: paintMausoleum, palace: paintPalace, flagtower: paintFlagTower,
+  skyscraper: paintSkyscraper, goldbridge: paintGoldBridge, truss: paintTruss, tunnel: paintTunnel,
 };
 
 // --- plaques --------------------------------------------------------------------------------------------------------

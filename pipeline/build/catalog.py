@@ -29,18 +29,23 @@ EXTRA = [
          used_for=["Growth 2026 and factory jobs 2026 lenses", "Province panels"],
          files=[{"file": "02.-Bieu-thang-9.2026.xlsx", "url": "https://www.nso.gov.vn/wp-content/uploads/2026/10/02.-Bieu-thang-9.2026.xlsx"},
                 {"file": "2.-Bieu-thang-10.2026.xlsx", "url": "https://www.nso.gov.vn/wp-content/uploads/2026/11/2.-Bieu-thang-10.2026.xlsx"}]),
-    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022 (2024 where published)", publisher="VCCI",
+    dict(id="pci", title="Provincial Competitiveness Index (PCI) 2022, 2024 and 2025", publisher="VCCI",
          homepage="https://pcivietnam.vn/", license="Free to reuse with attribution",
-         description="Survey-based business-climate score per province; 2022 is the last year scored for all 63. PCI 2025 "
-         "(34 provinces) publishes sub-indices and rank groups only, no composite score.",
-         used_for=["Business climate lens"],
+         description="Survey-based business-climate score per province. 2022: VCCI's composite for all 63 former provinces; "
+         "2024: the composite for the top 30. PCI 2025 (34 provinces) publishes the nine sub-indices, their weights and "
+         "rank groups but no composite score: the atlas computes it as 10 × the weighted mean of the sub-indices, weights "
+         "from the PCI 2025 report (Figure A1.1 p.138, Table 4.2 p.105), and checks that it reproduces all 34 published "
+         "rank groups (Table 4.3 p.107).",
+         used_for=["Business climate lens (2025, computed composite)", "City panels (2022)", "Timeline (2022, 2024, 2025)"],
          files=[{"file": "Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1681152283-Appendix_1_Table_Indicator_PCI2022_VN_web.xlsx"},
-                {"file": "Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1746527576-Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx"}]),
+                {"file": "Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1746527576-Appendix_1_Table_Indicator_PCI_2024_VN_web.xlsx"},
+                {"file": "du_lieu_pci_2025.xlsx", "url": "https://pcivietnam.vn/data_pci_file/general_file/1778745497-06.%20Du%20lieu%20PCI%202025.xlsx"},
+                {"file": "bao_cao_pci_2025.pdf", "url": "https://pcivietnam.vn/data_pci_file/general_file/1779092272-05.%20Bao%20cao%20PCI%202025.pdf"}]),
     dict(id="worldbank_fx", title="Official exchange rate (PA.NUS.FCRF)", publisher="World Bank",
          homepage="https://data.worldbank.org/indicator/PA.NUS.FCRF", license="CC BY 4.0",
          description="VND per USD, period average; every dong figure is converted at the 2024 rate (the 2025 rate is not yet published).",
          used_for=["Money in US dollars"],
-         files=[{"file": "wb_fx.json", "url": "https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2019:2026"}]),
+         files=[{"file": "wb_fx.json", "url": "https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2010:2026"}]),
 ]
 
 
@@ -51,14 +56,17 @@ VINTAGE = {
     "etopo": "ETOPO1", "worldcover": "ESA WorldCover 2021 v200", "worldpop": "WorldPop 2025 (R2025A)",
     "gppd": "WRI Global Power Plant Database v1.3.0 (2021), capacity fill only", "ourairports": "OurAirports", "geonames": "GeoNames",
     "ibtracs": "IBTrACS v04r01", "wikidata": "Wikidata", "osm_rivers": "OpenStreetMap", "osm_military": "OpenStreetMap",
-    "openflights_routes": "OpenFlights routes (June 2014)", "wikipedia_airports": "ACV passengers via Wikipedia",
+    "wikipedia_air_routes": "Current revisions, 28 November 2026 (ids and timestamps in air_routes.json)", "wikipedia_airports": "ACV passengers via Wikipedia",
     "nso_yearbook": "NSO Statistical Yearbook 2025 (2025 preliminary) and 2024",
-    "nso_monthly_2026": "NSO monthly reports, September–October 2026 (estimates)", "pci": "PCI 2022 (2024 where published)",
+    "nso_monthly_2026": "NSO monthly reports, September–October 2026 (estimates)", "pci": "PCI 2025 (composite computed by the atlas; 2022 and 2024 in panels and the timeline)",
     "worldbank_fx": "World Bank official exchange rate, 2024",
     "osm_power": "OpenStreetMap (27 Nov 2026)", "osm_ports": "OpenStreetMap (27 Nov 2026)",
     "osm_roads": "OpenStreetMap (27 Nov 2026)", "osm_rail": "OpenStreetMap (27 Nov 2026)",
     "osm_parks": "OpenStreetMap (27 Nov 2026)", "qd804": "Decision 804/QĐ-TTg (2022) and 1579/QĐ-TTg (2021)",
     "wikipedia_vi_parks": "Vietnamese Wikipedia, list of national parks (Nov 2026)",
+    "nso_dvhc": "NSO register of 28 November 2026",
+    "sapnhap_bando_official": "Bản đồ sáp nhập (bando.com.vn), lấy ngày 28/11/2026; dân số 2025", "nq_wards_2026": "Resolutions 237 and 388/NQ-UBTVQH16 (2026)",
+    "mekong_dem": "Minderhoud et al. 2019 (PANGAEA, published 28 May 2019)",
 }
 
 

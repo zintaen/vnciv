@@ -41,10 +41,6 @@ PROVINCE_LENSES = [
      "Counted where output is made: oil, mining and industrial provinces score high even where incomes are modest."),
     ("productivity", "economy", "Productivity", "l-income", "⚙️", "GRDP per worker, $", "usd", "log", "good", NSO, "income", "productivity", "2025",
      "Labour productivity: GRDP ÷ employed workers, 2025 (NSO, preliminary), converted at the World Bank 2024 rate.", None),
-    ("pci", "economy", "Business climate", "l-amenities", "🤝", "PCI score (0–100)", "float", "linear", "good", "pci", "homeownership", "pci", "2022",
-     "Provincial Competitiveness Index 2022 (VCCI/USAID), the last year scored for all 63 provinces: a survey of "
-     "private firms on transparency, costs, land access and governance.",
-     "PCI 2025 covers the 34 new provinces but publishes only sub-indices and rank groups, no composite score."),
     ("income", "living", "Income", "l-income", "💵", "income per person per year, $", "usd", "linear", "good", NSO, "income", "income", "2025",
      "Average monthly income per person (Vietnam Household Living Standards Survey, 2025) × 12, converted at the World Bank 2024 rate.",
      "Income per person, not per household."),
@@ -87,6 +83,15 @@ STATE_LENSES = [
     ("industry_jobs_2026", "economy", "Factory jobs 2026 (est.)", "l-income", "🏭", "industrial-enterprise jobs vs a year earlier", "pct", "linear", "good", MONTHLY, "age", "industry_jobs_2026", "2026-10-01",
      "Change in the number of workers in industrial enterprises at 1 October 2026 compared with 1 October 2025, "
      "by the 34 provinces (NSO socio-economic report for October 2026, estimate).", None),
+    ("pci", "economy", "Business climate (PCI 2025, computed)", "l-amenities", "🤝", "PCI score (0–100), computed by the atlas", "float", "linear", "good", "pci", "homeownership", "pci_2025", "2025",
+     "Composite score computed by the atlas from the 9 sub-indices and the weights published by VCCI; VCCI does not "
+     "publish a PCI 2025 composite score. Provincial Competitiveness Index 2025 (VCCI), 34 provinces: 10 × the "
+     "weighted mean of the nine sub-indices (1–10 scale), weights 0.05 (market entry), 0.10 (land and resources, "
+     "compliance cost, informal charges, equal competition, legal institutions) and 0.15 (transparency, business "
+     "support, proactive government) from the PCI 2025 report, Figure A1.1 p.138 (weight groups in Table 4.2 p.105). "
+     "The scores reproduce all 34 of VCCI's published rank groups (cut-offs in Table 4.3 p.107).",
+     "Computed by the atlas, not published by VCCI. Not comparable with PCI 2022 or 2024 (63 former provinces, a "
+     "different method and weights); the timeline keeps those years."),
     ("hdi", "living", "Human development", "l-amenities", "🌱", "HDI (0–1)", "float", "linear", "good", NSO, "bachelors", "hdi", "2025",
      "Human Development Index by the 34 provinces, 2025 (NSO, preliminary): health, education and income combined, 0–1.",
      "NSO publishes HDI only for the 34 provinces from 2025; the former provinces' tables keep their 2024 values."),
@@ -281,8 +286,8 @@ def build():
     order = {g["id"]: k for k, g in enumerate(GROUPS)}
     lenses.sort(key=lambda l: order[l["group"]])  # stable: keeps each group's own order
     write_web("lenses.json", {"vintage": "NSO Statistical Yearbook 2025 (some lenses 2024 or earlier; each lens states its year); "
-                                         "NSO monthly report Oct 2026; NSO 2019 census; VCCI PCI 2022; WorldPop 2025; ESA WorldCover 2021; "
-                                         "IBTrACS; CHELSA V2.1 (1981–2010); Hansen Global Forest Change 2001–2025; ETOPO1; "
+                                         "NSO monthly report Oct 2026; NSO 2019 census; VCCI PCI 2025 (composite computed by the atlas); WorldPop 2025; ESA WorldCover 2021; "
+                                         "IBTrACS; CHELSA V2.1 (1981–2010); Hansen Global Forest Change 2001–2025; ETOPO1; Mekong delta DEM (Minderhoud et al. 2019); "
                                          "OpenStreetMap",
                               "groups": GROUPS, "lenses": lenses})
 

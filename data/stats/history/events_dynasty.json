@@ -1,0 +1,472 @@
+[
+ {
+  "id": "trung_rising",
+  "date": "0040-03",
+  "category": "dynasty",
+  "title_en": "The Trưng sisters rise against Han rule",
+  "title_vi": "Hai Bà Trưng khởi nghĩa chống nhà Hán",
+  "text_en": "In March of 40 AD Trưng Trắc and her sister Trưng Nhị led the Lạc Việt in a rebellion against the Han; Trưng Trắc's capital was Mê Linh.",
+  "text_vi": "Tháng 3 năm 40, Trưng Trắc và em gái Trưng Nhị lãnh đạo người Lạc Việt khởi nghĩa chống nhà Hán; Trưng Trắc đóng đô ở Mê Linh.",
+  "raw_file": "trung_sisters.json",
+  "evidence": "In March of 40 AD, Trưng Trắc and her younger sister Trưng Nhị led the Lạc Việt to rise up in rebellion against the Han.",
+  "at": "me_linh.json",
+  "place": "Mê Linh"
+ },
+ {
+  "id": "trung_end",
+  "date": "0043",
+  "category": "dynasty",
+  "title_en": "Ma Yuan ends the Trưng sisters' rule",
+  "title_vi": "Mã Viện dập tắt cuộc khởi nghĩa Hai Bà Trưng",
+  "text_en": "According to the Chinese annals, in 43 CE the Han general Ma Yuan defeated the rebellion and the Trưng sisters were killed.",
+  "text_vi": "Theo sử sách Trung Quốc, năm 43 tướng nhà Hán Mã Viện đánh bại cuộc khởi nghĩa và Hai Bà Trưng mất.",
+  "raw_file": "trung_sisters.json",
+  "evidence": "Summer next year (43 CE), in the fourth month, Ma Yuan devastated Jiaozhi, beheaded Zheng Ce, Zheng Er, and others; the rest all surrendered or scattered.",
+  "at": "me_linh.json",
+  "place": "Mê Linh"
+ },
+ {
+  "id": "lady_trieu",
+  "date": "0248",
+  "category": "dynasty",
+  "title_en": "Lady Triệu's uprising against Eastern Wu",
+  "title_vi": "Khởi nghĩa Bà Triệu chống quân Đông Ngô",
+  "text_en": "In 248 the people of Jiaozhi and Jiuzhen rebelled against Wu rule; Lady Triệu, who died that year, led resistance in Cửu Chân.",
+  "text_vi": "Năm 248, nhân dân Giao Chỉ và Cửu Chân nổi dậy chống ách đô hộ của nhà Ngô; Bà Triệu lãnh đạo cuộc kháng chiến ở Cửu Chân và mất trong năm ấy.",
+  "raw_file": "lady_trieu.json",
+  "evidence": "In 248, the people of Jiaozhi and Jiuzhen districts of Jiao province rebelled against the Wu Chinese.",
+  "at": "ba_trieu_temple.json",
+  "place": "Đền Bà Triệu (Thanh Hóa)"
+ },
+ {
+  "id": "van_xuan",
+  "date": "0544-02",
+  "category": "dynasty",
+  "title_en": "Lý Bí proclaims himself emperor: Vạn Xuân",
+  "title_vi": "Lý Bí xưng đế, lập nước Vạn Xuân",
+  "text_en": "In February 544 Lý Bí was declared emperor (Lý Nam Đế), named the new kingdom Vạn Xuân and set his capital at Long Biên.",
+  "text_vi": "Tháng 2 năm 544, Lý Bí lên ngôi hoàng đế (Lý Nam Đế), đặt quốc hiệu Vạn Xuân và đóng đô ở Long Biên.",
+  "raw_file": "ly_nam_de.json",
+  "evidence": "The following year in February 544, Lý Bí was declared emperor of Nam Việt (Nam Việt Đế, later Lý Nam Đế) by the people with the intention of demonstrating equality in status to China's own emperors.",
+  "also": [
+   {
+    "raw_file": "ly_nam_de.json",
+    "evidence": "Lý Nam Đế established his capital at Long Biên (modern-day Hanoi), surrounded himself with effective leadership in military and administrative scholars."
+   }
+  ],
+  "at": "hanoi.json",
+  "place": "Long Biên (Hà Nội)"
+ },
+ {
+  "id": "bach_dang_938",
+  "date": "0938",
+  "category": "dynasty",
+  "title_en": "Battle of Bạch Đằng (938)",
+  "title_vi": "Trận Bạch Đằng năm 938",
+  "text_en": "In late 938 Ngô Quyền's forces defeated the Southern Han fleet on the Bạch Đằng River, ending the Third Era of Northern Domination.",
+  "text_vi": "Cuối năm 938, quân của Ngô Quyền đánh tan thủy quân Nam Hán trên sông Bạch Đằng, chấm dứt thời kỳ Bắc thuộc lần thứ ba.",
+  "raw_file": "bach_dang_938.json",
+  "evidence": "At the Battle of Bạch Đằng River in late 938 near Hạ Long Bay in northern Vietnam, the military force of the Viet-ruled domain of Tĩnh Hải quân, led by Ngô Quyền, a Viet lord, defeated the invading forces of the Chinese state of Southern Han and put an end to the Third Era of Northern Domination (Chinese ruled Vietnam).",
+  "at": "bach_dang_938.json",
+  "place": "Sông Bạch Đằng",
+  "story": [
+   "bachdang"
+  ]
+ },
+ {
+  "id": "ngo_dynasty",
+  "date": "0939",
+  "category": "dynasty",
+  "title_en": "Ngô dynasty, capital back at Cổ Loa",
+  "title_vi": "Nhà Ngô, đóng đô lại ở Cổ Loa",
+  "text_en": "The Ngô dynasty ruled from 939 to 968; Ngô Quyền moved the capital back to Cổ Loa.",
+  "text_vi": "Nhà Ngô trị vì từ năm 939 đến 968; Ngô Quyền dời đô về lại Cổ Loa.",
+  "raw_file": "ngo_dynasty.json",
+  "evidence": "The Ngô dynasty (Vietnamese: Nhà Ngô; Chữ Nôm: 茹吳), officially Tĩnh Hải quân (chữ Hán: 靜海軍), was a semi-independent Vietnamese dynasty from 939 to 968.",
+  "also": [
+   {
+    "raw_file": "ngo_dynasty.json",
+    "evidence": "He moved the capital back to Cổ Loa."
+   }
+  ],
+  "at": "co_loa.json",
+  "place": "Cổ Loa"
+ },
+ {
+  "id": "early_le",
+  "date": "0980",
+  "category": "dynasty",
+  "title_en": "Early Lê dynasty: Lê Hoàn",
+  "title_vi": "Nhà Tiền Lê: Lê Hoàn",
+  "text_en": "The Early Lê dynasty ruled Đại Cồ Việt from 980 to 1009, beginning with Lê Đại Hành (Lê Hoàn).",
+  "text_vi": "Nhà Tiền Lê trị vì nước Đại Cồ Việt từ năm 980 đến 1009, mở đầu là Lê Đại Hành (Lê Hoàn).",
+  "raw_file": "early_le.json",
+  "evidence": "The Anterior Lê dynasty, alternatively known as the Former Lê dynasty (Vietnamese: nhà Tiền Lê; chữ Nôm: 茹前黎; pronounced [ɲâː tjə̂n le]) in historiography, was a dynasty of Vietnam that ruled  Đại Cồ Việt (chữ Hán: 大瞿越) from 980 to 1009.",
+  "at": "nation"
+ },
+ {
+  "id": "bach_dang_981",
+  "date": "0981-04",
+  "category": "dynasty",
+  "title_en": "Battle of Bạch Đằng (981)",
+  "title_vi": "Trận Bạch Đằng năm 981",
+  "text_en": "In early 981 a Song fleet sailed up the Bạch Đằng River; the Song invasion of Đại Cồ Việt ended in April 981 with the Song forced to withdraw.",
+  "text_vi": "Đầu năm 981, thủy quân nhà Tống tiến vào sông Bạch Đằng; tháng 4 năm 981 quân Tống buộc phải rút, cuộc xâm lược Đại Cồ Việt kết thúc.",
+  "raw_file": "bach_dang_981.json",
+  "evidence": "As a result, the Song fleet was forced to withdraw and the Song invasion ended in April 981.",
+  "also": [
+   {
+    "raw_file": "bach_dang_981.json",
+    "evidence": "In early 981, two Song armies attacked Đại Cồ Việt through land, and a fleet of ships sailed up the Bạch Đằng River."
+   }
+  ],
+  "at": "bach_dang_981.json",
+  "place": "Sông Bạch Đằng",
+  "story": [
+   "bachdang"
+  ]
+ },
+ {
+  "id": "van_mieu",
+  "date": "1070",
+  "category": "dynasty",
+  "title_en": "Văn Miếu (Temple of Literature) built",
+  "title_vi": "Xây dựng Văn Miếu",
+  "text_en": "The Văn Miếu in Thăng Long was founded and first built in 1070 under Emperor Lý Thánh Tông.",
+  "text_vi": "Văn Miếu ở Thăng Long được xây dựng năm 1070, dưới triều vua Lý Thánh Tông.",
+  "raw_file": "temple_lit.json",
+  "evidence": "The temple was founded and first built in 1070 at the time of Emperor Lý Thánh Tông, and it hosted the Imperial Academy (Quốc Tử Giám, 國子監), Vietnam's first national university, from 1076 to 1779.",
+  "at": "temple_lit.json",
+  "place": "Văn Miếu – Quốc Tử Giám",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "quoc_tu_giam",
+  "date": "1076",
+  "category": "dynasty",
+  "title_en": "Quốc Tử Giám, Vietnam's first university",
+  "title_vi": "Quốc Tử Giám, trường đại học đầu tiên",
+  "text_en": "In 1076 the Imperial Academy (Quốc Tử Giám) was established within the temple under Lý Nhân Tông; it stayed open until 1779.",
+  "text_vi": "Năm 1076, Quốc Tử Giám được lập trong khuôn viên Văn Miếu dưới triều Lý Nhân Tông và hoạt động đến năm 1779.",
+  "raw_file": "temple_lit.json",
+  "evidence": "In 1076, Vietnam's first university, the \"Quốc Tử Giám\" or Imperial Academy, was established within the temple during the reign of Lý Nhân Tông to educate Vietnam's bureaucrats, nobles, royalty, and other members of the elite.",
+  "at": "temple_lit.json",
+  "place": "Văn Miếu – Quốc Tử Giám",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "tran_founded",
+  "date": "1225-12-31",
+  "category": "dynasty",
+  "title_en": "Trần dynasty founded",
+  "title_vi": "Nhà Trần được thành lập",
+  "text_en": "The Lý dynasty ended after 216 years and the Trần dynasty began on 31 December 1225; it ruled Đại Việt until 1400.",
+  "text_vi": "Nhà Lý chấm dứt sau 216 năm; nhà Trần bắt đầu ngày 31 tháng 12 năm 1225 và trị vì Đại Việt đến năm 1400.",
+  "raw_file": "tran_dynasty.json",
+  "evidence": "As a result, the 216-year reign of the Lý dynasty was ended, and the new Trần dynasty was created on the first day of the twelfth lunar month (Gregorian: December 31) 1225.",
+  "at": "nation"
+ },
+ {
+  "id": "mongol_1258",
+  "date": "1258-01-17",
+  "category": "dynasty",
+  "title_en": "First Mongol invasion of Đại Việt",
+  "title_vi": "Cuộc xâm lược Đại Việt lần thứ nhất của quân Mông Cổ",
+  "text_en": "A Mongol column under Uriyangkhadai entered Đại Việt from Yunnan in early 1258 and fought the Viet forces on 17 January 1258.",
+  "text_vi": "Đầu năm 1258, một cánh quân Mông Cổ do Ngột Lương Hợp Thai chỉ huy từ Vân Nam tiến vào Đại Việt và giao chiến với quân Đại Việt ngày 17 tháng 1 năm 1258.",
+  "raw_file": "mongol_vn.json",
+  "evidence": "Modern scholarship points to a force of several thousand Mongols, ordered by Kublai to invade with Uriyangkhadai in command, which battled with the Viet forces on 17 January 1258.",
+  "at": "nation"
+ },
+ {
+  "id": "mongol_1285",
+  "date": "1285-06-09",
+  "category": "dynasty",
+  "title_en": "Second Yuan invasion: troops leave Thăng Long",
+  "title_vi": "Cuộc xâm lược lần thứ hai: quân Nguyên rút khỏi Thăng Long",
+  "text_en": "Yuan troops crossed the Nam Quan Pass on 27 January 1285; after the Vietnamese counterattack they evacuated Thăng Long on 9 June 1285.",
+  "text_vi": "Quân Nguyên vượt ải Nam Quan ngày 27 tháng 1 năm 1285; sau cuộc phản công của quân Đại Việt, chúng rút khỏi Thăng Long ngày 9 tháng 6 năm 1285.",
+  "raw_file": "mongol_vn.json",
+  "evidence": "On 9 June 1285, Mongol troops evacuated Thăng Long to withdraw to China.",
+  "also": [
+   {
+    "raw_file": "mongol_vn.json",
+    "evidence": "Yuan troops crossed the Nam Quan Pass on 27 January 1285, divided in six columns while working their way down the rivers."
+   }
+  ],
+  "at": "hanoi.json",
+  "place": "Thăng Long",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "bach_dang_1288",
+  "date": "1288-04",
+  "category": "dynasty",
+  "title_en": "Battle of Bạch Đằng (1288)",
+  "title_vi": "Trận Bạch Đằng năm 1288",
+  "text_en": "In April 1288 Prince Hưng Đạo (Trần Quốc Tuấn) ambushed Omar's Yuan fleet on the Bạch Đằng River, using stakes planted in the river bed, in the third Battle of Bạch Đằng.",
+  "text_vi": "Tháng 4 năm 1288, Hưng Đạo Vương Trần Quốc Tuấn phục kích thủy quân Nguyên do Ô Mã Nhi chỉ huy trên sông Bạch Đằng bằng bãi cọc cắm dưới lòng sông, làm nên trận Bạch Đằng lần thứ ba.",
+  "raw_file": "mongol_vn.json",
+  "evidence": "At the Bạch Đằng River in April 1288, Prince Hưng Đạo commanding the Vietnamese forces staged an ambush on Omar's Yuan fleet in the third Battle of Bạch Đằng.",
+  "also": [
+   {
+    "raw_file": "bach_dang_1288.json",
+    "evidence": "He studied the tidal lore, and ordered beds of stakes to be planted under the water and arranged ambushes in a unified plan of campaign."
+   }
+  ],
+  "at": "bach_dang_1288.json",
+  "place": "Sông Bạch Đằng",
+  "story": [
+   "bachdang"
+  ]
+ },
+ {
+  "id": "nhu_nguyet_1077",
+  "date": "1077",
+  "category": "dynasty",
+  "title_en": "Battle of Như Nguyệt",
+  "title_vi": "Trận Như Nguyệt",
+  "text_en": "In 1077 Lý Thường Kiệt's defensive line on the Như Nguyệt (Cầu) River held against the Song army, the decisive battle of the Song–Việt war of 1075–1077.",
+  "text_vi": "Năm 1077, phòng tuyến của Lý Thường Kiệt trên sông Như Nguyệt (sông Cầu) đứng vững trước quân Tống, trận quyết định của cuộc chiến tranh Tống – Việt 1075–1077.",
+  "raw_file": "vi_nhu_nguyet.json",
+  "evidence": "Trận Như Nguyệt là một trận đánh lớn diễn ra ở một khúc sông Như Nguyệt (hay sông Cầu) vào năm 1077, là trận đánh có tính quyết định của cuộc Chiến tranh Tống-Việt, 1075-1077, và là trận đánh cuối cùng của nhà Tống trên đất Đại Việt.",
+  "also": [
+   {
+    "raw_file": "vi_nhu_nguyet.json",
+    "evidence": "Được sự giúp sức của nhân dân, Lý Thường Kiệt đã xây dựng một phòng tuyến trên sông Như Nguyệt (một đoạn của khúc sông Cầu) để biến nơi đây là nơi diễn ra trận đánh quyết định của cả cuộc chiến."
+   }
+  ],
+  "at": "vi_nhu_nguyet.json",
+  "place": "Sông Như Nguyệt (sông Cầu)"
+ },
+ {
+  "id": "lam_son_1418",
+  "date": "1418-02-07",
+  "category": "dynasty",
+  "title_en": "Lê Lợi raises the Lam Sơn uprising",
+  "title_vi": "Lê Lợi dựng cờ khởi nghĩa Lam Sơn",
+  "text_en": "On 7 February 1418 Lê Lợi proclaimed himself Bình Định vương and raised the banner of revolt against Ming rule at Lam Sơn, in today's Thanh Hóa.",
+  "text_vi": "Ngày 7 tháng 2 năm 1418, Lê Lợi xưng Bình Định vương và dựng cờ khởi nghĩa chống nhà Minh ở Lam Sơn, nay thuộc Thanh Hóa.",
+  "raw_file": "lam_son.json",
+  "evidence": "Facing this threat, on 7 February 1418, Lê Lợi proclaimed himself Bình Định vương (Prince of Pacification) and, together with his entire forces, raised the banner of revolt at Lam Sơn.",
+  "at": "p_thanh_hoa.json",
+  "place": "Lam Sơn"
+ },
+ {
+  "id": "dong_quan_oath",
+  "date": "1427-12-16",
+  "category": "dynasty",
+  "title_en": "The Đông Quan oath: the Ming army withdraws",
+  "title_vi": "Hội thề Đông Quan: quân Minh rút về nước",
+  "text_en": "On 16 December 1427 the Ming commander Wang Tong and the Lam Sơn leaders took an oath south of Đông Quan; the Ming army began its journey home on 29 December.",
+  "text_vi": "Ngày 16 tháng 12 năm 1427, tướng Minh Vương Thông và các thủ lĩnh Lam Sơn làm lễ thề ở phía nam thành Đông Quan; ngày 29 tháng 12 quân Minh bắt đầu rút về nước.",
+  "raw_file": "lam_son.json",
+  "evidence": "On 16 December 1427, a ceremony was held south of Đông Quan, where Vương Thông and his generals, along with the commanders of the Lam Sơn rebels, took an oath.",
+  "also": [
+   {
+    "raw_file": "lam_son.json",
+    "evidence": "On 29 December 1427, the Ming army officially began their journey home, followed by Wang Tong on 3 January 1428."
+   }
+  ],
+  "at": "hanoi.json",
+  "place": "Đông Quan (Thăng Long)",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "le_thanh_tong",
+  "date": "1460",
+  "category": "dynasty",
+  "title_en": "Lê Thánh Tông becomes emperor",
+  "title_vi": "Lê Thánh Tông lên ngôi",
+  "text_en": "Lê Thánh Tông ruled Đại Việt from 1460 to 1497, after a coup against his elder brother Lê Nghi Dân.",
+  "text_vi": "Lê Thánh Tông trị vì Đại Việt từ năm 1460 đến 1497, sau khi cuộc đảo chính lật đổ anh trai là Lê Nghi Dân.",
+  "raw_file": "le_thanh_tong.json",
+  "evidence": "He came to power through a coup d'état against his elder brother Lê Nghi Dân in 1460.",
+  "at": "nation"
+ },
+ {
+  "id": "champa_1471",
+  "date": "1471",
+  "category": "dynasty",
+  "title_en": "Đại Việt defeats Champa",
+  "title_vi": "Đại Việt đánh bại Chăm Pa",
+  "text_en": "After defeating Champa in 1471, Lê Thánh Tông sent large groups of Vietnamese settlers to the newly conquered territories.",
+  "text_vi": "Sau khi đánh bại Chăm Pa năm 1471, Lê Thánh Tông đưa nhiều nhóm người Việt vào định cư ở vùng đất mới chiếm.",
+  "raw_file": "le_thanh_tong.json",
+  "evidence": "After the defeat of Champa in 1471, he sent large groups of ethnic Vietnamese, including prisoners and criminals, to settle in the new conquered territories.",
+  "at": "nation"
+ },
+ {
+  "id": "hong_duc_code",
+  "date": "1483",
+  "category": "dynasty",
+  "title_en": "The Hồng Đức Code",
+  "title_vi": "Bộ luật Hồng Đức",
+  "text_en": "In 1483 Lê Thánh Tông created a new legal code for Đại Việt, the Hồng Đức Code.",
+  "text_vi": "Năm 1483, Lê Thánh Tông ban hành bộ luật mới cho Đại Việt, Bộ luật Hồng Đức.",
+  "raw_file": "le_thanh_tong.json",
+  "evidence": "In 1483 Lê Thánh Tông created a new code for Đại Việt, called the Hồng Đức Code, which is Vietnam's National Treasures and is kept in the National Library in form of woodblocks No A.314.",
+  "at": "nation"
+ },
+ {
+  "id": "mac_founded",
+  "date": "1527",
+  "category": "dynasty",
+  "title_en": "Mạc Đăng Dung founds the Mạc dynasty",
+  "title_vi": "Mạc Đăng Dung lập ra nhà Mạc",
+  "text_en": "In 1527 Mạc Đăng Dung removed Lê Cung Hoàng and proclaimed himself emperor of the new Mạc dynasty.",
+  "text_vi": "Năm 1527, Mạc Đăng Dung phế Lê Cung Hoàng và tự xưng hoàng đế, lập ra nhà Mạc.",
+  "raw_file": "mac_dynasty.json",
+  "evidence": "In 1527 Mạc Đăng Dung removed Lê Cung Hoàng and proclaimed himself as Emperor of the new Mạc dynasty under the title Minh Đức.",
+  "at": "nation"
+ },
+ {
+  "id": "mac_loses_capital",
+  "date": "1592",
+  "category": "dynasty",
+  "title_en": "The Mạc lose Đông Kinh",
+  "title_vi": "Nhà Mạc mất Đông Kinh",
+  "text_en": "In 1592 Trịnh Tùng's invasion took the capital Đông Kinh (Hà Nội) and the northern provinces; the Mạc lost the capital for the last time.",
+  "text_vi": "Năm 1592, Trịnh Tùng tiến quân chiếm kinh đô Đông Kinh (Hà Nội) cùng các trấn phía bắc; nhà Mạc mất kinh đô lần cuối.",
+  "raw_file": "mac_dynasty.json",
+  "evidence": "The Mạc dynasty lost control over the capital Đông Kinh (modern Hanoi) for the last time in its wars against the Later Lê dynasty and the Trịnh Lords in 1592.",
+  "at": "hanoi.json",
+  "place": "Đông Kinh (Thăng Long)",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "mac_cao_bang_end",
+  "date": "1677",
+  "category": "dynasty",
+  "title_en": "End of the Mạc in Cao Bằng",
+  "title_vi": "Nhà Mạc ở Cao Bằng chấm dứt",
+  "text_en": "After 1592 members of the Mạc dynasty ruled Cao Bằng with Ming and then Qing support until 1677.",
+  "text_vi": "Sau năm 1592, dòng họ Mạc cai quản Cao Bằng với sự hậu thuẫn của nhà Minh rồi nhà Thanh, cho đến năm 1677.",
+  "raw_file": "mac_dynasty.json",
+  "evidence": "Subsequent members of the Mạc dynasty ruled over the province of Cao Bằng with the direct support of the Chinese Ming and Qing dynasties until 1677 (with members of the Mạc dynasty accepted as officials of the Later Lê dynasty from 1627).",
+  "at": "cao_bang_city.json",
+  "place": "Cao Bằng"
+ },
+ {
+  "id": "nguyen_lords_1600",
+  "date": "1600",
+  "category": "dynasty",
+  "title_en": "The Nguyễn lords break with the Trịnh court",
+  "title_vi": "Chúa Nguyễn tách khỏi triều đình họ Trịnh",
+  "text_en": "In 1600 the Nguyễn ruler in the south broke relations with the Trịnh court and took the title vương, beginning the division into Đàng Ngoài and Đàng Trong.",
+  "text_vi": "Năm 1600, chúa Nguyễn ở phía Nam cắt đứt quan hệ với triều đình họ Trịnh và xưng vương, mở đầu thời kỳ chia cắt Đàng Ngoài – Đàng Trong.",
+  "raw_file": "trinh_nguyen.json",
+  "evidence": "In 1600 the old Nguyen ruler broke relations with the Trinh court and titled himself as the Vuong (a term meaning prince or king).",
+  "at": null,
+  "place": "Đàng Trong"
+ },
+ {
+  "id": "phu_xuan_1687",
+  "date": "1687",
+  "category": "dynasty",
+  "title_en": "Phú Xuân (Huế) becomes the Nguyễn lords' seat",
+  "title_vi": "Phú Xuân (Huế) thành thủ phủ của chúa Nguyễn",
+  "text_en": "Huế, then called Phú Xuân, became the provincial capital in 1687 and the capital of Đàng Trong from 1738 to 1775.",
+  "text_vi": "Huế, khi ấy gọi là Phú Xuân, trở thành thủ phủ năm 1687 và là kinh đô của Đàng Trong từ 1738 đến 1775.",
+  "raw_file": "hue.json",
+  "evidence": "Huế (then known as Phú Xuân) became the provincial capital in 1687, the capital of Đàng Trong from 1738 to 1775, and the capital of Vietnam under the Nguyễn dynasty from 1802 to 1945.",
+  "at": "hue.json",
+  "place": "Huế"
+ },
+ {
+  "id": "gia_dinh_1698",
+  "date": "1698",
+  "category": "dynasty",
+  "title_en": "Nguyễn Hữu Cảnh sets up Gia Định",
+  "title_vi": "Nguyễn Hữu Cảnh lập phủ Gia Định",
+  "text_en": "In 1698 Nguyễn Hữu Cảnh was sent by sea from Huế to set up a Vietnamese administration in the Sài Gòn area, which was named Gia Định.",
+  "text_vi": "Năm 1698, Nguyễn Hữu Cảnh được chúa Nguyễn từ Huế phái theo đường biển vào lập bộ máy cai trị ở vùng Sài Gòn, đặt tên là Gia Định.",
+  "raw_file": "hcmc.json",
+  "evidence": "In 1698, Nguyễn Hữu Cảnh, a Vietnamese noble, was sent by the Nguyễn rulers of Huế by sea to establish Vietnamese administrative structures in the area, thus detaching the area from Cambodia, which was not strong enough to intervene.",
+  "at": "hcmc.json",
+  "place": "Gia Định (Sài Gòn)",
+  "story": [
+   "hcmc"
+  ]
+ },
+ {
+  "id": "tay_son_1771",
+  "date": "1771",
+  "category": "dynasty",
+  "title_en": "The Tây Sơn brothers rise",
+  "title_vi": "Anh em Tây Sơn khởi nghĩa",
+  "text_en": "In 1771 three brothers from Tây Sơn village, Nguyễn Nhạc, Nguyễn Huệ and Nguyễn Lữ, revolted against the Nguyễn lord Phúc Thuần.",
+  "text_vi": "Năm 1771, ba anh em Nguyễn Nhạc, Nguyễn Huệ, Nguyễn Lữ ở ấp Tây Sơn khởi nghĩa chống chúa Nguyễn Phúc Thuần.",
+  "raw_file": "tay_son.json",
+  "evidence": "These developments, coupled with heavy taxes and endemic local corruption spurred three peasant brothers—Nguyễn Nhạc, Nguyễn Huệ, and Nguyễn Lữ (no relation to the Nguyễn lords) from the village of Tây Sơn, central Vietnam, to revolt in 1771 against the Nguyễn lord Phúc Thuần.",
+  "at": null,
+  "place": "Tây Sơn"
+ },
+ {
+  "id": "rach_gam_1785",
+  "date": "1785-01-20",
+  "category": "dynasty",
+  "title_en": "Battle of Rạch Gầm – Xoài Mút",
+  "title_vi": "Trận Rạch Gầm – Xoài Mút",
+  "text_en": "On 20 January 1785 Tây Sơn forces under Nguyễn Huệ defeated a Siamese army at Rạch Gầm – Xoài Mút, in today's Đồng Tháp.",
+  "text_vi": "Ngày 20/1/1785, quân Tây Sơn do Nguyễn Huệ chỉ huy đánh bại quân Xiêm ở Rạch Gầm – Xoài Mút, nay thuộc Đồng Tháp.",
+  "raw_file": "rach_gam.json",
+  "evidence": "The Battle of Rạch Gầm-Xoài Mút (Vietnamese: Trận Rạch Gầm – Xoài Mút, Thai: การรบที่ซากเกิ่ม-สว่ายมุต) was fought between the Vietnamese Tây Sơn forces and an army of Siam in present-day Kim Sơn commune, Đồng Tháp province of Vietnam on 20 January 1785.",
+  "at": "rach_gam.json",
+  "place": "Rạch Gầm – Xoài Mút"
+ },
+ {
+  "id": "dong_da_1789",
+  "date": "1789-01-30",
+  "category": "dynasty",
+  "title_en": "Battle of Ngọc Hồi – Đống Đa",
+  "title_vi": "Chiến thắng Ngọc Hồi – Đống Đa",
+  "text_en": "Nguyễn Huệ's Tây Sơn army reached Thăng Long on 28 January 1789 and attacked the Qing army during the New Year; on 30 January it besieged the Ngọc Hồi fort.",
+  "text_vi": "Quân Tây Sơn của Nguyễn Huệ tới Thăng Long ngày 28/1/1789 và tấn công quân Thanh giữa dịp Tết; ngày 30/1 vây đồn Ngọc Hồi.",
+  "raw_file": "dong_da.json",
+  "evidence": "At dawn of January 5 (January 30, 1789), Huệ besieged the Ngọc Hồi Fort.",
+  "at": "hanoi.json",
+  "place": "Ngọc Hồi – Đống Đa (Thăng Long)",
+  "story": [
+   "thanglong"
+  ],
+  "also": [
+   {
+    "raw_file": "dong_da.json",
+    "evidence": "The Tây Sơn army reached Thăng Long during the night of January 3 of the next year (January 28, 1789) and immediately launched a surprise attack on the Chinese, who were celebrating the New Year festival."
+   }
+  ]
+ },
+ {
+  "id": "thang_long_1802",
+  "date": "1802-07-22",
+  "category": "dynasty",
+  "title_en": "Nguyễn Ánh takes Thăng Long",
+  "title_vi": "Nguyễn Ánh chiếm Thăng Long",
+  "text_en": "Crowned emperor as Gia Long at Huế, Nguyễn Phúc Ánh overran the north and captured Thăng Long (Hà Nội) on 22 July 1802.",
+  "text_vi": "Lên ngôi hoàng đế ở Huế với niên hiệu Gia Long, Nguyễn Phúc Ánh nhanh chóng tiến ra Bắc và chiếm Thăng Long (Hà Nội) ngày 22/7/1802.",
+  "raw_file": "gia_long.json",
+  "evidence": "He then quickly overran the north, with Hanoi captured on 22 July 1802.",
+  "at": "hanoi.json",
+  "place": "Thăng Long",
+  "story": [
+   "thanglong"
+  ],
+  "also": [
+   {
+    "raw_file": "gia_long.json",
+    "evidence": "In June, the central city of Huế, the former capital of the Nguyễn, fell and Nguyễn Phúc Ánh crowned himself emperor, under the reign name Gia Long."
+   }
+  ]
+ }
+]

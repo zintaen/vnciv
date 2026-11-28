@@ -102,6 +102,7 @@ with sync_playwright() as p:
     if "Đà Nẵng" not in found:
         problems.append(("search 'da nang'", [], [found[:80]]))
     pg.keyboard.press("Escape")
+    pg.click("#btn-more")  # Share lives in the top-bar "More" menu
     pg.click("#btn-share")
     pg.wait_for_timeout(500)
     check(pg, "share")

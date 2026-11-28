@@ -6,6 +6,10 @@ import { MODE_STYLE } from "../../render/art/improvements.js";
 import { t, lang } from "../../i18n.js";
 
 const muted = (s) => `<span class="muted">${s}</span>`;
+/** A country's name from its ISO code in the page language (Intl), or "" where the browser has none. */
+export function regionName(code) {
+  try { return code ? new Intl.DisplayNames([lang === "vi" ? "vi" : "en"], { type: "region" }).of(code) || "" : ""; } catch { return ""; }
+}
 const num = (n, d = 1) => (n == null || !Number.isFinite(n) ? "–" : compact(n));
 const sign = (x) => (x > 0 ? "+" : x < 0 ? "−" : "±");
 
@@ -76,6 +80,20 @@ export const tips = {
     }
     if (rule?.text) lines.push(muted(esc(t(rule.text))));
     return lines.join("<br>");
+  },
+  intlRoute(rt, m) {
+    const r = rt.route;
+    const td = m.data.trade || {};
+    const f = td.international?.foreign?.[r.foreign] || {};
+    const country = regionName(f.country);
+    const vn = (m.airports || []).find((a) => a.data?.id === r.vn)?.data;
+    const lines = [
+      `<b>${esc(vn ? airportName(vn.name) : r.vn)} ⇄ ${esc(t(f.city || r.foreign))}</b>${country && !t(f.city || "").startsWith(country) ? ` ${muted(esc(country))}` : ""}`,
+      `${t(r.airlines === 1 ? "<b>{n}</b> airline" : "<b>{n}</b> airlines", { n: esc(r.airlines) })} (${esc((r.airline_codes || []).join(", "))}) · ${esc(r.vn)}–${esc(r.foreign)}`,
+      r.dist_km != null ? t("{n} km apart", { n: int(r.dist_km) }) : "",
+      muted(esc(t("International route, as listed in the Vietnamese airport's Wikipedia articles; no flight or passenger counts."))),
+    ];
+    return lines.filter(Boolean).join("<br>");
   },
   route(rt, m) {
     const r = rt.route;

@@ -69,7 +69,7 @@ class TestMotion(unittest.TestCase):
         r = load("motion_routes")
         self.assertTrue(set(r["rules"]) >= {"rail", "sea", "air"})
         self.assertIn("llustrative", r["rules"]["sea"])
-        self.assertIn("OpenFlights", r["rules"]["air"])
+        self.assertIn("Wikipedia", r["rules"]["air"])
         self.assertEqual(r["rail"][0]["id"], "north_south")
         for line in r["rail"]:
             self.assertGreater(len(line["pts"]), 2)
@@ -79,7 +79,7 @@ class TestMotion(unittest.TestCase):
         for s in r["sea"]:
             self.inside(s["pts"], s["port"])
             self.assertGreaterEqual(len(s["pts"]), 2)
-        self.assertEqual(len(r["air"]), len(load("trade")["routes"]))
+        self.assertEqual(len([a for a in r["air"] if not a.get("international")]), len(load("trade")["routes"]))
         for a in r["air"]:
             self.inside([a["p0"], a["c"], a["p1"]], f"{a['a']}-{a['b']}")  # a Bézier stays in its control hull
 

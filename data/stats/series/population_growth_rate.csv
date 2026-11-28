@@ -1,4 +1,13 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,0.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+An Giang,63,2011,0.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+An Giang,63,2012,0.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+An Giang,63,2013,0.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+An Giang,63,2014,0.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+An Giang,63,2015,-1.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+An Giang,63,2016,-1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+An Giang,63,2017,-1.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+An Giang,63,2018,-1.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 An Giang,63,2019,-1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 An Giang,63,2020,-0.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 An Giang,63,2021,0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -6,6 +15,15 @@ An Giang,63,2022,-0.21,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 An Giang,63,2023,0.04,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 An Giang,63,2024,0.33,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 An Giang,63,2025,0.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bà Rịa - Vũng Tàu,63,2010,1.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,1.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bà Rịa - Vũng Tàu,63,2012,1.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bà Rịa - Vũng Tàu,63,2013,1.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bà Rịa - Vũng Tàu,63,2014,1.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bà Rịa - Vũng Tàu,63,2015,1.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,1.21,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,1.36,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bà Rịa - Vũng Tàu,63,2021,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -13,6 +31,15 @@ Bà Rịa - Vũng Tàu,63,2022,0.22,%,"https://www.nso.gov.vn/wp-content/uploads
 Bà Rịa - Vũng Tàu,63,2023,0.75,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bà Rịa - Vũng Tàu,63,2024,0.6,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bà Rịa - Vũng Tàu,63,2025,0.67,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bình Dương,63,2010,5.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bình Dương,63,2011,4.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bình Dương,63,2012,4.33,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bình Dương,63,2013,4.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bình Dương,63,2014,3.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bình Dương,63,2015,4.62,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bình Dương,63,2016,3.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bình Dương,63,2017,4.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bình Dương,63,2018,5.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bình Dương,63,2019,4.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bình Dương,63,2020,5.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Dương,63,2021,0.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -20,6 +47,15 @@ Bình Dương,63,2022,6.41,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Bình Dương,63,2023,2.18,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Dương,63,2024,1.67,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Dương,63,2025,1.38,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bình Phước,63,2010,1.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bình Phước,63,2011,1.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bình Phước,63,2012,1.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bình Phước,63,2013,1.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bình Phước,63,2014,1.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bình Phước,63,2015,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bình Phước,63,2016,1.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bình Phước,63,2017,1.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bình Phước,63,2018,1.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bình Phước,63,2019,1.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bình Phước,63,2020,1.33,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Phước,63,2021,1.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -27,6 +63,15 @@ Bình Phước,63,2022,1.01,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07
 Bình Phước,63,2023,1.05,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Phước,63,2024,1.61,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Phước,63,2025,1.45,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bình Thuận,63,2010,0.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bình Thuận,63,2011,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bình Thuận,63,2012,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bình Thuận,63,2013,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bình Thuận,63,2014,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bình Thuận,63,2015,0.68,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bình Thuận,63,2016,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bình Thuận,63,2017,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bình Thuận,63,2018,0.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bình Thuận,63,2019,0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bình Thuận,63,2020,0.57,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Thuận,63,2021,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -34,6 +79,15 @@ Bình Thuận,63,2022,0.46,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Bình Thuận,63,2023,0.54,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Thuận,63,2024,0.59,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Thuận,63,2025,0.64,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bình Định,63,2010,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bình Định,63,2011,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bình Định,63,2012,0.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bình Định,63,2013,0.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bình Định,63,2014,0.34,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bình Định,63,2015,0.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bình Định,63,2016,0.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bình Định,63,2017,0.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bình Định,63,2018,0.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bình Định,63,2019,0.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bình Định,63,2020,0.01,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Định,63,2021,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -41,6 +95,15 @@ Bình Định,63,2022,-0.27,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07
 Bình Định,63,2023,0.14,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Định,63,2024,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bình Định,63,2025,0.61,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bạc Liêu,63,2010,0.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bạc Liêu,63,2011,0.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bạc Liêu,63,2012,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bạc Liêu,63,2013,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bạc Liêu,63,2014,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bạc Liêu,63,2015,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bạc Liêu,63,2016,0.62,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bạc Liêu,63,2017,0.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bạc Liêu,63,2018,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bạc Liêu,63,2019,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bạc Liêu,63,2020,0.58,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bạc Liêu,63,2021,0.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -48,6 +111,15 @@ Bạc Liêu,63,2022,0.36,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Bạc Liêu,63,2023,0.36,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bạc Liêu,63,2024,0.38,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bạc Liêu,63,2025,0.4,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bắc Giang,63,2010,0.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bắc Giang,63,2011,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bắc Giang,63,2012,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bắc Giang,63,2013,0.95,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bắc Giang,63,2014,1.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bắc Giang,63,2015,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bắc Giang,63,2016,1.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bắc Giang,63,2017,2.35,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bắc Giang,63,2018,2.34,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bắc Giang,63,2019,1.85,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bắc Giang,63,2020,1.72,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Giang,63,2021,1.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -55,6 +127,15 @@ Bắc Giang,63,2022,0.84,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Bắc Giang,63,2023,1.68,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Giang,63,2024,2.07,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Giang,63,2025,1.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bắc Kạn,63,2010,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bắc Kạn,63,2011,0.99,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bắc Kạn,63,2012,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bắc Kạn,63,2013,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bắc Kạn,63,2014,0.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bắc Kạn,63,2015,0.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bắc Kạn,63,2016,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bắc Kạn,63,2017,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bắc Kạn,63,2018,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bắc Kạn,63,2019,0.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bắc Kạn,63,2020,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Kạn,63,2021,2.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -62,6 +143,15 @@ Bắc Kạn,63,2022,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Bắc Kạn,63,2023,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Kạn,63,2024,0.86,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Kạn,63,2025,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bắc Ninh,63,2010,1.73,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bắc Ninh,63,2011,1.84,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bắc Ninh,63,2012,2.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bắc Ninh,63,2013,2.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bắc Ninh,63,2014,2.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bắc Ninh,63,2015,3.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bắc Ninh,63,2016,3.23,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bắc Ninh,63,2017,3.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bắc Ninh,63,2018,3.05,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bắc Ninh,63,2019,3.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bắc Ninh,63,2020,2.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Ninh,63,2021,3.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -69,6 +159,15 @@ Bắc Ninh,63,2022,1.73,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Bắc Ninh,63,2023,1.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Ninh,63,2024,1.92,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bắc Ninh,63,2025,1.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Bến Tre,63,2010,0.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Bến Tre,63,2011,0.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Bến Tre,63,2012,0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Bến Tre,63,2013,0.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Bến Tre,63,2014,0.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Bến Tre,63,2015,0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Bến Tre,63,2016,0.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Bến Tre,63,2017,0.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Bến Tre,63,2018,0.27,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Bến Tre,63,2019,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Bến Tre,63,2020,0.26,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bến Tre,63,2021,0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -76,6 +175,15 @@ Bến Tre,63,2022,0.18,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Bến Tre,63,2023,0.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bến Tre,63,2024,0.53,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Bến Tre,63,2025,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Cao Bằng,63,2010,0.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Cao Bằng,63,2011,0.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Cao Bằng,63,2012,0.23,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Cao Bằng,63,2013,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Cao Bằng,63,2014,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Cao Bằng,63,2015,0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Cao Bằng,63,2016,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Cao Bằng,63,2017,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Cao Bằng,63,2018,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Cao Bằng,63,2019,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Cao Bằng,63,2020,0.42,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cao Bằng,63,2021,1.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -83,6 +191,15 @@ Cao Bằng,63,2022,0.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Cao Bằng,63,2023,0.88,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cao Bằng,63,2024,1.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cao Bằng,63,2025,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Cà Mau,63,2010,0.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Cà Mau,63,2011,0.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Cà Mau,63,2012,0.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Cà Mau,63,2013,0.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Cà Mau,63,2014,0.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Cà Mau,63,2015,-0.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Cà Mau,63,2016,-0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Cà Mau,63,2017,-0.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Cà Mau,63,2018,-0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Cà Mau,63,2019,-0.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Cà Mau,63,2020,-0.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cà Mau,63,2021,1.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -90,6 +207,15 @@ Cà Mau,63,2022,-0.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TO
 Cà Mau,63,2023,-0.02,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cà Mau,63,2024,0.38,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cà Mau,63,2025,0.5,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Cần Thơ,63,2010,0.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Cần Thơ,63,2011,0.84,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Cần Thơ,63,2012,0.85,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Cần Thơ,63,2013,0.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Cần Thơ,63,2014,0.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Cần Thơ,63,2015,0.23,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Cần Thơ,63,2016,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Cần Thơ,63,2017,0.64,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Cần Thơ,63,2018,0.44,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Cần Thơ,63,2019,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Cần Thơ,63,2020,0.39,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cần Thơ,63,2021,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -97,6 +223,15 @@ Cần Thơ,63,2022,0.43,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Cần Thơ,63,2023,0.52,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cần Thơ,63,2024,1.02,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Cần Thơ,63,2025,1.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Gia Lai,63,2010,1.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Gia Lai,63,2011,1.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Gia Lai,63,2012,1.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Gia Lai,63,2013,1.39,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Gia Lai,63,2014,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Gia Lai,63,2015,1.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Gia Lai,63,2016,1.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Gia Lai,63,2017,1.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Gia Lai,63,2018,1.82,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Gia Lai,63,2019,1.64,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Gia Lai,63,2020,1.43,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Gia Lai,63,2021,1.81,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -104,6 +239,15 @@ Gia Lai,63,2022,1.35,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOA
 Gia Lai,63,2023,1.44,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Gia Lai,63,2024,1.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Gia Lai,63,2025,1.22,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hà Giang,63,2010,1.2,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hà Giang,63,2011,1.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hà Giang,63,2012,2.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hà Giang,63,2013,1.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hà Giang,63,2014,1.68,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hà Giang,63,2015,1.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hà Giang,63,2016,1.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hà Giang,63,2017,1.62,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hà Giang,63,2018,1.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hà Giang,63,2019,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hà Giang,63,2020,1.42,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Giang,63,2021,1.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -111,6 +255,15 @@ Hà Giang,63,2022,0.64,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Hà Giang,63,2023,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Giang,63,2024,1.27,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Giang,63,2025,1.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hà Nam,63,2010,0.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hà Nam,63,2011,0.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hà Nam,63,2012,0.68,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hà Nam,63,2013,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hà Nam,63,2014,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hà Nam,63,2015,1.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hà Nam,63,2016,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hà Nam,63,2017,0.91,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hà Nam,63,2018,0.88,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hà Nam,63,2019,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hà Nam,63,2020,0.86,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nam,63,2021,1.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -118,6 +271,15 @@ Hà Nam,63,2022,0.32,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOA
 Hà Nam,63,2023,0.9,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nam,63,2024,0.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nam,63,2025,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hà Nội,63,2010,2.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hà Nội,63,2011,1.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hà Nội,63,2012,1.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hà Nội,63,2013,1.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hà Nội,63,2014,1.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hà Nội,63,2015,2.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hà Nội,63,2016,2.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hà Nội,63,2017,1.99,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hà Nội,63,2018,2.23,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hà Nội,63,2019,2.27,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hà Nội,63,2020,1.89,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nội,63,2021,1.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -125,6 +287,15 @@ Hà Nội,63,2022,1.26,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Hà Nội,63,2023,1.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nội,63,2024,1.52,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Nội,63,2025,1.6,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hà Tĩnh,63,2010,0.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hà Tĩnh,63,2011,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hà Tĩnh,63,2012,0.44,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hà Tĩnh,63,2013,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hà Tĩnh,63,2014,0.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hà Tĩnh,63,2015,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hà Tĩnh,63,2016,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hà Tĩnh,63,2017,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hà Tĩnh,63,2018,0.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hà Tĩnh,63,2019,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hà Tĩnh,63,2020,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Tĩnh,63,2021,1.34,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -132,6 +303,15 @@ Hà Tĩnh,63,2022,0.74,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Hà Tĩnh,63,2023,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Tĩnh,63,2024,0.46,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hà Tĩnh,63,2025,0.4,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hòa Bình,63,2010,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hòa Bình,63,2011,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hòa Bình,63,2012,0.77,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hòa Bình,63,2013,0.64,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hòa Bình,63,2014,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hòa Bình,63,2015,1.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hòa Bình,63,2016,1.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hòa Bình,63,2017,0.95,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hòa Bình,63,2018,0.65,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hòa Bình,63,2019,0.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hòa Bình,63,2020,0.63,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hòa Bình,63,2021,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -139,6 +319,15 @@ Hòa Bình,63,2022,0.42,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Hòa Bình,63,2023,0.58,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hòa Bình,63,2024,1.59,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hòa Bình,63,2025,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hưng Yên,63,2010,0.33,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hưng Yên,63,2011,0.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hưng Yên,63,2012,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hưng Yên,63,2013,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hưng Yên,63,2014,0.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hưng Yên,63,2015,1.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hưng Yên,63,2016,1.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hưng Yên,63,2017,1.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hưng Yên,63,2018,1.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hưng Yên,63,2019,1.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hưng Yên,63,2020,1.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hưng Yên,63,2021,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -146,6 +335,15 @@ Hưng Yên,63,2022,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Hưng Yên,63,2023,0.79,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hưng Yên,63,2024,1.31,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hưng Yên,63,2025,1.17,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hải Dương,63,2010,0.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hải Dương,63,2011,0.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hải Dương,63,2012,0.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hải Dương,63,2013,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hải Dương,63,2014,0.65,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hải Dương,63,2015,0.95,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hải Dương,63,2016,1.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hải Dương,63,2017,0.97,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hải Dương,63,2018,1.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hải Dương,63,2019,1.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hải Dương,63,2020,1.05,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Dương,63,2021,1.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -153,6 +351,15 @@ Hải Dương,63,2022,0.52,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Hải Dương,63,2023,0.52,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Dương,63,2024,1.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Dương,63,2025,0.98,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hải Phòng,63,2010,0.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hải Phòng,63,2011,1.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hải Phòng,63,2012,1.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hải Phòng,63,2013,1.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hải Phòng,63,2014,1.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hải Phòng,63,2015,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hải Phòng,63,2016,0.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hải Phòng,63,2017,0.81,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hải Phòng,63,2018,0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hải Phòng,63,2019,0.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hải Phòng,63,2020,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Phòng,63,2021,0.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -160,6 +367,15 @@ Hải Phòng,63,2022,0.75,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Hải Phòng,63,2023,0.81,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Phòng,63,2024,0.93,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hải Phòng,63,2025,1.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Hậu Giang,63,2010,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Hậu Giang,63,2011,0.25,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Hậu Giang,63,2012,0.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Hậu Giang,63,2013,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Hậu Giang,63,2014,0.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Hậu Giang,63,2015,-0.35,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Hậu Giang,63,2016,-0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Hậu Giang,63,2017,-0.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Hậu Giang,63,2018,-0.32,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Hậu Giang,63,2019,-0.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Hậu Giang,63,2020,-0.33,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hậu Giang,63,2021,0.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -167,6 +383,15 @@ Hậu Giang,63,2022,-0.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Hậu Giang,63,2023,-0.16,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hậu Giang,63,2024,0.24,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Hậu Giang,63,2025,-2.39,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Khánh Hòa,63,2010,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Khánh Hòa,63,2011,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Khánh Hòa,63,2012,0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Khánh Hòa,63,2013,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Khánh Hòa,63,2014,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Khánh Hòa,63,2015,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Khánh Hòa,63,2016,0.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Khánh Hòa,63,2017,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Khánh Hòa,63,2018,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Khánh Hòa,63,2019,0.68,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Khánh Hòa,63,2020,0.62,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Khánh Hòa,63,2021,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -174,6 +399,15 @@ Khánh Hòa,63,2022,0.47,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Khánh Hòa,63,2023,0.53,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Khánh Hòa,63,2024,0.69,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Khánh Hòa,63,2025,0.77,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Kiên Giang,63,2010,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Kiên Giang,63,2011,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Kiên Giang,63,2012,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Kiên Giang,63,2013,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Kiên Giang,63,2014,0.64,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Kiên Giang,63,2015,0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Kiên Giang,63,2016,0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Kiên Giang,63,2017,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Kiên Giang,63,2018,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Kiên Giang,63,2019,0.32,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Kiên Giang,63,2020,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kiên Giang,63,2021,1.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -181,6 +415,15 @@ Kiên Giang,63,2022,-0.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Kiên Giang,63,2023,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kiên Giang,63,2024,0.64,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kiên Giang,63,2025,0.76,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Kon Tum,63,2010,2.39,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Kon Tum,63,2011,2.15,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Kon Tum,63,2012,2.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Kon Tum,63,2013,2.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Kon Tum,63,2014,2.32,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Kon Tum,63,2015,2.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Kon Tum,63,2016,2.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Kon Tum,63,2017,2.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Kon Tum,63,2018,2.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Kon Tum,63,2019,2.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Kon Tum,63,2020,2.24,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kon Tum,63,2021,2.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -188,6 +431,15 @@ Kon Tum,63,2022,1.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOA
 Kon Tum,63,2023,1.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kon Tum,63,2024,1.78,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Kon Tum,63,2025,1.78,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Lai Châu,63,2010,2.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Lai Châu,63,2011,2.27,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Lai Châu,63,2012,2.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Lai Châu,63,2013,2.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Lai Châu,63,2014,2.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Lai Châu,63,2015,1.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Lai Châu,63,2016,1.97,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Lai Châu,63,2017,1.88,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Lai Châu,63,2018,2.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Lai Châu,63,2019,2.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Lai Châu,63,2020,1.55,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lai Châu,63,2021,1.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -195,6 +447,15 @@ Lai Châu,63,2022,0.77,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Lai Châu,63,2023,1.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lai Châu,63,2024,1.27,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lai Châu,63,2025,1.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Long An,63,2010,0.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Long An,63,2011,0.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Long An,63,2012,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Long An,63,2013,0.65,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Long An,63,2014,0.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Long An,63,2015,0.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Long An,63,2016,1.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Long An,63,2017,1.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Long An,63,2018,1.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Long An,63,2019,0.97,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Long An,63,2020,1.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Long An,63,2021,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -202,6 +463,15 @@ Long An,63,2022,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOA
 Long An,63,2023,0.53,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Long An,63,2024,0.74,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Long An,63,2025,0.74,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Lào Cai,63,2010,1.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Lào Cai,63,2011,1.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Lào Cai,63,2012,1.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Lào Cai,63,2013,1.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Lào Cai,63,2014,1.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Lào Cai,63,2015,1.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Lào Cai,63,2016,1.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Lào Cai,63,2017,1.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Lào Cai,63,2018,1.73,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Lào Cai,63,2019,1.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Lào Cai,63,2020,1.78,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lào Cai,63,2021,2.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -209,6 +479,15 @@ Lào Cai,63,2022,1.14,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TO
 Lào Cai,63,2023,1.21,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lào Cai,63,2024,1.58,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lào Cai,63,2025,1.17,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Lâm Đồng,63,2010,1.25,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Lâm Đồng,63,2011,1.21,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Lâm Đồng,63,2012,1.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Lâm Đồng,63,2013,1.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Lâm Đồng,63,2014,1.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Lâm Đồng,63,2015,0.82,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Lâm Đồng,63,2016,0.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Lâm Đồng,63,2017,0.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Lâm Đồng,63,2018,0.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Lâm Đồng,63,2019,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Lâm Đồng,63,2020,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lâm Đồng,63,2021,0.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -216,6 +495,15 @@ Lâm Đồng,63,2022,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Lâm Đồng,63,2023,0.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lâm Đồng,63,2024,1.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lâm Đồng,63,2025,1.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Lạng Sơn,63,2010,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Lạng Sơn,63,2011,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Lạng Sơn,63,2012,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Lạng Sơn,63,2013,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Lạng Sơn,63,2014,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Lạng Sơn,63,2015,0.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Lạng Sơn,63,2016,0.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Lạng Sơn,63,2017,0.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Lạng Sơn,63,2018,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Lạng Sơn,63,2019,0.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Lạng Sơn,63,2020,0.75,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lạng Sơn,63,2021,1.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -223,6 +511,15 @@ Lạng Sơn,63,2022,0.65,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Lạng Sơn,63,2023,0.65,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lạng Sơn,63,2024,0.83,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Lạng Sơn,63,2025,0.82,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Nam Định,63,2010,0.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Nam Định,63,2011,0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Nam Định,63,2012,0.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Nam Định,63,2013,0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Nam Định,63,2014,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Nam Định,63,2015,-0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Nam Định,63,2016,-0.25,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Nam Định,63,2017,-0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Nam Định,63,2018,-0.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Nam Định,63,2019,-0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Nam Định,63,2020,-0.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nam Định,63,2021,3.14,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -230,6 +527,15 @@ Nam Định,63,2022,2.21,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Nam Định,63,2023,0.55,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nam Định,63,2024,0.38,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nam Định,63,2025,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Nghệ An,63,2010,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Nghệ An,63,2011,0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Nghệ An,63,2012,0.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Nghệ An,63,2013,0.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Nghệ An,63,2014,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Nghệ An,63,2015,1.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Nghệ An,63,2016,1.34,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Nghệ An,63,2017,1.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Nghệ An,63,2018,1.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Nghệ An,63,2019,1.39,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Nghệ An,63,2020,0.84,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nghệ An,63,2021,1.33,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -237,6 +543,15 @@ Nghệ An,63,2022,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TO
 Nghệ An,63,2023,0.64,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nghệ An,63,2024,0.88,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Nghệ An,63,2025,0.73,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Ninh Bình,63,2010,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Ninh Bình,63,2011,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Ninh Bình,63,2012,1.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Ninh Bình,63,2013,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Ninh Bình,63,2014,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Ninh Bình,63,2015,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Ninh Bình,63,2016,0.88,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Ninh Bình,63,2017,0.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Ninh Bình,63,2018,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Ninh Bình,63,2019,1.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Ninh Bình,63,2020,0.95,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Bình,63,2021,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -244,6 +559,15 @@ Ninh Bình,63,2022,0.31,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Ninh Bình,63,2023,0.63,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Bình,63,2024,1.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Bình,63,2025,1.19,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Ninh Thuận,63,2010,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Ninh Thuận,63,2011,0.81,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Ninh Thuận,63,2012,0.91,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Ninh Thuận,63,2013,0.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Ninh Thuận,63,2014,0.94,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Ninh Thuận,63,2015,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Ninh Thuận,63,2016,0.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Ninh Thuận,63,2017,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Ninh Thuận,63,2018,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Ninh Thuận,63,2019,0.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Ninh Thuận,63,2020,0.44,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Thuận,63,2021,0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -251,6 +575,15 @@ Ninh Thuận,63,2022,0.44,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Ninh Thuận,63,2023,0.42,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Thuận,63,2024,1.91,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Ninh Thuận,63,2025,1.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Phú Thọ,63,2010,0.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Phú Thọ,63,2011,0.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Phú Thọ,63,2012,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Phú Thọ,63,2013,0.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Phú Thọ,63,2014,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Phú Thọ,63,2015,1.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Phú Thọ,63,2016,1.2,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Phú Thọ,63,2017,1.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Phú Thọ,63,2018,1.34,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Phú Thọ,63,2019,1.16,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Phú Thọ,63,2020,1.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Thọ,63,2021,1.73,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -258,6 +591,15 @@ Phú Thọ,63,2022,0.62,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Phú Thọ,63,2023,0.92,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Thọ,63,2024,0.85,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Thọ,63,2025,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Phú Yên,63,2010,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Phú Yên,63,2011,0.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Phú Yên,63,2012,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Phú Yên,63,2013,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Phú Yên,63,2014,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Phú Yên,63,2015,0.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Phú Yên,63,2016,0.23,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Phú Yên,63,2017,0.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Phú Yên,63,2018,0.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Phú Yên,63,2019,0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Phú Yên,63,2020,0.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Yên,63,2021,0.14,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -265,6 +607,15 @@ Phú Yên,63,2022,0.12,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Phú Yên,63,2023,0.12,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Yên,63,2024,0.85,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Phú Yên,63,2025,0.29,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Quảng Bình,63,2010,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Quảng Bình,63,2011,0.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Quảng Bình,63,2012,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Quảng Bình,63,2013,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Quảng Bình,63,2014,0.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Quảng Bình,63,2015,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Quảng Bình,63,2016,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Quảng Bình,63,2017,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Quảng Bình,63,2018,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Quảng Bình,63,2019,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Quảng Bình,63,2020,0.6,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Bình,63,2021,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -272,6 +623,15 @@ Quảng Bình,63,2022,0.35,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Quảng Bình,63,2023,0.53,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Bình,63,2024,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Bình,63,2025,0.78,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Quảng Nam,63,2010,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Quảng Nam,63,2011,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Quảng Nam,63,2012,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Quảng Nam,63,2013,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Quảng Nam,63,2014,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Quảng Nam,63,2015,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Quảng Nam,63,2016,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Quảng Nam,63,2017,0.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Quảng Nam,63,2018,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Quảng Nam,63,2019,0.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Quảng Nam,63,2020,0.51,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Nam,63,2021,0.89,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -279,6 +639,15 @@ Quảng Nam,63,2022,0.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Quảng Nam,63,2023,0.44,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Nam,63,2024,1.17,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Nam,63,2025,0.5,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Quảng Ngãi,63,2010,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Quảng Ngãi,63,2011,0.35,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Quảng Ngãi,63,2012,0.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Quảng Ngãi,63,2013,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Quảng Ngãi,63,2014,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Quảng Ngãi,63,2015,0.14,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Quảng Ngãi,63,2016,0.1,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Quảng Ngãi,63,2017,0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Quảng Ngãi,63,2018,0.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Quảng Ngãi,63,2019,0.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Quảng Ngãi,63,2020,0.12,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ngãi,63,2021,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -286,6 +655,15 @@ Quảng Ngãi,63,2022,0.12,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Quảng Ngãi,63,2023,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ngãi,63,2024,0.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ngãi,63,2025,0.7,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Quảng Ninh,63,2010,0.97,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Quảng Ninh,63,2011,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Quảng Ninh,63,2012,0.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Quảng Ninh,63,2013,0.82,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Quảng Ninh,63,2014,1.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Quảng Ninh,63,2015,1.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Quảng Ninh,63,2016,1.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Quảng Ninh,63,2017,1.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Quảng Ninh,63,2018,1.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Quảng Ninh,63,2019,1.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Quảng Ninh,63,2020,0.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ninh,63,2021,0.99,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -293,6 +671,15 @@ Quảng Ninh,63,2022,0.89,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Quảng Ninh,63,2023,1.34,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ninh,63,2024,1.11,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Ninh,63,2025,1.08,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Quảng Trị,63,2010,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Quảng Trị,63,2011,0.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Quảng Trị,63,2012,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Quảng Trị,63,2013,0.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Quảng Trị,63,2014,0.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Quảng Trị,63,2015,0.58,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Quảng Trị,63,2016,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Quảng Trị,63,2017,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Quảng Trị,63,2018,0.7,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Quảng Trị,63,2019,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Quảng Trị,63,2020,0.6,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Trị,63,2021,1.63,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -300,6 +687,15 @@ Quảng Trị,63,2022,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Quảng Trị,63,2023,0.5,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Trị,63,2024,0.77,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Quảng Trị,63,2025,0.45,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Sóc Trăng,63,2010,0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Sóc Trăng,63,2011,0.21,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Sóc Trăng,63,2012,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Sóc Trăng,63,2013,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Sóc Trăng,63,2014,0.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Sóc Trăng,63,2015,-0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Sóc Trăng,63,2016,-0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Sóc Trăng,63,2017,-0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Sóc Trăng,63,2018,-0.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Sóc Trăng,63,2019,-0.77,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Sóc Trăng,63,2020,-0.32,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sóc Trăng,63,2021,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -307,6 +703,15 @@ Sóc Trăng,63,2022,-0.75,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Sóc Trăng,63,2023,0.08,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sóc Trăng,63,2024,0.55,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sóc Trăng,63,2025,1.77,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Sơn La,63,2010,1.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Sơn La,63,2011,1.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Sơn La,63,2012,1.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Sơn La,63,2013,1.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Sơn La,63,2014,1.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Sơn La,63,2015,1.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Sơn La,63,2016,1.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Sơn La,63,2017,1.55,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Sơn La,63,2018,1.62,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Sơn La,63,2019,1.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Sơn La,63,2020,1.43,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sơn La,63,2021,1.35,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -314,6 +719,15 @@ Sơn La,63,2022,0.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOA
 Sơn La,63,2023,1.02,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sơn La,63,2024,1.31,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Sơn La,63,2025,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+TP. Hồ Chí Minh,63,2010,2.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+TP. Hồ Chí Minh,63,2011,2.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+TP. Hồ Chí Minh,63,2012,2.16,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+TP. Hồ Chí Minh,63,2013,2.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+TP. Hồ Chí Minh,63,2014,2.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+TP. Hồ Chí Minh,63,2015,2.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+TP. Hồ Chí Minh,63,2016,2.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+TP. Hồ Chí Minh,63,2017,2.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+TP. Hồ Chí Minh,63,2018,2.24,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 TP. Hồ Chí Minh,63,2019,2.21,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 TP. Hồ Chí Minh,63,2020,2.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 TP. Hồ Chí Minh,63,2021,-0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -321,6 +735,15 @@ TP. Hồ Chí Minh,63,2022,2.43,%,"https://www.nso.gov.vn/wp-content/uploads/202
 TP. Hồ Chí Minh,63,2023,0.71,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 TP. Hồ Chí Minh,63,2024,0.92,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 TP. Hồ Chí Minh,63,2025,1.54,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Thanh Hóa,63,2010,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Thanh Hóa,63,2011,0.47,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Thanh Hóa,63,2012,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Thanh Hóa,63,2013,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Thanh Hóa,63,2014,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Thanh Hóa,63,2015,0.85,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Thanh Hóa,63,2016,0.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Thanh Hóa,63,2017,0.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Thanh Hóa,63,2018,0.77,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Thanh Hóa,63,2019,0.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Thanh Hóa,63,2020,0.53,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thanh Hóa,63,2021,1.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -328,6 +751,15 @@ Thanh Hóa,63,2022,0.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-
 Thanh Hóa,63,2023,0.47,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thanh Hóa,63,2024,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thanh Hóa,63,2025,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Thái Bình,63,2010,0.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Thái Bình,63,2011,0.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Thái Bình,63,2012,0.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Thái Bình,63,2013,0.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Thái Bình,63,2014,0.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Thái Bình,63,2015,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Thái Bình,63,2016,0.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Thái Bình,63,2017,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Thái Bình,63,2018,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Thái Bình,63,2019,0.43,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Thái Bình,63,2020,0.43,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Bình,63,2021,0.2,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -335,6 +767,15 @@ Thái Bình,63,2022,0.25,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Thái Bình,63,2023,0.2,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Bình,63,2024,0.43,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Bình,63,2025,0.6,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Thái Nguyên,63,2010,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Thái Nguyên,63,2011,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Thái Nguyên,63,2012,0.85,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Thái Nguyên,63,2013,0.6,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Thái Nguyên,63,2014,1.49,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Thái Nguyên,63,2015,2.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Thái Nguyên,63,2016,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Thái Nguyên,63,2017,1.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Thái Nguyên,63,2018,1.39,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Thái Nguyên,63,2019,1.37,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Thái Nguyên,63,2020,1.31,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Nguyên,63,2021,1.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -342,6 +783,15 @@ Thái Nguyên,63,2022,0.97,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/
 Thái Nguyên,63,2023,1.07,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Nguyên,63,2024,1.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thái Nguyên,63,2025,1.09,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Thừa Thiên Huế,63,2010,0.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Thừa Thiên Huế,63,2011,1.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Thừa Thiên Huế,63,2012,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Thừa Thiên Huế,63,2013,0.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Thừa Thiên Huế,63,2014,0.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Thừa Thiên Huế,63,2015,0.28,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Thừa Thiên Huế,63,2016,0.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Thừa Thiên Huế,63,2017,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Thừa Thiên Huế,63,2018,0.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Thừa Thiên Huế,63,2019,0.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Thừa Thiên Huế,63,2020,0.37,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thừa Thiên Huế,63,2021,1.78,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -349,6 +799,15 @@ Thừa Thiên Huế,63,2022,0.56,%,"https://www.nso.gov.vn/wp-content/uploads/20
 Thừa Thiên Huế,63,2023,0.54,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thừa Thiên Huế,63,2024,1.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Thừa Thiên Huế,63,2025,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Tiền Giang,63,2010,0.31,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Tiền Giang,63,2011,0.27,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Tiền Giang,63,2012,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Tiền Giang,63,2013,0.65,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Tiền Giang,63,2014,0.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Tiền Giang,63,2015,0.73,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Tiền Giang,63,2016,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Tiền Giang,63,2017,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Tiền Giang,63,2018,0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Tiền Giang,63,2019,0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Tiền Giang,63,2020,0.35,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tiền Giang,63,2021,0.39,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -356,6 +815,15 @@ Tiền Giang,63,2022,0.33,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Tiền Giang,63,2023,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tiền Giang,63,2024,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tiền Giang,63,2025,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Trà Vinh,63,2010,0.48,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Trà Vinh,63,2011,0.5,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Trà Vinh,63,2012,0.52,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Trà Vinh,63,2013,0.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Trà Vinh,63,2014,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Trà Vinh,63,2015,0.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Trà Vinh,63,2016,0.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Trà Vinh,63,2017,0.05,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Trà Vinh,63,2018,0.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Trà Vinh,63,2019,0.05,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Trà Vinh,63,2020,0.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Trà Vinh,63,2021,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -363,6 +831,15 @@ Trà Vinh,63,2022,0.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Trà Vinh,63,2023,0.06,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Trà Vinh,63,2024,0.39,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Trà Vinh,63,2025,0.3,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Tuyên Quang,63,2010,0.57,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Tuyên Quang,63,2011,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Tuyên Quang,63,2012,0.8,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Tuyên Quang,63,2013,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Tuyên Quang,63,2014,0.88,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Tuyên Quang,63,2015,0.88,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Tuyên Quang,63,2016,0.95,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Tuyên Quang,63,2017,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Tuyên Quang,63,2018,1.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Tuyên Quang,63,2019,1.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Tuyên Quang,63,2020,0.84,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tuyên Quang,63,2021,1.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -370,6 +847,15 @@ Tuyên Quang,63,2022,0.51,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/N
 Tuyên Quang,63,2023,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tuyên Quang,63,2024,1.0,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tuyên Quang,63,2025,0.8,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Tây Ninh,63,2010,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Tây Ninh,63,2011,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Tây Ninh,63,2012,0.71,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Tây Ninh,63,2013,0.66,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Tây Ninh,63,2014,0.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Tây Ninh,63,2015,0.82,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Tây Ninh,63,2016,0.86,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Tây Ninh,63,2017,1.0,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Tây Ninh,63,2018,0.83,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Tây Ninh,63,2019,0.95,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Tây Ninh,63,2020,0.57,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tây Ninh,63,2021,0.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -377,6 +863,15 @@ Tây Ninh,63,2022,0.58,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Tây Ninh,63,2023,0.52,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tây Ninh,63,2024,0.66,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Tây Ninh,63,2025,0.68,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Vĩnh Long,63,2010,0.14,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Vĩnh Long,63,2011,0.25,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Vĩnh Long,63,2012,0.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Vĩnh Long,63,2013,0.32,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Vĩnh Long,63,2014,0.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Vĩnh Long,63,2015,-0.06,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Vĩnh Long,63,2016,-0.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Vĩnh Long,63,2017,-0.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Vĩnh Long,63,2018,0.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Vĩnh Long,63,2019,-0.01,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Vĩnh Long,63,2020,0.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Long,63,2021,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -384,6 +879,15 @@ Vĩnh Long,63,2022,-0.02,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Vĩnh Long,63,2023,0.08,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Long,63,2024,0.74,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Long,63,2025,0.5,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Vĩnh Phúc,63,2010,0.72,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Vĩnh Phúc,63,2011,0.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Vĩnh Phúc,63,2012,1.09,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Vĩnh Phúc,63,2013,0.68,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Vĩnh Phúc,63,2014,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Vĩnh Phúc,63,2015,1.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Vĩnh Phúc,63,2016,1.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Vĩnh Phúc,63,2017,1.54,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Vĩnh Phúc,63,2018,1.36,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Vĩnh Phúc,63,2019,1.45,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Vĩnh Phúc,63,2020,1.42,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Phúc,63,2021,1.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -391,6 +895,15 @@ Vĩnh Phúc,63,2022,0.49,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG
 Vĩnh Phúc,63,2023,1.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Phúc,63,2024,1.15,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Vĩnh Phúc,63,2025,1.1,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Yên Bái,63,2010,1.29,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Yên Bái,63,2011,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Yên Bái,63,2012,0.93,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Yên Bái,63,2013,1.16,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Yên Bái,63,2014,1.16,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Yên Bái,63,2015,1.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Yên Bái,63,2016,0.91,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Yên Bái,63,2017,0.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Yên Bái,63,2018,0.9,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Yên Bái,63,2019,1.04,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Yên Bái,63,2020,1.04,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Yên Bái,63,2021,1.33,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -398,6 +911,15 @@ Yên Bái,63,2022,0.54,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Yên Bái,63,2023,0.98,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Yên Bái,63,2024,1.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Điện Biên,63,2010,2.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Điện Biên,63,2011,1.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Điện Biên,63,2012,1.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Điện Biên,63,2013,1.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Điện Biên,63,2014,1.82,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Điện Biên,63,2015,2.03,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Điện Biên,63,2016,1.99,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Điện Biên,63,2017,1.96,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Điện Biên,63,2018,1.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Điện Biên,63,2019,1.89,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Điện Biên,63,2020,1.96,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Điện Biên,63,2021,1.89,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -405,6 +927,15 @@ Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Điện Biên,63,2023,1.61,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Điện Biên,63,2024,1.63,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Điện Biên,63,2025,1.63,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Đà Nẵng,63,2010,3.15,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Đà Nẵng,63,2011,2.53,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Đà Nẵng,63,2012,2.14,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Đà Nẵng,63,2013,2.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Đà Nẵng,63,2014,2.11,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Đà Nẵng,63,2015,2.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Đà Nẵng,63,2016,2.27,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Đà Nẵng,63,2017,1.62,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Đà Nẵng,63,2018,1.51,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Đà Nẵng,63,2019,2.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Đà Nẵng,63,2020,2.48,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đà Nẵng,63,2021,2.22,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -412,6 +943,15 @@ Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Đà Nẵng,63,2023,2.05,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đà Nẵng,63,2024,2.47,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đà Nẵng,63,2025,2.25,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Đắk Lắk,63,2010,0.98,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Đắk Lắk,63,2011,1.02,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Đắk Lắk,63,2012,1.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Đắk Lắk,63,2013,1.19,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Đắk Lắk,63,2014,1.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Đắk Lắk,63,2015,0.79,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Đắk Lắk,63,2016,0.89,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Đắk Lắk,63,2017,0.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Đắk Lắk,63,2018,0.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Đắk Lắk,63,2019,0.59,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Đắk Lắk,63,2020,0.77,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Lắk,63,2021,1.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -419,6 +959,15 @@ Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Đắk Lắk,63,2023,0.68,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Lắk,63,2024,0.76,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Lắk,63,2025,0.79,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Đắk Nông,63,2010,2.61,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Đắk Nông,63,2011,3.13,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Đắk Nông,63,2012,3.3,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Đắk Nông,63,2013,3.42,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Đắk Nông,63,2014,2.91,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Đắk Nông,63,2015,2.75,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Đắk Nông,63,2016,2.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Đắk Nông,63,2017,1.76,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Đắk Nông,63,2018,1.74,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Đắk Nông,63,2019,1.69,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Đắk Nông,63,2020,1.93,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Nông,63,2021,4.16,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -426,6 +975,15 @@ Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Đắk Nông,63,2023,1.7,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Nông,63,2024,2.01,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đắk Nông,63,2025,1.29,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Đồng Nai,63,2010,2.87,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Đồng Nai,63,2011,2.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Đồng Nai,63,2012,2.56,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Đồng Nai,63,2013,2.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Đồng Nai,63,2014,2.38,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Đồng Nai,63,2015,2.07,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Đồng Nai,63,2016,2.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Đồng Nai,63,2017,1.81,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Đồng Nai,63,2018,1.67,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Đồng Nai,63,2019,1.92,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Đồng Nai,63,2020,2.05,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đồng Nai,63,2021,-0.26,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final
@@ -433,6 +991,15 @@ Yên Bái,63,2025,1.13,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-T
 Đồng Nai,63,2023,1.69,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đồng Nai,63,2024,1.65,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đồng Nai,63,2025,1.5,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+Đồng Tháp,63,2010,0.18,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2010)",final
+Đồng Tháp,63,2011,0.12,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2011)",final
+Đồng Tháp,63,2012,0.2,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2012)",final
+Đồng Tháp,63,2013,0.2,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2013)",final
+Đồng Tháp,63,2014,0.17,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2014)",final
+Đồng Tháp,63,2015,-0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2015)",final
+Đồng Tháp,63,2016,-0.41,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2016)",final
+Đồng Tháp,63,2017,-0.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2017)",final
+Đồng Tháp,63,2018,-0.4,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2018)",final
 Đồng Tháp,63,2019,-0.46,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
 Đồng Tháp,63,2020,0.08,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
 Đồng Tháp,63,2021,0.08,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2021)",final

@@ -10,6 +10,8 @@
   <!-- Social cards: crawlers need absolute URLs; if you host your own copy, change https://atlasvn.online/ here and SITE_URL in js/app/share.js. -->
   <meta property="og:type" content="website">
   <link rel="canonical" href="https://atlasvn.online/">
+  <!-- oEmbed (static: the hash never reaches the server, so every page URL describes the same embeddable map) -->
+  <link rel="alternate" type="application/json+oembed" href="https://atlasvn.online/oembed.json" title="Bản đồ Việt Nam · atlasvn.online">
   <meta property="og:site_name" content="vnciv">
   <meta property="og:url" content="https://atlasvn.online/">
   <meta property="og:title" content="Việt Nam trên bản đồ chiến thuật">
@@ -25,9 +27,10 @@
   <meta name="twitter:description" content="Việt Nam thật, vẽ như bản đồ game chiến thuật 4X, từ dữ liệu công khai.">
   <meta name="twitter:image" content="https://atlasvn.online/og-image.png">
   <meta name="twitter:image:alt" content="Bản đồ ô lục giác của Việt Nam với biểu ngữ thành phố, theo phong cách game chiến thuật">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' https://api.open-meteo.com; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org; connect-src 'self' https://api.open-meteo.com https://lvnzcwjxreamelewdwql.supabase.co https://commons.wikimedia.org https://www.wikidata.org; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/donate.css">
+  <link rel="stylesheet" href="css/embed.css">
 </head>
 <body>
   <header id="topbar">
@@ -40,9 +43,15 @@
         role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="search-results" aria-label="Search places, communes and provinces (/ or Ctrl K)">
       <kbd class="search-kbd" aria-hidden="true">/</kbd>
     </div>
-    <!-- Extension buttons, Coffee and Share scroll with the bar on phones; .tb-buttons stays pinned. -->
+    <!-- Extension buttons, the "More ▾" menu (addTopButton({menu: true}), Share) and the Author mark scroll with the
+         bar on phones; .tb-buttons stays pinned. -->
     <div class="tb-more">
-      <button id="btn-share" class="btn" aria-haspopup="dialog" aria-expanded="false" aria-label="Share this view" title="Share: copy a link or download an image"></button>
+      <div class="tb-menu">
+        <button id="btn-more" class="btn" type="button" aria-haspopup="menu" aria-expanded="false" aria-controls="tb-menu-list"></button>
+        <div id="tb-menu-list" class="panel tb-menu-list" role="menu" aria-labelledby="btn-more" hidden>
+          <button id="btn-share" class="btn" role="menuitem" aria-haspopup="dialog" aria-expanded="false" aria-label="Share this view" title="Share: copy a link or download an image"></button>
+        </div>
+      </div>
     </div>
     <div class="tb-buttons">
       <button id="btn-lang" class="btn" aria-label="Language"></button>

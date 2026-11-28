@@ -17,7 +17,8 @@ INCLUDE={
  'resources.json':[r'\.summary\.note',r'\.types\[\]\.(description|name)'],
  'sources.json':[r'\[\]\.(description|license|publisher|title|vintage)',r'\[\]\.used_for\[\]',r'\[\]\.files\[\]\.note'],
  'states.json':[r'\[\]\.energy\.note'],
- 'trade.json':[r'\.modes\[\]\.name',r'\.path_note',r'\.rule',r'\.units\.\w+',r'\.vintage'],
+ 'timeline.json':[r'\.series\.\w+\.note'],
+ 'trade.json':[r'\.modes\[\]\.name',r'\.path_note',r'\.rule',r'\.units\.\w+',r'\.vintage',r'\.international\.rule',r'\.international\.foreign\.\*\.city'],
  'wonders.json':[r'\.rules\[\]\.text',r'\.vintage\.\w+'],
  'world.json':[r'\.tables\.(cover|relief|water)\[\]\.(name|rule)',r'\.tables\.notes\.\w+'],
 }

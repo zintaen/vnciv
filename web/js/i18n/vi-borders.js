@@ -1,0 +1,22 @@
+// Vietnamese strings of the historical-boundaries mode (web/js/ext/borders).
+export default {
+  "Historical boundaries": "Ranh giới lịch sử",
+  "Province boundaries from 1976 to 2026: how the provinces split and merged": "Ranh giới tỉnh từ 1976 đến 2026: các tỉnh đã chia tách và hợp nhất thế nào",
+  "How the provinces split and merged since reunification. Use the slider or the arrow keys; ◀ ▶ step one change at a time.": "Các tỉnh đã chia tách và hợp nhất thế nào từ sau ngày thống nhất. Kéo thanh trượt hoặc dùng phím mũi tên; ◀ ▶ đi từng lần thay đổi.",
+  "Previous change": "Lần thay đổi trước",
+  "Next change": "Lần thay đổi sau",
+  "Legal basis": "Căn cứ pháp lý",
+  "source": "nguồn",
+  "Source text": "Văn bản nguồn",
+  "Status only, same boundaries": "Chỉ đổi cấp, ranh giới giữ nguyên",
+  "Approximations on this map": "Những chỗ bản đồ vẽ gần đúng",
+  "Provinces and cities in this frame ({n})": "Các tỉnh, thành ở mốc này ({n})",
+  "2020 units": "Theo đơn vị năm 2020",
+  "{n} province-level units": "{n} đơn vị hành chính cấp tỉnh",
+  "{n} provinces": "{n} tỉnh",
+  "{n} centrally governed cities": "{n} thành phố trực thuộc Trung ương",
+  "{n} special zone": "{n} đặc khu",
+  "count derived from the resolution": "số được suy ra từ nghị quyết",
+  "in force; adopted {d}": "ngày có hiệu lực; thông qua {d}",
+  "Centrally governed city": "Thành phố trực thuộc Trung ương",
+};

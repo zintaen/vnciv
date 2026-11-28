@@ -14,7 +14,7 @@ const SPEED_SHIP = 14, SPEED_TRAIN = 60; // map units (0.2 km) per second, illus
 const TRAIL = 5; // contrail segments
 
 const NOTE = {
-  plane: "Illustrative, not a flight schedule; air routes from OpenFlights (2014)",
+  plane: "Illustrative, not a flight schedule; air routes from Wikipedia's airport articles (2026)",
   ship: "Illustrative ship movement, not real shipping lanes or traffic",
   train: "Illustrative train frequency, not a timetable",
 };
@@ -120,7 +120,7 @@ export function install(app) {
   const M = app.motion;
   if (!M?.register) return;
   const mobile = !!app.isMobile?.();
-  let on = !mobile; // phones: off by default (battery)
+  let on = false; // off by default (the "gọn hơn" set); a switch in the Map panel
   let model = null, loading = false;
 
   // Live positions of the sprites drawn last frame, for hover: x, y, radius (world), kind index into `who`.
@@ -135,7 +135,7 @@ export function install(app) {
     const land = (x, y) => { const c = grid.cellAt(x, y); return c >= 0 && w.water[c] === 0; };
     const sprites = [];
     for (const r of d.air || []) {
-      const n = Math.min(4, (r.airlines || 1) + (r.rank <= 3 ? 1 : 0));
+      const n = r.international ? Math.min(2, r.airlines || 1) : Math.min(4, (r.airlines || 1) + (r.rank <= 3 ? 1 : 0)); // fewer on the international arcs
       const T = 10 + (r.dist_km || 500) / 45; // seconds per flight, illustrative
       const len = Math.hypot(r.p1[0] - r.p0[0], r.p1[1] - r.p0[1]) * 1.05;
       for (let j = 0; j < n; j++) {
@@ -329,9 +329,9 @@ export function install(app) {
   app.traffic = { drawn: () => nHit, at: (k) => (k < nHit ? { x: hx[k], y: hy[k], label: who[k].label, kind: who[k].kind } : null) };
 
   app.ui?.addMapToggle?.({
-    id: "traffic", group: "transport", icon: "✈️", default: !mobile,
+    id: "traffic", group: "transport", icon: "✈️", default: false,
     label: t("Moving traffic"),
-    title: t("Planes on the air routes, ships at the seaports and trains on the railways. Illustrative, not a flight schedule; air routes from OpenFlights (2014). Ship and train frequency are illustrative too. Off with Effects off or reduced motion."),
+    title: t("Planes on the air routes, ships at the seaports and trains on the railways. Illustrative, not a flight schedule; air routes from Wikipedia's airport articles (2026). Ship and train frequency are illustrative too. Off with Effects off or reduced motion."),
     get: () => on,
     set: (v) => { on = !!v; app.requestDraw(); },
   });

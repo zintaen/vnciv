@@ -46,6 +46,13 @@ jobs:
         with:
           persist-credentials: false
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
+      # The page loads lenses_index.json + data/lens/<id>.json (gitignored, split from lenses.json, which it never
+      # fetches: 14 MB left out of the site). The commit's short SHA goes into error reports (app/telemetry.js).
+      - name: Split the lenses, stamp the version
+        run: |
+          python3 -c "from pipeline.build.pack import pack; pack()"
+          rm web/data/lenses.json
+          echo "export const VERSION = \"${GITHUB_SHA::7}\";" > web/js/app/version.js
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: web

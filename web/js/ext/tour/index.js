@@ -167,7 +167,7 @@ export function install(app) {
     if (app.mode) app.setMode(null);
     app.clearSelection?.();
     leave3d();
-    await Promise.all([app.loadData("wonders"), app.loadData("places")]);
+    await Promise.all([app.loadData("wonders"), app.loadData("places"), ...["temperature", "crop_rice"].map((id) => app.lensValues?.(id))]); // stops.js lensAt
     if (!active) return;
     const D = app.data;
     stops = buildStops({ cities: D.cities, wonders: D.wonders, places: D.places, world: app.w.raw, lenses: D.lenses, grid: app.w.grid });

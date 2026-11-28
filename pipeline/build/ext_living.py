@@ -113,7 +113,7 @@ def build():
 
     doc = {
         "version": 1,
-        "sources": ["usda_ipad_cropcal", "fao_giews_vnm", "hcmue_flood_2016", "fao_mrc_flood", "etopo", "worldcover",
+        "sources": ["usda_ipad_cropcal", "fao_giews_vnm", "hcmue_flood_2016", "fao_mrc_flood", "etopo", "mekong_dem", "worldcover",
                     "nd26_2019", "hnd_amlich", "hko_calendar"],
         "crop_calendar": {
             "short": "USDA FAS",
@@ -131,7 +131,7 @@ def build():
                                   f"mostly paddy. Upland fields (maize, cassava, coffee) are left as they are.")},
         "flood": {**flood, "months": FLOOD_MONTHS, "level_m": FLOOD_LEVEL,
                   "rule": (f"Hexes of the annually flooded upper Mekong Delta ({', '.join(FLOOD_PROVINCES)}; former provinces) "
-                           f"with at least {FLOOD_MIN_SHARE}% of their land at or below {FLOOD_LEVEL} m (ETOPO1, as in the sea-level "
+                           f"with at least {FLOOD_MIN_SHARE}% of their land at or below {FLOOD_LEVEL} m (ETOPO1, the Mekong delta from its delta DEM, as in the sea-level "
                            f"lens), drawn with that share as depth. The season: water comes in from July–August, peaks in "
                            f"September–October and recedes to the end of December (Phạm Thị Huyền Trang & Trương Văn Tuấn 2016; "
                            f"FAO: 'every flood season from July to November')."),

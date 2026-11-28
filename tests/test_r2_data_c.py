@@ -30,9 +30,12 @@ class TestRound2Data(unittest.TestCase):
 
     def test_preliminary_income_flagged(self):
         # income per person 2024 and 2025 and the quintile ratio 2025: the tables' footnote says "Số sơ bộ"
+        # (2010-2016 come from the next year's edition, whose table has no such footnote: final; 2018 on carry it)
         for f in ("income_per_capita_monthly", "income_quintile_ratio"):
-            st = {r["status"] for r in csv.DictReader(open(STATS / "series" / f"{f}.csv", encoding="utf-8"))}
+            st = {r["status"] for r in csv.DictReader(open(STATS / "series" / f"{f}.csv", encoding="utf-8")) if int(r["year"]) >= 2018}
             self.assertEqual(st, {"prel"}, f)
+        old = {r["status"] for r in csv.DictReader(open(STATS / "series" / "income_per_capita_monthly.csv", encoding="utf-8")) if int(r["year"]) < 2018}
+        self.assertEqual(old, {"final"})
         for f in ("2025/income_per_capita_monthly", "p34/income_per_capita_monthly", "2024/income_per_capita_monthly"):
             yrs = {r["year"] for r in csv.DictReader(open(STATS / f"{f}.csv", encoding="utf-8"))}
             self.assertTrue(all("prel" in y for y in yrs), f)

@@ -1,0 +1,419 @@
+[
+ {
+  "id": "typhoon_linda_1997",
+  "date": "1997-11-02",
+  "category": "disaster",
+  "title_en": "Typhoon Linda strikes Cà Mau",
+  "title_vi": "Bão Linda đổ bộ Cà Mau",
+  "text_en": "Linda made landfall in Cà Mau on 2 November 1997; 3,111 people were killed in Vietnam, the worst typhoon in southern Vietnam in at least 100 years.",
+  "text_vi": "Ngày 2/11/1997, bão Linda đổ bộ vào Cà Mau; 3.111 người thiệt mạng ở Việt Nam, cơn bão tồi tệ nhất ở miền Nam trong ít nhất 100 năm.",
+  "raw_file": "linda97.json",
+  "evidence": "5 of 1997 (Vietnamese: Bão số 5 năm 1997)  was the worst typhoon in southern Vietnam in at least 100 years, killing thousands of people and leaving extensive damage.",
+  "also": [
+   {
+    "raw_file": "linda97.json",
+    "evidence": "At 0900 UTC on November 2, Linda made landfall in the Vietnamese province of Cà Mau."
+   },
+   {
+    "raw_file": "linda97.json",
+    "evidence": "The worst of Linda's impact was in Vietnam, where 3,111 people were killed, and damage totaled 385 million (USD)."
+   }
+  ],
+  "at": "ca_mau.json",
+  "place": "Cà Mau",
+  "storm": {
+   "name": "Linda",
+   "season": 1997
+  },
+  "story": [
+   "mekong"
+  ]
+ },
+ {
+  "id": "typhoon_xangsane_2006",
+  "date": "2006-10-01",
+  "category": "disaster",
+  "title_en": "Typhoon Xangsane hits Đà Nẵng",
+  "title_vi": "Bão Xangsane đổ bộ Đà Nẵng",
+  "text_en": "Xangsane made landfall in Đà Nẵng on 1 October 2006, considered the most powerful tropical cyclone to strike Vietnam between 1986 and 2006.",
+  "text_vi": "Ngày 1/10/2006, bão Xangsane đổ bộ Đà Nẵng, được xem là xoáy thuận nhiệt đới mạnh nhất đánh vào Việt Nam trong giai đoạn 1986–2006.",
+  "raw_file": "xangsane06.json",
+  "evidence": "Typhoon Xangsane, known in the Philippines as Typhoon Milenyo, was a strong and deadly typhoon that affected the Philippines, and Indochina during the 2006 Pacific typhoon season.",
+  "also": [
+   {
+    "raw_file": "xangsane06.json",
+    "evidence": "On the morning of October 1, Typhoon Xangsane made landfall in Da Nang and was considered the most powerful tropical cyclone to strike Vietnam between 1986 and 2006."
+   }
+  ],
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "storm": {
+   "name": "Xangsane",
+   "season": 2006
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_ketsana_2009",
+  "date": "2009-09-29",
+  "category": "disaster",
+  "title_en": "Typhoon Ketsana makes landfall in Quảng Nam",
+  "title_vi": "Bão Ketsana đổ bộ Quảng Nam",
+  "text_en": "Ketsana made landfall in Quảng Nam on 29 September 2009 at its peak; it killed 179 people in Vietnam.",
+  "text_vi": "Ngày 29/9/2009, bão Ketsana đổ bộ Quảng Nam khi đang ở cường độ mạnh nhất; bão làm 179 người ở Việt Nam thiệt mạng.",
+  "raw_file": "ketsana09.json",
+  "evidence": "It is both the second deadliest and costliest typhoon of the 2009 Pacific typhoon season, with at least $1.15 billion in damages, trailing behind Morakot with damages worth $6.2 billion, and 921 fatalities.",
+  "also": [
+   {
+    "raw_file": "ketsana09.json",
+    "evidence": "Ketsana then made a second landfall on Quảng Nam in Vietnam, at 0600 UTC on September 29 at its peak intensity."
+   },
+   {
+    "raw_file": "ketsana09.json",
+    "evidence": "In total the typhoon killed 179 people in Vietnam, 23 during the first hours after landfall; 8 people were missing and 1,140 injured."
+   }
+  ],
+  "at": "p_quang_nam.json",
+  "place": "Quảng Nam",
+  "storm": {
+   "name": "Ketsana",
+   "season": 2009
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_damrey_2017",
+  "date": "2017-11-04",
+  "category": "disaster",
+  "title_en": "Typhoon Damrey hits Khánh Hòa",
+  "title_vi": "Bão Damrey đổ bộ Khánh Hòa",
+  "text_en": "Damrey made landfall over Khánh Hòa on 4 November 2017; wind, rain and floods in Central Vietnam killed 142 people.",
+  "text_vi": "Ngày 4/11/2017, bão Damrey đổ bộ Khánh Hòa; gió, mưa và lũ ở miền Trung làm 142 người thiệt mạng.",
+  "raw_file": "damrey17.json",
+  "evidence": "Damrey made landfall in central Vietnam as the region hosted the 2017 APEC Summit in Da Nang.",
+  "also": [
+   {
+    "raw_file": "damrey17.json",
+    "evidence": "Damrey made landfall over Khánh Hoà, Vietnam on November 4 and began to rapidly weaken, fully dissipating on November 5."
+   },
+   {
+    "raw_file": "damrey17.json",
+    "evidence": "Strong winds, heavy rainfall and severe flooding in Central Vietnam caused by the typhoon killed 142 people and total damage reached over 22 trillion VND (US$1 billion)."
+   }
+  ],
+  "at": "khanh_hoa.json",
+  "place": "Khánh Hòa",
+  "storm": {
+   "name": "Damrey",
+   "season": 2017
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "central_floods_2020",
+  "date": "2020-10",
+  "category": "disaster",
+  "title_en": "Central Vietnam floods of 2020",
+  "title_vi": "Lũ lụt miền Trung năm 2020",
+  "text_en": "A series of storms, including Linfa, Nangka, Saudel and Molave, flooded Central Vietnam in October and early November 2020; a landslide in Hướng Hóa killed 22 soldiers.",
+  "text_vi": "Tháng 10 và đầu tháng 11/2020, một loạt bão (trong đó có Linfa, Nangka, Saudel, Molave) gây lũ lụt ở miền Trung; một vụ sạt lở ở Hướng Hóa làm 22 quân nhân thiệt mạng.",
+  "raw_file": "floods20.json",
+  "evidence": "The 2020 Central Vietnam floods were a series of floods in Central Vietnam, which also affected some areas in Cambodia and Laos in October and early November 2020.",
+  "also": [
+   {
+    "raw_file": "floods20.json",
+    "evidence": "On 18 October, a sudden landslide buried the barracks of an army economic division in Hướng Phùng Commune, Hướng Hoá District of Quảng Trị Province, resulting in the deaths of 22 soldiers."
+   }
+  ],
+  "at": "quang_tri.json",
+  "place": "Quảng Trị",
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "rao_trang_2020",
+  "date": "2020-10-11",
+  "category": "disaster",
+  "title_en": "Rào Trăng 3 landslides",
+  "title_vi": "Sạt lở Rào Trăng 3",
+  "text_en": "On 11 October 2020 rain from Tropical Storm Linfa set off a landslide at the Rào Trăng 3 hydropower plant in Thừa Thiên Huế; a second landslide struck the rescue team the next day.",
+  "text_vi": "Đêm 11/10/2020, mưa do bão Linfa gây sạt lở tại Thủy điện Rào Trăng 3 (Thừa Thiên Huế); hôm sau, một vụ sạt lở thứ hai vùi lấp đoàn cứu hộ.",
+  "raw_file": "floods20.json",
+  "evidence": "The 2020 Central Vietnam floods were a series of floods in Central Vietnam, which also affected some areas in Cambodia and Laos in October and early November 2020.",
+  "also": [
+   {
+    "raw_file": "floods20.json",
+    "evidence": "On the night of 11 October, heavy rainfall associated with Tropical Storm Linfa triggered a landslide at the Rào Trăng 3 Hydropower Plant in Phong Điền District, Thừa Thiên Huế Province, leaving 17 construction workers missing."
+   },
+   {
+    "raw_file": "floods20.json",
+    "evidence": "On 12 October, a military rescue team was dispatched to search for the missing workers was struck by a second landslide, killing Major General Nguyễn Văn Man and 12 other soldiers."
+   }
+  ],
+  "at": "thua_thien_hue.json",
+  "place": "Rào Trăng, Phong Điền (Huế)",
+  "storm": {
+   "name": "Linfa",
+   "season": 2020
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_molave_2020",
+  "date": "2020-10-28",
+  "category": "disaster",
+  "title_en": "Typhoon Molave hits Quảng Ngãi",
+  "title_vi": "Bão Molave đổ bộ Quảng Ngãi",
+  "text_en": "Molave made landfall in Quảng Ngãi on 28 October 2020, the strongest storm on the South Central Coast since Damrey in 2017; landslides killed at least 28 people in Nam Trà My.",
+  "text_vi": "Ngày 28/10/2020, bão Molave đổ bộ Quảng Ngãi, cơn bão mạnh nhất vào Nam Trung Bộ kể từ bão Damrey năm 2017; sạt lở ở Nam Trà My làm ít nhất 28 người thiệt mạng.",
+  "raw_file": "molave20.json",
+  "evidence": "Typhoon Molave, known in the Philippines as Typhoon Quinta, was a powerful and destructive tropical cyclone that caused widespread damage in the Philippines and Indochina in late October 2020, and became the strongest to strike the South Central Coast of Vietnam since Damrey in 2017.",
+  "also": [
+   {
+    "raw_file": "molave20.json",
+    "evidence": "Molave made landfall on Quảng Ngãi province, central Vietnam at 10:10 UTC+7 (03:10 UTC), October 28 with category 2 typhoon strength."
+   },
+   {
+    "raw_file": "floods20.json",
+    "evidence": "Devastating landslides caused by Molave have killed at least 28 people in the communes of Nam Trà My District, Quảng Nam Province."
+   }
+  ],
+  "at": "p_quang_ngai.json",
+  "place": "Quảng Ngãi",
+  "storm": {
+   "name": "Molave",
+   "season": 2020
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_noru_2022",
+  "date": "2022-09-28",
+  "category": "disaster",
+  "title_en": "Typhoon Noru reaches Đà Nẵng and Quảng Nam",
+  "title_vi": "Bão Noru đổ bộ Đà Nẵng và Quảng Nam",
+  "text_en": "Noru made landfall in Đà Nẵng and Quảng Nam on the morning of 28 September 2022.",
+  "text_vi": "Sáng 28/9/2022, bão Noru đổ bộ Đà Nẵng và Quảng Nam.",
+  "raw_file": "noru22.json",
+  "evidence": "Typhoon Noru, known in the Philippines as Super Typhoon Karding, was a powerful and destructive tropical cyclone that affected Indochina and the Philippines in late September 2022 — where it caused widespread agricultural damage.",
+  "also": [
+   {
+    "raw_file": "noru22.json",
+    "evidence": "On the morning of September 28, Typhoon Noru made landfall in Da Nang and Quảng Nam."
+   }
+  ],
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "storm": {
+   "name": "Noru",
+   "season": 2022
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_yagi_2024",
+  "date": "2024-09-07",
+  "category": "disaster",
+  "title_en": "Typhoon Yagi hits Hải Phòng and Quảng Ninh",
+  "title_vi": "Bão Yagi đổ bộ Hải Phòng và Quảng Ninh",
+  "text_en": "Yagi made landfall over Hải Phòng and Quảng Ninh on 7 September 2024; 325 people died in Vietnam and 24 went missing, and Quảng Ninh was the hardest-hit province.",
+  "text_vi": "Ngày 7/9/2024, bão Yagi đổ bộ Hải Phòng và Quảng Ninh; 325 người ở Việt Nam thiệt mạng, 24 người mất tích, Quảng Ninh là tỉnh bị thiệt hại nặng nhất.",
+  "raw_file": "yagi24.json",
+  "evidence": "Typhoon Yagi was a powerful tropical cyclone that caused extensive damage in the Philippines and Indochina in early September 2024.",
+  "also": [
+   {
+    "raw_file": "yagi24.json",
+    "evidence": "It made landfall over Haiphong and Quảng Ninh, Vietnam, on September 7 and moved southwestward inland until it was last noted on September 9."
+   },
+   {
+    "raw_file": "yagi24.json",
+    "evidence": "In Vietnam, over 329,000 structures were affected and 325 people died, with 24 more missing; a majority of the casualties were caused by landslides."
+   }
+  ],
+  "at": "quang_ninh.json",
+  "place": "Quảng Ninh",
+  "storm": {
+   "name": "Yagi",
+   "season": 2024
+  },
+  "story": [
+   "yagi"
+  ]
+ },
+ {
+  "id": "typhoon_bualoi_2025",
+  "date": "2025-09-29",
+  "category": "disaster",
+  "title_en": "Typhoon Bualoi hits Nghệ An and Hà Tĩnh",
+  "title_vi": "Bão Bualoi đổ bộ Nghệ An và Hà Tĩnh",
+  "text_en": "Bualoi made landfall in Nghệ An and Hà Tĩnh early on 29 September 2025.",
+  "text_vi": "Rạng sáng 29/9/2025, bão Bualoi (bão số 10) đổ bộ Nghệ An và Hà Tĩnh.",
+  "raw_file": "bualoi25.json",
+  "evidence": "Bualoi is the twentieth named storm and the seventh typhoon of the 2025 Pacific typhoon season.",
+  "also": [
+   {
+    "raw_file": "bualoi25.json",
+    "evidence": "In the early morning of September 29, Bualoi made landfall in Nghệ An and Hà Tĩnh."
+   }
+  ],
+  "at": "ha_tinh.json",
+  "place": "Hà Tĩnh",
+  "storm": {
+   "name": "Bualoi",
+   "season": 2025
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_kalmaegi_2025",
+  "date": "2025-11-06",
+  "category": "disaster",
+  "title_en": "Typhoon Kalmaegi strikes Gia Lai and Đắk Lắk",
+  "title_vi": "Bão Kalmaegi đổ bộ Gia Lai và Đắk Lắk",
+  "text_en": "Kalmaegi made landfall in Đắk Lắk on 6 November 2025, one of the strongest typhoons on record in the area; damage in Vietnam was put at 13.097 trillion đồng.",
+  "text_vi": "Ngày 6/11/2025, bão Kalmaegi đổ bộ Đắk Lắk, một trong những cơn bão mạnh nhất từng ghi nhận ở khu vực; thiệt hại tại Việt Nam ước 13.097 tỷ đồng.",
+  "raw_file": "kalmaegi25.json",
+  "evidence": "It later struck Central Vietnam as one of the strongest typhoons on record in the area during early November 2025.",
+  "also": [
+   {
+    "raw_file": "kalmaegi25.json",
+    "evidence": "Making landfall on November 6, in Dak Lak province, Vietnam, Kalmaegi caused maximum sustained wind speeds of 30 m/s (108 km/h), peak gusts of 40 m/s (144 km/h) at Quy Nhon; and winds 30 m/s (108 km/h), gust 44 m/s (158 km/h) at An Nhon."
+   },
+   {
+    "raw_file": "kalmaegi25.json",
+    "evidence": "Damage by Kalmaegi in Vietnam was estimated at 13.097 trillion dong (US$521.4 million), including 10.132 trillion dong (US$403 million) in Gia Lai Province and 2.578 trillion dong (US$102.5 million) in Dak Lak."
+   }
+  ],
+  "at": "dak_lak.json",
+  "place": "Đắk Lắk",
+  "storm": {
+   "name": "Kalmaegi",
+   "season": 2025
+  },
+  "story": [
+   "floods"
+  ]
+ },
+ {
+  "id": "typhoon_cecil_1985",
+  "date": "1985-10",
+  "category": "disaster",
+  "title_en": "Typhoon Cecil strikes central Vietnam",
+  "title_vi": "Bão Cecil đổ bộ miền Trung",
+  "text_en": "Typhoon Cecil, one of two typhoons to strike Vietnam within a week in 1985, destroyed 47,757 homes and damaged 229,039; five villages in central Vietnam were wiped out.",
+  "text_vi": "Bão Cecil, một trong hai cơn bão đổ bộ Việt Nam trong một tuần năm 1985, làm sập 47.757 ngôi nhà và hư hại 229.039 ngôi nhà; năm ngôi làng ở miền Trung bị phá hủy hoàn toàn.",
+  "raw_file": "cecil85.json",
+  "evidence": "Typhoon Cecil, known in the Philippines as Tropical Storm Rubing, was one of two typhoons to strike Vietnam within a week in 1985.",
+  "at": null,
+  "place": "Central Vietnam",
+  "storm": {
+   "name": "Cecil",
+   "season": 1985
+  },
+  "story": [
+   "floods"
+  ],
+  "also": [
+   {
+    "raw_file": "cecil85.json",
+    "evidence": "Across Vietnam, 229,039 homes were damaged and 47,757 others were destroyed."
+   },
+   {
+    "raw_file": "cecil85.json",
+    "evidence": "The first of two typhoons to strike Vietnam in a week, Cecil demolished houses, downed power lines, and caused flooding that forced large-scale evacuations in central Vietnam, where five villages were completely destroyed."
+   }
+  ],
+  "place_vi": "Miền Trung"
+ },
+ {
+  "id": "floods_1999",
+  "date": "1999-10",
+  "category": "disaster",
+  "title_en": "The 1999 central Vietnam floods",
+  "title_vi": "Lũ lụt miền Trung năm 1999",
+  "text_en": "In late October 1999 Vietnam had its worst floods in forty years; over two weeks more than 500 people died, and Huế's streets were under up to three metres of water.",
+  "text_vi": "Cuối tháng 10/1999, Việt Nam chịu trận lũ lụt tồi tệ nhất trong 40 năm; trong hai tuần, hơn 500 người chết, đường phố Huế ngập tới 3 m nước.",
+  "raw_file": "floods99.json",
+  "evidence": "The 1999 Vietnamese floods occurred in late October 1999 when Vietnam experienced the worst flooding in forty years.",
+  "at": "hue.json",
+  "place": "Huế",
+  "story": [
+   "floods"
+  ],
+  "also": [
+   {
+    "raw_file": "floods99.json",
+    "evidence": "it was estimated that the two week flood had caused more than 500 deaths"
+   },
+   {
+    "raw_file": "floods99.json",
+    "evidence": "At the flood peak, the heavily-affected Hue streets in then-Thừa Thiên Huế Province (now Huế city) was flooded with up to three meters of water"
+   }
+  ]
+ },
+ {
+  "id": "mekong_drought_2020",
+  "date": "2020",
+  "category": "disaster",
+  "title_en": "Drought and salt intrusion in the Mekong Delta",
+  "title_vi": "Hạn mặn ở đồng bằng sông Cửu Long",
+  "text_en": "In early 2020 a prolonged lack of rain and saltwater intrusion hit the Mekong Delta, which grows more than half of Vietnam's rice; five provinces declared an emergency as the drought passed the 2016 record.",
+  "text_vi": "Đầu năm 2020, thiếu mưa kéo dài và xâm nhập mặn tấn công đồng bằng sông Cửu Long, nơi làm ra hơn một nửa sản lượng lúa cả nước; năm tỉnh công bố tình trạng khẩn cấp khi hạn vượt mức kỷ lục năm 2016.",
+  "raw_file": "drought20.json",
+  "evidence": "Vietnam's Mekong Delta region, which produces more than half the country's rice, endures a prolonged lack of rain combined with saltwater intrusion in early 2020.",
+  "at": "can_tho.json",
+  "place": "Mekong Delta (shown at Cần Thơ)",
+  "story": [
+   "mekong"
+  ],
+  "also": [
+   {
+    "raw_file": "drought20.json",
+    "evidence": "Five provinces have declared an emergency after drought surpassed the record level of year 2016."
+   }
+  ],
+  "place_vi": "Đồng bằng sông Cửu Long (đặt tại Cần Thơ)"
+ },
+ {
+  "id": "central_floods_2025",
+  "date": "2025-10-16",
+  "category": "disaster",
+  "title_en": "The 2025 central Vietnam floods",
+  "title_vi": "Lũ lụt miền Trung năm 2025",
+  "text_en": "From 16 October to 6 December 2025 heavy rain flooded the central provinces from Quảng Trị to Khánh Hòa; in the second phase at least 153 people were reported killed or missing.",
+  "text_vi": "Từ 16/10 đến 6/12/2025, mưa lớn gây lũ lụt các tỉnh miền Trung từ Quảng Trị đến Khánh Hòa; riêng đợt thứ hai có ít nhất 153 người chết và mất tích.",
+  "raw_file": "floods25.json",
+  "evidence": "2025 Central Vietnam floods were a period of heavy rainfall and flooding that occurred in the central provinces of Vietnam from October 16, 2025, to 6 December.",
+  "at": null,
+  "place": "Quảng Trị to Khánh Hòa",
+  "story": [
+   "floods"
+  ],
+  "also": [
+   {
+    "raw_file": "floods25.json",
+    "evidence": "Prolonged heavy rainfall occurred across provinces from Quảng Trị to Khánh Hòa, with two major phases."
+   },
+   {
+    "raw_file": "floods25.json",
+    "evidence": "In the second phase, at least 153 people are reported killed and missing and damage reached 17.311 trillion dong (US$689.1 million)."
+   }
+  ],
+  "place_vi": "Từ Quảng Trị đến Khánh Hòa"
+ }
+]

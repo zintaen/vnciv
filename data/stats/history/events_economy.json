@@ -1,0 +1,202 @@
+[
+ {
+  "id": "doimoi_1986",
+  "date": "1986-12-15",
+  "category": "economy",
+  "title_en": "Đổi Mới: the 6th Party Congress",
+  "title_vi": "Đổi Mới: Đại hội VI của Đảng",
+  "text_en": "The 6th National Congress of the Communist Party of Vietnam, which began the Đổi Mới economic reforms, met from 15 to 18 December 1986.",
+  "text_vi": "Đại hội đại biểu toàn quốc lần thứ VI của Đảng Cộng sản Việt Nam, mở đầu công cuộc Đổi Mới kinh tế, họp từ 15 đến 18/12/1986.",
+  "raw_file": "doi_moi_en.json",
+  "evidence": "The 6th National Congress of the Communist Party of Vietnam under Nguyễn Văn Linh was convened on 15 December 1986 and lasted until 18 December.",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "doimoi"
+  ],
+  "also": [
+   {
+    "raw_file": "doi_moi_en.json",
+    "evidence": "The Đổi Mới economic reforms were initiated by the Communist Party of Vietnam (CPV) in December 1986 during the party's 6th National Congress."
+   }
+  ]
+ },
+ {
+  "id": "us_embargo_1994",
+  "date": "1994-02-03",
+  "category": "economy",
+  "title_en": "The United States lifts its trade embargo",
+  "title_vi": "Hoa Kỳ bỏ cấm vận thương mại",
+  "text_en": "On 3 February 1994 President Bill Clinton ordered the lifting of the 30-year US trade embargo on Vietnam, though other sanctions remained.",
+  "text_vi": "Ngày 3/2/1994, Tổng thống Bill Clinton ra lệnh dỡ bỏ lệnh cấm vận thương mại kéo dài 30 năm của Hoa Kỳ đối với Việt Nam, dù một số biện pháp trừng phạt khác vẫn còn.",
+  "raw_file": "us_vn_trade.json",
+  "evidence": "On February 3, 1994, President Bill Clinton ordered the lifting of the U.S. trade embargo on Vietnam.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ],
+  "also": [
+   {
+    "raw_file": "us_vn_relations.json",
+    "evidence": "In 1994, the U.S. lifted its 30-year trade embargo on Vietnam, though other sanctions remained."
+   }
+  ]
+ },
+ {
+  "id": "us_normal_1995",
+  "date": "1995",
+  "category": "economy",
+  "title_en": "Vietnam and the United States normalise relations",
+  "title_vi": "Bình thường hóa quan hệ Việt Nam – Hoa Kỳ",
+  "text_en": "Diplomatic relations between Vietnam and the United States were normalised in 1995; every US president since has visited Vietnam.",
+  "text_vi": "Quan hệ ngoại giao Việt Nam – Hoa Kỳ được bình thường hóa năm 1995; từ đó mọi tổng thống Hoa Kỳ đều đã thăm Việt Nam.",
+  "raw_file": "us_vn_relations.json",
+  "evidence": "Every U.S. president since diplomatic normalization in 1995 has visited Vietnam at least once",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "asean_1995",
+  "date": "1995-07-28",
+  "category": "economy",
+  "title_en": "Vietnam joins ASEAN",
+  "title_vi": "Việt Nam gia nhập ASEAN",
+  "text_en": "On 28 July 1995 Vietnam joined the Association of Southeast Asian Nations as its seventh member.",
+  "text_vi": "Ngày 28/7/1995, Việt Nam gia nhập Hiệp hội các quốc gia Đông Nam Á (ASEAN), là thành viên thứ bảy.",
+  "raw_file": "asean.json",
+  "evidence": "On 7 January 1984, Brunei became ASEAN's sixth member and on 28 July 1995, following the end of the Cold War, Vietnam joined as the seventh member.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "apec_2006",
+  "date": "2006-11-18",
+  "category": "economy",
+  "title_en": "APEC leaders meet in Hà Nội",
+  "title_vi": "Hội nghị cấp cao APEC tại Hà Nội",
+  "text_en": "Vietnam hosted APEC in 2006; leaders of the 21 member economies met in Hà Nội on 18–19 November 2006.",
+  "text_vi": "Việt Nam đăng cai APEC năm 2006; lãnh đạo 21 nền kinh tế thành viên họp tại Hà Nội ngày 18–19/11/2006.",
+  "raw_file": "apec2006.json",
+  "evidence": "Leaders from all the member countries met from 18 to 19 November 2006 in Hanoi.",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "wto_2007",
+  "date": "2007-01-11",
+  "category": "economy",
+  "title_en": "Vietnam joins the WTO",
+  "title_vi": "Việt Nam gia nhập WTO",
+  "text_en": "On 11 January 2007 Vietnam became the 150th member of the World Trade Organization.",
+  "text_vi": "Ngày 11/1/2007, Việt Nam trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO).",
+  "raw_file": "vietnam.json",
+  "evidence": "On 11 January 2007,  Vietnam became the 150th member of the WTO (World Trade Organization).",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "cptpp_2018",
+  "date": "2018-03-08",
+  "category": "economy",
+  "title_en": "CPTPP signed",
+  "title_vi": "Ký Hiệp định CPTPP",
+  "text_en": "On 8 March 2018 Vietnam and ten other Pacific countries signed the Comprehensive and Progressive Agreement for Trans-Pacific Partnership in Santiago, Chile.",
+  "text_vi": "Ngày 8/3/2018, Việt Nam cùng mười nước châu Á – Thái Bình Dương ký Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương (CPTPP) tại Santiago, Chile.",
+  "raw_file": "cptpp.json",
+  "evidence": "The agreement to establish the CPTPP was signed on 8 March 2018 by Australia, Brunei, Canada, Chile, Japan, Malaysia, Mexico, New Zealand, Peru, Singapore, and Vietnam, with the ceremony held in Santiago, Chile.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "evfta_2020",
+  "date": "2020-08-01",
+  "category": "economy",
+  "title_en": "EU–Vietnam free trade agreement in force",
+  "title_vi": "Hiệp định EVFTA có hiệu lực",
+  "text_en": "Passed by the National Assembly on 8 June 2020, the EU–Vietnam Free Trade Agreement entered into force on 1 August 2020.",
+  "text_vi": "Được Quốc hội thông qua ngày 8/6/2020, Hiệp định Thương mại tự do Việt Nam – EU (EVFTA) có hiệu lực từ 1/8/2020.",
+  "raw_file": "evfta.json",
+  "evidence": "The agreement was passed in Vietnam on June 8, 2020, in the Vietnamese National Assembly and entered into force on August 1 of that year.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ },
+ {
+  "id": "rcep_2020",
+  "date": "2020-11-15",
+  "category": "economy",
+  "title_en": "RCEP signed at a summit hosted by Vietnam",
+  "title_vi": "Ký Hiệp định RCEP tại hội nghị do Việt Nam chủ trì",
+  "text_en": "The Regional Comprehensive Economic Partnership was signed on 15 November 2020 at the virtual ASEAN Summit hosted by Vietnam; it took effect on 1 January 2022.",
+  "text_vi": "Hiệp định Đối tác Kinh tế Toàn diện Khu vực (RCEP) được ký ngày 15/11/2020 tại Hội nghị Cấp cao ASEAN trực tuyến do Việt Nam chủ trì; có hiệu lực từ 1/1/2022.",
+  "raw_file": "rcep.json",
+  "evidence": "The treaty was formally signed on 15 November 2020 at the virtual ASEAN Summit hosted by Vietnam.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ],
+  "also": [
+   {
+    "raw_file": "rcep.json",
+    "evidence": "For the first ten ratifying countries, the trade pact took effect on 1 January 2022."
+   }
+  ]
+ },
+ {
+  "id": "us_bta_2000",
+  "date": "2000-07",
+  "category": "economy",
+  "title_en": "Vietnam–US Bilateral Trade Agreement",
+  "title_vi": "Hiệp định Thương mại song phương Việt Nam – Hoa Kỳ",
+  "text_en": "In July 2000 Vietnam and the United States signed their first bilateral trade agreement, negotiated from 1995.",
+  "text_vi": "Tháng 7/2000, Việt Nam và Hoa Kỳ ký hiệp định thương mại song phương đầu tiên, được đàm phán từ năm 1995.",
+  "raw_file": "us_vn_trade.json",
+  "evidence": "The two governments signed the first bilateral trade agreement (BTA) on July 13, 2000.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ],
+  "also": [
+   {
+    "raw_file": "us_vn_trade.json",
+    "evidence": "The BTA was signed on 14 July 2000 with the presence and formal testimony of Bill Clinton who had just landed from Camp David."
+   }
+  ]
+ },
+ {
+  "id": "vkfta_2015",
+  "date": "2015",
+  "category": "economy",
+  "title_en": "Vietnam–Korea free trade agreement",
+  "title_vi": "Hiệp định thương mại tự do Việt Nam – Hàn Quốc",
+  "text_en": "The Vietnam–Korea Free Trade Agreement was signed and entered into force in 2015, one of Vietnam's first bilateral free trade agreements.",
+  "text_vi": "Hiệp định thương mại tự do Việt Nam – Hàn Quốc (VKFTA) được ký và có hiệu lực năm 2015, một trong những hiệp định thương mại tự do song phương đầu tiên của Việt Nam.",
+  "raw_file": "vkfta.json",
+  "evidence": "It was signed and officially entered into force in 2015, becoming one of Vietnam's first bilateral free trade agreements.",
+  "at": "nation",
+  "place": null,
+  "story": [
+   "doimoi"
+  ]
+ }
+]

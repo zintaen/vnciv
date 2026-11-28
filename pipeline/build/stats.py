@@ -36,7 +36,8 @@ YEARS = {"population": "2025", "urban": "2025", "area_km2": "2023-12-31", "labou
          "computer": "2025", "clean_water": "2025", "housing": "2024", "it_skills": "2025", "enterprises_pk": "2024"}
 STATE_YEARS = {**YEARS, "area_km2": "2024-12-31", "hdi": "2025", "fdi": "2025", "fdi_projects": "2025", "enterprises_pk": "2025-12-31",
                "doctors": "2025", "doctors_pk": "2025", "forest_cover": "2025-12-31", "road_deaths": "2025",
-               "pupils_per_teacher": "2025-09-30", "growth_9m2026": "9M2026", "industry_jobs_2026": "2026-10-01"}
+               "pupils_per_teacher": "2025-09-30", "growth_9m2026": "9M2026", "industry_jobs_2026": "2026-10-01",
+               "pci_2025": "2025"}
 
 
 def fx():
@@ -138,6 +139,7 @@ def build():
         "forest_cover": ("p34/forest_cover", pct, False),
         "road_deaths": ("p34/road_deaths_per_100k", float, False),
         "pupils_per_teacher": ("p34/pupils_per_teacher", float, False),
+        "pci_2025": ("p34/pci_2025", float, False),  # composite computed from VCCI's sub-indices and weights (pipeline/nso/pci2025.py)
         "growth_9m2026": ("p34_2026/grdp_growth_9M2026", idx, False),
         "industry_jobs_2026": ("p34_2026/industrial_employment_index_Oct2026", idx, False),
         # official 34-province values of ratio indicators (not sums of the former provinces)

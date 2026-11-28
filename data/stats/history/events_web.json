@@ -1,0 +1,18 @@
+[
+ {"id": "res_237_wards", "date": "2026-04-30", "category": "admin",
+  "title_en": "Ten Đồng Nai communes become wards", "title_vi": "Mười xã của Đồng Nai trở thành phường",
+  "text_en": "Resolution 237/NQ-UBTVQH16 of the National Assembly Standing Committee (adopted 14 April 2026, in force 30 April) made 10 Đồng Nai communes wards; Đồng Nai then had 95 commune-level units: 33 wards and 62 communes.",
+  "text_vi": "Nghị quyết 237/NQ-UBTVQH16 của Ủy ban Thường vụ Quốc hội (thông qua ngày 14/4/2026, hiệu lực từ 30/4/2026) thành lập 10 phường thuộc tỉnh Đồng Nai; sau đó Đồng Nai có 95 đơn vị hành chính cấp xã, gồm 33 phường và 62 xã.",
+  "raw_file": "chinhphu_res237_dong_nai.html",
+  "evidence": "Sau khi thành lập các phường, tỉnh Đồng Nai có 95 đơn vị hành chính cấp xã, gồm 33 phường và 62 xã. Nghị quyết này có hiệu lực thi hành từ ngày 30/4/2026.",
+  "also": [{"raw_file": "chinhphu_res237_dong_nai.html", "evidence": "phiên họp thứ Nhất thông qua ngày 14 tháng 4 năm 2026"}],
+  "at": "dong_nai.json", "place": "Đồng Nai", "story": ["p34"]},
+ {"id": "res_388_wards", "date": "2026-09-20", "category": "admin",
+  "title_en": "Twelve Bắc Ninh communes become wards", "title_vi": "Mười hai xã của Bắc Ninh trở thành phường",
+  "text_en": "Resolution 388/NQ-UBTVQH16 made 12 Bắc Ninh communes wards from 20 September 2026; Bắc Ninh then had 99 commune-level units: 45 wards and 54 communes.",
+  "text_vi": "Nghị quyết 388/NQ-UBTVQH16 thành lập 12 phường thuộc Bắc Ninh từ ngày 20/9/2026; sau đó Bắc Ninh có 99 đơn vị hành chính cấp xã, gồm 45 phường và 54 xã.",
+  "raw_file": "dbnd_res388_bac_ninh.html",
+  "evidence": "Following the establishment of the new wards, Bac Ninh will have 99 commune-level administrative units, comprising 45 wards and 54 communes. The resolution will take effect on September 20 this year.",
+  "also": [{"raw_file": "dbnd_res388_bac_ninh.html", "evidence": "Twelve wards established in Bac Ninh VNA • 18/08/2026"}],
+  "at": "bac_ninh.json", "place": "Bắc Ninh", "story": ["bacninh", "p34"]}
+]

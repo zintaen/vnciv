@@ -1,0 +1,585 @@
+[
+ {
+  "id": "rail_dong_dang_1902",
+  "date": "1902",
+  "category": "infra",
+  "title_en": "Railway reaches Đồng Đăng",
+  "title_vi": "Đường sắt tới Đồng Đăng",
+  "text_en": "The line from Hà Nội was extended to the Chinese border at Đồng Đăng by 1902.",
+  "text_vi": "Đến năm 1902, tuyến đường sắt từ Hà Nội được kéo dài tới biên giới Trung Quốc ở Đồng Đăng.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "Work began swiftly thereafter, with the Phu Lang Thuong—Lạng Sơn line being upgraded and extended from Hanoi to the Chinese border at Dong Dang by 1902, and the first section of the Yunnan line between Hanoi and Haiphong opening in the same year.",
+  "at": "hanoi.json",
+  "place": "Hà Nội (đầu tuyến)"
+ },
+ {
+  "id": "rail_hai_phong_1902",
+  "date": "1902",
+  "category": "infra",
+  "title_en": "Hà Nội–Hải Phòng railway opens",
+  "title_vi": "Đường sắt Hà Nội – Hải Phòng khai trương",
+  "text_en": "The first section of the Yunnan line, between Hà Nội and Hải Phòng, opened in 1902.",
+  "text_vi": "Năm 1902, đoạn đầu tiên của tuyến đường sắt Vân Nam, từ Hà Nội đến Hải Phòng, được đưa vào khai thác.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "Work began swiftly thereafter, with the Phu Lang Thuong—Lạng Sơn line being upgraded and extended from Hanoi to the Chinese border at Dong Dang by 1902, and the first section of the Yunnan line between Hanoi and Haiphong opening in the same year.",
+  "at": "hai_phong.json",
+  "place": "Hải Phòng"
+ },
+ {
+  "id": "rail_hue_tourane_1906",
+  "date": "1906",
+  "category": "infra",
+  "title_en": "Railway Huế–Đà Nẵng opens",
+  "title_vi": "Đường sắt Huế – Đà Nẵng khai trương",
+  "text_en": "The Huế–Tourane (Đà Nẵng) section of the North–South railway opened in 1906.",
+  "text_vi": "Năm 1906, đoạn Huế – Tourane (Đà Nẵng) của đường sắt Bắc – Nam được đưa vào khai thác.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "The Huế–Tourane section opened in 1906, and the Huế–Dong Ha line opened in 1908.",
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "story": [
+   "railway"
+  ]
+ },
+ {
+  "id": "rail_saigon_tanlinh_1908",
+  "date": "1908",
+  "category": "infra",
+  "title_en": "Railway Sài Gòn–Tân Linh opens",
+  "title_vi": "Đường sắt Sài Gòn – Tân Linh khai trương",
+  "text_en": "The Saigon–Tân Linh portion of the North–South railway opened in 1908.",
+  "text_vi": "Năm 1908, đoạn Sài Gòn – Tân Linh của đường sắt Bắc – Nam được đưa vào khai thác.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "Next to be built was the Nha Trang–Saigon section from 1905 to 1913; the Saigon–Tan Linh portion was opened in 1908, followed by the Tan Linh–Nha Trang portion in 1913.",
+  "at": "hcmc.json",
+  "place": "Sài Gòn (đầu tuyến)",
+  "story": [
+   "railway"
+  ]
+ },
+ {
+  "id": "rail_north_south_1936",
+  "date": "1936-10-02",
+  "category": "infra",
+  "title_en": "North–South railway completed",
+  "title_vi": "Đường sắt Bắc – Nam hoàn thành",
+  "text_en": "On 2 October 1936 the whole 1,726 km Hà Nội–Saigon line was formally put into full operation.",
+  "text_vi": "Ngày 2/10/1936, toàn tuyến đường sắt Hà Nội – Sài Gòn dài 1.726 km chính thức được đưa vào khai thác.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "On 2 October 1936, the entire 1,726 km (1,072 mi) Hanoi–Saigon link was formally put into full operation.",
+  "at": "hanoi.json",
+  "place": "Hà Nội (đầu tuyến)",
+  "story": [
+   "railway"
+  ]
+ },
+ {
+  "id": "rail_reunification_1976",
+  "date": "1976-12-31",
+  "category": "infra",
+  "title_en": "North–South railway back in service",
+  "title_vi": "Đường sắt Bắc – Nam hoạt động trở lại",
+  "text_en": "Restored after the war, the North–South line returned to service on 31 December 1976.",
+  "text_vi": "Sau chiến tranh, đường sắt Bắc – Nam được khôi phục và hoạt động trở lại ngày 31/12/1976.",
+  "raw_file": "rail_nsr.json",
+  "evidence": "Heavily damaged, the war-torn North–South railway line was nevertheless restored and returned to service on 31 December 1976, promoted as a symbol of Vietnamese unity.",
+  "at": "hanoi.json",
+  "place": "Hà Nội (đầu tuyến)",
+  "story": [
+   "railway"
+  ]
+ },
+ {
+  "id": "long_bien_bridge",
+  "date": "1903",
+  "category": "infra",
+  "title_en": "Long Biên Bridge opens",
+  "title_vi": "Cầu Long Biên khánh thành",
+  "text_en": "Built in 1899–1902 over the Red River, the bridge opened in 1903.",
+  "text_vi": "Cầu Long Biên bắc qua sông Hồng, xây dựng từ năm 1899 đến 1902, được đưa vào sử dụng năm 1903.",
+  "raw_file": "long_bien.json",
+  "evidence": "The bridge was built in 1899–1902 by the architects Daydé & Pillé of Paris, and opened in 1903.",
+  "at": "long_bien.json",
+  "place": "Cầu Long Biên, Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "thang_long_bridge",
+  "date": "1985-05-09",
+  "category": "infra",
+  "title_en": "Thăng Long Bridge inaugurated",
+  "title_vi": "Khánh thành cầu Thăng Long",
+  "text_en": "The two-level Red River crossing was completed and inaugurated on 9 May 1985.",
+  "text_vi": "Cây cầu hai tầng bắc qua sông Hồng hoàn thành và khánh thành ngày 9/5/1985.",
+  "raw_file": "thang_long_br.json",
+  "evidence": "The bridge was completed and inaugurated on 9 May 1985, after nearly 11 years of construction.",
+  "at": "thang_long_br.json",
+  "place": "Cầu Thăng Long, Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "my_thuan_bridge",
+  "date": "2000-05",
+  "category": "infra",
+  "title_en": "Mỹ Thuận Bridge opens",
+  "title_vi": "Cầu Mỹ Thuận thông xe",
+  "text_en": "The first bridge over the Mekong's Tiền River was officially opened in May 2000.",
+  "text_vi": "Cầu Mỹ Thuận bắc qua sông Tiền chính thức thông xe vào tháng 5/2000.",
+  "raw_file": "my_thuan.json",
+  "evidence": "Construction began in the late 1990s and the bridge was officially opened in May 2000.",
+  "at": "p_vinh_long.json",
+  "place": "Cầu Mỹ Thuận (gần Vĩnh Long)",
+  "story": [
+   "mekong"
+  ]
+ },
+ {
+  "id": "bai_chay_bridge",
+  "date": "2006-12-02",
+  "category": "infra",
+  "title_en": "Bãi Cháy Bridge opens",
+  "title_vi": "Cầu Bãi Cháy thông xe",
+  "text_en": "The bridge in Hạ Long was completed and opened for traffic on 2 December 2006.",
+  "text_vi": "Cầu Bãi Cháy ở Hạ Long hoàn thành và thông xe ngày 2/12/2006.",
+  "raw_file": "bai_chay.json",
+  "evidence": "The bridge was completed and opened for traffic on December 2, 2006.",
+  "at": "bai_chay.json",
+  "place": "Cầu Bãi Cháy, Hạ Long"
+ },
+ {
+  "id": "rach_mieu_bridge",
+  "date": "2009-01",
+  "category": "infra",
+  "title_en": "Rạch Miễu Bridge inaugurated",
+  "title_vi": "Khánh thành cầu Rạch Miễu",
+  "text_en": "Begun in 2002, the bridge was completed and inaugurated in January 2009.",
+  "text_vi": "Khởi công năm 2002, cầu Rạch Miễu hoàn thành và khánh thành vào tháng 1/2009.",
+  "raw_file": "rach_mieu.json",
+  "evidence": "Construction began on 30 April 2002 and was completed in January 2009, when the bridge was inaugurated.",
+  "at": "rach_mieu.json",
+  "place": "Cầu Rạch Miễu",
+  "story": [
+   "mekong"
+  ]
+ },
+ {
+  "id": "can_tho_bridge",
+  "date": "2010-04-24",
+  "category": "infra",
+  "title_en": "Cần Thơ Bridge opens",
+  "title_vi": "Cầu Cần Thơ thông xe",
+  "text_en": "The bridge over the Hậu River was inaugurated on 24 April 2010.",
+  "text_vi": "Cầu Cần Thơ bắc qua sông Hậu được khánh thành ngày 24/4/2010.",
+  "raw_file": "can_tho_br.json",
+  "evidence": "The bridge was inaugurated on April 24, 2010.",
+  "at": "can_tho_br.json",
+  "place": "Cầu Cần Thơ",
+  "story": [
+   "mekong"
+  ]
+ },
+ {
+  "id": "nhat_tan_bridge",
+  "date": "2015-01-04",
+  "category": "infra",
+  "title_en": "Nhật Tân Bridge opens",
+  "title_vi": "Cầu Nhật Tân khánh thành",
+  "text_en": "The cable-stayed bridge over the Red River in Hà Nội was inaugurated on 4 January 2015.",
+  "text_vi": "Cầu dây văng Nhật Tân bắc qua sông Hồng ở Hà Nội được khánh thành ngày 4/1/2015.",
+  "raw_file": "nhat_tan.json",
+  "evidence": "The Nhật Tân Bridge (or Vietnam–Japan Friendship Bridge) is a cable-stayed bridge crossing the Red River in Hanoi, inaugurated on 4 January 2015.",
+  "at": "nhat_tan.json",
+  "place": "Cầu Nhật Tân, Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "vam_cong_bridge",
+  "date": "2019-05",
+  "category": "infra",
+  "title_en": "Vàm Cống Bridge opens",
+  "title_vi": "Cầu Vàm Cống thông xe",
+  "text_en": "All six lanes of the bridge over the Hậu River, replacing a ferry, opened in May 2019.",
+  "text_vi": "Cả sáu làn xe của cầu Vàm Cống bắc qua sông Hậu, thay cho bến phà, được thông xe vào tháng 5/2019.",
+  "raw_file": "vam_cong.json",
+  "evidence": "All six lanes of the bridges were open to the public in May 2019.",
+  "at": "can_tho.json",
+  "place": "Cầu Vàm Cống (gần Cần Thơ)",
+  "story": [
+   "mekong"
+  ]
+ },
+ {
+  "id": "my_thuan_2_bridge",
+  "date": "2023",
+  "category": "infra",
+  "title_en": "Mỹ Thuận 2 Bridge inaugurated",
+  "title_vi": "Khánh thành cầu Mỹ Thuận 2",
+  "text_en": "At the end of 2023 a second bridge opened 350 m upstream, linking two expressways.",
+  "text_vi": "Cuối năm 2023, cầu Mỹ Thuận 2 cách cầu cũ 350 m về thượng nguồn được khánh thành, nối hai tuyến cao tốc.",
+  "raw_file": "my_thuan.json",
+  "evidence": "At the end of 2023, Vietnam inaugurated the Mỹ Thuận 2 Bridge, located 350 meters upstream from the existing Mỹ Thuận Bridge, connecting the two expressways Trung Lương – Mỹ Thuận and Mỹ Thuận – Cần Thơ with a total investment for the bridge and its approach roads of 5,003 billion VND.",
+  "at": "p_vinh_long.json",
+  "place": "Cầu Mỹ Thuận 2 (gần Vĩnh Long)",
+  "story": [
+   "expressway",
+   "mekong"
+  ]
+ },
+ {
+  "id": "hai_van_tunnel",
+  "date": "2005-06-05",
+  "category": "infra",
+  "title_en": "Hải Vân Tunnel opens",
+  "title_vi": "Hầm Hải Vân thông xe",
+  "text_en": "The road tunnel under the Hải Vân Pass officially opened on 5 June 2005.",
+  "text_vi": "Hầm đường bộ xuyên đèo Hải Vân chính thức thông xe ngày 5/6/2005.",
+  "raw_file": "hai_van_tunnel.json",
+  "evidence": "The tunnel officially opened on June 5, 2005.",
+  "at": "hai_van_tunnel.json",
+  "place": "Hầm Hải Vân"
+ },
+ {
+  "id": "thu_thiem_tunnel",
+  "date": "2011-11-20",
+  "category": "infra",
+  "title_en": "Thủ Thiêm Tunnel opens",
+  "title_vi": "Hầm Thủ Thiêm thông xe",
+  "text_en": "The underwater road tunnel under the Saigon River opened on 20 November 2011.",
+  "text_vi": "Hầm dìm Thủ Thiêm dưới sông Sài Gòn thông xe ngày 20/11/2011.",
+  "raw_file": "thu_thiem_tunnel.json",
+  "evidence": "The Saigon River Tunnel, better known colloquially as the Thủ Thiêm Tunnel, is an underwater tunnel that opened on November 20, 2011.",
+  "at": "thu_thiem_tunnel.json",
+  "place": "Hầm Thủ Thiêm, TP. Hồ Chí Minh",
+  "story": [
+   "hcmc"
+  ]
+ },
+ {
+  "id": "rail_yunnan_1910",
+  "date": "1910-04-01",
+  "category": "infra",
+  "title_en": "Hải Phòng – Yunnan railway opens",
+  "title_vi": "Đường sắt Hải Phòng – Vân Nam khai thác",
+  "text_en": "The 855 km metre-gauge railway from Hải Phòng to Kunming in Yunnan, built by France from 1904 to 1910, was put into use on 1 April 1910.",
+  "text_vi": "Tuyến đường sắt khổ mét dài 855 km từ Hải Phòng đến Côn Minh (Vân Nam), do Pháp xây từ 1904 đến 1910, đưa vào khai thác ngày 1/4/1910.",
+  "raw_file": "rail_kunming.json",
+  "evidence": "At a cost of 95 million francs (€362 million), the railway was among the most ambitious colonial projects undertaken by France, and was put into use on 1 April 1910.",
+  "at": "hai_phong.json",
+  "place": "Hải Phòng",
+  "story": [
+   "railway"
+  ],
+  "also": [
+   {
+    "raw_file": "rail_kunming.json",
+    "evidence": "Vietnamese: tuyến đường sắt Hải Phòng – Vân Nam /  綫塘鐵海防－雲南; French: Chemins de Fer de L'Indo-Chine et du Yunnan, \"Indo-China–Yunnan Railroad\") is an 855 km (531 mi) railway built by France from 1904 to 1910, connecting Haiphong, Vietnam, with Kunming, Yunnan province, China."
+   }
+  ]
+ },
+ {
+  "id": "noi_bai_1978",
+  "date": "1978-01-02",
+  "category": "infra",
+  "title_en": "Nội Bài airport opens",
+  "title_vi": "Sân bay Nội Bài khai trương",
+  "text_en": "Nội Bài airport, south of the Phúc Yên air base, opened on 2 January 1978.",
+  "text_vi": "Sân bay Nội Bài, phía nam căn cứ không quân Phúc Yên, khai trương ngày 2/1/1978.",
+  "raw_file": "noi_bai.json",
+  "evidence": "The airport was developed immediately south of the Phúc Yên Air Base and opened on 2 January 1978.",
+  "at": "noi_bai.json",
+  "place": "Nội Bài",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "hoa_binh_dam_1994",
+  "date": "1994-12",
+  "category": "infra",
+  "title_en": "Hòa Bình Dam completed",
+  "title_vi": "Thủy điện Hòa Bình hoàn thành",
+  "text_en": "Built with Soviet aid from 6 November 1979, the Hòa Bình rockfill dam was completed in December 1994; at first it supplied 30–50% of Vietnam's electricity.",
+  "text_vi": "Xây dựng với sự giúp đỡ của Liên Xô từ 6/11/1979, đập thủy điện Hòa Bình hoàn thành tháng 12/1994; khi đó cung cấp 30–50% sản lượng điện của Việt Nam.",
+  "raw_file": "hoa_binh_dam.json",
+  "evidence": "Financed and built with Soviet Union and Russian money and experts, construction on the rockfill dam began on November 6, 1979, and was completed in December 1994.",
+  "at": "hoa_binh_dam.json",
+  "place": "Hòa Bình",
+  "also": [
+   {
+    "raw_file": "hoa_binh_dam.json",
+    "evidence": "When the dam was first completed, it fulfilled between 30% and 50% of Vietnam's electricity output."
+   }
+  ]
+ },
+ {
+  "id": "phap_van_2002",
+  "date": "2002-01-01",
+  "category": "infra",
+  "title_en": "Pháp Vân – Cầu Giẽ, the first expressway section",
+  "title_vi": "Pháp Vân – Cầu Giẽ, đoạn cao tốc đầu tiên",
+  "text_en": "Begun on 4 September 1998, the Pháp Vân – Cầu Giẽ road south of Hà Nội finished its first phase on 1 January 2002, at first run as a pre-expressway.",
+  "text_vi": "Khởi công ngày 4/9/1998, đường Pháp Vân – Cầu Giẽ phía nam Hà Nội hoàn thành giai đoạn 1 ngày 1/1/2002, ban đầu khai thác như đường tiền cao tốc.",
+  "raw_file": "ct_phapvan.json",
+  "evidence": "Công việc xây dựng đường Pháp Vân – Cầu Giẽ được khởi công vào ngày 4 tháng 9 năm 1998 và hoàn thành giai đoạn 1 vào ngày 1 tháng 1 năm 2002, trong giai đoạn đầu chỉ khai thác giai đoạn tiền cao tốc (vì xe máy và xe thô sơ được đi vào).",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "expressway"
+  ]
+ },
+ {
+  "id": "son_la_dam_2012",
+  "date": "2012-12-20",
+  "category": "infra",
+  "title_en": "Sơn La Dam completed",
+  "title_vi": "Thủy điện Sơn La hoàn thành",
+  "text_en": "The Sơn La hydropower dam went into operation on 7 January 2011 and was completed on 20 December 2012.",
+  "text_vi": "Thủy điện Sơn La vận hành từ 7/1/2011 và hoàn thành ngày 20/12/2012.",
+  "raw_file": "son_la_dam.json",
+  "evidence": "The project was completed on 20 December 2012.",
+  "at": "son_la_dam.json",
+  "place": "Sơn La",
+  "also": [
+   {
+    "raw_file": "son_la_dam.json",
+    "evidence": "It was officially put into operation on 7 January 2011."
+   }
+  ]
+ },
+ {
+  "id": "noi_bai_t2_2015",
+  "date": "2015-01-04",
+  "category": "infra",
+  "title_en": "Nội Bài international terminal opens",
+  "title_vi": "Nhà ga quốc tế T2 Nội Bài khánh thành",
+  "text_en": "Nội Bài's new international terminal was inaugurated on 4 January 2015, with a freeway to central Hà Nội over the Nhật Tân Bridge.",
+  "text_vi": "Nhà ga quốc tế mới của Nội Bài khánh thành ngày 4/1/2015, cùng tuyến đường nối với trung tâm Hà Nội qua cầu Nhật Tân.",
+  "raw_file": "noi_bai.json",
+  "evidence": "The new international terminal was inaugurated on 4 January 2015 together with a new freeway connecting the airport to downtown Hanoi via the Nhật Tân Bridge.",
+  "at": "noi_bai.json",
+  "place": "Nội Bài",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "metro_hn2a_2021",
+  "date": "2021-11-06",
+  "category": "infra",
+  "title_en": "Hà Nội metro Line 2A, Vietnam's first metro, opens",
+  "title_vi": "Tuyến metro 2A Hà Nội, tuyến đường sắt đô thị đầu tiên, khai thác",
+  "text_en": "Line 2A (Cát Linh – Hà Đông), 13.1 km, the first rapid transit line to run in Vietnam, opened on 6 November 2021.",
+  "text_vi": "Tuyến 2A (Cát Linh – Hà Đông) dài 13,1 km, tuyến đường sắt đô thị đầu tiên vận hành ở Việt Nam, khai thác từ 6/11/2021.",
+  "raw_file": "hn_metro2a.json",
+  "evidence": "It is the first rapid transit line to operate in Vietnam and was opened for service on 6 November 2021.",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "metro_hn3_2024",
+  "date": "2024-08-08",
+  "category": "infra",
+  "title_en": "Hà Nội metro Line 3 elevated section opens",
+  "title_vi": "Đoạn trên cao tuyến metro số 3 Hà Nội khai thác",
+  "text_en": "The 8.5 km elevated section of Hà Nội metro Line 3, from Nhổn to Hà Nội station, opened on 8 August 2024.",
+  "text_vi": "Đoạn trên cao dài 8,5 km của tuyến metro số 3 Hà Nội, từ Nhổn đến ga Hà Nội, khai thác từ 8/8/2024.",
+  "raw_file": "hn_metro3.json",
+  "evidence": "The 8.5 kilometres elevated section opened on 8 August 2024 betweem Nhon and Hanol station.",
+  "at": "hanoi.json",
+  "place": "Hà Nội",
+  "story": [
+   "thanglong"
+  ]
+ },
+ {
+  "id": "metro_hcm1_2024",
+  "date": "2024-12-22",
+  "category": "infra",
+  "title_en": "TP. Hồ Chí Minh metro Line 1 opens",
+  "title_vi": "Tuyến metro số 1 TP. Hồ Chí Minh khai thác",
+  "text_en": "Line 1 of the Hồ Chí Minh City metro (Bến Thành – Suối Tiên), begun in 2012, opened for service on 22 December 2024.",
+  "text_vi": "Tuyến metro số 1 TP. Hồ Chí Minh (Bến Thành – Suối Tiên), khởi công năm 2012, khai thác từ 22/12/2024.",
+  "raw_file": "hcm_metro1.json",
+  "evidence": "The line was officially opened for service on 22 December 2024.",
+  "at": "hcmc.json",
+  "place": "TP. Hồ Chí Minh",
+  "story": [
+   "hcmc"
+  ],
+  "also": [
+   {
+    "raw_file": "hcm_metro1.json",
+    "evidence": "Construction began in 2012, with an initial completion date set for 2018."
+   }
+  ]
+ },
+ {
+  "id": "tsn_t3_2025",
+  "date": "2025-04",
+  "category": "infra",
+  "title_en": "Tân Sơn Nhất Terminal 3",
+  "title_vi": "Nhà ga T3 Tân Sơn Nhất",
+  "text_en": "With Terminal 3 open, Tân Sơn Nhất airport's capacity was about 50 million passengers a year as of April 2025.",
+  "text_vi": "Với nhà ga T3, công suất sân bay Tân Sơn Nhất vào khoảng 50 triệu hành khách mỗi năm (tháng 4/2025).",
+  "raw_file": "tan_son_nhat.json",
+  "evidence": "As of April 2025, it has a total capacity of approximately 50 million passengers following the opening of Terminal 3.",
+  "at": "tan_son_nhat.json",
+  "place": "Tân Sơn Nhất",
+  "story": [
+   "hcmc"
+  ]
+ },
+ {
+  "id": "long_thanh_2025",
+  "date": "2025-12-19",
+  "category": "infra",
+  "title_en": "Long Thành airport's technical opening",
+  "title_vi": "Sân bay Long Thành khai thác kỹ thuật",
+  "text_en": "On 19 December 2025 Long Thành International Airport, east of TP. Hồ Chí Minh, had a ceremonial technical opening with its first flights; full commercial operation is scheduled for December 2026.",
+  "text_vi": "Ngày 19/12/2025, sân bay quốc tế Long Thành, phía đông TP. Hồ Chí Minh, khai thác kỹ thuật với những chuyến bay đầu tiên; khai thác thương mại đầy đủ dự kiến từ tháng 12/2026.",
+  "raw_file": "long_thanh.json",
+  "evidence": "On 19 December 2025, the airport was inaugurated by the Airports Corporation of Vietnam in a ceremonial \"technical opening.\"",
+  "at": "long_thanh.json",
+  "place": "Long Thành",
+  "story": [
+   "hcmc"
+  ],
+  "also": [
+   {
+    "raw_file": "long_thanh.json",
+    "evidence": "While these flights carried government officials and technical crews, full commercial operations are scheduled to commence in December 2026."
+   }
+  ]
+ },
+ {
+  "id": "ct_hcm_tl_2010",
+  "date": "2010-02-03",
+  "category": "infra",
+  "title_en": "TP. Hồ Chí Minh – Trung Lương expressway opens",
+  "title_vi": "Cao tốc TP. Hồ Chí Minh – Trung Lương thông xe",
+  "text_en": "The TP. Hồ Chí Minh – Trung Lương expressway opened in stages from 25 August 2009; the last section was opened on 3 February 2010, ahead of Tết.",
+  "text_vi": "Cao tốc TP. Hồ Chí Minh – Trung Lương thông xe từng đoạn từ 25/8/2009; đoạn cuối thông xe kỹ thuật ngày 3/2/2010, trước Tết Canh Dần.",
+  "raw_file": "ct_hcm_tl.json",
+  "evidence": "đến ngày 3 tháng 2 năm 2010, thì thông xe kỹ thuật đoạn còn lại từ nút giao Bến Lức đến nút giao Thân Cửu Nghĩa (Đồng Tháp) để giải quyết tình trạng quá tải trên Quốc lộ 1 trong dịp Tết Canh Dần",
+  "at": "hcmc.json",
+  "place": "TP. Hồ Chí Minh",
+  "story": [
+   "expressway",
+   "mekong"
+  ]
+ },
+ {
+  "id": "ct_noibai_laocai_2014",
+  "date": "2014-09-21",
+  "category": "infra",
+  "title_en": "Nội Bài – Lào Cai expressway opens",
+  "title_vi": "Cao tốc Nội Bài – Lào Cai thông xe",
+  "text_en": "Begun in 2008, the Nội Bài – Lào Cai expressway was opened along its whole length on 21 September 2014.",
+  "text_vi": "Khởi công năm 2008, cao tốc Nội Bài – Lào Cai thông xe toàn tuyến ngày 21/9/2014.",
+  "raw_file": "ct_noibai_laocai.json",
+  "evidence": "Dự án này khởi công từ quý III năm 2008 và hoàn thành vào ngày 21 tháng 9 năm 2014; chủ đầu tư là Tổng Công ty đầu tư phát triển đường cao tốc Việt Nam (VEC).",
+  "at": "p_lao_cai.json",
+  "place": "Lào Cai",
+  "story": [
+   "expressway"
+  ]
+ },
+ {
+  "id": "ct_hcm_lt_dg_2015",
+  "date": "2015-02-08",
+  "category": "infra",
+  "title_en": "TP. Hồ Chí Minh – Long Thành – Dầu Giây expressway opens",
+  "title_vi": "Cao tốc TP. Hồ Chí Minh – Long Thành – Dầu Giây thông xe",
+  "text_en": "The whole TP. Hồ Chí Minh – Long Thành – Dầu Giây expressway opened on 8 February 2015, when the 31 km Long Thành – Dầu Giây section was finished.",
+  "text_vi": "Toàn tuyến cao tốc TP. Hồ Chí Minh – Long Thành – Dầu Giây thông xe ngày 8/2/2015, khi đoạn Long Thành – Dầu Giây dài 31 km hoàn thành.",
+  "raw_file": "ct_hcm_lt_dg.json",
+  "evidence": "Toàn bộ đường cao tốc thông xe vào ngày 8 tháng 2 năm 2015, khi đoạn Long Thành – Dầu Giây dài 31 km hoàn tất thi công.",
+  "at": "dong_nai.json",
+  "place": "Đồng Nai",
+  "story": [
+   "expressway",
+   "hcmc"
+  ]
+ },
+ {
+  "id": "ct_hn_hp_2015",
+  "date": "2015-12-05",
+  "category": "infra",
+  "title_en": "Hà Nội – Hải Phòng expressway opens",
+  "title_vi": "Cao tốc Hà Nội – Hải Phòng thông xe",
+  "text_en": "The whole Hà Nội – Hải Phòng expressway was opened to traffic on 5 December 2015.",
+  "text_vi": "Ngày 5/12/2015, toàn tuyến cao tốc Hà Nội – Hải Phòng thông xe.",
+  "raw_file": "ct_hn_hp.json",
+  "evidence": "Ngày 5 tháng 12 năm 2015, toàn bộ tuyến đường cao tốc Hà Nội – Hải Phòng đã được thông xe toàn tuyến.",
+  "at": "hai_phong.json",
+  "place": "Hải Phòng",
+  "story": [
+   "expressway"
+  ]
+ },
+ {
+  "id": "ct_dn_qng_2018",
+  "date": "2018-09-02",
+  "category": "infra",
+  "title_en": "Đà Nẵng – Quảng Ngãi expressway opens",
+  "title_vi": "Cao tốc Đà Nẵng – Quảng Ngãi thông xe",
+  "text_en": "Begun in May 2013, the Đà Nẵng – Quảng Ngãi expressway had its technical opening along the whole route on 2 September 2018.",
+  "text_vi": "Khởi công tháng 5/2013, cao tốc Đà Nẵng – Quảng Ngãi thông xe kỹ thuật toàn tuyến ngày 2/9/2018.",
+  "raw_file": "ct_dn_qng.json",
+  "evidence": "Ngày 2 tháng 9 năm 2018, toàn tuyến đường cao tốc Đà Nẵng – Quảng Ngãi được thông xe kĩ thuật.",
+  "at": "da_nang.json",
+  "place": "Đà Nẵng",
+  "story": [
+   "expressway"
+  ]
+ },
+ {
+  "id": "ct_mt_ct_2023",
+  "date": "2023-12-24",
+  "category": "infra",
+  "title_en": "Mỹ Thuận – Cần Thơ expressway opens",
+  "title_vi": "Cao tốc Mỹ Thuận – Cần Thơ thông xe",
+  "text_en": "Begun in January 2021, the Mỹ Thuận – Cần Thơ expressway opened along its whole length on 24 December 2023, with the Mỹ Thuận 2 Bridge.",
+  "text_vi": "Khởi công tháng 1/2021, cao tốc Mỹ Thuận – Cần Thơ đưa vào sử dụng toàn tuyến ngày 24/12/2023, cùng với cầu Mỹ Thuận 2.",
+  "raw_file": "ct_mt_ct.json",
+  "evidence": "Công trình được khởi công vào tháng 1 năm 2021, chính thức đưa vào sử dụng toàn tuyến vào ngày 24 tháng 12 năm 2023 cùng với cầu Mỹ Thuận 2.",
+  "at": "can_tho.json",
+  "place": "Cần Thơ",
+  "story": [
+   "expressway",
+   "mekong"
+  ]
+ },
+ {
+  "id": "ct_ca_mau_2026",
+  "date": "2026-01-19",
+  "category": "infra",
+  "title_en": "The eastern North–South expressway reaches Cà Mau",
+  "title_vi": "Cao tốc Bắc – Nam phía Đông tới Cà Mau",
+  "text_en": "The Cần Thơ – Hậu Giang section of the eastern North–South expressway opened on 19 December 2025 and the Hậu Giang – Cà Mau section on 19 January 2026.",
+  "text_vi": "Đoạn Cần Thơ – Hậu Giang của cao tốc Bắc – Nam phía Đông thông xe ngày 19/12/2025, đoạn Hậu Giang – Cà Mau ngày 19/1/2026.",
+  "raw_file": "ct_bacnam.json",
+  "evidence": "Dự án đã được khởi công xây dựng vào ngày 1 tháng 1 năm 2023 và chính thức khánh thành, thông xe phân đoạn Cần Thơ – Hậu Giang vào ngày 19 tháng 12 năm 2025 và đoạn Hậu Giang - Cà Mau vào ngày 19 tháng 1 năm 2026.",
+  "at": "p_ca_mau.json",
+  "place": "Cà Mau",
+  "story": [
+   "expressway",
+   "mekong"
+  ],
+  "also": [
+   {
+    "raw_file": "ct_bacnam.json",
+    "evidence": "Đường cao tốc Bắc – Nam phía Đông có tổng chiều dài 2.158 km, với điểm đầu là cửa khẩu Hữu Nghị (Lạng Sơn) và điểm cuối tại xã Đất Mũi nối trực tiếp với cầu vượt biển Đất Mũi – Hòn Khoai thuộc tỉnh Cà Mau."
+   }
+  ]
+ }
+]

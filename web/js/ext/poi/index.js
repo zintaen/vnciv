@@ -2,7 +2,7 @@
 // worship, special national relics, beaches, protected areas, urban rail and major bridges. Each is a static layer
 // with a switch in the Layers menu. Glyphs are small canvas medallions drawn in screen space, zoom-gated per kind and
 // decluttered on a screen grid (first in priority order wins a slot), so a few thousand points cost about a millisecond.
-// relics.json (small) loads at start because relics are on by default; poi.json loads when any other switch turns on.
+// relics.json (small) loads at start (relics are off by default since the "gọn hơn" set, but stay cheap); poi.json loads when any other switch turns on.
 import { t, lang } from "../../i18n.js";
 import { esc, int, fixed } from "../../format.js";
 
@@ -19,7 +19,7 @@ const RELIGION = {
 // One entry per switch. kind = poi.json points key (or "metro" / "relic"); minRpx = zoom (hex radius in css px)
 // from which glyphs show; style(row) → {color, glyph, prio (lower = drawn later / first to give way), minRpx?}.
 const KINDS = [
-  { id: "relics", kind: "relic", group: "culture", label: "Special national relics", icon: "w-landmark", def: true, minRpx: 0, z: 64,
+  { id: "relics", kind: "relic", group: "culture", label: "Special national relics", icon: "w-landmark", def: false, minRpx: 0, z: 64,
     title: "The special national relics (di tích quốc gia đặc biệt) ranked by the Prime Minister, from the Vietnamese Wikipedia list",
     style: () => ({ color: "#8c1c13", glyph: "star", ring: "#f2c94c" }) },
   { id: "worship", kind: "worship", group: "culture", label: "Places of worship", icon: "l-faith", def: false, minRpx: 9, z: 62,

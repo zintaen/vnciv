@@ -1,4 +1,5 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2018,90.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 An Giang,63,2019,92.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 An Giang,63,2020,96.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 An Giang,63,2021,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -6,6 +7,7 @@ An Giang,63,2022,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads
 An Giang,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 An Giang,63,2024,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 An Giang,63,2025,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bà Rịa - Vũng Tàu,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bà Rịa - Vũng Tàu,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bà Rịa - Vũng Tàu,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bà Rịa - Vũng Tàu,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -13,6 +15,7 @@ Bà Rịa - Vũng Tàu,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-
 Bà Rịa - Vũng Tàu,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bà Rịa - Vũng Tàu,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bà Rịa - Vũng Tàu,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Dương,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bình Dương,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bình Dương,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Dương,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -20,6 +23,7 @@ Bình Dương,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/u
 Bình Dương,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Dương,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Dương,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Phước,63,2018,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bình Phước,63,2019,95.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bình Phước,63,2020,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Phước,63,2021,97.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -27,6 +31,7 @@ Bình Phước,63,2022,97.9,% of population,"https://www.nso.gov.vn/wp-content/u
 Bình Phước,63,2023,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Phước,63,2024,97.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Phước,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Thuận,63,2018,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bình Thuận,63,2019,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bình Thuận,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Thuận,63,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -34,6 +39,7 @@ Bình Thuận,63,2022,98.3,% of population,"https://www.nso.gov.vn/wp-content/up
 Bình Thuận,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Thuận,63,2024,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Thuận,63,2025,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bình Định,63,2018,97.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bình Định,63,2019,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bình Định,63,2020,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Định,63,2021,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -41,6 +47,7 @@ Bình Định,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/up
 Bình Định,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Định,63,2024,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bình Định,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bạc Liêu,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bạc Liêu,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bạc Liêu,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bạc Liêu,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -48,6 +55,7 @@ Bạc Liêu,63,2022,99.8,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Bạc Liêu,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bạc Liêu,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bạc Liêu,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Giang,63,2018,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Bắc Giang,63,2019,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Bắc Giang,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Giang,63,2021,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -55,6 +63,7 @@ Bắc Giang,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Bắc Giang,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Giang,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Giang,63,2025,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Kạn,63,2018,75.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Bắc Kạn,63,2019,83.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Bắc Kạn,63,2020,90.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Kạn,63,2021,89.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -62,6 +71,7 @@ Bắc Kạn,63,2022,97.6,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Bắc Kạn,63,2023,92.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Kạn,63,2024,90.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Kạn,63,2025,92.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bắc Ninh,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Bắc Ninh,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Bắc Ninh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Ninh,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -69,6 +79,7 @@ Bắc Ninh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Bắc Ninh,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Ninh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bắc Ninh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Bến Tre,63,2018,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Bến Tre,63,2019,96.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Bến Tre,63,2020,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bến Tre,63,2021,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -76,6 +87,7 @@ Bến Tre,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/upload
 Bến Tre,63,2023,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bến Tre,63,2024,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Bến Tre,63,2025,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cao Bằng,63,2018,70.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Cao Bằng,63,2019,62.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Cao Bằng,63,2020,65.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cao Bằng,63,2021,72.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -83,6 +95,7 @@ Cao Bằng,63,2022,77.3,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Cao Bằng,63,2023,74.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cao Bằng,63,2024,66.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cao Bằng,63,2025,67.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cà Mau,63,2018,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Cà Mau,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Cà Mau,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cà Mau,63,2021,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -90,6 +103,7 @@ Cà Mau,63,2022,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/
 Cà Mau,63,2023,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cà Mau,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cà Mau,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Cần Thơ,63,2018,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Cần Thơ,63,2019,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Cần Thơ,63,2020,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cần Thơ,63,2021,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -97,6 +111,7 @@ Cần Thơ,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Cần Thơ,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cần Thơ,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Cần Thơ,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Gia Lai,63,2018,91.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Gia Lai,63,2019,83.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Gia Lai,63,2020,95.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Gia Lai,63,2021,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -104,6 +119,7 @@ Gia Lai,63,2022,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/
 Gia Lai,63,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Gia Lai,63,2024,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Gia Lai,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Giang,63,2018,67.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hà Giang,63,2019,63.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hà Giang,63,2020,58.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Giang,63,2021,67.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -111,6 +127,7 @@ Hà Giang,63,2022,78.3,% of population,"https://www.nso.gov.vn/wp-content/upload
 Hà Giang,63,2023,80.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Giang,63,2024,78.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Giang,63,2025,84.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Nam,63,2018,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hà Nam,63,2019,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hà Nam,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nam,63,2021,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -118,6 +135,7 @@ Hà Nam,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads
 Hà Nam,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nam,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nam,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Nội,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hà Nội,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hà Nội,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nội,63,2021,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -125,6 +143,7 @@ Hà Nội,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Hà Nội,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nội,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Nội,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hà Tĩnh,63,2018,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hà Tĩnh,63,2019,93.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hà Tĩnh,63,2020,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Tĩnh,63,2021,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -132,6 +151,7 @@ Hà Tĩnh,63,2022,98.7,% of population,"https://www.nso.gov.vn/wp-content/upload
 Hà Tĩnh,63,2023,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Tĩnh,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hà Tĩnh,63,2025,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hòa Bình,63,2018,92.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hòa Bình,63,2019,86.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hòa Bình,63,2020,92.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hòa Bình,63,2021,95.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -139,6 +159,7 @@ Hòa Bình,63,2022,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Hòa Bình,63,2023,95.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hòa Bình,63,2024,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hòa Bình,63,2025,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hưng Yên,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hưng Yên,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hưng Yên,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hưng Yên,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -146,6 +167,7 @@ Hưng Yên,63,2022,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Hưng Yên,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hưng Yên,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hưng Yên,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hải Dương,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hải Dương,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hải Dương,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Dương,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -153,6 +175,7 @@ Hải Dương,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/u
 Hải Dương,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Dương,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Dương,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hải Phòng,63,2018,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Hải Phòng,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Hải Phòng,63,2020,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Phòng,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -160,6 +183,7 @@ Hải Phòng,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/up
 Hải Phòng,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Phòng,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hải Phòng,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Hậu Giang,63,2018,91.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Hậu Giang,63,2019,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Hậu Giang,63,2020,97.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hậu Giang,63,2021,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -167,6 +191,7 @@ Hậu Giang,63,2022,99.3,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Hậu Giang,63,2023,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hậu Giang,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Hậu Giang,63,2025,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Khánh Hòa,63,2018,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Khánh Hòa,63,2019,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Khánh Hòa,63,2020,96.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Khánh Hòa,63,2021,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -174,6 +199,7 @@ Khánh Hòa,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Khánh Hòa,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Khánh Hòa,63,2024,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Khánh Hòa,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Kiên Giang,63,2018,92.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Kiên Giang,63,2019,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Kiên Giang,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kiên Giang,63,2021,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -181,6 +207,7 @@ Kiên Giang,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Kiên Giang,63,2023,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kiên Giang,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kiên Giang,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Kon Tum,63,2018,81.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Kon Tum,63,2019,86.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Kon Tum,63,2020,93.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kon Tum,63,2021,96.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -188,6 +215,7 @@ Kon Tum,63,2022,94.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/
 Kon Tum,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kon Tum,63,2024,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Kon Tum,63,2025,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lai Châu,63,2018,81.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Lai Châu,63,2019,73.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Lai Châu,63,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lai Châu,63,2021,83.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -195,6 +223,7 @@ Lai Châu,63,2022,94.4,% of population,"https://www.nso.gov.vn/wp-content/upload
 Lai Châu,63,2023,91.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lai Châu,63,2024,94.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lai Châu,63,2025,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Long An,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Long An,63,2019,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Long An,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Long An,63,2021,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -202,6 +231,7 @@ Long An,63,2022,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/
 Long An,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Long An,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Long An,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lào Cai,63,2018,85.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Lào Cai,63,2019,85.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Lào Cai,63,2020,93.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lào Cai,63,2021,90.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -209,6 +239,7 @@ Lào Cai,63,2022,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads
 Lào Cai,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lào Cai,63,2024,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lào Cai,63,2025,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lâm Đồng,63,2018,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Lâm Đồng,63,2019,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Lâm Đồng,63,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lâm Đồng,63,2021,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -216,6 +247,7 @@ Lâm Đồng,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-content/upl
 Lâm Đồng,63,2023,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lâm Đồng,63,2024,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lâm Đồng,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Lạng Sơn,63,2018,87.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Lạng Sơn,63,2019,94.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Lạng Sơn,63,2020,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lạng Sơn,63,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -223,6 +255,7 @@ Lạng Sơn,63,2022,93.5,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Lạng Sơn,63,2023,95.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lạng Sơn,63,2024,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Lạng Sơn,63,2025,94.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Nam Định,63,2018,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Nam Định,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Nam Định,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nam Định,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -230,6 +263,7 @@ Nam Định,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/upl
 Nam Định,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nam Định,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nam Định,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Nghệ An,63,2018,82.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Nghệ An,63,2019,88.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Nghệ An,63,2020,88.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nghệ An,63,2021,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -237,6 +271,7 @@ Nghệ An,63,2022,96.8,% of population,"https://www.nso.gov.vn/wp-content/upload
 Nghệ An,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nghệ An,63,2024,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Nghệ An,63,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Ninh Bình,63,2018,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Ninh Bình,63,2019,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Ninh Bình,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Bình,63,2021,98.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -244,6 +279,7 @@ Ninh Bình,63,2022,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Ninh Bình,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Bình,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Bình,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Ninh Thuận,63,2018,93.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Ninh Thuận,63,2019,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Ninh Thuận,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Thuận,63,2021,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -251,6 +287,7 @@ Ninh Thuận,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/upl
 Ninh Thuận,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Thuận,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Ninh Thuận,63,2025,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Phú Thọ,63,2018,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Phú Thọ,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Phú Thọ,63,2020,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Thọ,63,2021,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -258,6 +295,7 @@ Phú Thọ,63,2022,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Phú Thọ,63,2023,96.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Thọ,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Thọ,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Phú Yên,63,2018,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Phú Yên,63,2019,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Phú Yên,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Yên,63,2021,97.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -265,6 +303,7 @@ Phú Yên,63,2022,99.6,% of population,"https://www.nso.gov.vn/wp-content/upload
 Phú Yên,63,2023,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Yên,63,2024,97.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Phú Yên,63,2025,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Bình,63,2018,93.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Quảng Bình,63,2019,93.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Quảng Bình,63,2020,94.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Bình,63,2021,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -272,6 +311,7 @@ Quảng Bình,63,2022,95.2,% of population,"https://www.nso.gov.vn/wp-content/up
 Quảng Bình,63,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Bình,63,2024,97.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Bình,63,2025,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Nam,63,2018,85.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Quảng Nam,63,2019,92.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Quảng Nam,63,2020,95.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Nam,63,2021,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -279,6 +319,7 @@ Quảng Nam,63,2022,95.1,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Quảng Nam,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Nam,63,2024,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Nam,63,2025,98.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Ngãi,63,2018,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Quảng Ngãi,63,2019,96.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Quảng Ngãi,63,2020,90.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ngãi,63,2021,95.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -286,6 +327,7 @@ Quảng Ngãi,63,2022,95.2,% of population,"https://www.nso.gov.vn/wp-content/up
 Quảng Ngãi,63,2023,96.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ngãi,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ngãi,63,2025,94.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Ninh,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Quảng Ninh,63,2019,99.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Quảng Ninh,63,2020,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ninh,63,2021,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -293,6 +335,7 @@ Quảng Ninh,63,2022,99.4,% of population,"https://www.nso.gov.vn/wp-content/upl
 Quảng Ninh,63,2023,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ninh,63,2024,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Ninh,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Quảng Trị,63,2018,87.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Quảng Trị,63,2019,85.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Quảng Trị,63,2020,94.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Trị,63,2021,89.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -300,6 +343,7 @@ Quảng Trị,63,2022,94.3,% of population,"https://www.nso.gov.vn/wp-content/up
 Quảng Trị,63,2023,92.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Trị,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Quảng Trị,63,2025,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Sóc Trăng,63,2018,94.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Sóc Trăng,63,2019,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Sóc Trăng,63,2020,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sóc Trăng,63,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -307,6 +351,7 @@ Sóc Trăng,63,2022,97.6,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Sóc Trăng,63,2023,97.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sóc Trăng,63,2024,99.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sóc Trăng,63,2025,98.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Sơn La,63,2018,76.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Sơn La,63,2019,75.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Sơn La,63,2020,72.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sơn La,63,2021,78.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -314,6 +359,7 @@ Sơn La,63,2022,87.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/
 Sơn La,63,2023,90.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sơn La,63,2024,85.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Sơn La,63,2025,88.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+TP. Hồ Chí Minh,63,2018,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 TP. Hồ Chí Minh,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 TP. Hồ Chí Minh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 TP. Hồ Chí Minh,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -321,6 +367,7 @@ TP. Hồ Chí Minh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-cont
 TP. Hồ Chí Minh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 TP. Hồ Chí Minh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 TP. Hồ Chí Minh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thanh Hóa,63,2018,95.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Thanh Hóa,63,2019,94.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Thanh Hóa,63,2020,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thanh Hóa,63,2021,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -328,6 +375,7 @@ Thanh Hóa,63,2022,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Thanh Hóa,63,2023,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thanh Hóa,63,2024,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thanh Hóa,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thái Bình,63,2018,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Thái Bình,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Thái Bình,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Bình,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -335,6 +383,7 @@ Thái Bình,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/upl
 Thái Bình,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Bình,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Bình,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thái Nguyên,63,2018,94.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Thái Nguyên,63,2019,98.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Thái Nguyên,63,2020,97.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Nguyên,63,2021,98.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -342,6 +391,7 @@ Thái Nguyên,63,2022,98.0,% of population,"https://www.nso.gov.vn/wp-content/up
 Thái Nguyên,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Nguyên,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thái Nguyên,63,2025,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Thừa Thiên Huế,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Thừa Thiên Huế,63,2019,99.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Thừa Thiên Huế,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thừa Thiên Huế,63,2021,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -349,6 +399,7 @@ Thừa Thiên Huế,63,2022,98.8,% of population,"https://www.nso.gov.vn/wp-cont
 Thừa Thiên Huế,63,2023,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thừa Thiên Huế,63,2024,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Thừa Thiên Huế,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tiền Giang,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Tiền Giang,63,2019,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Tiền Giang,63,2020,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tiền Giang,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -356,6 +407,7 @@ Tiền Giang,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/up
 Tiền Giang,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tiền Giang,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tiền Giang,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Trà Vinh,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Trà Vinh,63,2019,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Trà Vinh,63,2020,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Trà Vinh,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -363,6 +415,7 @@ Trà Vinh,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/upload
 Trà Vinh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Trà Vinh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Trà Vinh,63,2025,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tuyên Quang,63,2018,80.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Tuyên Quang,63,2019,87.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Tuyên Quang,63,2020,85.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tuyên Quang,63,2021,93.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -370,6 +423,7 @@ Tuyên Quang,63,2022,90.4,% of population,"https://www.nso.gov.vn/wp-content/upl
 Tuyên Quang,63,2023,92.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tuyên Quang,63,2024,92.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tuyên Quang,63,2025,92.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Tây Ninh,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Tây Ninh,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Tây Ninh,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tây Ninh,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -377,6 +431,7 @@ Tây Ninh,63,2022,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Tây Ninh,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tây Ninh,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Tây Ninh,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Vĩnh Long,63,2018,91.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Vĩnh Long,63,2019,90.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Vĩnh Long,63,2020,93.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Long,63,2021,95.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -384,6 +439,7 @@ Vĩnh Long,63,2022,98.3,% of population,"https://www.nso.gov.vn/wp-content/uploa
 Vĩnh Long,63,2023,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Long,63,2024,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Long,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Vĩnh Phúc,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Vĩnh Phúc,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Vĩnh Phúc,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Phúc,63,2021,99.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -391,6 +447,7 @@ Vĩnh Phúc,63,2022,99.9,% of population,"https://www.nso.gov.vn/wp-content/uplo
 Vĩnh Phúc,63,2023,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Phúc,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Vĩnh Phúc,63,2025,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Yên Bái,63,2018,86.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Yên Bái,63,2019,79.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Yên Bái,63,2020,77.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Yên Bái,63,2021,86.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -398,6 +455,7 @@ Yên Bái,63,2022,80.8,% of population,"https://www.nso.gov.vn/wp-content/upload
 Yên Bái,63,2023,90.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Yên Bái,63,2024,95.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Điện Biên,63,2018,55.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1039-1039)",final
 Điện Biên,63,2019,57.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
 Điện Biên,63,2020,79.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Điện Biên,63,2021,73.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -405,6 +463,7 @@ Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/upload
 Điện Biên,63,2023,93.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Điện Biên,63,2024,88.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Điện Biên,63,2025,74.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đà Nẵng,63,2018,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Đà Nẵng,63,2019,99.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Đà Nẵng,63,2020,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đà Nẵng,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -412,6 +471,7 @@ Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/upload
 Đà Nẵng,63,2023,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đà Nẵng,63,2024,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đà Nẵng,63,2025,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đắk Lắk,63,2018,97.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Đắk Lắk,63,2019,96.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Đắk Lắk,63,2020,97.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Lắk,63,2021,96.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -419,6 +479,7 @@ Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/upload
 Đắk Lắk,63,2023,97.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Lắk,63,2024,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Lắk,63,2025,99.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đắk Nông,63,2018,98.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Đắk Nông,63,2019,98.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Đắk Nông,63,2020,96.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Nông,63,2021,95.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -426,6 +487,7 @@ Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/upload
 Đắk Nông,63,2023,97.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Nông,63,2024,96.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đắk Nông,63,2025,96.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đồng Nai,63,2018,99.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Đồng Nai,63,2019,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Đồng Nai,63,2020,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đồng Nai,63,2021,100.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final
@@ -433,6 +495,7 @@ Yên Bái,63,2025,94.5,% of population,"https://www.nso.gov.vn/wp-content/upload
 Đồng Nai,63,2023,99.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đồng Nai,63,2024,99.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đồng Nai,63,2025,99.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+Đồng Tháp,63,2018,73.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1040-1040)",final
 Đồng Tháp,63,2019,86.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1041-1041)",final
 Đồng Tháp,63,2020,89.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
 Đồng Tháp,63,2021,93.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1042-1043)",final

@@ -1,376 +1,943 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,3633.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+An Giang,63,2011,4171.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+An Giang,63,2012,4364.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+An Giang,63,2013,4733.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+An Giang,63,2014,4575.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+An Giang,63,2015,5738.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+An Giang,63,2016,5568.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+An Giang,63,2017,5815.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+An Giang,63,2018,6127.12,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 An Giang,63,2019,6310.42,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 An Giang,63,2020,6556.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2021,6494.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2022,7692.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2023,7380.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2024,8196.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bà Rịa - Vũng Tàu,63,2010,8182.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,6810.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bà Rịa - Vũng Tàu,63,2012,6195.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bà Rịa - Vũng Tàu,63,2013,9074.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bà Rịa - Vũng Tàu,63,2014,8693.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bà Rịa - Vũng Tàu,63,2015,9476.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,9873.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,10401.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,10780.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,11512.61,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,11988.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2021,12128.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2022,13400.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2023,14065.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2024,14545.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Dương,63,2010,3687.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bình Dương,63,2011,4406.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bình Dương,63,2012,5392.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bình Dương,63,2013,5942.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Dương,63,2014,6444.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Dương,63,2015,6955.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bình Dương,63,2016,7544.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bình Dương,63,2017,8189.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bình Dương,63,2018,8645.26,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bình Dương,63,2019,9488.36,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Dương,63,2020,9770.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2021,10356.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2022,12006.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2023,11269.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2024,12465.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Phước,63,2010,4680.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bình Phước,63,2011,5640.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bình Phước,63,2012,5684.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bình Phước,63,2013,5202.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Phước,63,2014,4862.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Phước,63,2015,5549.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bình Phước,63,2016,6333.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bình Phước,63,2017,6903.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bình Phước,63,2018,7013.16,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bình Phước,63,2019,7400.75,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Phước,63,2020,7843.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2021,8841.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2022,9697.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2023,8808.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2024,9999.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Thuận,63,2010,2793.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bình Thuận,63,2011,3580.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bình Thuận,63,2012,3719.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bình Thuận,63,2013,3898.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Thuận,63,2014,4215.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Thuận,63,2015,4261.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bình Thuận,63,2016,4628.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bình Thuận,63,2017,5348.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bình Thuận,63,2018,5936.11,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bình Thuận,63,2019,6199.96,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Thuận,63,2020,6314.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2021,7750.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2022,7951.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2023,8265.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2024,8680.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Định,63,2010,2645.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bình Định,63,2011,3392.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bình Định,63,2012,3546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bình Định,63,2013,3801.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Định,63,2014,4156.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bình Định,63,2015,4958.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bình Định,63,2016,4994.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bình Định,63,2017,5423.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bình Định,63,2018,5747.82,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bình Định,63,2019,6250.15,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Định,63,2020,6886.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2021,7323.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2022,7643.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2023,7730.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2024,8403.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bạc Liêu,63,2010,1897.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bạc Liêu,63,2011,3076.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bạc Liêu,63,2012,3525.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bạc Liêu,63,2013,3633.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bạc Liêu,63,2014,3819.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bạc Liêu,63,2015,3937.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bạc Liêu,63,2016,4719.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bạc Liêu,63,2017,4174.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bạc Liêu,63,2018,5260.53,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bạc Liêu,63,2019,5641.94,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bạc Liêu,63,2020,5782.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2021,6182.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2022,6465.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2023,7099.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2024,7129.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Giang,63,2010,2628.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bắc Giang,63,2011,3175.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bắc Giang,63,2012,3884.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Bắc Giang,63,2013,4295.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Giang,63,2014,5196.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Giang,63,2015,5494.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bắc Giang,63,2016,7168.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bắc Giang,63,2017,7807.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bắc Giang,63,2018,7466.45,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bắc Giang,63,2019,8134.03,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Giang,63,2020,8643.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2021,8303.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2022,10677.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2023,10458.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2024,11128.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Kạn,63,2010,2465.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bắc Kạn,63,2011,3025.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bắc Kạn,63,2012,3744.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Bắc Kạn,63,2013,3533.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Kạn,63,2014,4404.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Kạn,63,2015,4520.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bắc Kạn,63,2016,5084.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bắc Kạn,63,2017,5632.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bắc Kạn,63,2018,6512.92,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bắc Kạn,63,2019,6811.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Kạn,63,2020,7191.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2021,6798.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2022,7496.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2023,8808.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2024,8431.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Ninh,63,2010,3016.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bắc Ninh,63,2011,4764.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bắc Ninh,63,2012,5153.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Bắc Ninh,63,2013,6654.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Ninh,63,2014,6060.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Bắc Ninh,63,2015,7807.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bắc Ninh,63,2016,8305.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bắc Ninh,63,2017,8982.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bắc Ninh,63,2018,9456.01,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bắc Ninh,63,2019,9972.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Ninh,63,2020,10542.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2021,11166.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2022,11840.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2023,12446.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2024,13021.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bến Tre,63,2010,2670.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Bến Tre,63,2011,3533.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Bến Tre,63,2012,3918.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Bến Tre,63,2013,4277.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bến Tre,63,2014,5178.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Bến Tre,63,2015,5639.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Bến Tre,63,2016,6127.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Bến Tre,63,2017,6220.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Bến Tre,63,2018,6642.04,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Bến Tre,63,2019,6920.45,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bến Tre,63,2020,6621.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2021,7257.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2022,8252.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2023,7690.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2024,8973.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cao Bằng,63,2010,3244.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Cao Bằng,63,2011,3316.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Cao Bằng,63,2012,3915.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Cao Bằng,63,2013,4739.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Cao Bằng,63,2014,4991.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Cao Bằng,63,2015,5161.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Cao Bằng,63,2016,5666.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Cao Bằng,63,2017,6086.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Cao Bằng,63,2018,6284.77,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Cao Bằng,63,2019,6366.72,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cao Bằng,63,2020,6996.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2021,7528.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2022,7622.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2023,9026.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2024,8475.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cà Mau,63,2010,2815.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Cà Mau,63,2011,3526.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Cà Mau,63,2012,4178.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Cà Mau,63,2013,4680.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Cà Mau,63,2014,5895.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Cà Mau,63,2015,5628.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Cà Mau,63,2016,6197.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Cà Mau,63,2017,6843.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Cà Mau,63,2018,7002.66,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Cà Mau,63,2019,7004.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cà Mau,63,2020,6759.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2021,7861.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2022,8969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2023,8536.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2024,9000.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cần Thơ,63,2010,2825.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Cần Thơ,63,2011,3755.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Cần Thơ,63,2012,4008.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Cần Thơ,63,2013,4464.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Cần Thơ,63,2014,4503.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Cần Thơ,63,2015,5416.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Cần Thơ,63,2016,5850.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Cần Thơ,63,2017,5602.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Cần Thơ,63,2018,6383.25,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Cần Thơ,63,2019,6474.31,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cần Thơ,63,2020,6969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2021,7218.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2022,7773.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2023,7640.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2024,8741.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Gia Lai,63,2010,3329.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Gia Lai,63,2011,4808.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Gia Lai,63,2012,5187.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Gia Lai,63,2013,4983.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Gia Lai,63,2014,5066.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Gia Lai,63,2015,5156.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Gia Lai,63,2016,5050.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Gia Lai,63,2017,6011.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Gia Lai,63,2018,6004.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Gia Lai,63,2019,6030.18,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Gia Lai,63,2020,6554.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2021,7666.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2022,7848.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2023,7504.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2024,7827.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Giang,63,2010,2917.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hà Giang,63,2011,3454.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hà Giang,63,2012,3560.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hà Giang,63,2013,4045.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Giang,63,2014,4277.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Giang,63,2015,4594.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hà Giang,63,2016,5257.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hà Giang,63,2017,5472.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hà Giang,63,2018,5881.37,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hà Giang,63,2019,6234.98,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Giang,63,2020,6152.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2021,6209.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2022,7493.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2023,8310.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2024,7694.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Nam,63,2010,2720.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hà Nam,63,2011,2989.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hà Nam,63,2012,3497.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hà Nam,63,2013,4009.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Nam,63,2014,4991.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Nam,63,2015,5439.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hà Nam,63,2016,6219.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hà Nam,63,2017,6810.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hà Nam,63,2018,6808.34,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hà Nam,63,2019,7693.68,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Nam,63,2020,7602.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2021,8561.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2022,9402.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2023,9751.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2024,11281.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Nội,63,2010,4944.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hà Nội,63,2011,4974.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hà Nội,63,2012,5626.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hà Nội,63,2013,6054.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Nội,63,2014,6861.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Nội,63,2015,7965.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hà Nội,63,2016,7879.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hà Nội,63,2017,9192.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hà Nội,63,2018,10111.14,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hà Nội,63,2019,10461.59,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Nội,63,2020,10229.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2021,11450.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2022,12825.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2023,12817.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2024,13713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Tĩnh,63,2010,2651.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hà Tĩnh,63,2011,3051.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hà Tĩnh,63,2012,3620.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hà Tĩnh,63,2013,4043.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Tĩnh,63,2014,4584.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hà Tĩnh,63,2015,4730.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hà Tĩnh,63,2016,5893.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hà Tĩnh,63,2017,6130.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hà Tĩnh,63,2018,6506.76,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hà Tĩnh,63,2019,7068.71,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Tĩnh,63,2020,7259.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2021,7582.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2022,7444.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2023,7952.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2024,8879.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hòa Bình,63,2010,2508.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hòa Bình,63,2011,2858.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hòa Bình,63,2012,4003.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hòa Bình,63,2013,3813.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hòa Bình,63,2014,3818.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hòa Bình,63,2015,5911.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hòa Bình,63,2016,5886.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hòa Bình,63,2017,6048.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hòa Bình,63,2018,6521.33,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hòa Bình,63,2019,6573.7,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hòa Bình,63,2020,6369.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2021,7020.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2022,7584.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2023,7932.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2024,8950.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hưng Yên,63,2010,2984.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hưng Yên,63,2011,3848.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hưng Yên,63,2012,4285.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hưng Yên,63,2013,5062.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hưng Yên,63,2014,5294.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hưng Yên,63,2015,6150.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hưng Yên,63,2016,6445.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hưng Yên,63,2017,7603.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hưng Yên,63,2018,8155.07,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hưng Yên,63,2019,8202.07,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hưng Yên,63,2020,8736.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2021,10123.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2022,10985.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2023,10705.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2024,12405.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hải Dương,63,2010,2968.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hải Dương,63,2011,3679.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hải Dương,63,2012,4469.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hải Dương,63,2013,4940.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hải Dương,63,2014,5286.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hải Dương,63,2015,5985.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hải Dương,63,2016,6714.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hải Dương,63,2017,6944.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hải Dương,63,2018,7595.96,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hải Dương,63,2019,8375.21,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hải Dương,63,2020,8203.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2021,9194.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2022,9602.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2023,9755.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2024,10664.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hải Phòng,63,2010,3151.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hải Phòng,63,2011,3782.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hải Phòng,63,2012,4558.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Hải Phòng,63,2013,4925.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hải Phòng,63,2014,5451.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Hải Phòng,63,2015,6329.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hải Phòng,63,2016,6853.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hải Phòng,63,2017,7037.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hải Phòng,63,2018,8181.1,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hải Phòng,63,2019,8198.53,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hải Phòng,63,2020,9214.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2021,10621.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2022,11674.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2023,12233.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2024,12838.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hậu Giang,63,2010,3264.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Hậu Giang,63,2011,4544.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Hậu Giang,63,2012,4356.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Hậu Giang,63,2013,4387.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Hậu Giang,63,2014,5488.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Hậu Giang,63,2015,4824.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Hậu Giang,63,2016,4998.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Hậu Giang,63,2017,5759.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Hậu Giang,63,2018,5749.57,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Hậu Giang,63,2019,6027.42,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hậu Giang,63,2020,6442.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2021,6195.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2022,7706.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2023,7033.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2024,7988.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Khánh Hòa,63,2010,3229.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Khánh Hòa,63,2011,3744.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Khánh Hòa,63,2012,4860.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Khánh Hòa,63,2013,4636.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Khánh Hòa,63,2014,5203.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Khánh Hòa,63,2015,5551.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Khánh Hòa,63,2016,5669.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Khánh Hòa,63,2017,6557.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Khánh Hòa,63,2018,7418.1,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Khánh Hòa,63,2019,6982.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Khánh Hòa,63,2020,7915.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2021,7903.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2022,9947.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2023,10508.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2024,9897.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Kiên Giang,63,2010,2699.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Kiên Giang,63,2011,3374.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Kiên Giang,63,2012,3771.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Kiên Giang,63,2013,4046.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Kiên Giang,63,2014,4798.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Kiên Giang,63,2015,5660.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Kiên Giang,63,2016,5308.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Kiên Giang,63,2017,6200.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Kiên Giang,63,2018,7101.16,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Kiên Giang,63,2019,7172.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Kiên Giang,63,2020,7612.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2021,7495.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2022,8069.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2023,8660.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2024,9150.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Kon Tum,63,2010,3869.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Kon Tum,63,2011,3765.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Kon Tum,63,2012,3922.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Kon Tum,63,2013,3994.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Kon Tum,63,2014,4292.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Kon Tum,63,2015,4706.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Kon Tum,63,2016,4971.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Kon Tum,63,2017,5046.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Kon Tum,63,2018,5787.46,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Kon Tum,63,2019,5864.02,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Kon Tum,63,2020,6174.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2021,7430.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2022,7750.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2023,8044.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2024,8337.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lai Châu,63,2010,2994.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Lai Châu,63,2011,3670.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Lai Châu,63,2012,3781.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Lai Châu,63,2013,4907.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lai Châu,63,2014,4527.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lai Châu,63,2015,5001.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Lai Châu,63,2016,5712.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Lai Châu,63,2017,5460.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Lai Châu,63,2018,5734.98,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Lai Châu,63,2019,5744.67,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lai Châu,63,2020,6017.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2021,6826.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2022,7178.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2023,8008.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2024,8299.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Long An,63,2010,2945.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Long An,63,2011,3839.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Long An,63,2012,5295.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Long An,63,2013,5001.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Long An,63,2014,5028.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Long An,63,2015,5824.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Long An,63,2016,6612.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Long An,63,2017,7181.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Long An,63,2018,7315.25,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Long An,63,2019,7788.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Long An,63,2020,8491.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2021,8742.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2022,9963.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2023,10119.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2024,10886.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lào Cai,63,2010,3571.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Lào Cai,63,2011,3940.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Lào Cai,63,2012,4446.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Lào Cai,63,2013,5090.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lào Cai,63,2014,6147.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lào Cai,63,2015,6560.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Lào Cai,63,2016,6692.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Lào Cai,63,2017,6795.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Lào Cai,63,2018,7927.96,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Lào Cai,63,2019,9037.17,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lào Cai,63,2020,7746.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2021,8483.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2022,10695.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2023,10406.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2024,10219.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lâm Đồng,63,2010,3045.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Lâm Đồng,63,2011,3531.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Lâm Đồng,63,2012,6416.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Lâm Đồng,63,2013,4531.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Lâm Đồng,63,2014,5141.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Lâm Đồng,63,2015,5938.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Lâm Đồng,63,2016,6010.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Lâm Đồng,63,2017,6280.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Lâm Đồng,63,2018,6938.32,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Lâm Đồng,63,2019,7092.84,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lâm Đồng,63,2020,7289.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2021,8200.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2022,9073.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2023,9546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2024,9762.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lạng Sơn,63,2010,2853.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Lạng Sơn,63,2011,3160.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Lạng Sơn,63,2012,3651.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Lạng Sơn,63,2013,3938.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lạng Sơn,63,2014,4694.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Lạng Sơn,63,2015,5345.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Lạng Sơn,63,2016,5569.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Lạng Sơn,63,2017,5560.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Lạng Sơn,63,2018,5647.8,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Lạng Sơn,63,2019,5771.54,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lạng Sơn,63,2020,6138.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2021,7148.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2022,7567.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2023,8258.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2024,8527.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Nam Định,63,2010,2245.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Nam Định,63,2011,2756.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Nam Định,63,2012,2994.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Nam Định,63,2013,3382.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Nam Định,63,2014,3770.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Nam Định,63,2015,4512.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Nam Định,63,2016,4859.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Nam Định,63,2017,5457.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Nam Định,63,2018,5718.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Nam Định,63,2019,5921.05,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Nam Định,63,2020,6420.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2021,7096.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2022,7545.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2023,7670.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2024,8226.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Nghệ An,63,2010,2826.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Nghệ An,63,2011,3434.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Nghệ An,63,2012,3754.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Nghệ An,63,2013,3873.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Nghệ An,63,2014,4469.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Nghệ An,63,2015,4440.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Nghệ An,63,2016,5366.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Nghệ An,63,2017,5534.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Nghệ An,63,2018,5726.61,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Nghệ An,63,2019,5745.25,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Nghệ An,63,2020,6500.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2021,7461.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2022,7868.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2023,8547.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2024,9431.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Ninh Bình,63,2010,2930.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Ninh Bình,63,2011,3080.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Ninh Bình,63,2012,3627.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Ninh Bình,63,2013,4128.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Ninh Bình,63,2014,4701.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Ninh Bình,63,2015,4816.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Ninh Bình,63,2016,5115.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Ninh Bình,63,2017,5439.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Ninh Bình,63,2018,5809.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Ninh Bình,63,2019,6788.79,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Ninh Bình,63,2020,7160.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2021,8155.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2022,8476.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2023,8144.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2024,9222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Ninh Thuận,63,2010,3001.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Ninh Thuận,63,2011,3629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Ninh Thuận,63,2012,4173.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Ninh Thuận,63,2013,4537.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Ninh Thuận,63,2014,4907.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Ninh Thuận,63,2015,5207.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Ninh Thuận,63,2016,5635.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Ninh Thuận,63,2017,5744.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Ninh Thuận,63,2018,6587.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Ninh Thuận,63,2019,6784.21,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Ninh Thuận,63,2020,6947.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2021,7977.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2022,8202.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2023,8084.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2024,9030.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Phú Thọ,63,2010,2603.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Phú Thọ,63,2011,3190.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Phú Thọ,63,2012,3804.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Phú Thọ,63,2013,4053.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Phú Thọ,63,2014,4866.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Phú Thọ,63,2015,5347.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Phú Thọ,63,2016,5615.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Phú Thọ,63,2017,5971.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Phú Thọ,63,2018,6862.99,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Phú Thọ,63,2019,7499.03,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Phú Thọ,63,2020,7309.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2021,8017.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2022,8655.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2023,8651.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2024,9504.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Phú Yên,63,2010,1890.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Phú Yên,63,2011,2329.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Phú Yên,63,2012,2867.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Phú Yên,63,2013,3226.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Phú Yên,63,2014,4009.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Phú Yên,63,2015,4672.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Phú Yên,63,2016,4782.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Phú Yên,63,2017,5416.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Phú Yên,63,2018,5484.46,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Phú Yên,63,2019,5623.13,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Phú Yên,63,2020,5657.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2021,6222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2022,6844.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2023,7485.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2024,8153.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Bình,63,2010,2455.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Quảng Bình,63,2011,2934.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Quảng Bình,63,2012,3535.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Quảng Bình,63,2013,3840.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Bình,63,2014,4345.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Bình,63,2015,5873.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Quảng Bình,63,2016,4924.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Quảng Bình,63,2017,5208.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Quảng Bình,63,2018,5617.89,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Quảng Bình,63,2019,6320.6,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Bình,63,2020,5919.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2021,6508.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2022,7065.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2023,7698.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2024,7735.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Nam,63,2010,2523.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Quảng Nam,63,2011,2907.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Quảng Nam,63,2012,4373.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Quảng Nam,63,2013,4235.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Quảng Nam,63,2014,4441.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Quảng Nam,63,2015,4984.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Quảng Nam,63,2016,5186.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Quảng Nam,63,2017,5578.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Quảng Nam,63,2018,6083.76,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Quảng Nam,63,2019,6495.38,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Nam,63,2020,6283.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2021,8152.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2022,8562.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2023,8600.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2024,9105.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Ngãi,63,2010,3257.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Quảng Ngãi,63,2011,4224.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Quảng Ngãi,63,2012,4689.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Quảng Ngãi,63,2013,5445.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Quảng Ngãi,63,2014,5536.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Quảng Ngãi,63,2015,6777.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Quảng Ngãi,63,2016,7356.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Quảng Ngãi,63,2017,7864.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Quảng Ngãi,63,2018,8171.65,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Quảng Ngãi,63,2019,8155.99,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Ngãi,63,2020,8595.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2021,9706.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2022,9222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2023,9439.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2024,10667.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Ninh,63,2010,6108.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Quảng Ninh,63,2011,8084.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Quảng Ninh,63,2012,6224.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Quảng Ninh,63,2013,6514.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Ninh,63,2014,7353.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Ninh,63,2015,7852.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Quảng Ninh,63,2016,7894.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Quảng Ninh,63,2017,8293.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Quảng Ninh,63,2018,9499.22,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Quảng Ninh,63,2019,10091.02,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Ninh,63,2020,10265.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2021,11129.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2022,12469.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2023,13015.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2024,13385.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Trị,63,2010,2963.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Quảng Trị,63,2011,3377.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Quảng Trị,63,2012,3647.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Quảng Trị,63,2013,4300.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Trị,63,2014,4641.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Quảng Trị,63,2015,4840.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Quảng Trị,63,2016,5204.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Quảng Trị,63,2017,5721.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Quảng Trị,63,2018,5721.55,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Quảng Trị,63,2019,5777.2,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Trị,63,2020,5550.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2021,5771.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2022,6897.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2023,7246.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2024,8014.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Sóc Trăng,63,2010,2325.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Sóc Trăng,63,2011,3318.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Sóc Trăng,63,2012,3185.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Sóc Trăng,63,2013,3852.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Sóc Trăng,63,2014,3838.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Sóc Trăng,63,2015,4951.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Sóc Trăng,63,2016,5021.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Sóc Trăng,63,2017,6071.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Sóc Trăng,63,2018,7097.31,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Sóc Trăng,63,2019,7134.65,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Sóc Trăng,63,2020,6823.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2021,6086.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2022,5999.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2023,5573.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2024,6974.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Sơn La,63,2010,2905.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Sơn La,63,2011,2881.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Sơn La,63,2012,3406.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Sơn La,63,2013,3845.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Sơn La,63,2014,4049.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Sơn La,63,2015,4112.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Sơn La,63,2016,4391.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Sơn La,63,2017,4583.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Sơn La,63,2018,4859.06,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Sơn La,63,2019,4972.99,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Sơn La,63,2020,5815.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2021,6408.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2022,6830.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2023,7121.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2024,7924.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+TP. Hồ Chí Minh,63,2010,4544.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+TP. Hồ Chí Minh,63,2011,5343.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+TP. Hồ Chí Minh,63,2012,6121.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+TP. Hồ Chí Minh,63,2013,6897.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+TP. Hồ Chí Minh,63,2014,7207.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+TP. Hồ Chí Minh,63,2015,8175.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+TP. Hồ Chí Minh,63,2016,8678.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+TP. Hồ Chí Minh,63,2017,9854.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+TP. Hồ Chí Minh,63,2018,10330.15,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 TP. Hồ Chí Minh,63,2019,10819.9,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 TP. Hồ Chí Minh,63,2020,10906.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2021,11769.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2022,13968.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2023,14324.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2024,15250.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thanh Hóa,63,2010,2316.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Thanh Hóa,63,2011,2755.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Thanh Hóa,63,2012,3492.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Thanh Hóa,63,2013,3376.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thanh Hóa,63,2014,3633.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thanh Hóa,63,2015,5201.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Thanh Hóa,63,2016,4805.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Thanh Hóa,63,2017,4910.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Thanh Hóa,63,2018,5095.76,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Thanh Hóa,63,2019,5327.48,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thanh Hóa,63,2020,5629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2021,6505.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2022,7638.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2023,7507.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2024,8109.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thái Bình,63,2010,2302.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Thái Bình,63,2011,2667.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Thái Bình,63,2012,3289.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Thái Bình,63,2013,3535.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thái Bình,63,2014,3819.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thái Bình,63,2015,4311.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Thái Bình,63,2016,4646.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Thái Bình,63,2017,5112.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Thái Bình,63,2018,5913.47,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Thái Bình,63,2019,6012.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thái Bình,63,2020,6241.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2021,7204.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2022,7491.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2023,7538.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2024,8315.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thái Nguyên,63,2010,3433.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Thái Nguyên,63,2011,3655.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Thái Nguyên,63,2012,4174.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Thái Nguyên,63,2013,4313.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thái Nguyên,63,2014,6013.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thái Nguyên,63,2015,7788.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Thái Nguyên,63,2016,9283.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Thái Nguyên,63,2017,8744.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Thái Nguyên,63,2018,8938.43,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Thái Nguyên,63,2019,9432.43,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thái Nguyên,63,2020,9308.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2021,10773.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2022,11066.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2023,11461.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2024,11661.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thừa Thiên Huế,63,2010,2606.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Thừa Thiên Huế,63,2011,3021.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Thừa Thiên Huế,63,2012,3667.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Thừa Thiên Huế,63,2013,4043.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thừa Thiên Huế,63,2014,4343.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Thừa Thiên Huế,63,2015,4718.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Thừa Thiên Huế,63,2016,4850.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Thừa Thiên Huế,63,2017,5456.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Thừa Thiên Huế,63,2018,5755.94,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Thừa Thiên Huế,63,2019,6144.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thừa Thiên Huế,63,2020,6425.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2021,6960.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2022,7544.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2023,7968.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2024,8822.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tiền Giang,63,2010,2309.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Tiền Giang,63,2011,3068.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Tiền Giang,63,2012,3494.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Tiền Giang,63,2013,4177.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Tiền Giang,63,2014,4981.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Tiền Giang,63,2015,5265.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Tiền Giang,63,2016,6018.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Tiền Giang,63,2017,5699.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Tiền Giang,63,2018,6990.1,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Tiền Giang,63,2019,7451.37,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tiền Giang,63,2020,7396.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2021,6327.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2022,8869.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2023,8336.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2024,9711.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Trà Vinh,63,2010,2206.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Trà Vinh,63,2011,2709.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Trà Vinh,63,2012,3422.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Trà Vinh,63,2013,3296.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Trà Vinh,63,2014,3769.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Trà Vinh,63,2015,4628.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Trà Vinh,63,2016,4735.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Trà Vinh,63,2017,5578.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Trà Vinh,63,2018,5872.44,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Trà Vinh,63,2019,5705.01,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Trà Vinh,63,2020,5607.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2021,6937.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2022,7237.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2023,7166.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2024,7792.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tuyên Quang,63,2010,2705.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Tuyên Quang,63,2011,2981.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Tuyên Quang,63,2012,3423.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Tuyên Quang,63,2013,3696.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Tuyên Quang,63,2014,4905.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Tuyên Quang,63,2015,5211.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Tuyên Quang,63,2016,5252.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Tuyên Quang,63,2017,6252.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Tuyên Quang,63,2018,6181.17,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Tuyên Quang,63,2019,6903.58,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tuyên Quang,63,2020,7454.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2021,6982.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2022,6957.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2023,7115.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2024,7853.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tây Ninh,63,2010,3745.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Tây Ninh,63,2011,4237.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Tây Ninh,63,2012,4864.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Tây Ninh,63,2013,4695.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Tây Ninh,63,2014,5111.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Tây Ninh,63,2015,5877.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Tây Ninh,63,2016,6211.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Tây Ninh,63,2017,7130.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Tây Ninh,63,2018,7639.05,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Tây Ninh,63,2019,8119.41,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tây Ninh,63,2020,8634.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2021,9211.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2022,10611.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2023,10468.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2024,11082.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Vĩnh Long,63,2010,2416.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Vĩnh Long,63,2011,2801.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Vĩnh Long,63,2012,3390.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Vĩnh Long,63,2013,3789.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Vĩnh Long,63,2014,4025.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Vĩnh Long,63,2015,4490.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Vĩnh Long,63,2016,5137.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Vĩnh Long,63,2017,5139.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Vĩnh Long,63,2018,5784.41,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Vĩnh Long,63,2019,6330.05,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Vĩnh Long,63,2020,6569.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2021,6629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2022,8711.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2023,8870.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2024,9493.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Vĩnh Phúc,63,2010,3076.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Vĩnh Phúc,63,2011,3513.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Vĩnh Phúc,63,2012,6033.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Vĩnh Phúc,63,2013,5715.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Vĩnh Phúc,63,2014,5588.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Vĩnh Phúc,63,2015,5739.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Vĩnh Phúc,63,2016,6706.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Vĩnh Phúc,63,2017,7817.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Vĩnh Phúc,63,2018,8462.58,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Vĩnh Phúc,63,2019,8836.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Vĩnh Phúc,63,2020,9016.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2021,9789.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2022,10528.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2023,10429.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2024,11398.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Yên Bái,63,2010,3182.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Yên Bái,63,2011,3246.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Yên Bái,63,2012,3598.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Yên Bái,63,2013,4365.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Yên Bái,63,2014,4985.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Yên Bái,63,2015,5318.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Yên Bái,63,2016,6050.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Yên Bái,63,2017,5907.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Yên Bái,63,2018,5682.25,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Yên Bái,63,2019,6155.63,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Yên Bái,63,2020,7275.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2021,7312.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2022,7922.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2023,8713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2024,8397.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Điện Biên,63,2010,3813.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Điện Biên,63,2011,3993.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Điện Biên,63,2012,4140.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.382-382)",final
+Điện Biên,63,2013,4529.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Điện Biên,63,2014,4491.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.398-398)",final
+Điện Biên,63,2015,4493.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Điện Biên,63,2016,4528.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Điện Biên,63,2017,4316.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Điện Biên,63,2018,4331.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Điện Biên,63,2019,4665.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Điện Biên,63,2020,4343.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2021,4942.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2022,5546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2023,6713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2024,8304.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đà Nẵng,63,2010,3368.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Đà Nẵng,63,2011,4049.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Đà Nẵng,63,2012,4156.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Đà Nẵng,63,2013,5116.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đà Nẵng,63,2014,5386.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đà Nẵng,63,2015,6179.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Đà Nẵng,63,2016,6619.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Đà Nẵng,63,2017,7242.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Đà Nẵng,63,2018,7650.75,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Đà Nẵng,63,2019,8448.92,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đà Nẵng,63,2020,8027.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2021,8813.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2022,10245.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2023,10948.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2024,11653.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đắk Lắk,63,2010,2519.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Đắk Lắk,63,2011,3303.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Đắk Lắk,63,2012,3575.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Đắk Lắk,63,2013,3937.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đắk Lắk,63,2014,3611.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đắk Lắk,63,2015,4105.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Đắk Lắk,63,2016,4686.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Đắk Lắk,63,2017,4742.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Đắk Lắk,63,2018,4641.17,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Đắk Lắk,63,2019,4862.61,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đắk Lắk,63,2020,5757.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2021,6733.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2022,7539.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2023,7896.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2024,7969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đắk Nông,63,2010,2671.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Đắk Nông,63,2011,3195.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Đắk Nông,63,2012,3734.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Đắk Nông,63,2013,4307.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đắk Nông,63,2014,3570.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đắk Nông,63,2015,4793.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Đắk Nông,63,2016,4854.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Đắk Nông,63,2017,4644.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Đắk Nông,63,2018,5190.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Đắk Nông,63,2019,5561.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đắk Nông,63,2020,6303.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2021,7560.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2022,10472.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2023,9276.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2024,10187.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đồng Nai,63,2010,3712.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Đồng Nai,63,2011,4515.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Đồng Nai,63,2012,5325.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Đồng Nai,63,2013,5963.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đồng Nai,63,2014,6789.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đồng Nai,63,2015,7011.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Đồng Nai,63,2016,8013.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Đồng Nai,63,2017,8817.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Đồng Nai,63,2018,9751.87,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Đồng Nai,63,2019,10008.6,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đồng Nai,63,2020,9784.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2021,9887.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2022,10471.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2023,10629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2024,11552.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đồng Tháp,63,2010,2627.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2010)",final
+Đồng Tháp,63,2011,3267.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2015-1.pdf (Statistical Yearbook 2015, table p.374-375)",final
+Đồng Tháp,63,2012,3912.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-Thong-ke-2016.pdf (Statistical Yearbook 2016, table p.383-383)",final
+Đồng Tháp,63,2013,4072.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đồng Tháp,63,2014,4342.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2019/10/Nien-giam-2017-pdf.pdf (Statistical Yearbook 2017, table p.399-399)",final
+Đồng Tháp,63,2015,5125.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2015)",final
+Đồng Tháp,63,2016,5561.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2016)",final
+Đồng Tháp,63,2017,6599.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2017)",final
+Đồng Tháp,63,2018,6914.79,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2018)",final
 Đồng Tháp,63,2019,6852.39,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đồng Tháp,63,2020,7146.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Tháp,63,2021,5992.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final

@@ -211,6 +211,19 @@ def air_arcs(infra, trade, width, height):
         cy = min(max((ay + by) / 2 - dx * ARC_BEND, 0), height)
         out.append({"a": r["a"], "b": r["b"], "airport_a": a["id"], "airport_b": b["id"], "rank": r["rank"], "airlines": r["airlines"],
                     "dist_km": r["dist_km"], "p0": _pt(ax, ay), "c": _pt(cx, cy), "p1": _pt(bx, by)})
+    # international arcs drawn on the air-routes layer: from the Vietnamese airport to the foreign one in the frame
+    intl = trade.get("international") or {}
+    for r in intl.get("routes", []):
+        if not r["drawn"]:
+            continue
+        a, f = ap[r["vn"]], intl["foreign"][r["foreign"]]
+        (ax, ay), (bx, by) = (a["x"], a["y"]), (f["x"], f["y"])
+        dx, dy = bx - ax, by - ay
+        cx = min(max((ax + bx) / 2 + dy * ARC_BEND, 0), width)
+        cy = min(max((ay + by) / 2 - dx * ARC_BEND, 0), height)
+        out.append({"a": r["city"], "b": r["foreign"], "airport_a": r["vn"], "airport_b": r["foreign"],
+                    "rank": len(trade["routes"]) + r["rank"], "airlines": r["airlines"], "dist_km": r["dist_km"],
+                    "international": True, "p0": _pt(ax, ay), "c": _pt(cx, cy), "p1": _pt(bx, by)})
     return out
 
 
@@ -266,7 +279,7 @@ def build():
 
     lines, lanes, arcs = rail_lines(W, infra, cities), sea_lanes(W, infra), air_arcs(infra, trade, width, height)
     write_web("motion_routes.json", {
-        "version": 1, "sources": ["osm_rail", "osm_ports", "qd804", "etopo", "openflights_routes", "ourairports"],
+        "version": 1, "sources": ["osm_rail", "osm_ports", "qd804", "etopo", "wikipedia_air_routes", "ourairports"],
         "rules": {
             "rail": "Ordered polylines through the main-line (tier 0) rail links of infrastructure.json (OpenStreetMap, "
                     "2026), as hex centres. The North–South line runs from the main-line hex nearest Hà Nội to the "
@@ -279,10 +292,13 @@ def build():
                    f"hex path to the nearest open-sea hex (water at least {OPEN_SEA_HEXES} hexes, about "
                    f"{OPEN_SEA_HEXES * 8.66:.0f} km, from any land), crossing land only where the port sits inland "
                    f"(a land hex costs {LAND_STEP} sea hexes; land_hexes counts them). Ship movement is illustrative.",
-            "air": "The 30 domestic air routes of trade.json (OpenFlights route database, June 2014; not current "
-                   "schedules), drawn as quadratic Bézier arcs p0 → c → p1 between the airports of the two cities (where a city "
+            "air": f"The {len(trade['routes'])} domestic air routes of trade.json (flown by at least 3 airlines as "
+                   "listed in the Wikipedia airport articles' airlines-and-destinations tables, "
+                   f"{trade['vintage'].split(', ', 1)[1]}; not a timetable), drawn as quadratic Bézier arcs p0 → c → p1 between the airports of the two cities (where a city "
                    "has two of the route's airports, the one with more passengers), the control point "
-                   f"{ARC_BEND:.0%} of the route length to the left. Plane frequency is illustrative.",
+                   f"{ARC_BEND:.0%} of the route length to the left; then the {sum(r['drawn'] for r in (trade.get('international') or {}).get('routes', []))} "
+                   "international routes drawn on the layer (international: true; b is the foreign airport's IATA code), "
+                   "from the Vietnamese airport to the foreign one. Plane frequency is illustrative.",
         },
         "rail": lines, "sea": lanes, "air": arcs})
 

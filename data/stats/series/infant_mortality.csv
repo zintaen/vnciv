@@ -1,4 +1,13 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+An Giang,63,2011,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+An Giang,63,2012,15.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+An Giang,63,2013,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+An Giang,63,2014,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+An Giang,63,2015,14.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+An Giang,63,2016,14.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+An Giang,63,2017,13.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+An Giang,63,2018,13.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 An Giang,63,2019,13.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 An Giang,63,2020,13.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 An Giang,63,2021,13.67,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -6,6 +15,15 @@ An Giang,63,2022,13.1,infant deaths per 1000 live births,"https://www.nso.gov.vn
 An Giang,63,2023,12.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 An Giang,63,2024,11.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 An Giang,63,2025,11.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bà Rịa - Vũng Tàu,63,2010,8.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,8.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bà Rịa - Vũng Tàu,63,2012,8.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bà Rịa - Vũng Tàu,63,2013,8.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bà Rịa - Vũng Tàu,63,2014,8.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bà Rịa - Vũng Tàu,63,2015,8.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,8.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,7.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,7.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,7.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,7.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bà Rịa - Vũng Tàu,63,2021,7.72,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -13,6 +31,15 @@ Bà Rịa - Vũng Tàu,63,2022,7.6,infant deaths per 1000 live births,"https://w
 Bà Rịa - Vũng Tàu,63,2023,7.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bà Rịa - Vũng Tàu,63,2024,7.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bà Rịa - Vũng Tàu,63,2025,7.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bình Dương,63,2010,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bình Dương,63,2011,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bình Dương,63,2012,9.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bình Dương,63,2013,9.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bình Dương,63,2014,9.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bình Dương,63,2015,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bình Dương,63,2016,8.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bình Dương,63,2017,8.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bình Dương,63,2018,8.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bình Dương,63,2019,8.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bình Dương,63,2020,8.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Dương,63,2021,8.68,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -20,6 +47,15 @@ Bình Dương,63,2022,8.2,infant deaths per 1000 live births,"https://www.nso.go
 Bình Dương,63,2023,8.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Dương,63,2024,7.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Dương,63,2025,7.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bình Phước,63,2010,16.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bình Phước,63,2011,15.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bình Phước,63,2012,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bình Phước,63,2013,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bình Phước,63,2014,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bình Phước,63,2015,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bình Phước,63,2016,13.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bình Phước,63,2017,13.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bình Phước,63,2018,13.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bình Phước,63,2019,13.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bình Phước,63,2020,13.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Phước,63,2021,13.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -27,6 +63,15 @@ Bình Phước,63,2022,12.4,infant deaths per 1000 live births,"https://www.nso.
 Bình Phước,63,2023,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Phước,63,2024,11.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Phước,63,2025,10.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bình Thuận,63,2010,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bình Thuận,63,2011,13.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bình Thuận,63,2012,13.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bình Thuận,63,2013,13.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bình Thuận,63,2014,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bình Thuận,63,2015,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bình Thuận,63,2016,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bình Thuận,63,2017,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bình Thuận,63,2018,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bình Thuận,63,2019,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bình Thuận,63,2020,11.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Thuận,63,2021,11.42,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -34,6 +79,15 @@ Bình Thuận,63,2022,11.1,infant deaths per 1000 live births,"https://www.nso.g
 Bình Thuận,63,2023,10.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Thuận,63,2024,9.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Thuận,63,2025,9.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bình Định,63,2010,15.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bình Định,63,2011,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bình Định,63,2012,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bình Định,63,2013,15.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bình Định,63,2014,15.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bình Định,63,2015,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bình Định,63,2016,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bình Định,63,2017,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bình Định,63,2018,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bình Định,63,2019,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bình Định,63,2020,14.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Định,63,2021,14.31,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -41,6 +95,15 @@ Bình Định,63,2022,12.9,infant deaths per 1000 live births,"https://www.nso.g
 Bình Định,63,2023,12.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Định,63,2024,11.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bình Định,63,2025,11.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bạc Liêu,63,2010,12.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bạc Liêu,63,2011,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bạc Liêu,63,2012,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bạc Liêu,63,2013,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bạc Liêu,63,2014,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bạc Liêu,63,2015,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bạc Liêu,63,2016,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bạc Liêu,63,2017,11.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bạc Liêu,63,2018,11.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bạc Liêu,63,2019,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bạc Liêu,63,2020,11.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bạc Liêu,63,2021,11.51,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -48,6 +111,15 @@ Bạc Liêu,63,2022,10.9,infant deaths per 1000 live births,"https://www.nso.gov
 Bạc Liêu,63,2023,10.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bạc Liêu,63,2024,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bạc Liêu,63,2025,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bắc Giang,63,2010,16.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bắc Giang,63,2011,15.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bắc Giang,63,2012,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bắc Giang,63,2013,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bắc Giang,63,2014,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bắc Giang,63,2015,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bắc Giang,63,2016,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bắc Giang,63,2017,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bắc Giang,63,2018,14.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bắc Giang,63,2019,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bắc Giang,63,2020,14.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Giang,63,2021,14.44,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -55,6 +127,15 @@ Bắc Giang,63,2022,12.7,infant deaths per 1000 live births,"https://www.nso.gov
 Bắc Giang,63,2023,12.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Giang,63,2024,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Giang,63,2025,11.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bắc Kạn,63,2010,19.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bắc Kạn,63,2011,18.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bắc Kạn,63,2012,18.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bắc Kạn,63,2013,18.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bắc Kạn,63,2014,17.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bắc Kạn,63,2015,17.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bắc Kạn,63,2016,17.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bắc Kạn,63,2017,17.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bắc Kạn,63,2018,16.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bắc Kạn,63,2019,16.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bắc Kạn,63,2020,16.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Kạn,63,2021,16.66,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -62,6 +143,15 @@ Bắc Kạn,63,2022,16.0,infant deaths per 1000 live births,"https://www.nso.gov
 Bắc Kạn,63,2023,15.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Kạn,63,2024,15.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Kạn,63,2025,15.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bắc Ninh,63,2010,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bắc Ninh,63,2011,13.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bắc Ninh,63,2012,13.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bắc Ninh,63,2013,13.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bắc Ninh,63,2014,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bắc Ninh,63,2015,12.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bắc Ninh,63,2016,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bắc Ninh,63,2017,12.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bắc Ninh,63,2018,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bắc Ninh,63,2019,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bắc Ninh,63,2020,12.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Ninh,63,2021,12.33,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -69,6 +159,15 @@ Bắc Ninh,63,2022,11.2,infant deaths per 1000 live births,"https://www.nso.gov.
 Bắc Ninh,63,2023,10.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Ninh,63,2024,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bắc Ninh,63,2025,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Bến Tre,63,2010,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Bến Tre,63,2011,10.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Bến Tre,63,2012,10.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Bến Tre,63,2013,10.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Bến Tre,63,2014,10.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Bến Tre,63,2015,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Bến Tre,63,2016,9.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Bến Tre,63,2017,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Bến Tre,63,2018,9.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Bến Tre,63,2019,9.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Bến Tre,63,2020,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bến Tre,63,2021,9.22,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -76,6 +175,15 @@ Bến Tre,63,2022,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn
 Bến Tre,63,2023,9.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bến Tre,63,2024,8.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Bến Tre,63,2025,8.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Cao Bằng,63,2010,28.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Cao Bằng,63,2011,24.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Cao Bằng,63,2012,25.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Cao Bằng,63,2013,25.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Cao Bằng,63,2014,24.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Cao Bằng,63,2015,23.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Cao Bằng,63,2016,23.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Cao Bằng,63,2017,23.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Cao Bằng,63,2018,23.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Cao Bằng,63,2019,22.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Cao Bằng,63,2020,22.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cao Bằng,63,2021,20.14,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -83,6 +191,15 @@ Cao Bằng,63,2022,18.1,infant deaths per 1000 live births,"https://www.nso.gov.
 Cao Bằng,63,2023,17.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cao Bằng,63,2024,17.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cao Bằng,63,2025,17.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Cà Mau,63,2010,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Cà Mau,63,2011,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Cà Mau,63,2012,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Cà Mau,63,2013,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Cà Mau,63,2014,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Cà Mau,63,2015,11.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Cà Mau,63,2016,11.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Cà Mau,63,2017,10.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Cà Mau,63,2018,10.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Cà Mau,63,2019,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Cà Mau,63,2020,10.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cà Mau,63,2021,10.35,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -90,6 +207,15 @@ Cà Mau,63,2022,9.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/w
 Cà Mau,63,2023,9.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cà Mau,63,2024,8.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cà Mau,63,2025,8.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Cần Thơ,63,2010,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Cần Thơ,63,2011,9.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Cần Thơ,63,2012,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Cần Thơ,63,2013,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Cần Thơ,63,2014,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Cần Thơ,63,2015,9.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Cần Thơ,63,2016,9.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Cần Thơ,63,2017,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Cần Thơ,63,2018,8.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Cần Thơ,63,2019,8.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Cần Thơ,63,2020,8.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cần Thơ,63,2021,8.98,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -97,6 +223,15 @@ Cần Thơ,63,2022,8.4,infant deaths per 1000 live births,"https://www.nso.gov.v
 Cần Thơ,63,2023,8.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cần Thơ,63,2024,7.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Cần Thơ,63,2025,7.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Gia Lai,63,2010,25.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Gia Lai,63,2011,27.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Gia Lai,63,2012,30.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Gia Lai,63,2013,30.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Gia Lai,63,2014,28.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Gia Lai,63,2015,26.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Gia Lai,63,2016,25.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Gia Lai,63,2017,25.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Gia Lai,63,2018,25.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Gia Lai,63,2019,24.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Gia Lai,63,2020,24.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Gia Lai,63,2021,20.75,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -104,6 +239,15 @@ Gia Lai,63,2022,17.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/
 Gia Lai,63,2023,17.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Gia Lai,63,2024,16.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Gia Lai,63,2025,16.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hà Giang,63,2010,37.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hà Giang,63,2011,35.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hà Giang,63,2012,35.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hà Giang,63,2013,35.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hà Giang,63,2014,34.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hà Giang,63,2015,33.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hà Giang,63,2016,33.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hà Giang,63,2017,32.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hà Giang,63,2018,32.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hà Giang,63,2019,31.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hà Giang,63,2020,29.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Giang,63,2021,28.46,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -111,6 +255,15 @@ Hà Giang,63,2022,20.2,infant deaths per 1000 live births,"https://www.nso.gov.v
 Hà Giang,63,2023,19.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Giang,63,2024,20.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Giang,63,2025,19.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hà Nam,63,2010,15.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hà Nam,63,2011,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hà Nam,63,2012,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hà Nam,63,2013,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hà Nam,63,2014,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hà Nam,63,2015,12.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hà Nam,63,2016,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hà Nam,63,2017,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hà Nam,63,2018,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hà Nam,63,2019,11.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hà Nam,63,2020,11.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nam,63,2021,11.31,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -118,6 +271,15 @@ Hà Nam,63,2022,10.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/
 Hà Nam,63,2023,10.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nam,63,2024,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nam,63,2025,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hà Nội,63,2010,10.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hà Nội,63,2011,10.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hà Nội,63,2012,10.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hà Nội,63,2013,10.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hà Nội,63,2014,10.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hà Nội,63,2015,10.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hà Nội,63,2016,10.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hà Nội,63,2017,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hà Nội,63,2018,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hà Nội,63,2019,9.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hà Nội,63,2020,9.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nội,63,2021,9.22,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -125,6 +287,15 @@ Hà Nội,63,2022,8.5,infant deaths per 1000 live births,"https://www.nso.gov.vn
 Hà Nội,63,2023,8.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nội,63,2024,7.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Nội,63,2025,7.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hà Tĩnh,63,2010,17.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hà Tĩnh,63,2011,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hà Tĩnh,63,2012,18.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hà Tĩnh,63,2013,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hà Tĩnh,63,2014,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hà Tĩnh,63,2015,17.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hà Tĩnh,63,2016,16.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hà Tĩnh,63,2017,16.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hà Tĩnh,63,2018,16.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hà Tĩnh,63,2019,16.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hà Tĩnh,63,2020,16.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Tĩnh,63,2021,16.08,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -132,6 +303,15 @@ Hà Tĩnh,63,2022,14.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Hà Tĩnh,63,2023,14.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Tĩnh,63,2024,13.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hà Tĩnh,63,2025,13.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hòa Bình,63,2010,19.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hòa Bình,63,2011,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hòa Bình,63,2012,17.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hòa Bình,63,2013,17.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hòa Bình,63,2014,17.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hòa Bình,63,2015,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hòa Bình,63,2016,17.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hòa Bình,63,2017,16.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hòa Bình,63,2018,16.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hòa Bình,63,2019,16.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hòa Bình,63,2020,16.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hòa Bình,63,2021,16.38,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -139,6 +319,15 @@ Hòa Bình,63,2022,15.1,infant deaths per 1000 live births,"https://www.nso.gov.
 Hòa Bình,63,2023,14.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hòa Bình,63,2024,14.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hòa Bình,63,2025,14.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hưng Yên,63,2010,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hưng Yên,63,2011,13.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hưng Yên,63,2012,13.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hưng Yên,63,2013,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hưng Yên,63,2014,12.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hưng Yên,63,2015,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hưng Yên,63,2016,12.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hưng Yên,63,2017,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hưng Yên,63,2018,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hưng Yên,63,2019,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hưng Yên,63,2020,11.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hưng Yên,63,2021,11.39,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -146,6 +335,15 @@ Hưng Yên,63,2022,11.1,infant deaths per 1000 live births,"https://www.nso.gov.
 Hưng Yên,63,2023,10.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hưng Yên,63,2024,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hưng Yên,63,2025,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hải Dương,63,2010,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hải Dương,63,2011,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hải Dương,63,2012,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hải Dương,63,2013,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hải Dương,63,2014,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hải Dương,63,2015,11.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hải Dương,63,2016,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hải Dương,63,2017,11.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hải Dương,63,2018,11.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hải Dương,63,2019,11.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hải Dương,63,2020,11.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Dương,63,2021,10.97,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -153,6 +351,15 @@ Hải Dương,63,2022,10.7,infant deaths per 1000 live births,"https://www.nso.g
 Hải Dương,63,2023,10.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Dương,63,2024,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Dương,63,2025,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hải Phòng,63,2010,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hải Phòng,63,2011,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hải Phòng,63,2012,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hải Phòng,63,2013,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hải Phòng,63,2014,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hải Phòng,63,2015,12.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hải Phòng,63,2016,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hải Phòng,63,2017,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hải Phòng,63,2018,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hải Phòng,63,2019,11.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hải Phòng,63,2020,11.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Phòng,63,2021,11.35,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -160,6 +367,15 @@ Hải Phòng,63,2022,11.3,infant deaths per 1000 live births,"https://www.nso.go
 Hải Phòng,63,2023,10.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Phòng,63,2024,9.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hải Phòng,63,2025,9.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Hậu Giang,63,2010,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Hậu Giang,63,2011,10.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Hậu Giang,63,2012,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Hậu Giang,63,2013,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Hậu Giang,63,2014,10.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Hậu Giang,63,2015,10.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Hậu Giang,63,2016,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Hậu Giang,63,2017,9.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Hậu Giang,63,2018,9.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Hậu Giang,63,2019,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Hậu Giang,63,2020,9.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hậu Giang,63,2021,9.47,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -167,6 +383,15 @@ Hậu Giang,63,2022,9.0,infant deaths per 1000 live births,"https://www.nso.gov.
 Hậu Giang,63,2023,9.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hậu Giang,63,2024,8.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Hậu Giang,63,2025,7.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Khánh Hòa,63,2010,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Khánh Hòa,63,2011,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Khánh Hòa,63,2012,14.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Khánh Hòa,63,2013,14.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Khánh Hòa,63,2014,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Khánh Hòa,63,2015,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Khánh Hòa,63,2016,13.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Khánh Hòa,63,2017,13.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Khánh Hòa,63,2018,13.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Khánh Hòa,63,2019,13.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Khánh Hòa,63,2020,14.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Khánh Hòa,63,2021,13.11,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -174,6 +399,15 @@ Khánh Hòa,63,2022,12.5,infant deaths per 1000 live births,"https://www.nso.gov
 Khánh Hòa,63,2023,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Khánh Hòa,63,2024,11.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Khánh Hòa,63,2025,10.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Kiên Giang,63,2010,13.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Kiên Giang,63,2011,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Kiên Giang,63,2012,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Kiên Giang,63,2013,13.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Kiên Giang,63,2014,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Kiên Giang,63,2015,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Kiên Giang,63,2016,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Kiên Giang,63,2017,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Kiên Giang,63,2018,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Kiên Giang,63,2019,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Kiên Giang,63,2020,11.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kiên Giang,63,2021,11.91,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -181,6 +415,15 @@ Kiên Giang,63,2022,11.6,infant deaths per 1000 live births,"https://www.nso.gov
 Kiên Giang,63,2023,11.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kiên Giang,63,2024,10.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kiên Giang,63,2025,10.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Kon Tum,63,2010,38.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Kon Tum,63,2011,40.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Kon Tum,63,2012,40.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Kon Tum,63,2013,40.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Kon Tum,63,2014,38.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Kon Tum,63,2015,38.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Kon Tum,63,2016,37.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Kon Tum,63,2017,36.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Kon Tum,63,2018,36.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Kon Tum,63,2019,36.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Kon Tum,63,2020,32.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kon Tum,63,2021,31.29,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -188,6 +431,15 @@ Kon Tum,63,2022,26.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/
 Kon Tum,63,2023,25.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kon Tum,63,2024,24.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Kon Tum,63,2025,23.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Lai Châu,63,2010,46.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Lai Châu,63,2011,43.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Lai Châu,63,2012,44.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Lai Châu,63,2013,44.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Lai Châu,63,2014,42.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Lai Châu,63,2015,41.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Lai Châu,63,2016,41.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Lai Châu,63,2017,40.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Lai Châu,63,2018,40.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Lai Châu,63,2019,39.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Lai Châu,63,2020,36.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lai Châu,63,2021,31.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -195,6 +447,15 @@ Lai Châu,63,2022,25.6,infant deaths per 1000 live births,"https://www.nso.gov.v
 Lai Châu,63,2023,25.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lai Châu,63,2024,25.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lai Châu,63,2025,25.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Long An,63,2010,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Long An,63,2011,10.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Long An,63,2012,10.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Long An,63,2013,10.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Long An,63,2014,9.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Long An,63,2015,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Long An,63,2016,9.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Long An,63,2017,9.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Long An,63,2018,9.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Long An,63,2019,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Long An,63,2020,9.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Long An,63,2021,9.03,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -202,6 +463,15 @@ Long An,63,2022,8.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/w
 Long An,63,2023,8.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Long An,63,2024,7.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Long An,63,2025,7.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Lào Cai,63,2010,31.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Lào Cai,63,2011,29.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Lào Cai,63,2012,30.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Lào Cai,63,2013,30.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Lào Cai,63,2014,29.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Lào Cai,63,2015,28.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Lào Cai,63,2016,28.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Lào Cai,63,2017,27.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Lào Cai,63,2018,27.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Lào Cai,63,2019,27.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Lào Cai,63,2020,26.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lào Cai,63,2021,24.55,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -209,6 +479,15 @@ Lào Cai,63,2022,20.7,infant deaths per 1000 live births,"https://www.nso.gov.vn
 Lào Cai,63,2023,20.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lào Cai,63,2024,20.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lào Cai,63,2025,20.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Lâm Đồng,63,2010,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Lâm Đồng,63,2011,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Lâm Đồng,63,2012,16.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Lâm Đồng,63,2013,16.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Lâm Đồng,63,2014,16.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Lâm Đồng,63,2015,16.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Lâm Đồng,63,2016,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Lâm Đồng,63,2017,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Lâm Đồng,63,2018,15.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Lâm Đồng,63,2019,15.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Lâm Đồng,63,2020,14.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lâm Đồng,63,2021,14.84,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -216,6 +495,15 @@ Lâm Đồng,63,2022,14.1,infant deaths per 1000 live births,"https://www.nso.go
 Lâm Đồng,63,2023,13.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lâm Đồng,63,2024,13.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lâm Đồng,63,2025,13.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Lạng Sơn,63,2010,16.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Lạng Sơn,63,2011,19.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Lạng Sơn,63,2012,19.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Lạng Sơn,63,2013,19.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Lạng Sơn,63,2014,18.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Lạng Sơn,63,2015,18.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Lạng Sơn,63,2016,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Lạng Sơn,63,2017,17.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Lạng Sơn,63,2018,17.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Lạng Sơn,63,2019,17.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Lạng Sơn,63,2020,17.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lạng Sơn,63,2021,17.03,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -223,6 +511,15 @@ Lạng Sơn,63,2022,15.9,infant deaths per 1000 live births,"https://www.nso.gov
 Lạng Sơn,63,2023,15.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lạng Sơn,63,2024,15.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Lạng Sơn,63,2025,15.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Nam Định,63,2010,13.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Nam Định,63,2011,13.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Nam Định,63,2012,13.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Nam Định,63,2013,13.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Nam Định,63,2014,12.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Nam Định,63,2015,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Nam Định,63,2016,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Nam Định,63,2017,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Nam Định,63,2018,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Nam Định,63,2019,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Nam Định,63,2020,11.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nam Định,63,2021,11.82,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -230,6 +527,15 @@ Nam Định,63,2022,11.0,infant deaths per 1000 live births,"https://www.nso.gov
 Nam Định,63,2023,10.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nam Định,63,2024,9.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nam Định,63,2025,9.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Nghệ An,63,2010,16.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Nghệ An,63,2011,16.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Nghệ An,63,2012,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Nghệ An,63,2013,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Nghệ An,63,2014,16.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Nghệ An,63,2015,16.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Nghệ An,63,2016,16.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Nghệ An,63,2017,16.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Nghệ An,63,2018,16.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Nghệ An,63,2019,15.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Nghệ An,63,2020,15.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nghệ An,63,2021,15.17,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -237,6 +543,15 @@ Nghệ An,63,2022,14.3,infant deaths per 1000 live births,"https://www.nso.gov.v
 Nghệ An,63,2023,14.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nghệ An,63,2024,12.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Nghệ An,63,2025,12.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Ninh Bình,63,2010,15.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Ninh Bình,63,2011,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Ninh Bình,63,2012,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Ninh Bình,63,2013,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Ninh Bình,63,2014,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Ninh Bình,63,2015,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Ninh Bình,63,2016,14.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Ninh Bình,63,2017,13.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Ninh Bình,63,2018,13.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Ninh Bình,63,2019,13.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Ninh Bình,63,2020,12.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Bình,63,2021,12.36,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -244,6 +559,15 @@ Ninh Bình,63,2022,12.1,infant deaths per 1000 live births,"https://www.nso.gov.
 Ninh Bình,63,2023,11.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Bình,63,2024,10.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Bình,63,2025,10.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Ninh Thuận,63,2010,18.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Ninh Thuận,63,2011,18.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Ninh Thuận,63,2012,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Ninh Thuận,63,2013,17.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Ninh Thuận,63,2014,16.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Ninh Thuận,63,2015,16.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Ninh Thuận,63,2016,16.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Ninh Thuận,63,2017,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Ninh Thuận,63,2018,15.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Ninh Thuận,63,2019,15.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Ninh Thuận,63,2020,15.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Thuận,63,2021,15.18,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -251,6 +575,15 @@ Ninh Thuận,63,2022,14.2,infant deaths per 1000 live births,"https://www.nso.go
 Ninh Thuận,63,2023,13.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Thuận,63,2024,12.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Ninh Thuận,63,2025,12.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Phú Thọ,63,2010,18.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Phú Thọ,63,2011,17.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Phú Thọ,63,2012,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Phú Thọ,63,2013,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Phú Thọ,63,2014,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Phú Thọ,63,2015,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Phú Thọ,63,2016,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Phú Thọ,63,2017,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Phú Thọ,63,2018,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Phú Thọ,63,2019,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Phú Thọ,63,2020,14.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Thọ,63,2021,14.15,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -258,6 +591,15 @@ Phú Thọ,63,2022,12.8,infant deaths per 1000 live births,"https://www.nso.gov.
 Phú Thọ,63,2023,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Thọ,63,2024,12.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Thọ,63,2025,11.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Phú Yên,63,2010,19.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Phú Yên,63,2011,18.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Phú Yên,63,2012,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Phú Yên,63,2013,15.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Phú Yên,63,2014,15.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Phú Yên,63,2015,15.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Phú Yên,63,2016,14.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Phú Yên,63,2017,14.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Phú Yên,63,2018,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Phú Yên,63,2019,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Phú Yên,63,2020,14.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Yên,63,2021,14.16,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -265,6 +607,15 @@ Phú Yên,63,2022,13.8,infant deaths per 1000 live births,"https://www.nso.gov.v
 Phú Yên,63,2023,13.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Yên,63,2024,12.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Phú Yên,63,2025,11.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Quảng Bình,63,2010,18.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Quảng Bình,63,2011,19.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Quảng Bình,63,2012,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Quảng Bình,63,2013,17.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Quảng Bình,63,2014,17.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Quảng Bình,63,2015,17.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Quảng Bình,63,2016,16.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Quảng Bình,63,2017,16.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Quảng Bình,63,2018,16.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Quảng Bình,63,2019,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Quảng Bình,63,2020,16.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Bình,63,2021,15.93,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -272,6 +623,15 @@ Quảng Bình,63,2022,15.5,infant deaths per 1000 live births,"https://www.nso.g
 Quảng Bình,63,2023,15.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Bình,63,2024,13.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Bình,63,2025,13.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Quảng Nam,63,2010,19.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Quảng Nam,63,2011,19.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Quảng Nam,63,2012,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Quảng Nam,63,2013,17.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Quảng Nam,63,2014,16.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Quảng Nam,63,2015,16.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Quảng Nam,63,2016,16.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Quảng Nam,63,2017,16.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Quảng Nam,63,2018,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Quảng Nam,63,2019,15.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Quảng Nam,63,2020,15.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Nam,63,2021,15.28,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -279,6 +639,15 @@ Quảng Nam,63,2022,14.7,infant deaths per 1000 live births,"https://www.nso.gov
 Quảng Nam,63,2023,14.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Nam,63,2024,12.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Nam,63,2025,12.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Quảng Ngãi,63,2010,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Quảng Ngãi,63,2011,19.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Quảng Ngãi,63,2012,18.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Quảng Ngãi,63,2013,18.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Quảng Ngãi,63,2014,18.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Quảng Ngãi,63,2015,17.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Quảng Ngãi,63,2016,17.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Quảng Ngãi,63,2017,17.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Quảng Ngãi,63,2018,17.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Quảng Ngãi,63,2019,16.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Quảng Ngãi,63,2020,17.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ngãi,63,2021,16.81,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -286,6 +655,15 @@ Quảng Ngãi,63,2022,15.6,infant deaths per 1000 live births,"https://www.nso.g
 Quảng Ngãi,63,2023,15.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ngãi,63,2024,13.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ngãi,63,2025,12.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Quảng Ninh,63,2010,15.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Quảng Ninh,63,2011,16.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Quảng Ninh,63,2012,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Quảng Ninh,63,2013,15.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Quảng Ninh,63,2014,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Quảng Ninh,63,2015,15.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Quảng Ninh,63,2016,14.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Quảng Ninh,63,2017,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Quảng Ninh,63,2018,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Quảng Ninh,63,2019,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Quảng Ninh,63,2020,14.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ninh,63,2021,14.25,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -293,6 +671,15 @@ Quảng Ninh,63,2022,13.2,infant deaths per 1000 live births,"https://www.nso.go
 Quảng Ninh,63,2023,12.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ninh,63,2024,11.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Ninh,63,2025,11.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Quảng Trị,63,2010,36.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Quảng Trị,63,2011,35.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Quảng Trị,63,2012,33.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Quảng Trị,63,2013,33.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Quảng Trị,63,2014,32.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Quảng Trị,63,2015,31.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Quảng Trị,63,2016,31.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Quảng Trị,63,2017,30.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Quảng Trị,63,2018,30.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Quảng Trị,63,2019,30.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Quảng Trị,63,2020,30.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Trị,63,2021,26.69,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -300,6 +687,15 @@ Quảng Trị,63,2022,20.9,infant deaths per 1000 live births,"https://www.nso.g
 Quảng Trị,63,2023,20.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Trị,63,2024,18.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Quảng Trị,63,2025,17.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Sóc Trăng,63,2010,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Sóc Trăng,63,2011,14.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Sóc Trăng,63,2012,13.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Sóc Trăng,63,2013,13.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Sóc Trăng,63,2014,13.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Sóc Trăng,63,2015,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Sóc Trăng,63,2016,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Sóc Trăng,63,2017,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Sóc Trăng,63,2018,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Sóc Trăng,63,2019,12.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Sóc Trăng,63,2020,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sóc Trăng,63,2021,12.27,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -307,6 +703,15 @@ Sóc Trăng,63,2022,11.7,infant deaths per 1000 live births,"https://www.nso.gov
 Sóc Trăng,63,2023,11.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sóc Trăng,63,2024,10.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sóc Trăng,63,2025,10.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Sơn La,63,2010,25.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Sơn La,63,2011,24.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Sơn La,63,2012,24.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Sơn La,63,2013,24.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Sơn La,63,2014,23.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Sơn La,63,2015,22.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Sơn La,63,2016,22.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Sơn La,63,2017,22.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Sơn La,63,2018,22.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Sơn La,63,2019,21.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Sơn La,63,2020,21.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sơn La,63,2021,21.45,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -314,6 +719,15 @@ Sơn La,63,2022,17.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/
 Sơn La,63,2023,14.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sơn La,63,2024,14.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Sơn La,63,2025,14.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+TP. Hồ Chí Minh,63,2010,7.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+TP. Hồ Chí Minh,63,2011,7.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+TP. Hồ Chí Minh,63,2012,8.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+TP. Hồ Chí Minh,63,2013,8.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+TP. Hồ Chí Minh,63,2014,7.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+TP. Hồ Chí Minh,63,2015,7.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+TP. Hồ Chí Minh,63,2016,7.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+TP. Hồ Chí Minh,63,2017,7.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+TP. Hồ Chí Minh,63,2018,7.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 TP. Hồ Chí Minh,63,2019,7.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 TP. Hồ Chí Minh,63,2020,7.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 TP. Hồ Chí Minh,63,2021,7.75,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -321,6 +735,15 @@ TP. Hồ Chí Minh,63,2022,7.8,infant deaths per 1000 live births,"https://www.n
 TP. Hồ Chí Minh,63,2023,7.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 TP. Hồ Chí Minh,63,2024,7.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 TP. Hồ Chí Minh,63,2025,7.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Thanh Hóa,63,2010,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Thanh Hóa,63,2011,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Thanh Hóa,63,2012,16.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Thanh Hóa,63,2013,16.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Thanh Hóa,63,2014,15.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Thanh Hóa,63,2015,15.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Thanh Hóa,63,2016,15.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Thanh Hóa,63,2017,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Thanh Hóa,63,2018,14.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Thanh Hóa,63,2019,14.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Thanh Hóa,63,2020,14.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thanh Hóa,63,2021,14.41,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -328,6 +751,15 @@ Thanh Hóa,63,2022,13.8,infant deaths per 1000 live births,"https://www.nso.gov.
 Thanh Hóa,63,2023,13.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thanh Hóa,63,2024,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thanh Hóa,63,2025,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Thái Bình,63,2010,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Thái Bình,63,2011,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Thái Bình,63,2012,11.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Thái Bình,63,2013,10.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Thái Bình,63,2014,10.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Thái Bình,63,2015,10.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Thái Bình,63,2016,10.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Thái Bình,63,2017,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Thái Bình,63,2018,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Thái Bình,63,2019,9.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Thái Bình,63,2020,10.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Bình,63,2021,9.74,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -335,6 +767,15 @@ Thái Bình,63,2022,10.0,infant deaths per 1000 live births,"https://www.nso.gov
 Thái Bình,63,2023,9.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Bình,63,2024,8.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Bình,63,2025,8.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Thái Nguyên,63,2010,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Thái Nguyên,63,2011,13.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Thái Nguyên,63,2012,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Thái Nguyên,63,2013,15.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Thái Nguyên,63,2014,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Thái Nguyên,63,2015,14.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Thái Nguyên,63,2016,14.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Thái Nguyên,63,2017,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Thái Nguyên,63,2018,14.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Thái Nguyên,63,2019,13.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Thái Nguyên,63,2020,13.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Nguyên,63,2021,13.69,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -342,6 +783,15 @@ Thái Nguyên,63,2022,12.1,infant deaths per 1000 live births,"https://www.nso.g
 Thái Nguyên,63,2023,11.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Nguyên,63,2024,11.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thái Nguyên,63,2025,11.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Thừa Thiên Huế,63,2010,19.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Thừa Thiên Huế,63,2011,18.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Thừa Thiên Huế,63,2012,21.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Thừa Thiên Huế,63,2013,21.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Thừa Thiên Huế,63,2014,20.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Thừa Thiên Huế,63,2015,20.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Thừa Thiên Huế,63,2016,19.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Thừa Thiên Huế,63,2017,19.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Thừa Thiên Huế,63,2018,19.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Thừa Thiên Huế,63,2019,18.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Thừa Thiên Huế,63,2020,19.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thừa Thiên Huế,63,2021,17.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -349,6 +799,15 @@ Thừa Thiên Huế,63,2022,15.3,infant deaths per 1000 live births,"https://www
 Thừa Thiên Huế,63,2023,15.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thừa Thiên Huế,63,2024,13.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Thừa Thiên Huế,63,2025,13.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Tiền Giang,63,2010,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Tiền Giang,63,2011,9.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Tiền Giang,63,2012,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Tiền Giang,63,2013,9.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Tiền Giang,63,2014,9.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Tiền Giang,63,2015,9.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Tiền Giang,63,2016,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Tiền Giang,63,2017,8.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Tiền Giang,63,2018,8.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Tiền Giang,63,2019,8.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Tiền Giang,63,2020,8.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tiền Giang,63,2021,8.67,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -356,6 +815,15 @@ Tiền Giang,63,2022,8.9,infant deaths per 1000 live births,"https://www.nso.gov
 Tiền Giang,63,2023,8.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tiền Giang,63,2024,7.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tiền Giang,63,2025,7.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Trà Vinh,63,2010,15.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Trà Vinh,63,2011,13.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Trà Vinh,63,2012,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Trà Vinh,63,2013,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Trà Vinh,63,2014,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Trà Vinh,63,2015,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Trà Vinh,63,2016,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Trà Vinh,63,2017,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Trà Vinh,63,2018,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Trà Vinh,63,2019,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Trà Vinh,63,2020,11.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Trà Vinh,63,2021,11.41,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -363,6 +831,15 @@ Trà Vinh,63,2022,10.1,infant deaths per 1000 live births,"https://www.nso.gov.v
 Trà Vinh,63,2023,10.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Trà Vinh,63,2024,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Trà Vinh,63,2025,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Tuyên Quang,63,2010,19.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Tuyên Quang,63,2011,18.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Tuyên Quang,63,2012,18.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Tuyên Quang,63,2013,18.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Tuyên Quang,63,2014,18.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Tuyên Quang,63,2015,18.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Tuyên Quang,63,2016,18.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Tuyên Quang,63,2017,18.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Tuyên Quang,63,2018,17.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Tuyên Quang,63,2019,17.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Tuyên Quang,63,2020,17.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tuyên Quang,63,2021,17.76,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -370,6 +847,15 @@ Tuyên Quang,63,2022,15.6,infant deaths per 1000 live births,"https://www.nso.go
 Tuyên Quang,63,2023,15.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tuyên Quang,63,2024,15.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tuyên Quang,63,2025,15.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Tây Ninh,63,2010,13.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Tây Ninh,63,2011,12.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Tây Ninh,63,2012,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Tây Ninh,63,2013,12.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Tây Ninh,63,2014,12.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Tây Ninh,63,2015,11.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Tây Ninh,63,2016,11.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Tây Ninh,63,2017,11.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Tây Ninh,63,2018,11.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Tây Ninh,63,2019,11.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Tây Ninh,63,2020,11.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tây Ninh,63,2021,11.04,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -377,6 +863,15 @@ Tây Ninh,63,2022,10.9,infant deaths per 1000 live births,"https://www.nso.gov.v
 Tây Ninh,63,2023,10.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tây Ninh,63,2024,9.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Tây Ninh,63,2025,9.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Vĩnh Long,63,2010,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Vĩnh Long,63,2011,11.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Vĩnh Long,63,2012,10.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Vĩnh Long,63,2013,10.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Vĩnh Long,63,2014,10.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Vĩnh Long,63,2015,10.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Vĩnh Long,63,2016,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Vĩnh Long,63,2017,9.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Vĩnh Long,63,2018,9.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Vĩnh Long,63,2019,9.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Vĩnh Long,63,2020,9.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Long,63,2021,9.72,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -384,6 +879,15 @@ Vĩnh Long,63,2022,9.0,infant deaths per 1000 live births,"https://www.nso.gov.v
 Vĩnh Long,63,2023,9.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Long,63,2024,8.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Long,63,2025,8.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Vĩnh Phúc,63,2010,12.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Vĩnh Phúc,63,2011,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Vĩnh Phúc,63,2012,13.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Vĩnh Phúc,63,2013,13.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Vĩnh Phúc,63,2014,13.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Vĩnh Phúc,63,2015,12.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Vĩnh Phúc,63,2016,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Vĩnh Phúc,63,2017,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Vĩnh Phúc,63,2018,12.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Vĩnh Phúc,63,2019,12.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Vĩnh Phúc,63,2020,12.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Phúc,63,2021,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -391,6 +895,15 @@ Vĩnh Phúc,63,2022,11.0,infant deaths per 1000 live births,"https://www.nso.gov
 Vĩnh Phúc,63,2023,10.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Phúc,63,2024,9.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Vĩnh Phúc,63,2025,9.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Yên Bái,63,2010,26.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Yên Bái,63,2011,26.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Yên Bái,63,2012,29.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Yên Bái,63,2013,29.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Yên Bái,63,2014,28.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Yên Bái,63,2015,26.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Yên Bái,63,2016,26.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Yên Bái,63,2017,26.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Yên Bái,63,2018,25.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Yên Bái,63,2019,25.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Yên Bái,63,2020,25.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Yên Bái,63,2021,25.52,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -398,6 +911,15 @@ Yên Bái,63,2022,21.0,infant deaths per 1000 live births,"https://www.nso.gov.v
 Yên Bái,63,2023,19.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Yên Bái,63,2024,19.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Điện Biên,63,2010,37.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Điện Biên,63,2011,35.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Điện Biên,63,2012,35.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Điện Biên,63,2013,35.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Điện Biên,63,2014,34.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Điện Biên,63,2015,33.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Điện Biên,63,2016,33.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Điện Biên,63,2017,32.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Điện Biên,63,2018,32.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Điện Biên,63,2019,31.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Điện Biên,63,2020,29.7,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Điện Biên,63,2021,29.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -405,6 +927,15 @@ Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Điện Biên,63,2023,24.8,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Điện Biên,63,2024,25.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Điện Biên,63,2025,25.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Đà Nẵng,63,2010,10.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Đà Nẵng,63,2011,9.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Đà Nẵng,63,2012,9.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Đà Nẵng,63,2013,9.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Đà Nẵng,63,2014,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Đà Nẵng,63,2015,8.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Đà Nẵng,63,2016,8.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Đà Nẵng,63,2017,8.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Đà Nẵng,63,2018,8.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Đà Nẵng,63,2019,8.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Đà Nẵng,63,2020,8.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đà Nẵng,63,2021,8.19,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -412,6 +943,15 @@ Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Đà Nẵng,63,2023,8.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đà Nẵng,63,2024,7.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đà Nẵng,63,2025,7.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Đắk Lắk,63,2010,22.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Đắk Lắk,63,2011,22.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Đắk Lắk,63,2012,24.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Đắk Lắk,63,2013,24.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Đắk Lắk,63,2014,24.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Đắk Lắk,63,2015,24.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Đắk Lắk,63,2016,23.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Đắk Lắk,63,2017,23.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Đắk Lắk,63,2018,23.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Đắk Lắk,63,2019,22.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Đắk Lắk,63,2020,21.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Lắk,63,2021,19.98,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -419,6 +959,15 @@ Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Đắk Lắk,63,2023,18.5,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Lắk,63,2024,18.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Lắk,63,2025,18.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Đắk Nông,63,2010,26.6,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Đắk Nông,63,2011,26.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Đắk Nông,63,2012,28.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Đắk Nông,63,2013,28.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Đắk Nông,63,2014,27.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Đắk Nông,63,2015,25.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Đắk Nông,63,2016,25.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Đắk Nông,63,2017,24.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Đắk Nông,63,2018,24.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Đắk Nông,63,2019,24.3,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Đắk Nông,63,2020,24.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Nông,63,2021,23.53,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -426,6 +975,15 @@ Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Đắk Nông,63,2023,19.4,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Nông,63,2024,19.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đắk Nông,63,2025,18.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Đồng Nai,63,2010,9.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Đồng Nai,63,2011,9.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Đồng Nai,63,2012,8.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Đồng Nai,63,2013,8.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Đồng Nai,63,2014,7.8,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Đồng Nai,63,2015,7.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Đồng Nai,63,2016,7.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Đồng Nai,63,2017,7.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Đồng Nai,63,2018,7.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Đồng Nai,63,2019,7.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Đồng Nai,63,2020,7.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đồng Nai,63,2021,8.03,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final
@@ -433,6 +991,15 @@ Yên Bái,63,2025,18.7,infant deaths per 1000 live births,"https://www.nso.gov.v
 Đồng Nai,63,2023,8.0,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đồng Nai,63,2024,7.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đồng Nai,63,2025,7.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+Đồng Tháp,63,2010,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2010)",final
+Đồng Tháp,63,2011,12.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2011)",final
+Đồng Tháp,63,2012,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2012)",final
+Đồng Tháp,63,2013,12.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2013)",final
+Đồng Tháp,63,2014,12.1,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2014)",final
+Đồng Tháp,63,2015,11.9,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2015)",final
+Đồng Tháp,63,2016,11.7,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2016)",final
+Đồng Tháp,63,2017,11.5,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2017)",final
+Đồng Tháp,63,2018,11.4,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2018)",final
 Đồng Tháp,63,2019,11.2,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
 Đồng Tháp,63,2020,10.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
 Đồng Tháp,63,2021,11.27,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2021)",final

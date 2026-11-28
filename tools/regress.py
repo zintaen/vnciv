@@ -53,22 +53,38 @@ def idle(name, url):
 
 
 AT = "'#at=3119,7510,5.05'"
+# Map toggles: ON('id') → is that switch on; the default set Anh chose ("gọn hơn"), minus military (unchanged) and
+# the living switches whose phone default differs (trees).
+ON = "((id) => __app.ui.mapToggles().find((x) => x.id === id)?.on)"
+DEFAULT_ON = f"['roads','rail','hubs','rivers','wonders','places','ambient','trees','homes','seasons','boats','tet','military'].map({ON})"
+DEFAULT_OFF = (f"['resources','trade','communes','relics','worship','hospitals','universities','markets','beaches','reserves','metro','bridges',"
+               f"'peaks','passes','lakes','gates','parks','crafts','battles','festivals','sealevel','daynight','traffic','growth','split','weather','atmos-sound']"
+               f".map({ON})")
 CHECKS = [
     # --- battery ---
     idle("idle: home stops drawing after a minute and wakes on input", ""),
-    idle("idle: a lens stops drawing after a minute and wakes on input", "#lens=density"),
+    # traffic (planes, ships, trains) is what animates over a lens; it is off by default since the "gọn hơn" set
+    idle("idle: a lens stops drawing after a minute and wakes on input", "#lens=density&layers=traffic"),
     idle("idle: an advisor stops drawing after a minute and wakes on input", "#advisor=land"),
     # --- map layers in the link ---
     dict(name="empty layers= means the defaults, layers=none turns every layer off", url="#layers=",
-         steps=[("settle",), ("save", "empty", "[__app.state.showResources, location.hash.includes('layers')]"),
+         steps=[("settle",), ("save", "empty", f"[{ON}('roads'), location.hash.includes('layers'), __app.state.showResources]"),
                 ("goto", "#layers=none"), ("settle",)],
-         expect="S.empty[0]===true && S.empty[1]===false && __app.state.showResources===false && location.hash.includes('layers=none')"),
+         expect=f"S.empty[0]===true && S.empty[1]===false && S.empty[2]===false && {ON}('roads')===false && location.hash.includes('layers=none')"),
+    dict(name="default layers are the 'gọn hơn' set; a shared layers= link overrides them and round-trips",
+         steps=[("settle",), ("save", "def", f"[{DEFAULT_ON}, {DEFAULT_OFF}, location.hash.includes('layers')]"),
+                ("goto", "#layers=resources,traffic,daynight"), ("settle",),
+                ("save", "link", f"[{ON}('resources'), __app.state.showResources, {ON}('traffic'), {ON}('daynight'), {ON}('roads')]"),
+                ("js", "__app.ui.setMapToggle('rail', true)"), ("wait", 600), ("js", "__app.hash.flush()")],
+         expect="S.def[0].every(Boolean) && !S.def[1].some(Boolean) && !S.def[2] && S.link.join()==='true,true,true,true,false' "
+                "&& new URLSearchParams(location.hash.slice(1)).get('layers').split(',').sort().join()==='daynight,rail,resources,traffic' "
+                "|| (console.log(JSON.stringify(S)), false)"),
     # --- at= links ---
     dict(name="back from an advisor restores the at= link and its camera", url=AT.strip("'"),
-         steps=[("settle",), ("js", f"window.__c0={CAM}"), ("click", "#btn-advisors"), ("wait", 2500), ("js", "history.back()"), ("wait", 3000), ("settle",)],
+         steps=[("settle",), ("js", f"window.__c0={CAM}"), ("click", "#btn-more"), ("click", "#btn-advisors"), ("wait", 2500), ("js", "history.back()"), ("wait", 3000), ("settle",)],
          expect=f"(__app.hash.flush(), location.hash==={AT}) && __app.mode==null && {CAM}===window.__c0"),
     dict(name="esc from an advisor restores the at= link", url=AT.strip("'"),
-         steps=[("settle",), ("click", "#btn-advisors"), ("wait", 2500), ("key", "Escape"), ("wait", 2500), ("settle",)],
+         steps=[("settle",), ("click", "#btn-more"), ("click", "#btn-advisors"), ("wait", 2500), ("key", "Escape"), ("wait", 2500), ("settle",)],
          expect=f"(__app.hash.flush(), location.hash==={AT}) && __app.mode==null"),
     dict(name="a link's at= is kept by city view, an advisor and a province", url="#city=HN&view=city&at=3000,2500,1",
          steps=[("wait", 3000), ("settle",), ("save", "cv", "[__app.mode, (__app.hash.flush(), new URLSearchParams(location.hash.slice(1)).get('at'))]"),
@@ -115,9 +131,13 @@ CHECKS = [
                 ("until", "__app.mode==='city'"), ("wait", 1200), ("key", "Escape"), ("wait", 1500)],
          expect="__app.mode===null && document.activeElement.classList.contains('cv-open') && __app.state.selectedCity?.id==='HN' && !location.hash.includes('view=city') && new URLSearchParams(location.hash.slice(1)).get('at')===window.__at"),
     dict(name="focus returns to each top-bar control after enter then esc", url="?lang=en",
-         steps=[s for sel in ["#btn-help", "#btn-pedia", "#btn-share", "#btn-coffee", "#btn-tour", "#btn-lenses", "#btn-advisors"]
+         steps=[s for sel in ["#btn-help", "#btn-pedia", "#btn-coffee", "#btn-tour", "#btn-lenses"]
                 for s in [("focus", sel), ("key", "Enter"), ("wait", 450), ("key", "Escape"), ("wait", 250),
-                          ("js", f"if (!(document.activeElement===document.querySelector('{sel}') && __app.mode===null)) (window.__lost ||= []).push('{sel}')")]],
+                          ("js", f"if (!(document.activeElement===document.querySelector('{sel}') && __app.mode===null)) (window.__lost ||= []).push('{sel}')")]]
+               # Share and Advisors sit in the "More ▾" menu: Enter on the item, then Esc, returns focus to the More button
+               + [s for sel in ["#btn-share", "#btn-advisors"]
+                  for s in [("focus", "#btn-more"), ("key", "Enter"), ("focus", sel), ("key", "Enter"), ("wait", 450), ("key", "Escape"), ("wait", 250),
+                            ("js", f"if (!(document.activeElement.id==='btn-more' && __app.mode===null)) (window.__lost ||= []).push('{sel}')")]],
          expect="!window.__lost"),
     dict(name="timeline twin buttons: focus moves to prev when next reaches now", url="?lang=en",
          steps=[("click", ".tl-prev"), ("focus", ".tl-next"), ("key", "Enter")],
@@ -127,7 +147,7 @@ CHECKS = [
                 ("until", "__app.timeline.year===null && document.querySelector('.tl-play').getAttribute('aria-pressed')==='false'"), ("wait", 2600)],
          expect="__app.timeline.year===null && location.hash==='#lens=income' && history.length<=5"),
     dict(name="play from now back to now leaves no entry that Back steps through unchanged", url="#lens=income",
-         steps=[("wait", 800), ("save", "i", "navigation.currentEntry.index"), ("click", ".tl-play"), ("wait", 12000),
+         steps=[("wait", 800), ("save", "i", "navigation.currentEntry.index"), ("click", ".tl-play"), ("wait", 26000),  # 2010 → now: 17 years × 1.2 s + the merger replay
                 ("until", "__app.timeline.year===null && document.querySelector('.tl-play').getAttribute('aria-pressed')==='false'"), ("wait", 1500)],
          expect="navigation.currentEntry.index===S.i && location.hash==='#lens=income' || (console.log('entry', navigation.currentEntry.index, S.i), false)"),
     dict(name="back walks lens, city, city view in order",
@@ -150,9 +170,9 @@ CHECKS = [
          slow=["/js/ext/advisors/index.js"], steps=[("wait", 2500), ("settle",), ("save", "slow", f"[__app.mode, {CAM}]"), ("fast",),
                                                    ("goto", "#advisor=economy"), ("wait", 1000), ("settle",)],
          expect=f"S.slow[0]==='advisor' && S.slow[1]==={CAM}"),
-    # --- the lens-loading window (lenses.json still downloading) ---
+    # --- the lens-loading window (lenses_index.json still downloading) ---
     dict(name="while lenses load: almanac and report are clean, a pasted lens link waits and then applies",
-         slow=["/data/lenses.json"], delay=8, ready="!!window.__app", steps=[
+         slow=["/data/lenses_index.json"], delay=8, ready="!!window.__app", steps=[
              ("save", "early", "__app.data.lenses.lenses.length"), ("click", "#btn-pedia"), ("click", '#pedia-nav button[data-page="Lenses"]'),
              ("save", "pedia", "/\\(\\)|undefined|NaN/.test(document.getElementById('pedia-body').innerText)"), ("key", "Escape"),
              ("click", '[data-report="population"]'), ("save", "report", "!!document.querySelector('#yield-report .yr-lens')"), ("key", "Escape"),
@@ -160,13 +180,18 @@ CHECKS = [
              ("until", "__app.data.lenses.lenses.length>0"), ("wait", 1000)],
          expect="S.early===0 && !S.pedia && !S.report && S.hash && __app.state.lens?.id==='poverty' && __app.state.selectedCity?.id==='26' && !document.getElementById('legend').hidden"),
     # --- timeline marks ---
+    dict(name="while a lens's values load: the link keeps the lens, then it applies; a lens picked meanwhile wins",
+         url="#lens=poverty", slow=["/data/lens/poverty.json", "/data/lens/gini.json"], delay=4, ready="!!window.__app", steps=[
+             ("wait", 500), ("save", "early", "[__app.state.lens?.id ?? null, location.hash.includes('lens=poverty')]"),
+             ("until", "__app.state.lens?.id==='poverty'"), ("js", "__app.setLens('gini')"), ("js", "__app.setLens('density')"), ("wait", 5500)],
+         expect="S.early[1] && __app.state.lens?.id==='density' && location.hash.includes('lens=density') && !document.getElementById('legend').hidden"),
     dict(name="storm year: advisors button stays clickable on a phone", url="#lens=disasters&year=2017", vp=(390, 844), phone=True,
-         steps=[("click", "#btn-advisors"), ("wait", 1500)], expect="__app.mode==='advisor'"),
+         steps=[("click", "#btn-more"), ("click", "#btn-advisors"), ("wait", 1500)], expect="__app.mode==='advisor'"),
     dict(name="storm year: timeline mark stays clickable on desktop", url="#lens=disasters&year=2017",
          steps=[("click", ".tl-mark"), ("wait", 800)], expect="location.hash.includes('lens=disasters')"),
     # --- share ---
     dict(name="share image file name and saved caption", url="?lang=en#state=HCM&lens=density",
-         steps=[("wait", 1500), ("click", "#btn-share"), ("download", "#share-pop [data-act=image]")],
+         steps=[("wait", 1500), ("click", "#btn-more"), ("click", "#btn-share"), ("download", "#share-pop [data-act=image]")],
          expect="window.__dl==='vietnam-density-tp-ho-chi-minh.png' && document.querySelector('.sp-status').textContent.includes(window.__dl)"),
     # --- panels ---
     dict(name="deep-linked province panel (phone) has the ethnic section", url="?lang=en#state=LCA", vp=(390, 844), phone=True,
@@ -301,6 +326,9 @@ def run(browser, c):
 
 
 def main():
+    sys.path.insert(0, str(WEB.parent))
+    from pipeline.build import pack
+    pack.ensure()  # the page loads lenses_index.json + lens/<id>.json, made from lenses.json
     serve_if_needed()
     sel = [a.lower() for a in sys.argv[1:]]
     todo = [c for c in CHECKS if not sel or any(s in c["name"].lower() for s in sel)]

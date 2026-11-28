@@ -6,3 +6,6 @@ __pycache__/
 reference/
 .DS_Store
 *.log
+# made from web/data/lenses.json by pipeline/build/pack.py (any lenses.json write, `pipeline serve`, CI)
+web/data/lenses_index.json
+web/data/lens/

@@ -1,0 +1,11 @@
+{
+ "Bản đồ tra cứu các đơn vị hành chính Việt Nam: diện tích và dân số 2025 cấp xã": "Bản đồ tra cứu các đơn vị hành chính Việt Nam: diện tích và dân số 2025 cấp xã",
+ "Ministry of Agriculture and Environment / Vietnam Natural Resources, Environment and Cartography Publishing House (sapnhap.bando.com.vn; ISBN 978-632-622-303-3)": "Bộ Nông nghiệp và Môi trường / Nhà xuất bản Tài nguyên - Môi trường và Bản đồ Việt Nam (sapnhap.bando.com.vn; ISBN 978-632-622-303-3)",
+ "Non-commercial public-service publication of the State (\"xuất bản phẩm không kinh doanh, phục vụ cộng đồng\"); used with attribution; only the facts are used": "Xuất bản phẩm không kinh doanh, phục vụ cộng đồng của Nhà nước; sử dụng có ghi nguồn; chỉ dùng các số liệu",
+ "Bản đồ sáp nhập (bando.com.vn), lấy ngày 28/11/2026; dân số 2025": "Bản đồ sáp nhập (bando.com.vn), lấy ngày 28/11/2026; dân số 2025",
+ "POST, form field ma = the province's id on the map (in the url); response \"<province json>.synt.<commune json array>\"": "POST, trường ma = mã của tỉnh, thành phố trên bản đồ (trong url); kết quả trả về \"<province json>.synt.<commune json array>\"",
+ "POST form ma=0: the full list of units": "POST ma=0: danh sách đầy đủ các đơn vị",
+ "The page's 'Xuất Excel' export of the 34-province table, saved by hand (column 'Dân số 2025 (người)')": "Bảng 34 tỉnh, thành phố xuất bằng nút \"Xuất Excel\" của trang, lưu thủ công (cột \"Dân số 2025 (người)\")",
+ "Population density by commune": "Mật độ dân số theo xã",
+ "For each commune, ward and special zone of the two-tier local government: natural area (km²), population 2025 (people) and the resolution that formed it, as the official merger map's data service returned them on 28 November 2026; and the map's table of the 34 provinces with their 2025 population. Each value is checked against the unit's outline and WorldPop before it is shown (communes.json stats.rules).": "Với mỗi xã, phường, đặc khu của chính quyền địa phương hai cấp: diện tích tự nhiên (km²), dân số 2025 (người) và nghị quyết thành lập, đúng như dịch vụ dữ liệu của bản đồ sáp nhập chính thức trả về ngày 28/11/2026; cùng bảng 34 tỉnh, thành phố của bản đồ với dân số 2025. Mỗi giá trị được đối chiếu với ranh giới của đơn vị và WorldPop trước khi hiển thị (stats.rules trong communes.json)."
+}

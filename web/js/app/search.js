@@ -2,6 +2,7 @@
 import { esc, kindOf, popShort, viOrder } from "../format.js";
 import { icon } from "../ui/icon.js";
 import { t } from "../i18n.js";
+import { track } from "./telemetry.js";
 
 /** "Hà Nội" → "ha noi": no diacritics, đ → d, words split on anything else (also matches URL names). */
 export const norm = (s) => String(s || "").replace(/[đĐ]/g, "d").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -109,6 +110,7 @@ export function initSearch(opts) {
   function choose(i) {
     const e = results[i];
     if (!e) return;
+    track("search_used", { kind: e.kind }); // the kind of result only, never the query
     close();
     input.value = "";
     input.blur();

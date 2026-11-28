@@ -10,26 +10,34 @@
 import { t, lang } from "../../i18n.js";
 import { int, fixed, pct, kindOf, yieldValue } from "../../format.js";
 import { WORLD_BANK as WB, WIKI } from "./sources.js";
+import { moreChapters, evText, evTitle } from "./more.js";
 
 const NSO = "https://www.nso.gov.vn/";
 const IBTRACS = "https://www.ncei.noaa.gov/products/international-best-track-archive";
 const ETOPO = "https://www.ncei.noaa.gov/products/etopo-global-relief-model";
+const MEKONG_DEM = "https://doi.org/10.1038/s41467-019-11602-1"; // Nature Communications 10:3847; DEM: doi:10.1594/PANGAEA.902136 (CC BY 4.0)
 const DELTA = ["AGI", "DTH", "CTH", "VLO", "CMA"]; // the 2025 provinces of the Mekong Delta's lower course (the story's choice)
 const MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 
 /** "30/4/2026" (vi) / "30 Apr 2026" (en) for an ISO date. */
 export function fmtDate(s) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ""));
-  if (!m) return String(s || "");
-  return lang === "vi" ? `${+m[3]}/${+m[2]}/${m[1]}` : `${+m[3]} ${MON[+m[2] - 1]} ${m[1]}`;
+  const str = String(s || "");
+  const y = /^(-?)(\d{4})$/.exec(str); // a year; astronomical numbering before the common era ("-0256" = 257 BCE)
+  if (y) return y[1] ? (lang === "vi" ? `${1 + +y[2]} TCN` : `${1 + +y[2]} BCE`) : String(+y[2]);
+  const ym = /^(\d{4})-(\d{2})$/.exec(str);
+  if (ym) return lang === "vi" ? `tháng ${+ym[2]}/${+ym[1]}` : `${MON[+ym[2] - 1]} ${+ym[1]}`;
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(str);
+  if (!m) return str;
+  return lang === "vi" ? `${+m[3]}/${+m[2]}/${+m[1]}` : `${+m[3]} ${MON[+m[2] - 1]} ${+m[1]}`;
 }
 const num1 = (x) => fixed(x, 1);
 const cite = (label, url) => ({ label, url });
 const C_NSO = () => cite(t("NSO, Statistical Yearbooks"), NSO);
 const C_WB = (s) => cite(`${t("World Bank")} ${s.id}`, s.url);
 
-/** D = {T timeline, N nation, states, raw (world.json), grid, lenses (lenses.json), cities, history, merger, disasters, sealevel} */
-export function buildChapters(D) {
+/** D = {T timeline, N nation, states, raw (world.json), grid, lenses (lenses.json), cities, history, merger, disasters, sealevel,
+ *  and for more.js: roads (living_roads), built (living_built), geo, forest (forest_loss), wonders, places, ethnic} */
+export function buildChapters(D, { keepShort = false } = {}) {
   const T = D.T || {}, N = D.N || {}, raw = D.raw || {}, grid = D.grid;
   const states = D.states || [];
   const byAbbr = new Map(states.map((s, i) => [s.abbr, { ...s, index: i }]));
@@ -68,7 +76,8 @@ export function buildChapters(D) {
   }
   const facts = (...a) => a.filter(Boolean);
   // a history.json sentence with its date in front, unless the (translated) sentence already gives it
-  const dated = (e) => { const tx = t(e.text), d = fmtDate(e.date); return tx.includes(d) ? tx : t("{date}: {text}", { date: d, text: tx }); };
+  // (a sentence that names the event's year already dates it)
+  const dated = (e) => { const tx = evText(e), d = fmtDate(e.date); return tx.includes(d) || new RegExp(`(^|\\D)${Math.abs(e.year)}(\\D|$)`).test(tx) ? tx : t("{date}: {text}", { date: d, text: tx }); };
 
   // --- 1. Đổi Mới -------------------------------------------------------------------------------------------------
   const g = WB.gdp_pc_const.values, u = WB.urban.values, pv = WB.poverty_300.values;
@@ -78,7 +87,7 @@ export function buildChapters(D) {
   const gdpY0 = Object.keys(N.series?.grdp_per_capita?.values || {}).map(Number).sort()[0];
   const gdpTop = topOf("grdp_per_capita", 2025, "gdp_pc");
   const doimoi = {
-    id: "doimoi", title: t("Đổi Mới, 1986 to today"), blurb: t("Growth, poverty and towns since the 1986 reforms"),
+    id: "doimoi", theme: "growth", title: t("Đổi Mới, 1986 to today"), blurb: t("Growth, poverty and towns since the 1986 reforms"),
     steps: [
       { title: t("Đổi Mới, December 1986"), lens: null, year: null, cam: at(city.get("HN"), 2.2),
         facts: facts(t("The Đổi Mới reforms were adopted at the Communist Party's 6th National Congress, held in Ba Đình Hall, Hà Nội, on 15–18 December 1986."),
@@ -145,7 +154,7 @@ export function buildChapters(D) {
   const deltaMerge = DELTA.map((a) => mg.get(a)).filter(Boolean)
     .map((p) => t("{name}: {members}", { name: p.name, members: p.members.map((m) => m.name).join(", ") }));
   const mekong = {
-    id: "mekong", title: t("Down the Mekong"), blurb: t("From the border to the delta: rice, low land and the 2025 merger"),
+    id: "mekong", theme: "nature", title: t("Down the Mekong"), blurb: t("From the border to the delta: rice, low land and the 2025 merger"),
     steps: [
       { title: t("The Mekong enters Vietnam"), lens: null, year: null, cam: entry ? { x: entry.x, y: entry.y, z: 2.4 } : stAt("AGI", 2),
         facts: facts(entryProv && t("The Mekong crosses into Vietnam in {name}.", { name: entryProv }),
@@ -158,11 +167,11 @@ export function buildChapters(D) {
       { title: t("Low land"), lens: "low_lying", year: null, fit: DELTA, hl: DELTA,
         facts: facts(lowTop && t("{name}: on average {p} of each land hex lies at or below 2 m.", { name: lowTop.name, p: pct(lowTop.v, 0) }),
           t("ETOPO1 elevation (~1.8 km), no dykes, tides or storm surge: an exposure indicator, not a forecast.")),
-        cite: [cite("ETOPO1", ETOPO)] },
+        cite: [cite("ETOPO1", ETOPO), cite("Minderhoud et al. 2019", MEKONG_DEM)] },
       { title: t("If the sea rose 1 m"), lens: null, year: null, layers: ["sealevel"], fit: DELTA, hl: DELTA,
         facts: facts(sl1 && t("{a} km² of Vietnam's land lies at or below 1 m above the sea; {b} km² of it in these five provinces.", { a: int(sl1.all), b: int(sl1.delta) }),
-          t("Global elevation models overstate the height of low deltas such as the Mekong's, so the real area is likely larger.")),
-        cite: [cite("ETOPO1", ETOPO)] },
+          t("In the Mekong delta the map uses an elevation model built from national topographic-map points (Minderhoud et al. 2019): it puts the delta's mean elevation at about 0.8 m above sea level, against the about 2.6 m assumed earlier.")),
+        cite: [cite("ETOPO1", ETOPO), cite("Minderhoud et al. 2019", MEKONG_DEM)] },
       { title: t("One delta, five provinces"), lens: null, year: 2025, replay: "merger", fit: DELTA,
         facts: facts(deltaMerge.length && t("Since {date}: {list}.", { date: fmtDate(D.merger?.date || T.merger?.date), list: deltaMerge.join("; ") })),
         cite: [cite("Resolution 202/2025/QH15", hist.get("res_202_2025")?.cite || WIKI.units.url)] },
@@ -180,7 +189,7 @@ export function buildChapters(D) {
   const yagiProv = (yagiD?.provinces || []).filter((a) => byAbbr.has(a));
   const W = WIKI.yagi;
   const yagiCh = {
-    id: "yagi", title: t("Typhoon Yagi, 2024"), blurb: t("The real IBTrACS track, and what it cost"),
+    id: "yagi", theme: "nature", title: t("Typhoon Yagi, 2024"), blurb: t("The real IBTrACS track, and what it cost"),
     steps: [
       { title: t("The 2024 storm season"), lens: "disasters", year: 2024, cam: stAt("QNI", 0.8),
         facts: facts(s24.length && t("{n} storms passed within 100 km of Vietnam in 2024 (IBTrACS).", { n: s24.length }),
@@ -212,13 +221,13 @@ export function buildChapters(D) {
   const six = cities9.filter((s) => !newAbbr.has(s.abbr));
   const U = WIKI.units, res202 = ev("res_202_2025"), m25 = (T.events || []).find((e) => e.id === "merger_2025");
   const cityStep = ({ e, st }, last) => ({
-    title: t(e.title), lens: null, year: null, fit: [st.abbr], hl: [st.abbr],
+    title: evTitle(e), lens: null, year: null, fit: [st.abbr], hl: [st.abbr],
     facts: facts(dated(e),
       last && t("As of 20 September 2026 Vietnam has {n} province-level units: {p} provinces and {c} centrally governed cities.", { n: U.sep2026.units, p: U.sep2026.provinces, c: U.sep2026.cities })),
     cite: [cite("Wikipedia", e.cite || U.url)].concat(last ? [cite("Wikipedia: Đơn vị hành chính cấp tỉnh", U.url)] : []),
   });
   const p34 = {
-    id: "p34", title: t("34 new provinces, 2025"), blurb: t("The 63 → 34 merger and the new centrally governed cities"),
+    id: "p34", theme: "history", title: t("34 new provinces, 2025"), blurb: t("The 63 → 34 merger and the new centrally governed cities"),
     steps: [
       { title: t("63 provinces"), lens: null, year: 2024, cam: { x: null, y: null, z: 0 },
         facts: facts(t("At the end of 2024 Vietnam had {n} province-level units: {p} provinces and {c} centrally governed cities.", { n: U.end2024.units, p: U.end2024.provinces, c: U.end2024.cities }),
@@ -236,5 +245,17 @@ export function buildChapters(D) {
     ],
   };
 
-  return [doimoi, mekong, yagiCh, p34].map((ch) => ({ ...ch, steps: ch.steps.map((s) => ({ layers: [], cam: null, fit: null, hl: null, replay: null, ...s })) }));
+  // a hex lens's mean over each province's land hexes (Hoàng Sa / Trường Sa left out): the highest and lowest province
+  function provMean(id) {
+    const l = lens.get(id);
+    if (!l?.values || !raw.owner) return null;
+    const rem = new Set(raw.remote || []), acc = new Map();
+    l.values.forEach((v, i) => { const o = raw.owner[i]; if (v == null || o < 0 || rem.has(i)) return; const a = acc.get(o) || [0, 0]; a[0] += v; a[1]++; acc.set(o, a); });
+    const m = [...acc].filter(([, [, n]]) => n >= 5).map(([o, [v, n]]) => ({ a: raw.states[o]?.abbr, v: v / n })).filter((o) => byAbbr.has(o.a)).sort((x, y) => y.v - x.v);
+    return m.length ? { l, hi: m[0], lo: m.at(-1), all: m } : null;
+  }
+  const fmtLens = (l, v) => (l.format === "pct" ? pct(v) : num1(v));
+  const srcCite = (id) => { const s = (D.sources || []).find((x) => x.id === id); return s ? cite(t(s.title), s.homepage) : C_NSO(); };
+  const more = moreChapters(D, { at, stAt, byAbbr, city, lens, nat, dated, fmtDate, T, raw, grid, states, provMean, fmtLens, srcCite });
+  return [doimoi, mekong, yagiCh, p34, ...more].filter((ch) => keepShort || ch.steps.length >= 4).map((ch) => ({ ...ch, steps: ch.steps.map((s) => ({ layers: [], cam: null, fit: null, hl: null, replay: null, ...s })) }));
 }

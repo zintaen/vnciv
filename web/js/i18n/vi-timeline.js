@@ -49,4 +49,5 @@ export default {
   "Average population adjusted to the Population and Housing Census of 1 April 2019 (Statistical Yearbook 2019 footnote).": "Dân số trung bình đã điều chỉnh theo Tổng điều tra dân số và nhà ở ngày 1/4/2019 (chú thích Niên giám Thống kê 2019).",
   "HDI from 2020 uses the World Bank's 2017 PPPs (Statistical Yearbook 2025, p.1485 footnote); 2019 comes from the 2022 yearbook.": "HDI từ năm 2020 tính theo sức mua tương đương (PPP) năm 2017 của Ngân hàng Thế giới (Niên giám Thống kê 2025, chú thích trang 1485); số năm 2019 lấy từ niên giám 2022.",
   "{year} tracks are provisional and may still change.": "Quỹ đạo năm {year} là số liệu tạm thời, có thể còn thay đổi.",
+  "See the borders of that year": "Xem ranh giới năm đó",
 };

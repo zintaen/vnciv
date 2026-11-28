@@ -22,6 +22,9 @@ def write_web(name, obj):
     tmp.write_text(json.dumps(obj, ensure_ascii=False, separators=(",", ":"), allow_nan=False))
     tmp.replace(WEB / name)
     print(f"    wrote web/data/{name} ({(WEB / name).stat().st_size // 1024} kB)")
+    if name == "lenses.json":  # keep the browser's split copy (lenses_index.json + lens/<id>.json) in step
+        from .build.pack import pack
+        pack(obj)
 
 
 def load_web(name):

@@ -1,4 +1,13 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2010,7.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+An Giang,63,2011,7.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+An Giang,63,2012,8.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+An Giang,63,2013,10.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+An Giang,63,2014,9.83,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+An Giang,63,2015,9.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+An Giang,63,2016,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+An Giang,63,2017,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+An Giang,63,2018,13.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 An Giang,63,2019,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 An Giang,63,2020,13.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 An Giang,63,2021,13.38,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -6,6 +15,15 @@ An Giang,63,2022,14.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/u
 An Giang,63,2023,15.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 An Giang,63,2024,16.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 An Giang,63,2025,16.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bà Rịa - Vũng Tàu,63,2010,15.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bà Rịa - Vũng Tàu,63,2011,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bà Rịa - Vũng Tàu,63,2012,22.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bà Rịa - Vũng Tàu,63,2013,23.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bà Rịa - Vũng Tàu,63,2014,24.72,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bà Rịa - Vũng Tàu,63,2015,25.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bà Rịa - Vũng Tàu,63,2016,25.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bà Rịa - Vũng Tàu,63,2017,26.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bà Rịa - Vũng Tàu,63,2018,25.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bà Rịa - Vũng Tàu,63,2019,27.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,30.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bà Rịa - Vũng Tàu,63,2021,29.89,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -13,6 +31,15 @@ Bà Rịa - Vũng Tàu,63,2022,28.0,% of labour force 15+,"https://www.nso.gov.v
 Bà Rịa - Vũng Tàu,63,2023,28.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bà Rịa - Vũng Tàu,63,2024,30.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bà Rịa - Vũng Tàu,63,2025,30.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bình Dương,63,2010,13.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bình Dương,63,2011,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bình Dương,63,2012,14.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bình Dương,63,2013,17.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bình Dương,63,2014,18.21,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bình Dương,63,2015,16.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bình Dương,63,2016,17.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bình Dương,63,2017,18.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bình Dương,63,2018,20.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bình Dương,63,2019,21.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bình Dương,63,2020,20.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Dương,63,2021,21.03,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -20,6 +47,15 @@ Bình Dương,63,2022,21.1,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Bình Dương,63,2023,23.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Dương,63,2024,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Dương,63,2025,24.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bình Phước,63,2010,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bình Phước,63,2011,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bình Phước,63,2012,13.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bình Phước,63,2013,15.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bình Phước,63,2014,15.91,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bình Phước,63,2015,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bình Phước,63,2016,13.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bình Phước,63,2017,14.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bình Phước,63,2018,16.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bình Phước,63,2019,15.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bình Phước,63,2020,18.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Phước,63,2021,19.21,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -27,6 +63,15 @@ Bình Phước,63,2022,20.1,% of labour force 15+,"https://www.nso.gov.vn/wp-con
 Bình Phước,63,2023,20.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Phước,63,2024,21.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Phước,63,2025,21.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bình Thuận,63,2010,10.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bình Thuận,63,2011,9.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bình Thuận,63,2012,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bình Thuận,63,2013,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bình Thuận,63,2014,12.36,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bình Thuận,63,2015,13.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bình Thuận,63,2016,13.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bình Thuận,63,2017,15.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bình Thuận,63,2018,14.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bình Thuận,63,2019,16.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bình Thuận,63,2020,15.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Thuận,63,2021,18.29,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -34,6 +79,15 @@ Bình Thuận,63,2022,18.5,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Bình Thuận,63,2023,19.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Thuận,63,2024,21.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Thuận,63,2025,22.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bình Định,63,2010,9.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bình Định,63,2011,11.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bình Định,63,2012,13.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bình Định,63,2013,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bình Định,63,2014,14.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bình Định,63,2015,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bình Định,63,2016,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bình Định,63,2017,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bình Định,63,2018,21.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bình Định,63,2019,19.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bình Định,63,2020,21.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Định,63,2021,24.96,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -41,6 +95,15 @@ Bình Định,63,2022,25.0,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Bình Định,63,2023,25.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Định,63,2024,26.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bình Định,63,2025,26.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bạc Liêu,63,2010,6.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bạc Liêu,63,2011,6.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bạc Liêu,63,2012,8.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bạc Liêu,63,2013,9.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bạc Liêu,63,2014,9.56,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bạc Liêu,63,2015,9.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bạc Liêu,63,2016,10.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bạc Liêu,63,2017,11.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bạc Liêu,63,2018,8.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bạc Liêu,63,2019,8.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bạc Liêu,63,2020,10.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bạc Liêu,63,2021,10.66,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -48,6 +111,15 @@ Bạc Liêu,63,2022,12.2,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Bạc Liêu,63,2023,13.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bạc Liêu,63,2024,14.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bạc Liêu,63,2025,14.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bắc Giang,63,2010,13.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bắc Giang,63,2011,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bắc Giang,63,2012,14.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bắc Giang,63,2013,16.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bắc Giang,63,2014,16.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bắc Giang,63,2015,17.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bắc Giang,63,2016,17.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bắc Giang,63,2017,17.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bắc Giang,63,2018,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bắc Giang,63,2019,18.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bắc Giang,63,2020,19.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Giang,63,2021,26.72,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -55,6 +127,15 @@ Bắc Giang,63,2022,32.0,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Bắc Giang,63,2023,32.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Giang,63,2024,33.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Giang,63,2025,34.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bắc Kạn,63,2010,12.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bắc Kạn,63,2011,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bắc Kạn,63,2012,12.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bắc Kạn,63,2013,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bắc Kạn,63,2014,12.45,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bắc Kạn,63,2015,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bắc Kạn,63,2016,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bắc Kạn,63,2017,17.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bắc Kạn,63,2018,17.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bắc Kạn,63,2019,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bắc Kạn,63,2020,16.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Kạn,63,2021,27.02,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -62,6 +143,15 @@ Bắc Kạn,63,2022,27.6,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Bắc Kạn,63,2023,28.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Kạn,63,2024,29.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Kạn,63,2025,29.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bắc Ninh,63,2010,15.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bắc Ninh,63,2011,19.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bắc Ninh,63,2012,19.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bắc Ninh,63,2013,20.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bắc Ninh,63,2014,21.81,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bắc Ninh,63,2015,21.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bắc Ninh,63,2016,21.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bắc Ninh,63,2017,22.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bắc Ninh,63,2018,28.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bắc Ninh,63,2019,28.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bắc Ninh,63,2020,27.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Ninh,63,2021,33.49,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -69,6 +159,15 @@ Bắc Ninh,63,2022,34.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Bắc Ninh,63,2023,34.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Ninh,63,2024,35.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bắc Ninh,63,2025,38.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Bến Tre,63,2010,9.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Bến Tre,63,2011,9.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Bến Tre,63,2012,7.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Bến Tre,63,2013,8.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Bến Tre,63,2014,9.32,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Bến Tre,63,2015,12.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Bến Tre,63,2016,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Bến Tre,63,2017,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Bến Tre,63,2018,9.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Bến Tre,63,2019,11.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Bến Tre,63,2020,12.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bến Tre,63,2021,12.95,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -76,6 +175,15 @@ Bến Tre,63,2022,11.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Bến Tre,63,2023,12.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bến Tre,63,2024,13.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Bến Tre,63,2025,14.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Cao Bằng,63,2010,17.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Cao Bằng,63,2011,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Cao Bằng,63,2012,20.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Cao Bằng,63,2013,19.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Cao Bằng,63,2014,20.17,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Cao Bằng,63,2015,18.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Cao Bằng,63,2016,19.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Cao Bằng,63,2017,21.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Cao Bằng,63,2018,20.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Cao Bằng,63,2019,20.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Cao Bằng,63,2020,21.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cao Bằng,63,2021,24.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -83,6 +191,15 @@ Cao Bằng,63,2022,25.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Cao Bằng,63,2023,25.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cao Bằng,63,2024,26.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cao Bằng,63,2025,26.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Cà Mau,63,2010,5.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Cà Mau,63,2011,5.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Cà Mau,63,2012,5.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Cà Mau,63,2013,7.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Cà Mau,63,2014,7.42,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Cà Mau,63,2015,10.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Cà Mau,63,2016,10.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Cà Mau,63,2017,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Cà Mau,63,2018,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Cà Mau,63,2019,12.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Cà Mau,63,2020,13.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cà Mau,63,2021,14.08,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -90,6 +207,15 @@ Cà Mau,63,2022,14.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Cà Mau,63,2023,15.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cà Mau,63,2024,16.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cà Mau,63,2025,17.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Cần Thơ,63,2010,11.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Cần Thơ,63,2011,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Cần Thơ,63,2012,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Cần Thơ,63,2013,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Cần Thơ,63,2014,17.39,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Cần Thơ,63,2015,19.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Cần Thơ,63,2016,20.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Cần Thơ,63,2017,21.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Cần Thơ,63,2018,24.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Cần Thơ,63,2019,16.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Cần Thơ,63,2020,20.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cần Thơ,63,2021,24.18,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -97,6 +223,15 @@ Cần Thơ,63,2022,22.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Cần Thơ,63,2023,23.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cần Thơ,63,2024,25.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Cần Thơ,63,2025,25.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Gia Lai,63,2010,7.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Gia Lai,63,2011,9.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Gia Lai,63,2012,10.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Gia Lai,63,2013,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Gia Lai,63,2014,10.91,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Gia Lai,63,2015,10.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Gia Lai,63,2016,11.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Gia Lai,63,2017,11.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Gia Lai,63,2018,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Gia Lai,63,2019,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Gia Lai,63,2020,14.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Gia Lai,63,2021,15.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -104,6 +239,15 @@ Gia Lai,63,2022,15.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Gia Lai,63,2023,15.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Gia Lai,63,2024,16.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Gia Lai,63,2025,16.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hà Giang,63,2010,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hà Giang,63,2011,10.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hà Giang,63,2012,9.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hà Giang,63,2013,9.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hà Giang,63,2014,9.83,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hà Giang,63,2015,9.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hà Giang,63,2016,10.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hà Giang,63,2017,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hà Giang,63,2018,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hà Giang,63,2019,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hà Giang,63,2020,12.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Giang,63,2021,19.54,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -111,6 +255,15 @@ Hà Giang,63,2022,20.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Hà Giang,63,2023,21.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Giang,63,2024,22.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Giang,63,2025,22.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hà Nam,63,2010,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hà Nam,63,2011,15.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hà Nam,63,2012,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hà Nam,63,2013,18.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hà Nam,63,2014,16.63,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hà Nam,63,2015,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hà Nam,63,2016,17.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hà Nam,63,2017,18.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hà Nam,63,2018,20.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hà Nam,63,2019,20.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hà Nam,63,2020,22.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nam,63,2021,27.57,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -118,6 +271,15 @@ Hà Nam,63,2022,27.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Hà Nam,63,2023,29.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nam,63,2024,32.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nam,63,2025,33.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hà Nội,63,2010,30.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hà Nội,63,2011,30.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hà Nội,63,2012,34.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hà Nội,63,2013,36.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hà Nội,63,2014,39.19,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hà Nội,63,2015,43.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hà Nội,63,2016,44.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hà Nội,63,2017,44.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hà Nội,63,2018,42.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hà Nội,63,2019,48.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hà Nội,63,2020,48.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nội,63,2021,50.27,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -125,6 +287,15 @@ Hà Nội,63,2022,50.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Hà Nội,63,2023,50.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nội,63,2024,53.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Nội,63,2025,54.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hà Tĩnh,63,2010,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hà Tĩnh,63,2011,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hà Tĩnh,63,2012,18.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hà Tĩnh,63,2013,19.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hà Tĩnh,63,2014,21.19,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hà Tĩnh,63,2015,19.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hà Tĩnh,63,2016,19.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hà Tĩnh,63,2017,21.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hà Tĩnh,63,2018,24.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hà Tĩnh,63,2019,25.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hà Tĩnh,63,2020,25.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Tĩnh,63,2021,30.48,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -132,6 +303,15 @@ Hà Tĩnh,63,2022,30.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Hà Tĩnh,63,2023,31.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Tĩnh,63,2024,32.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hà Tĩnh,63,2025,32.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hòa Bình,63,2010,15.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hòa Bình,63,2011,16.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hòa Bình,63,2012,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hòa Bình,63,2013,18.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hòa Bình,63,2014,16.38,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hòa Bình,63,2015,17.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hòa Bình,63,2016,18.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hòa Bình,63,2017,17.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hòa Bình,63,2018,17.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hòa Bình,63,2019,17.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hòa Bình,63,2020,18.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hòa Bình,63,2021,23.63,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -139,6 +319,15 @@ Hòa Bình,63,2022,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Hòa Bình,63,2023,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hòa Bình,63,2024,25.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hòa Bình,63,2025,26.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hưng Yên,63,2010,13.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hưng Yên,63,2011,13.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hưng Yên,63,2012,17.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hưng Yên,63,2013,17.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hưng Yên,63,2014,20.41,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hưng Yên,63,2015,19.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hưng Yên,63,2016,19.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hưng Yên,63,2017,19.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hưng Yên,63,2018,20.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hưng Yên,63,2019,25.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hưng Yên,63,2020,26.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hưng Yên,63,2021,26.66,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -146,6 +335,15 @@ Hưng Yên,63,2022,28.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Hưng Yên,63,2023,28.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hưng Yên,63,2024,29.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hưng Yên,63,2025,29.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hải Dương,63,2010,14.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hải Dương,63,2011,13.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hải Dương,63,2012,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hải Dương,63,2013,14.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hải Dương,63,2014,15.15,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hải Dương,63,2015,19.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hải Dương,63,2016,19.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hải Dương,63,2017,20.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hải Dương,63,2018,17.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hải Dương,63,2019,22.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hải Dương,63,2020,24.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Dương,63,2021,30.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -153,6 +351,15 @@ Hải Dương,63,2022,29.7,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Hải Dương,63,2023,29.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Dương,63,2024,29.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Dương,63,2025,29.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hải Phòng,63,2010,22.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hải Phòng,63,2011,23.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hải Phòng,63,2012,24.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hải Phòng,63,2013,27.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hải Phòng,63,2014,28.39,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hải Phòng,63,2015,32.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hải Phòng,63,2016,32.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hải Phòng,63,2017,33.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hải Phòng,63,2018,31.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hải Phòng,63,2019,31.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hải Phòng,63,2020,34.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Phòng,63,2021,36.01,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -160,6 +367,15 @@ Hải Phòng,63,2022,36.5,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Hải Phòng,63,2023,36.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Phòng,63,2024,38.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hải Phòng,63,2025,40.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Hậu Giang,63,2010,5.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Hậu Giang,63,2011,8.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Hậu Giang,63,2012,8.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Hậu Giang,63,2013,8.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Hậu Giang,63,2014,9.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Hậu Giang,63,2015,11.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Hậu Giang,63,2016,10.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Hậu Giang,63,2017,9.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Hậu Giang,63,2018,9.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Hậu Giang,63,2019,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Hậu Giang,63,2020,14.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hậu Giang,63,2021,13.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -167,6 +383,15 @@ Hậu Giang,63,2022,12.5,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Hậu Giang,63,2023,13.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hậu Giang,63,2024,14.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Hậu Giang,63,2025,14.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Khánh Hòa,63,2010,13.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Khánh Hòa,63,2011,13.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Khánh Hòa,63,2012,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Khánh Hòa,63,2013,13.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Khánh Hòa,63,2014,16.28,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Khánh Hòa,63,2015,24.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Khánh Hòa,63,2016,25.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Khánh Hòa,63,2017,18.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Khánh Hòa,63,2018,18.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Khánh Hòa,63,2019,22.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Khánh Hòa,63,2020,23.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Khánh Hòa,63,2021,25.57,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -174,6 +399,15 @@ Khánh Hòa,63,2022,25.3,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Khánh Hòa,63,2023,25.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Khánh Hòa,63,2024,26.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Khánh Hòa,63,2025,27.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Kiên Giang,63,2010,9.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Kiên Giang,63,2011,9.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Kiên Giang,63,2012,8.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Kiên Giang,63,2013,9.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Kiên Giang,63,2014,9.69,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Kiên Giang,63,2015,10.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Kiên Giang,63,2016,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Kiên Giang,63,2017,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Kiên Giang,63,2018,15.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Kiên Giang,63,2019,13.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Kiên Giang,63,2020,14.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kiên Giang,63,2021,15.75,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -181,6 +415,15 @@ Kiên Giang,63,2022,16.0,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Kiên Giang,63,2023,16.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kiên Giang,63,2024,17.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kiên Giang,63,2025,17.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Kon Tum,63,2010,13.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Kon Tum,63,2011,15.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Kon Tum,63,2012,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Kon Tum,63,2013,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Kon Tum,63,2014,12.42,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Kon Tum,63,2015,15.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Kon Tum,63,2016,16.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Kon Tum,63,2017,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Kon Tum,63,2018,18.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Kon Tum,63,2019,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Kon Tum,63,2020,16.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kon Tum,63,2021,18.17,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -188,6 +431,15 @@ Kon Tum,63,2022,17.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Kon Tum,63,2023,17.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kon Tum,63,2024,18.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Kon Tum,63,2025,18.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Lai Châu,63,2010,9.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Lai Châu,63,2011,11.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Lai Châu,63,2012,11.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Lai Châu,63,2013,12.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Lai Châu,63,2014,12.93,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Lai Châu,63,2015,11.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Lai Châu,63,2016,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Lai Châu,63,2017,14.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Lai Châu,63,2018,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Lai Châu,63,2019,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Lai Châu,63,2020,12.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lai Châu,63,2021,25.61,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -195,6 +447,15 @@ Lai Châu,63,2022,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Lai Châu,63,2023,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lai Châu,63,2024,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lai Châu,63,2025,24.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Long An,63,2010,9.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Long An,63,2011,8.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Long An,63,2012,9.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Long An,63,2013,11.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Long An,63,2014,10.96,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Long An,63,2015,11.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Long An,63,2016,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Long An,63,2017,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Long An,63,2018,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Long An,63,2019,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Long An,63,2020,15.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Long An,63,2021,15.13,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -202,6 +463,15 @@ Long An,63,2022,15.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Long An,63,2023,15.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Long An,63,2024,17.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Long An,63,2025,17.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Lào Cai,63,2010,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Lào Cai,63,2011,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Lào Cai,63,2012,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Lào Cai,63,2013,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Lào Cai,63,2014,16.17,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Lào Cai,63,2015,16.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Lào Cai,63,2016,16.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Lào Cai,63,2017,19.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Lào Cai,63,2018,17.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Lào Cai,63,2019,19.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Lào Cai,63,2020,21.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lào Cai,63,2021,24.59,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -209,6 +479,15 @@ Lào Cai,63,2022,22.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/u
 Lào Cai,63,2023,22.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lào Cai,63,2024,24.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lào Cai,63,2025,26.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Lâm Đồng,63,2010,11.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Lâm Đồng,63,2011,13.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Lâm Đồng,63,2012,14.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Lâm Đồng,63,2013,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Lâm Đồng,63,2014,14.96,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Lâm Đồng,63,2015,15.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Lâm Đồng,63,2016,15.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Lâm Đồng,63,2017,15.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Lâm Đồng,63,2018,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Lâm Đồng,63,2019,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Lâm Đồng,63,2020,18.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lâm Đồng,63,2021,20.49,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -216,6 +495,15 @@ Lâm Đồng,63,2022,21.8,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Lâm Đồng,63,2023,22.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lâm Đồng,63,2024,23.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lâm Đồng,63,2025,22.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Lạng Sơn,63,2010,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Lạng Sơn,63,2011,12.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Lạng Sơn,63,2012,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Lạng Sơn,63,2013,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Lạng Sơn,63,2014,16.01,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Lạng Sơn,63,2015,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Lạng Sơn,63,2016,15.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Lạng Sơn,63,2017,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Lạng Sơn,63,2018,19.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Lạng Sơn,63,2019,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Lạng Sơn,63,2020,21.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lạng Sơn,63,2021,27.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -223,6 +511,15 @@ Lạng Sơn,63,2022,28.5,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Lạng Sơn,63,2023,27.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lạng Sơn,63,2024,29.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Lạng Sơn,63,2025,29.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Nam Định,63,2010,10.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Nam Định,63,2011,12.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Nam Định,63,2012,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Nam Định,63,2013,15.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Nam Định,63,2014,11.51,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Nam Định,63,2015,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Nam Định,63,2016,13.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Nam Định,63,2017,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Nam Định,63,2018,15.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Nam Định,63,2019,17.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Nam Định,63,2020,20.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nam Định,63,2021,22.01,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -230,6 +527,15 @@ Nam Định,63,2022,21.5,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Nam Định,63,2023,21.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nam Định,63,2024,23.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nam Định,63,2025,24.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Nghệ An,63,2010,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Nghệ An,63,2011,12.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Nghệ An,63,2012,14.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Nghệ An,63,2013,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Nghệ An,63,2014,15.93,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Nghệ An,63,2015,17.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Nghệ An,63,2016,17.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Nghệ An,63,2017,19.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Nghệ An,63,2018,20.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Nghệ An,63,2019,20.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Nghệ An,63,2020,20.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nghệ An,63,2021,23.37,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -237,6 +543,15 @@ Nghệ An,63,2022,25.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Nghệ An,63,2023,25.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nghệ An,63,2024,26.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Nghệ An,63,2025,27.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Ninh Bình,63,2010,20.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Ninh Bình,63,2011,21.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Ninh Bình,63,2012,25.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Ninh Bình,63,2013,27.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Ninh Bình,63,2014,26.18,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Ninh Bình,63,2015,24.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Ninh Bình,63,2016,25.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Ninh Bình,63,2017,26.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Ninh Bình,63,2018,27.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Ninh Bình,63,2019,28.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Ninh Bình,63,2020,30.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Bình,63,2021,31.74,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -244,6 +559,15 @@ Ninh Bình,63,2022,31.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Ninh Bình,63,2023,33.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Bình,63,2024,33.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Bình,63,2025,42.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Ninh Thuận,63,2010,12.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Ninh Thuận,63,2011,13.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Ninh Thuận,63,2012,14.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Ninh Thuận,63,2013,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Ninh Thuận,63,2014,14.37,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Ninh Thuận,63,2015,15.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Ninh Thuận,63,2016,15.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Ninh Thuận,63,2017,15.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Ninh Thuận,63,2018,19.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Ninh Thuận,63,2019,18.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Ninh Thuận,63,2020,16.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Thuận,63,2021,18.79,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -251,6 +575,15 @@ Ninh Thuận,63,2022,17.7,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Ninh Thuận,63,2023,18.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Thuận,63,2024,18.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Ninh Thuận,63,2025,20.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Phú Thọ,63,2010,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Phú Thọ,63,2011,12.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Phú Thọ,63,2012,13.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Phú Thọ,63,2013,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Phú Thọ,63,2014,14.81,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Phú Thọ,63,2015,21.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Phú Thọ,63,2016,21.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Phú Thọ,63,2017,21.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Phú Thọ,63,2018,21.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Phú Thọ,63,2019,24.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Phú Thọ,63,2020,25.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Thọ,63,2021,34.59,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -258,6 +591,15 @@ Phú Thọ,63,2022,33.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Phú Thọ,63,2023,34.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Thọ,63,2024,35.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Thọ,63,2025,35.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Phú Yên,63,2010,10.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Phú Yên,63,2011,11.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Phú Yên,63,2012,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Phú Yên,63,2013,10.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Phú Yên,63,2014,12.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Phú Yên,63,2015,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Phú Yên,63,2016,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Phú Yên,63,2017,18.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Phú Yên,63,2018,14.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Phú Yên,63,2019,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Phú Yên,63,2020,17.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Yên,63,2021,21.62,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -265,6 +607,15 @@ Phú Yên,63,2022,21.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Phú Yên,63,2023,23.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Yên,63,2024,23.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Phú Yên,63,2025,25.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Quảng Bình,63,2010,16.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Quảng Bình,63,2011,14.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Quảng Bình,63,2012,19.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Quảng Bình,63,2013,19.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Quảng Bình,63,2014,20.12,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Quảng Bình,63,2015,18.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Quảng Bình,63,2016,18.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Quảng Bình,63,2017,20.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Quảng Bình,63,2018,25.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Quảng Bình,63,2019,21.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Quảng Bình,63,2020,21.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Bình,63,2021,26.53,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -272,6 +623,15 @@ Quảng Bình,63,2022,27.0,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Quảng Bình,63,2023,27.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Bình,63,2024,28.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Bình,63,2025,29.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Quảng Nam,63,2010,10.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Quảng Nam,63,2011,12.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Quảng Nam,63,2012,9.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Quảng Nam,63,2013,12.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Quảng Nam,63,2014,13.87,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Quảng Nam,63,2015,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Quảng Nam,63,2016,17.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Quảng Nam,63,2017,18.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Quảng Nam,63,2018,20.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Quảng Nam,63,2019,18.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Quảng Nam,63,2020,21.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Nam,63,2021,26.57,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -279,6 +639,15 @@ Quảng Nam,63,2022,26.7,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Quảng Nam,63,2023,27.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Nam,63,2024,28.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Nam,63,2025,28.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Quảng Ngãi,63,2010,9.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Quảng Ngãi,63,2011,9.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Quảng Ngãi,63,2012,11.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Quảng Ngãi,63,2013,13.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Quảng Ngãi,63,2014,14.82,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Quảng Ngãi,63,2015,17.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Quảng Ngãi,63,2016,18.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Quảng Ngãi,63,2017,18.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Quảng Ngãi,63,2018,18.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Quảng Ngãi,63,2019,20.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Quảng Ngãi,63,2020,22.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ngãi,63,2021,26.12,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -286,6 +655,15 @@ Quảng Ngãi,63,2022,25.2,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Quảng Ngãi,63,2023,26.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ngãi,63,2024,27.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ngãi,63,2025,28.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Quảng Ninh,63,2010,28.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Quảng Ninh,63,2011,29.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Quảng Ninh,63,2012,33.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Quảng Ninh,63,2013,34.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Quảng Ninh,63,2014,35.03,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Quảng Ninh,63,2015,31.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Quảng Ninh,63,2016,31.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Quảng Ninh,63,2017,32.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Quảng Ninh,63,2018,35.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Quảng Ninh,63,2019,37.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Quảng Ninh,63,2020,38.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ninh,63,2021,41.39,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -293,6 +671,15 @@ Quảng Ninh,63,2022,41.8,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Quảng Ninh,63,2023,41.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ninh,63,2024,42.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Ninh,63,2025,44.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Quảng Trị,63,2010,15.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Quảng Trị,63,2011,13.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Quảng Trị,63,2012,16.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Quảng Trị,63,2013,19.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Quảng Trị,63,2014,19.59,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Quảng Trị,63,2015,23.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Quảng Trị,63,2016,23.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Quảng Trị,63,2017,24.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Quảng Trị,63,2018,26.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Quảng Trị,63,2019,23.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Quảng Trị,63,2020,25.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Trị,63,2021,27.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -300,6 +687,15 @@ Quảng Trị,63,2022,27.1,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Quảng Trị,63,2023,28.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Trị,63,2024,30.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Quảng Trị,63,2025,29.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Sóc Trăng,63,2010,5.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Sóc Trăng,63,2011,8.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Sóc Trăng,63,2012,9.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Sóc Trăng,63,2013,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Sóc Trăng,63,2014,10.15,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Sóc Trăng,63,2015,9.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Sóc Trăng,63,2016,10.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Sóc Trăng,63,2017,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Sóc Trăng,63,2018,11.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Sóc Trăng,63,2019,12.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Sóc Trăng,63,2020,15.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sóc Trăng,63,2021,11.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -307,6 +703,15 @@ Sóc Trăng,63,2022,12.0,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Sóc Trăng,63,2023,12.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sóc Trăng,63,2024,12.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sóc Trăng,63,2025,13.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Sơn La,63,2010,11.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Sơn La,63,2011,12.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Sơn La,63,2012,12.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Sơn La,63,2013,12.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Sơn La,63,2014,13.24,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Sơn La,63,2015,12.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Sơn La,63,2016,12.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Sơn La,63,2017,12.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Sơn La,63,2018,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Sơn La,63,2019,11.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Sơn La,63,2020,13.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sơn La,63,2021,16.78,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -314,6 +719,15 @@ Sơn La,63,2022,18.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/up
 Sơn La,63,2023,19.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sơn La,63,2024,19.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Sơn La,63,2025,19.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+TP. Hồ Chí Minh,63,2010,26.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+TP. Hồ Chí Minh,63,2011,28.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+TP. Hồ Chí Minh,63,2012,28.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+TP. Hồ Chí Minh,63,2013,31.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+TP. Hồ Chí Minh,63,2014,32.26,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+TP. Hồ Chí Minh,63,2015,34.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+TP. Hồ Chí Minh,63,2016,34.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+TP. Hồ Chí Minh,63,2017,36.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+TP. Hồ Chí Minh,63,2018,36.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 TP. Hồ Chí Minh,63,2019,37.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 TP. Hồ Chí Minh,63,2020,38.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 TP. Hồ Chí Minh,63,2021,35.55,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -321,6 +735,15 @@ TP. Hồ Chí Minh,63,2022,35.6,% of labour force 15+,"https://www.nso.gov.vn/wp
 TP. Hồ Chí Minh,63,2023,36.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 TP. Hồ Chí Minh,63,2024,37.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 TP. Hồ Chí Minh,63,2025,39.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Thanh Hóa,63,2010,10.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Thanh Hóa,63,2011,18.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Thanh Hóa,63,2012,14.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Thanh Hóa,63,2013,16.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Thanh Hóa,63,2014,14.47,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Thanh Hóa,63,2015,19.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Thanh Hóa,63,2016,18.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Thanh Hóa,63,2017,19.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Thanh Hóa,63,2018,19.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Thanh Hóa,63,2019,19.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Thanh Hóa,63,2020,21.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thanh Hóa,63,2021,25.14,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -328,6 +751,15 @@ Thanh Hóa,63,2022,26.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Thanh Hóa,63,2023,27.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thanh Hóa,63,2024,27.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thanh Hóa,63,2025,27.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Thái Bình,63,2010,15.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Thái Bình,63,2011,12.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Thái Bình,63,2012,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Thái Bình,63,2013,13.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Thái Bình,63,2014,15.84,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Thái Bình,63,2015,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Thái Bình,63,2016,15.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Thái Bình,63,2017,15.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Thái Bình,63,2018,18.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Thái Bình,63,2019,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Thái Bình,63,2020,17.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Bình,63,2021,19.34,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -335,6 +767,15 @@ Thái Bình,63,2022,19.6,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Thái Bình,63,2023,22.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Bình,63,2024,23.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Bình,63,2025,24.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Thái Nguyên,63,2010,17.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Thái Nguyên,63,2011,19.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Thái Nguyên,63,2012,21.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Thái Nguyên,63,2013,22.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Thái Nguyên,63,2014,20.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Thái Nguyên,63,2015,25.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Thái Nguyên,63,2016,25.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Thái Nguyên,63,2017,26.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Thái Nguyên,63,2018,24.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Thái Nguyên,63,2019,27.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Thái Nguyên,63,2020,28.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Nguyên,63,2021,35.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -342,6 +783,15 @@ Thái Nguyên,63,2022,35.9,% of labour force 15+,"https://www.nso.gov.vn/wp-cont
 Thái Nguyên,63,2023,36.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Nguyên,63,2024,38.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thái Nguyên,63,2025,38.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Thừa Thiên Huế,63,2010,17.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Thừa Thiên Huế,63,2011,18.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Thừa Thiên Huế,63,2012,19.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Thừa Thiên Huế,63,2013,20.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Thừa Thiên Huế,63,2014,22.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Thừa Thiên Huế,63,2015,23.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Thừa Thiên Huế,63,2016,24.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Thừa Thiên Huế,63,2017,24.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Thừa Thiên Huế,63,2018,22.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Thừa Thiên Huế,63,2019,22.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Thừa Thiên Huế,63,2020,23.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thừa Thiên Huế,63,2021,28.73,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -349,6 +799,15 @@ Thừa Thiên Huế,63,2022,29.8,% of labour force 15+,"https://www.nso.gov.vn/w
 Thừa Thiên Huế,63,2023,30.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thừa Thiên Huế,63,2024,31.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Thừa Thiên Huế,63,2025,32.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Tiền Giang,63,2010,8.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Tiền Giang,63,2011,9.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Tiền Giang,63,2012,7.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Tiền Giang,63,2013,9.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Tiền Giang,63,2014,9.14,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Tiền Giang,63,2015,12.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Tiền Giang,63,2016,11.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Tiền Giang,63,2017,10.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Tiền Giang,63,2018,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Tiền Giang,63,2019,11.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Tiền Giang,63,2020,14.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tiền Giang,63,2021,13.84,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -356,6 +815,15 @@ Tiền Giang,63,2022,13.3,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Tiền Giang,63,2023,14.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tiền Giang,63,2024,15.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tiền Giang,63,2025,15.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Trà Vinh,63,2010,8.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Trà Vinh,63,2011,7.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Trà Vinh,63,2012,12.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Trà Vinh,63,2013,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Trà Vinh,63,2014,13.21,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Trà Vinh,63,2015,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Trà Vinh,63,2016,11.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Trà Vinh,63,2017,12.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Trà Vinh,63,2018,10.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Trà Vinh,63,2019,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Trà Vinh,63,2020,11.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Trà Vinh,63,2021,10.77,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -363,6 +831,15 @@ Trà Vinh,63,2022,12.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Trà Vinh,63,2023,16.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Trà Vinh,63,2024,17.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Trà Vinh,63,2025,17.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Tuyên Quang,63,2010,14.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Tuyên Quang,63,2011,11.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Tuyên Quang,63,2012,16.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Tuyên Quang,63,2013,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Tuyên Quang,63,2014,19.57,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Tuyên Quang,63,2015,20.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Tuyên Quang,63,2016,20.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Tuyên Quang,63,2017,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Tuyên Quang,63,2018,19.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Tuyên Quang,63,2019,20.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Tuyên Quang,63,2020,21.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tuyên Quang,63,2021,23.07,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -370,6 +847,15 @@ Tuyên Quang,63,2022,21.6,% of labour force 15+,"https://www.nso.gov.vn/wp-conte
 Tuyên Quang,63,2023,21.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tuyên Quang,63,2024,22.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tuyên Quang,63,2025,25.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Tây Ninh,63,2010,9.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Tây Ninh,63,2011,9.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Tây Ninh,63,2012,10.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Tây Ninh,63,2013,11.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Tây Ninh,63,2014,11.88,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Tây Ninh,63,2015,14.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Tây Ninh,63,2016,14.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Tây Ninh,63,2017,14.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Tây Ninh,63,2018,14.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Tây Ninh,63,2019,12.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Tây Ninh,63,2020,14.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tây Ninh,63,2021,16.01,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -377,6 +863,15 @@ Tây Ninh,63,2022,17.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Tây Ninh,63,2023,18.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tây Ninh,63,2024,20.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Tây Ninh,63,2025,21.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Vĩnh Long,63,2010,7.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Vĩnh Long,63,2011,9.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Vĩnh Long,63,2012,10.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Vĩnh Long,63,2013,10.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Vĩnh Long,63,2014,11.94,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Vĩnh Long,63,2015,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Vĩnh Long,63,2016,14.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Vĩnh Long,63,2017,15.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Vĩnh Long,63,2018,18.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Vĩnh Long,63,2019,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Vĩnh Long,63,2020,15.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Long,63,2021,15.56,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -384,6 +879,15 @@ Vĩnh Long,63,2022,14.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content
 Vĩnh Long,63,2023,15.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Long,63,2024,17.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Long,63,2025,17.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Vĩnh Phúc,63,2010,14.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Vĩnh Phúc,63,2011,15.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Vĩnh Phúc,63,2012,19.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Vĩnh Phúc,63,2013,20.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Vĩnh Phúc,63,2014,21.05,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Vĩnh Phúc,63,2015,22.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Vĩnh Phúc,63,2016,22.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Vĩnh Phúc,63,2017,22.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Vĩnh Phúc,63,2018,22.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Vĩnh Phúc,63,2019,24.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Vĩnh Phúc,63,2020,28.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Phúc,63,2021,34.68,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -391,6 +895,15 @@ Vĩnh Phúc,63,2022,34.9,% of labour force 15+,"https://www.nso.gov.vn/wp-conten
 Vĩnh Phúc,63,2023,35.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Phúc,63,2024,37.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Vĩnh Phúc,63,2025,37.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Yên Bái,63,2010,11.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Yên Bái,63,2011,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Yên Bái,63,2012,12.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Yên Bái,63,2013,13.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Yên Bái,63,2014,13.75,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Yên Bái,63,2015,16.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Yên Bái,63,2016,16.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Yên Bái,63,2017,16.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Yên Bái,63,2018,20.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Yên Bái,63,2019,17.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Yên Bái,63,2020,19.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Yên Bái,63,2021,22.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -398,6 +911,15 @@ Yên Bái,63,2022,22.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Yên Bái,63,2023,23.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Yên Bái,63,2024,24.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Điện Biên,63,2010,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Điện Biên,63,2011,13.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Điện Biên,63,2012,17.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Điện Biên,63,2013,19.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Điện Biên,63,2014,20.38,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Điện Biên,63,2015,21.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Điện Biên,63,2016,20.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Điện Biên,63,2017,21.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Điện Biên,63,2018,15.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Điện Biên,63,2019,16.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Điện Biên,63,2020,16.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Điện Biên,63,2021,18.78,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -405,6 +927,15 @@ Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Điện Biên,63,2023,18.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Điện Biên,63,2024,18.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Điện Biên,63,2025,18.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Đà Nẵng,63,2010,31.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Đà Nẵng,63,2011,32.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Đà Nẵng,63,2012,34.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Đà Nẵng,63,2013,36.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Đà Nẵng,63,2014,37.76,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Đà Nẵng,63,2015,41.7,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Đà Nẵng,63,2016,41.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Đà Nẵng,63,2017,40.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Đà Nẵng,63,2018,42.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Đà Nẵng,63,2019,44.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Đà Nẵng,63,2020,44.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đà Nẵng,63,2021,48.14,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -412,6 +943,15 @@ Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Đà Nẵng,63,2023,49.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đà Nẵng,63,2024,51.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đà Nẵng,63,2025,52.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Đắk Lắk,63,2010,12.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Đắk Lắk,63,2011,10.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Đắk Lắk,63,2012,12.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Đắk Lắk,63,2013,15.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Đắk Lắk,63,2014,13.62,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Đắk Lắk,63,2015,13.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Đắk Lắk,63,2016,13.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Đắk Lắk,63,2017,14.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Đắk Lắk,63,2018,14.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Đắk Lắk,63,2019,14.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Đắk Lắk,63,2020,17.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Lắk,63,2021,18.28,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -419,6 +959,15 @@ Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Đắk Lắk,63,2023,18.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Lắk,63,2024,19.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Lắk,63,2025,21.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Đắk Nông,63,2010,6.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Đắk Nông,63,2011,7.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Đắk Nông,63,2012,8.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Đắk Nông,63,2013,9.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Đắk Nông,63,2014,8.04,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Đắk Nông,63,2015,10.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Đắk Nông,63,2016,10.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Đắk Nông,63,2017,12.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Đắk Nông,63,2018,13.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Đắk Nông,63,2019,14.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Đắk Nông,63,2020,14.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Nông,63,2021,15.41,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -426,6 +975,15 @@ Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Đắk Nông,63,2023,16.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Nông,63,2024,17.9,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đắk Nông,63,2025,18.6,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Đồng Nai,63,2010,11.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Đồng Nai,63,2011,12.2,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Đồng Nai,63,2012,13.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Đồng Nai,63,2013,15.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Đồng Nai,63,2014,15.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Đồng Nai,63,2015,18.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Đồng Nai,63,2016,20.6,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Đồng Nai,63,2017,21.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Đồng Nai,63,2018,20.1,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Đồng Nai,63,2019,20.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Đồng Nai,63,2020,22.5,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đồng Nai,63,2021,21.89,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final
@@ -433,6 +991,15 @@ Yên Bái,63,2025,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/
 Đồng Nai,63,2023,22.8,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đồng Nai,63,2024,23.7,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đồng Nai,63,2025,25.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+Đồng Tháp,63,2010,5.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2010)",final
+Đồng Tháp,63,2011,7.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2011)",final
+Đồng Tháp,63,2012,7.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2012)",final
+Đồng Tháp,63,2013,9.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2013)",final
+Đồng Tháp,63,2014,8.82,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2014)",final
+Đồng Tháp,63,2015,11.0,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2015)",final
+Đồng Tháp,63,2016,11.9,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2016)",final
+Đồng Tháp,63,2017,15.3,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2017)",final
+Đồng Tháp,63,2018,11.4,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2018)",final
 Đồng Tháp,63,2019,13.5,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
 Đồng Tháp,63,2020,15.0,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
 Đồng Tháp,63,2021,14.27,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2021)",final

@@ -295,6 +295,13 @@ export default {
   "one theme at a time": "mỗi lần một chủ đề",
   "Show on map": "Hiện trên bản đồ",
   "as many as you like": "bật bao nhiêu lớp tùy ý",
+  // Map panel presets and group headers (ui/lenses.js, app/api.js PRESETS)
+  "Presets": "Bộ lớp có sẵn",
+  "Clean": "Gọn",
+  "Lively": "Sống động",
+  "Everything": "Toàn cảnh",
+  "Custom": "Tuỳ chỉnh",
+  "{n} on": "{n} đang bật",
   "No theme matches": "Không có chủ đề phù hợp",
   "No layer matches": "Không có lớp phù hợp",
   "Geography": "Địa lý",

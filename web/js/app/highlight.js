@@ -1,7 +1,7 @@
 // The search marker: after a search pick the place is marked on the map until the next pick, Esc or a click on the
 // map. A pin with a pulsing ring and a floating name; a province's outline glows; a river (a polyline) glows along
 // its course. Drawn as an app.motion item above the city banners (z 150): the ring pulses at a capped frame rate
-// (30 fps, 20 on phones) and holds still after a minute without input, when Effects are off or with reduced motion
+// (30 fps) and holds still after a minute without input, when Effects are off or with reduced motion
 // (a still ring, the same information). Public as app.highlight(spec) / app.highlight(null) (main.js).
 import { stateOutline } from "../world.js";
 
@@ -16,7 +16,7 @@ const LABEL_FONT = '600 14px "Palatino Linotype", Palatino, "Book Antiqua", Geor
 export function createSearchHighlight({ motion, cam, w, isMobile, requestDraw, bannerShown }) {
   const grid = w.grid;
   let h = null, marks = 0, lastPhase = 0;
-  const cap = motion.frameCap(1000 / (isMobile() ? 20 : 30));
+  const cap = motion.frameCap(1000 / 30);
 
   // A province's marker: the owned (mainland) cell nearest the middle of its cells, so it always lands inside.
   function stateAnchor(idx) {

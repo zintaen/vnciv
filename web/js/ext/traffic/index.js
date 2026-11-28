@@ -119,8 +119,7 @@ function bez(r, u) {
 export function install(app) {
   const M = app.motion;
   if (!M?.register) return;
-  const mobile = !!app.isMobile?.();
-  let on = false; // off by default (the "gọn hơn" set); a switch in the Map panel
+  let on = true; // on by default everywhere (Anh, 2026-11-28: no battery saving); a switch in the Map panel
   let model = null, loading = false;
 
   // Live positions of the sprites drawn last frame, for hover: x, y, radius (world), kind index into `who`.
@@ -286,11 +285,11 @@ export function install(app) {
   }
 
   const perf = app.perf ? (app.perf.traffic = []) : [];
-  // Battery (same policy as the Living map, ext/motion/index.js): frames capped at 30 fps (20 on phones) and paused
+  // Battery (same policy as the Living map, ext/motion/index.js): frames capped at 30 fps and paused
   // after a minute without input. Between capped frames active() is false so the loop idles; a timer asks for the
   // next frame ~8 ms early and re-checks when it fires (a frame drawn meanwhile by something else counts). Frames the
   // app draws anyway still show the traffic at its own clock, which stops while paused: glyphs hold still.
-  const cap = M.frameCap(1000 / (mobile ? 20 : 30));
+  const cap = M.frameCap(1000 / 30);
   let clock = 0, clockAt = 0;
   // Before the data arrives: true, so draw() runs and loads it; then only while a route is on screen.
   const running = () => on && (!model || anyVisible()) && !M.idle;
@@ -329,7 +328,7 @@ export function install(app) {
   app.traffic = { drawn: () => nHit, at: (k) => (k < nHit ? { x: hx[k], y: hy[k], label: who[k].label, kind: who[k].kind } : null) };
 
   app.ui?.addMapToggle?.({
-    id: "traffic", group: "transport", icon: "✈️", default: false,
+    id: "traffic", group: "transport", icon: "✈️", default: true,
     label: t("Moving traffic"),
     title: t("Planes on the air routes, ships at the seaports and trains on the railways. Illustrative, not a flight schedule; air routes from Wikipedia's airport articles (2026). Ship and train frequency are illustrative too. Off with Effects off or reduced motion."),
     get: () => on,

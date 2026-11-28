@@ -10,13 +10,13 @@ export function install(app) {
   const M = app.motion;
   if (!M?.register) return; // an older main.js without app.motion: the map stays still
   const phone = !!app.isMobile?.();
-  let on = true; // on by default, phones too (frames are capped at 20 fps there and stop after a minute idle)
+  let on = true; // on by default, phones too (frames are capped at 30 fps and stop after a minute idle)
   const ambient = createAmbient(app);
   const perf = app.perf ? (app.perf.ambient = []) : []; // ms per ambient draw (window.__app.perf.ambient)
-  // Battery: ambient frames are capped (30 fps, 20 on phones) and stop after a minute without input (M.idle). Between
+  // Battery: ambient frames are capped (30 fps) and stop after a minute without input (M.idle). Between
   // the capped frames active() is false, so the loop idles; a timer asks for the next one (M.frameCap). Any frame the
   // app draws meanwhile (hover, a tween) still shows the motion, at its own clock, so it never blinks.
-  const cap = M.frameCap(1000 / (phone ? 20 : 30));
+  const cap = M.frameCap(1000 / 30);
   let clock = 0, clockAt = 0;
   const shows = () => on && !app.state.lens && !app.shownLens?.(); // terrain view only: a lens's data comes first
   const running = () => shows() && !M.idle;

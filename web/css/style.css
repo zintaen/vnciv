@@ -432,7 +432,23 @@ body .rp-bar { bottom: calc(var(--bottom-ui, 56px) + 8px); }
 .lg-cat.on { border-color: var(--gold-bright); color: var(--gold-bright); }
 
 /* Layer switches (app.ui.addMapToggle) under "Show on the map". */
-.ml-sec { padding: 7px 4px 2px; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-dim); opacity: .8; }
+/* Presets: a segmented control (aria-pressed); "Custom" under it when the switches match none. */
+.ml-presets { display: flex; margin: 2px 0 4px; border: 1px solid rgba(201,164,92,.45); border-radius: 6px; overflow: hidden; }
+.ml-preset { flex: 1; min-height: 32px; padding: 4px 6px; border: 0; background: rgba(0,0,0,.25); color: var(--ink-dim); cursor: pointer; font-size: 12.5px; }
+.ml-preset + .ml-preset { border-left: 1px solid rgba(201,164,92,.45); }
+.ml-preset:hover, .ml-preset:focus-visible { background: rgba(201,164,92,.12); color: var(--ink); }
+.ml-preset[aria-pressed="true"] { background: linear-gradient(180deg, rgba(90,74,36,.95), rgba(58,47,21,.95)); color: var(--gold-bright); }
+.ml-custom { margin: 0 0 2px; font-size: 11px; color: var(--ink-dim); text-align: right; }
+.ml-custom[hidden] { display: none; }
+/* Group headers open and close their group; "3 on" and a chevron. */
+.ml-sec { display: flex; align-items: center; gap: 6px; width: 100%; min-height: 30px; padding: 7px 4px 3px; border: 0; background: none; cursor: pointer; text-align: left;
+  font-size: 10px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-dim); border-radius: 4px; }
+.ml-sec:hover, .ml-sec:focus-visible { background: rgba(201,164,92,.1); color: var(--ink); }
+.ml-sec-l { flex: 1; }
+.ml-n { letter-spacing: 0; text-transform: none; font-size: 11px; color: var(--gold); }
+.ml-chev { width: 7px; height: 7px; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: rotate(45deg); margin: 0 4px 3px; transition: transform .12s; }
+.ml-sec[aria-expanded="false"] .ml-chev { transform: rotate(-45deg); margin-bottom: 0; }
+.ml-items[hidden] { display: none; }
 .ml-row { display: flex; align-items: center; gap: 9px; width: 100%; padding: 6px 6px; min-height: 34px; border-radius: 4px; cursor: pointer; text-align: left;
   background: none; border: 0; font-size: 12.5px; color: var(--ink-dim); }
 .ml-row:hover, .ml-row:focus-visible { background: rgba(201,164,92,.1); }
@@ -630,7 +646,7 @@ svg.gh { vertical-align: -1px; margin-right: 3px; }
   body:is(.panel-open, .dock-open) #turn { position: absolute; top: 0; left: 0; right: 0; }
   /* ...and the small © OpenStreetMap credit moves below it instead of hiding under it */
   body:is(.panel-open, .dock-open) .attrib-mini { top: calc(var(--topbar-h) + 56px); }
-  .ml-row { min-height: 42px; }
+  .ml-row, .ml-sec, .ml-preset { min-height: 42px; }
   .legend { width: auto; margin: 0 8px; }
   .legend .desc { display: none; }
   .lens-picker { width: auto; margin: 0 8px; max-height: 70vh; max-height: 70dvh; }

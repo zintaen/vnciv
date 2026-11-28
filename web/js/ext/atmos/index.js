@@ -190,7 +190,7 @@ export function install(app) {
     ctx.stroke();
     ctx.globalAlpha = 1;
   }
-  const cap = M?.frameCap ? M.frameCap(1000 / (phone ? 20 : 30)) : { due: () => true, drew() {} };
+  const cap = M?.frameCap ? M.frameCap(1000 / 30) : { due: () => true, drew() {} };
   let clock = 0, clockAt = 0, rainInView = false;
   const running = () => on && status === "ok" && rainInView && !M.idle;
   M?.register?.({

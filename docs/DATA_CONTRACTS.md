@@ -1002,8 +1002,18 @@ advisor's "show roads, rail and forts" button; false if no toggle has that id (y
 "Thêm ▾ / More ▾" menu; `menu: true` puts it in that menu instead (role=menuitem; advisors, 3D view and Share live
 there). Ids, `click()` and `focus()` keep working; focusing an item of the closed menu lands on `#btn-more`, and
 `aria-pressed` on an item becomes `menuitemcheckbox` / `aria-checked`.
-Default map layers (no `layers=` in the URL), the "gọn hơn" set: roads, rail, hubs, rivers, wonders, places, ambient,
-the living switches (trees off on phones), military and hexlife on; everything else off.
+Default map layers (no `layers=` in the URL), the "Sống động / Lively" preset: roads, rail, hubs, rivers, wonders,
+places, moving traffic, ambient, hexlife, the living switches (trees, homes, seasons, boats, tet; on phones too),
+day–night and military on; everything else off.
+**Presets.** "Show on the map" opens with three presets (app/api.js `PRESETS`, a segmented control with
+`aria-pressed`): "Gọn / Clean" = roads, rail, rivers, places; "Sống động / Lively" = the default set above; "Toàn cảnh /
+Everything" = Lively plus peaks, passes, lakes, gates, parks, crafts, festivals, battles, relics, worship, hospitals,
+universities, markets, beaches, reserves, metro, bridges and communes. A preset turns every other switch off, never
+touches military or Effects (`PRESET_KEEP`), and is one re-render and one debounced hash write (`layers=` as usual, so a
+shared link still sets the switches). `app.ui.mapPreset()` → the preset the layer switches match, or null ("Tuỳ chỉnh /
+Custom"; preferences such as hexlife are not compared). Groups other than display, transport, geography and living start
+collapsed (a header button with `aria-expanded`/`aria-controls`, "N đang bật" and a chevron); the user's choice per
+group is kept in localStorage `vnciv.mapGroups` (in memory in embed mode); the filter box opens the groups it matches.
 
 **Search.** `app.search.addEntries([{name, label?, sub, kind, icon?, emoji?, pop?, pick(), at?, line?, box?}]) →
 remove()`. After `pick()` runs, main marks the place on the map (pin, pulsing ring, floating `label`) until the next
@@ -1014,7 +1024,7 @@ visible area at the flight's end), and nowhere when `pick()` does not move the c
 `app.highlight` itself is left alone.
 `app.highlight(spec | null)`: show the same mark from code. `spec` = `{x, y}` | `{line: [[x, y], …]}` | `{state:
 index | abbr}` (the province outline glows) | `{city: city | id}`, plus `label`. `null` clears it. It is an
-`app.motion` item (z 150, above banners): the ring pulses at 30 fps (20 on phones) and holds a still ring after a
+`app.motion` item (z 150, above banners): the ring pulses at 30 fps and holds a still ring after a
 minute without input, with Effects off or with reduced motion.
 
 **URL.** Core keys: `lens`, `city` (CBSA id), `state`, `at`, plus extension keys (`advisor`, `layers`, ...).
@@ -1112,7 +1122,7 @@ instantly under reduced motion.
 
 - `app.motion.pause(bool)`: stop the loop's frame requests while another view covers the 2D map (the 3D view uses it); `pause(false)` resumes.
 - `app.motion.idle`: one shared no-input clock (pointer, key, wheel, touch); ambient items stop after 60 s without input and the first input asks for a frame.
-- `app.motion.frameCap(gapMs)` → `{due(), drew()}`: the shared frame cap (30 fps desktop, 20 phone) the ambient items use; `due()` is true when a frame may be drawn, else it arms a timer that re-checks when it fires.
+- `app.motion.frameCap(gapMs)` → `{due(), drew()}`: the shared frame cap (30 fps everywhere; Anh: no battery saving) the ambient items use; `due()` is true when a frame may be drawn, else it arms a timer that re-checks when it fires.
 
 ## Phase D extensions (geo, living, story, atmos)
 
@@ -1129,6 +1139,11 @@ Each lives in `web/js/ext/<name>/`, adds its toggles with `app.ui.addMapToggle` 
   growth model; `render/art/terrain.js` exports `STAMP_KIND` (sprite canvas → stamp name: `tree`, `clump`, `palm`
   sway; `village` and `stilt` houses smoke and light up) so the sway overlay can find trees and houses. Hidden preview: `?living=tet`, `?living=m8`, `?living=t2027-02-05T22:00`.
   `app.daynight.now()` gives the simulated time while the 24 h play runs.
+- **daynight**: on by default. The deepest night is `NIGHT_A` (ext/daynight/index.js, 0.38) of the night colour, so
+  labels and lens colours stay readable. The shade and the masked lights are merged into one canvas once a minute; a
+  frame blits a screen-sized copy of it 1:1 (rebuilt only when the camera moves), ~3 ms instead of ~47 ms on a phone
+  (390×844 @3×, CPU 4× throttled), so the Living map keeps its motion on phones at night. A minute that changes no
+  shade pixel (full day, deep night) draws no frame; night_lights.json loads the first time it is dark on the map.
 - **story**: hash keys `story=<chapter id>&step=n` (doimoi, mekong, yagi, p34, bachdang, thanglong, railway, expressway, bacninh,
   hcmc, forest, unesco, sea, ageing, floods, highlands; `app.story.chapters`), chapters grouped by `theme` (history | growth |
   nature | people) in the picker, a chapter's data files loaded when it opens, `story=split&cmp=<lens|terrain>~<year|now>`,

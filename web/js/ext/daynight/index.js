@@ -1,8 +1,8 @@
 // Day–night: shades the map by the real sun position for the current time (sun.js, NOAA's solar formulas) and, where
 // it is night, lets the hexes glow by night_lights.json (derived from WorldPop population density, NOT satellite night
 // lights; the switch, the clock and the docs say so). A small clock shows Vietnam time; "▶ 24 h" plays one day in ~20 s.
-// Cost: the shade is a tiny (48×38) canvas of sun elevations stretched over the map (a smooth gradient), redone at most
-// once a minute; the lights are one pre-rendered canvas masked by the shade, so a frame is two drawImage calls.
+// Cost: the shade is a tiny (48×38) canvas of sun elevations, redone at most once a minute and merged with the lights
+// (one pre-rendered canvas masked by the shade) into one layer; a frame blits a screen-sized copy of it (see draw).
 import { t, lang } from "../../i18n.js";
 import { esc } from "../../format.js";
 import { mapToLonLat, sunState, elevationAt, nightness } from "./sun.js";
@@ -10,12 +10,15 @@ import { mapToLonLat, sunState, elevationAt, nightness } from "./sun.js";
 const GX = 48, GY = 38; // shade grid (one sun computation per pixel)
 const LPX = 12.5; // map units per lights-canvas pixel (half a hex radius)
 const DAY_S = 20; // "▶ 24 h" plays a day in this many seconds
-const NIGHT_RGB = [8, 14, 40], NIGHT_A = 0.6;
+// NIGHT_A: how dark the deepest night gets (0 = no shade, 1 = the night colour). 0.6 hid the lens colours and labels;
+// at 0.38 the map stays readable and the city lights still glow.
+const NIGHT_RGB = [8, 14, 40], NIGHT_A = 0.38;
 
 export function install(app) {
   const M = app.motion, raw = app.w.raw, grid = app.w.grid;
   const W = raw.width, H = raw.height;
-  const cap = M.frameCap(1000 / (app.isMobile?.() ? 20 : 30));
+  const cap = M.frameCap(1000 / 30);
+  const perf = app.perf ? (app.perf.daynight = []) : [];
   let on = false, playing = false, playT0 = 0, simMs = 0, timer = 0, lights = null, loading = null;
 
   // --- shade: sun elevation per grid pixel -------------------------------------------------------------------------
@@ -27,29 +30,43 @@ export function install(app) {
   const shade = canvas(GX, GY), mask = canvas(GX, GY);
   const sctx = shade.getContext("2d"), mctx = mask.getContext("2d");
   const simg = sctx.createImageData(GX, GY), mimg = mctx.createImageData(GX, GY);
-  let comp = null, cctx = null, maxNight = 0, shadedAt = -1;
+  // comp: the shade with the masked lights added, at the lights' resolution: one layer to blit per frame
+  let view = null, vctx = null, viewKey = "";
+  let comp = null, cctx = null, lit = null, lctx = null, maxNight = 0, shadedAt = -1, shadeSig = 0;
 
+  // → true when the shade changed (a minute of full day or deep night changes nothing: no frame is drawn for it)
   function reshade(ms) {
     const st = sunState(ms);
     maxNight = 0;
+    let sig = 0;
     for (let k = 0; k < GX * GY; k++) {
       const n = nightness(elevationAt(lat[k], lon[k], st));
       if (n > maxNight) maxNight = n;
       const o = k * 4;
       simg.data[o] = NIGHT_RGB[0]; simg.data[o + 1] = NIGHT_RGB[1]; simg.data[o + 2] = NIGHT_RGB[2];
       simg.data[o + 3] = Math.round(255 * NIGHT_A * n);
+      sig = (sig * 31 + simg.data[o + 3]) | 0;
       mimg.data[o + 3] = Math.round(255 * n);
     }
+    if (maxNight > 0.005) ensureLights(); // (fetched the first time it is dark somewhere on the map)
     sctx.putImageData(simg, 0, 0);
     mctx.putImageData(mimg, 0, 0);
     if (lights) {
+      lctx.globalCompositeOperation = "copy";
+      lctx.drawImage(lights, 0, 0);
+      lctx.globalCompositeOperation = "destination-in";
+      lctx.imageSmoothingEnabled = true;
+      lctx.drawImage(mask, 0, 0, lit.width, lit.height);
       cctx.globalCompositeOperation = "copy";
-      cctx.drawImage(lights, 0, 0);
-      cctx.globalCompositeOperation = "destination-in";
       cctx.imageSmoothingEnabled = true;
-      cctx.drawImage(mask, 0, 0, comp.width, comp.height);
+      cctx.drawImage(shade, 0, 0, comp.width, comp.height);
+      cctx.globalCompositeOperation = "lighter"; // premultiplied add: the glow over the shade
+      cctx.drawImage(lit, 0, 0);
     }
     shadedAt = ms;
+    const changed = sig !== shadeSig;
+    shadeSig = sig;
+    return changed;
   }
 
   // --- lights: one canvas, painted once from night_lights.json ------------------------------------------------------
@@ -73,6 +90,8 @@ export function install(app) {
     lights = cv;
     comp = canvas(cv.width, cv.height);
     cctx = comp.getContext("2d");
+    lit = canvas(cv.width, cv.height);
+    lctx = lit.getContext("2d");
     shadedAt = -1;
   }
   const ensureLights = () => (loading ||= app.loadData("night_lights").then((NL) => {
@@ -88,19 +107,20 @@ export function install(app) {
   function schedule() { timer = setTimeout(() => { tick(); schedule(); }, 60050 - (Date.now() % 60000)); }
   function tick() {
     if (!on || playing) return;
-    reshade(Date.now());
+    const changed = reshade(Date.now());
     renderClock();
-    app.requestDraw();
+    if (changed) app.requestDraw();
   }
 
   M.register({
     id: "daynight", z: 90, ambient: false,
-    // Real time: never active (a timer redraws on each minute). "▶ 24 h": capped at 30 fps (20 on phones) like
+    // Real time: never active (a timer redraws on each minute). "▶ 24 h": capped at 30 fps like
     // ext/motion; between capped frames active() is false and a timer asks for the next one. The play lasts DAY_S
     // (20 s), well under ext/motion's 60 s no-input pause, so it always ends by itself.
     active: () => on && playing && cap.due(), // a frame drawn meanwhile (traffic, hover) counts, so the cap holds
-    draw(ctx) {
+    draw(ctx, cam) {
       if (!on) return;
+      const t1 = performance.now();
       if (playing) {
         cap.drew();
         const p = (performance.now() - playT0) / 1000 / DAY_S;
@@ -111,14 +131,29 @@ export function install(app) {
           renderClock();
         }
       } else if (shadedAt < 0) reshade(Date.now());
-      ctx.save();
-      ctx.imageSmoothingEnabled = true;
-      ctx.drawImage(shade, 0, 0, W, H);
-      if (comp && maxNight > 0.02) {
-        ctx.globalCompositeOperation = "lighter";
-        ctx.drawImage(comp, 0, 0, comp.width * LPX, comp.height * LPX);
+      if (maxNight > 0.005) { // (full day: the shade is clear everywhere, nothing to draw)
+        ctx.save();
+        ctx.imageSmoothingEnabled = true;
+        // The shade is soft and the screen's every pixel is blended, which cost ~47 ms a frame on a 4x-throttled
+        // phone (stretching two layers with smoothing): now one merged layer, upscaled once into a screen-sized
+        // copy while the camera and the minute stay the same (the Living map's motion case), then blitted 1:1, ~3 ms.
+        const src = comp || shade, k = comp ? LPX : W / GX; // (no comp: lights still loading)
+        const cw = ctx.canvas.width, ch = ctx.canvas.height, key = `${cam.x},${cam.y},${cam.scale},${shadedAt},${cw},${ch},${!!comp}`;
+        if (key !== viewKey) {
+          viewKey = key;
+          if (!view) { view = canvas(cw, ch); vctx = view.getContext("2d"); }
+          if (view.width !== cw || view.height !== ch) { view.width = cw; view.height = ch; }
+          vctx.setTransform(ctx.getTransform());
+          vctx.globalCompositeOperation = "copy";
+          vctx.imageSmoothingEnabled = true;
+          vctx.drawImage(src, 0, 0, src.width * k, src.height * k);
+        }
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.imageSmoothingEnabled = false;
+        ctx.drawImage(view, 0, 0);
+        ctx.restore();
       }
-      ctx.restore();
+      if (perf.push(performance.now() - t1) > 120) perf.shift();
     },
   });
 
@@ -166,16 +201,19 @@ export function install(app) {
     el.hidden = !on;
     clearTimeout(timer);
     if (on) {
-      ensureLights();
       schedule();
       shadedAt = -1;
       renderClock(); renderPlay();
-    } else if (playing) playing = false;
+    } else {
+      playing = false;
+      view = null; viewKey = ""; // (a screen-sized canvas: free it)
+    }
     app.requestDraw();
   }
 
+  set(true); // on by default (Anh, 2026-11-28); a layers= link without it turns it off as the toggle arrives
   app.ui?.addMapToggle?.({
-    id: "daynight", group: "display", icon: "🌓", default: false,
+    id: "daynight", group: "display", icon: "🌓", default: true,
     label: t("Day–night"),
     title: t("Shades the map by the real position of the sun right now, with a Vietnam-time clock. The night lights are derived from population density (WorldPop), not satellite data."),
     get: () => on,

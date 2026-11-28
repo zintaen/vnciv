@@ -1220,6 +1220,7 @@ async function main() {
   ui.addMapToggle = mapToggles.add;
   ui.mapToggles = mapToggles.list;
   ui.setMapToggle = mapToggles.set;
+  ui.mapPreset = mapToggles.preset;
   // Power plants (id "resources") are a switch in the Layers menu (the R key and old links still go through the hidden button).
   if (resBtn && w.resources) {
     resBtn.hidden = true;

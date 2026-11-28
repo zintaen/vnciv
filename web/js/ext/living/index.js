@@ -51,7 +51,7 @@ export function install(app) {
   };
 
   // --- state ---------------------------------------------------------------------------------------------------------
-  const on = { trees: !phone, homes: true, seasons: true, sea: true, tet: true, growth: false };
+  const on = { trees: true, homes: true, seasons: true, sea: true, tet: true, growth: false };
   let L = null, loading = null, monthPick = null, replayYear = null, replayCancel = null;
   const month = () => monthPick ?? dbgMonth ?? vnParts(now()).m;
   const lensOn = () => !!(app.state.lens || app.shownLens?.());
@@ -107,7 +107,7 @@ export function install(app) {
   }
 
   // --- motion ------------------------------------------------------------------------------------------------------------
-  const cap = M.frameCap(1000 / (phone ? 20 : 30));
+  const cap = M.frameCap(1000 / 30);
   const V = { x0: 0, y0: 0, x1: 0, y1: 0 };
   const view = (cam) => {
     const hw = cam.w / 2 / cam.scale, hh = cam.h / 2 / cam.scale;
@@ -139,9 +139,6 @@ export function install(app) {
   let clock = 0, clockAt = 0;
   const wantsMotion = () => {
     if (!M.enabled || M.idle) return false;
-    // phones: with the day–night shade on, every frame costs ~35–80 ms on a 4×-throttled phone (the shade blit), so
-    // the night stays still there (lights shown, no twinkle or smoke drift)
-    if (phone && app.daynight?.on) return false;
     return (on.trees && sway.stamps > 0 && !lensOn()) || (on.homes && sky.smoke > 0 && sway.houses > 0 && !lensOn())
       || (on.sea && sky.boats > 0 && night.boats > 0);
   };

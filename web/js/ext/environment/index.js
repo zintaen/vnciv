@@ -316,10 +316,10 @@ export function install(app) {
       ctx.globalAlpha = 1;
     },
   });
-  // Battery (the policy of ext/motion and ext/traffic): the ripple runs at 30 fps (20 on phones) and stops after a
+  // Battery (the policy of ext/motion and ext/traffic): the ripple runs at 30 fps and stops after a
   // minute without input; between capped frames active() is false and a timer asks for the next frame. A step the
   // user started (anim) runs at full rate.
-  const cap = M.frameCap ? M.frameCap(1000 / (app.isMobile?.() ? 20 : 30)) : { due: () => false, drew() {} };
+  const cap = M.frameCap ? M.frameCap(1000 / 30) : { due: () => false, drew() {} };
   const rippleDue = () => !M.idle && flooded.length > 0 && anyInView() && cap.due();
   M.register({ // ambient: the ripple on flooded water, and a brighter shimmer on cells as they flood
     id: "sealevel-water", z: 21,

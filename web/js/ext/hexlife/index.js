@@ -39,7 +39,7 @@ export function install(app) {
   const canvas = document.getElementById("map");
   canvas?.addEventListener("pointermove", (e) => { mouse = e.pointerType === "mouse"; }, { passive: true });
   const lensOn = () => !!(app.state.lens || app.shownLens?.());
-  const cap = M.frameCap(1000 / (phone ? 20 : 30));
+  const cap = M.frameCap(1000 / 30);
 
   // --- hover: the hex and its neighbours ----------------------------------------------------------------------------
   const hv = { cell: -1, at: 0, cells: [], key: "" };

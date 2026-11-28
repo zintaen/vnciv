@@ -504,14 +504,28 @@ function wireTopMenu() {
  *   `hash: false`: a preference, not a layer (the Effects switch): never in the hash, not counted on the button.
  * app.ui.setMapToggle(id, on) → bool       switch one from code, as the panel would (false if no such toggle)
  * app.ui.mapToggles() → [{id, label, on}]   for debugging and tests
+ * app.ui.mapPreset() → "clean" | "lively" | "everything" | null    the preset the switches match (PRESETS below)
  *
  * opts: {hash: {register, update, value}, onChange()}. The returned object also has sections() (what the panel
- * draws: [{id, label, items: [{id, label, icon, title, on, hash}]}]), flip(id) and onList(fn) (the list or a state
- * changed: the panel re-renders).
+ * draws: [{id, label, items: [{id, label, icon, title, on, hash}]}]), flip(id), applyPreset(id), preset() and onList(fn)
+ * (the list or a state changed: the panel re-renders).
  */
 // Sections of "Show on the map", in display order: id → header label (English, translated with t()).
 export const GROUPS = { display: "Display", transport: "Transport", energy: "Energy", geography: "Geography", nature: "Nature", culture: "Culture",
   history: "History", living: "Living", economy: "Economy", weather: "Weather", places: "Place names", military: "Military" };
+
+// Presets at the top of "Show on the map" (Anh, 2026-11-28): each lists the layers it turns on; every other layer goes
+// off, except military, which a preset never touches, and the Effects preference. Lively is the default set (no layers=
+// in the URL). Preferences such as Living tiles (hash: false) follow a preset but are not compared to tell which one is
+// on, so a reloaded Clean link (Living tiles back on) still shows Clean.
+export const PRESET_KEEP = ["military", "motion"];
+const LIVELY = ["roads", "rail", "hubs", "rivers", "wonders", "places", "traffic", "ambient", "hexlife", "trees", "homes", "seasons", "boats", "tet", "daynight"];
+export const PRESETS = [
+  { id: "clean", label: "Clean", on: ["roads", "rail", "rivers", "places"] },
+  { id: "lively", label: "Lively", on: LIVELY },
+  { id: "everything", label: "Everything", on: [...LIVELY, "peaks", "passes", "lakes", "gates", "parks", "crafts", "festivals", "battles", "relics",
+    "worship", "hospitals", "universities", "markets", "beaches", "reserves", "metro", "bridges", "communes"] },
+];
 
 export function createMapToggles({ hash, onChange }) {
   const toggles = new Map(); // id → {id, label, icon, title, group, groupLabel, get, set, def}
@@ -596,9 +610,25 @@ export function createMapToggles({ hash, onChange }) {
     return true;
   }
 
+  // A preset: every switch but PRESET_KEEP set at once, then one re-render and one (debounced) hash write.
+  function applyPreset(id) {
+    const p = PRESETS.find((x) => x.id === id);
+    if (!p) return false;
+    for (const t of toggles.values()) if (!PRESET_KEEP.includes(t.id)) setOn(t, p.on.includes(t.id));
+    syncWanted();
+    render();
+    onChange?.();
+    hash.update();
+    return true;
+  }
+  /** The preset the switches match now, or null ("Custom"). */
+  const preset = () => PRESETS.find((p) => hashed().every((t) => PRESET_KEEP.includes(t.id) || isOn(t) === p.on.includes(t.id)))?.id ?? null;
+
   return {
     add,
     set: setToggle,
+    applyPreset,
+    preset,
     flip: (id) => { const t = toggles.get(String(id)); return t ? setToggle(t.id, !isOn(t)) : false; },
     list: () => [...toggles.values()].map((t) => ({ id: t.id, label: t.label, on: isOn(t) })),
     sections,

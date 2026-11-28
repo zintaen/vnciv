@@ -7,6 +7,7 @@ import { icon, glyph } from "./icon.js";
 import { hasIcon } from "../icons.js";
 import { norm } from "../app/search.js";
 import { t } from "../i18n.js";
+import { PRESETS } from "../app/api.js";
 
 export { glyph };
 
@@ -66,6 +67,12 @@ const DEFAULT_RECENT = ["density", "income", "bachelors"];
 const BINS = 40;
 const HOVER_HALF = 0.08; // half-width of the hover band, in ramp units
 const QUANT = 80; // band edges snap to 1/80 of the ramp so tiny mouse moves don't re-render the map
+// "Show on the map" groups open by default; the rest start collapsed. The user's choice per group is remembered.
+const OPEN_GROUPS = new Set(["display", "transport", "geography", "living"]);
+const GROUPS_KEY = "vnciv.mapGroups";
+const loadGroups = () => {
+  try { const v = JSON.parse(localStorage.getItem(GROUPS_KEY) || "{}"); return v && typeof v === "object" ? v : {}; } catch { return {}; }
+};
 
 const loadRecent = () => {
   try {
@@ -107,6 +114,17 @@ export function initLensDock(opts) {
   let layers = null; // createMapToggles(): sections(), flip(id), count(), onList(fn)
   let tour = null; // () => start the camera tour, once ext/tour has installed
   let filter = "", filterRaw = "";
+  const groupOpen = loadGroups(); // group id → open (only groups the user opened or closed)
+  let filterShut = new Set(); // while filtering, matching groups show open unless closed again here
+  const isOpen = (g) => (filter ? !filterShut.has(g) : groupOpen[g] ?? OPEN_GROUPS.has(g));
+  const toggleGroup = (g) => {
+    if (filter) { if (!filterShut.delete(g)) filterShut.add(g); }
+    else {
+      groupOpen[g] = !isOpen(g);
+      try { localStorage.setItem(GROUPS_KEY, JSON.stringify(groupOpen)); } catch { /* private mode: fine */ }
+    }
+    renderBody();
+  };
   // CSS gradient stops: a smooth ramp, or hard-edged blocks for a categorical lens.
   const rampStops = (l) => (l.format === "category"
     ? l.ramp.map((c, k, a) => `${esc(c)} ${(k / a.length) * 100}% ${((k + 1) / a.length) * 100}%`).join(",")
@@ -148,9 +166,10 @@ export function initLensDock(opts) {
   function renderBody() {
     const body = picker.querySelector(".bp-body");
     if (!body) return;
-    const focusKey = picker.contains(document.activeElement) && !document.activeElement.classList.contains("bp-filter")
-      ? (document.activeElement.dataset.id != null ? `[data-id="${CSS.escape(document.activeElement.dataset.id)}"]`
-        : document.activeElement.dataset.toggle ? `[data-toggle="${CSS.escape(document.activeElement.dataset.toggle)}"]` : null) : null;
+    const ae = document.activeElement, ds = ae?.dataset || {};
+    const focusKey = picker.contains(ae) && !ae.classList.contains("bp-filter")
+      ? (ds.id != null ? `[data-id="${CSS.escape(ds.id)}"]`
+        : ["toggle", "preset", "group"].filter((k) => ds[k] != null).map((k) => `[data-${k}="${CSS.escape(ds[k])}"]`)[0] || null) : null;
     const groups = [...(lensFile?.groups || [])];
     const known = new Set(groups.map((g) => g.id));
     if (lenses.some((l) => !known.has(l.group))) groups.push({ id: "__other", name: "Other" });
@@ -169,15 +188,27 @@ export function initLensDock(opts) {
     const row = (x) => `<button type="button" class="ml-row${x.on ? " on" : ""}" role="switch" aria-checked="${x.on}" data-toggle="${esc(x.id)}"
         ${x.title ? `title="${esc(x.title)}"` : ""}><span class="ml-ic">${tglyph(x.icon, 16)}</span><span class="ml-lbl">${esc(x.label)}</span>
         <span class="ml-switch" aria-hidden="true"></span></button>`;
+    // A group with a label has a header button that opens and closes it ("3 on" and a chevron); ungrouped rows show as is.
     const layerHtml = (layers?.sections() || []).map((g) => {
       const items = g.items.filter((x) => matches(x.label, x.title, g.label));
-      return items.length ? `<div class="ml-group" role="group"${g.label ? ` aria-label="${esc(g.label)}"` : ""}>${g.label ? `<div class="ml-sec" aria-hidden="true">${esc(g.label)}</div>` : ""}${items.map(row).join("")}</div>` : "";
+      if (!items.length) return "";
+      if (!g.label) return `<div class="ml-group" role="group">${items.map(row).join("")}</div>`;
+      const open = isOpen(g.id), gid = `ml-g-${String(g.id).replace(/[^\w-]/g, "_")}`;
+      const n = g.items.filter((x) => x.on).length;
+      return `<div class="ml-group" role="group" aria-label="${esc(g.label)}">
+        <button type="button" class="ml-sec" data-group="${esc(g.id)}" aria-expanded="${open}" aria-controls="${gid}">
+          <span class="ml-sec-l">${esc(g.label)}</span><span class="ml-n">${esc(t("{n} on", { n }))}</span><span class="ml-chev" aria-hidden="true"></span></button>
+        <div class="ml-items" id="${gid}"${open ? "" : " hidden"}>${items.map(row).join("")}</div></div>`;
     }).join("");
+    const cur = layers?.preset?.() ?? null;
+    const presetHtml = layers?.applyPreset ? `<div class="ml-presets" role="group" aria-label="${esc(t("Presets"))}">${PRESETS.map((p) =>
+      `<button type="button" class="ml-preset" data-preset="${p.id}" aria-pressed="${cur === p.id}">${esc(t(p.label))}</button>`).join("")}</div>
+      <p class="ml-custom"${cur ? " hidden" : ""}>${esc(t("Custom"))}</p>` : "";
     const head = (id, title, hint) => `<h3 class="bp-h" id="${id}">${esc(title)} <span class="bp-hint">${esc(hint)}</span></h3>`;
     body.innerHTML = `<section class="bp-col bp-lenses" aria-labelledby="bp-h-lens">${head("bp-h-lens", t("Colour by"), t("one theme at a time"))}
         ${lensHtml || `<p class="bp-none">${esc(t("No theme matches"))}</p>`}</section>
       <section class="bp-col bp-layers" aria-labelledby="bp-h-layers">${head("bp-h-layers", t("Show on map"), t("as many as you like"))}
-        ${layerHtml || `<p class="bp-none">${esc(layers ? t("No layer matches") : t("Loading…"))}</p>`}</section>`;
+        ${presetHtml}${layerHtml || `<p class="bp-none">${esc(layers ? t("No layer matches") : t("Loading…"))}</p>`}</section>`;
     if (focusKey) (body.querySelector(focusKey) || body.querySelector(".lp-tile, .ml-row"))?.focus();
   }
 
@@ -199,6 +230,10 @@ export function initLensDock(opts) {
     if (e.target.closest(".bp-tour")) { closePicker(false); return tour?.(); }
     const j = e.target.closest("[data-jump]"); // one-column panel: jump between the two sections
     if (j) return void picker.querySelector(`#${j.dataset.jump}`)?.scrollIntoView({ block: "start" });
+    const pr = e.target.closest("[data-preset]");
+    if (pr) return void layers?.applyPreset(pr.dataset.preset); // (onList re-renders and keeps focus on it)
+    const gh = e.target.closest("[data-group]");
+    if (gh) return toggleGroup(gh.dataset.group);
     const r = e.target.closest("[data-toggle]");
     if (r) return void layers?.flip(r.dataset.toggle); // (onList re-renders the rows and keeps focus on this one)
     const b = e.target.closest("button[data-id]");
@@ -210,6 +245,7 @@ export function initLensDock(opts) {
     if (!e.target.classList.contains("bp-filter")) return;
     filterRaw = e.target.value;
     filter = fold(filterRaw);
+    filterShut = new Set();
     renderBody();
   });
   moreBtn.onclick = () => (picker.hidden ? openPicker() : closePicker());
@@ -232,10 +268,13 @@ export function initLensDock(opts) {
       else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
       return;
     }
-    const items = [...picker.querySelectorAll(".lp-tile, .ml-row")];
+    const items = [...picker.querySelectorAll(".lp-tile, .ml-preset, .ml-sec, .ml-row")].filter((x) => x.getClientRects().length);
     if (inFilter) {
       if (e.key === "ArrowDown" && items.length) { e.preventDefault(); items[0].focus(); }
-      else if (e.key === "Enter" && items.length && filter) { e.preventDefault(); items[0].click(); }
+      else if (e.key === "Enter" && filter) { // the first matching theme or layer (not a preset or a group header)
+        const first = items.find((x) => x.matches(".lp-tile, .ml-row"));
+        if (first) { e.preventDefault(); first.click(); }
+      }
       return;
     }
     const i = items.indexOf(document.activeElement);

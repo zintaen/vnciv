@@ -53,17 +53,40 @@ def idle(name, url):
 
 
 AT = "'#at=3119,7510,5.05'"
-# Map toggles: ON('id') → is that switch on; the default set Anh chose ("gọn hơn"), minus military (unchanged) and
-# the living switches whose phone default differs (trees).
+# Map toggles: ON('id') → is that switch on; the default set Anh chose (the "Sống động / Lively" preset).
 ON = "((id) => __app.ui.mapToggles().find((x) => x.id === id)?.on)"
-DEFAULT_ON = f"['roads','rail','hubs','rivers','wonders','places','ambient','trees','homes','seasons','boats','tet','military'].map({ON})"
+DEFAULT_ON = (f"['roads','rail','hubs','rivers','wonders','places','ambient','trees','homes','seasons','boats','tet','military','traffic',"
+              f"'hexlife','daynight'].map({ON})")
 DEFAULT_OFF = (f"['resources','trade','communes','relics','worship','hospitals','universities','markets','beaches','reserves','metro','bridges',"
-               f"'peaks','passes','lakes','gates','parks','crafts','battles','festivals','sealevel','daynight','traffic','growth','split','weather','atmos-sound']"
-               f".map({ON})")
+               f"'peaks','passes','lakes','gates','parks','crafts','battles','festivals','sealevel','growth','split','weather','atmos-sound',"
+               f"'seasoncal','communes-density'].map({ON})")
+# The presets of "Show on the map" (app/api.js PRESETS, docs/DATA_CONTRACTS.md): the switches each one turns on, apart
+# from military and Effects, which a preset never touches.
+LIVELY = ["roads", "rail", "hubs", "rivers", "wonders", "places", "traffic", "ambient", "hexlife", "trees", "homes", "seasons", "boats", "tet", "daynight"]
+PRESETS = {"clean": ["roads", "rail", "rivers", "places"], "lively": LIVELY,
+           "everything": LIVELY + ["peaks", "passes", "lakes", "gates", "parks", "crafts", "festivals", "battles", "relics", "worship", "hospitals",
+                                   "universities", "markets", "beaches", "reserves", "metro", "bridges", "communes"]}
+ONSET = "__app.ui.mapToggles().filter((x) => x.on && x.id !== 'motion' && x.id !== 'military').map((x) => x.id).sort().join()"
+PRESET_STATE = (f"[{ONSET}, __app.ui.mapPreset(), [...document.querySelectorAll('.ml-preset[aria-pressed=true]')].map((b) => b.dataset.preset).join(),"
+                f" {ON}('military'), history.length - window.__h0]")
+
+
+def preset_steps():
+    steps = [("settle",), ("click", "#btn-lenses"), ("wait", 300)]
+    for k in ("clean", "everything", "lively"):
+        steps += [("js", "window.__h0 = history.length"), ("click", f".ml-preset[data-preset='{k}']"), ("wait", 600), ("js", "__app.hash.flush()"),
+                  ("save", k, PRESET_STATE)]
+    return steps + [("click", ".ml-row[data-toggle='peaks']"), ("wait", 300),
+                    ("save", "custom", "[__app.ui.mapPreset(), !document.querySelector('.ml-custom').hidden, document.querySelectorAll('.ml-preset[aria-pressed=true]').length]")]
+
+
+PRESET_EXPECT = " && ".join(
+    f"S.{k}[0]==={','.join(sorted(v))!r} && S.{k}[1]==='{k}' && S.{k}[2]==='{k}' && S.{k}[3]===false && S.{k}[4]<=1" for k, v in PRESETS.items()
+) + " && S.custom.join()===',true,0' || (console.log(JSON.stringify(S)), false)"
 CHECKS = [
     # --- battery ---
     idle("idle: home stops drawing after a minute and wakes on input", ""),
-    # traffic (planes, ships, trains) is what animates over a lens; it is off by default since the "gọn hơn" set
+    # traffic (planes, ships, trains) is what animates over a lens (on by default)
     idle("idle: a lens stops drawing after a minute and wakes on input", "#lens=density&layers=traffic"),
     idle("idle: an advisor stops drawing after a minute and wakes on input", "#advisor=land"),
     # --- map layers in the link ---
@@ -71,7 +94,21 @@ CHECKS = [
          steps=[("settle",), ("save", "empty", f"[{ON}('roads'), location.hash.includes('layers'), __app.state.showResources]"),
                 ("goto", "#layers=none"), ("settle",)],
          expect=f"S.empty[0]===true && S.empty[1]===false && S.empty[2]===false && {ON}('roads')===false && location.hash.includes('layers=none')"),
-    dict(name="default layers are the 'gọn hơn' set; a shared layers= link overrides them and round-trips",
+    dict(name="each preset sets exactly its documented set, leaves military alone, one history entry; a switch after it is Custom",
+         url="#layers=roads,rail", steps=preset_steps(), expect=PRESET_EXPECT),
+    dict(name="collapsed groups: header aria, remembered, and the filter opens a matching collapsed group", url="?lang=en",
+         steps=[("settle",), ("click", "#btn-lenses"), ("wait", 300),
+                ("save", "a", "[...document.querySelectorAll('.ml-sec')].filter((b) => b.getAttribute('aria-expanded') === 'false').map((b) => b.dataset.group).join()"),
+                ("save", "ctl", "[...document.querySelectorAll('.ml-sec')].every((b) => document.getElementById(b.getAttribute('aria-controls'))?.hidden === (b.getAttribute('aria-expanded') === 'false'))"),
+                ("click", ".ml-sec[data-group='culture']"), ("click", ".ml-sec[data-group='transport']"), ("key", "Escape"), ("reload",), ("settle",),
+                ("click", "#btn-lenses"), ("wait", 300),
+                ("save", "b", "['culture','transport'].map((g) => document.querySelector(`.ml-sec[data-group=${g}]`).getAttribute('aria-expanded')).join()"),
+                ("js", "(() => { const f = document.querySelector('.bp-filter'); f.value = 'battle'; f.dispatchEvent(new Event('input', {bubbles: true})); })()"),
+                ("wait", 300)],
+         expect="S.a==='energy,nature,culture,history,economy,weather,places,military,Environment' && S.ctl && S.b==='true,false' "
+                "&& document.querySelector('.ml-sec[data-group=history]').getAttribute('aria-expanded')==='true' "
+                "&& !!document.querySelector('.ml-row[data-toggle=battles]').getClientRects().length || (console.log(JSON.stringify(S)), false)"),
+    dict(name="default layers are the Lively set; a shared layers= link overrides them and round-trips",
          steps=[("settle",), ("save", "def", f"[{DEFAULT_ON}, {DEFAULT_OFF}, location.hash.includes('layers')]"),
                 ("goto", "#layers=resources,traffic,daynight"), ("settle",),
                 ("save", "link", f"[{ON}('resources'), __app.state.showResources, {ON}('traffic'), {ON}('daynight'), {ON}('roads')]"),

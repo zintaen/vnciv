@@ -115,8 +115,10 @@ export async function install(app) {
     // the middle of the map beside it (the at= was applied beside the city panel).
     const at = cv.keepCam ? (app.hash.value("at") || "").split(",").map(Number) : null;
     if (at?.length === 3 && at.every(Number.isFinite)) requestAnimationFrame(() => {
-      if (cv.model !== m) return;
-      const a = app.visibleArea(), c = app.cam;
+      const c = app.cam;
+      // A flight running is main.js aiming the link's at= (zoom included) at the new usable area: leave it to land.
+      if (cv.model !== m || c.flight) return;
+      const a = app.visibleArea();
       c.stop();
       c.x = at[0] - ((a.x0 + a.x1) / 2 - c.w / 2) / c.scale;
       c.y = at[1] - ((a.y0 + a.y1) / 2 - c.h / 2) / c.scale;
@@ -360,6 +362,14 @@ export async function install(app) {
           cv.dock.onscroll = null;
           cv.dock.style.transform = "";
         }
+        // Back to where we came from: the quick panel if it was open, else nothing selected. Before the
+        // undock: a Back / Forward link's flight is re-aimed then (main.js onDocksChanged) and must see the panel.
+        if (city && app.state.selectedCity === city) {
+          if (cv.fromPreview) {
+            origCityPanel(city, lastCtx || fallbackCtx());
+            addOpenButton(city);
+          } else app.clearSelection();
+        }
         app.ui.undock("right");
         cv.dock = null;
         cv.legend?.remove();
@@ -377,13 +387,6 @@ export async function install(app) {
           app.requestDraw();
         }
         cv.prevCam = null;
-        // Back to where we came from: the quick panel if it was open, else nothing selected.
-        if (city && app.state.selectedCity === city) {
-          if (cv.fromPreview) {
-            origCityPanel(city, lastCtx || fallbackCtx());
-            addOpenButton(city);
-          } else app.clearSelection();
-        }
       } finally {
         cv.exiting = false;
       }

@@ -425,7 +425,8 @@ export function createMapToggles({ dock, after, area, hash, onChange }) {
   }
   const parse = (v) => new Set(String(v).split(",").map((s) => s.trim()).filter(Boolean));
   function hashSet(v) {
-    wanted = v == null ? null : parse(v);
+    const set = v == null ? null : parse(v);
+    wanted = set && set.size ? set : null; // an empty layers= is the defaults; only "none" turns every layer off
     for (const t of toggles.values()) setOn(t, wanted ? wanted.has(t.id) : t.def);
     render();
     onChange?.();

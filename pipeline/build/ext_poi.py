@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import math
 import re
+import unicodedata
 from collections import Counter, defaultdict
 
 from ..admin import fold
@@ -123,7 +124,8 @@ def dedup(rows, km=DEDUP_KM):
 
 
 def name_of(t):
-    return (t.get("name") or t.get("name:vi") or "").strip() or None
+    """The tagged name in NFC: some OSM names are stored decomposed, which the name prefixes below would miss."""
+    return unicodedata.normalize("NFC", (t.get("name") or t.get("name:vi") or "")).strip() or None
 
 
 # --- kinds ---------------------------------------------------------------------------------------------------------
@@ -359,8 +361,8 @@ def metro_line(W, name, ref, colour, route, segs, km):
 
 def bridge_name(t):
     if t.get("bridge:name"):
-        return t["bridge:name"].strip()
-    n = (t.get("name") or "").strip()
+        return unicodedata.normalize("NFC", t["bridge:name"]).strip()
+    n = unicodedata.normalize("NFC", t.get("name") or "").strip()
     return n if n.lower().startswith("cầu") or "bridge" in n.lower() else None
 
 

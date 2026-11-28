@@ -187,8 +187,10 @@ export function growthSpan(o, n = null) {
     yrs ? ` <span class="since">${esc(t("since {y}", { y: yrs[0] }))}</span>` : ""}</span></span>`;
 }
 
+// The year is shown like every other figure's: on a past timeline year the banners show that year's population.
 export const popLine = (o, extra = "") =>
-  `<div class="cp-pop">${icon("pop", "👥", { size: 16 })} ${t("<b>{pop}</b> people · {emp} employed", { pop: int(o.population), emp: int(o.employed) })}${extra}</div>`;
+  `<div class="cp-pop">${icon("pop", "👥", { size: 16 })} ${t("<b>{pop}</b> people · {emp} employed", { pop: int(o.population), emp: int(o.employed) })}${
+    o.years?.population ? ` <span class="pop-year">${esc(String(o.years.population).slice(0, 4))}</span>` : ""}${extra}</div>`;
 
 /**
  * Fill and show the panel.

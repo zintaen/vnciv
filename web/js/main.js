@@ -14,6 +14,7 @@ import { Minimap } from "./ui/minimap.js";
 import { icon } from "./ui/icon.js";
 import { initSearch, norm as normName } from "./app/search.js";
 import { createEmitter, createHashState, createModes, createUi, createMapToggles } from "./app/api.js";
+import { parseHash } from "./app/urlstate.js";
 import { drawHighlight, drawOverlays, invalidateHighlight, highlightBounds } from "./render/overlays.js";
 import { resourceFilterSig, layerActive, layerError, Z as LAYER_Z } from "./render/map.js";
 import { installExtensions } from "./ext/index.js";
@@ -457,12 +458,28 @@ async function main() {
   function resize() {
     dpr = window.devicePixelRatio || 1;
     const cw = Math.max(1, innerWidth), ch = Math.max(1, innerHeight);
+    // A rotation or window resize (not a phone's URL bar, which changes only the height) can push the selected
+    // city or province under the bottom sheet or the panel: if it was on screen before, bring it back into view.
+    const sel = cw !== cam.w && userMoved && cam.scale > 0 ? selectionPoint() : null;
+    const selShown = sel && (([sx, sy]) => sx >= 0 && sx <= cam.w && sy >= 0 && sy <= cam.h)(cam.toScreen(sel[0], sel[1]));
     canvas.width = Math.round(cw * dpr);
     canvas.height = Math.round(ch * dpr);
     cam.resize(cw, ch);
     // Keep refitting until the user has moved the map (the first layout may be tiny or hidden).
     if (!userMoved || !(cam.scale > 0)) home();
-    else updateMinScale();
+    else {
+      updateMinScale();
+      if (selShown) {
+        const a = visibleArea(), [sx, sy] = cam.toScreen(sel[0], sel[1]);
+        if (sx < a.x0 || sx > a.x1 || sy < a.y0 || sy > a.y1) {
+          cam.stop(); // a flight started for the old layout (a dock turning into the sheet) would land it there again
+          cam.x = sel[0] - ((a.x0 + a.x1) / 2 - cam.w / 2) / cam.scale;
+          cam.y = sel[1] - ((a.y0 + a.y1) / 2 - cam.h / 2) / cam.scale;
+          cam.clamp();
+          url.schedule();
+        }
+      }
+    }
     requestDraw();
     events.emit("resize", { w: cam.w, h: cam.h, dpr });
   }
@@ -566,6 +583,14 @@ async function main() {
     userMoved = true;
     dockFramed = false;
     requestDraw();
+  }
+
+  // World point of the selection: the selected city's hex, or the middle of the selected province (null if none).
+  function selectionPoint() {
+    const c = state.selectedCity;
+    if (c?.cell != null) return [w.grid.cx(c.cell), w.grid.cy(c.cell)];
+    const b = state.selectedState != null ? stateBox(state.selectedState) : null;
+    return b ? [(b.x0 + b.x1) / 2, (b.y0 + b.y1) / 2] : null;
   }
 
   function focusCity(city) {
@@ -766,7 +791,9 @@ async function main() {
           state: stateHashRef && stateHashRef.idx === state.selectedState ? stateHashRef.raw : w.raw.states[state.selectedState]?.fips,
         } : {};
       return {
-        lens: state.lens?.id || null,
+        // While lenses.json is still downloading, a link's lens cannot be applied yet: keep it in the URL, where
+        // url.applyCurrent() picks it up once the lenses land.
+        lens: state.lens?.id || (!lensFile.lenses.length ? parseHash(location.hash).lens : null),
         ...sel,
         // at = [x km, y km, log2(scale / home-fit scale)]; during a flight, where it will land. x, y is the world point
         // in the middle of visibleArea() (not of the canvas), so a link frames the same place beside a desktop

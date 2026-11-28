@@ -232,7 +232,7 @@ export default {
   "Pupils per teacher": "Học sinh trên giáo viên",
   "pupils per teacher (general education)": "học sinh trên một giáo viên (giáo dục phổ thông)",
   "General-education pupils (primary to upper secondary) per teacher at 30 September 2025, by the 34 provinces (NSO).": "Số học sinh phổ thông (tiểu học đến trung học phổ thông) bình quân một giáo viên tại 30/9/2025, theo 34 tỉnh (Cục Thống kê).",
-  "Distinct tropical cyclones of at least tropical-storm strength (34 kt, JMA 10-minute winds; JTWC where JMA has none) whose IBTrACS best track passed within 100 km of the hex centre, 1980 to today.": "Số xoáy thuận nhiệt đới riêng biệt đạt ít nhất cấp bão nhiệt đới (34 kt, gió 10 phút theo JMA; theo JTWC khi JMA không có số liệu) có đường đi thực tế (best track) IBTrACS qua trong phạm vi 100 km của tâm ô, từ 1980 đến nay.",
+  "Distinct tropical cyclones of at least tropical-storm strength (34 kt, JMA 10-minute winds; JTWC's only for a storm JMA did not track) whose IBTrACS best track passed within 100 km of the hex centre, 1980 to today.": "Số xoáy thuận nhiệt đới riêng biệt đạt ít nhất cấp bão nhiệt đới (34 kt, gió 10 phút theo JMA; chỉ dùng số liệu JTWC cho cơn bão JMA không theo dõi) có đường đi thực tế (best track) IBTrACS qua trong phạm vi 100 km của tâm ô, từ 1980 đến nay.",
   "Counts storm passages, not damage: floods and landslides from storms that pass further away are not counted.": "Đếm số lần bão đi qua, không phải thiệt hại: lũ lụt và sạt lở do những cơn bão đi xa hơn không được tính.",
   "Forest cover (official)": "Che phủ rừng (chính thức)",
   "forest cover": "độ che phủ rừng",

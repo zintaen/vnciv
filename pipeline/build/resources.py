@@ -5,6 +5,7 @@ import csv
 import json
 import math
 import re
+import unicodedata
 from collections import defaultdict
 
 from ..fetch import RAW
@@ -66,6 +67,7 @@ def plant_type(tags):
 
 def plant_name(tags):
     n = tags.get("name:vi") or tags.get("name") or tags.get("name:en")
+    n = unicodedata.normalize("NFC", n) if n else n  # some OSM names are stored decomposed
     if n and n.isascii():
         n = accent(n)
     return n

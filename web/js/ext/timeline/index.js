@@ -279,13 +279,21 @@ export async function install(app) {
   }
   function showEvent(e) { card = { kind: "event", event: e }; renderCard(); }
   function showHistory(open = card?.kind === "history" ? card.open : -1) { card = { kind: "history", open }; renderCard(); }
+  function closeCard() {
+    if (card?.kind === "storms") stormsDismissed = true;
+    const hadFocus = cardEl.contains(document.activeElement);
+    card = null;
+    renderCard();
+    if (hadFocus) $(".tl-hist-btn")?.focus();
+  }
+  // Esc closes the card like its ✕ (after the active mode and the open dialogs: main.js escape()).
+  app.on("escape", () => {
+    if (cardEl.hidden) return false;
+    closeCard();
+    return true;
+  });
   cardEl.addEventListener("click", (ev) => {
-    if (ev.target.closest(".tl-card-close")) {
-      if (card?.kind === "storms") stormsDismissed = true;
-      card = null;
-      renderCard();
-      return;
-    }
+    if (ev.target.closest(".tl-card-close")) return closeCard();
     const fly = ev.target.closest(".tl-fly");
     if (fly) app.flyTo(+fly.dataset.x, +fly.dataset.y, Math.max(app.cam.scale, 1.2));
     const item = ev.target.closest(".tl-hist-item");

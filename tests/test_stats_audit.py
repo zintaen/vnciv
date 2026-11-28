@@ -85,11 +85,32 @@ class TestStats(unittest.TestCase):
     def test_storm_wind_is_jma_not_mixed(self):
         from pipeline.build.lenses import wind_kt
         ix = {"TOKYO_WIND": 0, "WMO_WIND": 1, "USA_WIND": 2}
-        self.assertEqual(wind_kt(["105", " ", "128"], ix), 105)  # Yagi 2024-09-06 03:00, a 3-hourly row
-        self.assertEqual(wind_kt([" ", "95", "110"], ix), 95)
-        self.assertEqual(wind_kt([" ", " ", "40"], ix), 40)    # a storm JMA did not estimate
-        self.assertEqual(wind_kt([" ", " ", " "], ix), 0)
+        self.assertEqual(wind_kt(["105", " ", "128"], ix), (105, 128))  # Yagi 2024-09-06 03:00, a 3-hourly row
+        self.assertEqual(wind_kt([" ", "95", "110"], ix), (95, 110))
+        self.assertEqual(wind_kt([" ", " ", "40"], ix), (None, 40))
+        self.assertEqual(wind_kt([" ", " ", " "], ix), (None, None))
 
+    def test_storm_max_wind_never_jtwc_for_a_jma_storm(self):
+        """A storm JMA estimated takes its maximum from JMA's winds only: a JTWC-only row (before JMA starts or
+        after it stops, e.g. Warren 1981: JMA 35 kt, JTWC 45 kt) must not raise it."""
+        import csv
+        from pipeline.fetch import RAW
+        jma_max = {}
+        with open(RAW / "ibtracs" / "ibtracs.WP.list.v04r01.csv", newline="") as f:
+            r = csv.reader(f)
+            head = next(r)
+            next(r)
+            ix = {k: head.index(k) for k in ("SID", "TOKYO_WIND", "WMO_WIND")}
+            for row in r:
+                for k in ("TOKYO_WIND", "WMO_WIND"):
+                    if row[ix[k]].strip():
+                        jma_max[row[ix["SID"]]] = max(jma_max.get(row[ix["SID"]], 0), float(row[ix[k]]))
+        storms = json.loads((ROOT / "data" / "interim" / "_storms.json").read_text())["storms"]
+        jma_storms = [sid for sid in storms if sid in jma_max]
+        self.assertGreater(len(jma_storms), 200)
+        over = [(sid, storms[sid]["name"], storms[sid]["max_kt"], jma_max[sid]) for sid in jma_storms
+                if storms[sid]["max_kt"] > jma_max[sid]]
+        self.assertEqual(over, [])
 
 if __name__ == "__main__":
     unittest.main()

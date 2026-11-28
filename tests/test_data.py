@@ -92,7 +92,10 @@ class TestData(unittest.TestCase):
         for p in infra["ports"]:
             self.assertIn(p["class"], classes, p["name"])
         seaports = {p["seaport"] for p in infra["ports"]}
-        self.assertGreaterEqual(len(seaports), 25, "most of the 34 listed seaports are placed")
+        unplaced = {u["seaport"] for u in infra["seaports_unplaced"]}
+        self.assertEqual(len(seaports | unplaced), 34, "every seaport of Decision 804 is placed or listed as unplaced")
+        self.assertFalse(seaports & unplaced)
+        self.assertLessEqual(len(unplaced), 1, "only Hậu Giang (no port area named in Decision 1579) is unplaced")
         self.assertEqual(sum(p["class"] == "special" for p in infra["ports"] if p["main"]), 2)
         parks = [w for w in wonders["wonders"] if w["rule"] == "national_park"]
         self.assertGreaterEqual(len(parks), 34)

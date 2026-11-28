@@ -146,6 +146,27 @@ class TestContracts(unittest.TestCase):
         bad = main()
         self.assertFalse(bad, "\n".join(bad))
 
+    def test_strings_are_nfc(self):
+        """Every string in web/data is NFC: a decomposed name (some OSM names are) defeats prefix rules such as
+        "Chùa" → Buddhist and the browser's search."""
+        import unicodedata
+        bad = []
+        def walk(x, f):
+            if isinstance(x, str):
+                if unicodedata.normalize("NFC", x) != x:
+                    bad.append((f, x))
+            elif isinstance(x, dict):
+                for v in x.values():
+                    walk(v, f)
+            elif isinstance(x, list):
+                for v in x:
+                    walk(v, f)
+        files = sorted(D.glob("*.json"))
+        self.assertGreater(len(files), 20)
+        for p in files:
+            walk(json.loads(p.read_text()), p.name)
+        self.assertEqual(bad[:10], [])
+
 
 if __name__ == "__main__":
     unittest.main()

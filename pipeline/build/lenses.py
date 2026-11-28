@@ -137,13 +137,10 @@ def worldpop(W):
 
 
 def wind_kt(row, ix):
-    """Max sustained wind (kt): JMA's 10-minute wind (TOKYO_WIND is filled at the 3-hourly rows too, WMO_WIND only
-    6-hourly); JTWC's 1-minute wind only for a storm JMA did not estimate. Mixing them row by row lets the higher
-    1-minute wind set a storm's maximum (Yagi 2024: 128 kt instead of JMA's 105)."""
-    for k in ("TOKYO_WIND", "WMO_WIND", "USA_WIND"):
-        if row[ix[k]].strip():
-            return float(row[ix[k]])
-    return 0
+    """(JMA wind, JTWC wind) of a track row in kt, None where blank. JMA's 10-minute wind: TOKYO_WIND (filled at the
+    3-hourly rows too), else WMO_WIND (6-hourly only); JTWC's 1-minute wind: USA_WIND."""
+    jma = next((float(row[ix[k]]) for k in ("TOKYO_WIND", "WMO_WIND") if row[ix[k]].strip()), None)
+    return jma, float(row[ix["USA_WIND"]]) if row[ix["USA_WIND"]].strip() else None
 
 
 def typhoons(W):
@@ -153,7 +150,7 @@ def typhoons(W):
     remote_set = set(W.raw["islands"])
     rem = np.array([i in remote_set for i in land])  # Hoàng Sa, Trường Sa: hexes counted, but not for wind or date
     tracks = defaultdict(list)
-    names = {}
+    names, jma = {}, set()  # jma: storms JMA estimated somewhere on their track
     with open(RAW / "ibtracs" / "ibtracs.WP.list.v04r01.csv", newline="") as f:
         r = csv.reader(f)
         head = next(r)
@@ -163,11 +160,18 @@ def typhoons(W):
             if int(row[ix["SEASON"]]) < STORM_SINCE:
                 continue
             lat, lon = float(row[ix["LAT"]]), float(row[ix["LON"]])
+            w = wind_kt(row, ix)
+            if w[0] is not None:
+                jma.add(row[ix["SID"]])
             if not (3 < lat < 27 and 98 < lon < 122):
                 continue
-            kt = wind_kt(row, ix)
-            tracks[row[ix["SID"]]].append((lon, lat, kt, row[ix["ISO_TIME"]]))
+            tracks[row[ix["SID"]]].append((lon, lat, w, row[ix["ISO_TIME"]]))
             names[row[ix["SID"]]] = (row[ix["NAME"]], int(row[ix["SEASON"]]))
+    # One agency per storm: JMA's wind wherever JMA estimated the storm (rows it skipped count 0), JTWC's 1-minute wind
+    # only for a storm JMA did not estimate. Mixing them row by row let the higher 1-minute wind set the maximum.
+    for sid, pts in tracks.items():
+        k = 0 if sid in jma else 1
+        tracks[sid] = [(lon, lat, w[k] or 0, t) for lon, lat, w, t in pts]
     count = np.zeros(len(land), int)
     rad = STORM_RADIUS_KM * UNIT
     per_storm = {}
@@ -257,7 +261,7 @@ def build():
                    "ramp": ramp("disasters"),
                    "higher_is": "bad", "source": "ibtracs",
                    "description": f"Distinct tropical cyclones of at least tropical-storm strength ({STORM_MIN_KT} kt, "
-                                  f"JMA 10-minute winds; JTWC where JMA has none) whose IBTrACS best track passed within {STORM_RADIUS_KM} km of the "
+                                  f"JMA 10-minute winds; JTWC's only for a storm JMA did not track) whose IBTrACS best track passed within {STORM_RADIUS_KM} km of the "
                                   f"hex centre, {STORM_SINCE} to today.",
                    "note": "Counts storm passages, not damage: floods and landslides from storms that pass further away are not counted.",
                    "values": storm_vals})

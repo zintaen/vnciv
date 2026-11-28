@@ -40,7 +40,7 @@ EXTRA = [
          homepage="https://data.worldbank.org/indicator/PA.NUS.FCRF", license="CC BY 4.0",
          description="VND per USD, period average; every dong figure is converted at the 2024 rate (the 2025 rate is not yet published).",
          used_for=["Money in US dollars"],
-         files=[{"file": "wb_fx.json", "url": "https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2020:2026"}]),
+         files=[{"file": "wb_fx.json", "url": "https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2019:2026"}]),
 ]
 
 

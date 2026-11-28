@@ -57,7 +57,7 @@ need the NSO servers.
 | Culture | Travel and tour turnover |
 | Districts | Location quotients of students, retail, FDI and tourism per resident, plus mapped sites (ports, airports, heritage, power) |
 | Citizens | Urban/rural, formal/informal jobs, trained/untrained workers, poor/not-poor households |
-| Disasters | Typhoons (IBTrACS best tracks within 100 km since 1980) |
+| Disasters | Typhoons (IBTrACS best tracks within 100 km since 1980; the 2025–2026 seasons are still provisional in IBTrACS) |
 | Military | People's Army sites mapped in OpenStreetMap (forts sized by mapped area; ranges as restricted ground) |
 | Trade routes | The 30 domestic air routes flown by the most airlines (OpenFlights route database, 2014) |
 | Wonders | UNESCO World Heritage sites, national parks, the national and regional universities, landmarks |

@@ -1,315 +1,441 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,44.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 An Giang,63,2020,46.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+An Giang,63,2021,47.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 An Giang,63,2022,52.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 An Giang,63,2023,58.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 An Giang,63,2024,66.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 An Giang,63,2025,71.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bà Rịa - Vũng Tàu,63,2019,300.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bà Rịa - Vũng Tàu,63,2020,251.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bà Rịa - Vũng Tàu,63,2021,297.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bà Rịa - Vũng Tàu,63,2022,372.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bà Rịa - Vũng Tàu,63,2023,339.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bà Rịa - Vũng Tàu,63,2024,339.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bà Rịa - Vũng Tàu,63,2025,346.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bình Dương,63,2019,147.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bình Dương,63,2020,150.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bình Dương,63,2021,157.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bình Dương,63,2022,163.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Dương,63,2023,166.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Dương,63,2024,177.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bình Dương,63,2025,196.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bình Phước,63,2019,62.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bình Phước,63,2020,67.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bình Phước,63,2021,76.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bình Phước,63,2022,87.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Phước,63,2023,94.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Phước,63,2024,107.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bình Phước,63,2025,123.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bình Thuận,63,2019,64.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bình Thuận,63,2020,69.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bình Thuận,63,2021,73.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bình Thuận,63,2022,81.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Thuận,63,2023,82.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Thuận,63,2024,92.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bình Thuận,63,2025,99.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bình Định,63,2019,55.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bình Định,63,2020,60.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bình Định,63,2021,63.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bình Định,63,2022,71.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Định,63,2023,78.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bình Định,63,2024,85.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bình Định,63,2025,93.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bạc Liêu,63,2019,45.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bạc Liêu,63,2020,48.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bạc Liêu,63,2021,51.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bạc Liêu,63,2022,59.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bạc Liêu,63,2023,64.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bạc Liêu,63,2024,70.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bạc Liêu,63,2025,78.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bắc Giang,63,2019,57.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bắc Giang,63,2020,65.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bắc Giang,63,2021,70.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bắc Giang,63,2022,84.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Giang,63,2023,96.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Giang,63,2024,109.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bắc Giang,63,2025,124.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bắc Kạn,63,2019,38.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bắc Kạn,63,2020,41.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bắc Kạn,63,2021,42.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bắc Kạn,63,2022,47.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Kạn,63,2023,51.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Kạn,63,2024,57.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bắc Kạn,63,2025,62.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bắc Ninh,63,2019,145.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bắc Ninh,63,2020,147.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bắc Ninh,63,2021,157.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bắc Ninh,63,2022,166.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Ninh,63,2023,156.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bắc Ninh,63,2024,159.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bắc Ninh,63,2025,173.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Bến Tre,63,2019,40.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Bến Tre,63,2020,41.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Bến Tre,63,2021,44.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Bến Tre,63,2022,48.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bến Tre,63,2023,51.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Bến Tre,63,2024,56.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Bến Tre,63,2025,63.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Cao Bằng,63,2019,32.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Cao Bằng,63,2020,35.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Cao Bằng,63,2021,35.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Cao Bằng,63,2022,38.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cao Bằng,63,2023,41.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cao Bằng,63,2024,44.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Cao Bằng,63,2025,49.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Cà Mau,63,2019,50.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Cà Mau,63,2020,51.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Cà Mau,63,2021,51.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Cà Mau,63,2022,59.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cà Mau,63,2023,64.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cà Mau,63,2024,71.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Cà Mau,63,2025,79.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Cần Thơ,63,2019,72.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Cần Thơ,63,2020,72.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Cần Thơ,63,2021,73.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Cần Thơ,63,2022,86.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cần Thơ,63,2023,94.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Cần Thơ,63,2024,104.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Cần Thơ,63,2025,114.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Gia Lai,63,2019,40.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Gia Lai,63,2020,42.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Gia Lai,63,2021,48.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Gia Lai,63,2022,54.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Gia Lai,63,2023,57.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Gia Lai,63,2024,66.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Gia Lai,63,2025,77.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hà Giang,63,2019,28.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hà Giang,63,2020,29.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hà Giang,63,2021,30.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hà Giang,63,2022,33.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Giang,63,2023,34.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Giang,63,2024,37.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hà Giang,63,2025,42.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hà Nam,63,2019,64.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hà Nam,63,2020,69.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hà Nam,63,2021,76.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hà Nam,63,2022,87.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Nam,63,2023,95.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Nam,63,2024,107.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hà Nam,63,2025,121.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hà Nội,63,2019,120.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hà Nội,63,2020,123.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hà Nội,63,2021,128.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hà Nội,63,2022,141.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Nội,63,2023,149.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Nội,63,2024,162.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hà Nội,63,2025,179.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hà Tĩnh,63,2019,60.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hà Tĩnh,63,2020,63.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hà Tĩnh,63,2021,68.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hà Tĩnh,63,2022,71.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Tĩnh,63,2023,76.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hà Tĩnh,63,2024,82.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hà Tĩnh,63,2025,90.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hòa Bình,63,2019,54.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hòa Bình,63,2020,57.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hòa Bình,63,2021,59.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hòa Bình,63,2022,67.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hòa Bình,63,2023,69.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hòa Bình,63,2024,79.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hòa Bình,63,2025,95.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hưng Yên,63,2019,73.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hưng Yên,63,2020,79.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hưng Yên,63,2021,88.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hưng Yên,63,2022,102.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hưng Yên,63,2023,109.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hưng Yên,63,2024,117.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hưng Yên,63,2025,130.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hải Dương,63,2019,66.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hải Dương,63,2020,68.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hải Dương,63,2021,77.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hải Dương,63,2022,87.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hải Dương,63,2023,94.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hải Dương,63,2024,106.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hải Dương,63,2025,118.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hải Phòng,63,2019,122.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hải Phòng,63,2020,133.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hải Phòng,63,2021,151.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hải Phòng,63,2022,171.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hải Phòng,63,2023,185.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hải Phòng,63,2024,206.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hải Phòng,63,2025,231.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Hậu Giang,63,2019,48.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Hậu Giang,63,2020,51.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Hậu Giang,63,2021,54.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Hậu Giang,63,2022,67.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hậu Giang,63,2023,79.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Hậu Giang,63,2024,90.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Hậu Giang,63,2025,100.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Khánh Hòa,63,2019,70.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Khánh Hòa,63,2020,64.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Khánh Hòa,63,2021,63.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Khánh Hòa,63,2022,77.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Khánh Hòa,63,2023,88.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Khánh Hòa,63,2024,104.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Khánh Hòa,63,2025,114.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Kiên Giang,63,2019,55.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Kiên Giang,63,2020,55.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Kiên Giang,63,2021,59.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Kiên Giang,63,2022,66.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Kiên Giang,63,2023,72.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Kiên Giang,63,2024,81.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Kiên Giang,63,2025,89.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Kon Tum,63,2019,40.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Kon Tum,63,2020,43.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Kon Tum,63,2021,47.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Kon Tum,63,2022,53.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Kon Tum,63,2023,59.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Kon Tum,63,2024,67.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Kon Tum,63,2025,75.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Lai Châu,63,2019,38.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Lai Châu,63,2020,43.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Lai Châu,63,2021,44.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Lai Châu,63,2022,49.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lai Châu,63,2023,50.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lai Châu,63,2024,60.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Lai Châu,63,2025,79.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Long An,63,2019,72.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Long An,63,2020,76.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Long An,63,2021,79.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Long An,63,2022,90.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Long An,63,2023,93.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Long An,63,2024,103.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Long An,63,2025,115.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Lào Cai,63,2019,68.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Lào Cai,63,2020,72.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Lào Cai,63,2021,74.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Lào Cai,63,2022,83.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lào Cai,63,2023,85.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lào Cai,63,2024,93.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Lào Cai,63,2025,108.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Lâm Đồng,63,2019,60.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Lâm Đồng,63,2020,62.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Lâm Đồng,63,2021,67.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Lâm Đồng,63,2022,77.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lâm Đồng,63,2023,85.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lâm Đồng,63,2024,99.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Lâm Đồng,63,2025,113.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Lạng Sơn,63,2019,41.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Lạng Sơn,63,2020,44.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Lạng Sơn,63,2021,47.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Lạng Sơn,63,2022,51.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lạng Sơn,63,2023,57.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Lạng Sơn,63,2024,62.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Lạng Sơn,63,2025,70.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Nam Định,63,2019,39.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Nam Định,63,2020,42.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Nam Định,63,2021,44.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Nam Định,63,2022,47.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Nam Định,63,2023,51.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Nam Định,63,2024,58.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Nam Định,63,2025,67.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Nghệ An,63,2019,39.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Nghệ An,63,2020,43.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Nghệ An,63,2021,46.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Nghệ An,63,2022,51.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Nghệ An,63,2023,54.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Nghệ An,63,2024,60.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Nghệ An,63,2025,67.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Ninh Bình,63,2019,62.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Ninh Bình,63,2020,67.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Ninh Bình,63,2021,70.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Ninh Bình,63,2022,79.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Ninh Bình,63,2023,83.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Ninh Bình,63,2024,91.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Ninh Bình,63,2025,101.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Ninh Thuận,63,2019,52.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Ninh Thuận,63,2020,59.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Ninh Thuận,63,2021,69.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Ninh Thuận,63,2022,77.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Ninh Thuận,63,2023,85.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Ninh Thuận,63,2024,94.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Ninh Thuận,63,2025,102.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Phú Thọ,63,2019,47.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Phú Thọ,63,2020,50.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Phú Thọ,63,2021,54.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Phú Thọ,63,2022,59.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Phú Thọ,63,2023,65.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Phú Thọ,63,2024,73.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Phú Thọ,63,2025,83.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Phú Yên,63,2019,48.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Phú Yên,63,2020,50.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Phú Yên,63,2021,51.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Phú Yên,63,2022,57.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Phú Yên,63,2023,63.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Phú Yên,63,2024,68.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Phú Yên,63,2025,74.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Quảng Bình,63,2019,43.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Quảng Bình,63,2020,46.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Quảng Bình,63,2021,49.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Quảng Bình,63,2022,54.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Bình,63,2023,59.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Bình,63,2024,64.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Quảng Bình,63,2025,71.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Quảng Nam,63,2019,66.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Quảng Nam,63,2020,65.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Quảng Nam,63,2021,69.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Quảng Nam,63,2022,78.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Nam,63,2023,76.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Nam,63,2024,83.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Quảng Nam,63,2025,90.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Quảng Ngãi,63,2019,70.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Quảng Ngãi,63,2020,69.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Quảng Ngãi,63,2021,81.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Quảng Ngãi,63,2022,99.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Ngãi,63,2023,100.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Ngãi,63,2024,104.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Quảng Ngãi,63,2025,114.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Quảng Ninh,63,2019,143.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Quảng Ninh,63,2020,155.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Quảng Ninh,63,2021,170.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Quảng Ninh,63,2022,195.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Ninh,63,2023,213.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Ninh,63,2024,234.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Quảng Ninh,63,2025,261.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Quảng Trị,63,2019,50.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Quảng Trị,63,2020,52.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Quảng Trị,63,2021,57.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Quảng Trị,63,2022,67.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Trị,63,2023,70.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Quảng Trị,63,2024,77.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Quảng Trị,63,2025,85.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Sóc Trăng,63,2019,44.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Sóc Trăng,63,2020,45.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Sóc Trăng,63,2021,48.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Sóc Trăng,63,2022,55.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Sóc Trăng,63,2023,59.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Sóc Trăng,63,2024,65.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Sóc Trăng,63,2025,71.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Sơn La,63,2019,39.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Sơn La,63,2020,43.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Sơn La,63,2021,44.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Sơn La,63,2022,48.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Sơn La,63,2023,50.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Sơn La,63,2024,57.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Sơn La,63,2025,71.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+TP. Hồ Chí Minh,63,2019,148.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 TP. Hồ Chí Minh,63,2020,148.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+TP. Hồ Chí Minh,63,2021,146.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 TP. Hồ Chí Minh,63,2022,159.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 TP. Hồ Chí Minh,63,2023,168.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 TP. Hồ Chí Minh,63,2024,184.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 TP. Hồ Chí Minh,63,2025,204.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Thanh Hóa,63,2019,48.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Thanh Hóa,63,2020,51.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Thanh Hóa,63,2021,57.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Thanh Hóa,63,2022,69.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thanh Hóa,63,2023,72.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thanh Hóa,63,2024,81.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Thanh Hóa,63,2025,88.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Thái Bình,63,2019,45.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Thái Bình,63,2020,47.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Thái Bình,63,2021,51.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Thái Bình,63,2022,57.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thái Bình,63,2023,62.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thái Bình,63,2024,68.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Thái Bình,63,2025,76.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Thái Nguyên,63,2019,90.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Thái Nguyên,63,2020,94.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Thái Nguyên,63,2021,100.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Thái Nguyên,63,2022,108.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thái Nguyên,63,2023,110.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thái Nguyên,63,2024,114.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Thái Nguyên,63,2025,124.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Thừa Thiên Huế,63,2019,46.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Thừa Thiên Huế,63,2020,48.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Thừa Thiên Huế,63,2021,50.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Thừa Thiên Huế,63,2022,56.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thừa Thiên Huế,63,2023,62.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Thừa Thiên Huế,63,2024,67.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Thừa Thiên Huế,63,2025,75.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Tiền Giang,63,2019,54.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Tiền Giang,63,2020,55.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Tiền Giang,63,2021,55.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Tiền Giang,63,2022,62.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tiền Giang,63,2023,69.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tiền Giang,63,2024,76.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Tiền Giang,63,2025,84.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Trà Vinh,63,2019,58.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Trà Vinh,63,2020,61.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Trà Vinh,63,2021,63.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Trà Vinh,63,2022,72.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Trà Vinh,63,2023,82.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Trà Vinh,63,2024,95.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Trà Vinh,63,2025,102.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Tuyên Quang,63,2019,39.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Tuyên Quang,63,2020,43.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Tuyên Quang,63,2021,45.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Tuyên Quang,63,2022,50.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tuyên Quang,63,2023,53.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tuyên Quang,63,2024,60.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Tuyên Quang,63,2025,67.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Tây Ninh,63,2019,70.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Tây Ninh,63,2020,74.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Tây Ninh,63,2021,76.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Tây Ninh,63,2022,86.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tây Ninh,63,2023,93.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Tây Ninh,63,2024,103.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Tây Ninh,63,2025,116.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Vĩnh Long,63,2019,52.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Vĩnh Long,63,2020,57.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Vĩnh Long,63,2021,57.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Vĩnh Long,63,2022,68.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Vĩnh Long,63,2023,73.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Vĩnh Long,63,2024,80.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Vĩnh Long,63,2025,87.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Vĩnh Phúc,63,2019,102.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Vĩnh Phúc,63,2020,105.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Vĩnh Phúc,63,2021,114.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Vĩnh Phúc,63,2022,128.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Vĩnh Phúc,63,2023,129.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Vĩnh Phúc,63,2024,141.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Vĩnh Phúc,63,2025,158.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Yên Bái,63,2019,37.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Yên Bái,63,2020,39.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Yên Bái,63,2021,42.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Yên Bái,63,2022,47.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Yên Bái,63,2023,50.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Yên Bái,63,2024,55.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Yên Bái,63,2025,63.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Điện Biên,63,2019,32.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Điện Biên,63,2020,33.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Điện Biên,63,2021,35.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Điện Biên,63,2022,39.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Điện Biên,63,2023,43.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Điện Biên,63,2024,47.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Điện Biên,63,2025,53.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Đà Nẵng,63,2019,97.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Đà Nẵng,63,2020,88.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Đà Nẵng,63,2021,90.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Đà Nẵng,63,2022,102.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đà Nẵng,63,2023,108.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đà Nẵng,63,2024,119.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Đà Nẵng,63,2025,135.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Đắk Lắk,63,2019,41.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Đắk Lắk,63,2020,46.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Đắk Lắk,63,2021,51.0,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Đắk Lắk,63,2022,56.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đắk Lắk,63,2023,60.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đắk Lắk,63,2024,72.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Đắk Lắk,63,2025,83.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Đắk Nông,63,2019,45.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Đắk Nông,63,2020,48.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Đắk Nông,63,2021,53.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Đắk Nông,63,2022,60.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đắk Nông,63,2023,65.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đắk Nông,63,2024,83.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Đắk Nông,63,2025,98.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Đồng Nai,63,2019,110.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Đồng Nai,63,2020,115.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Đồng Nai,63,2021,119.1,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Đồng Nai,63,2022,129.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đồng Nai,63,2023,132.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đồng Nai,63,2024,142.3,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
 Đồng Nai,63,2025,159.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+Đồng Tháp,63,2019,51.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.256-257)",final
 Đồng Tháp,63,2020,53.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+Đồng Tháp,63,2021,54.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.254-255)",final
 Đồng Tháp,63,2022,62.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đồng Tháp,63,2023,68.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
 Đồng Tháp,63,2024,76.8,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel

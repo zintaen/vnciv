@@ -1,315 +1,441 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,523578.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 An Giang,63,2020,496006.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+An Giang,63,2021,544128.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 An Giang,63,2022,589261.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 An Giang,63,2023,643071.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 An Giang,63,2024,699859.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 An Giang,63,2025,732123.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bà Rịa - Vũng Tàu,63,2019,17966.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bà Rịa - Vũng Tàu,63,2020,18836.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bà Rịa - Vũng Tàu,63,2021,19737.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bà Rịa - Vũng Tàu,63,2022,20557.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bà Rịa - Vũng Tàu,63,2023,21594.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bà Rịa - Vũng Tàu,63,2024,22642.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bà Rịa - Vũng Tàu,63,2025,27801.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bình Dương,63,2019,4040.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bình Dương,63,2020,4178.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bình Dương,63,2021,3437.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bình Dương,63,2022,3548.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Dương,63,2023,3626.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Dương,63,2024,3718.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Dương,63,2025,3632.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bình Phước,63,2019,4331.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bình Phước,63,2020,4322.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bình Phước,63,2021,2923.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bình Phước,63,2022,3734.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Phước,63,2023,1835.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Phước,63,2024,1800.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Phước,63,2025,1773.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bình Thuận,63,2019,14180.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bình Thuận,63,2020,12048.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bình Thuận,63,2021,11577.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bình Thuận,63,2022,12603.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Thuận,63,2023,10273.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Thuận,63,2024,10387.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Thuận,63,2025,10437.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bình Định,63,2019,11381.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bình Định,63,2020,11506.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bình Định,63,2021,12993.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bình Định,63,2022,13233.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Định,63,2023,13509.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Định,63,2024,13858.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bình Định,63,2025,13850.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bạc Liêu,63,2019,241860.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bạc Liêu,63,2020,257681.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bạc Liêu,63,2021,283712.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bạc Liêu,63,2022,307921.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bạc Liêu,63,2023,338645.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bạc Liêu,63,2024,397595.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bạc Liêu,63,2025,476278.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bắc Giang,63,2019,42536.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bắc Giang,63,2020,44948.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bắc Giang,63,2021,46444.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bắc Giang,63,2022,49499.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Giang,63,2023,51450.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Giang,63,2024,47508.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Giang,63,2025,43850.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bắc Kạn,63,2019,2056.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bắc Kạn,63,2020,2088.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bắc Kạn,63,2021,2685.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bắc Kạn,63,2022,2703.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Kạn,63,2023,2842.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Kạn,63,2024,2925.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Kạn,63,2025,3000.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bắc Ninh,63,2019,36652.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bắc Ninh,63,2020,37555.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bắc Ninh,63,2021,38661.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bắc Ninh,63,2022,39144.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Ninh,63,2023,40597.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Ninh,63,2024,40230.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bắc Ninh,63,2025,47004.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Bến Tre,63,2019,285171.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Bến Tre,63,2020,281806.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Bến Tre,63,2021,274915.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Bến Tre,63,2022,291360.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bến Tre,63,2023,279809.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bến Tre,63,2024,317758.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Bến Tre,63,2025,326595.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Cao Bằng,63,2019,429.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Cao Bằng,63,2020,462.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Cao Bằng,63,2021,480.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Cao Bằng,63,2022,484.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cao Bằng,63,2023,491.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cao Bằng,63,2024,479.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cao Bằng,63,2025,486.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Cà Mau,63,2019,337650.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Cà Mau,63,2020,354341.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Cà Mau,63,2021,366635.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Cà Mau,63,2022,383645.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cà Mau,63,2023,398882.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cà Mau,63,2024,409668.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cà Mau,63,2025,428201.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Cần Thơ,63,2019,223832.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Cần Thơ,63,2020,214740.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Cần Thơ,63,2021,211609.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Cần Thơ,63,2022,233072.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cần Thơ,63,2023,247241.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cần Thơ,63,2024,257609.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Cần Thơ,63,2025,263929.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Gia Lai,63,2019,3527.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Gia Lai,63,2020,3633.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Gia Lai,63,2021,4386.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Gia Lai,63,2022,4699.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Gia Lai,63,2023,4804.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Gia Lai,63,2024,4829.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Gia Lai,63,2025,4884.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hà Giang,63,2019,2008.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hà Giang,63,2020,2561.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hà Giang,63,2021,2690.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hà Giang,63,2022,2852.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Giang,63,2023,2853.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Giang,63,2024,3046.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Giang,63,2025,3626.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hà Nam,63,2019,22466.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hà Nam,63,2020,24290.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hà Nam,63,2021,24007.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hà Nam,63,2022,24566.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nam,63,2023,24912.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nam,63,2024,24212.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nam,63,2025,24312.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hà Nội,63,2019,110882.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hà Nội,63,2020,114363.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hà Nội,63,2021,117891.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hà Nội,63,2022,121682.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nội,63,2023,125940.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nội,63,2024,130453.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Nội,63,2025,135791.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hà Tĩnh,63,2019,15005.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hà Tĩnh,63,2020,15981.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hà Tĩnh,63,2021,15782.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hà Tĩnh,63,2022,16285.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Tĩnh,63,2023,16839.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Tĩnh,63,2024,17341.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hà Tĩnh,63,2025,17765.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hòa Bình,63,2019,5790.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hòa Bình,63,2020,6031.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hòa Bình,63,2021,6360.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hòa Bình,63,2022,6721.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hòa Bình,63,2023,7128.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hòa Bình,63,2024,7634.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hòa Bình,63,2025,8175.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hưng Yên,63,2019,45278.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hưng Yên,63,2020,47601.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hưng Yên,63,2021,48137.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hưng Yên,63,2022,50553.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hưng Yên,63,2023,52397.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hưng Yên,63,2024,51212.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hưng Yên,63,2025,52672.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hải Dương,63,2019,80393.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hải Dương,63,2020,85078.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hải Dương,63,2021,89652.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hải Dương,63,2022,95975.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Dương,63,2023,103956.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Dương,63,2024,112096.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Dương,63,2025,119743.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hải Phòng,63,2019,72356.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hải Phòng,63,2020,73376.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hải Phòng,63,2021,75425.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hải Phòng,63,2022,76766.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Phòng,63,2023,79245.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Phòng,63,2024,77811.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hải Phòng,63,2025,82359.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Hậu Giang,63,2019,69938.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Hậu Giang,63,2020,72544.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Hậu Giang,63,2021,72672.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Hậu Giang,63,2022,75675.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hậu Giang,63,2023,72293.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hậu Giang,63,2024,81099.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Hậu Giang,63,2025,83088.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Khánh Hòa,63,2019,11492.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Khánh Hòa,63,2020,15679.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Khánh Hòa,63,2021,15371.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Khánh Hòa,63,2022,17159.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Khánh Hòa,63,2023,18657.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Khánh Hòa,63,2024,20619.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Khánh Hòa,63,2025,21549.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Kiên Giang,63,2019,245358.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Kiên Giang,63,2020,269729.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Kiên Giang,63,2021,282120.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Kiên Giang,63,2022,319477.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kiên Giang,63,2023,361120.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kiên Giang,63,2024,384170.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kiên Giang,63,2025,420651.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Kon Tum,63,2019,3637.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Kon Tum,63,2020,4089.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Kon Tum,63,2021,4633.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Kon Tum,63,2022,4765.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kon Tum,63,2023,5709.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kon Tum,63,2024,6174.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Kon Tum,63,2025,6366.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Lai Châu,63,2019,2146.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Lai Châu,63,2020,2408.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Lai Châu,63,2021,2508.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Lai Châu,63,2022,2715.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lai Châu,63,2023,3033.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lai Châu,63,2024,3356.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lai Châu,63,2025,3648.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Long An,63,2019,56399.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Long An,63,2020,62139.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Long An,63,2021,65226.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Long An,63,2022,74810.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Long An,63,2023,102242.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Long An,63,2024,143975.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Long An,63,2025,160930.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Lào Cai,63,2019,9448.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Lào Cai,63,2020,10137.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Lào Cai,63,2021,9560.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Lào Cai,63,2022,10345.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lào Cai,63,2023,11206.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lào Cai,63,2024,10130.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lào Cai,63,2025,11294.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Lâm Đồng,63,2019,8301.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Lâm Đồng,63,2020,8290.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Lâm Đồng,63,2021,9063.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Lâm Đồng,63,2022,8672.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lâm Đồng,63,2023,10001.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lâm Đồng,63,2024,10507.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lâm Đồng,63,2025,10302.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Lạng Sơn,63,2019,1396.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Lạng Sơn,63,2020,1448.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Lạng Sơn,63,2021,1487.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Lạng Sơn,63,2022,1503.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lạng Sơn,63,2023,1906.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lạng Sơn,63,2024,1911.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Lạng Sơn,63,2025,2000.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Nam Định,63,2019,105592.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Nam Định,63,2020,114198.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Nam Định,63,2021,121136.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Nam Định,63,2022,127816.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nam Định,63,2023,133764.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nam Định,63,2024,141487.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nam Định,63,2025,148725.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Nghệ An,63,2019,55272.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Nghệ An,63,2020,57875.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Nghệ An,63,2021,62375.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Nghệ An,63,2022,66687.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nghệ An,63,2023,71831.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nghệ An,63,2024,75828.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Nghệ An,63,2025,79783.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Ninh Bình,63,2019,48628.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Ninh Bình,63,2020,52323.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Ninh Bình,63,2021,56012.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Ninh Bình,63,2022,58918.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Bình,63,2023,61780.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Bình,63,2024,63851.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Bình,63,2025,66539.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Ninh Thuận,63,2019,10790.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Ninh Thuận,63,2020,10307.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Ninh Thuận,63,2021,9660.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Ninh Thuận,63,2022,10801.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Thuận,63,2023,11379.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Thuận,63,2024,12976.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Ninh Thuận,63,2025,14205.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Phú Thọ,63,2019,35468.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Phú Thọ,63,2020,37548.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Phú Thọ,63,2021,39199.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Phú Thọ,63,2022,40550.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Thọ,63,2023,42134.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Thọ,63,2024,43425.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Thọ,63,2025,45895.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Phú Yên,63,2019,12469.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Phú Yên,63,2020,13619.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Phú Yên,63,2021,15096.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Phú Yên,63,2022,16876.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Yên,63,2023,17476.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Yên,63,2024,19206.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Phú Yên,63,2025,19166.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Quảng Bình,63,2019,13232.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Quảng Bình,63,2020,12320.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Quảng Bình,63,2021,12780.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Quảng Bình,63,2022,12991.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Bình,63,2023,13233.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Bình,63,2024,13507.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Bình,63,2025,13789.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Quảng Nam,63,2019,27311.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Quảng Nam,63,2020,28130.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Quảng Nam,63,2021,27068.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Quảng Nam,63,2022,26776.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Nam,63,2023,27169.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Nam,63,2024,26728.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Nam,63,2025,27592.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Quảng Ngãi,63,2019,7275.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Quảng Ngãi,63,2020,7878.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Quảng Ngãi,63,2021,8369.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Quảng Ngãi,63,2022,8799.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ngãi,63,2023,9471.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ngãi,63,2024,9146.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ngãi,63,2025,9163.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Quảng Ninh,63,2019,64518.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Quảng Ninh,63,2020,71412.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Quảng Ninh,63,2021,74712.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Quảng Ninh,63,2022,90121.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ninh,63,2023,101034.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ninh,63,2024,89364.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Ninh,63,2025,100093.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Quảng Trị,63,2019,8602.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Quảng Trị,63,2020,7907.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Quảng Trị,63,2021,8838.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Quảng Trị,63,2022,9016.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Trị,63,2023,8651.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Trị,63,2024,8627.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Quảng Trị,63,2025,8359.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Sóc Trăng,63,2019,249524.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Sóc Trăng,63,2020,258308.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Sóc Trăng,63,2021,260128.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Sóc Trăng,63,2022,287979.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sóc Trăng,63,2023,316181.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sóc Trăng,63,2024,348434.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sóc Trăng,63,2025,356983.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Sơn La,63,2019,6802.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Sơn La,63,2020,7136.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Sơn La,63,2021,7418.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Sơn La,63,2022,7979.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sơn La,63,2023,8038.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sơn La,63,2024,7657.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Sơn La,63,2025,7825.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+TP. Hồ Chí Minh,63,2019,42267.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 TP. Hồ Chí Minh,63,2020,42633.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+TP. Hồ Chí Minh,63,2021,39359.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 TP. Hồ Chí Minh,63,2022,43243.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 TP. Hồ Chí Minh,63,2023,47327.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 TP. Hồ Chí Minh,63,2024,48671.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 TP. Hồ Chí Minh,63,2025,49834.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Thanh Hóa,63,2019,59581.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Thanh Hóa,63,2020,62436.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Thanh Hóa,63,2021,65804.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Thanh Hóa,63,2022,70806.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thanh Hóa,63,2023,73551.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thanh Hóa,63,2024,75713.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thanh Hóa,63,2025,77057.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Thái Bình,63,2019,158856.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Thái Bình,63,2020,169699.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Thái Bình,63,2021,176292.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Thái Bình,63,2022,181879.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Bình,63,2023,187852.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Bình,63,2024,192917.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Bình,63,2025,197955.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Thái Nguyên,63,2019,13365.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Thái Nguyên,63,2020,14620.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Thái Nguyên,63,2021,15523.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Thái Nguyên,63,2022,14573.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Nguyên,63,2023,18205.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Nguyên,63,2024,17960.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thái Nguyên,63,2025,18338.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Thừa Thiên Huế,63,2019,16675.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Thừa Thiên Huế,63,2020,17597.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Thừa Thiên Huế,63,2021,18370.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Thừa Thiên Huế,63,2022,19228.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thừa Thiên Huế,63,2023,20066.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thừa Thiên Huế,63,2024,21000.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Thừa Thiên Huế,63,2025,21837.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Tiền Giang,63,2019,160198.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Tiền Giang,63,2020,206700.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Tiền Giang,63,2021,200073.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Tiền Giang,63,2022,211094.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tiền Giang,63,2023,213412.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tiền Giang,63,2024,221983.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tiền Giang,63,2025,227007.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Trà Vinh,63,2019,138795.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Trà Vinh,63,2020,152927.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Trà Vinh,63,2021,152492.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Trà Vinh,63,2022,165836.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Trà Vinh,63,2023,185457.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Trà Vinh,63,2024,179525.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Trà Vinh,63,2025,196090.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Tuyên Quang,63,2019,7683.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Tuyên Quang,63,2020,8315.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Tuyên Quang,63,2021,8957.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Tuyên Quang,63,2022,9605.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tuyên Quang,63,2023,10329.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tuyên Quang,63,2024,10121.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tuyên Quang,63,2025,10835.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Tây Ninh,63,2019,7582.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Tây Ninh,63,2020,12015.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Tây Ninh,63,2021,13939.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Tây Ninh,63,2022,13642.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tây Ninh,63,2023,13553.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tây Ninh,63,2024,13117.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Tây Ninh,63,2025,10144.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Vĩnh Long,63,2019,150871.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Vĩnh Long,63,2020,146775.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Vĩnh Long,63,2021,128484.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Vĩnh Long,63,2022,144415.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Long,63,2023,151822.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Long,63,2024,145750.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Long,63,2025,149580.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Vĩnh Phúc,63,2019,20032.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Vĩnh Phúc,63,2020,20908.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Vĩnh Phúc,63,2021,21757.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Vĩnh Phúc,63,2022,22154.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Phúc,63,2023,23005.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Phúc,63,2024,21244.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Vĩnh Phúc,63,2025,22553.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Yên Bái,63,2019,9458.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Yên Bái,63,2020,10636.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Yên Bái,63,2021,11911.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Yên Bái,63,2022,12772.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Yên Bái,63,2023,13328.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Yên Bái,63,2024,12549.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Yên Bái,63,2025,13994.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Điện Biên,63,2019,3188.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Điện Biên,63,2020,3576.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Điện Biên,63,2021,3943.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Điện Biên,63,2022,4290.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Điện Biên,63,2023,4498.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Điện Biên,63,2024,4692.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Điện Biên,63,2025,4878.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Đà Nẵng,63,2019,1046.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Đà Nẵng,63,2020,1166.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Đà Nẵng,63,2021,1175.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Đà Nẵng,63,2022,1378.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đà Nẵng,63,2023,1770.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đà Nẵng,63,2024,2050.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đà Nẵng,63,2025,2624.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Đắk Lắk,63,2019,16366.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Đắk Lắk,63,2020,16436.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Đắk Lắk,63,2021,20065.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Đắk Lắk,63,2022,19419.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Lắk,63,2023,20338.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Lắk,63,2024,21188.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Lắk,63,2025,22148.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Đắk Nông,63,2019,5219.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Đắk Nông,63,2020,5595.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Đắk Nông,63,2021,5753.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Đắk Nông,63,2022,6448.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Nông,63,2023,6839.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Nông,63,2024,8145.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đắk Nông,63,2025,7987.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Đồng Nai,63,2019,57803.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Đồng Nai,63,2020,61181.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Đồng Nai,63,2021,64788.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Đồng Nai,63,2022,65003.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đồng Nai,63,2023,67938.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đồng Nai,63,2024,74157.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đồng Nai,63,2025,83786.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+Đồng Tháp,63,2019,566003.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
 Đồng Tháp,63,2020,547116.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+Đồng Tháp,63,2021,568336.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.686-687)",final
 Đồng Tháp,63,2022,596739.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đồng Tháp,63,2023,612650.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
 Đồng Tháp,63,2024,655540.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final

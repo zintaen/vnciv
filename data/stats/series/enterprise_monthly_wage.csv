@@ -1,314 +1,377 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,6310.42,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 An Giang,63,2020,6556.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2021,6494.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2022,7692.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2023,7380.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 An Giang,63,2024,8196.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bà Rịa - Vũng Tàu,63,2019,11512.61,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,11988.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2021,12128.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2022,13400.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2023,14065.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bà Rịa - Vũng Tàu,63,2024,14545.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Dương,63,2019,9488.36,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Dương,63,2020,9770.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2021,10356.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2022,12006.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2023,11269.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Dương,63,2024,12465.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Phước,63,2019,7400.75,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Phước,63,2020,7843.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2021,8841.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2022,9697.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2023,8808.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Phước,63,2024,9999.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Thuận,63,2019,6199.96,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Thuận,63,2020,6314.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2021,7750.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2022,7951.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2023,8265.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Thuận,63,2024,8680.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bình Định,63,2019,6250.15,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bình Định,63,2020,6886.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2021,7323.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2022,7643.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2023,7730.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bình Định,63,2024,8403.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bạc Liêu,63,2019,5641.94,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bạc Liêu,63,2020,5782.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2021,6182.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2022,6465.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2023,7099.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bạc Liêu,63,2024,7129.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Giang,63,2019,8134.03,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Giang,63,2020,8643.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2021,8303.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2022,10677.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2023,10458.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Giang,63,2024,11128.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Kạn,63,2019,6811.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Kạn,63,2020,7191.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2021,6798.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2022,7496.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2023,8808.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Kạn,63,2024,8431.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bắc Ninh,63,2019,9972.74,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bắc Ninh,63,2020,10542.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2021,11166.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2022,11840.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2023,12446.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bắc Ninh,63,2024,13021.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Bến Tre,63,2019,6920.45,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Bến Tre,63,2020,6621.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2021,7257.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2022,8252.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2023,7690.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Bến Tre,63,2024,8973.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cao Bằng,63,2019,6366.72,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cao Bằng,63,2020,6996.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2021,7528.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2022,7622.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2023,9026.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cao Bằng,63,2024,8475.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cà Mau,63,2019,7004.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cà Mau,63,2020,6759.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2021,7861.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2022,8969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2023,8536.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cà Mau,63,2024,9000.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Cần Thơ,63,2019,6474.31,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Cần Thơ,63,2020,6969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2021,7218.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2022,7773.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2023,7640.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Cần Thơ,63,2024,8741.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Gia Lai,63,2019,6030.18,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Gia Lai,63,2020,6554.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2021,7666.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2022,7848.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2023,7504.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Gia Lai,63,2024,7827.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Giang,63,2019,6234.98,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Giang,63,2020,6152.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2021,6209.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2022,7493.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2023,8310.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Giang,63,2024,7694.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Nam,63,2019,7693.68,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Nam,63,2020,7602.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2021,8561.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2022,9402.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2023,9751.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nam,63,2024,11281.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Nội,63,2019,10461.59,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Nội,63,2020,10229.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2021,11450.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2022,12825.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2023,12817.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Nội,63,2024,13713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hà Tĩnh,63,2019,7068.71,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hà Tĩnh,63,2020,7259.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2021,7582.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2022,7444.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2023,7952.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hà Tĩnh,63,2024,8879.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hòa Bình,63,2019,6573.7,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hòa Bình,63,2020,6369.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2021,7020.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2022,7584.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2023,7932.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hòa Bình,63,2024,8950.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hưng Yên,63,2019,8202.07,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hưng Yên,63,2020,8736.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2021,10123.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2022,10985.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2023,10705.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hưng Yên,63,2024,12405.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hải Dương,63,2019,8375.21,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hải Dương,63,2020,8203.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2021,9194.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2022,9602.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2023,9755.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Dương,63,2024,10664.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hải Phòng,63,2019,8198.53,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hải Phòng,63,2020,9214.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2021,10621.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2022,11674.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2023,12233.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hải Phòng,63,2024,12838.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Hậu Giang,63,2019,6027.42,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Hậu Giang,63,2020,6442.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2021,6195.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2022,7706.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2023,7033.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Hậu Giang,63,2024,7988.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Khánh Hòa,63,2019,6982.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Khánh Hòa,63,2020,7915.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2021,7903.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2022,9947.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2023,10508.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Khánh Hòa,63,2024,9897.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Kiên Giang,63,2019,7172.95,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Kiên Giang,63,2020,7612.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2021,7495.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2022,8069.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2023,8660.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kiên Giang,63,2024,9150.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Kon Tum,63,2019,5864.02,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Kon Tum,63,2020,6174.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2021,7430.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2022,7750.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2023,8044.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Kon Tum,63,2024,8337.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lai Châu,63,2019,5744.67,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lai Châu,63,2020,6017.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2021,6826.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2022,7178.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2023,8008.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lai Châu,63,2024,8299.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Long An,63,2019,7788.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Long An,63,2020,8491.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2021,8742.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2022,9963.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2023,10119.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Long An,63,2024,10886.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lào Cai,63,2019,9037.17,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lào Cai,63,2020,7746.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2021,8483.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2022,10695.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2023,10406.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lào Cai,63,2024,10219.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lâm Đồng,63,2019,7092.84,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lâm Đồng,63,2020,7289.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2021,8200.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2022,9073.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2023,9546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lâm Đồng,63,2024,9762.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Lạng Sơn,63,2019,5771.54,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Lạng Sơn,63,2020,6138.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2021,7148.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2022,7567.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2023,8258.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Lạng Sơn,63,2024,8527.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Nam Định,63,2019,5921.05,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Nam Định,63,2020,6420.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2021,7096.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2022,7545.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2023,7670.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nam Định,63,2024,8226.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Nghệ An,63,2019,5745.25,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Nghệ An,63,2020,6500.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2021,7461.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2022,7868.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2023,8547.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Nghệ An,63,2024,9431.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Ninh Bình,63,2019,6788.79,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Ninh Bình,63,2020,7160.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2021,8155.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2022,8476.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2023,8144.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Bình,63,2024,9222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Ninh Thuận,63,2019,6784.21,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Ninh Thuận,63,2020,6947.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2021,7977.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2022,8202.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2023,8084.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Ninh Thuận,63,2024,9030.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Phú Thọ,63,2019,7499.03,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Phú Thọ,63,2020,7309.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2021,8017.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2022,8655.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2023,8651.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Thọ,63,2024,9504.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Phú Yên,63,2019,5623.13,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Phú Yên,63,2020,5657.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2021,6222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2022,6844.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2023,7485.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Phú Yên,63,2024,8153.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Bình,63,2019,6320.6,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Bình,63,2020,5919.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2021,6508.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2022,7065.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2023,7698.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Bình,63,2024,7735.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Nam,63,2019,6495.38,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Nam,63,2020,6283.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2021,8152.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2022,8562.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2023,8600.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Nam,63,2024,9105.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Ngãi,63,2019,8155.99,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Ngãi,63,2020,8595.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2021,9706.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2022,9222.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2023,9439.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ngãi,63,2024,10667.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Ninh,63,2019,10091.02,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Ninh,63,2020,10265.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2021,11129.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2022,12469.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2023,13015.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Ninh,63,2024,13385.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Quảng Trị,63,2019,5777.2,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Quảng Trị,63,2020,5550.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2021,5771.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2022,6897.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2023,7246.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Quảng Trị,63,2024,8014.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Sóc Trăng,63,2019,7134.65,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Sóc Trăng,63,2020,6823.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2021,6086.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2022,5999.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2023,5573.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sóc Trăng,63,2024,6974.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Sơn La,63,2019,4972.99,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Sơn La,63,2020,5815.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2021,6408.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2022,6830.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2023,7121.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Sơn La,63,2024,7924.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+TP. Hồ Chí Minh,63,2019,10819.9,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 TP. Hồ Chí Minh,63,2020,10906.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2021,11769.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2022,13968.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2023,14324.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 TP. Hồ Chí Minh,63,2024,15250.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thanh Hóa,63,2019,5327.48,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thanh Hóa,63,2020,5629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2021,6505.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2022,7638.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2023,7507.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thanh Hóa,63,2024,8109.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thái Bình,63,2019,6012.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thái Bình,63,2020,6241.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2021,7204.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2022,7491.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2023,7538.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Bình,63,2024,8315.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thái Nguyên,63,2019,9432.43,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thái Nguyên,63,2020,9308.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2021,10773.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2022,11066.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2023,11461.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thái Nguyên,63,2024,11661.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Thừa Thiên Huế,63,2019,6144.0,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Thừa Thiên Huế,63,2020,6425.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2021,6960.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2022,7544.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2023,7968.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Thừa Thiên Huế,63,2024,8822.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tiền Giang,63,2019,7451.37,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tiền Giang,63,2020,7396.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2021,6327.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2022,8869.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2023,8336.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tiền Giang,63,2024,9711.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Trà Vinh,63,2019,5705.01,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Trà Vinh,63,2020,5607.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2021,6937.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2022,7237.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2023,7166.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Trà Vinh,63,2024,7792.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tuyên Quang,63,2019,6903.58,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tuyên Quang,63,2020,7454.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2021,6982.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2022,6957.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2023,7115.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tuyên Quang,63,2024,7853.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Tây Ninh,63,2019,8119.41,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Tây Ninh,63,2020,8634.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2021,9211.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2022,10611.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2023,10468.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Tây Ninh,63,2024,11082.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Vĩnh Long,63,2019,6330.05,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Vĩnh Long,63,2020,6569.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2021,6629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2022,8711.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2023,8870.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Long,63,2024,9493.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Vĩnh Phúc,63,2019,8836.27,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Vĩnh Phúc,63,2020,9016.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2021,9789.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2022,10528.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2023,10429.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Vĩnh Phúc,63,2024,11398.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Yên Bái,63,2019,6155.63,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Yên Bái,63,2020,7275.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2021,7312.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2022,7922.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2023,8713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Yên Bái,63,2024,8397.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Điện Biên,63,2019,4665.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Điện Biên,63,2020,4343.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2021,4942.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2022,5546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2023,6713.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Điện Biên,63,2024,8304.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đà Nẵng,63,2019,8448.92,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đà Nẵng,63,2020,8027.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2021,8813.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2022,10245.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2023,10948.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đà Nẵng,63,2024,11653.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đắk Lắk,63,2019,4862.61,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đắk Lắk,63,2020,5757.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2021,6733.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2022,7539.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2023,7896.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Lắk,63,2024,7969.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đắk Nông,63,2019,5561.08,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đắk Nông,63,2020,6303.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2021,7560.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2022,10472.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2023,9276.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đắk Nông,63,2024,10187.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đồng Nai,63,2019,10008.6,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đồng Nai,63,2020,9784.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2021,9887.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2022,10471.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2023,10629.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Nai,63,2024,11552.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+Đồng Tháp,63,2019,6852.39,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
 Đồng Tháp,63,2020,7146.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Tháp,63,2021,5992.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
 Đồng Tháp,63,2022,7147.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final

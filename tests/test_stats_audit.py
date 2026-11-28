@@ -77,6 +77,9 @@ class TestStats(unittest.TestCase):
         s = t["series"]["grdp_per_capita"]
         for iso, by_year in s["levels"]["63"].items():
             for y, v in by_year.items():
+                if int(y) < min(fx):   # before the first World Bank rate: no USD value (a later rate would misstate it)
+                    self.assertNotIn(y, s["lens_values"]["63"][iso], msg=(iso, y))
+                    continue
                 used = t["fx_used"][y]
                 self.assertEqual(used, max(k for k in fx if k <= int(y)))
                 self.assertAlmostEqual(s["lens_values"]["63"][iso][y], v * 1e6 / fx[used], delta=0.05, msg=(iso, y))

@@ -6,6 +6,7 @@ their former provinces. The nation is the sum of all 63.
 """
 from __future__ import annotations
 
+import csv
 import json
 import math
 import zipfile
@@ -156,6 +157,19 @@ def rnd(v, d):
     return None if v is None else (round(v) if d == 0 else round(v, d))
 
 
+def national_series():
+    """NSO's national row ("CẢ NƯỚC") of every year series, by year: data/stats/series_national.csv (backfill.py), in the
+    series' own NSO units (not converted), with each year's status and source."""
+    out = {}
+    f = ROOT / "data" / "stats" / "series_national.csv"
+    for r in (csv.DictReader(open(f, encoding="utf-8")) if f.exists() else []):
+        s = out.setdefault(r["indicator"], {"unit": r["unit"], "values": {}, "status": {}, "source": {}})
+        s["values"][r["year"]] = float(r["value"])
+        s["status"][r["year"]] = r["status"]
+        s["source"][r["year"]] = r["source_url"]
+    return out
+
+
 def national_jobs():
     d = json.loads((ROOT / "data" / "stats" / "px" / "V02.42.json").read_text())
     years = d["meta"]["variables"][2]["values"]
@@ -276,7 +290,7 @@ def build():
                      "note": f"VND converted at the World Bank official rate for {st['fx_year']}: {st['fx']:,.0f} VND per USD"
                              + ("." if st["fx_year"] == str(YEAR) else
                                 f" (the World Bank has not yet published the {YEAR} rate, so {YEAR} figures use {st['fx_year']}'s).")},
-        "nation": nation, "yields": [{k: v for k, v in y.items() if k != "stat"} for y in YIELDS],
+        "nation": nation, "series": national_series(), "yields": [{k: v for k, v in y.items() if k != "stat"} for y in YIELDS],
         "industries": INDUSTRIES, "gdp_industries": {}, "jobs_source": "NSO PX-Web V02.42 (employed by industry, 2025 preliminary)",
         "years_note": "Each record's 'years' gives the year of its fields; cities (63 former provinces) carry 2024 HDI and "
                       "FDI, provinces and the nation 2025 (NSO publishes those only for the 34 provinces since 2025).",

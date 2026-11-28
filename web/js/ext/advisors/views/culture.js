@@ -115,7 +115,7 @@ export async function mount(ctx) {
   el.appendChild(srcEl);
   const drawSources = (dis) => {
     srcEl.innerHTML = sourcesHtml(data, [...(won?.sources || []), ...(dis?.sources || ["ibtracs"])], [
-      tr("Wonders come from Wikidata, so a site's coordinates and the list of parks are only as good as Wikidata's records. Landmarks are an editorial choice."),
+      tr("Wonders are placed at Wikidata coordinates and the national parks are those of the Vietnamese Wikipedia list, so both are only as good as those records. Landmarks are an editorial choice."),
       tr("Vietnam publishes no visitor counts per park or site, so wonders are not ranked by visits."),
       tr("A storm counts for a place when its best track passed within {km} km of it: a count of storms that came close, not of damage. Floods and landslides from storms that stayed offshore are not counted.", { km: Number(dis?.typhoons?.radius_km) || 100 }),
       tr("Former-province counts are the mean over the province's hexes, so a large province reads lower than its most exposed coast."),

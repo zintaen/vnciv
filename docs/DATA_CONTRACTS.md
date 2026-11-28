@@ -14,7 +14,8 @@
 >   it_skills, enterprises_pk, pci_2024`; states add the 34-province-only `doctors, doctors_pk, forest_cover, road_deaths,
 >   pupils_per_teacher, growth_9m2026, industry_jobs_2026` (HDI and FDI on states and the nation are 2025, on cities 2024).
 >   Every city/state/nation record has `years: {field: year label}`; `nation.cities_basis` holds the 2024 national
->   HDI/FDI to compare cities with; `nation.nation` also has `employed_lfs, informal, life_exp,
+>   HDI/FDI to compare cities with; `nation.series` = `{indicator: {unit, values: {year: v}, status: {year: s},
+>   source: {year: url}}}` is NSO's national row of every timeline series, in NSO units; `nation.nation` also has `employed_lfs, informal, life_exp,
 >   gdp_provinces` (the sum of the provinces' GRDP) and the 34-province-only fields. `growth_years` is [2019, 2025]; `gdp_year` 2025.
 >   `nation.nation.jobs` is national employment by industry; `nation.currency` holds the VND→USD rate.
 > * **Yields**: food = paddy (`unit: "tonnes"`), production = employed workers, gold = GRDP (usd), science =
@@ -59,10 +60,11 @@
 >   * **trade.json**: `kind: "air"`, `units: {airlines}`, `modes` = air only; zones are `{id, name, short, kind, states,
 >     cities, airports, anchor, partners: [[zone, airlines]]}` (no `faf`, `counties`, `totals_musd`); no `commodities`,
 >     `national_musd`; routes have no `tmiles_m`/`top_commodity`.
->   * **disasters.json**: `{version, sources, vintage (string), typhoons: {since, radius_km, min_kt, strong_kt, rule,
+>   * **disasters.json**: `{version, sources, vintage (string), typhoons: {since, radius_km, provisional_seasons, min_kt, strong_kt, rule,
 >     counties: {columns: [geoid, total, strong, last_date], rows}, states: {abbr: {total, strong}}, national: {storms,
 >     strong, by_year: [{year, storms}], strongest: [storm], recent: [storm]}}}`, storm = `{name, season, date, max_kt,
->     strong, hexes, provinces}`.
+>     strong, hexes, provinces, provisional}` (`provisional`: IBTrACS track type PROVISIONAL / US-PROVISIONAL, not yet a
+>     final best track; `provisional_seasons` lists the seasons with such storms).
 >   * **citizens.json**: rows residence, work, skills, households (`total`/`counts` null for households: only shares are
 >     published), plus `life_expectancy` and `migration: {in, out, net, unit}` per row; every city has a row; a top-level
 >     `note` says what the shares count.
@@ -88,8 +90,21 @@
 >   * **places.json** (eager): `{sources, rules, archipelagos: [{id, name, owner, x, y, islands}], slogan: {text, en, x, y},
 >     islands: [{name, en, group, x, y}], towns: [{name, x, y, population, kind}]}`.
 >   * **timeline.json** (lazy): `{sources, years, fx, fx_used, merger: {date, before, after}, series: {id: {unit, source,
->     lens, levels: {"63"|"34": {code: {year: value}}}, lens_values, status: {year: final | prel | est}, status_levels?}},
+>     lens, levels: {"63"|"34": {code: {year: value}}}, lens_values, status: {year: final | prel | est}, status_levels?,
+>     note (a definition break inside the series, or null)}},
 >     storms: [{name, season, date, max_kt, cells}], events: [{date, id, title, text, wonder?, source}], note}`.
+>   * Motion data (lazy, `pipeline/build/ext_motion.py`; every selection rule is in the file's `rules`):
+>     * **storm_tracks.json**: `{sources, cols: [time, x, y, kt], rules, storms: [{id (IBTrACS SID), name, season, date,
+>       max_kt, agency (JMA | JTWC), points: [[time (ISO UTC "1980-06-26T00:00Z"), x, y, kt | null]]}]}`; `storms[i]` is
+>       timeline.json `storms[i]`; points sorted by time, inside the map plus one point just outside at each edge crossing.
+>     * **merger.json**: `{sources, date, rules, provinces: [{abbr, name, centroid: [x, y], anchor (cell), order (1..23),
+>       order_from (resolution | code), members: [{iso, name, centroid, anchor, keeps_name}]}]}` (the 23 merged provinces).
+>     * **motion_routes.json**: `{sources, rules: {rail, sea, air}, rail: [{id (north_south | branch_n), kind (main |
+>       branch), from, to, from_city, to_city, cells, pts: [[x, y]], km}], sea: [{port, name, seaport, class, land_hexes,
+>       pts}] (illustrative; pts[0] = the port), air: [{a, b (city ids), airport_a, airport_b, rank, airlines, dist_km,
+>       p0, c, p1 (quadratic Bézier)}]}`.
+>     * **night_lights.json**: `{sources, rules, domain: [lo, hi] (people / km²), values: [0..1 per cell, null off
+>       Vietnamese land], seats: [{id, name, x, y, population, capital}]}` (derived from population, not satellite data).
 
 
 The pipeline (Python) and the browser (web/js) agree on these files in `web/data/`. Change a contract here first, then on
@@ -892,7 +907,7 @@ in the "Map" menu next to the Resources toggle in the lens dock (one button + a 
 yours (flip the state your layer's `visible()` reads); main redraws. The hash key `layers` lists the switches that are on
 (`#layers=roads,rail,military`, `layers=none`) and is written only while some switch differs from its default; switches
 added after load are set from it, and ids whose extension has not loaded yet stay in the URL. `app.ui.mapToggles()` →
-`[{id, label, on}]`. `app.ui.setMapToggle(id, on) → bool` switches one from code exactly as the menu would (redraw,
+`[{id, label, on}]`. `hash: false` keeps a toggle (a preference such as Effects) out of `layers=` and out of the menu button's count. `app.ui.setMapToggle(id, on) → bool` switches one from code exactly as the menu would (redraw,
 hash), e.g. an advisor's "show roads, rail and forts" button; false if no toggle has that id (yet).
 
 **URL.** Core keys: `lens`, `city` (CBSA id), `state`, `at`, plus extension keys (`advisor`, `layers`, ...).
@@ -917,6 +932,12 @@ on that city's banner instead of `city.population` (swapped in for the banner dr
 "63" | "34")` returns `{bands, stateLines, bandColor, stateLabels}` for the 63 former provinces (`world.county`) or
 the 34; the timeline swaps them into `w` for years before the 2025 merger (`render/map.js` uses `w.bandColor ||
 w.stateColor` for the border bands). Hash key `year=` (absent = the latest data, "now").
+Replays (`ext/timeline/replay.js`, all on `app.motion`, one at a time in a bottom bar; Esc / ✕ close it): a storm
+or a whole season along storm_tracks.json (▶ in the storms card; 1 day ≈ 1.5 s at ×1), the 2025 merger from
+merger.json (stepping into 2025 or the merger card's button; hides `w.stateLabels` while it runs) and the forest
+loss adding up 2001→2025 (the forest lens's ▶ button; an overlay over the lens as published, no cache re-render
+per year). Effects off / reduced motion: the storm shows its complete still track, the merger and forest jump to
+the end state.
 
 **Optional state and debug handles** (not data contracts; don't rely on them from other extensions without asking):
 * `state.cityBadges`: an optional `Map<city id, {label, color: "#rrggbb"}>` that `render/banners.js` reads to draw a
@@ -934,3 +955,48 @@ when renaming a field in those files.
 
 **Lenses.** Legend ticks print numbers only (plus short units: %, $, min, /km²); a longer `unit` is printed once under
 the ticks, so keep `unit` a plain phrase ("adherents per 100 residents"), not part of the number. `lens.note` is shown in the legend; `format: "category"` lenses get a swatch legend (see lenses.json).
+
+## Motion (app.motion; web/js/app/motion.js, wired in main.js)
+
+One engine for every animation, on main.js's frame loop. The cached static map is never redrawn per frame: motion
+draws per-frame art above it. **Idle = zero frames**: the loop requests frames only while a tween runs or a
+registered item's `active()` is true, and only while motion is enabled.
+
+* `app.motion.enabled` (getter): the user's Effects switch is on AND not `prefers-reduced-motion: reduce` AND the
+  tab is visible. `app.motion.userEnabled`: the switch alone.
+* `app.motion.setEnabled(bool)`: the user switch, persisted in localStorage `vnciv-motion` ("0" / "1"; default on;
+  storage errors ignored). The switch is "Hiệu ứng / Effects" (✨) at the top of the Layers menu (group `display`); it is a preference, not a map
+  layer, so it is not written to the `layers=` hash (`app.ui.addMapToggle({..., hash: false})`). While the switch is
+  off, `<html>` has the class `no-motion` (CSS animations and transitions of the motion work are off).
+* `app.motion.on("change", fn(enabled))` → off(): `enabled` flipped (switch, reduced-motion setting, tab hidden /
+  shown). When it turns false every running tween jumps to its end first.
+* `app.motion.register({id, z, active() → bool, draw(ctx, cam, app, f), ambient = true})` → unregister(). Same id
+  again replaces the item. `draw` runs on **every** frame the map draws (whatever caused it), in the world transform
+  (km, like `registerOverlay`); `z < 100` draws under the city banners, `z ≥ 100` above them. Keep `draw` cheap when
+  there is nothing to show (cull to `cam.view()` first). `f` (one reused object; don't keep it):
+  `{t (s since start), dt (s since the last frame, 1/60 after a pause), dpr, w (the prepared world, app.w), raw
+  (app.w.raw), cssW, cssH (canvas css px), active (your active() this frame, false while motion is off), still
+  (true = motion is off: draw your still, fully informative end state, or nothing for purely decorative art),
+  moving (the camera is panning / zooming: skip expensive ambient detail), lowPower}`.
+  `active()` is asked every frame: return true only while something of yours is animating AND on screen.
+  `ambient: false` = a data animation the user started (a replay): it keeps full frame rate even in lowPower.
+* `app.motion.tween({from, to, ms = 400, ease = "inOut", onUpdate(v, p), onDone()})` → cancel(). Numbers only;
+  `ease` = `"linear" | "in" | "out" | "inOut"` or a function p → p. `onUpdate` runs right before each frame draws
+  (set state there, then draw it). While motion is disabled it jumps to the end synchronously (`onUpdate(to, 1);
+  onDone()`). cancel() stops it where it is (no `onDone`). A frame advances a tween by at most 50 ms, so a slow
+  frame (the static re-render right after a lens change, a throttled phone) stretches the tween instead of skipping it.
+* `app.motion.countTo(el, to, fmt = String, ms = 650)`: counts `el`'s text from its last `countTo` value to `to`
+  (`el.textContent = fmt(v)`; the end shows `fmt(to)` exactly; the first call just sets it). The top-bar numbers use it.
+* `app.motion.lowPower`: the 2 s average of the time spent in active items' draws went over 6 ms per frame on this
+  device (back off under 3 ms). Ambient items then get half the frame rate (~30 fps).
+* `app.motion.items()` → the registered ids (debugging).
+
+Built-in uses (main.js / render/*): a picked lens recolours as a ripple from the middle of the view (~480 ms) and a
+timeline year step (`app.refreshLens()` when `app.shownLens()` changed) crossfades (~380 ms): the old cache canvas
+is kept (swapped, not copied) and drawn fading over the new one, freed afterwards; the selected province's border
+gets one glint sweeping around it (1.1 s, `render/map.js isAnimating`); the selected city's banner pops
+(`state.bannerPop`, 340 ms); the hovered hex fades in (`state.hoverFade`, 140 ms); panels, docks and the tooltip
+slide / fade in with CSS (off under `.no-motion` and reduced motion); flights keep camera.js's ease-in-out and land
+instantly under reduced motion.
+
+- `app.motion.pause(bool)`: stop the loop's frame requests while another view covers the 2D map (the 3D view uses it); `pause(false)` resumes.

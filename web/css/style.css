@@ -583,3 +583,26 @@ body.panel-open #lens-area { right: calc(394px + var(--dock-right, 0px)); }
   .yr-total > b { font-size: 30px; }
   .yr-row { padding: 7px 8px; }
 }
+
+/* ---------- motion (app/motion.js; off with the Effects switch: html.no-motion, and with reduced motion) ---------- */
+@keyframes m-panel-in { from { opacity: 0; translate: 24px 0; } }
+@keyframes m-sheet-in { from { translate: 0 40%; } }
+@keyframes m-dock-l { from { opacity: 0; translate: -28px 0; } }
+@keyframes m-dock-r { from { opacity: 0; translate: 28px 0; } }
+@keyframes m-fade-in { from { opacity: 0; } }
+#city-panel:not([hidden]) { animation: m-panel-in .22s cubic-bezier(.2,.8,.3,1); }
+.app-dock-left:not([hidden]) { animation: m-dock-l .24s cubic-bezier(.2,.8,.3,1); }
+.app-dock-right:not([hidden]) { animation: m-dock-r .24s cubic-bezier(.2,.8,.3,1); }
+.tooltip:not([hidden]) { animation: m-fade-in .12s ease-out; }
+.map-layers-pop:not([hidden]), #lens-picker:not([hidden]), #yield-report:not([hidden]) { animation: m-fade-in .14s ease-out; }
+/* Press feedback (translate composes with any transform a button already has). */
+:is(.yield, .lens-btn, .icon-btn, .ml-row, .chip, #topbar button):active { translate: 0 1px; filter: brightness(1.15); }
+.lens-btn, .icon-btn, .ml-row { transition: background-color .12s, border-color .12s, color .12s; }
+@media (max-width: 700px) {
+  #city-panel:not([hidden]), .app-dock:not([hidden]) { animation: m-sheet-in .24s cubic-bezier(.2,.8,.3,1); }
+}
+html.no-motion *, html.no-motion *::before, html.no-motion *::after { animation: none !important; transition: none !important; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  :is(.yield, .lens-btn, .icon-btn, .ml-row, .chip, #topbar button):active { translate: none; }
+}

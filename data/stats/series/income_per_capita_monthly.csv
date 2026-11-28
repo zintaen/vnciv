@@ -1,128 +1,443 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,3841.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+An Giang,63,2020,3338.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+An Giang,63,2021,3406.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+An Giang,63,2022,3646.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+An Giang,63,2023,3897.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 An Giang,63,2024,4220.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 An Giang,63,2025,4548.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bà Rịa - Vũng Tàu,63,2019,5310.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bà Rịa - Vũng Tàu,63,2020,4610.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bà Rịa - Vũng Tàu,63,2021,4419.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bà Rịa - Vũng Tàu,63,2022,4815.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bà Rịa - Vũng Tàu,63,2023,5340.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bà Rịa - Vũng Tàu,63,2024,5704.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bà Rịa - Vũng Tàu,63,2025,6154.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bình Dương,63,2019,7433.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bình Dương,63,2020,7034.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bình Dương,63,2021,7123.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bình Dương,63,2022,8076.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bình Dương,63,2023,8298.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bình Dương,63,2024,8937.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bình Dương,63,2025,9394.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bình Phước,63,2019,3881.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bình Phước,63,2020,4039.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bình Phước,63,2021,4002.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bình Phước,63,2022,4592.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bình Phước,63,2023,4800.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bình Phước,63,2024,5084.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bình Phước,63,2025,5579.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bình Thuận,63,2019,3718.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bình Thuận,63,2020,3981.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bình Thuận,63,2021,4077.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bình Thuận,63,2022,4307.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bình Thuận,63,2023,4571.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bình Thuận,63,2024,4885.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bình Thuận,63,2025,5013.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bình Định,63,2019,3355.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bình Định,63,2020,3441.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bình Định,63,2021,3469.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bình Định,63,2022,3897.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bình Định,63,2023,4364.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bình Định,63,2024,4752.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bình Định,63,2025,5049.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bạc Liêu,63,2019,2965.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bạc Liêu,63,2020,3338.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bạc Liêu,63,2021,3642.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bạc Liêu,63,2022,4305.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bạc Liêu,63,2023,4755.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bạc Liêu,63,2024,5170.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bạc Liêu,63,2025,5883.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bắc Giang,63,2019,3773.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bắc Giang,63,2020,3930.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bắc Giang,63,2021,3966.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bắc Giang,63,2022,4297.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bắc Giang,63,2023,4636.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bắc Giang,63,2024,5124.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bắc Giang,63,2025,5559.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bắc Kạn,63,2019,2071.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bắc Kạn,63,2020,2192.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bắc Kạn,63,2021,2125.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bắc Kạn,63,2022,2342.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bắc Kạn,63,2023,2519.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bắc Kạn,63,2024,2752.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bắc Kạn,63,2025,3276.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bắc Ninh,63,2019,5714.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bắc Ninh,63,2020,5439.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bắc Ninh,63,2021,4917.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bắc Ninh,63,2022,5470.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bắc Ninh,63,2023,5279.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bắc Ninh,63,2024,5751.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bắc Ninh,63,2025,6606.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Bến Tre,63,2019,3685.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Bến Tre,63,2020,3544.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Bến Tre,63,2021,3367.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Bến Tre,63,2022,3840.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Bến Tre,63,2023,4009.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Bến Tre,63,2024,4381.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Bến Tre,63,2025,5034.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Cao Bằng,63,2019,1975.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Cao Bằng,63,2020,2185.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Cao Bằng,63,2021,2273.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Cao Bằng,63,2022,2355.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Cao Bằng,63,2023,2439.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Cao Bằng,63,2024,2604.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Cao Bằng,63,2025,2691.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Cà Mau,63,2019,3214.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Cà Mau,63,2020,3034.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Cà Mau,63,2021,3239.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Cà Mau,63,2022,3768.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Cà Mau,63,2023,4096.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Cà Mau,63,2024,4452.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Cà Mau,63,2025,5001.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Cần Thơ,63,2019,4713.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Cần Thơ,63,2020,5031.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Cần Thơ,63,2021,4794.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Cần Thơ,63,2022,5324.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Cần Thơ,63,2023,5579.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Cần Thơ,63,2024,6051.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Cần Thơ,63,2025,6579.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Gia Lai,63,2019,2755.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Gia Lai,63,2020,2314.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Gia Lai,63,2021,2329.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Gia Lai,63,2022,2567.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Gia Lai,63,2023,2805.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Gia Lai,63,2024,3104.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Gia Lai,63,2025,4065.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hà Giang,63,2019,1832.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hà Giang,63,2020,1835.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hà Giang,63,2021,1933.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hà Giang,63,2022,2062.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hà Giang,63,2023,2252.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hà Giang,63,2024,2451.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hà Giang,63,2025,2552.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hà Nam,63,2019,3928.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hà Nam,63,2020,4029.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hà Nam,63,2021,4372.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hà Nam,63,2022,4745.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hà Nam,63,2023,5072.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hà Nam,63,2024,5600.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hà Nam,63,2025,6357.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hà Nội,63,2019,6403.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hà Nội,63,2020,6205.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hà Nội,63,2021,6002.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hà Nội,63,2022,6423.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hà Nội,63,2023,6869.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hà Nội,63,2024,7550.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hà Nội,63,2025,8374.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hà Tĩnh,63,2019,3123.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hà Tĩnh,63,2020,3230.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hà Tĩnh,63,2021,2981.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hà Tĩnh,63,2022,3486.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hà Tĩnh,63,2023,3811.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hà Tĩnh,63,2024,4151.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hà Tĩnh,63,2025,4457.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hòa Bình,63,2019,2494.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hòa Bình,63,2020,2707.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hòa Bình,63,2021,2644.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hòa Bình,63,2022,3143.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hòa Bình,63,2023,3300.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hòa Bình,63,2024,3601.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hòa Bình,63,2025,4760.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hưng Yên,63,2019,4183.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hưng Yên,63,2020,4043.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hưng Yên,63,2021,4192.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hưng Yên,63,2022,4747.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hưng Yên,63,2023,5290.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hưng Yên,63,2024,5867.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hưng Yên,63,2025,6577.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hải Dương,63,2019,4091.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hải Dương,63,2020,4388.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hải Dương,63,2021,4304.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hải Dương,63,2022,4936.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hải Dương,63,2023,5336.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hải Dương,63,2024,5881.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hải Dương,63,2025,6784.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hải Phòng,63,2019,5576.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hải Phòng,63,2020,5199.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hải Phòng,63,2021,5093.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hải Phòng,63,2022,5897.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hải Phòng,63,2023,6392.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hải Phòng,63,2024,7034.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hải Phòng,63,2025,7467.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Hậu Giang,63,2019,3871.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Hậu Giang,63,2020,3974.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Hậu Giang,63,2021,3761.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Hậu Giang,63,2022,4185.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Hậu Giang,63,2023,4235.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Hậu Giang,63,2024,4580.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Hậu Giang,63,2025,4877.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Khánh Hòa,63,2019,3797.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Khánh Hòa,63,2020,3153.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Khánh Hòa,63,2021,3236.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Khánh Hòa,63,2022,3729.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Khánh Hòa,63,2023,4025.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Khánh Hòa,63,2024,4502.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Khánh Hòa,63,2025,5682.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Kiên Giang,63,2019,4079.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Kiên Giang,63,2020,4369.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Kiên Giang,63,2021,3986.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Kiên Giang,63,2022,4287.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Kiên Giang,63,2023,4723.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Kiên Giang,63,2024,5153.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Kiên Giang,63,2025,5686.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Kon Tum,63,2019,2147.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Kon Tum,63,2020,2375.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Kon Tum,63,2021,2517.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Kon Tum,63,2022,2927.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Kon Tum,63,2023,3210.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Kon Tum,63,2024,3481.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Kon Tum,63,2025,4243.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Lai Châu,63,2019,1594.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Lai Châu,63,2020,1905.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Lai Châu,63,2021,2050.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Lai Châu,63,2022,2212.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Lai Châu,63,2023,2324.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Lai Châu,63,2024,2500.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Lai Châu,63,2025,2920.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Long An,63,2019,4544.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Long An,63,2020,4232.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Long An,63,2021,3725.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Long An,63,2022,3865.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Long An,63,2023,4236.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Long An,63,2024,4603.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Long An,63,2025,5274.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Lào Cai,63,2019,2540.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Lào Cai,63,2020,2427.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Lào Cai,63,2021,2515.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Lào Cai,63,2022,2881.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Lào Cai,63,2023,3200.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Lào Cai,63,2024,3545.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Lào Cai,63,2025,3781.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Lâm Đồng,63,2019,3929.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Lâm Đồng,63,2020,3742.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Lâm Đồng,63,2021,3718.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Lâm Đồng,63,2022,4428.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Lâm Đồng,63,2023,4857.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Lâm Đồng,63,2024,5313.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Lâm Đồng,63,2025,5757.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Lạng Sơn,63,2019,2250.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Lạng Sơn,63,2020,2297.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Lạng Sơn,63,2021,2471.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Lạng Sơn,63,2022,2701.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Lạng Sơn,63,2023,2884.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Lạng Sơn,63,2024,3201.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Lạng Sơn,63,2025,3582.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Nam Định,63,2019,3684.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Nam Định,63,2020,4096.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Nam Định,63,2021,4413.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Nam Định,63,2022,5100.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Nam Định,63,2023,5502.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Nam Định,63,2024,5925.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Nam Định,63,2025,6562.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Nghệ An,63,2019,2794.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Nghệ An,63,2020,3004.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Nghệ An,63,2021,3095.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Nghệ An,63,2022,3629.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Nghệ An,63,2023,4050.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Nghệ An,63,2024,4420.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Nghệ An,63,2025,4790.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Ninh Bình,63,2019,3997.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Ninh Bình,63,2020,3904.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Ninh Bình,63,2021,4282.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Ninh Bình,63,2022,4893.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Ninh Bình,63,2023,5333.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Ninh Bình,63,2024,5902.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Ninh Bình,63,2025,6776.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Ninh Thuận,63,2019,2834.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Ninh Thuận,63,2020,2918.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Ninh Thuận,63,2021,2855.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Ninh Thuận,63,2022,3040.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Ninh Thuận,63,2023,3326.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Ninh Thuận,63,2024,3469.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Ninh Thuận,63,2025,4463.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Phú Thọ,63,2019,3182.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Phú Thọ,63,2020,3331.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Phú Thọ,63,2021,3589.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Phú Thọ,63,2022,3911.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Phú Thọ,63,2023,4330.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Phú Thọ,63,2024,4715.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Phú Thọ,63,2025,5241.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Phú Yên,63,2019,3080.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Phú Yên,63,2020,3224.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Phú Yên,63,2021,3296.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Phú Yên,63,2022,3475.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Phú Yên,63,2023,3657.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Phú Yên,63,2024,3960.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Phú Yên,63,2025,4316.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Quảng Bình,63,2019,2928.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Quảng Bình,63,2020,3150.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Quảng Bình,63,2021,3338.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Quảng Bình,63,2022,3625.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Quảng Bình,63,2023,3871.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Quảng Bình,63,2024,4181.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Quảng Bình,63,2025,4666.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Quảng Nam,63,2019,3192.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Quảng Nam,63,2020,3555.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Quảng Nam,63,2021,3653.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Quảng Nam,63,2022,3825.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Quảng Nam,63,2023,3662.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Quảng Nam,63,2024,4100.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Quảng Nam,63,2025,4545.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Quảng Ngãi,63,2019,3084.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Quảng Ngãi,63,2020,3159.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Quảng Ngãi,63,2021,3219.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Quảng Ngãi,63,2022,3717.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Quảng Ngãi,63,2023,3922.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Quảng Ngãi,63,2024,4251.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Quảng Ngãi,63,2025,4517.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Quảng Ninh,63,2019,5198.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Quảng Ninh,63,2020,4539.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Quảng Ninh,63,2021,3992.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Quảng Ninh,63,2022,4811.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Quảng Ninh,63,2023,5295.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Quảng Ninh,63,2024,5900.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Quảng Ninh,63,2025,6917.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Quảng Trị,63,2019,2762.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Quảng Trị,63,2020,2853.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Quảng Trị,63,2021,3026.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Quảng Trị,63,2022,3382.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Quảng Trị,63,2023,3582.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Quảng Trị,63,2024,3903.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Quảng Trị,63,2025,4274.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Sóc Trăng,63,2019,3898.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Sóc Trăng,63,2020,3635.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Sóc Trăng,63,2021,3246.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Sóc Trăng,63,2022,3651.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Sóc Trăng,63,2023,3912.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Sóc Trăng,63,2024,4270.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Sóc Trăng,63,2025,4653.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Sơn La,63,2019,1605.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Sơn La,63,2020,1745.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Sơn La,63,2021,1834.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Sơn La,63,2022,2141.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Sơn La,63,2023,2392.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Sơn La,63,2024,2600.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Sơn La,63,2025,3052.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+TP. Hồ Chí Minh,63,2019,6758.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+TP. Hồ Chí Minh,63,2020,6537.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+TP. Hồ Chí Minh,63,2021,6008.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+TP. Hồ Chí Minh,63,2022,6392.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+TP. Hồ Chí Minh,63,2023,6516.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 TP. Hồ Chí Minh,63,2024,7106.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 TP. Hồ Chí Minh,63,2025,7898.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Thanh Hóa,63,2019,3277.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Thanh Hóa,63,2020,3510.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Thanh Hóa,63,2021,3652.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Thanh Hóa,63,2022,4309.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Thanh Hóa,63,2023,4653.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Thanh Hóa,63,2024,5074.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Thanh Hóa,63,2025,5429.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Thái Bình,63,2019,3866.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Thái Bình,63,2020,4209.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Thái Bình,63,2021,4334.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Thái Bình,63,2022,4749.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Thái Bình,63,2023,5266.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Thái Bình,63,2024,5700.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Thái Bình,63,2025,6534.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Thái Nguyên,63,2019,4279.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Thái Nguyên,63,2020,3806.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Thái Nguyên,63,2021,3814.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Thái Nguyên,63,2022,4587.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Thái Nguyên,63,2023,4908.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Thái Nguyên,63,2024,5325.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Thái Nguyên,63,2025,5338.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Thừa Thiên Huế,63,2019,3423.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Thừa Thiên Huế,63,2020,3212.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Thừa Thiên Huế,63,2021,3525.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Thừa Thiên Huế,63,2022,4281.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Thừa Thiên Huế,63,2023,4703.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Thừa Thiên Huế,63,2024,5128.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Thừa Thiên Huế,63,2025,5696.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Tiền Giang,63,2019,4296.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Tiền Giang,63,2020,4534.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Tiền Giang,63,2021,3932.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Tiền Giang,63,2022,4118.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Tiền Giang,63,2023,4601.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Tiền Giang,63,2024,5021.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Tiền Giang,63,2025,5529.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Trà Vinh,63,2019,3138.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Trà Vinh,63,2020,3437.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Trà Vinh,63,2021,3290.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Trà Vinh,63,2022,3711.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Trà Vinh,63,2023,3859.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Trà Vinh,63,2024,4183.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Trà Vinh,63,2025,5215.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Tuyên Quang,63,2019,2437.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Tuyên Quang,63,2020,2681.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Tuyên Quang,63,2021,2872.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Tuyên Quang,63,2022,3142.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Tuyên Quang,63,2023,3398.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Tuyên Quang,63,2024,3690.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Tuyên Quang,63,2025,4146.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Tây Ninh,63,2019,4549.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Tây Ninh,63,2020,4246.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Tây Ninh,63,2021,4036.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Tây Ninh,63,2022,4617.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Tây Ninh,63,2023,4876.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Tây Ninh,63,2024,5301.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Tây Ninh,63,2025,5617.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Vĩnh Long,63,2019,3329.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Vĩnh Long,63,2020,3201.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Vĩnh Long,63,2021,3173.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Vĩnh Long,63,2022,3502.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Vĩnh Long,63,2023,3757.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Vĩnh Long,63,2024,4085.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Vĩnh Long,63,2025,4433.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Vĩnh Phúc,63,2019,4086.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Vĩnh Phúc,63,2020,4290.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Vĩnh Phúc,63,2021,4511.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Vĩnh Phúc,63,2022,5194.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Vĩnh Phúc,63,2023,5463.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Vĩnh Phúc,63,2024,5844.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Vĩnh Phúc,63,2025,6433.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Yên Bái,63,2019,2458.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Yên Bái,63,2020,2522.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Yên Bái,63,2021,2540.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Yên Bái,63,2022,2846.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Yên Bái,63,2023,3155.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Yên Bái,63,2024,3502.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Yên Bái,63,2025,3900.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Điện Biên,63,2019,1583.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Điện Biên,63,2020,1737.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Điện Biên,63,2021,1821.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Điện Biên,63,2022,2080.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Điện Biên,63,2023,2182.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Điện Biên,63,2024,2381.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Điện Biên,63,2025,2583.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Đà Nẵng,63,2019,6057.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Đà Nẵng,63,2020,5284.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Đà Nẵng,63,2021,5230.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Đà Nẵng,63,2022,5807.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Đà Nẵng,63,2023,6224.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Đà Nẵng,63,2024,6710.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Đà Nẵng,63,2025,6853.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Đắk Lắk,63,2019,2997.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Đắk Lắk,63,2020,2715.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Đắk Lắk,63,2021,2811.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Đắk Lắk,63,2022,3238.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Đắk Lắk,63,2023,3486.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Đắk Lắk,63,2024,3722.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Đắk Lắk,63,2025,4469.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Đắk Nông,63,2019,3234.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Đắk Nông,63,2020,2809.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Đắk Nông,63,2021,2745.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Đắk Nông,63,2022,3183.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Đắk Nông,63,2023,3388.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Đắk Nông,63,2024,3702.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Đắk Nông,63,2025,5767.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Đồng Nai,63,2019,5860.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Đồng Nai,63,2020,5621.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Đồng Nai,63,2021,5751.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Đồng Nai,63,2022,6346.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Đồng Nai,63,2023,6579.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Đồng Nai,63,2024,7150.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Đồng Nai,63,2025,7676.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
+Đồng Tháp,63,2019,3777.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+Đồng Tháp,63,2020,3965.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+Đồng Tháp,63,2021,4199.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+Đồng Tháp,63,2022,4547.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+Đồng Tháp,63,2023,4906.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
 Đồng Tháp,63,2024,5314.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T403, p.1007-1009)",prel
 Đồng Tháp,63,2025,5648.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, 63 provinces) (table p.908-910)",prel
 An Giang,34,2025,5096.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, 34 provinces) (table p.1474-1475)",prel

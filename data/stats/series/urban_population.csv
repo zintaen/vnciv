@@ -1,315 +1,441 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,602.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 An Giang,63,2020,601.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+An Giang,63,2021,646.02,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 An Giang,63,2022,644.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 An Giang,63,2023,705.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 An Giang,63,2024,706.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 An Giang,63,2025,477.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bà Rịa - Vũng Tàu,63,2019,675.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,672.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bà Rịa - Vũng Tàu,63,2021,686.87,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bà Rịa - Vũng Tàu,63,2022,711.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bà Rịa - Vũng Tàu,63,2023,723.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bà Rịa - Vũng Tàu,63,2024,741.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bà Rịa - Vũng Tàu,63,2025,639.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bình Dương,63,2019,1961.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bình Dương,63,2020,2178.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bình Dương,63,2021,2189.68,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bình Dương,63,2022,2327.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Dương,63,2023,2377.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Dương,63,2024,2464.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Dương,63,2025,2570.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bình Phước,63,2019,238.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bình Phước,63,2020,243.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bình Phước,63,2021,247.54,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bình Phước,63,2022,304.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Phước,63,2023,307.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Phước,63,2024,312.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Phước,63,2025,327.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bình Thuận,63,2019,469.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bình Thuận,63,2020,472.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bình Thuận,63,2021,479.85,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bình Thuận,63,2022,483.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Thuận,63,2023,485.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Thuận,63,2024,488.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Thuận,63,2025,366.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bình Định,63,2019,476.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bình Định,63,2020,599.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bình Định,63,2021,620.81,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bình Định,63,2022,619.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Định,63,2023,620.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Định,63,2024,627.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bình Định,63,2025,675.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bạc Liêu,63,2019,252.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bạc Liêu,63,2020,253.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bạc Liêu,63,2021,254.94,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bạc Liêu,63,2022,255.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bạc Liêu,63,2023,256.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bạc Liêu,63,2024,257.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bạc Liêu,63,2025,260.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bắc Giang,63,2019,207.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bắc Giang,63,2020,334.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bắc Giang,63,2021,341.66,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bắc Giang,63,2022,370.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Giang,63,2023,379.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Giang,63,2024,475.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Giang,63,2025,682.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bắc Kạn,63,2019,65.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bắc Kạn,63,2020,71.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bắc Kạn,63,2021,73.11,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bắc Kạn,63,2022,73.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Kạn,63,2023,78.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Kạn,63,2024,80.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Kạn,63,2025,43.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bắc Ninh,63,2019,380.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bắc Ninh,63,2020,446.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bắc Ninh,63,2021,536.15,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bắc Ninh,63,2022,554.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Ninh,63,2023,770.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Ninh,63,2024,787.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bắc Ninh,63,2025,873.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Bến Tre,63,2019,126.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Bến Tre,63,2020,126.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Bến Tre,63,2021,128.27,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Bến Tre,63,2022,133.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bến Tre,63,2023,170.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bến Tre,63,2024,174.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Bến Tre,63,2025,170.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Cao Bằng,63,2019,124.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Cao Bằng,63,2020,136.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Cao Bằng,63,2021,138.18,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Cao Bằng,63,2022,138.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cao Bằng,63,2023,139.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cao Bằng,63,2024,142.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cao Bằng,63,2025,83.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Cà Mau,63,2019,271.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Cà Mau,63,2020,271.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Cà Mau,63,2021,275.35,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Cà Mau,63,2022,275.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cà Mau,63,2023,278.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cà Mau,63,2024,284.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cà Mau,63,2025,236.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Cần Thơ,63,2019,861.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Cần Thơ,63,2020,868.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Cần Thơ,63,2021,876.92,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Cần Thơ,63,2022,882.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cần Thơ,63,2023,887.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cần Thơ,63,2024,898.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Cần Thơ,63,2025,891.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Gia Lai,63,2019,440.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Gia Lai,63,2020,447.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Gia Lai,63,2021,458.94,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Gia Lai,63,2022,466.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Gia Lai,63,2023,475.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Gia Lai,63,2024,482.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Gia Lai,63,2025,347.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hà Giang,63,2019,137.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hà Giang,63,2020,137.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hà Giang,63,2021,140.33,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hà Giang,63,2022,142.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Giang,63,2023,145.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Giang,63,2024,148.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Giang,63,2025,59.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hà Nam,63,2019,143.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hà Nam,63,2020,239.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hà Nam,63,2021,244.91,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hà Nam,63,2022,246.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nam,63,2023,249.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nam,63,2024,257.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nam,63,2025,469.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hà Nội,63,2019,4000.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hà Nội,63,2020,4061.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hà Nội,63,2021,4095.37,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hà Nội,63,2022,4138.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nội,63,2023,4213.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nội,63,2024,4280.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Nội,63,2025,4234.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hà Tĩnh,63,2019,253.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hà Tĩnh,63,2020,287.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hà Tĩnh,63,2021,293.01,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hà Tĩnh,63,2022,293.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Tĩnh,63,2023,298.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Tĩnh,63,2024,300.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hà Tĩnh,63,2025,274.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hòa Bình,63,2019,134.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hòa Bình,63,2020,205.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hòa Bình,63,2021,208.79,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hòa Bình,63,2022,222.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hòa Bình,63,2023,226.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hòa Bình,63,2024,234.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hòa Bình,63,2025,240.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hưng Yên,63,2019,207.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hưng Yên,63,2020,209.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hưng Yên,63,2021,213.57,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hưng Yên,63,2022,217.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hưng Yên,63,2023,221.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hưng Yên,63,2024,225.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hưng Yên,63,2025,236.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hải Dương,63,2019,594.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hải Dương,63,2020,603.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hải Dương,63,2021,613.18,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hải Dương,63,2022,618.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Dương,63,2023,620.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Dương,63,2024,630.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Dương,63,2025,680.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hải Phòng,63,2019,926.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hải Phòng,63,2020,932.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hải Phòng,63,2021,943.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hải Phòng,63,2022,951.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Phòng,63,2023,960.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Phòng,63,2024,970.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hải Phòng,63,2025,1422.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Hậu Giang,63,2019,197.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Hậu Giang,63,2020,204.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Hậu Giang,63,2021,212.69,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Hậu Giang,63,2022,205.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hậu Giang,63,2023,204.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hậu Giang,63,2024,205.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Hậu Giang,63,2025,154.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Khánh Hòa,63,2019,521.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Khánh Hòa,63,2020,525.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Khánh Hòa,63,2021,528.74,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Khánh Hòa,63,2022,531.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Khánh Hòa,63,2023,534.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Khánh Hòa,63,2024,538.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Khánh Hòa,63,2025,665.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Kiên Giang,63,2019,488.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Kiên Giang,63,2020,491.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Kiên Giang,63,2021,504.36,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Kiên Giang,63,2022,522.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kiên Giang,63,2023,528.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kiên Giang,63,2024,527.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kiên Giang,63,2025,468.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Kon Tum,63,2019,173.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Kon Tum,63,2020,181.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Kon Tum,63,2021,185.28,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Kon Tum,63,2022,188.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kon Tum,63,2023,191.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kon Tum,63,2024,194.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Kon Tum,63,2025,198.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Lai Châu,63,2019,67.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Lai Châu,63,2020,82.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Lai Châu,63,2021,84.66,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Lai Châu,63,2022,85.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lai Châu,63,2023,86.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lai Châu,63,2024,87.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lai Châu,63,2025,59.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Long An,63,2019,272.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Long An,63,2020,312.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Long An,63,2021,316.46,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Long An,63,2022,318.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Long An,63,2023,320.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Long An,63,2024,326.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Long An,63,2025,172.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Lào Cai,63,2019,171.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Lào Cai,63,2020,197.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Lào Cai,63,2021,201.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Lào Cai,63,2022,206.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lào Cai,63,2023,211.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lào Cai,63,2024,215.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lào Cai,63,2025,154.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Lâm Đồng,63,2019,509.0,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Lâm Đồng,63,2020,514.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Lâm Đồng,63,2021,519.1,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Lâm Đồng,63,2022,523.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lâm Đồng,63,2023,529.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lâm Đồng,63,2024,540.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lâm Đồng,63,2025,434.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Lạng Sơn,63,2019,160.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Lạng Sơn,63,2020,181.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Lạng Sơn,63,2021,183.89,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Lạng Sơn,63,2022,185.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lạng Sơn,63,2023,187.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lạng Sơn,63,2024,192.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Lạng Sơn,63,2025,138.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Nam Định,63,2019,323.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Nam Định,63,2020,360.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Nam Định,63,2021,371.57,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Nam Định,63,2022,380.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nam Định,63,2023,385.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nam Định,63,2024,388.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nam Định,63,2025,414.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Nghệ An,63,2019,490.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Nghệ An,63,2020,521.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Nghệ An,63,2021,529.48,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Nghệ An,63,2022,530.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nghệ An,63,2023,540.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nghệ An,63,2024,546.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Nghệ An,63,2025,632.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Ninh Bình,63,2019,207.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Ninh Bình,63,2020,212.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Ninh Bình,63,2021,216.52,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Ninh Bình,63,2022,218.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Bình,63,2023,220.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Bình,63,2024,224.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Bình,63,2025,351.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Ninh Thuận,63,2019,211.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Ninh Thuận,63,2020,209.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Ninh Thuận,63,2021,211.04,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Ninh Thuận,63,2022,212.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Thuận,63,2023,213.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Thuận,63,2024,221.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Ninh Thuận,63,2025,207.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Phú Thọ,63,2019,269.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Phú Thọ,63,2020,281.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Phú Thọ,63,2021,287.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Phú Thọ,63,2022,293.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Thọ,63,2023,297.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Thọ,63,2024,301.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Thọ,63,2025,311.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Phú Yên,63,2019,251.0,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Phú Yên,63,2020,285.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Phú Yên,63,2021,286.32,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Phú Yên,63,2022,286.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Yên,63,2023,287.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Yên,63,2024,292.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Phú Yên,63,2025,339.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Quảng Bình,63,2019,188.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Quảng Bình,63,2020,207.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Quảng Bình,63,2021,210.07,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Quảng Bình,63,2022,211.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Bình,63,2023,214.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Bình,63,2024,217.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Bình,63,2025,201.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Quảng Nam,63,2019,379.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Quảng Nam,63,2020,396.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Quảng Nam,63,2021,401.26,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Quảng Nam,63,2022,407.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Nam,63,2023,469.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Nam,63,2024,474.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Nam,63,2025,400.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Quảng Ngãi,63,2019,201.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Quảng Ngãi,63,2020,260.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Quảng Ngãi,63,2021,262.66,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Quảng Ngãi,63,2022,272.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ngãi,63,2023,273.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ngãi,63,2024,280.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ngãi,63,2025,289.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Quảng Ninh,63,2019,853.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Quảng Ninh,63,2020,901.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Quảng Ninh,63,2021,909.89,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Quảng Ninh,63,2022,918.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ninh,63,2023,930.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ninh,63,2024,968.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Ninh,63,2025,1072.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Quảng Trị,63,2019,196.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Quảng Trị,63,2020,206.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Quảng Trị,63,2021,210.96,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Quảng Trị,63,2022,212.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Trị,63,2023,214.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Trị,63,2024,216.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Quảng Trị,63,2025,128.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Sóc Trăng,63,2019,388.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Sóc Trăng,63,2020,386.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Sóc Trăng,63,2021,391.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Sóc Trăng,63,2022,405.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sóc Trăng,63,2023,406.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sóc Trăng,63,2024,411.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sóc Trăng,63,2025,390.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Sơn La,63,2019,173.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Sơn La,63,2020,176.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Sơn La,63,2021,180.07,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Sơn La,63,2022,181.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sơn La,63,2023,185.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sơn La,63,2024,191.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Sơn La,63,2025,186.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+TP. Hồ Chí Minh,63,2019,7161.5,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 TP. Hồ Chí Minh,63,2020,7290.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+TP. Hồ Chí Minh,63,2021,7239.63,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 TP. Hồ Chí Minh,63,2022,7297.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 TP. Hồ Chí Minh,63,2023,7344.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 TP. Hồ Chí Minh,63,2024,7428.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 TP. Hồ Chí Minh,63,2025,7431.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Thanh Hóa,63,2019,547.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Thanh Hóa,63,2020,853.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Thanh Hóa,63,2021,993.39,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Thanh Hóa,63,2022,1029.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thanh Hóa,63,2023,1036.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thanh Hóa,63,2024,1058.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thanh Hóa,63,2025,868.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Thái Bình,63,2019,197.0,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Thái Bình,63,2020,219.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Thái Bình,63,2021,220.23,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Thái Bình,63,2022,221.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Bình,63,2023,221.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Bình,63,2024,224.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Bình,63,2025,274.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Thái Nguyên,63,2019,413.9,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Thái Nguyên,63,2020,419.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Thái Nguyên,63,2021,425.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Thái Nguyên,63,2022,525.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Nguyên,63,2023,548.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Nguyên,63,2024,556.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thái Nguyên,63,2025,586.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Thừa Thiên Huế,63,2019,563.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Thừa Thiên Huế,63,2020,562.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Thừa Thiên Huế,63,2021,609.38,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Thừa Thiên Huế,63,2022,612.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thừa Thiên Huế,63,2023,616.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thừa Thiên Huế,63,2024,622.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Thừa Thiên Huế,63,2025,813.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Tiền Giang,63,2019,247.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Tiền Giang,63,2020,251.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Tiền Giang,63,2021,253.64,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Tiền Giang,63,2022,271.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tiền Giang,63,2023,273.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tiền Giang,63,2024,302.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tiền Giang,63,2025,438.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Trà Vinh,63,2019,174.1,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Trà Vinh,63,2020,175.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Trà Vinh,63,2021,178.36,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Trà Vinh,63,2022,184.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Trà Vinh,63,2023,186.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Trà Vinh,63,2024,189.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Trà Vinh,63,2025,174.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Tuyên Quang,63,2019,108.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Tuyên Quang,63,2020,109.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Tuyên Quang,63,2021,111.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Tuyên Quang,63,2022,120.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tuyên Quang,63,2023,122.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tuyên Quang,63,2024,159.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tuyên Quang,63,2025,167.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Tây Ninh,63,2019,208.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Tây Ninh,63,2020,381.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Tây Ninh,63,2021,382.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Tây Ninh,63,2022,386.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tây Ninh,63,2023,389.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tây Ninh,63,2024,391.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Tây Ninh,63,2025,529.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Vĩnh Long,63,2019,169.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Vĩnh Long,63,2020,232.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Vĩnh Long,63,2021,233.72,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Vĩnh Long,63,2022,233.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Long,63,2023,235.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Long,63,2024,237.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Long,63,2025,282.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Vĩnh Phúc,63,2019,295.2,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Vĩnh Phúc,63,2020,351.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Vĩnh Phúc,63,2021,358.33,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Vĩnh Phúc,63,2022,366.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Phúc,63,2023,411.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Phúc,63,2024,416.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Vĩnh Phúc,63,2025,426.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Yên Bái,63,2019,163.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Yên Bái,63,2020,171.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Yên Bái,63,2021,174.73,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Yên Bái,63,2022,176.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Yên Bái,63,2023,179.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Yên Bái,63,2024,181.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Yên Bái,63,2025,199.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Điện Biên,63,2019,86.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Điện Biên,63,2020,93.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Điện Biên,63,2021,95.0,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Điện Biên,63,2022,96.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Điện Biên,63,2023,98.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Điện Biên,63,2024,99.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Điện Biên,63,2025,92.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Đà Nẵng,63,2019,994.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Đà Nẵng,63,2020,1020.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Đà Nẵng,63,2021,1044.33,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Đà Nẵng,63,2022,1067.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đà Nẵng,63,2023,1091.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đà Nẵng,63,2024,1120.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đà Nẵng,63,2025,1227.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Đắk Lắk,63,2019,463.3,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Đắk Lắk,63,2020,466.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Đắk Lắk,63,2021,473.81,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Đắk Lắk,63,2022,478.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Lắk,63,2023,502.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Lắk,63,2024,507.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Lắk,63,2025,439.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Đắk Nông,63,2019,95.4,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Đắk Nông,63,2020,97.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Đắk Nông,63,2021,107.98,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Đắk Nông,63,2022,112.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Nông,63,2023,115.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Nông,63,2024,120.0,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đắk Nông,63,2025,87.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Đồng Nai,63,2019,1371.8,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Đồng Nai,63,2020,1406.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Đồng Nai,63,2021,1418.64,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Đồng Nai,63,2022,1470.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đồng Nai,63,2023,1498.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đồng Nai,63,2024,1526.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đồng Nai,63,2025,1499.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+Đồng Tháp,63,2019,304.7,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
 Đồng Tháp,63,2020,306.1,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+Đồng Tháp,63,2021,323.21,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2021)",final
 Đồng Tháp,63,2022,323.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đồng Tháp,63,2023,325.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
 Đồng Tháp,63,2024,328.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final

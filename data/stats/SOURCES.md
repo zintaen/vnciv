@@ -13,7 +13,7 @@ each row's `source_url`. Regional and national rows are dropped (NSO's national 
 | `p34_2026/` | NSO monthly socio-economic reports, September and October 2026 | the 34 provinces |
 | `2024/` | Statistical Yearbook 2024 | the 63 former provinces |
 | `series/` | every year column of the tables above, long format | 63 and 34 |
-| root | PX-Web population series, PCI, national figures, World Bank exchange rate | |
+| root | PX-Web population series, PCI, national figures, World Bank exchange rate, `series_national.csv`, `completeness.csv` | |
 
 ## 1. NSO Statistical Yearbook 2025 (the main source)
 - URL: https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (bilingual VI/EN, published July 2026).
@@ -93,6 +93,42 @@ each row's `source_url`. Regional and national rows are dropped (NSO's national 
 - The 34-province cereal, paddy area and paddy production series are sums of the 63 former provinces (years where all
   63 are published: 2020, 2022–2025); the appendix's swapped rows (and its 2021 column) are not used.
 
+## 4b. Back-filled years (2019, 2021 and the rest NSO publishes) → `series/`, `series_national.csv`, `completeness.csv`
+Run `pipeline/nso/backfill.py data/stats data/interim/nso_dc` **after** `series.py` (it is idempotent: it drops the
+rows it wrote before and rebuilds them). Sources, all downloaded on 28 Nov 2026:
+- PX-Web (63 former provinces, every by-province table of the databases "Dân số và lao động", "Doanh nghiệp",
+  "Công nghiệp"; JSON in `px/`, fetched with `pxget.py`): population and urban population (V02.03-07), crude birth/death
+  rates (V02.12-14), total fertility (V02.16), infant mortality (V02.18), population growth (V02.20), migration
+  (V02.21-23), life expectancy (V02.25), literacy (V02.27, new series `literacy_rate_15plus` 2019-2024), age at first
+  marriage (V02.30), divorces (V02.31, 2024 only), labour force (V02.37), employed (V02.45), informal (V02.51), trained
+  (V02.55), productivity (V02.58), unemployment (V02.63), underemployment (V02.70), industrial production index (V07.02),
+  enterprises (V05.02, V05.04, V05.05 2021-2024, V05.08, V05.11, V05.23, V05.35, V05.38), cooperatives (V05.51),
+  household businesses and their workers (V05.54, V05.56). The "Đầu tư", "Giáo dục" and English databases answer 404.
+- Statistical Yearbooks 2019-2024 (registered as `nso_yearbooks_2019_2024` in `pipeline/sources_data_completeness.py`,
+  in `data/raw/`; text by `ext.py` into `data/interim/nso_dc/`): 2019 and 2021 columns of the agriculture, GRDP,
+  trade, transport, living-standard and household tables; HDI 2019-2023 (63); FDI projects and capital and income per
+  person 2019-2023 (each edition's own year; the 2022 edition's page 583 cannot be read by pypdf and is skipped).
+- 2025 yearbook appendix tables that `spec34.py` does not list: enterprises with business outcomes (A p.1258, 34
+  provinces 2020-2024) and the index of industrial production 2025 (A p.1240).
+- Rules: only years 2019-2026 the series lacks are added, existing rows are never replaced. A source is used for an
+  indicator only if, on every year it shares with the series (final values only), at least 95% of the provinces agree
+  within one rounding unit; a table is matched by that agreement (its English title only breaks ties: titles change,
+  e.g. "acting" → "active enterprises"). Without a 63-province series the 11 unmerged provinces are compared with the
+  34-province series. The newest edition that prints a year wins. FDI tables must add up to their national row.
+  The 34-province cereal/paddy rows for 2019 and 2021 are sums of the 63 (as in §4).
+- Not used, with the reason: PX V02.09 sex ratio (disagrees with the 2025 yearbook for 8 provinces in 2023; the
+  2019/2021 values come from the 2023 yearbook instead); V05.05 2017-2020 (Bắc Ninh and Quảng Ninh differ from
+  V05.04 ÷ V02.03); V02.31 2019-2023 (about 26-32 thousand divorces a year nationally against 182 thousand in 2024:
+  a change of scope).
+- Breaks noted in timeline.json (`series[id].note`): labour figures from 2021 follow ICLS19 (2025 yearbook p.151
+  footnote); HDI from 2020 uses 2017 PPPs (p.1485 footnote); population is adjusted to the 2019 census.
+- USD: the World Bank series in `wb_fx.json` starts in 2020, so 2019 money values have no USD lens value (the 2019 rate
+  is published by the World Bank; `wb_fx.json` belongs to the FX update and should be fetched with `date=2019:2026`).
+- `series_national.csv`: NSO's national row ("CẢ NƯỚC") of each series' cited table, per year (2025 yearbook first,
+  then PX-Web, then the older editions, then `national.csv`); nation.json `series`.
+- `completeness.csv`: indicator × level × year 2019-2026, provinces present, and the reason for every gap
+  (`python3 tests/test_data_completeness.py`; the test fails on an unexplained gap).
+
 ## 5. NSO PX-Web API
 - API root: https://pxweb.nso.gov.vn/api/v1/vi/ . A GET on a table returns its metadata; a POST returns the data as JSON
   (`pipeline/nso/pxget.py`; the local DNS often fails for this host, so the script pins 210.245.31.110).
@@ -121,7 +157,7 @@ pupils per teacher; gdp, NSO's national GDP 2025 at current prices (12,847,571 b
 - Licence: VCCI asks users to cite it as the source (https://pcivietnam.vn/gioi-thieu/chinh-sach-trich-dan-du-lieu.html).
 
 ## 8. World Bank official exchange rate → `wb_fx.json`
-https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2020:2026 (fetched 28 Nov 2026,
+https://api.worldbank.org/v2/country/VNM/indicator/PA.NUS.FCRF?format=json&date=2019:2026 (fetched 28 Nov 2026,
 last updated 11 Nov 2026): 2020–2024 published, **2025 not yet published (null)**, so 2025 VND figures are converted
 at the 2024 rate (24,164.89 VND per USD); nation.json's `currency.note` says so.
 

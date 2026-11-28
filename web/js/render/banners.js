@@ -656,6 +656,14 @@ export function drawBanners(ctx, cam, w, state, yields, nation = state.nation) {
     const key = `${city.id}|${L.name}|${tiered ? 1 : 0}|${selected ? 1 : 0}|${scale}|${col.join(",")}|${width}|${ptr ?? ""}|${badge ? `${badge.label}|${badge.color}` : ""}`;
     const sp = bannerSprite(key, m, L, col, width, height, scale, flags);
     if (alpha < 1) ctx.globalAlpha = alpha;
+    // state.bannerPop (main.js): the selected banner's scale while it pops in, about its pointer tip.
+    const pop = selected && state.bannerPop > 0 && state.bannerPop !== 1 ? state.bannerPop : 0;
+    if (pop) {
+      ctx.save();
+      ctx.translate(sx, y + height + POINTER);
+      ctx.scale(pop, pop);
+      ctx.translate(-sx, -(y + height + POINTER));
+    }
     if (sp) {
       let dx = x - PAD, dy = y - PAD - tab;
       if (t && t.b === 0 && t.c === 0 && t.a > 0 && t.d > 0) {
@@ -668,6 +676,7 @@ export function drawBanners(ctx, cam, w, state, yields, nation = state.nation) {
       paintBanner(ctx, x, y, width, m, L, col, flags);
       ctx.restore();
     }
+    if (pop) ctx.restore();
     ctx.globalAlpha = 1;
 
     hits.push({ x, y: y - tab, w: width, h: height + tab, city, specialty: m.spec?.key ?? null });

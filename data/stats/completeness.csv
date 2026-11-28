@@ -1,0 +1,1313 @@
+indicator,level,year,provinces,of,status,reason
+active_enterprises,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+active_enterprises,34,2020,34,34,complete,
+active_enterprises,34,2021,34,34,complete,
+active_enterprises,34,2022,34,34,complete,
+active_enterprises,34,2023,34,34,complete,
+active_enterprises,34,2024,34,34,complete,
+active_enterprises,34,2025,34,34,complete,
+active_enterprises,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+active_enterprises,63,2019,63,63,complete,
+active_enterprises,63,2020,63,63,complete,
+active_enterprises,63,2021,63,63,complete,
+active_enterprises,63,2022,63,63,complete,
+active_enterprises,63,2023,63,63,complete,
+active_enterprises,63,2024,63,63,complete,
+active_enterprises,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+active_enterprises,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+aquaculture_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+aquaculture_production,34,2020,34,34,complete,
+aquaculture_production,34,2021,34,34,complete,
+aquaculture_production,34,2022,34,34,complete,
+aquaculture_production,34,2023,34,34,complete,
+aquaculture_production,34,2024,34,34,complete,
+aquaculture_production,34,2025,34,34,complete,
+aquaculture_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+aquaculture_production,63,2019,63,63,complete,
+aquaculture_production,63,2020,63,63,complete,
+aquaculture_production,63,2021,63,63,complete,
+aquaculture_production,63,2022,63,63,complete,
+aquaculture_production,63,2023,63,63,complete,
+aquaculture_production,63,2024,63,63,complete,
+aquaculture_production,63,2025,63,63,complete,
+aquaculture_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+buffalo,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+buffalo,34,2020,34,34,complete,
+buffalo,34,2021,34,34,complete,
+buffalo,34,2022,34,34,complete,
+buffalo,34,2023,34,34,complete,
+buffalo,34,2024,34,34,complete,
+buffalo,34,2025,34,34,complete,
+buffalo,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+buffalo,63,2019,63,63,complete,
+buffalo,63,2020,63,63,complete,
+buffalo,63,2021,63,63,complete,
+buffalo,63,2022,63,63,complete,
+buffalo,63,2023,63,63,complete,
+buffalo,63,2024,63,63,complete,
+buffalo,63,2025,63,63,complete,
+buffalo,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+capture_fishery,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+capture_fishery,34,2020,34,34,complete,
+capture_fishery,34,2021,34,34,complete,
+capture_fishery,34,2022,34,34,complete,
+capture_fishery,34,2023,34,34,complete,
+capture_fishery,34,2024,34,34,complete,
+capture_fishery,34,2025,34,34,complete,
+capture_fishery,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+capture_fishery,63,2019,63,63,complete,
+capture_fishery,63,2020,63,63,complete,
+capture_fishery,63,2021,63,63,complete,
+capture_fishery,63,2022,63,63,complete,
+capture_fishery,63,2023,63,63,complete,
+capture_fishery,63,2024,63,63,complete,
+capture_fishery,63,2025,63,63,complete,
+capture_fishery,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cattle,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+cattle,34,2020,34,34,complete,
+cattle,34,2021,34,34,complete,
+cattle,34,2022,34,34,complete,
+cattle,34,2023,34,34,complete,
+cattle,34,2024,34,34,complete,
+cattle,34,2025,34,34,complete,
+cattle,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cattle,63,2019,63,63,complete,
+cattle,63,2020,63,63,complete,
+cattle,63,2021,63,63,complete,
+cattle,63,2022,63,63,complete,
+cattle,63,2023,63,63,complete,
+cattle,63,2024,63,63,complete,
+cattle,63,2025,63,63,complete,
+cattle,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cereal_production,34,2019,34,34,complete,
+cereal_production,34,2020,34,34,complete,
+cereal_production,34,2021,34,34,complete,
+cereal_production,34,2022,34,34,complete,
+cereal_production,34,2023,34,34,complete,
+cereal_production,34,2024,34,34,complete,
+cereal_production,34,2025,34,34,complete,
+cereal_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cereal_production,63,2019,63,63,complete,
+cereal_production,63,2020,63,63,complete,
+cereal_production,63,2021,63,63,complete,
+cereal_production,63,2022,63,63,complete,
+cereal_production,63,2023,63,63,complete,
+cereal_production,63,2024,63,63,complete,
+cereal_production,63,2025,63,63,complete,
+cereal_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+computer_households,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+computer_households,34,2020,34,34,complete,
+computer_households,34,2021,34,34,complete,
+computer_households,34,2022,34,34,complete,
+computer_households,34,2023,34,34,complete,
+computer_households,34,2024,34,34,complete,
+computer_households,34,2025,34,34,complete,
+computer_households,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+computer_households,63,2019,63,63,complete,
+computer_households,63,2020,63,63,complete,
+computer_households,63,2021,63,63,complete,
+computer_households,63,2022,63,63,complete,
+computer_households,63,2023,63,63,complete,
+computer_households,63,2024,63,63,complete,
+computer_households,63,2025,63,63,complete,
+computer_households,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cooperatives,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+cooperatives,34,2020,34,34,complete,
+cooperatives,34,2021,34,34,complete,
+cooperatives,34,2022,34,34,complete,
+cooperatives,34,2023,34,34,complete,
+cooperatives,34,2024,34,34,complete,
+cooperatives,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+cooperatives,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+cooperatives,63,2019,63,63,complete,
+cooperatives,63,2020,63,63,complete,
+cooperatives,63,2021,63,63,complete,
+cooperatives,63,2022,63,63,complete,
+cooperatives,63,2023,63,63,complete,
+cooperatives,63,2024,63,63,complete,
+cooperatives,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+cooperatives,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+crude_birth_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+crude_birth_rate,34,2020,34,34,complete,
+crude_birth_rate,34,2021,34,34,complete,
+crude_birth_rate,34,2022,34,34,complete,
+crude_birth_rate,34,2023,34,34,complete,
+crude_birth_rate,34,2024,34,34,complete,
+crude_birth_rate,34,2025,34,34,complete,
+crude_birth_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+crude_birth_rate,63,2019,63,63,complete,
+crude_birth_rate,63,2020,63,63,complete,
+crude_birth_rate,63,2021,63,63,complete,
+crude_birth_rate,63,2022,63,63,complete,
+crude_birth_rate,63,2023,63,63,complete,
+crude_birth_rate,63,2024,63,63,complete,
+crude_birth_rate,63,2025,63,63,complete,
+crude_birth_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+crude_death_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+crude_death_rate,34,2020,34,34,complete,
+crude_death_rate,34,2021,34,34,complete,
+crude_death_rate,34,2022,34,34,complete,
+crude_death_rate,34,2023,34,34,complete,
+crude_death_rate,34,2024,34,34,complete,
+crude_death_rate,34,2025,34,34,complete,
+crude_death_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+crude_death_rate,63,2019,63,63,complete,
+crude_death_rate,63,2020,63,63,complete,
+crude_death_rate,63,2021,63,63,complete,
+crude_death_rate,63,2022,63,63,complete,
+crude_death_rate,63,2023,63,63,complete,
+crude_death_rate,63,2024,63,63,complete,
+crude_death_rate,63,2025,63,63,complete,
+crude_death_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+divorces,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+divorces,34,2020,0,34,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,34,2021,0,34,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,34,2022,0,34,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,34,2023,0,34,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,34,2024,34,34,complete,
+divorces,34,2025,34,34,complete,
+divorces,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+divorces,63,2019,0,63,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,63,2020,0,63,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,63,2021,0,63,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,63,2022,0,63,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,63,2023,0,63,gap,"PX-Web V02.31 counts about 26-32 thousand divorces a year nationally for 2019-2023 and 182 thousand for 2024 (as the 2025 yearbook): a scope change, so the earlier years are not combined; the yearbooks have no other by-province divorce table."
+divorces,63,2024,63,63,complete,
+divorces,63,2025,0,63,gap,2025 divorces are published for the 34 provinces only.
+divorces,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+electricity_households,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+electricity_households,34,2020,34,34,complete,
+electricity_households,34,2021,0,34,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,34,2022,34,34,complete,
+electricity_households,34,2023,0,34,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,34,2024,34,34,complete,
+electricity_households,34,2025,0,34,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+electricity_households,63,2019,0,63,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,63,2020,63,63,complete,
+electricity_households,63,2021,0,63,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,63,2022,63,63,complete,
+electricity_households,63,2023,0,63,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,63,2024,63,63,complete,
+electricity_households,63,2025,0,63,gap,"From the Household Living Standards Survey module asked every two years (2016-2024, even years)."
+electricity_households,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+employed_workers,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+employed_workers,34,2020,34,34,complete,
+employed_workers,34,2021,34,34,complete,
+employed_workers,34,2022,34,34,complete,
+employed_workers,34,2023,34,34,complete,
+employed_workers,34,2024,34,34,complete,
+employed_workers,34,2025,34,34,complete,
+employed_workers,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+employed_workers,63,2019,63,63,complete,
+employed_workers,63,2020,63,63,complete,
+employed_workers,63,2021,63,63,complete,
+employed_workers,63,2022,63,63,complete,
+employed_workers,63,2023,63,63,complete,
+employed_workers,63,2024,63,63,complete,
+employed_workers,63,2025,63,63,complete,
+employed_workers,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_employees,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprise_employees,34,2020,34,34,complete,
+enterprise_employees,34,2021,34,34,complete,
+enterprise_employees,34,2022,34,34,complete,
+enterprise_employees,34,2023,34,34,complete,
+enterprise_employees,34,2024,34,34,complete,
+enterprise_employees,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+enterprise_employees,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_employees,63,2019,63,63,complete,
+enterprise_employees,63,2020,63,63,complete,
+enterprise_employees,63,2021,63,63,complete,
+enterprise_employees,63,2022,63,63,complete,
+enterprise_employees,63,2023,63,63,complete,
+enterprise_employees,63,2024,63,63,complete,
+enterprise_employees,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprise_employees,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_monthly_wage,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprise_monthly_wage,34,2020,34,34,complete,
+enterprise_monthly_wage,34,2021,34,34,complete,
+enterprise_monthly_wage,34,2022,34,34,complete,
+enterprise_monthly_wage,34,2023,34,34,complete,
+enterprise_monthly_wage,34,2024,34,34,complete,
+enterprise_monthly_wage,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+enterprise_monthly_wage,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_monthly_wage,63,2019,63,63,complete,
+enterprise_monthly_wage,63,2020,63,63,complete,
+enterprise_monthly_wage,63,2021,63,63,complete,
+enterprise_monthly_wage,63,2022,63,63,complete,
+enterprise_monthly_wage,63,2023,63,63,complete,
+enterprise_monthly_wage,63,2024,63,63,complete,
+enterprise_monthly_wage,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprise_monthly_wage,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_net_turnover,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprise_net_turnover,34,2020,34,34,complete,
+enterprise_net_turnover,34,2021,34,34,complete,
+enterprise_net_turnover,34,2022,34,34,complete,
+enterprise_net_turnover,34,2023,34,34,complete,
+enterprise_net_turnover,34,2024,34,34,complete,
+enterprise_net_turnover,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+enterprise_net_turnover,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_net_turnover,63,2019,63,63,complete,
+enterprise_net_turnover,63,2020,63,63,complete,
+enterprise_net_turnover,63,2021,63,63,complete,
+enterprise_net_turnover,63,2022,63,63,complete,
+enterprise_net_turnover,63,2023,63,63,complete,
+enterprise_net_turnover,63,2024,63,63,complete,
+enterprise_net_turnover,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprise_net_turnover,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_profit,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprise_profit,34,2020,34,34,complete,
+enterprise_profit,34,2021,34,34,complete,
+enterprise_profit,34,2022,34,34,complete,
+enterprise_profit,34,2023,34,34,complete,
+enterprise_profit,34,2024,34,34,complete,
+enterprise_profit,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+enterprise_profit,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprise_profit,63,2019,63,63,complete,
+enterprise_profit,63,2020,63,63,complete,
+enterprise_profit,63,2021,63,63,complete,
+enterprise_profit,63,2022,63,63,complete,
+enterprise_profit,63,2023,63,63,complete,
+enterprise_profit,63,2024,63,63,complete,
+enterprise_profit,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprise_profit,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprises_per_1000,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprises_per_1000,34,2020,34,34,complete,
+enterprises_per_1000,34,2021,34,34,complete,
+enterprises_per_1000,34,2022,34,34,complete,
+enterprises_per_1000,34,2023,34,34,complete,
+enterprises_per_1000,34,2024,34,34,complete,
+enterprises_per_1000,34,2025,34,34,complete,
+enterprises_per_1000,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprises_per_1000,63,2019,0,63,gap,"PX-Web V05.05 is inconsistent for 2017-2020 (Bắc Ninh and Quảng Ninh differ from V05.04 enterprises / V02.03 population), so those years are not used."
+enterprises_per_1000,63,2020,0,63,gap,"PX-Web V05.05 is inconsistent for 2017-2020 (Bắc Ninh and Quảng Ninh differ from V05.04 enterprises / V02.03 population), so those years are not used."
+enterprises_per_1000,63,2021,63,63,complete,
+enterprises_per_1000,63,2022,63,63,complete,
+enterprises_per_1000,63,2023,63,63,complete,
+enterprises_per_1000,63,2024,63,63,complete,
+enterprises_per_1000,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprises_per_1000,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprises_with_results,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+enterprises_with_results,34,2020,34,34,complete,
+enterprises_with_results,34,2021,34,34,complete,
+enterprises_with_results,34,2022,34,34,complete,
+enterprises_with_results,34,2023,34,34,complete,
+enterprises_with_results,34,2024,34,34,complete,
+enterprises_with_results,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+enterprises_with_results,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+enterprises_with_results,63,2019,63,63,complete,
+enterprises_with_results,63,2020,63,63,complete,
+enterprises_with_results,63,2021,63,63,complete,
+enterprises_with_results,63,2022,63,63,complete,
+enterprises_with_results,63,2023,63,63,complete,
+enterprises_with_results,63,2024,63,63,complete,
+enterprises_with_results,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+enterprises_with_results,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+farms,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+farms,34,2020,33,34,gap,One province has no farm row (no farms).
+farms,34,2021,33,34,gap,One province has no farm row (no farms).
+farms,34,2022,33,34,gap,One province has no farm row (no farms).
+farms,34,2023,33,34,gap,One province has no farm row (no farms).
+farms,34,2024,33,34,gap,One province has no farm row (no farms).
+farms,34,2025,33,34,gap,One province has no farm row (no farms).
+farms,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+farms,63,2019,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2020,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2021,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2022,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2023,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2024,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2025,61,63,gap,Two former provinces have no farm row (no farms).
+farms,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fdi_projects,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+fdi_projects,34,2020,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_projects,34,2021,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_projects,34,2022,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_projects,34,2023,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_projects,34,2024,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_projects,34,2025,28,34,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fdi_projects,63,2019,54,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2020,52,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2021,51,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2022,45,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2023,52,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2024,46,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_projects,63,2025,0,63,gap,Since 2025 NSO publishes HDI and FDI only for the 34 provinces; literacy has no 2025 by-province table.
+fdi_projects,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fdi_registered_capital,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+fdi_registered_capital,34,2020,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_registered_capital,34,2021,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_registered_capital,34,2022,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_registered_capital,34,2023,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_registered_capital,34,2024,0,34,gap,The appendix FDI table is for 2025 only.
+fdi_registered_capital,34,2025,31,34,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fdi_registered_capital,63,2019,62,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2020,59,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2021,59,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2022,54,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2023,56,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2024,56,63,gap,Provinces with no project licensed that year have no row (none licensed); a blank project count with capital means supplementary capital only.
+fdi_registered_capital,63,2025,0,63,gap,Since 2025 NSO publishes HDI and FDI only for the 34 provinces; literacy has no 2025 by-province table.
+fdi_registered_capital,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fishery_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+fishery_production,34,2020,34,34,complete,
+fishery_production,34,2021,34,34,complete,
+fishery_production,34,2022,34,34,complete,
+fishery_production,34,2023,34,34,complete,
+fishery_production,34,2024,34,34,complete,
+fishery_production,34,2025,34,34,complete,
+fishery_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+fishery_production,63,2019,63,63,complete,
+fishery_production,63,2020,63,63,complete,
+fishery_production,63,2021,63,63,complete,
+fishery_production,63,2022,63,63,complete,
+fishery_production,63,2023,63,63,complete,
+fishery_production,63,2024,63,63,complete,
+fishery_production,63,2025,63,63,complete,
+fishery_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+freight_carried,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+freight_carried,34,2020,34,34,complete,
+freight_carried,34,2021,34,34,complete,
+freight_carried,34,2022,34,34,complete,
+freight_carried,34,2023,34,34,complete,
+freight_carried,34,2024,34,34,complete,
+freight_carried,34,2025,34,34,complete,
+freight_carried,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+freight_carried,63,2019,63,63,complete,
+freight_carried,63,2020,63,63,complete,
+freight_carried,63,2021,63,63,complete,
+freight_carried,63,2022,63,63,complete,
+freight_carried,63,2023,63,63,complete,
+freight_carried,63,2024,63,63,complete,
+freight_carried,63,2025,63,63,complete,
+freight_carried,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+gini,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+gini,34,2020,34,34,complete,
+gini,34,2021,34,34,complete,
+gini,34,2022,34,34,complete,
+gini,34,2023,34,34,complete,
+gini,34,2024,34,34,complete,
+gini,34,2025,34,34,complete,
+gini,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+gini,63,2019,63,63,complete,
+gini,63,2020,63,63,complete,
+gini,63,2021,63,63,complete,
+gini,63,2022,63,63,complete,
+gini,63,2023,63,63,complete,
+gini,63,2024,63,63,complete,
+gini,63,2025,63,63,complete,
+gini,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+grdp_growth,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+grdp_growth,34,2020,34,34,complete,
+grdp_growth,34,2021,34,34,complete,
+grdp_growth,34,2022,34,34,complete,
+grdp_growth,34,2023,34,34,complete,
+grdp_growth,34,2024,34,34,complete,
+grdp_growth,34,2025,34,34,complete,
+grdp_growth,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+grdp_growth,63,2019,63,63,complete,
+grdp_growth,63,2020,63,63,complete,
+grdp_growth,63,2021,63,63,complete,
+grdp_growth,63,2022,63,63,complete,
+grdp_growth,63,2023,63,63,complete,
+grdp_growth,63,2024,63,63,complete,
+grdp_growth,63,2025,63,63,complete,
+grdp_growth,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+grdp_per_capita,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+grdp_per_capita,34,2020,34,34,complete,
+grdp_per_capita,34,2021,34,34,complete,
+grdp_per_capita,34,2022,34,34,complete,
+grdp_per_capita,34,2023,34,34,complete,
+grdp_per_capita,34,2024,34,34,complete,
+grdp_per_capita,34,2025,34,34,complete,
+grdp_per_capita,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+grdp_per_capita,63,2019,63,63,complete,
+grdp_per_capita,63,2020,63,63,complete,
+grdp_per_capita,63,2021,63,63,complete,
+grdp_per_capita,63,2022,63,63,complete,
+grdp_per_capita,63,2023,63,63,complete,
+grdp_per_capita,63,2024,63,63,complete,
+grdp_per_capita,63,2025,63,63,complete,
+grdp_per_capita,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hdi,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+hdi,34,2020,34,34,complete,
+hdi,34,2021,34,34,complete,
+hdi,34,2022,34,34,complete,
+hdi,34,2023,34,34,complete,
+hdi,34,2024,34,34,complete,
+hdi,34,2025,34,34,complete,
+hdi,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hdi,63,2019,63,63,complete,
+hdi,63,2020,63,63,complete,
+hdi,63,2021,63,63,complete,
+hdi,63,2022,63,63,complete,
+hdi,63,2023,63,63,complete,
+hdi,63,2024,63,63,complete,
+hdi,63,2025,0,63,gap,Since 2025 NSO publishes HDI and FDI only for the 34 provinces; literacy has no 2025 by-province table.
+hdi,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+health_insurance_coverage,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+health_insurance_coverage,34,2020,34,34,complete,
+health_insurance_coverage,34,2021,34,34,complete,
+health_insurance_coverage,34,2022,34,34,complete,
+health_insurance_coverage,34,2023,34,34,complete,
+health_insurance_coverage,34,2024,34,34,complete,
+health_insurance_coverage,34,2025,34,34,complete,
+health_insurance_coverage,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+health_insurance_coverage,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+health_insurance_coverage,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+household_business_workers,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+household_business_workers,34,2020,34,34,complete,
+household_business_workers,34,2021,34,34,complete,
+household_business_workers,34,2022,34,34,complete,
+household_business_workers,34,2023,34,34,complete,
+household_business_workers,34,2024,34,34,complete,
+household_business_workers,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+household_business_workers,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+household_business_workers,63,2019,63,63,complete,
+household_business_workers,63,2020,63,63,complete,
+household_business_workers,63,2021,63,63,complete,
+household_business_workers,63,2022,63,63,complete,
+household_business_workers,63,2023,63,63,complete,
+household_business_workers,63,2024,63,63,complete,
+household_business_workers,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+household_business_workers,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+household_businesses,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+household_businesses,34,2020,34,34,complete,
+household_businesses,34,2021,34,34,complete,
+household_businesses,34,2022,34,34,complete,
+household_businesses,34,2023,34,34,complete,
+household_businesses,34,2024,34,34,complete,
+household_businesses,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+household_businesses,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+household_businesses,63,2019,63,63,complete,
+household_businesses,63,2020,63,63,complete,
+household_businesses,63,2021,63,63,complete,
+household_businesses,63,2022,63,63,complete,
+household_businesses,63,2023,63,63,complete,
+household_businesses,63,2024,63,63,complete,
+household_businesses,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+household_businesses,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+housing_floor_area_built,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+housing_floor_area_built,34,2020,34,34,complete,
+housing_floor_area_built,34,2021,34,34,complete,
+housing_floor_area_built,34,2022,34,34,complete,
+housing_floor_area_built,34,2023,34,34,complete,
+housing_floor_area_built,34,2024,34,34,complete,
+housing_floor_area_built,34,2025,0,34,gap,The appendix tables for these stop at 2024.
+housing_floor_area_built,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+housing_floor_area_built,63,2019,63,63,complete,
+housing_floor_area_built,63,2020,63,63,complete,
+housing_floor_area_built,63,2021,63,63,complete,
+housing_floor_area_built,63,2022,63,63,complete,
+housing_floor_area_built,63,2023,63,63,complete,
+housing_floor_area_built,63,2024,63,63,complete,
+housing_floor_area_built,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+housing_floor_area_built,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hygienic_latrine_share,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+hygienic_latrine_share,34,2020,34,34,complete,
+hygienic_latrine_share,34,2021,34,34,complete,
+hygienic_latrine_share,34,2022,34,34,complete,
+hygienic_latrine_share,34,2023,34,34,complete,
+hygienic_latrine_share,34,2024,34,34,complete,
+hygienic_latrine_share,34,2025,34,34,complete,
+hygienic_latrine_share,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hygienic_latrine_share,63,2019,63,63,complete,
+hygienic_latrine_share,63,2020,63,63,complete,
+hygienic_latrine_share,63,2021,63,63,complete,
+hygienic_latrine_share,63,2022,63,63,complete,
+hygienic_latrine_share,63,2023,63,63,complete,
+hygienic_latrine_share,63,2024,63,63,complete,
+hygienic_latrine_share,63,2025,63,63,complete,
+hygienic_latrine_share,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hygienic_water_share,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+hygienic_water_share,34,2020,34,34,complete,
+hygienic_water_share,34,2021,34,34,complete,
+hygienic_water_share,34,2022,34,34,complete,
+hygienic_water_share,34,2023,34,34,complete,
+hygienic_water_share,34,2024,34,34,complete,
+hygienic_water_share,34,2025,34,34,complete,
+hygienic_water_share,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+hygienic_water_share,63,2019,63,63,complete,
+hygienic_water_share,63,2020,63,63,complete,
+hygienic_water_share,63,2021,63,63,complete,
+hygienic_water_share,63,2022,63,63,complete,
+hygienic_water_share,63,2023,63,63,complete,
+hygienic_water_share,63,2024,63,63,complete,
+hygienic_water_share,63,2025,63,63,complete,
+hygienic_water_share,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+in_migration_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+in_migration_rate,34,2020,34,34,complete,
+in_migration_rate,34,2021,34,34,complete,
+in_migration_rate,34,2022,34,34,complete,
+in_migration_rate,34,2023,34,34,complete,
+in_migration_rate,34,2024,34,34,complete,
+in_migration_rate,34,2025,34,34,complete,
+in_migration_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+in_migration_rate,63,2019,63,63,complete,
+in_migration_rate,63,2020,63,63,complete,
+in_migration_rate,63,2021,63,63,complete,
+in_migration_rate,63,2022,63,63,complete,
+in_migration_rate,63,2023,63,63,complete,
+in_migration_rate,63,2024,63,63,complete,
+in_migration_rate,63,2025,63,63,complete,
+in_migration_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_per_capita_monthly,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+income_per_capita_monthly,34,2020,0,34,gap,The appendix income table is for 2025 only.
+income_per_capita_monthly,34,2021,0,34,gap,The appendix income table is for 2025 only.
+income_per_capita_monthly,34,2022,0,34,gap,The appendix income table is for 2025 only.
+income_per_capita_monthly,34,2023,0,34,gap,The appendix income table is for 2025 only.
+income_per_capita_monthly,34,2024,0,34,gap,The appendix income table is for 2025 only.
+income_per_capita_monthly,34,2025,34,34,complete,
+income_per_capita_monthly,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_per_capita_monthly,63,2019,63,63,complete,
+income_per_capita_monthly,63,2020,63,63,complete,
+income_per_capita_monthly,63,2021,63,63,complete,
+income_per_capita_monthly,63,2022,63,63,complete,
+income_per_capita_monthly,63,2023,63,63,complete,
+income_per_capita_monthly,63,2024,63,63,complete,
+income_per_capita_monthly,63,2025,63,63,complete,
+income_per_capita_monthly,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_per_employee_monthly,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+income_per_employee_monthly,34,2020,34,34,complete,
+income_per_employee_monthly,34,2021,34,34,complete,
+income_per_employee_monthly,34,2022,34,34,complete,
+income_per_employee_monthly,34,2023,34,34,complete,
+income_per_employee_monthly,34,2024,34,34,complete,
+income_per_employee_monthly,34,2025,34,34,complete,
+income_per_employee_monthly,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_per_employee_monthly,63,2019,63,63,complete,
+income_per_employee_monthly,63,2020,63,63,complete,
+income_per_employee_monthly,63,2021,63,63,complete,
+income_per_employee_monthly,63,2022,63,63,complete,
+income_per_employee_monthly,63,2023,63,63,complete,
+income_per_employee_monthly,63,2024,63,63,complete,
+income_per_employee_monthly,63,2025,63,63,complete,
+income_per_employee_monthly,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_quintile_ratio,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+income_quintile_ratio,34,2020,0,34,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,34,2021,0,34,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,34,2022,0,34,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,34,2023,0,34,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,34,2024,0,34,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,34,2025,34,34,complete,
+income_quintile_ratio,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+income_quintile_ratio,63,2019,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2020,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2021,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2022,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2023,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2024,0,63,gap,"The top/bottom quintile ratio by province is printed only in the 2025 yearbook (2025); older editions print quintile incomes, not the ratio."
+income_quintile_ratio,63,2025,63,63,complete,
+income_quintile_ratio,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+industrial_production_index,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+industrial_production_index,34,2020,0,34,gap,The appendix index of industrial production is for 2025 only.
+industrial_production_index,34,2021,0,34,gap,The appendix index of industrial production is for 2025 only.
+industrial_production_index,34,2022,0,34,gap,The appendix index of industrial production is for 2025 only.
+industrial_production_index,34,2023,0,34,gap,The appendix index of industrial production is for 2025 only.
+industrial_production_index,34,2024,0,34,gap,The appendix index of industrial production is for 2025 only.
+industrial_production_index,34,2025,34,34,complete,
+industrial_production_index,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+industrial_production_index,63,2019,63,63,complete,
+industrial_production_index,63,2020,63,63,complete,
+industrial_production_index,63,2021,63,63,complete,
+industrial_production_index,63,2022,63,63,complete,
+industrial_production_index,63,2023,63,63,complete,
+industrial_production_index,63,2024,63,63,complete,
+industrial_production_index,63,2025,63,63,complete,
+industrial_production_index,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+infant_mortality,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+infant_mortality,34,2020,34,34,complete,
+infant_mortality,34,2021,34,34,complete,
+infant_mortality,34,2022,34,34,complete,
+infant_mortality,34,2023,34,34,complete,
+infant_mortality,34,2024,34,34,complete,
+infant_mortality,34,2025,34,34,complete,
+infant_mortality,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+infant_mortality,63,2019,63,63,complete,
+infant_mortality,63,2020,63,63,complete,
+infant_mortality,63,2021,63,63,complete,
+infant_mortality,63,2022,63,63,complete,
+infant_mortality,63,2023,63,63,complete,
+infant_mortality,63,2024,63,63,complete,
+infant_mortality,63,2025,63,63,complete,
+infant_mortality,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+informal_employment_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+informal_employment_rate,34,2020,34,34,complete,
+informal_employment_rate,34,2021,34,34,complete,
+informal_employment_rate,34,2022,34,34,complete,
+informal_employment_rate,34,2023,34,34,complete,
+informal_employment_rate,34,2024,34,34,complete,
+informal_employment_rate,34,2025,34,34,complete,
+informal_employment_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+informal_employment_rate,63,2019,63,63,complete,
+informal_employment_rate,63,2020,63,63,complete,
+informal_employment_rate,63,2021,63,63,complete,
+informal_employment_rate,63,2022,63,63,complete,
+informal_employment_rate,63,2023,63,63,complete,
+informal_employment_rate,63,2024,63,63,complete,
+informal_employment_rate,63,2025,63,63,complete,
+informal_employment_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+internet_households,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+internet_households,34,2020,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,34,2021,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,34,2022,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,34,2023,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,34,2024,34,34,complete,
+internet_households,34,2025,34,34,complete,
+internet_households,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+internet_households,63,2019,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,63,2020,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,63,2021,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,63,2022,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,63,2023,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_households,63,2024,63,63,complete,
+internet_households,63,2025,63,63,complete,
+internet_households,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+internet_users,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+internet_users,34,2020,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,34,2021,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,34,2022,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,34,2023,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,34,2024,34,34,complete,
+internet_users,34,2025,34,34,complete,
+internet_users,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+internet_users,63,2019,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,63,2020,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,63,2021,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,63,2022,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,63,2023,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+internet_users,63,2024,63,63,complete,
+internet_users,63,2025,63,63,complete,
+internet_users,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+it_skills_share,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+it_skills_share,34,2020,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,34,2021,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,34,2022,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,34,2023,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,34,2024,34,34,complete,
+it_skills_share,34,2025,34,34,complete,
+it_skills_share,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+it_skills_share,63,2019,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,63,2020,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,63,2021,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,63,2022,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,63,2023,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+it_skills_share,63,2024,63,63,complete,
+it_skills_share,63,2025,63,63,complete,
+it_skills_share,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+labour_force,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+labour_force,34,2020,34,34,complete,
+labour_force,34,2021,34,34,complete,
+labour_force,34,2022,34,34,complete,
+labour_force,34,2023,34,34,complete,
+labour_force,34,2024,34,34,complete,
+labour_force,34,2025,34,34,complete,
+labour_force,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+labour_force,63,2019,63,63,complete,
+labour_force,63,2020,63,63,complete,
+labour_force,63,2021,63,63,complete,
+labour_force,63,2022,63,63,complete,
+labour_force,63,2023,63,63,complete,
+labour_force,63,2024,63,63,complete,
+labour_force,63,2025,63,63,complete,
+labour_force,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+labour_productivity,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+labour_productivity,34,2020,34,34,complete,
+labour_productivity,34,2021,34,34,complete,
+labour_productivity,34,2022,34,34,complete,
+labour_productivity,34,2023,34,34,complete,
+labour_productivity,34,2024,34,34,complete,
+labour_productivity,34,2025,34,34,complete,
+labour_productivity,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+labour_productivity,63,2019,63,63,complete,
+labour_productivity,63,2020,63,63,complete,
+labour_productivity,63,2021,63,63,complete,
+labour_productivity,63,2022,63,63,complete,
+labour_productivity,63,2023,63,63,complete,
+labour_productivity,63,2024,63,63,complete,
+labour_productivity,63,2025,63,63,complete,
+labour_productivity,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+life_expectancy,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+life_expectancy,34,2020,34,34,complete,
+life_expectancy,34,2021,34,34,complete,
+life_expectancy,34,2022,34,34,complete,
+life_expectancy,34,2023,34,34,complete,
+life_expectancy,34,2024,34,34,complete,
+life_expectancy,34,2025,34,34,complete,
+life_expectancy,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+life_expectancy,63,2019,63,63,complete,
+life_expectancy,63,2020,63,63,complete,
+life_expectancy,63,2021,63,63,complete,
+life_expectancy,63,2022,63,63,complete,
+life_expectancy,63,2023,63,63,complete,
+life_expectancy,63,2024,63,63,complete,
+life_expectancy,63,2025,63,63,complete,
+life_expectancy,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+literacy_rate_15plus,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+literacy_rate_15plus,34,2020,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2021,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2022,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2023,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2024,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2025,0,34,gap,No literacy table for the 34 provinces.
+literacy_rate_15plus,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+literacy_rate_15plus,63,2019,63,63,complete,
+literacy_rate_15plus,63,2020,63,63,complete,
+literacy_rate_15plus,63,2021,63,63,complete,
+literacy_rate_15plus,63,2022,63,63,complete,
+literacy_rate_15plus,63,2023,63,63,complete,
+literacy_rate_15plus,63,2024,63,63,complete,
+literacy_rate_15plus,63,2025,0,63,gap,Since 2025 NSO publishes HDI and FDI only for the 34 provinces; literacy has no 2025 by-province table.
+literacy_rate_15plus,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+maize_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+maize_production,34,2020,34,34,complete,
+maize_production,34,2021,34,34,complete,
+maize_production,34,2022,34,34,complete,
+maize_production,34,2023,34,34,complete,
+maize_production,34,2024,34,34,complete,
+maize_production,34,2025,34,34,complete,
+maize_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+maize_production,63,2019,63,63,complete,
+maize_production,63,2020,63,63,complete,
+maize_production,63,2021,63,63,complete,
+maize_production,63,2022,63,63,complete,
+maize_production,63,2023,63,63,complete,
+maize_production,63,2024,63,63,complete,
+maize_production,63,2025,63,63,complete,
+maize_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+markets,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+markets,34,2020,34,34,complete,
+markets,34,2021,34,34,complete,
+markets,34,2022,34,34,complete,
+markets,34,2023,34,34,complete,
+markets,34,2024,34,34,complete,
+markets,34,2025,34,34,complete,
+markets,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+markets,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+markets,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+mean_age_first_marriage,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+mean_age_first_marriage,34,2020,34,34,complete,
+mean_age_first_marriage,34,2021,34,34,complete,
+mean_age_first_marriage,34,2022,34,34,complete,
+mean_age_first_marriage,34,2023,34,34,complete,
+mean_age_first_marriage,34,2024,34,34,complete,
+mean_age_first_marriage,34,2025,34,34,complete,
+mean_age_first_marriage,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+mean_age_first_marriage,63,2019,63,63,complete,
+mean_age_first_marriage,63,2020,63,63,complete,
+mean_age_first_marriage,63,2021,63,63,complete,
+mean_age_first_marriage,63,2022,63,63,complete,
+mean_age_first_marriage,63,2023,63,63,complete,
+mean_age_first_marriage,63,2024,63,63,complete,
+mean_age_first_marriage,63,2025,63,63,complete,
+mean_age_first_marriage,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+mobile_phone_users,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+mobile_phone_users,34,2020,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,34,2021,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,34,2022,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,34,2023,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,34,2024,34,34,complete,
+mobile_phone_users,34,2025,34,34,complete,
+mobile_phone_users,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+mobile_phone_users,63,2019,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,63,2020,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,63,2021,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,63,2022,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,63,2023,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+mobile_phone_users,63,2024,63,63,complete,
+mobile_phone_users,63,2025,63,63,complete,
+mobile_phone_users,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+net_migration_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+net_migration_rate,34,2020,34,34,complete,
+net_migration_rate,34,2021,34,34,complete,
+net_migration_rate,34,2022,34,34,complete,
+net_migration_rate,34,2023,34,34,complete,
+net_migration_rate,34,2024,34,34,complete,
+net_migration_rate,34,2025,34,34,complete,
+net_migration_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+net_migration_rate,63,2019,63,63,complete,
+net_migration_rate,63,2020,63,63,complete,
+net_migration_rate,63,2021,63,63,complete,
+net_migration_rate,63,2022,63,63,complete,
+net_migration_rate,63,2023,63,63,complete,
+net_migration_rate,63,2024,63,63,complete,
+net_migration_rate,63,2025,63,63,complete,
+net_migration_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+new_enterprises,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+new_enterprises,34,2020,34,34,complete,
+new_enterprises,34,2021,34,34,complete,
+new_enterprises,34,2022,34,34,complete,
+new_enterprises,34,2023,34,34,complete,
+new_enterprises,34,2024,34,34,complete,
+new_enterprises,34,2025,34,34,complete,
+new_enterprises,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+new_enterprises,63,2019,63,63,complete,
+new_enterprises,63,2020,63,63,complete,
+new_enterprises,63,2021,63,63,complete,
+new_enterprises,63,2022,63,63,complete,
+new_enterprises,63,2023,63,63,complete,
+new_enterprises,63,2024,63,63,complete,
+new_enterprises,63,2025,0,63,gap,"The 2025 yearbook's 63-province enterprise, cooperative, household-business and housing tables stop at 2024 (31/12/2024), and PX-Web too; 2025 is published for the 34 provinces only."
+new_enterprises,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+orange_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+orange_production,34,2020,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2021,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2022,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2023,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2024,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2025,9,34,gap,The appendix lists the main producing provinces only.
+orange_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+orange_production,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+orange_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+out_migration_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+out_migration_rate,34,2020,34,34,complete,
+out_migration_rate,34,2021,34,34,complete,
+out_migration_rate,34,2022,34,34,complete,
+out_migration_rate,34,2023,34,34,complete,
+out_migration_rate,34,2024,34,34,complete,
+out_migration_rate,34,2025,34,34,complete,
+out_migration_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+out_migration_rate,63,2019,63,63,complete,
+out_migration_rate,63,2020,63,63,complete,
+out_migration_rate,63,2021,63,63,complete,
+out_migration_rate,63,2022,63,63,complete,
+out_migration_rate,63,2023,63,63,complete,
+out_migration_rate,63,2024,63,63,complete,
+out_migration_rate,63,2025,63,63,complete,
+out_migration_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+paddy_area,34,2019,34,34,complete,
+paddy_area,34,2020,34,34,complete,
+paddy_area,34,2021,34,34,complete,
+paddy_area,34,2022,34,34,complete,
+paddy_area,34,2023,34,34,complete,
+paddy_area,34,2024,34,34,complete,
+paddy_area,34,2025,34,34,complete,
+paddy_area,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+paddy_area,63,2019,63,63,complete,
+paddy_area,63,2020,63,63,complete,
+paddy_area,63,2021,63,63,complete,
+paddy_area,63,2022,63,63,complete,
+paddy_area,63,2023,63,63,complete,
+paddy_area,63,2024,63,63,complete,
+paddy_area,63,2025,63,63,complete,
+paddy_area,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+paddy_production,34,2019,34,34,complete,
+paddy_production,34,2020,34,34,complete,
+paddy_production,34,2021,34,34,complete,
+paddy_production,34,2022,34,34,complete,
+paddy_production,34,2023,34,34,complete,
+paddy_production,34,2024,34,34,complete,
+paddy_production,34,2025,34,34,complete,
+paddy_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+paddy_production,63,2019,63,63,complete,
+paddy_production,63,2020,63,63,complete,
+paddy_production,63,2021,63,63,complete,
+paddy_production,63,2022,63,63,complete,
+paddy_production,63,2023,63,63,complete,
+paddy_production,63,2024,63,63,complete,
+paddy_production,63,2025,63,63,complete,
+paddy_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+passengers_carried,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+passengers_carried,34,2020,34,34,complete,
+passengers_carried,34,2021,34,34,complete,
+passengers_carried,34,2022,34,34,complete,
+passengers_carried,34,2023,34,34,complete,
+passengers_carried,34,2024,34,34,complete,
+passengers_carried,34,2025,34,34,complete,
+passengers_carried,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+passengers_carried,63,2019,63,63,complete,
+passengers_carried,63,2020,63,63,complete,
+passengers_carried,63,2021,63,63,complete,
+passengers_carried,63,2022,63,63,complete,
+passengers_carried,63,2023,63,63,complete,
+passengers_carried,63,2024,63,63,complete,
+passengers_carried,63,2025,63,63,complete,
+passengers_carried,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+pigs,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+pigs,34,2020,34,34,complete,
+pigs,34,2021,34,34,complete,
+pigs,34,2022,34,34,complete,
+pigs,34,2023,34,34,complete,
+pigs,34,2024,34,34,complete,
+pigs,34,2025,34,34,complete,
+pigs,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+pigs,63,2019,63,63,complete,
+pigs,63,2020,63,63,complete,
+pigs,63,2021,63,63,complete,
+pigs,63,2022,63,63,complete,
+pigs,63,2023,63,63,complete,
+pigs,63,2024,63,63,complete,
+pigs,63,2025,63,63,complete,
+pigs,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+population,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+population,34,2020,34,34,complete,
+population,34,2021,34,34,complete,
+population,34,2022,34,34,complete,
+population,34,2023,34,34,complete,
+population,34,2024,34,34,complete,
+population,34,2025,34,34,complete,
+population,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+population,63,2019,63,63,complete,
+population,63,2020,63,63,complete,
+population,63,2021,63,63,complete,
+population,63,2022,63,63,complete,
+population,63,2023,63,63,complete,
+population,63,2024,63,63,complete,
+population,63,2025,63,63,complete,
+population,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+population_growth_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+population_growth_rate,34,2020,34,34,complete,
+population_growth_rate,34,2021,34,34,complete,
+population_growth_rate,34,2022,34,34,complete,
+population_growth_rate,34,2023,34,34,complete,
+population_growth_rate,34,2024,34,34,complete,
+population_growth_rate,34,2025,34,34,complete,
+population_growth_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+population_growth_rate,63,2019,63,63,complete,
+population_growth_rate,63,2020,63,63,complete,
+population_growth_rate,63,2021,63,63,complete,
+population_growth_rate,63,2022,63,63,complete,
+population_growth_rate,63,2023,63,63,complete,
+population_growth_rate,63,2024,63,63,complete,
+population_growth_rate,63,2025,63,63,complete,
+population_growth_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+pork_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+pork_production,34,2020,34,34,complete,
+pork_production,34,2021,34,34,complete,
+pork_production,34,2022,34,34,complete,
+pork_production,34,2023,34,34,complete,
+pork_production,34,2024,34,34,complete,
+pork_production,34,2025,34,34,complete,
+pork_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+pork_production,63,2019,63,63,complete,
+pork_production,63,2020,63,63,complete,
+pork_production,63,2021,63,63,complete,
+pork_production,63,2022,63,63,complete,
+pork_production,63,2023,63,63,complete,
+pork_production,63,2024,63,63,complete,
+pork_production,63,2025,63,63,complete,
+pork_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+poultry,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+poultry,34,2020,34,34,complete,
+poultry,34,2021,34,34,complete,
+poultry,34,2022,34,34,complete,
+poultry,34,2023,34,34,complete,
+poultry,34,2024,34,34,complete,
+poultry,34,2025,34,34,complete,
+poultry,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+poultry,63,2019,63,63,complete,
+poultry,63,2020,63,63,complete,
+poultry,63,2021,63,63,complete,
+poultry,63,2022,63,63,complete,
+poultry,63,2023,63,63,complete,
+poultry,63,2024,63,63,complete,
+poultry,63,2025,63,63,complete,
+poultry,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+poverty_rate_multidimensional,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+poverty_rate_multidimensional,34,2020,34,34,complete,
+poverty_rate_multidimensional,34,2021,34,34,complete,
+poverty_rate_multidimensional,34,2022,34,34,complete,
+poverty_rate_multidimensional,34,2023,34,34,complete,
+poverty_rate_multidimensional,34,2024,34,34,complete,
+poverty_rate_multidimensional,34,2025,34,34,complete,
+poverty_rate_multidimensional,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+poverty_rate_multidimensional,63,2019,63,63,complete,
+poverty_rate_multidimensional,63,2020,63,63,complete,
+poverty_rate_multidimensional,63,2021,63,63,complete,
+poverty_rate_multidimensional,63,2022,63,63,complete,
+poverty_rate_multidimensional,63,2023,63,63,complete,
+poverty_rate_multidimensional,63,2024,63,63,complete,
+poverty_rate_multidimensional,63,2025,63,63,complete,
+poverty_rate_multidimensional,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+retail_sales,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+retail_sales,34,2020,34,34,complete,
+retail_sales,34,2021,34,34,complete,
+retail_sales,34,2022,34,34,complete,
+retail_sales,34,2023,34,34,complete,
+retail_sales,34,2024,34,34,complete,
+retail_sales,34,2025,34,34,complete,
+retail_sales,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+retail_sales,63,2019,63,63,complete,
+retail_sales,63,2020,63,63,complete,
+retail_sales,63,2021,63,63,complete,
+retail_sales,63,2022,63,63,complete,
+retail_sales,63,2023,63,63,complete,
+retail_sales,63,2024,63,63,complete,
+retail_sales,63,2025,63,63,complete,
+retail_sales,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+sex_ratio,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+sex_ratio,34,2020,34,34,complete,
+sex_ratio,34,2021,34,34,complete,
+sex_ratio,34,2022,34,34,complete,
+sex_ratio,34,2023,34,34,complete,
+sex_ratio,34,2024,34,34,complete,
+sex_ratio,34,2025,34,34,complete,
+sex_ratio,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+sex_ratio,63,2019,63,63,complete,
+sex_ratio,63,2020,63,63,complete,
+sex_ratio,63,2021,63,63,complete,
+sex_ratio,63,2022,63,63,complete,
+sex_ratio,63,2023,63,63,complete,
+sex_ratio,63,2024,63,63,complete,
+sex_ratio,63,2025,63,63,complete,
+sex_ratio,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+shopping_centres,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+shopping_centres,34,2020,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2021,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2022,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2023,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2024,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2025,32,34,gap,Provinces without a shopping centre have no row.
+shopping_centres,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+shopping_centres,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shopping_centres,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+shrimp_aquaculture,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+shrimp_aquaculture,34,2020,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2021,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2022,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2023,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2024,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2025,28,34,gap,Provinces without shrimp farming have no row.
+shrimp_aquaculture,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+shrimp_aquaculture,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+shrimp_aquaculture,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+social_insurance_coverage,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+social_insurance_coverage,34,2020,34,34,complete,
+social_insurance_coverage,34,2021,34,34,complete,
+social_insurance_coverage,34,2022,34,34,complete,
+social_insurance_coverage,34,2023,34,34,complete,
+social_insurance_coverage,34,2024,34,34,complete,
+social_insurance_coverage,34,2025,34,34,complete,
+social_insurance_coverage,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+social_insurance_coverage,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+social_insurance_coverage,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+social_network_users,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+social_network_users,34,2020,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,34,2021,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,34,2022,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,34,2023,0,34,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,34,2024,34,34,complete,
+social_network_users,34,2025,34,34,complete,
+social_network_users,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+social_network_users,63,2019,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,63,2020,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,63,2021,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,63,2022,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,63,2023,0,63,gap,NSO's ICT-use indicators by province start in 2024.
+social_network_users,63,2024,63,63,complete,
+social_network_users,63,2025,63,63,complete,
+social_network_users,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+sugarcane_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+sugarcane_production,34,2020,34,34,complete,
+sugarcane_production,34,2021,34,34,complete,
+sugarcane_production,34,2022,34,34,complete,
+sugarcane_production,34,2023,34,34,complete,
+sugarcane_production,34,2024,34,34,complete,
+sugarcane_production,34,2025,34,34,complete,
+sugarcane_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+sugarcane_production,63,2019,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2020,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2021,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2022,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2023,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2024,61,63,gap,Two former provinces grow no sugarcane (no row).
+sugarcane_production,63,2025,59,63,gap,Also Bến Tre and Hưng Yên: their 2025 rows have blank cells that the text extraction cannot place (0.0-0.3 thousand t in 2022-2024).
+sugarcane_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+supermarkets,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+supermarkets,34,2020,34,34,complete,
+supermarkets,34,2021,34,34,complete,
+supermarkets,34,2022,34,34,complete,
+supermarkets,34,2023,34,34,complete,
+supermarkets,34,2024,34,34,complete,
+supermarkets,34,2025,34,34,complete,
+supermarkets,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+supermarkets,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+supermarkets,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+tea_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+tea_production,34,2020,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2021,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2022,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2023,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2024,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2025,9,34,gap,The appendix lists the main producing provinces only.
+tea_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+tea_production,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+tea_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+total_fertility_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+total_fertility_rate,34,2020,34,34,complete,
+total_fertility_rate,34,2021,34,34,complete,
+total_fertility_rate,34,2022,34,34,complete,
+total_fertility_rate,34,2023,34,34,complete,
+total_fertility_rate,34,2024,34,34,complete,
+total_fertility_rate,34,2025,34,34,complete,
+total_fertility_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+total_fertility_rate,63,2019,63,63,complete,
+total_fertility_rate,63,2020,63,63,complete,
+total_fertility_rate,63,2021,63,63,complete,
+total_fertility_rate,63,2022,63,63,complete,
+total_fertility_rate,63,2023,63,63,complete,
+total_fertility_rate,63,2024,63,63,complete,
+total_fertility_rate,63,2025,63,63,complete,
+total_fertility_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+tourism_travel_turnover,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+tourism_travel_turnover,34,2020,34,34,complete,
+tourism_travel_turnover,34,2021,34,34,complete,
+tourism_travel_turnover,34,2022,34,34,complete,
+tourism_travel_turnover,34,2023,34,34,complete,
+tourism_travel_turnover,34,2024,34,34,complete,
+tourism_travel_turnover,34,2025,34,34,complete,
+tourism_travel_turnover,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+tourism_travel_turnover,63,2019,61,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2020,62,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2021,62,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2022,61,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2023,61,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2024,61,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2025,60,63,gap,"Blank cells in the yearbook: Điện Biên 2019, Hòa Bình 2022-2025, Bắc Kạn 2025."
+tourism_travel_turnover,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+trained_labour_share,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+trained_labour_share,34,2020,34,34,complete,
+trained_labour_share,34,2021,34,34,complete,
+trained_labour_share,34,2022,34,34,complete,
+trained_labour_share,34,2023,34,34,complete,
+trained_labour_share,34,2024,34,34,complete,
+trained_labour_share,34,2025,34,34,complete,
+trained_labour_share,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+trained_labour_share,63,2019,63,63,complete,
+trained_labour_share,63,2020,63,63,complete,
+trained_labour_share,63,2021,63,63,complete,
+trained_labour_share,63,2022,63,63,complete,
+trained_labour_share,63,2023,63,63,complete,
+trained_labour_share,63,2024,63,63,complete,
+trained_labour_share,63,2025,63,63,complete,
+trained_labour_share,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+underemployment_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+underemployment_rate,34,2020,34,34,complete,
+underemployment_rate,34,2021,34,34,complete,
+underemployment_rate,34,2022,34,34,complete,
+underemployment_rate,34,2023,34,34,complete,
+underemployment_rate,34,2024,34,34,complete,
+underemployment_rate,34,2025,34,34,complete,
+underemployment_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+underemployment_rate,63,2019,63,63,complete,
+underemployment_rate,63,2020,63,63,complete,
+underemployment_rate,63,2021,63,63,complete,
+underemployment_rate,63,2022,63,63,complete,
+underemployment_rate,63,2023,63,63,complete,
+underemployment_rate,63,2024,63,63,complete,
+underemployment_rate,63,2025,63,63,complete,
+underemployment_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+unemployment_insurance_coverage,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+unemployment_insurance_coverage,34,2020,34,34,complete,
+unemployment_insurance_coverage,34,2021,34,34,complete,
+unemployment_insurance_coverage,34,2022,34,34,complete,
+unemployment_insurance_coverage,34,2023,34,34,complete,
+unemployment_insurance_coverage,34,2024,34,34,complete,
+unemployment_insurance_coverage,34,2025,34,34,complete,
+unemployment_insurance_coverage,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+unemployment_insurance_coverage,63,2019,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2020,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2021,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2022,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2023,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2024,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2025,0,63,gap,Published only for the 34 provinces (2025 yearbook appendix).
+unemployment_insurance_coverage,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+unemployment_rate,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+unemployment_rate,34,2020,34,34,complete,
+unemployment_rate,34,2021,34,34,complete,
+unemployment_rate,34,2022,34,34,complete,
+unemployment_rate,34,2023,34,34,complete,
+unemployment_rate,34,2024,34,34,complete,
+unemployment_rate,34,2025,34,34,complete,
+unemployment_rate,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+unemployment_rate,63,2019,63,63,complete,
+unemployment_rate,63,2020,63,63,complete,
+unemployment_rate,63,2021,63,63,complete,
+unemployment_rate,63,2022,63,63,complete,
+unemployment_rate,63,2023,63,63,complete,
+unemployment_rate,63,2024,63,63,complete,
+unemployment_rate,63,2025,63,63,complete,
+unemployment_rate,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+urban_population,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+urban_population,34,2020,34,34,complete,
+urban_population,34,2021,34,34,complete,
+urban_population,34,2022,34,34,complete,
+urban_population,34,2023,34,34,complete,
+urban_population,34,2024,34,34,complete,
+urban_population,34,2025,34,34,complete,
+urban_population,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+urban_population,63,2019,63,63,complete,
+urban_population,63,2020,63,63,complete,
+urban_population,63,2021,63,63,complete,
+urban_population,63,2022,63,63,complete,
+urban_population,63,2023,63,63,complete,
+urban_population,63,2024,63,63,complete,
+urban_population,63,2025,63,63,complete,
+urban_population,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+wood_production,34,2019,0,34,gap,NSO back-casts the 34 provinces only from 2020 (the 2025 yearbook appendix starts at 2020).
+wood_production,34,2020,34,34,complete,
+wood_production,34,2021,34,34,complete,
+wood_production,34,2022,34,34,complete,
+wood_production,34,2023,34,34,complete,
+wood_production,34,2024,34,34,complete,
+wood_production,34,2025,34,34,complete,
+wood_production,34,2026,0,34,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."
+wood_production,63,2019,63,63,complete,
+wood_production,63,2020,63,63,complete,
+wood_production,63,2021,63,63,complete,
+wood_production,63,2022,63,63,complete,
+wood_production,63,2023,63,63,complete,
+wood_production,63,2024,63,63,complete,
+wood_production,63,2025,63,63,complete,
+wood_production,63,2026,0,63,gap,"Annual province values for 2026 appear in the 2026 yearbook (mid-2027); the newest 2026 figures are the 34-province period estimates in data/stats/p34_2026 (GRDP growth 9M2026, industrial jobs 1/10/2026)."

@@ -1,314 +1,377 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,3129.62,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 An Giang,63,2020,2722.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 An Giang,63,2021,2775.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 An Giang,63,2022,4358.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 An Giang,63,2023,4090.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 An Giang,63,2024,-311.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bà Rịa - Vũng Tàu,63,2019,19191.42,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,15812.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bà Rịa - Vũng Tàu,63,2021,29581.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bà Rịa - Vũng Tàu,63,2022,30075.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bà Rịa - Vũng Tàu,63,2023,15724.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bà Rịa - Vũng Tàu,63,2024,-5642.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bình Dương,63,2019,53150.54,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bình Dương,63,2020,62137.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Dương,63,2021,49926.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Dương,63,2022,58711.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Dương,63,2023,51709.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Dương,63,2024,89116.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bình Phước,63,2019,2857.43,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bình Phước,63,2020,3922.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Phước,63,2021,2399.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Phước,63,2022,2776.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Phước,63,2023,1687.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Phước,63,2024,7362.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bình Thuận,63,2019,5402.79,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bình Thuận,63,2020,5547.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Thuận,63,2021,10635.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Thuận,63,2022,8576.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Thuận,63,2023,6765.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Thuận,63,2024,7756.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bình Định,63,2019,2652.68,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bình Định,63,2020,2742.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Định,63,2021,1774.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Định,63,2022,-14243.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Định,63,2023,3878.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bình Định,63,2024,5255.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bạc Liêu,63,2019,363.21,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bạc Liêu,63,2020,-7.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bạc Liêu,63,2021,870.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bạc Liêu,63,2022,1610.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bạc Liêu,63,2023,1726.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bạc Liêu,63,2024,2349.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bắc Giang,63,2019,7719.29,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bắc Giang,63,2020,9087.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Giang,63,2021,12972.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Giang,63,2022,26617.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Giang,63,2023,46770.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Giang,63,2024,31864.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bắc Kạn,63,2019,-170.17,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bắc Kạn,63,2020,-92.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Kạn,63,2021,-178.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Kạn,63,2022,-81.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Kạn,63,2023,-50.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Kạn,63,2024,-39.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bắc Ninh,63,2019,67228.72,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bắc Ninh,63,2020,66827.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Ninh,63,2021,77026.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Ninh,63,2022,82020.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Ninh,63,2023,75056.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bắc Ninh,63,2024,80675.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Bến Tre,63,2019,2547.99,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Bến Tre,63,2020,4131.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bến Tre,63,2021,2162.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bến Tre,63,2022,3059.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bến Tre,63,2023,2407.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Bến Tre,63,2024,3272.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Cao Bằng,63,2019,-188.12,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Cao Bằng,63,2020,174.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cao Bằng,63,2021,339.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cao Bằng,63,2022,80.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cao Bằng,63,2023,70.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cao Bằng,63,2024,-125.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Cà Mau,63,2019,399.54,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Cà Mau,63,2020,1707.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cà Mau,63,2021,3777.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cà Mau,63,2022,7741.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cà Mau,63,2023,3155.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cà Mau,63,2024,3518.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Cần Thơ,63,2019,3274.99,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Cần Thơ,63,2020,2800.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cần Thơ,63,2021,2738.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cần Thơ,63,2022,7599.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cần Thơ,63,2023,7428.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Cần Thơ,63,2024,4795.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Gia Lai,63,2019,-4587.01,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Gia Lai,63,2020,-2652.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Gia Lai,63,2021,1554.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Gia Lai,63,2022,16.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Gia Lai,63,2023,553.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Gia Lai,63,2024,1466.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hà Giang,63,2019,958.0,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hà Giang,63,2020,581.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Giang,63,2021,929.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Giang,63,2022,1210.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Giang,63,2023,275.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Giang,63,2024,1320.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hà Nam,63,2019,1316.31,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hà Nam,63,2020,1646.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nam,63,2021,2986.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nam,63,2022,3243.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nam,63,2023,1779.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nam,63,2024,2394.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hà Nội,63,2019,167994.25,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hà Nội,63,2020,175870.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nội,63,2021,273029.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nội,63,2022,317675.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nội,63,2023,241753.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Nội,63,2024,304276.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hà Tĩnh,63,2019,-11279.99,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hà Tĩnh,63,2020,-5235.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Tĩnh,63,2021,29003.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Tĩnh,63,2022,-7644.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Tĩnh,63,2023,-15782.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hà Tĩnh,63,2024,-9953.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hòa Bình,63,2019,620.17,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hòa Bình,63,2020,62.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hòa Bình,63,2021,216.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hòa Bình,63,2022,648.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hòa Bình,63,2023,1293.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hòa Bình,63,2024,899.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hưng Yên,63,2019,7357.27,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hưng Yên,63,2020,11753.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hưng Yên,63,2021,18373.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hưng Yên,63,2022,38340.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hưng Yên,63,2023,43799.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hưng Yên,63,2024,46663.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hải Dương,63,2019,12723.12,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hải Dương,63,2020,13915.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Dương,63,2021,22289.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Dương,63,2022,16440.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Dương,63,2023,18010.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Dương,63,2024,27118.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hải Phòng,63,2019,15320.95,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hải Phòng,63,2020,8001.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Phòng,63,2021,5333.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Phòng,63,2022,2306.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Phòng,63,2023,14297.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hải Phòng,63,2024,21763.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Hậu Giang,63,2019,2077.34,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Hậu Giang,63,2020,2428.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hậu Giang,63,2021,4076.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hậu Giang,63,2022,3822.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hậu Giang,63,2023,5399.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Hậu Giang,63,2024,5939.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Khánh Hòa,63,2019,-1509.1,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Khánh Hòa,63,2020,-11661.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Khánh Hòa,63,2021,-11297.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Khánh Hòa,63,2022,5590.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Khánh Hòa,63,2023,2694.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Khánh Hòa,63,2024,12021.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Kiên Giang,63,2019,2725.58,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Kiên Giang,63,2020,-2357.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kiên Giang,63,2021,4276.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kiên Giang,63,2022,10205.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kiên Giang,63,2023,5543.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kiên Giang,63,2024,4783.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Kon Tum,63,2019,2.72,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Kon Tum,63,2020,534.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kon Tum,63,2021,621.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kon Tum,63,2022,912.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kon Tum,63,2023,474.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Kon Tum,63,2024,634.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Lai Châu,63,2019,57.28,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Lai Châu,63,2020,-46.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lai Châu,63,2021,216.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lai Châu,63,2022,294.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lai Châu,63,2023,-718.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lai Châu,63,2024,426.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Long An,63,2019,8997.85,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Long An,63,2020,16565.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Long An,63,2021,13282.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Long An,63,2022,15172.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Long An,63,2023,5623.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Long An,63,2024,10588.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Lào Cai,63,2019,1164.11,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Lào Cai,63,2020,131.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lào Cai,63,2021,4322.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lào Cai,63,2022,12301.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lào Cai,63,2023,6655.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lào Cai,63,2024,5301.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Lâm Đồng,63,2019,2528.46,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Lâm Đồng,63,2020,1879.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lâm Đồng,63,2021,2946.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lâm Đồng,63,2022,4574.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lâm Đồng,63,2023,3776.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lâm Đồng,63,2024,4182.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Lạng Sơn,63,2019,-17.03,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Lạng Sơn,63,2020,-206.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lạng Sơn,63,2021,-132.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lạng Sơn,63,2022,-352.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lạng Sơn,63,2023,156.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Lạng Sơn,63,2024,241.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Nam Định,63,2019,645.73,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Nam Định,63,2020,926.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nam Định,63,2021,2142.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nam Định,63,2022,2239.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nam Định,63,2023,383.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nam Định,63,2024,2310.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Nghệ An,63,2019,4280.78,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Nghệ An,63,2020,6995.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nghệ An,63,2021,4863.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nghệ An,63,2022,6953.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nghệ An,63,2023,5998.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Nghệ An,63,2024,4747.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Ninh Bình,63,2019,5524.78,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Ninh Bình,63,2020,5312.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Bình,63,2021,10110.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Bình,63,2022,9935.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Bình,63,2023,-500.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Bình,63,2024,-1417.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Ninh Thuận,63,2019,1173.66,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Ninh Thuận,63,2020,2059.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Thuận,63,2021,3472.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Thuận,63,2022,1576.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Thuận,63,2023,1379.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Ninh Thuận,63,2024,4242.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Phú Thọ,63,2019,3724.83,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Phú Thọ,63,2020,2649.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Thọ,63,2021,1881.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Thọ,63,2022,-821.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Thọ,63,2023,169.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Thọ,63,2024,1595.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Phú Yên,63,2019,814.45,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Phú Yên,63,2020,1090.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Yên,63,2021,1385.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Yên,63,2022,825.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Yên,63,2023,865.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Phú Yên,63,2024,677.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Quảng Bình,63,2019,-496.42,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Quảng Bình,63,2020,-3901.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Bình,63,2021,-108.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Bình,63,2022,-528.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Bình,63,2023,-1183.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Bình,63,2024,-989.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Quảng Nam,63,2019,5082.02,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Quảng Nam,63,2020,2471.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Nam,63,2021,4378.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Nam,63,2022,19044.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Nam,63,2023,3971.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Nam,63,2024,12610.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Quảng Ngãi,63,2019,5397.88,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Quảng Ngãi,63,2020,2943.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ngãi,63,2021,32937.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ngãi,63,2022,25627.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ngãi,63,2023,18360.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ngãi,63,2024,14969.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Quảng Ninh,63,2019,9213.77,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Quảng Ninh,63,2020,11793.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ninh,63,2021,14900.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ninh,63,2022,15070.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ninh,63,2023,13811.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Ninh,63,2024,16180.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Quảng Trị,63,2019,629.12,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Quảng Trị,63,2020,63.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Trị,63,2021,755.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Trị,63,2022,723.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Trị,63,2023,635.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Quảng Trị,63,2024,-279.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Sóc Trăng,63,2019,2210.92,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Sóc Trăng,63,2020,2399.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sóc Trăng,63,2021,2444.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sóc Trăng,63,2022,2811.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sóc Trăng,63,2023,2197.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sóc Trăng,63,2024,1714.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Sơn La,63,2019,735.3,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Sơn La,63,2020,1211.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sơn La,63,2021,1261.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sơn La,63,2022,1896.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sơn La,63,2023,908.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Sơn La,63,2024,992.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+TP. Hồ Chí Minh,63,2019,170832.27,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 TP. Hồ Chí Minh,63,2020,205285.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 TP. Hồ Chí Minh,63,2021,222057.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 TP. Hồ Chí Minh,63,2022,301545.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 TP. Hồ Chí Minh,63,2023,241286.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 TP. Hồ Chí Minh,63,2024,277473.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Thanh Hóa,63,2019,-23497.7,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Thanh Hóa,63,2020,-28308.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thanh Hóa,63,2021,-12762.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thanh Hóa,63,2022,-12330.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thanh Hóa,63,2023,-26930.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thanh Hóa,63,2024,-20476.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Thái Bình,63,2019,-737.14,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Thái Bình,63,2020,-2276.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Bình,63,2021,-621.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Bình,63,2022,-2888.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Bình,63,2023,-1795.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Bình,63,2024,887.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Thái Nguyên,63,2019,52493.87,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Thái Nguyên,63,2020,52217.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Nguyên,63,2021,53706.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Nguyên,63,2022,57095.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Nguyên,63,2023,47027.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thái Nguyên,63,2024,49861.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Thừa Thiên Huế,63,2019,1725.22,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Thừa Thiên Huế,63,2020,3223.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thừa Thiên Huế,63,2021,3080.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thừa Thiên Huế,63,2022,2119.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thừa Thiên Huế,63,2023,478.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Thừa Thiên Huế,63,2024,1238.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Tiền Giang,63,2019,4091.5,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Tiền Giang,63,2020,4659.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tiền Giang,63,2021,865.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tiền Giang,63,2022,6353.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tiền Giang,63,2023,6703.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tiền Giang,63,2024,14304.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Trà Vinh,63,2019,841.27,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Trà Vinh,63,2020,1793.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Trà Vinh,63,2021,4576.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Trà Vinh,63,2022,5026.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Trà Vinh,63,2023,2713.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Trà Vinh,63,2024,3822.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Tuyên Quang,63,2019,346.15,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Tuyên Quang,63,2020,201.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tuyên Quang,63,2021,991.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tuyên Quang,63,2022,52.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tuyên Quang,63,2023,821.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tuyên Quang,63,2024,1116.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Tây Ninh,63,2019,10951.69,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Tây Ninh,63,2020,13990.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tây Ninh,63,2021,13745.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tây Ninh,63,2022,20566.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tây Ninh,63,2023,19488.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Tây Ninh,63,2024,26681.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Vĩnh Long,63,2019,2852.99,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Vĩnh Long,63,2020,2969.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Long,63,2021,2295.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Long,63,2022,2780.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Long,63,2023,2068.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Long,63,2024,6662.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Vĩnh Phúc,63,2019,36799.87,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Vĩnh Phúc,63,2020,31178.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Phúc,63,2021,31143.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Phúc,63,2022,39046.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Phúc,63,2023,33641.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Vĩnh Phúc,63,2024,30987.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Yên Bái,63,2019,361.05,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Yên Bái,63,2020,663.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Yên Bái,63,2021,734.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Yên Bái,63,2022,953.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Yên Bái,63,2023,664.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Yên Bái,63,2024,1149.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Điện Biên,63,2019,131.9,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Điện Biên,63,2020,-205.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Điện Biên,63,2021,-255.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Điện Biên,63,2022,260.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Điện Biên,63,2023,80.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Điện Biên,63,2024,565.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Đà Nẵng,63,2019,11741.21,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Đà Nẵng,63,2020,-1784.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đà Nẵng,63,2021,1208.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đà Nẵng,63,2022,5349.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đà Nẵng,63,2023,7369.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đà Nẵng,63,2024,10046.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Đắk Lắk,63,2019,232.64,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Đắk Lắk,63,2020,1179.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Lắk,63,2021,2179.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Lắk,63,2022,1985.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Lắk,63,2023,1082.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Lắk,63,2024,2230.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Đắk Nông,63,2019,633.27,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Đắk Nông,63,2020,1519.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Nông,63,2021,1540.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Nông,63,2022,1303.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Nông,63,2023,700.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đắk Nông,63,2024,768.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Đồng Nai,63,2019,52181.94,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Đồng Nai,63,2020,82135.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Nai,63,2021,77962.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Nai,63,2022,68968.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Nai,63,2023,42537.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Nai,63,2024,77987.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+Đồng Tháp,63,2019,3767.11,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
 Đồng Tháp,63,2020,3503.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Tháp,63,2021,3155.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
 Đồng Tháp,63,2022,7263.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final

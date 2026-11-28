@@ -45,4 +45,7 @@ export default {
   "only near Hoàng Sa or Trường Sa": "chỉ đi gần Hoàng Sa hoặc Trường Sa",
   "{name} in {year}, from NSO's yearly series ({level}).": "{name} năm {year}, theo chuỗi số liệu hằng năm của Cục Thống kê ({level}).",
   "{name}: NSO's yearly series has no figure for {year}.": "{name}: chuỗi số liệu hằng năm của Cục Thống kê không có số liệu năm {year}.",
+  "From 2021 NSO computes labour figures under ICLS19: people working only to produce goods for their own use in agriculture, forestry and fishery no longer count as employed (ICLS13 before 2021; Statistical Yearbook 2025, p.151 footnote). 2019-2020 and 2021 onward are not strictly comparable.": "Từ năm 2021, Cục Thống kê tính số liệu lao động theo chuẩn ICLS19: người chỉ làm ra sản phẩm nông, lâm, thủy sản để tự dùng không còn được tính là có việc làm (trước 2021 theo ICLS13; Niên giám Thống kê 2025, chú thích trang 151). Số liệu 2019–2020 và từ 2021 trở đi không hoàn toàn so sánh được.",
+  "Average population adjusted to the Population and Housing Census of 1 April 2019 (Statistical Yearbook 2019 footnote).": "Dân số trung bình đã điều chỉnh theo Tổng điều tra dân số và nhà ở ngày 1/4/2019 (chú thích Niên giám Thống kê 2019).",
+  "HDI from 2020 uses the World Bank's 2017 PPPs (Statistical Yearbook 2025, p.1485 footnote); 2019 comes from the 2022 yearbook.": "HDI từ năm 2020 tính theo sức mua tương đương (PPP) năm 2017 của Ngân hàng Thế giới (Niên giám Thống kê 2025, chú thích trang 1485); số năm 2019 lấy từ niên giám 2022.",
 };

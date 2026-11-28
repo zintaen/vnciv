@@ -1,0 +1,501 @@
+indicator,year,value,unit,source_url,status
+active_enterprises,2019,758610.0,active enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.04.px (PX-Web V05.04, 2019)",final
+active_enterprises,2020,811538.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+active_enterprises,2021,857551.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+active_enterprises,2022,895876.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+active_enterprises,2023,921372.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+active_enterprises,2024,940078.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+active_enterprises,2025,1017056.0,active enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1254-1255)",final
+aquaculture_production,2019,4591953.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.686-687)",final
+aquaculture_production,2020,4739186.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+aquaculture_production,2021,4886718.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1385-1386)",final
+aquaculture_production,2022,5233817.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+aquaculture_production,2023,5550164.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+aquaculture_production,2024,5903170.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",final
+aquaculture_production,2025,6272468.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.657-658)",prel
+buffalo,2019,2388.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.645-646)",final
+buffalo,2020,2332.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.618-619)",final
+buffalo,2021,2262.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1353-1354)",final
+buffalo,2022,2231.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.618-619)",final
+buffalo,2023,2136.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.618-619)",final
+buffalo,2024,2032.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.618-619)",final
+buffalo,2025,1883.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.618-619)",prel
+capture_fishery,2019,3829297.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.682-683)",final
+capture_fishery,2020,3896533.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.653-654)",final
+capture_fishery,2021,3940108.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1382-1383)",final
+capture_fishery,2022,3874321.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.653-654)",final
+capture_fishery,2023,3806534.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.653-654)",final
+capture_fishery,2024,3826669.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.653-654)",final
+capture_fishery,2025,3881673.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.653-654)",prel
+cattle,2019,6278.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
+cattle,2020,6325.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+cattle,2021,6333.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1355-1356)",final
+cattle,2022,6353.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+cattle,2023,6331.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+cattle,2024,6212.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+cattle,2025,5943.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+cereal_production,2019,48230.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.593-594)",final
+cereal_production,2020,47325.5,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.566-567)",final
+cereal_production,2021,48301.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.593-594)",final
+cereal_production,2022,47085.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.566-567)",final
+cereal_production,2023,47935.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.566-567)",final
+cereal_production,2024,47854.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.566-567)",final
+cereal_production,2025,47765.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.566-567)",prel
+computer_households,2019,24.6,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1052-1053)",final
+computer_households,2020,25.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.951-952)",final
+computer_households,2021,27.1,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1508-1509)",final
+computer_households,2022,28.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.951-952)",final
+computer_households,2023,27.0,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.951-952)",final
+computer_households,2024,23.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.951-952)",final
+computer_households,2025,27.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.951-952)",prel
+cooperatives,2019,14388.0,active cooperatives,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.51.px (PX-Web V05.51, 2019)",final
+cooperatives,2020,15306.0,active cooperatives,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.515-516)",final
+cooperatives,2021,16454.0,active cooperatives,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.515-516)",final
+cooperatives,2022,15832.0,active cooperatives,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.515-516)",final
+cooperatives,2023,16349.0,active cooperatives,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.515-516)",final
+cooperatives,2024,17316.0,active cooperatives,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.515-516)",final
+crude_birth_rate,2019,16.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
+crude_birth_rate,2020,16.3,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
+crude_birth_rate,2021,15.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1173-1174)",final
+crude_birth_rate,2022,15.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
+crude_birth_rate,2023,14.2,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
+crude_birth_rate,2024,13.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",final
+crude_birth_rate,2025,13.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.120-121)",prel
+crude_death_rate,2019,6.3,per mille,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.12-14.px (PX-Web V02.12-14, 2019)",final
+crude_death_rate,2020,6.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.122-123)",final
+crude_death_rate,2021,6.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1175-1176)",final
+crude_death_rate,2022,6.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.122-123)",final
+crude_death_rate,2023,5.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.122-123)",final
+crude_death_rate,2024,5.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.122-123)",final
+crude_death_rate,2025,6.1,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.122-123)",prel
+divorces,2024,182355.0,finalised divorces,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1200-1201)",final
+divorces,2025,187075.0,finalised divorces,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1200-1201)",final
+electricity_households,2020,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+electricity_households,2022,99.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+electricity_households,2024,99.9,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.947-948)",final
+employed_workers,2019,54659.19,thousand persons,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.45.px (PX-Web V02.45, 2019)",final
+employed_workers,2020,53609.6,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
+employed_workers,2021,49072.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1209-1210)",final
+employed_workers,2022,50604.7,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
+employed_workers,2023,51287.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
+employed_workers,2024,51860.3,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",final
+employed_workers,2025,52475.0,thousand persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.163-164)",prel
+enterprise_employees,2019,15151631.0,persons employed in enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.11.px (PX-Web V05.11, 2019)",final
+enterprise_employees,2020,14702546.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+enterprise_employees,2021,14799642.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+enterprise_employees,2022,15341632.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+enterprise_employees,2023,15581544.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+enterprise_employees,2024,16365790.0,persons employed in enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.388-389)",final
+enterprise_monthly_wage,2019,9324.78,thousand VND per month,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.35.px (PX-Web V05.35, 2019)",final
+enterprise_monthly_wage,2020,9546.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+enterprise_monthly_wage,2021,10261.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+enterprise_monthly_wage,2022,11499.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+enterprise_monthly_wage,2023,11621.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+enterprise_monthly_wage,2024,12481.0,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.486-487)",final
+enterprise_net_turnover,2019,26327114.5,billion VND,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.23.px (PX-Web V05.23, 2019)",final
+enterprise_net_turnover,2020,27374963.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+enterprise_net_turnover,2021,30407364.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+enterprise_net_turnover,2022,35961881.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+enterprise_net_turnover,2023,36289544.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+enterprise_net_turnover,2024,40068675.0,billion VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.424-425)",final
+enterprise_profit,2019,889933.63,billion VND before tax,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.38.px (PX-Web V05.38, 2019)",final
+enterprise_profit,2020,953998.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+enterprise_profit,2021,1276847.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+enterprise_profit,2022,1459702.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+enterprise_profit,2023,1160810.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+enterprise_profit,2024,1544893.0,billion VND before tax,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.495-496)",final
+enterprises_per_1000,2020,8.3,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_per_1000,2021,8.7,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_per_1000,2022,9.0,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_per_1000,2023,9.2,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_per_1000,2024,9.3,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_per_1000,2025,9.9,active enterprises per 1000 inhabitants,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1256-1257)",final
+enterprises_with_results,2019,668503.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
+enterprises_with_results,2020,684260.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+enterprises_with_results,2021,718697.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+enterprises_with_results,2022,735455.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+enterprises_with_results,2023,778429.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+enterprises_with_results,2024,838753.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+farms,2019,31908.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.581-582)",final
+farms,2020,23680.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.554-555)",final
+farms,2021,23771.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1300-1301)",final
+farms,2022,24075.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.554-555)",final
+farms,2023,24938.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.554-555)",final
+farms,2024,25982.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.554-555)",final
+farms,2025,28587.0,farms,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.554-555)",prel
+fdi_projects,2019,4028.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+fdi_projects,2020,2610.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+fdi_projects,2021,1818.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+fdi_projects,2022,2169.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+fdi_projects,2023,3314.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+fdi_projects,2024,3375.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.355-356)",prel
+fdi_projects,2025,4054.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (A49, p.1244)",final
+fdi_registered_capital,2019,38951.7,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+fdi_registered_capital,2020,31045.3,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+fdi_registered_capital,2021,38854.3,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+fdi_registered_capital,2022,29288.2,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+fdi_registered_capital,2023,39390.3,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+fdi_registered_capital,2024,38226.2,million USD total registered FDI capital in the year (new + supplementary + capital contributions; can be negative),"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.355-356)",prel
+fdi_registered_capital,2025,38418.1,million USD total registered FDI capital in 2025,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (A49, p.1244)",final
+fishery_production,2019,8421250.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.679-680)",final
+fishery_production,2020,8635719.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.650-651)",final
+fishery_production,2021,8826826.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1380-1381)",final
+fishery_production,2022,9108138.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.650-651)",final
+fishery_production,2023,9358721.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.650-651)",final
+fishery_production,2024,9729839.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.650-651)",final
+fishery_production,2025,10154141.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.650-651)",prel
+freight_carried,2019,1653545.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.871-872)",final
+freight_carried,2020,1614858.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.814-815)",final
+freight_carried,2021,1615654.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1420-1421)",final
+freight_carried,2022,2024564.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.814-815)",final
+freight_carried,2023,2284021.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.814-815)",final
+freight_carried,2024,2556545.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.814-815)",final
+freight_carried,2025,2884321.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.814-815)",prel
+gini,2019,0.423,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1025-1025)",final
+gini,2020,0.375,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.926-927)",final
+gini,2021,0.374,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1487-1488)",final
+gini,2022,0.375,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.926-927)",final
+gini,2023,0.373,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.926-927)",final
+gini,2024,0.372,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.926-927)",final
+gini,2025,0.323,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.926-927)",prel
+grdp_growth,2020,102.87,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.242-243)",final
+grdp_growth,2021,102.55,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1228-1229)",final
+grdp_growth,2022,108.54,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.242-243)",final
+grdp_growth,2023,104.98,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.242-243)",final
+grdp_growth,2024,107.04,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.242-243)",prel
+grdp_growth,2025,108.02,"index, previous year = 100, constant 2010 prices","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.242-243)",est
+grdp_per_capita,2020,82.4,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+grdp_per_capita,2021,86.2,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1230-1231)",final
+grdp_per_capita,2022,96.7,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+grdp_per_capita,2023,102.9,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",final
+grdp_per_capita,2024,113.6,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",prel
+grdp_per_capita,2025,125.5,million VND,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.245-246)",est
+hdi,2019,0.703,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1022-1023)",final
+hdi,2020,0.719,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",final
+hdi,2021,0.726,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",final
+hdi,2022,0.737,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",final
+hdi,2023,0.746,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",final
+hdi,2024,0.752,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",final
+hdi,2025,0.765,index 0-1,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1484-1485)",prel
+health_insurance_coverage,2020,90.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",final
+health_insurance_coverage,2021,90.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",final
+health_insurance_coverage,2022,91.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",final
+health_insurance_coverage,2023,93.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",final
+health_insurance_coverage,2024,94.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",final
+health_insurance_coverage,2025,95.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1234-1235)",prel
+household_business_workers,2019,9048804.0,persons,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.56.px (PX-Web V05.56, 2019)",final
+household_business_workers,2020,8655748.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1294-1295)",final
+household_business_workers,2021,8490029.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1294-1295)",final
+household_business_workers,2022,9020899.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1294-1295)",final
+household_business_workers,2023,8907866.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1294-1295)",final
+household_business_workers,2024,9033079.0,persons,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1294-1295)",final
+household_businesses,2019,5377699.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
+household_businesses,2020,5200323.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+household_businesses,2021,5067365.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+household_businesses,2022,5169722.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+household_businesses,2023,5084826.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+household_businesses,2024,5166574.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+housing_floor_area_built,2020,112504.0,thousand m2 completed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1246-1247)",final
+housing_floor_area_built,2021,101733.0,thousand m2 completed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1246-1247)",final
+housing_floor_area_built,2022,105190.0,thousand m2 completed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1246-1247)",final
+housing_floor_area_built,2023,101686.0,thousand m2 completed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1246-1247)",final
+housing_floor_area_built,2024,102745.0,thousand m2 completed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1246-1247)",final
+hygienic_latrine_share,2019,91.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1045-1046)",final
+hygienic_latrine_share,2020,93.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.944-945)",final
+hygienic_latrine_share,2021,94.9,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1501-1502)",final
+hygienic_latrine_share,2022,96.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.944-945)",final
+hygienic_latrine_share,2023,96.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.944-945)",final
+hygienic_latrine_share,2024,97.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.944-945)",final
+hygienic_latrine_share,2025,97.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.944-945)",prel
+hygienic_water_share,2019,95.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1040-1040)",final
+hygienic_water_share,2020,96.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+hygienic_water_share,2021,97.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1498-1499)",final
+hygienic_water_share,2022,98.0,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+hygienic_water_share,2023,98.4,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+hygienic_water_share,2024,98.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",final
+hygienic_water_share,2025,98.6,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.941-942)",prel
+in_migration_rate,2020,6.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",final
+in_migration_rate,2021,6.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",final
+in_migration_rate,2022,4.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",final
+in_migration_rate,2023,4.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",final
+in_migration_rate,2024,5.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",final
+in_migration_rate,2025,4.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1187-1188)",prel
+income_per_capita_monthly,2019,4295.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.845-847)",prel
+income_per_capita_monthly,2020,4249.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.859-861)",prel
+income_per_capita_monthly,2021,4205.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.861-863)",prel
+income_per_capita_monthly,2022,4673.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.1005-1007)",prel
+income_per_capita_monthly,2023,4962.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1005-1007)",prel
+income_per_capita_monthly,2024,5415.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.1007-1009)",prel
+income_per_capita_monthly,2025,6005.0,thousand VND per person per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (P348, p.908)",prel
+income_per_employee_monthly,2019,5625.2,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1020-1021)",final
+income_per_employee_monthly,2020,5445.1,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.923-924)",final
+income_per_employee_monthly,2021,5728.1,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1482-1483)",final
+income_per_employee_monthly,2022,6639.4,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.923-924)",final
+income_per_employee_monthly,2023,7086.6,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.923-924)",final
+income_per_employee_monthly,2024,7713.4,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.923-924)",final
+income_per_employee_monthly,2025,8426.4,thousand VND per month,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.923-924)",prel
+industrial_production_index,2019,109.09,"index, previous year = 100","https://pxweb.nso.gov.vn/api/v1/vi/C%C3%B4ng%20nghi%E1%BB%87p/V07.02.px (PX-Web V07.02, 2019)",final
+industrial_production_index,2020,103.3,"index, previous year = 100","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.297-298)",final
+industrial_production_index,2021,104.67,"index, previous year = 100","https://pxweb.nso.gov.vn/api/v1/vi/C%C3%B4ng%20nghi%E1%BB%87p/V07.02.px (PX-Web V07.02, 2021)",final
+industrial_production_index,2022,107.4,"index, previous year = 100","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.297-298)",final
+industrial_production_index,2023,101.3,"index, previous year = 100","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.297-298)",final
+industrial_production_index,2024,108.2,"index, previous year = 100","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.297-298)",final
+industrial_production_index,2025,109.3,"index, previous year = 100","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.297-298)",prel
+infant_mortality,2019,14.0,infant deaths per 1000 live births,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.18.px (PX-Web V02.18, 2019)",final
+infant_mortality,2020,13.9,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
+infant_mortality,2021,13.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1181-1182)",final
+infant_mortality,2022,12.1,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
+infant_mortality,2023,11.6,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
+infant_mortality,2024,11.3,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",final
+infant_mortality,2025,11.2,infant deaths per 1000 live births,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.130-131)",prel
+informal_employment_rate,2019,70.99,% of employed,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.51.px (PX-Web V02.51, 2019)",final
+informal_employment_rate,2020,70.3,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.169-170)",final
+informal_employment_rate,2021,68.5,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1211-1212)",final
+informal_employment_rate,2022,65.8,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.169-170)",final
+informal_employment_rate,2023,65.1,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.169-170)",final
+informal_employment_rate,2024,64.5,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.169-170)",final
+informal_employment_rate,2025,63.1,% of employed,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.169-170)",prel
+internet_households,2024,92.5,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.962-963)",final
+internet_households,2025,93.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.962-963)",prel
+internet_users,2024,84.2,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.959-960)",final
+internet_users,2025,87.1,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.959-960)",prel
+it_skills_share,2024,46.8,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.966-967)",final
+it_skills_share,2025,49.0,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.966-967)",prel
+labour_force,2019,55767.4,thousand persons (15+),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.37.px (PX-Web V02.37, 2019)",final
+labour_force,2020,54842.9,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.153-154)",final
+labour_force,2021,50560.5,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1207-1208)",final
+labour_force,2022,51704.9,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.153-154)",final
+labour_force,2023,52376.0,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.153-154)",final
+labour_force,2024,52942.3,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.153-154)",final
+labour_force,2025,53559.6,thousand persons (15+),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.153-154)",prel
+labour_productivity,2019,141.0,million VND per employed person,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.58.px (PX-Web V02.58, 2019)",final
+labour_productivity,2020,150.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+labour_productivity,2021,173.0,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1215-1216)",final
+labour_productivity,2022,190.1,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+labour_productivity,2023,201.2,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+labour_productivity,2024,221.9,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",final
+labour_productivity,2025,244.8,million VND per employed person,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.179-180)",prel
+life_expectancy,2019,73.6,years,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.25.px (PX-Web V02.25, 2019)",final
+life_expectancy,2020,73.7,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.143-144)",final
+life_expectancy,2021,73.6,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1194-1195)",final
+life_expectancy,2022,73.6,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.143-144)",final
+life_expectancy,2023,74.5,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.143-144)",final
+life_expectancy,2024,74.7,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.143-144)",final
+life_expectancy,2025,74.7,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.143-144)",prel
+literacy_rate_15plus,2019,95.8,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2019)",final
+literacy_rate_15plus,2020,95.4,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2020)",final
+literacy_rate_15plus,2021,95.69,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2021)",final
+literacy_rate_15plus,2022,96.13,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2022)",final
+literacy_rate_15plus,2023,96.6,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2023)",final
+literacy_rate_15plus,2024,96.64,% of population 15+ (literate),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.27.px (PX-Web V02.27, 2024)",final
+maize_production,2019,4731.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.623-624)",final
+maize_production,2020,4558.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.596-597)",final
+maize_production,2021,4446.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1335-1336)",final
+maize_production,2022,4423.3,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.596-597)",final
+maize_production,2023,4437.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.596-597)",final
+maize_production,2024,4402.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.596-597)",final
+maize_production,2025,4414.2,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.596-597)",prel
+markets,2020,8581.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",final
+markets,2021,8549.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",final
+markets,2022,8517.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",final
+markets,2023,8318.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",final
+markets,2024,8274.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",final
+markets,2025,8150.0,markets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1396-1397)",prel
+mean_age_first_marriage,2019,25.2,years,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.30.px (PX-Web V02.30, 2019)",final
+mean_age_first_marriage,2020,25.7,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.146-147)",final
+mean_age_first_marriage,2021,26.2,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1198-1199)",final
+mean_age_first_marriage,2022,26.9,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.146-147)",final
+mean_age_first_marriage,2023,27.2,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.146-147)",final
+mean_age_first_marriage,2024,27.3,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.146-147)",final
+mean_age_first_marriage,2025,28.0,years,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.146-147)",prel
+mobile_phone_users,2024,84.8,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.955-956)",final
+mobile_phone_users,2025,87.3,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.955-956)",prel
+new_enterprises,2019,138139.0,newly registered enterprises,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.02.px (PX-Web V05.02, 2019)",final
+new_enterprises,2020,134940.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+new_enterprises,2021,116839.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+new_enterprises,2022,148533.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+new_enterprises,2023,159294.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+new_enterprises,2024,157240.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+new_enterprises,2025,195147.0,newly registered enterprises,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1252-1253)",final
+orange_production,2020,1160.8,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",final
+orange_production,2021,1586.5,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",final
+orange_production,2022,1780.5,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",final
+orange_production,2023,1823.9,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",final
+orange_production,2024,1915.5,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",final
+orange_production,2025,1937.6,thousand tonnes (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1352-1352)",prel
+out_migration_rate,2020,6.7,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",final
+out_migration_rate,2021,6.6,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",final
+out_migration_rate,2022,4.5,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",final
+out_migration_rate,2023,4.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",final
+out_migration_rate,2024,5.9,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",final
+out_migration_rate,2025,4.4,per mille,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1189-1190)",prel
+paddy_area,2019,7469.9,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.598-599)",final
+paddy_area,2020,7278.9,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.571-572)",final
+paddy_area,2021,7238.8,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.598-599)",final
+paddy_area,2022,7108.9,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.571-572)",final
+paddy_area,2023,7119.3,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.571-572)",final
+paddy_area,2024,7127.1,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.571-572)",final
+paddy_area,2025,7119.1,thousand ha planted,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.571-572)",prel
+paddy_production,2019,43495.4,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.602-603)",final
+paddy_production,2020,42764.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.575-576)",final
+paddy_production,2021,43852.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.602-603)",final
+paddy_production,2022,42660.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.575-576)",final
+paddy_production,2023,43497.7,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.575-576)",final
+paddy_production,2024,43451.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.575-576)",final
+paddy_production,2025,43351.1,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.575-576)",prel
+passengers_carried,2019,4713.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.857-858)",final
+passengers_carried,2020,3413.2,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+passengers_carried,2021,2503.3,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1412-1413)",final
+passengers_carried,2022,3790.4,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+passengers_carried,2023,4863.6,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+passengers_carried,2024,5296.5,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",final
+passengers_carried,2025,6219.8,million passengers,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.800-801)",prel
+pigs,2019,20208.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.649-650)",final
+pigs,2020,22028.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.622-623)",final
+pigs,2021,23202.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1357-1358)",final
+pigs,2022,24745.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.622-623)",final
+pigs,2023,25546.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.622-623)",final
+pigs,2024,26519.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.622-623)",final
+pigs,2025,26743.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.622-623)",prel
+population,2019,96484.0,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
+population,2020,97582.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.105-106)",final
+population,2021,98504.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1160-1161)",final
+population,2022,99467.9,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.105-106)",final
+population,2023,100309.2,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.105-106)",final
+population,2024,101343.8,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.105-106)",final
+population,2025,102345.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.105-106)",prel
+population_growth_rate,2019,1.15,%,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.20.px (PX-Web V02.20, 2019)",final
+population_growth_rate,2020,1.14,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
+population_growth_rate,2021,0.94,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1185-1186)",final
+population_growth_rate,2022,0.98,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
+population_growth_rate,2023,0.85,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
+population_growth_rate,2024,1.03,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",final
+population_growth_rate,2025,0.99,%,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.134-135)",prel
+pork_production,2019,4098125.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.658-659)",final
+pork_production,2020,4013465.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.631-632)",final
+pork_production,2021,4263441.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1365-1366)",final
+pork_production,2022,4536835.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.631-632)",final
+pork_production,2023,4868528.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.631-632)",final
+pork_production,2024,5187255.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.631-632)",final
+pork_production,2025,5415027.0,tonnes live weight,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.631-632)",prel
+poultry,2019,480325.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.651-652)",final
+poultry,2020,512675.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.624-625)",final
+poultry,2021,524184.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1359-1360)",final
+poultry,2022,546972.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.624-625)",final
+poultry,2023,559405.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.624-625)",final
+poultry,2024,584141.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.624-625)",final
+poultry,2025,597764.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.624-625)",prel
+poverty_rate_multidimensional,2019,5.7,% of households,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.1034-1035)",final
+poverty_rate_multidimensional,2020,4.8,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.935-936)",final
+poverty_rate_multidimensional,2021,4.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1495-1496)",final
+poverty_rate_multidimensional,2022,4.2,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.935-936)",final
+poverty_rate_multidimensional,2023,3.4,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.935-936)",final
+poverty_rate_multidimensional,2024,2.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.935-936)",final
+poverty_rate_multidimensional,2025,1.3,% of households,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.935-936)",prel
+retail_sales,2019,4892114.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.718-718)",final
+retail_sales,2020,4847645.3,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
+retail_sales,2021,4407812.4,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1394-1395)",final
+retail_sales,2022,5354351.1,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
+retail_sales,2023,5913743.7,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
+retail_sales,2024,6463428.9,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",final
+retail_sales,2025,7102984.5,billion VND (current prices),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.687-688)",prel
+sex_ratio,2019,99.1,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.117-118)",final
+sex_ratio,2020,99.2,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
+sex_ratio,2021,99.3,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1170-1171)",final
+sex_ratio,2022,99.4,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
+sex_ratio,2023,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
+sex_ratio,2024,99.6,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",final
+sex_ratio,2025,99.5,males per 100 females,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.116-117)",prel
+shopping_centres,2020,250.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",final
+shopping_centres,2021,254.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",final
+shopping_centres,2022,258.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",final
+shopping_centres,2023,266.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",final
+shopping_centres,2024,276.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",final
+shopping_centres,2025,281.0,commercial centres,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1400-1401)",prel
+shrimp_aquaculture,2020,944720.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",final
+shrimp_aquaculture,2021,1015709.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",final
+shrimp_aquaculture,2022,1145362.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",final
+shrimp_aquaculture,2023,1227134.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",final
+shrimp_aquaculture,2024,1412593.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",final
+shrimp_aquaculture,2025,1559529.0,tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1389-1390)",prel
+social_insurance_coverage,2020,29.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",final
+social_insurance_coverage,2021,32.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",final
+social_insurance_coverage,2022,33.8,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",final
+social_insurance_coverage,2023,35.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",final
+social_insurance_coverage,2024,38.1,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",final
+social_insurance_coverage,2025,40.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1232-1233)",prel
+social_network_users,2024,76.5,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.970-971)",final
+social_network_users,2025,80.3,% of people,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.970-971)",prel
+sugarcane_production,2019,15685.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.633-634)",final
+sugarcane_production,2020,11534.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
+sugarcane_production,2021,10740.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1345-1346)",final
+sugarcane_production,2022,11088.9,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
+sugarcane_production,2023,11843.8,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
+sugarcane_production,2024,12674.6,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",final
+sugarcane_production,2025,13409.0,thousand tonnes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.606-607)",prel
+supermarkets,2020,1134.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",final
+supermarkets,2021,1167.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",final
+supermarkets,2022,1241.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",final
+supermarkets,2023,1260.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",final
+supermarkets,2024,1293.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",final
+supermarkets,2025,1099.0,supermarkets,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1398-1399)",prel
+tea_production,2020,1065.0,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",final
+tea_production,2021,1091.1,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",final
+tea_production,2022,1116.7,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",final
+tea_production,2023,1125.0,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",final
+tea_production,2024,1154.1,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",final
+tea_production,2025,1158.1,thousand tonnes fresh bud (main producers only),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1351-1351)",prel
+total_fertility_rate,2019,2.09,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
+total_fertility_rate,2020,2.12,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+total_fertility_rate,2021,2.11,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1179-1180)",final
+total_fertility_rate,2022,2.01,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+total_fertility_rate,2023,1.96,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+total_fertility_rate,2024,1.91,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+total_fertility_rate,2025,1.93,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+tourism_travel_turnover,2020,16492.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",final
+tourism_travel_turnover,2021,8998.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",final
+tourism_travel_turnover,2022,43505.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",final
+tourism_travel_turnover,2023,64035.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",final
+tourism_travel_turnover,2024,76990.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",final
+tourism_travel_turnover,2025,93857.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1402-1403)",prel
+trained_labour_share,2019,22.8,% of labour force 15+,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.55.px (PX-Web V02.55, 2019)",final
+trained_labour_share,2020,24.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
+trained_labour_share,2021,26.1,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1213-1214)",final
+trained_labour_share,2022,26.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
+trained_labour_share,2023,27.2,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
+trained_labour_share,2024,28.4,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",final
+trained_labour_share,2025,29.3,% of labour force 15+,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.173-174)",prel
+underemployment_rate,2019,1.5,% of working-age labour force,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.70.px (PX-Web V02.70, 2019)",final
+underemployment_rate,2020,2.52,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.191-192)",final
+underemployment_rate,2021,3.1,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1223-1224)",final
+underemployment_rate,2022,2.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.191-192)",final
+underemployment_rate,2023,2.01,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.191-192)",final
+underemployment_rate,2024,1.85,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.191-192)",final
+underemployment_rate,2025,1.66,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.191-192)",prel
+unemployment_insurance_coverage,2020,24.3,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",final
+unemployment_insurance_coverage,2021,26.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",final
+unemployment_insurance_coverage,2022,27.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",final
+unemployment_insurance_coverage,2023,28.2,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",final
+unemployment_insurance_coverage,2024,30.5,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",final
+unemployment_insurance_coverage,2025,31.7,% of population,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1236-1237)",prel
+unemployment_rate,2019,2.17,% of working-age labour force,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.63.px (PX-Web V02.63, 2019)",final
+unemployment_rate,2020,2.48,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+unemployment_rate,2021,3.2,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1219-1220)",final
+unemployment_rate,2022,2.34,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+unemployment_rate,2023,2.28,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+unemployment_rate,2024,2.24,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",final
+unemployment_rate,2025,2.21,% of working-age labour force,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.184-185)",prel
+urban_population,2019,33816.6,thousand persons (average),"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.03-07.px (PX-Web V02.03-07, 2019)",final
+urban_population,2020,35906.4,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+urban_population,2021,36556.6,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1166-1167)",final
+urban_population,2022,37347.5,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+urban_population,2023,38219.7,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+urban_population,2024,39007.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",final
+urban_population,2025,39551.3,thousand persons (average),"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.111-112)",prel
+wood_production,2019,16352.0,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.669-670)",final
+wood_production,2020,17178.9,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.640-641)",final
+wood_production,2021,18391.4,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, table p.1373-1374)",final
+wood_production,2022,20267.8,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.640-641)",final
+wood_production,2023,21632.3,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.640-641)",final
+wood_production,2024,23963.5,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.640-641)",final
+wood_production,2025,25739.2,thousand m3,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.640-641)",prel

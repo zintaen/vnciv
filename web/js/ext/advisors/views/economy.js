@@ -114,7 +114,7 @@ export function mount(ctx) {
     const nCtl = document.createElement("div");
     nCtl.className = "adv-row";
     nBody.appendChild(nCtl);
-    for (const [id, label] of [["growth_2026", "Growth 2026 lens"], ["industry_jobs_2026", "Factory jobs lens"], ["fdi", "FDI lens"], ["enterprises", "Enterprises lens"]]) {
+    for (const [id, label] of [["growth_2026", "Growth, 9 months 2026 lens"], ["industry_jobs_2026", "Factory jobs 2026 lens"], ["fdi", "Foreign investment lens"], ["enterprises", "Enterprises lens"]]) {
       const b = lensButton(app, id, tr(label));
       if (b) nCtl.appendChild(b);
     }

@@ -1,315 +1,441 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,66.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 An Giang,63,2020,66.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+An Giang,63,2021,59.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 An Giang,63,2022,57.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 An Giang,63,2023,55.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 An Giang,63,2024,42.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 An Giang,63,2025,42.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bà Rịa - Vũng Tàu,63,2019,48.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bà Rịa - Vũng Tàu,63,2020,49.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bà Rịa - Vũng Tàu,63,2021,51.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bà Rịa - Vũng Tàu,63,2022,52.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bà Rịa - Vũng Tàu,63,2023,53.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bà Rịa - Vũng Tàu,63,2024,54.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bà Rịa - Vũng Tàu,63,2025,56.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bình Dương,63,2019,25.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bình Dương,63,2020,24.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bình Dương,63,2021,21.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bình Dương,63,2022,20.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Dương,63,2023,18.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Dương,63,2024,17.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Dương,63,2025,17.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bình Phước,63,2019,37.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bình Phước,63,2020,38.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bình Phước,63,2021,39.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bình Phước,63,2022,40.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Phước,63,2023,40.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Phước,63,2024,43.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Phước,63,2025,44.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bình Thuận,63,2019,167.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bình Thuận,63,2020,170.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bình Thuận,63,2021,173.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bình Thuận,63,2022,179.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Thuận,63,2023,182.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Thuận,63,2024,185.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Thuận,63,2025,186.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bình Định,63,2019,292.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bình Định,63,2020,296.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bình Định,63,2021,298.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bình Định,63,2022,305.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Định,63,2023,302.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Định,63,2024,307.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bình Định,63,2025,296.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bạc Liêu,63,2019,2.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bạc Liêu,63,2020,2.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bạc Liêu,63,2021,1.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bạc Liêu,63,2022,1.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bạc Liêu,63,2023,2.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bạc Liêu,63,2024,2.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bạc Liêu,63,2025,2.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bắc Giang,63,2019,138.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bắc Giang,63,2020,132.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bắc Giang,63,2021,118.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bắc Giang,63,2022,109.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Giang,63,2023,102.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Giang,63,2024,90.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Giang,63,2025,82.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bắc Kạn,63,2019,19.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bắc Kạn,63,2020,19.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bắc Kạn,63,2021,19.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bắc Kạn,63,2022,19.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Kạn,63,2023,18.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Kạn,63,2024,14.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Kạn,63,2025,10.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bắc Ninh,63,2019,27.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bắc Ninh,63,2020,27.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bắc Ninh,63,2021,25.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bắc Ninh,63,2022,21.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Ninh,63,2023,20.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Ninh,63,2024,19.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bắc Ninh,63,2025,17.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Bến Tre,63,2019,220.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Bến Tre,63,2020,223.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Bến Tre,63,2021,226.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Bến Tre,63,2022,214.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bến Tre,63,2023,203.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bến Tre,63,2024,194.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Bến Tre,63,2025,181.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Cao Bằng,63,2019,110.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Cao Bằng,63,2020,107.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Cao Bằng,63,2021,105.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Cao Bằng,63,2022,100.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cao Bằng,63,2023,100.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cao Bằng,63,2024,101.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cao Bằng,63,2025,76.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Cà Mau,63,2019,0.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Cà Mau,63,2020,0.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Cà Mau,63,2021,0.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Cà Mau,63,2022,0.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cà Mau,63,2023,0.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cà Mau,63,2024,0.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cà Mau,63,2025,0.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Cần Thơ,63,2019,4.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Cần Thơ,63,2020,4.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Cần Thơ,63,2021,4.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Cần Thơ,63,2022,3.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cần Thơ,63,2023,3.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cần Thơ,63,2024,3.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Cần Thơ,63,2025,3.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Gia Lai,63,2019,395.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Gia Lai,63,2020,396.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Gia Lai,63,2021,401.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Gia Lai,63,2022,406.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Gia Lai,63,2023,474.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Gia Lai,63,2024,472.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Gia Lai,63,2025,489.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hà Giang,63,2019,119.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hà Giang,63,2020,122.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hà Giang,63,2021,118.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hà Giang,63,2022,117.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Giang,63,2023,122.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Giang,63,2024,135.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Giang,63,2025,135.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hà Nam,63,2019,31.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hà Nam,63,2020,32.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hà Nam,63,2021,32.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hà Nam,63,2022,33.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nam,63,2023,33.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nam,63,2024,33.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nam,63,2025,22.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hà Nội,63,2019,128.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hà Nội,63,2020,130.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hà Nội,63,2021,130.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hà Nội,63,2022,129.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nội,63,2023,127.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nội,63,2024,120.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Nội,63,2025,111.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hà Tĩnh,63,2019,166.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hà Tĩnh,63,2020,169.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hà Tĩnh,63,2021,168.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hà Tĩnh,63,2022,167.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Tĩnh,63,2023,164.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Tĩnh,63,2024,161.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hà Tĩnh,63,2025,129.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hòa Bình,63,2019,84.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hòa Bình,63,2020,85.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hòa Bình,63,2021,87.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hòa Bình,63,2022,89.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hòa Bình,63,2023,88.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hòa Bình,63,2024,89.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hòa Bình,63,2025,75.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hưng Yên,63,2019,35.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hưng Yên,63,2020,31.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hưng Yên,63,2021,30.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hưng Yên,63,2022,29.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hưng Yên,63,2023,30.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hưng Yên,63,2024,29.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hưng Yên,63,2025,27.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hải Dương,63,2019,18.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hải Dương,63,2020,15.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hải Dương,63,2021,14.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hải Dương,63,2022,14.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Dương,63,2023,13.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Dương,63,2024,14.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Dương,63,2025,10.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hải Phòng,63,2019,10.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hải Phòng,63,2020,9.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hải Phòng,63,2021,8.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hải Phòng,63,2022,7.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Phòng,63,2023,6.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Phòng,63,2024,6.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hải Phòng,63,2025,4.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Hậu Giang,63,2019,3.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Hậu Giang,63,2020,3.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Hậu Giang,63,2021,3.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Hậu Giang,63,2022,3.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hậu Giang,63,2023,4.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hậu Giang,63,2024,4.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Hậu Giang,63,2025,4.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Khánh Hòa,63,2019,80.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Khánh Hòa,63,2020,77.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Khánh Hòa,63,2021,63.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Khánh Hòa,63,2022,62.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Khánh Hòa,63,2023,68.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Khánh Hòa,63,2024,62.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Khánh Hòa,63,2025,53.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Kiên Giang,63,2019,11.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Kiên Giang,63,2020,11.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Kiên Giang,63,2021,9.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Kiên Giang,63,2022,10.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kiên Giang,63,2023,9.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kiên Giang,63,2024,9.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kiên Giang,63,2025,9.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Kon Tum,63,2019,78.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Kon Tum,63,2020,80.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Kon Tum,63,2021,83.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Kon Tum,63,2022,84.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kon Tum,63,2023,85.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kon Tum,63,2024,99.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Kon Tum,63,2025,101.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Lai Châu,63,2019,19.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Lai Châu,63,2020,20.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Lai Châu,63,2021,23.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Lai Châu,63,2022,24.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lai Châu,63,2023,26.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lai Châu,63,2024,28.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lai Châu,63,2025,28.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Long An,63,2019,113.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Long An,63,2020,112.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Long An,63,2021,116.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Long An,63,2022,117.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Long An,63,2023,109.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Long An,63,2024,105.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Long An,63,2025,105.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Lào Cai,63,2019,20.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Lào Cai,63,2020,21.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Lào Cai,63,2021,22.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Lào Cai,63,2022,22.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lào Cai,63,2023,23.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lào Cai,63,2024,21.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lào Cai,63,2025,21.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Lâm Đồng,63,2019,96.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Lâm Đồng,63,2020,96.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Lâm Đồng,63,2021,99.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Lâm Đồng,63,2022,101.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lâm Đồng,63,2023,99.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lâm Đồng,63,2024,86.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lâm Đồng,63,2025,101.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Lạng Sơn,63,2019,32.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Lạng Sơn,63,2020,33.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Lạng Sơn,63,2021,28.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Lạng Sơn,63,2022,27.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lạng Sơn,63,2023,28.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lạng Sơn,63,2024,27.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Lạng Sơn,63,2025,27.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Nam Định,63,2019,28.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Nam Định,63,2020,28.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Nam Định,63,2021,28.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Nam Định,63,2022,27.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nam Định,63,2023,27.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nam Định,63,2024,29.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nam Định,63,2025,26.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Nghệ An,63,2019,471.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Nghệ An,63,2020,485.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Nghệ An,63,2021,503.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Nghệ An,63,2022,519.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nghệ An,63,2023,533.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nghệ An,63,2024,550.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Nghệ An,63,2025,563.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Ninh Bình,63,2019,37.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Ninh Bình,63,2020,36.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Ninh Bình,63,2021,34.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Ninh Bình,63,2022,35.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Bình,63,2023,35.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Bình,63,2024,34.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Bình,63,2025,26.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Ninh Thuận,63,2019,118.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Ninh Thuận,63,2020,120.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Ninh Thuận,63,2021,119.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Ninh Thuận,63,2022,120.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Thuận,63,2023,121.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Thuận,63,2024,123.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Ninh Thuận,63,2025,111.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Phú Thọ,63,2019,106.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Phú Thọ,63,2020,105.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Phú Thọ,63,2021,98.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Phú Thọ,63,2022,95.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Thọ,63,2023,90.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Thọ,63,2024,85.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Thọ,63,2025,76.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Phú Yên,63,2019,172.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Phú Yên,63,2020,168.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Phú Yên,63,2021,165.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Phú Yên,63,2022,163.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Yên,63,2023,159.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Yên,63,2024,147.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Phú Yên,63,2025,148.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Quảng Bình,63,2019,100.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Quảng Bình,63,2020,104.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Quảng Bình,63,2021,104.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Quảng Bình,63,2022,98.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Bình,63,2023,87.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Bình,63,2024,83.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Bình,63,2025,81.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Quảng Nam,63,2019,171.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Quảng Nam,63,2020,172.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Quảng Nam,63,2021,173.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Quảng Nam,63,2022,175.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Nam,63,2023,178.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Nam,63,2024,184.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Nam,63,2025,179.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Quảng Ngãi,63,2019,277.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Quảng Ngãi,63,2020,279.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Quảng Ngãi,63,2021,279.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Quảng Ngãi,63,2022,280.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ngãi,63,2023,273.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ngãi,63,2024,268.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ngãi,63,2025,255.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Quảng Ninh,63,2019,30.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Quảng Ninh,63,2020,31.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Quảng Ninh,63,2021,32.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Quảng Ninh,63,2022,28.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ninh,63,2023,22.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ninh,63,2024,22.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Ninh,63,2025,23.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Quảng Trị,63,2019,56.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Quảng Trị,63,2020,55.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Quảng Trị,63,2021,55.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Quảng Trị,63,2022,62.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Trị,63,2023,62.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Trị,63,2024,62.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Quảng Trị,63,2025,59.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Sóc Trăng,63,2019,53.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Sóc Trăng,63,2020,53.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Sóc Trăng,63,2021,53.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Sóc Trăng,63,2022,54.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sóc Trăng,63,2023,53.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sóc Trăng,63,2024,51.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sóc Trăng,63,2025,51.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Sơn La,63,2019,343.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Sơn La,63,2020,358.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Sơn La,63,2021,373.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Sơn La,63,2022,378.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sơn La,63,2023,394.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sơn La,63,2024,388.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Sơn La,63,2025,371.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+TP. Hồ Chí Minh,63,2019,131.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 TP. Hồ Chí Minh,63,2020,130.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+TP. Hồ Chí Minh,63,2021,99.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 TP. Hồ Chí Minh,63,2022,100.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 TP. Hồ Chí Minh,63,2023,95.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 TP. Hồ Chí Minh,63,2024,88.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 TP. Hồ Chí Minh,63,2025,62.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Thanh Hóa,63,2019,256.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Thanh Hóa,63,2020,260.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Thanh Hóa,63,2021,257.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Thanh Hóa,63,2022,252.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thanh Hóa,63,2023,233.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thanh Hóa,63,2024,203.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thanh Hóa,63,2025,183.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Thái Bình,63,2019,49.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Thái Bình,63,2020,49.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Thái Bình,63,2021,49.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Thái Bình,63,2022,51.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Bình,63,2023,52.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Bình,63,2024,52.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Bình,63,2025,45.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Thái Nguyên,63,2019,42.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Thái Nguyên,63,2020,46.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Thái Nguyên,63,2021,51.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Thái Nguyên,63,2022,49.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Nguyên,63,2023,47.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Nguyên,63,2024,41.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thái Nguyên,63,2025,33.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Thừa Thiên Huế,63,2019,30.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Thừa Thiên Huế,63,2020,28.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Thừa Thiên Huế,63,2021,28.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Thừa Thiên Huế,63,2022,30.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thừa Thiên Huế,63,2023,30.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thừa Thiên Huế,63,2024,30.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Thừa Thiên Huế,63,2025,30.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Tiền Giang,63,2019,119.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Tiền Giang,63,2020,121.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Tiền Giang,63,2021,122.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Tiền Giang,63,2022,115.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tiền Giang,63,2023,114.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tiền Giang,63,2024,121.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tiền Giang,63,2025,125.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Trà Vinh,63,2019,211.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Trà Vinh,63,2020,225.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Trà Vinh,63,2021,229.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Trà Vinh,63,2022,255.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Trà Vinh,63,2023,222.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Trà Vinh,63,2024,199.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Trà Vinh,63,2025,180.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Tuyên Quang,63,2019,35.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Tuyên Quang,63,2020,36.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Tuyên Quang,63,2021,37.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Tuyên Quang,63,2022,39.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tuyên Quang,63,2023,40.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tuyên Quang,63,2024,40.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tuyên Quang,63,2025,39.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Tây Ninh,63,2019,92.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Tây Ninh,63,2020,95.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Tây Ninh,63,2021,96.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Tây Ninh,63,2022,98.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tây Ninh,63,2023,99.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tây Ninh,63,2024,96.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Tây Ninh,63,2025,95.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Vĩnh Long,63,2019,80.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Vĩnh Long,63,2020,83.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Vĩnh Long,63,2021,84.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Vĩnh Long,63,2022,76.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Long,63,2023,75.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Long,63,2024,75.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Long,63,2025,57.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Vĩnh Phúc,63,2019,104.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Vĩnh Phúc,63,2020,104.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Vĩnh Phúc,63,2021,97.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Vĩnh Phúc,63,2022,95.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Phúc,63,2023,90.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Phúc,63,2024,78.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Vĩnh Phúc,63,2025,78.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Yên Bái,63,2019,30.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Yên Bái,63,2020,32.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Yên Bái,63,2021,35.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Yên Bái,63,2022,36.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Yên Bái,63,2023,38.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Yên Bái,63,2024,39.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Yên Bái,63,2025,39.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Điện Biên,63,2019,76.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Điện Biên,63,2020,82.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Điện Biên,63,2021,94.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Điện Biên,63,2022,98.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Điện Biên,63,2023,101.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Điện Biên,63,2024,104.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Điện Biên,63,2025,105.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Đà Nẵng,63,2019,17.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Đà Nẵng,63,2020,17.6,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Đà Nẵng,63,2021,18.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Đà Nẵng,63,2022,12.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đà Nẵng,63,2023,9.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đà Nẵng,63,2024,4.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đà Nẵng,63,2025,5.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Đắk Lắk,63,2019,266.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Đắk Lắk,63,2020,245.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Đắk Lắk,63,2021,249.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Đắk Lắk,63,2022,251.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Lắk,63,2023,250.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Lắk,63,2024,258.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Lắk,63,2025,254.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Đắk Nông,63,2019,31.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Đắk Nông,63,2020,24.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Đắk Nông,63,2021,23.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Đắk Nông,63,2022,25.4,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Nông,63,2023,27.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Nông,63,2024,28.3,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đắk Nông,63,2025,29.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Đồng Nai,63,2019,86.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Đồng Nai,63,2020,86.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Đồng Nai,63,2021,110.2,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Đồng Nai,63,2022,107.1,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đồng Nai,63,2023,106.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đồng Nai,63,2024,102.0,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đồng Nai,63,2025,101.9,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",prel
+Đồng Tháp,63,2019,39.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.647-648)",final
 Đồng Tháp,63,2020,39.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
+Đồng Tháp,63,2021,38.5,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.647-648)",final
 Đồng Tháp,63,2022,40.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đồng Tháp,63,2023,40.8,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final
 Đồng Tháp,63,2024,33.7,thousand head,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.620-621)",final

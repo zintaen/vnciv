@@ -21,6 +21,7 @@ import { installExtensions } from "./ext/index.js";
 import { initShare } from "./app/share.js";
 import { initHelp } from "./app/help.js";
 import { initDonate } from "./app/donate.js";
+import { createMotion } from "./app/motion.js";
 import { t, lang, setLang } from "./i18n.js";
 import { esc, setAirportNames } from "./format.js";
 
@@ -130,6 +131,7 @@ async function main() {
   const overlays = []; // app.registerOverlay(), sorted by z
   const staticLayers = []; // app.registerStaticLayer(), sorted by z (stable): drawn inside the cached static map
   const events = createEmitter();
+  const motion = createMotion({ requestDraw }); // app.motion (app/motion.js): tweens + animated items on this loop
   const panelEl = document.getElementById("city-panel");
   // The extension API object; filled in under "extension API" below, before anything can run against it.
   const app = {};
@@ -142,9 +144,10 @@ async function main() {
   const ctx = canvas.getContext("2d");
   const cam = new Camera(world.width, world.height);
   {
-    // prefers-reduced-motion: flights (up to 2.4 s of zooming out and back in) land on the next frame instead.
+    // prefers-reduced-motion or the Effects switch off: flights (up to 2.4 s of zooming out and back in) land on the
+    // next frame instead.
     const fly = cam.flyTo.bind(cam), reduce = matchMedia("(prefers-reduced-motion: reduce)");
-    cam.flyTo = (...args) => { fly(...args); if (reduce.matches && cam.flight) cam.flight.ms = 1; };
+    cam.flyTo = (...args) => { fly(...args); if ((reduce.matches || !motion.userEnabled) && cam.flight) cam.flight.ms = 1; };
   }
   let dpr = 1;
   let hits = [];
@@ -175,7 +178,62 @@ async function main() {
   // Tiles, glyphs, rivers, borders, labels and resources are rendered into an offscreen canvas covering the view
   // plus a margin. Panning blits it; zooming blits it scaled and re-renders once the camera settles.
   const cache = { cv: document.createElement("canvas"), key: null, vp: null, hits: { resources: [] } };
-  const cctx = cache.cv.getContext("2d");
+  let cctx = cache.cv.getContext("2d");
+  // Lens recolour: the old cache is kept (canvases swapped, not copied) and drawn over the new one while it fades
+  // out, as a ripple from the middle of the view (a picked lens) or a crossfade (a year step). Freed afterwards.
+  const spare = { cv: document.createElement("canvas") };
+  spare.ctx = spare.cv.getContext("2d");
+  const fade = { vp: null, p: 1, ripple: false, stop: null };
+  function lensFade(ripple) {
+    fade.stop?.();
+    fade.stop = null;
+    if (!motion.enabled || !cache.vp || !cache.cv.width) return endFade();
+    if (fade.vp !== cache.vp) { // (a second change before the cache re-rendered keeps the first "before" picture)
+      [cache.cv, spare.cv] = [spare.cv, cache.cv];
+      [cctx, spare.ctx] = [spare.ctx, cctx];
+      fade.vp = cache.vp;
+    }
+    fade.ripple = ripple;
+    fade.p = 0;
+    cache.key = null;
+    fade.stop = motion.tween({ from: 0, to: 1, ms: ripple ? 480 : 380, ease: ripple ? "inOut" : "out", onUpdate: (p) => { fade.p = p; }, onDone: endFade });
+  }
+  function endFade() {
+    fade.p = 1;
+    fade.stop = null;
+    if (!fade.vp) return;
+    fade.vp = null;
+    spare.cv.width = spare.cv.height = 0; // the spare canvas is as big as the cache: free it between fades
+  }
+  function drawFade() {
+    const fv = fade.vp, p = fade.p;
+    const fk = cam.scale / fv.s, [fx, fy] = cam.toScreen(fv.x0, fv.y0);
+    ctx.save();
+    let cx = 0, cy = 0, r = 0;
+    if (fade.ripple) {
+      const a = visibleArea();
+      cx = (a.x0 + a.x1) / 2;
+      cy = (a.y0 + a.y1) / 2;
+      r = p * Math.hypot(Math.max(cx, cam.w - cx), Math.max(cy, cam.h - cy));
+      ctx.beginPath();
+      ctx.rect(0, 0, cam.w, cam.h);
+      ctx.arc(cx, cy, r, 0, Math.PI * 2, true);
+      ctx.clip("evenodd");
+      ctx.globalAlpha = 1 - 0.35 * p;
+    } else ctx.globalAlpha = 1 - p;
+    ctx.drawImage(spare.cv, fx, fy, fv.cssW * fk, fv.cssH * fk);
+    ctx.restore();
+    if (fade.ripple && r > 1) {
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI * 2);
+      ctx.strokeStyle = `rgba(255,214,120,${0.22 * (1 - p)})`;
+      ctx.lineWidth = 14;
+      ctx.stroke();
+      ctx.strokeStyle = `rgba(255,236,180,${0.55 * (1 - p)})`;
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+  }
   // Each registered layer's id, visibility and own sig() are part of the key, so toggling or restyling a layer
   // re-renders the cache (and nothing else does).
   const layersSig = () => staticLayers.map((l) => {
@@ -305,18 +363,21 @@ async function main() {
     ctx.imageSmoothingEnabled = true;
     const [dx, dy] = cam.toScreen(vp.x0, vp.y0);
     ctx.drawImage(cache.cv, dx, dy, vp.cssW * k, vp.cssH * k);
+    if (fade.vp && fade.p < 1) drawFade();
 
     const s = cam.scale;
     ctx.setTransform(dpr * s, 0, 0, dpr * s, dpr * (cam.w / 2 - cam.x * s), dpr * (cam.h / 2 - cam.y * s));
-    drawOverlay(ctx, cam, w, state);
+    drawOverlay(ctx, cam, w, state, motion.enabled ? performance.now() : 0); // 0 = the still selection frame
     if (state.highlight) drawHighlight(ctx, cam, w, state, { resourceHits: cache.hits.resources, items: resources?.items, cityById });
     if (overlays.length) drawOverlays(ctx, cam, overlays, app, { dpr, zMax: 100 });
+    motion._draw(ctx, cam, app, { dpr, zMax: 100, moving: settling });
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     // Plates of cities beside an open dock stay clear of it (desktop docks only; phones use a bottom sheet).
     const d = isMobile() ? null : dockState();
     state.bannerBounds = d && d.open ? { x0: d.l, x1: cam.w - d.r } : null;
     hits = drawYearBanners(ctx, cam, state);
     if (overlays.length) drawOverlays(ctx, cam, overlays, app, { dpr, zMin: 100 });
+    motion._draw(ctx, cam, app, { dpr, zMin: 100, moving: settling });
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     minimap.draw();
     record(perf.frame, performance.now() - t0);
@@ -324,6 +385,7 @@ async function main() {
 
   function frame(now) {
     queued = false;
+    motion._step(now);
     const dt = lastFrame ? (now - lastFrame) / 1000 : 1 / 60;
     const moving = cam.step(dt);
     draw(moving);
@@ -341,16 +403,20 @@ async function main() {
       lastUrlCamSig = urlCamSig;
       url.schedule();
     }
-    if (moving) requestDraw();
-    else if (selectionAnimates() && !document.hidden && !animTimer) {
-      // Keep the selected state's border highlight animating, at a gentle frame rate.
-      animTimer = setTimeout(() => { animTimer = 0; requestDraw(); }, SELECT_ANIM_MS);
+    // Keep going while the camera moves, the selection's border sweep runs or app.motion has something to animate
+    // (ambient-only motion at half rate when this device is over its frame budget: motion.lowPower).
+    const want = moving || selectionAnimates() ? 1 : motion._wants();
+    if (want === 1) requestDraw();
+    else if (want === 2) {
+      if (!motion.lowPower) requestDraw();
+      else if (!animTimer) animTimer = setTimeout(() => { animTimer = 0; requestDraw(); }, SELECT_ANIM_MS);
     }
   }
-  // render/map.js says whether the selected state's border pulses (off with prefers-reduced-motion).
+  // render/map.js says whether the selected state's border sweep runs (off with reduced motion / the Effects switch).
   function selectionAnimates() {
+    if (!motion.enabled) return false;
     if (typeof mapRender.isAnimating === "function") return !!mapRender.isAnimating(state);
-    return state.selectedState != null && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+    return false;
   }
   function requestDraw() {
     if (!queued) {
@@ -518,7 +584,8 @@ async function main() {
     if (linkFlight && cam.flight === linkFlight.f) return flyLinkAt(linkFlight.at, cam.flight.ms);
     // Likewise a page opened from a link: its at= was placed beside the panel, which a City View then swaps for its
     // dock (a different width). Re-place it in the new usable area, or every reload shifts the view by half a panel.
-    const at = linkAt;
+    // (only while the camera is still where the link put it: a search pick, minimap click or flyTo since then moved it)
+    const at = linkAt && cam.x === linkAt.x && cam.y === linkAt.y && cam.scale === linkAt.s ? linkAt.at : null;
     linkAt = null;
     if (at && !cam.moving && cam.scale > 0) {
       const a = visibleArea(), s = cam.scale;
@@ -673,12 +740,15 @@ async function main() {
   // the timeline's values for one year; give it its own id so the legend's histogram cache keeps them apart), or
   // null for the lens itself. state.lens (and the hash, the picker) stay on the real lens. fn must be cheap (cached).
   let lensView = null;
+  let lastShown = null; // the lens object last coloured (a change fades the map: lensFade)
   const shownLens = () => (state.lens && lensView ? lensView(state.lens) || state.lens : state.lens);
 
   function setLens(lens) {
     const changed = lens !== state.lens;
     state.lens = lens;
     state.band = null;
+    if (changed) lensFade(true);
+    lastShown = shownLens();
     applyLens(w, shownLens(), null);
     dock.render(shownLens(), null);
     rebuildMinimap();
@@ -719,8 +789,14 @@ async function main() {
     onCity: (city) => selectCity(city, { fly: true }),
   });
 
+  let bannerPop = null;
   function selectCity(city, { fly = true } = {}) {
     if (!city) return clearSelection();
+    if (city !== state.selectedCity) {
+      // The selected banner pops gently (state.bannerPop: its scale, render/banners.js).
+      bannerPop?.();
+      bannerPop = motion.tween({ from: 0, to: 1, ms: 340, ease: "out", onUpdate: (p) => { state.bannerPop = 1 + 0.12 * Math.sin(Math.PI * p); } });
+    }
     state.selectedCity = city;
     state.selectedState = null;
     app.panels.city(city, panelCtx());
@@ -785,7 +861,7 @@ async function main() {
   }
   // The flight a link's at= started (Back / Forward), so onDocksChanged can re-aim it: {f: cam.flight, at}.
   let linkFlight = null;
-  let linkAt = null; // the at= the page was opened with, until the user moves or a dock changes (onDocksChanged)
+  let linkAt = null; // {at, x, y, s}: the at= the page was opened with and where it put the camera, until the user moves or a dock changes (onDocksChanged)
   function flyLinkAt(at, ms) {
     const [vx, vy, z] = at;
     const s = cam.clampScale(fitScale() * 2 ** z);
@@ -837,7 +913,7 @@ async function main() {
           cam.y = y;
           cam.scale = s;
           cam.clamp();
-          linkAt = p.at;
+          linkAt = { at: p.at, x: cam.x, y: cam.y, s: cam.scale };
         } else flyLinkAt(p.at, 650);
         userMoved = true;
       } else if (!initial && !city && sIdx < 0) {
@@ -1092,6 +1168,14 @@ async function main() {
     });
   }
 
+  // Effects switch (app.motion.setEnabled): a per-browser preference, so it stays out of the layers= hash.
+  ui.addMapToggle({
+    id: "motion", group: "display", label: t("Effects"), icon: "✨", hash: false,
+    title: t("Animations and map effects. When off (or when the system asks for reduced motion) the map stays still and shows the same information."),
+    get: () => motion.userEnabled,
+    set: (v) => motion.setEnabled(v),
+  });
+
   // --- input -----------------------------------------------------------------------------------------------------
   const hitCity = (mx, my) => hits.find((h) => mx >= h.x && mx <= h.x + h.w && my >= h.y && my <= h.y + h.h)?.city;
   const cellAt = (mx, my) => w.grid.cellAt(...cam.toWorld(mx, my));
@@ -1158,11 +1242,14 @@ async function main() {
   let lastTap = null; // {t, x, y}
   let pendingTap = 0;
 
+  let hoverFade = null; // the hovered hex's highlight fades in (state.hoverFade 0..1, render/map.js)
   function hover(mx, my) {
     const city = hitCity(mx, my);
     const cell = cellAt(mx, my);
     if (cell !== state.hoverCell) {
       state.hoverCell = cell;
+      hoverFade?.();
+      hoverFade = motion.tween({ from: 0, to: 1, ms: 140, ease: "out", onUpdate: (v) => { state.hoverFade = v; } });
       requestDraw();
     }
     const lh = city ? null : hitLayer(mx, my);
@@ -1418,6 +1505,7 @@ async function main() {
     w, cam, state, cityById, lensById,
     // drawing
     requestDraw,
+    motion, // app/motion.js; docs/DATA_CONTRACTS.md "Motion"
     invalidate() { cache.key = null; invalidateHighlight(); requestDraw(); },
     registerOverlay(o) {
       if (!o || typeof o.draw !== "function") throw new Error("registerOverlay({id, z, space, draw})");
@@ -1469,6 +1557,8 @@ async function main() {
     shownLens,
     setLensView(fn) { lensView = typeof fn === "function" ? fn : null; app.refreshLens(); },
     refreshLens() {
+      if (shownLens() !== lastShown) lensFade(false); // a new year's colours crossfade in
+      lastShown = shownLens();
       state.band = null;
       applyLens(w, shownLens(), null);
       dock.render(shownLens(), null);

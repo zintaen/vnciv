@@ -246,7 +246,7 @@ export default {
   "Wonder": "Kỳ quan",
   "Natural wonder": "Kỳ quan thiên nhiên",
   "Great university": "Đại học lớn",
-  "Landmark": "Địa danh",
+  "Landmark": "Địa danh tiêu biểu",
   "UNESCO World Heritage site since {year}": "Di sản thế giới UNESCO từ năm {year}",
   "UNESCO World Heritage site": "Di sản thế giới UNESCO",
   "national park": "vườn quốc gia",

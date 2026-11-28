@@ -574,5 +574,53 @@
   "lon": null,
   "lat": null,
   "coord_file": null
+ },
+ {
+  "id": "dong_nai_city",
+  "date": "2026-04-30",
+  "title_en": "Đồng Nai becomes a centrally governed city",
+  "title_vi": "Đồng Nai trở thành thành phố trực thuộc trung ương",
+  "text_en": "A National Assembly resolution of 24 April 2026 made Đồng Nai province a centrally governed city, with the same area and population.",
+  "text_vi": "Ngày 30/4/2026, tỉnh Đồng Nai trở thành thành phố Đồng Nai trực thuộc trung ương theo nghị quyết Quốc hội thông qua ngày 24/4/2026, giữ nguyên diện tích và dân số.",
+  "category": "admin",
+  "cite_url": "https://vi.wikipedia.org/wiki/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29",
+  "api_url": "https://vi.wikipedia.org/w/api.php?action=query&prop=extracts|coordinates&explaintext=1&redirects=1&titles=%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29&format=json&formatversion=2",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 24 tháng 4 năm 2026, tại Kỳ họp thứ nhất, Quốc hội khoá XVI thông qua nghị quyết về thành lập thành phố Đồng Nai trực thuộc trung ương trên cơ sở toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Đồng Nai (có hiệu lực từ ngày 30 tháng 4 năm 2026).",
+  "lon": null,
+  "lat": null,
+  "coord_file": null
+ },
+ {
+  "id": "quang_ninh_city",
+  "date": "2026-09-01",
+  "title_en": "Quảng Ninh becomes a centrally governed city",
+  "title_vi": "Quảng Ninh trở thành thành phố trực thuộc trung ương",
+  "text_en": "Resolution 36/2026/QH16 made Quảng Ninh province a centrally governed city, with the same area and population.",
+  "text_vi": "Ngày 1/9/2026, tỉnh Quảng Ninh trở thành thành phố Quảng Ninh trực thuộc trung ương theo Nghị quyết 36/2026/QH16, giữ nguyên diện tích và dân số.",
+  "category": "admin",
+  "cite_url": "https://vi.wikipedia.org/wiki/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29",
+  "api_url": "https://vi.wikipedia.org/w/api.php?action=query&prop=extracts|coordinates&explaintext=1&redirects=1&titles=%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29&format=json&formatversion=2",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 24 tháng 8 năm 2026, Quốc hội ban hành Nghị quyết số 36/2026/QH16 về việc thành lập thành phố Quảng Ninh trên cơ sở toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Quảng Ninh (nghị quyết có hiệu lực từ ngày 1 tháng 9 năm 2026).",
+  "lon": null,
+  "lat": null,
+  "coord_file": null
+ },
+ {
+  "id": "bac_ninh_city",
+  "date": "2026-09-20",
+  "title_en": "Bắc Ninh becomes a centrally governed city",
+  "title_vi": "Bắc Ninh trở thành thành phố trực thuộc trung ương",
+  "text_en": "Resolution 39/2026/QH16 made Bắc Ninh province a centrally governed city, with the same area and population.",
+  "text_vi": "Ngày 20/9/2026, tỉnh Bắc Ninh trở thành thành phố Bắc Ninh trực thuộc trung ương theo Nghị quyết 39/2026/QH16, giữ nguyên diện tích và dân số.",
+  "category": "admin",
+  "cite_url": "https://vi.wikipedia.org/wiki/%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29",
+  "api_url": "https://vi.wikipedia.org/w/api.php?action=query&prop=extracts|coordinates&explaintext=1&redirects=1&titles=%C4%90%C6%A1n_v%E1%BB%8B_h%C3%A0nh_ch%C3%ADnh_c%E1%BA%A5p_t%E1%BB%89nh_%28Vi%E1%BB%87t_Nam%29&format=json&formatversion=2",
+  "raw_file": "vi_captinh.json",
+  "evidence": "Ngày 24 tháng 8 năm 2026, Quốc hội ban hành Nghị quyết 39/2026/QH16 về việc thành lập thành phố Bắc Ninh trên cơ sở toàn bộ diện tích tự nhiên và quy mô dân số của tỉnh Bắc Ninh (nghị quyết có hiệu lực từ ngày 20 tháng 9 năm 2026).",
+  "lon": null,
+  "lat": null,
+  "coord_file": null
  }
 ]

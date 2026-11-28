@@ -1,314 +1,377 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,130670.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 An Giang,63,2020,121688.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 An Giang,63,2021,120049.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 An Giang,63,2022,121759.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 An Giang,63,2023,118803.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 An Giang,63,2024,122096.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bà Rịa - Vũng Tàu,63,2019,67486.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,64585.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bà Rịa - Vũng Tàu,63,2021,61434.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bà Rịa - Vũng Tàu,63,2022,56614.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bà Rịa - Vũng Tàu,63,2023,53015.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bà Rịa - Vũng Tàu,63,2024,53153.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bình Dương,63,2019,125290.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bình Dương,63,2020,128441.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Dương,63,2021,127956.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Dương,63,2022,135884.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Dương,63,2023,137197.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Dương,63,2024,139378.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bình Phước,63,2019,55023.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bình Phước,63,2020,52097.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Phước,63,2021,51877.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Phước,63,2022,53811.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Phước,63,2023,56166.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Phước,63,2024,58662.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bình Thuận,63,2019,64947.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bình Thuận,63,2020,62270.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Thuận,63,2021,63493.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Thuận,63,2022,65520.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Thuận,63,2023,64438.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Thuận,63,2024,67060.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bình Định,63,2019,99013.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bình Định,63,2020,99404.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Định,63,2021,99735.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Định,63,2022,100849.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Định,63,2023,98136.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bình Định,63,2024,100623.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bạc Liêu,63,2019,63047.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bạc Liêu,63,2020,46889.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bạc Liêu,63,2021,46856.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bạc Liêu,63,2022,46366.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bạc Liêu,63,2023,45855.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bạc Liêu,63,2024,44655.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bắc Giang,63,2019,75694.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bắc Giang,63,2020,78052.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Giang,63,2021,77975.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Giang,63,2022,78604.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Giang,63,2023,76092.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Giang,63,2024,82547.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bắc Kạn,63,2019,13073.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bắc Kạn,63,2020,13168.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Kạn,63,2021,13496.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Kạn,63,2022,13682.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Kạn,63,2023,13246.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Kạn,63,2024,13761.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bắc Ninh,63,2019,127637.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bắc Ninh,63,2020,122714.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Ninh,63,2021,125343.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Ninh,63,2022,131182.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Ninh,63,2023,128213.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bắc Ninh,63,2024,133669.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Bến Tre,63,2019,81324.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Bến Tre,63,2020,79560.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bến Tre,63,2021,78336.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bến Tre,63,2022,78232.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bến Tre,63,2023,76392.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Bến Tre,63,2024,75794.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Cao Bằng,63,2019,18357.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Cao Bằng,63,2020,19042.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cao Bằng,63,2021,19412.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cao Bằng,63,2022,19998.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cao Bằng,63,2023,19773.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cao Bằng,63,2024,20976.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Cà Mau,63,2019,63895.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Cà Mau,63,2020,65445.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cà Mau,63,2021,66575.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cà Mau,63,2022,65801.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cà Mau,63,2023,63225.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cà Mau,63,2024,62803.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Cần Thơ,63,2019,88186.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Cần Thơ,63,2020,88126.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cần Thơ,63,2021,85827.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cần Thơ,63,2022,86696.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cần Thơ,63,2023,89575.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Cần Thơ,63,2024,92897.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Gia Lai,63,2019,56732.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Gia Lai,63,2020,56727.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Gia Lai,63,2021,59575.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Gia Lai,63,2022,59248.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Gia Lai,63,2023,58875.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Gia Lai,63,2024,58674.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hà Giang,63,2019,25537.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hà Giang,63,2020,25840.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Giang,63,2021,25277.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Giang,63,2022,26306.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Giang,63,2023,25611.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Giang,63,2024,26605.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hà Nam,63,2019,53430.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hà Nam,63,2020,53313.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nam,63,2021,52559.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nam,63,2022,52551.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nam,63,2023,52912.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nam,63,2024,54000.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hà Nội,63,2019,385223.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hà Nội,63,2020,377072.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nội,63,2021,360072.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nội,63,2022,364634.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nội,63,2023,357456.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Nội,63,2024,356918.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hà Tĩnh,63,2019,78424.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hà Tĩnh,63,2020,76381.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Tĩnh,63,2021,75581.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Tĩnh,63,2022,74777.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Tĩnh,63,2023,73600.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hà Tĩnh,63,2024,73709.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hòa Bình,63,2019,34123.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hòa Bình,63,2020,34470.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hòa Bình,63,2021,35591.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hòa Bình,63,2022,36862.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hòa Bình,63,2023,37526.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hòa Bình,63,2024,38241.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hưng Yên,63,2019,85384.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hưng Yên,63,2020,77810.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hưng Yên,63,2021,76500.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hưng Yên,63,2022,78163.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hưng Yên,63,2023,79379.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hưng Yên,63,2024,79335.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hải Dương,63,2019,115257.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hải Dương,63,2020,110928.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Dương,63,2021,108573.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Dương,63,2022,106607.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Dương,63,2023,104611.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Dương,63,2024,102453.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hải Phòng,63,2019,98337.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hải Phòng,63,2020,102471.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Phòng,63,2021,97740.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Phòng,63,2022,101395.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Phòng,63,2023,96837.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hải Phòng,63,2024,101149.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Hậu Giang,63,2019,47075.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Hậu Giang,63,2020,44873.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hậu Giang,63,2021,44414.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hậu Giang,63,2022,46190.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hậu Giang,63,2023,45663.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Hậu Giang,63,2024,47564.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Khánh Hòa,63,2019,69626.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Khánh Hòa,63,2020,64010.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Khánh Hòa,63,2021,57636.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Khánh Hòa,63,2022,57249.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Khánh Hòa,63,2023,54074.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Khánh Hòa,63,2024,54620.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Kiên Giang,63,2019,98583.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Kiên Giang,63,2020,94997.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kiên Giang,63,2021,90010.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kiên Giang,63,2022,90639.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kiên Giang,63,2023,86537.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kiên Giang,63,2024,89292.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Kon Tum,63,2019,27316.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Kon Tum,63,2020,26672.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kon Tum,63,2021,26164.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kon Tum,63,2022,26923.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kon Tum,63,2023,27463.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Kon Tum,63,2024,28215.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Lai Châu,63,2019,12379.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Lai Châu,63,2020,11248.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lai Châu,63,2021,10784.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lai Châu,63,2022,11241.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lai Châu,63,2023,11133.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lai Châu,63,2024,11476.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Long An,63,2019,73429.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Long An,63,2020,70465.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Long An,63,2021,65901.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Long An,63,2022,70873.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Long An,63,2023,69133.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Long An,63,2024,69648.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Lào Cai,63,2019,26730.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Lào Cai,63,2020,26494.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lào Cai,63,2021,27418.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lào Cai,63,2022,27255.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lào Cai,63,2023,26299.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lào Cai,63,2024,26070.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Lâm Đồng,63,2019,76835.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Lâm Đồng,63,2020,71604.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lâm Đồng,63,2021,71576.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lâm Đồng,63,2022,72973.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lâm Đồng,63,2023,72871.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lâm Đồng,63,2024,75067.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Lạng Sơn,63,2019,31174.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Lạng Sơn,63,2020,31081.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lạng Sơn,63,2021,30862.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lạng Sơn,63,2022,30439.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lạng Sơn,63,2023,30281.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Lạng Sơn,63,2024,29216.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Nam Định,63,2019,100303.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Nam Định,63,2020,102935.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nam Định,63,2021,105438.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nam Định,63,2022,106672.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nam Định,63,2023,107217.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nam Định,63,2024,106061.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Nghệ An,63,2019,158916.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Nghệ An,63,2020,157516.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nghệ An,63,2021,154705.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nghệ An,63,2022,155685.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nghệ An,63,2023,151140.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Nghệ An,63,2024,148026.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Ninh Bình,63,2019,100743.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Ninh Bình,63,2020,92366.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Bình,63,2021,90916.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Bình,63,2022,94515.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Bình,63,2023,96059.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Bình,63,2024,96428.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Ninh Thuận,63,2019,38977.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Ninh Thuận,63,2020,39238.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Thuận,63,2021,39757.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Thuận,63,2022,40051.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Thuận,63,2023,40413.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Ninh Thuận,63,2024,41861.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Phú Thọ,63,2019,65222.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Phú Thọ,63,2020,63406.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Thọ,63,2021,64671.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Thọ,63,2022,64505.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Thọ,63,2023,60317.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Thọ,63,2024,60692.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Phú Yên,63,2019,63873.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Phú Yên,63,2020,60884.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Yên,63,2021,60559.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Yên,63,2022,62039.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Yên,63,2023,62054.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Phú Yên,63,2024,62630.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Quảng Bình,63,2019,73161.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Quảng Bình,63,2020,70847.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Bình,63,2021,71756.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Bình,63,2022,71981.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Bình,63,2023,69675.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Bình,63,2024,70414.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Quảng Nam,63,2019,94111.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Quảng Nam,63,2020,95069.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Nam,63,2021,94361.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Nam,63,2022,94428.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Nam,63,2023,91897.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Nam,63,2024,92776.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Quảng Ngãi,63,2019,83387.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Quảng Ngãi,63,2020,82592.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ngãi,63,2021,82719.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ngãi,63,2022,83448.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ngãi,63,2023,84186.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ngãi,63,2024,85420.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Quảng Ninh,63,2019,87295.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Quảng Ninh,63,2020,76808.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ninh,63,2021,73763.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ninh,63,2022,71172.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ninh,63,2023,67200.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Ninh,63,2024,68547.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Quảng Trị,63,2019,48759.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Quảng Trị,63,2020,47792.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Trị,63,2021,48626.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Trị,63,2022,48827.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Trị,63,2023,47442.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Quảng Trị,63,2024,47722.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Sóc Trăng,63,2019,56146.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Sóc Trăng,63,2020,56010.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sóc Trăng,63,2021,55681.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sóc Trăng,63,2022,56982.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sóc Trăng,63,2023,57667.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sóc Trăng,63,2024,60037.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Sơn La,63,2019,32604.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Sơn La,63,2020,30931.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sơn La,63,2021,32415.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sơn La,63,2022,31296.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sơn La,63,2023,30252.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Sơn La,63,2024,30432.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+TP. Hồ Chí Minh,63,2019,488085.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 TP. Hồ Chí Minh,63,2020,465329.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 TP. Hồ Chí Minh,63,2021,387563.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 TP. Hồ Chí Minh,63,2022,427551.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 TP. Hồ Chí Minh,63,2023,416428.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 TP. Hồ Chí Minh,63,2024,430571.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Thanh Hóa,63,2019,193864.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Thanh Hóa,63,2020,185837.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thanh Hóa,63,2021,183450.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thanh Hóa,63,2022,181109.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thanh Hóa,63,2023,174197.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thanh Hóa,63,2024,173351.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Thái Bình,63,2019,131587.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Thái Bình,63,2020,119349.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Bình,63,2021,120389.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Bình,63,2022,120618.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Bình,63,2023,118043.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Bình,63,2024,118688.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Thái Nguyên,63,2019,75160.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Thái Nguyên,63,2020,70640.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Nguyên,63,2021,69222.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Nguyên,63,2022,69200.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Nguyên,63,2023,67821.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thái Nguyên,63,2024,65135.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Thừa Thiên Huế,63,2019,84280.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Thừa Thiên Huế,63,2020,78584.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thừa Thiên Huế,63,2021,76078.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thừa Thiên Huế,63,2022,77116.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thừa Thiên Huế,63,2023,78424.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Thừa Thiên Huế,63,2024,79105.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Tiền Giang,63,2019,89919.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Tiền Giang,63,2020,86445.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tiền Giang,63,2021,84549.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tiền Giang,63,2022,87096.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tiền Giang,63,2023,85721.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tiền Giang,63,2024,87753.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Trà Vinh,63,2019,64078.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Trà Vinh,63,2020,66485.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Trà Vinh,63,2021,65731.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Trà Vinh,63,2022,68154.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Trà Vinh,63,2023,67089.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Trà Vinh,63,2024,68083.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Tuyên Quang,63,2019,33813.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Tuyên Quang,63,2020,31048.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tuyên Quang,63,2021,31672.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tuyên Quang,63,2022,32404.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tuyên Quang,63,2023,34382.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tuyên Quang,63,2024,34609.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Tây Ninh,63,2019,78120.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Tây Ninh,63,2020,74628.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tây Ninh,63,2021,75596.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tây Ninh,63,2022,77132.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tây Ninh,63,2023,76599.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Tây Ninh,63,2024,76112.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Vĩnh Long,63,2019,69691.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Vĩnh Long,63,2020,71393.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Long,63,2021,71990.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Long,63,2022,73896.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Long,63,2023,72269.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Long,63,2024,72812.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Vĩnh Phúc,63,2019,71873.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Vĩnh Phúc,63,2020,69847.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Phúc,63,2021,67688.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Phúc,63,2022,68671.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Phúc,63,2023,69978.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Vĩnh Phúc,63,2024,72541.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Yên Bái,63,2019,33364.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Yên Bái,63,2020,32994.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Yên Bái,63,2021,32744.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Yên Bái,63,2022,32306.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Yên Bái,63,2023,30875.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Yên Bái,63,2024,30146.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Điện Biên,63,2019,16425.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Điện Biên,63,2020,17292.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Điện Biên,63,2021,17958.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Điện Biên,63,2022,17555.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Điện Biên,63,2023,16860.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Điện Biên,63,2024,16743.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Đà Nẵng,63,2019,81762.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Đà Nẵng,63,2020,80576.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đà Nẵng,63,2021,79149.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đà Nẵng,63,2022,86299.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đà Nẵng,63,2023,82723.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đà Nẵng,63,2024,90935.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Đắk Lắk,63,2019,84697.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Đắk Lắk,63,2020,78958.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Lắk,63,2021,80970.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Lắk,63,2022,82455.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Lắk,63,2023,81378.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Lắk,63,2024,83952.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Đắk Nông,63,2019,26366.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Đắk Nông,63,2020,26224.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Nông,63,2021,26489.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Nông,63,2022,27327.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Nông,63,2023,27253.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đắk Nông,63,2024,28018.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Đồng Nai,63,2019,164379.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Đồng Nai,63,2020,160574.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Nai,63,2021,156599.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Nai,63,2022,158981.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Nai,63,2023,157580.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Nai,63,2024,163095.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
+Đồng Tháp,63,2019,117503.0,non-farm individual business establishments,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.54.px (PX-Web V05.54, 2019)",final
 Đồng Tháp,63,2020,109789.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Tháp,63,2021,109564.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final
 Đồng Tháp,63,2022,110928.0,non-farm individual business establishments,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.520-521)",final

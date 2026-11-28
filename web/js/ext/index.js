@@ -5,7 +5,8 @@
 // layers/: static map layers (roads, rail, ports, forts, wonders, trade routes) and their toggles.
 // Feature extensions (communes, everyday places, environment, society, timeline): a missing folder is skipped.
 const MODULES = ["./cityView/index.js", "./advisors/index.js", "./layers/index.js", "./communes/index.js", "./poi/index.js",
-  "./environment/index.js", "./society/index.js", "./timeline/index.js"];
+  "./environment/index.js", "./society/index.js", "./timeline/index.js", "./motion/index.js", "./traffic/index.js", "./view3d/index.js",
+  "./daynight/index.js", "./tour/index.js"];
 
 export async function installExtensions(app, list = MODULES) {
   const loads = list.map((spec) => import(spec).then((m) => ({ m }), (err) => ({ err })));

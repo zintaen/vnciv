@@ -157,7 +157,7 @@ export class Camera {
 // van Wijk & Nuij, "Smooth and efficient zooming and panning" (2003): the path through (centre, view width)
 // space that feels like constant speed. Returns p(t) → [x, y, viewWidth] for t in 0..1, with p.S its length.
 const RHO = 1.3; // < √2 zooms out a little less than the "optimal" path, which suits a map this size
-function zoomPath(x0, y0, w0, x1, y1, w1) {
+export function zoomPath(x0, y0, w0, x1, y1, w1) {
   const dx = x1 - x0, dy = y1 - y0, d2 = dx * dx + dy * dy;
   const r2 = RHO * RHO, r4 = r2 * r2;
   let p;

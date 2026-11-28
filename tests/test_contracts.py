@@ -30,7 +30,7 @@ SPEC = [
     ("states[]", lambda: load("states"), ECON | S34 | {"fips", "abbr", "name", "former", "ranks", "label", "land", "energy"},
      {"growth_9m2026", "industry_jobs_2026"}),
     ("nation", lambda: [load("nation")], {"vintage", "year", "gdp_vintage", "currency", "nation", "yields", "industries",
-     "gdp_industries", "jobs_source", "years_note"}, set()),
+     "gdp_industries", "jobs_source", "years_note", "series"}, set()),
     ("nation.nation", lambda: [load("nation")["nation"]], ECON | S34 | {"cities_basis", "employed_lfs", "informal",
      "life_exp", "gdp_provinces"}, S34),
     ("lenses", lambda: [load("lenses")], {"vintage", "groups", "lenses"}, set()),
@@ -75,11 +75,11 @@ SPEC = [
      "metrics", "x", "y", "cell", "cells", "county", "cbsa", "state", "curated"}, {"short_en"}),
     ("disasters", lambda: [load("disasters")], V | {"sources", "vintage", "typhoons"}, set()),
     ("disasters.typhoons", lambda: [load("disasters")["typhoons"]], {"since", "radius_km", "min_kt", "strong_kt", "rule",
-     "counties", "states", "national"}, set()),
+     "counties", "states", "national", "provisional_seasons"}, set()),
     ("disasters.typhoons.national", lambda: [load("disasters")["typhoons"]["national"]], {"storms", "strong", "by_year",
      "strongest", "recent"}, set()),
     ("disasters.storm", lambda: load("disasters")["typhoons"]["national"]["strongest"], {"name", "season", "date",
-     "max_kt", "strong", "hexes", "provinces"}, set()),
+     "max_kt", "strong", "hexes", "provinces", "provisional"}, set()),
     ("sources[]", lambda: load("sources"), {"id", "title", "publisher", "homepage", "license", "description", "used_for",
      "vintage", "files"}, set()),
     ("communes", lambda: [load("communes")], V | {"year", "sources", "vintage", "rules", "kinds", "q", "unit_km", "count",
@@ -101,7 +101,7 @@ SPEC = [
     ("timeline", lambda: [load("timeline")], V | {"sources", "years", "fx", "fx_used", "merger", "series", "storms",
      "events", "note"}, set()),
     ("timeline.series{}", lambda: list(load("timeline")["series"].values()), {"unit", "source", "lens", "levels",
-     "lens_values", "status", "status_levels"}, {"status_levels"}),
+     "lens_values", "status", "status_levels", "note"}, {"status_levels"}),
 ]
 
 LENS_IDS = ("density urban growth income gdp_pc poverty gini fdi trained literacy hdi unemployment productivity pci "

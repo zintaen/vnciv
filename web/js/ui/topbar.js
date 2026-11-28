@@ -12,7 +12,7 @@ export function renderTopbar(nation) {
     const tip = `${name}: ${d.description}${d.key === "gold" ? ` ${statusNote("gold")}` : ""} ${t("Click for the report.")}`; // the national GDP is not the provinces' sum
     return `<button type="button" class="yield" data-report="${esc(d.key)}" aria-expanded="false" aria-haspopup="dialog" aria-controls="yield-report"
       title="${esc(tip)}" aria-label="${esc(t("{name}: {value}. Open the report", { name, value }))}">
-      <span class="ico" style="color:${esc(d.color)}">${ic}</span><span style="color:${esc(d.color)}">${esc(value)}</span><span class="caret" aria-hidden="true"></span></button>`;
+      <span class="ico" style="color:${esc(d.color)}">${ic}</span><span style="color:${esc(d.color)}"${Number.isFinite(d.value) ? ` data-motion-num="${d.value}"` : ""}>${esc(value)}</span><span class="caret" aria-hidden="true"></span></button>`;
   });
   const el = document.getElementById("yields");
   el.innerHTML = items.join("");

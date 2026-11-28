@@ -1,316 +1,549 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,3897.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 An Giang,63,2020,3918.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 An Giang,63,2021,4282.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 An Giang,63,2022,4500.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 An Giang,63,2023,4666.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 An Giang,63,2024,5027.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bà Rịa - Vũng Tàu,63,2019,8957.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,9680.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bà Rịa - Vũng Tàu,63,2021,10412.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bà Rịa - Vũng Tàu,63,2022,10621.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bà Rịa - Vũng Tàu,63,2023,11805.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bà Rịa - Vũng Tàu,63,2024,12775.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bình Dương,63,2019,24071.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bình Dương,63,2020,27406.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Dương,63,2021,31086.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Dương,63,2022,34056.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Dương,63,2023,37928.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Dương,63,2024,43062.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bình Phước,63,2019,4413.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bình Phước,63,2020,4564.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Phước,63,2021,5134.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Phước,63,2022,4907.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Phước,63,2023,5448.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Phước,63,2024,5878.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bình Thuận,63,2019,4115.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bình Thuận,63,2020,4169.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Thuận,63,2021,4584.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Thuận,63,2022,4454.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Thuận,63,2023,4668.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Thuận,63,2024,5096.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bình Định,63,2019,5793.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bình Định,63,2020,5850.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Định,63,2021,6302.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Định,63,2022,6812.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Định,63,2023,7218.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bình Định,63,2024,7677.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bạc Liêu,63,2019,1858.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bạc Liêu,63,2020,1832.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bạc Liêu,63,2021,2026.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bạc Liêu,63,2022,2135.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bạc Liêu,63,2023,2294.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bạc Liêu,63,2024,2694.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bắc Giang,63,2019,5058.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bắc Giang,63,2020,5685.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Giang,63,2021,6376.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Giang,63,2022,6437.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Giang,63,2023,7289.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Giang,63,2024,8652.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bắc Kạn,63,2019,529.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bắc Kạn,63,2020,519.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Kạn,63,2021,547.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Kạn,63,2022,569.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Kạn,63,2023,615.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Kạn,63,2024,738.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bắc Ninh,63,2019,8929.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bắc Ninh,63,2020,10322.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Ninh,63,2021,10983.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Ninh,63,2022,11958.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Ninh,63,2023,13377.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bắc Ninh,63,2024,15284.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Bến Tre,63,2019,3192.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Bến Tre,63,2020,3068.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bến Tre,63,2021,3327.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bến Tre,63,2022,3248.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bến Tre,63,2023,3436.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Bến Tre,63,2024,3793.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Cao Bằng,63,2019,865.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Cao Bằng,63,2020,918.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cao Bằng,63,2021,977.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cao Bằng,63,2022,996.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cao Bằng,63,2023,1049.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cao Bằng,63,2024,1090.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Cà Mau,63,2019,3345.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Cà Mau,63,2020,3265.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cà Mau,63,2021,3459.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cà Mau,63,2022,3662.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cà Mau,63,2023,3831.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cà Mau,63,2024,3927.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Cần Thơ,63,2019,8087.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Cần Thơ,63,2020,8225.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cần Thơ,63,2021,9356.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cần Thơ,63,2022,9660.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cần Thơ,63,2023,9744.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Cần Thơ,63,2024,10835.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Gia Lai,63,2019,3332.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Gia Lai,63,2020,3614.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Gia Lai,63,2021,3977.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Gia Lai,63,2022,4083.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Gia Lai,63,2023,4331.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Gia Lai,63,2024,4705.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hà Giang,63,2019,798.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hà Giang,63,2020,927.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Giang,63,2021,1003.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Giang,63,2022,952.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Giang,63,2023,1041.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Giang,63,2024,1124.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hà Nam,63,2019,3482.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hà Nam,63,2020,3641.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nam,63,2021,4039.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nam,63,2022,4342.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nam,63,2023,4679.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nam,63,2024,5056.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hà Nội,63,2019,141484.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hà Nội,63,2020,144808.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nội,63,2021,147454.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nội,63,2022,150522.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nội,63,2023,155302.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Nội,63,2024,162481.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hà Tĩnh,63,2019,4156.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hà Tĩnh,63,2020,4024.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Tĩnh,63,2021,4328.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Tĩnh,63,2022,4295.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Tĩnh,63,2023,4590.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hà Tĩnh,63,2024,4991.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hòa Bình,63,2019,1894.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hòa Bình,63,2020,1909.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hòa Bình,63,2021,2080.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hòa Bình,63,2022,2091.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hòa Bình,63,2023,2184.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hòa Bình,63,2024,2295.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hưng Yên,63,2019,5848.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hưng Yên,63,2020,6348.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hưng Yên,63,2021,7054.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hưng Yên,63,2022,7100.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hưng Yên,63,2023,7798.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hưng Yên,63,2024,8655.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hải Dương,63,2019,7922.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hải Dương,63,2020,8107.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Dương,63,2021,8522.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Dương,63,2022,8624.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Dương,63,2023,9142.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Dương,63,2024,9930.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hải Phòng,63,2019,16012.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hải Phòng,63,2020,15733.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Phòng,63,2021,17499.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Phòng,63,2022,17340.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Phòng,63,2023,18087.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hải Phòng,63,2024,19236.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Hậu Giang,63,2019,1727.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Hậu Giang,63,2020,1820.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hậu Giang,63,2021,2054.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hậu Giang,63,2022,2157.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hậu Giang,63,2023,2393.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Hậu Giang,63,2024,2780.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Khánh Hòa,63,2019,7780.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Khánh Hòa,63,2020,8419.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Khánh Hòa,63,2021,8881.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Khánh Hòa,63,2022,9365.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Khánh Hòa,63,2023,10096.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Khánh Hòa,63,2024,11188.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Kiên Giang,63,2019,6769.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Kiên Giang,63,2020,6608.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kiên Giang,63,2021,7252.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kiên Giang,63,2022,7619.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kiên Giang,63,2023,8311.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kiên Giang,63,2024,9129.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Kon Tum,63,2019,1413.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Kon Tum,63,2020,1412.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kon Tum,63,2021,1573.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kon Tum,63,2022,1608.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kon Tum,63,2023,1743.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Kon Tum,63,2024,1913.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Lai Châu,63,2019,796.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Lai Châu,63,2020,797.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lai Châu,63,2021,854.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lai Châu,63,2022,888.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lai Châu,63,2023,926.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lai Châu,63,2024,1022.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Long An,63,2019,7278.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Long An,63,2020,7974.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Long An,63,2021,9067.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Long An,63,2022,9582.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Long An,63,2023,10682.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Long An,63,2024,12313.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Lào Cai,63,2019,1959.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Lào Cai,63,2020,2317.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lào Cai,63,2021,2523.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lào Cai,63,2022,2539.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lào Cai,63,2023,2817.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lào Cai,63,2024,3140.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Lâm Đồng,63,2019,5232.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Lâm Đồng,63,2020,5389.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lâm Đồng,63,2021,6107.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lâm Đồng,63,2022,5925.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lâm Đồng,63,2023,6184.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lâm Đồng,63,2024,6913.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Lạng Sơn,63,2019,1353.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Lạng Sơn,63,2020,1647.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lạng Sơn,63,2021,1827.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lạng Sơn,63,2022,1936.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lạng Sơn,63,2023,2205.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Lạng Sơn,63,2024,2449.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Nam Định,63,2019,5796.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Nam Định,63,2020,5796.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nam Định,63,2021,6393.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nam Định,63,2022,5996.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nam Định,63,2023,6389.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nam Định,63,2024,7015.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Nghệ An,63,2019,10180.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Nghệ An,63,2020,10244.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nghệ An,63,2021,11182.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nghệ An,63,2022,11013.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nghệ An,63,2023,11791.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Nghệ An,63,2024,12804.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Ninh Bình,63,2019,3079.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Ninh Bình,63,2020,3521.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Bình,63,2021,3970.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Bình,63,2022,4156.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Bình,63,2023,4483.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Bình,63,2024,4901.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Ninh Thuận,63,2019,1879.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Ninh Thuận,63,2020,2180.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Thuận,63,2021,2504.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Thuận,63,2022,2476.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Thuận,63,2023,2569.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Ninh Thuận,63,2024,2753.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Phú Thọ,63,2019,4754.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Phú Thọ,63,2020,4530.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Thọ,63,2021,5110.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Thọ,63,2022,5114.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Thọ,63,2023,5439.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Thọ,63,2024,5990.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Phú Yên,63,2019,2250.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Phú Yên,63,2020,2448.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Yên,63,2021,2606.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Yên,63,2022,2608.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Yên,63,2023,2699.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Phú Yên,63,2024,2888.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Quảng Bình,63,2019,3684.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Quảng Bình,63,2020,3776.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Bình,63,2021,4079.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Bình,63,2022,4039.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Bình,63,2023,4407.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Bình,63,2024,4726.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Quảng Nam,63,2019,6936.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Quảng Nam,63,2020,6806.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Nam,63,2021,7416.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Nam,63,2022,7171.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Nam,63,2023,7308.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Nam,63,2024,8009.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Quảng Ngãi,63,2019,4714.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Quảng Ngãi,63,2020,4491.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ngãi,63,2021,4767.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ngãi,63,2022,4763.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ngãi,63,2023,4944.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ngãi,63,2024,5080.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Quảng Ninh,63,2019,7957.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Quảng Ninh,63,2020,7476.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ninh,63,2021,8201.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ninh,63,2022,8183.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ninh,63,2023,8661.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Ninh,63,2024,9451.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Quảng Trị,63,2019,2325.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Quảng Trị,63,2020,2391.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Trị,63,2021,2676.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Trị,63,2022,2749.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Trị,63,2023,2805.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Quảng Trị,63,2024,2962.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Sóc Trăng,63,2019,2260.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Sóc Trăng,63,2020,2365.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sóc Trăng,63,2021,2491.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sóc Trăng,63,2022,2724.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sóc Trăng,63,2023,2907.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sóc Trăng,63,2024,3169.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Sơn La,63,2019,1511.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Sơn La,63,2020,1590.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sơn La,63,2021,1822.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sơn La,63,2022,1752.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sơn La,63,2023,1811.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Sơn La,63,2024,1892.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+TP. Hồ Chí Minh,63,2019,218588.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 TP. Hồ Chí Minh,63,2020,216293.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 TP. Hồ Chí Minh,63,2021,213721.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 TP. Hồ Chí Minh,63,2022,219090.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 TP. Hồ Chí Minh,63,2023,230824.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 TP. Hồ Chí Minh,63,2024,243622.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Thanh Hóa,63,2019,10850.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Thanh Hóa,63,2020,11541.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thanh Hóa,63,2021,13352.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thanh Hóa,63,2022,13185.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thanh Hóa,63,2023,14106.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thanh Hóa,63,2024,15926.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Thái Bình,63,2019,4263.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Thái Bình,63,2020,4459.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Bình,63,2021,5108.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Bình,63,2022,5195.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Bình,63,2023,5836.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Bình,63,2024,7171.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Thái Nguyên,63,2019,3593.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Thái Nguyên,63,2020,3814.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Nguyên,63,2021,4343.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Nguyên,63,2022,4582.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Nguyên,63,2023,4921.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thái Nguyên,63,2024,5379.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Thừa Thiên Huế,63,2019,3812.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Thừa Thiên Huế,63,2020,4022.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thừa Thiên Huế,63,2021,4382.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thừa Thiên Huế,63,2022,4485.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thừa Thiên Huế,63,2023,4746.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Thừa Thiên Huế,63,2024,5041.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Tiền Giang,63,2019,4385.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Tiền Giang,63,2020,4426.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tiền Giang,63,2021,4659.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tiền Giang,63,2022,4848.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tiền Giang,63,2023,5080.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tiền Giang,63,2024,5522.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Trà Vinh,63,2019,1843.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Trà Vinh,63,2020,1931.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Trà Vinh,63,2021,2104.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Trà Vinh,63,2022,2189.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Trà Vinh,63,2023,2360.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Trà Vinh,63,2024,2626.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Tuyên Quang,63,2019,1152.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Tuyên Quang,63,2020,1219.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tuyên Quang,63,2021,1362.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tuyên Quang,63,2022,1394.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tuyên Quang,63,2023,1490.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tuyên Quang,63,2024,1591.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Tây Ninh,63,2019,3575.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Tây Ninh,63,2020,3744.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tây Ninh,63,2021,4109.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tây Ninh,63,2022,4243.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tây Ninh,63,2023,4442.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Tây Ninh,63,2024,4657.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Vĩnh Long,63,2019,2188.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Vĩnh Long,63,2020,2237.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Long,63,2021,2397.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Long,63,2022,2509.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Long,63,2023,2578.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Long,63,2024,2770.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Vĩnh Phúc,63,2019,5863.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Vĩnh Phúc,63,2020,6611.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Phúc,63,2021,7409.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Phúc,63,2022,7137.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Phúc,63,2023,7901.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Vĩnh Phúc,63,2024,8898.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Yên Bái,63,2019,1268.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Yên Bái,63,2020,1352.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Yên Bái,63,2021,1531.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Yên Bái,63,2022,1546.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Yên Bái,63,2023,1663.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Yên Bái,63,2024,1864.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Điện Biên,63,2019,940.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Điện Biên,63,2020,894.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Điện Biên,63,2021,963.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Điện Biên,63,2022,946.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Điện Biên,63,2023,996.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Điện Biên,63,2024,1104.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Đà Nẵng,63,2019,17104.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Đà Nẵng,63,2020,18885.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đà Nẵng,63,2021,20393.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đà Nẵng,63,2022,20763.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đà Nẵng,63,2023,21179.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đà Nẵng,63,2024,22115.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Đắk Lắk,63,2019,5468.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Đắk Lắk,63,2020,5785.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Lắk,63,2021,6282.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Lắk,63,2022,6439.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Lắk,63,2023,6870.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Lắk,63,2024,7934.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Đắk Nông,63,2019,1466.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Đắk Nông,63,2020,1701.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Nông,63,2021,1893.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Nông,63,2022,1995.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Nông,63,2023,2137.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đắk Nông,63,2024,2315.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Đồng Nai,63,2019,19176.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Đồng Nai,63,2020,19409.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Nai,63,2021,22945.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Nai,63,2022,23398.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Nai,63,2023,25372.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Nai,63,2024,28378.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+Đồng Tháp,63,2019,3155.0,active enterprises having business outcomes,"https://pxweb.nso.gov.vn/api/v1/vi/Doanh%20nghi%E1%BB%87p/V05.08.px (PX-Web V05.08, 2019)",final
 Đồng Tháp,63,2020,3273.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Tháp,63,2021,3445.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Tháp,63,2022,3648.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Tháp,63,2023,3701.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
 Đồng Tháp,63,2024,4214.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.379-380)",final
+An Giang,34,2020,10526.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+An Giang,34,2021,11534.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+An Giang,34,2022,12119.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+An Giang,34,2023,12977.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+An Giang,34,2024,14156.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Bắc Ninh,34,2020,16007.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Bắc Ninh,34,2021,17359.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Bắc Ninh,34,2022,18395.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Bắc Ninh,34,2023,20666.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Bắc Ninh,34,2024,23936.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cao Bằng,34,2020,918.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cao Bằng,34,2021,977.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cao Bằng,34,2022,996.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cao Bằng,34,2023,1049.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cao Bằng,34,2024,1090.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cà Mau,34,2020,5097.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cà Mau,34,2021,5485.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cà Mau,34,2022,5797.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cà Mau,34,2023,6125.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cà Mau,34,2024,6621.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cần Thơ,34,2020,12410.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cần Thơ,34,2021,13901.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cần Thơ,34,2022,14541.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cần Thơ,34,2023,15044.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Cần Thơ,34,2024,16784.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Gia Lai,34,2020,9464.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Gia Lai,34,2021,10279.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Gia Lai,34,2022,10895.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Gia Lai,34,2023,11549.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Gia Lai,34,2024,12382.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Huế,34,2020,4022.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Huế,34,2021,4382.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Huế,34,2022,4485.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Huế,34,2023,4746.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Huế,34,2024,5041.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Nội,34,2020,144808.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Nội,34,2021,147454.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Nội,34,2022,150522.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Nội,34,2023,155302.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Nội,34,2024,162481.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Tĩnh,34,2020,4024.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Tĩnh,34,2021,4328.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Tĩnh,34,2022,4295.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Tĩnh,34,2023,4590.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hà Tĩnh,34,2024,4991.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hưng Yên,34,2020,10807.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hưng Yên,34,2021,12162.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hưng Yên,34,2022,12295.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hưng Yên,34,2023,13634.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hưng Yên,34,2024,15826.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hải Phòng,34,2020,23840.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hải Phòng,34,2021,26021.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hải Phòng,34,2022,25964.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hải Phòng,34,2023,27229.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Hải Phòng,34,2024,29166.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Khánh Hòa,34,2020,10599.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Khánh Hòa,34,2021,11385.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Khánh Hòa,34,2022,11841.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Khánh Hòa,34,2023,12665.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Khánh Hòa,34,2024,13941.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lai Châu,34,2020,797.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lai Châu,34,2021,854.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lai Châu,34,2022,888.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lai Châu,34,2023,926.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lai Châu,34,2024,1022.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lào Cai,34,2020,3669.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lào Cai,34,2021,4054.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lào Cai,34,2022,4085.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lào Cai,34,2023,4480.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lào Cai,34,2024,5004.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lâm Đồng,34,2020,11259.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lâm Đồng,34,2021,12584.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lâm Đồng,34,2022,12374.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lâm Đồng,34,2023,12989.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lâm Đồng,34,2024,14324.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lạng Sơn,34,2020,1647.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lạng Sơn,34,2021,1827.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lạng Sơn,34,2022,1936.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lạng Sơn,34,2023,2205.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Lạng Sơn,34,2024,2449.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Nghệ An,34,2020,10244.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Nghệ An,34,2021,11182.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Nghệ An,34,2022,11013.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Nghệ An,34,2023,11791.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Nghệ An,34,2024,12804.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Ninh Bình,34,2020,12958.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Ninh Bình,34,2021,14402.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Ninh Bình,34,2022,14494.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Ninh Bình,34,2023,15551.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Ninh Bình,34,2024,16972.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Phú Thọ,34,2020,13050.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Phú Thọ,34,2021,14599.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Phú Thọ,34,2022,14342.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Phú Thọ,34,2023,15524.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Phú Thọ,34,2024,17183.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ngãi,34,2020,5903.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ngãi,34,2021,6340.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ngãi,34,2022,6371.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ngãi,34,2023,6687.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ngãi,34,2024,6993.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ninh,34,2020,7476.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ninh,34,2021,8201.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ninh,34,2022,8183.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ninh,34,2023,8661.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Ninh,34,2024,9451.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Trị,34,2020,6167.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Trị,34,2021,6755.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Trị,34,2022,6788.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Trị,34,2023,7212.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Quảng Trị,34,2024,7688.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Sơn La,34,2020,1590.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Sơn La,34,2021,1822.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Sơn La,34,2022,1752.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Sơn La,34,2023,1811.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Sơn La,34,2024,1892.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+TP. Hồ Chí Minh,34,2020,253379.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+TP. Hồ Chí Minh,34,2021,255219.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+TP. Hồ Chí Minh,34,2022,263767.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+TP. Hồ Chí Minh,34,2023,280557.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+TP. Hồ Chí Minh,34,2024,299459.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thanh Hóa,34,2020,11541.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thanh Hóa,34,2021,13352.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thanh Hóa,34,2022,13185.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thanh Hóa,34,2023,14106.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thanh Hóa,34,2024,15926.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thái Nguyên,34,2020,4333.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thái Nguyên,34,2021,4890.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thái Nguyên,34,2022,5151.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thái Nguyên,34,2023,5536.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Thái Nguyên,34,2024,6117.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tuyên Quang,34,2020,2146.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tuyên Quang,34,2021,2365.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tuyên Quang,34,2022,2346.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tuyên Quang,34,2023,2531.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tuyên Quang,34,2024,2715.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tây Ninh,34,2020,11718.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tây Ninh,34,2021,13176.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tây Ninh,34,2022,13825.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tây Ninh,34,2023,15124.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Tây Ninh,34,2024,16970.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Vĩnh Long,34,2020,7236.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Vĩnh Long,34,2021,7828.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Vĩnh Long,34,2022,7946.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Vĩnh Long,34,2023,8374.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Vĩnh Long,34,2024,9189.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Điện Biên,34,2020,894.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Điện Biên,34,2021,963.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Điện Biên,34,2022,946.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Điện Biên,34,2023,996.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Điện Biên,34,2024,1104.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đà Nẵng,34,2020,25691.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đà Nẵng,34,2021,27809.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đà Nẵng,34,2022,27934.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đà Nẵng,34,2023,28487.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đà Nẵng,34,2024,30124.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đắk Lắk,34,2020,8233.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đắk Lắk,34,2021,8888.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đắk Lắk,34,2022,9047.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đắk Lắk,34,2023,9569.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đắk Lắk,34,2024,10822.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Nai,34,2020,23973.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Nai,34,2021,28079.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Nai,34,2022,28305.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Nai,34,2023,30820.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Nai,34,2024,34256.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Tháp,34,2020,7699.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Tháp,34,2021,8104.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Tháp,34,2022,8496.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Tháp,34,2023,8781.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final
+Đồng Tháp,34,2024,9736.0,active enterprises having business outcomes,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, Statistical Yearbook 2025, table p.1258-1259)",final

@@ -85,8 +85,9 @@ export const airportName = (s) => (VI && AIRPORT_VI.get(s)) || String(s ?? "").s
 export const esc = (s) =>
   String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 
-// The six centrally-run cities (thành phố trực thuộc trung ương) are provinces in the data but not "tỉnh".
-const CENTRAL = new Set(["HN", "HCM", "HPH", "DNA", "CTH", "HUE"]);
+// The nine centrally-run cities (thành phố trực thuộc trung ương): the six of July 2025, plus Đồng Nai (30 Apr 2026),
+// Quảng Ninh (1 Sep 2026, Resolution 36/2026/QH16) and Bắc Ninh (20 Sep 2026, Resolution 39/2026/QH16).
+const CENTRAL = new Set(["HN", "HCM", "HPH", "DNA", "CTH", "HUE", "DNI", "QNI", "BNI"]);
 /** What one province is called: "Tỉnh" / "Thành phố" (vi), "Province" / "Municipality" (en). Takes a state or abbr. */
 export function kindOf(s) {
   const city = CENTRAL.has(typeof s === "string" ? s : s?.abbr);

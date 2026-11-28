@@ -28,14 +28,29 @@ EVENTS = [
 ]
 
 
+# Definition breaks inside a series, from the footnotes of the cited tables (shown with the series).
+LABOUR_BREAK = ("From 2021 NSO computes labour figures under ICLS19: people working only to produce goods for their own "
+                "use in agriculture, forestry and fishery no longer count as employed (ICLS13 before 2021; Statistical "
+                "Yearbook 2025, p.151 footnote). 2019-2020 and 2021 onward are not strictly comparable.")
+BREAKS = {k: LABOUR_BREAK for k in ("labour_force", "employed_workers", "unemployment_rate", "underemployment_rate",
+                                     "informal_employment_rate", "trained_labour_share", "labour_productivity")}
+BREAKS["hdi"] = ("HDI from 2020 uses the World Bank's 2017 PPPs (Statistical Yearbook 2025, p.1485 footnote); 2019 comes "
+                 "from the 2022 yearbook.")
+BREAKS["population"] = ("Average population adjusted to the Population and Housing Census of 1 April 2019 "
+                        "(Statistical Yearbook 2019 footnote).")
+
+
 def fx_by_year():
     d = json.loads((STATS / "wb_fx.json").read_text())
     return {int(r["date"]): r["value"] for r in d[1] if r["value"]}
 
 
+MONEY = {"income_per_capita_monthly", "grdp_per_capita", "labour_productivity"}   # VND: need that year's rate
+
+
 # series file → (lens id, converter(value, year) → lens units); converters use fx(year) for VND money.
 def _lens_map(fx):
-    usd = lambda vnd, y: vnd / fx(y)
+    usd = lambda vnd, y: vnd / fx(y)   # callers skip years fx() returns None for
     return {
         "income_per_capita_monthly": ("income", lambda v, y: usd(v * 1000 * 12, y)),
         "grdp_per_capita": ("gdp_pc", lambda v, y: usd(v * 1e6, y)),
@@ -70,7 +85,7 @@ def read_series(fx):
         lens, conv = lens_of.get(f.stem, (None, None))
         s = out.setdefault(f.stem, {"unit": rows[0].get("unit", ""), "source": rows[0].get("source_url", ""),
                                     "lens": lens, "levels": {}, "lens_values": {} if lens else None, "status": {},
-                                    "status_levels": {}})
+                                    "status_levels": {}, "note": BREAKS.get(f.stem)})
         for r in rows:
             lvl = r["level"]
             name = NAME_FIX.get(r["province_std"], r["province_std"])
@@ -80,7 +95,7 @@ def read_series(fx):
                 continue
             v = float(r["value"])
             s["levels"].setdefault(lvl, {}).setdefault(key, {})[year] = v
-            if conv:
+            if conv and (f.stem not in MONEY or fx(int(year)) is not None):
                 s["lens_values"].setdefault(lvl, {}).setdefault(key, {})[year] = round(conv(v, int(year)), 6)
             if r.get("status"):
                 s["status_levels"].setdefault(lvl, {})[year] = r["status"]
@@ -102,15 +117,18 @@ def build():
     rates = fx_by_year()
     fx_used = {}
 
-    def fx(year):  # that year's World Bank rate, else the latest earlier one (recorded in fx_used)
-        y = max((k for k in rates if k <= year), default=min(rates))
+    def fx(year):  # that year's World Bank rate, else the latest earlier one (recorded in fx_used); None before the
+        # first published rate (a later year's rate would misstate it), so that year gets no USD lens value
+        if year < min(rates):
+            return None
+        y = max(k for k in rates if k <= year)
         fx_used[str(year)] = y
         return rates[y]
 
     series = read_series(fx)
     # population (63 former provinces, people), the same series the cities use (PX average population 2019–2025)
     pop = {iso: dict(sorted((r.get("pop_series") or {}).items())) for iso, r in st.items()}
-    series["population"] = {"unit": "people", "source": "NSO PX-Web V02.03-07", "lens": None,
+    series["population"] = {"unit": "people", "source": "NSO PX-Web V02.03-07", "lens": None, "note": BREAKS["population"],
                             "levels": {"63": pop}, "lens_values": None, "status": {}}
     years = sorted({int(y) for s in series.values() for lv in s["levels"].values() for v in lv.values() for y in v
                     if int(y) >= FIRST_YEAR})

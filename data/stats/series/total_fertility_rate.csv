@@ -1,315 +1,441 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,1.85,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 An Giang,63,2020,1.9,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+An Giang,63,2021,1.94,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 An Giang,63,2022,1.85,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 An Giang,63,2023,1.81,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 An Giang,63,2024,1.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 An Giang,63,2025,1.77,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bà Rịa - Vũng Tàu,63,2019,1.87,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bà Rịa - Vũng Tàu,63,2020,1.94,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bà Rịa - Vũng Tàu,63,2021,1.78,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bà Rịa - Vũng Tàu,63,2022,1.91,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bà Rịa - Vũng Tàu,63,2023,1.61,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bà Rịa - Vũng Tàu,63,2024,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bà Rịa - Vũng Tàu,63,2025,1.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bình Dương,63,2019,1.54,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bình Dương,63,2020,1.63,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bình Dương,63,2021,1.62,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bình Dương,63,2022,1.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Dương,63,2023,1.63,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Dương,63,2024,1.57,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Dương,63,2025,1.5,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bình Phước,63,2019,2.27,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bình Phước,63,2020,2.25,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bình Phước,63,2021,2.21,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bình Phước,63,2022,2.29,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Phước,63,2023,2.17,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Phước,63,2024,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Phước,63,2025,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bình Thuận,63,2019,1.91,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bình Thuận,63,2020,1.96,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bình Thuận,63,2021,2.06,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bình Thuận,63,2022,1.97,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Thuận,63,2023,2.01,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Thuận,63,2024,1.97,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Thuận,63,2025,1.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bình Định,63,2019,2.2,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bình Định,63,2020,2.24,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bình Định,63,2021,2.22,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bình Định,63,2022,2.02,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Định,63,2023,1.97,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Định,63,2024,2.01,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bình Định,63,2025,1.83,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bạc Liêu,63,2019,1.61,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bạc Liêu,63,2020,1.66,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bạc Liêu,63,2021,1.56,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bạc Liêu,63,2022,1.46,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bạc Liêu,63,2023,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bạc Liêu,63,2024,1.54,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bạc Liêu,63,2025,1.34,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bắc Giang,63,2019,2.31,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bắc Giang,63,2020,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bắc Giang,63,2021,2.32,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bắc Giang,63,2022,2.35,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Giang,63,2023,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Giang,63,2024,2.21,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Giang,63,2025,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bắc Kạn,63,2019,2.14,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bắc Kạn,63,2020,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bắc Kạn,63,2021,2.22,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bắc Kạn,63,2022,2.07,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Kạn,63,2023,2.06,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Kạn,63,2024,2.18,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Kạn,63,2025,2.18,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bắc Ninh,63,2019,2.53,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bắc Ninh,63,2020,2.49,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bắc Ninh,63,2021,2.6,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bắc Ninh,63,2022,2.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Ninh,63,2023,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Ninh,63,2024,2.31,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bắc Ninh,63,2025,2.38,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Bến Tre,63,2019,1.86,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Bến Tre,63,2020,1.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Bến Tre,63,2021,1.64,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Bến Tre,63,2022,1.62,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bến Tre,63,2023,1.62,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bến Tre,63,2024,1.56,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Bến Tre,63,2025,1.65,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Cao Bằng,63,2019,2.43,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Cao Bằng,63,2020,2.42,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Cao Bằng,63,2021,2.4,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Cao Bằng,63,2022,2.4,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cao Bằng,63,2023,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cao Bằng,63,2024,2.27,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cao Bằng,63,2025,2.28,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Cà Mau,63,2019,1.8,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Cà Mau,63,2020,1.85,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Cà Mau,63,2021,1.86,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Cà Mau,63,2022,1.81,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cà Mau,63,2023,1.55,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cà Mau,63,2024,1.66,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cà Mau,63,2025,1.67,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Cần Thơ,63,2019,1.66,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Cần Thơ,63,2020,1.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Cần Thơ,63,2021,1.68,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Cần Thơ,63,2022,1.73,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cần Thơ,63,2023,1.44,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cần Thơ,63,2024,1.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Cần Thơ,63,2025,1.54,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Gia Lai,63,2019,2.49,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Gia Lai,63,2020,2.47,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Gia Lai,63,2021,2.44,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Gia Lai,63,2022,2.31,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Gia Lai,63,2023,2.38,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Gia Lai,63,2024,2.33,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Gia Lai,63,2025,2.37,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hà Giang,63,2019,2.47,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hà Giang,63,2020,2.57,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hà Giang,63,2021,2.62,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hà Giang,63,2022,2.77,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Giang,63,2023,2.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Giang,63,2024,2.69,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Giang,63,2025,2.65,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hà Nam,63,2019,2.44,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hà Nam,63,2020,2.36,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hà Nam,63,2021,2.35,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hà Nam,63,2022,2.42,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nam,63,2023,2.26,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nam,63,2024,2.21,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nam,63,2025,2.35,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hà Nội,63,2019,2.24,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hà Nội,63,2020,2.25,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hà Nội,63,2021,2.18,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hà Nội,63,2022,2.13,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nội,63,2023,1.88,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nội,63,2024,1.86,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Nội,63,2025,1.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hà Tĩnh,63,2019,2.83,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hà Tĩnh,63,2020,2.73,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hà Tĩnh,63,2021,2.95,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hà Tĩnh,63,2022,2.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Tĩnh,63,2023,2.72,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Tĩnh,63,2024,2.41,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hà Tĩnh,63,2025,2.36,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hòa Bình,63,2019,2.34,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hòa Bình,63,2020,2.29,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hòa Bình,63,2021,2.19,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hòa Bình,63,2022,2.16,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hòa Bình,63,2023,2.17,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hòa Bình,63,2024,2.05,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hòa Bình,63,2025,1.93,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hưng Yên,63,2019,2.4,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hưng Yên,63,2020,2.4,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hưng Yên,63,2021,2.43,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hưng Yên,63,2022,2.52,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hưng Yên,63,2023,2.48,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hưng Yên,63,2024,2.42,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hưng Yên,63,2025,2.34,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hải Dương,63,2019,2.48,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hải Dương,63,2020,2.57,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hải Dương,63,2021,2.44,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hải Dương,63,2022,2.13,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Dương,63,2023,2.26,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Dương,63,2024,2.11,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Dương,63,2025,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hải Phòng,63,2019,2.2,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hải Phòng,63,2020,2.05,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hải Phòng,63,2021,2.35,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hải Phòng,63,2022,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Phòng,63,2023,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Phòng,63,2024,2.2,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hải Phòng,63,2025,2.24,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Hậu Giang,63,2019,1.83,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Hậu Giang,63,2020,1.84,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Hậu Giang,63,2021,1.83,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Hậu Giang,63,2022,1.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hậu Giang,63,2023,1.52,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hậu Giang,63,2024,1.62,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Hậu Giang,63,2025,1.61,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Khánh Hòa,63,2019,1.77,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Khánh Hòa,63,2020,1.81,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Khánh Hòa,63,2021,1.82,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Khánh Hòa,63,2022,1.88,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Khánh Hòa,63,2023,1.69,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Khánh Hòa,63,2024,1.68,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Khánh Hòa,63,2025,1.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Kiên Giang,63,2019,1.85,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Kiên Giang,63,2020,1.98,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Kiên Giang,63,2021,1.91,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Kiên Giang,63,2022,1.83,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kiên Giang,63,2023,1.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kiên Giang,63,2024,1.68,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kiên Giang,63,2025,1.66,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Kon Tum,63,2019,2.74,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Kon Tum,63,2020,2.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Kon Tum,63,2021,2.55,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Kon Tum,63,2022,2.48,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kon Tum,63,2023,2.28,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kon Tum,63,2024,2.57,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Kon Tum,63,2025,2.52,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Lai Châu,63,2019,2.68,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Lai Châu,63,2020,2.63,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Lai Châu,63,2021,2.77,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Lai Châu,63,2022,2.63,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lai Châu,63,2023,2.6,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lai Châu,63,2024,2.49,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lai Châu,63,2025,2.78,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Long An,63,2019,1.8,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Long An,63,2020,1.82,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Long An,63,2021,1.77,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Long An,63,2022,1.68,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Long An,63,2023,1.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Long An,63,2024,1.54,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Long An,63,2025,1.81,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Lào Cai,63,2019,2.44,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Lào Cai,63,2020,2.43,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Lào Cai,63,2021,2.4,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Lào Cai,63,2022,2.48,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lào Cai,63,2023,2.73,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lào Cai,63,2024,2.55,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lào Cai,63,2025,2.92,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Lâm Đồng,63,2019,2.2,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Lâm Đồng,63,2020,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Lâm Đồng,63,2021,2.15,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Lâm Đồng,63,2022,2.06,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lâm Đồng,63,2023,2.03,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lâm Đồng,63,2024,1.94,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lâm Đồng,63,2025,2.0,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Lạng Sơn,63,2019,2.13,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Lạng Sơn,63,2020,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Lạng Sơn,63,2021,2.32,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Lạng Sơn,63,2022,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lạng Sơn,63,2023,2.13,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lạng Sơn,63,2024,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Lạng Sơn,63,2025,2.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Nam Định,63,2019,2.74,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Nam Định,63,2020,2.71,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Nam Định,63,2021,2.75,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Nam Định,63,2022,2.75,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nam Định,63,2023,2.56,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nam Định,63,2024,2.5,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nam Định,63,2025,3.0,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Nghệ An,63,2019,2.75,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Nghệ An,63,2020,2.68,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Nghệ An,63,2021,2.63,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Nghệ An,63,2022,2.61,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nghệ An,63,2023,2.4,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nghệ An,63,2024,2.25,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Nghệ An,63,2025,2.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Ninh Bình,63,2019,2.46,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Ninh Bình,63,2020,2.42,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Ninh Bình,63,2021,2.41,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Ninh Bình,63,2022,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Bình,63,2023,2.2,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Bình,63,2024,2.41,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Bình,63,2025,2.5,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Ninh Thuận,63,2019,2.09,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Ninh Thuận,63,2020,2.07,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Ninh Thuận,63,2021,2.36,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Ninh Thuận,63,2022,2.29,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Thuận,63,2023,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Thuận,63,2024,2.11,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Ninh Thuận,63,2025,2.0,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Phú Thọ,63,2019,2.57,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Phú Thọ,63,2020,2.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Phú Thọ,63,2021,2.42,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Phú Thọ,63,2022,2.44,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Thọ,63,2023,2.26,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Thọ,63,2024,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Thọ,63,2025,2.13,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Phú Yên,63,2019,2.11,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Phú Yên,63,2020,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Phú Yên,63,2021,2.07,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Phú Yên,63,2022,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Yên,63,2023,2.12,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Yên,63,2024,2.04,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Phú Yên,63,2025,2.28,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Quảng Bình,63,2019,2.43,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Quảng Bình,63,2020,2.4,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Quảng Bình,63,2021,2.52,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Quảng Bình,63,2022,2.24,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Bình,63,2023,2.79,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Bình,63,2024,2.43,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Bình,63,2025,2.44,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Quảng Nam,63,2019,2.27,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Quảng Nam,63,2020,2.23,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Quảng Nam,63,2021,2.25,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Quảng Nam,63,2022,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Nam,63,2023,2.08,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Nam,63,2024,2.04,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Nam,63,2025,2.24,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Quảng Ngãi,63,2019,2.13,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Quảng Ngãi,63,2020,2.11,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Quảng Ngãi,63,2021,2.14,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Quảng Ngãi,63,2022,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ngãi,63,2023,2.11,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ngãi,63,2024,1.96,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ngãi,63,2025,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Quảng Ninh,63,2019,2.24,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Quảng Ninh,63,2020,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Quảng Ninh,63,2021,2.14,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Quảng Ninh,63,2022,2.3,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ninh,63,2023,1.96,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ninh,63,2024,2.06,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Ninh,63,2025,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Quảng Trị,63,2019,2.45,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Quảng Trị,63,2020,2.44,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Quảng Trị,63,2021,2.46,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Quảng Trị,63,2022,2.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Trị,63,2023,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Trị,63,2024,2.44,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Quảng Trị,63,2025,2.35,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Sóc Trăng,63,2019,1.79,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Sóc Trăng,63,2020,1.8,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Sóc Trăng,63,2021,1.78,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Sóc Trăng,63,2022,1.73,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sóc Trăng,63,2023,1.77,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sóc Trăng,63,2024,1.61,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sóc Trăng,63,2025,1.77,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Sơn La,63,2019,2.44,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Sơn La,63,2020,2.36,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Sơn La,63,2021,2.36,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Sơn La,63,2022,2.34,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sơn La,63,2023,2.2,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sơn La,63,2024,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Sơn La,63,2025,2.49,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+TP. Hồ Chí Minh,63,2019,1.39,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 TP. Hồ Chí Minh,63,2020,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+TP. Hồ Chí Minh,63,2021,1.48,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 TP. Hồ Chí Minh,63,2022,1.39,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 TP. Hồ Chí Minh,63,2023,1.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 TP. Hồ Chí Minh,63,2024,1.39,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 TP. Hồ Chí Minh,63,2025,1.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Thanh Hóa,63,2019,2.54,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Thanh Hóa,63,2020,2.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Thanh Hóa,63,2021,2.22,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Thanh Hóa,63,2022,2.33,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thanh Hóa,63,2023,2.24,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thanh Hóa,63,2024,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thanh Hóa,63,2025,2.26,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Thái Bình,63,2019,2.43,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Thái Bình,63,2020,2.42,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Thái Bình,63,2021,2.58,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Thái Bình,63,2022,2.21,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Bình,63,2023,2.23,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Bình,63,2024,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Bình,63,2025,2.27,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Thái Nguyên,63,2019,2.14,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Thái Nguyên,63,2020,2.16,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Thái Nguyên,63,2021,2.12,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Thái Nguyên,63,2022,2.2,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Nguyên,63,2023,2.14,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Nguyên,63,2024,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thái Nguyên,63,2025,2.26,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Thừa Thiên Huế,63,2019,2.34,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Thừa Thiên Huế,63,2020,2.29,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Thừa Thiên Huế,63,2021,2.25,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Thừa Thiên Huế,63,2022,2.38,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thừa Thiên Huế,63,2023,2.22,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thừa Thiên Huế,63,2024,2.07,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Thừa Thiên Huế,63,2025,2.06,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Tiền Giang,63,2019,1.82,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Tiền Giang,63,2020,1.85,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Tiền Giang,63,2021,1.83,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Tiền Giang,63,2022,1.72,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tiền Giang,63,2023,1.66,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tiền Giang,63,2024,1.72,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tiền Giang,63,2025,1.67,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Trà Vinh,63,2019,1.96,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Trà Vinh,63,2020,2.0,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Trà Vinh,63,2021,1.99,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Trà Vinh,63,2022,1.68,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Trà Vinh,63,2023,1.77,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Trà Vinh,63,2024,1.73,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Trà Vinh,63,2025,1.85,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Tuyên Quang,63,2019,2.51,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Tuyên Quang,63,2020,2.5,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Tuyên Quang,63,2021,2.42,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Tuyên Quang,63,2022,2.32,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tuyên Quang,63,2023,2.17,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tuyên Quang,63,2024,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tuyên Quang,63,2025,2.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Tây Ninh,63,2019,1.53,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Tây Ninh,63,2020,1.67,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Tây Ninh,63,2021,1.65,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Tây Ninh,63,2022,1.8,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tây Ninh,63,2023,1.5,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tây Ninh,63,2024,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Tây Ninh,63,2025,1.59,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Vĩnh Long,63,2019,1.81,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Vĩnh Long,63,2020,1.82,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Vĩnh Long,63,2021,1.81,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Vĩnh Long,63,2022,1.62,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Long,63,2023,1.67,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Long,63,2024,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Long,63,2025,1.53,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Vĩnh Phúc,63,2019,2.39,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Vĩnh Phúc,63,2020,2.39,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Vĩnh Phúc,63,2021,2.37,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Vĩnh Phúc,63,2022,2.23,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Phúc,63,2023,2.23,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Phúc,63,2024,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Vĩnh Phúc,63,2025,2.0,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Yên Bái,63,2019,2.74,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Yên Bái,63,2020,2.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Yên Bái,63,2021,2.77,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Yên Bái,63,2022,2.58,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Yên Bái,63,2023,2.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Yên Bái,63,2024,2.47,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Yên Bái,63,2025,2.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Điện Biên,63,2019,2.72,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Điện Biên,63,2020,2.66,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Điện Biên,63,2021,2.7,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Điện Biên,63,2022,2.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Điện Biên,63,2023,2.56,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Điện Biên,63,2024,2.6,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Điện Biên,63,2025,2.91,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Đà Nẵng,63,2019,1.88,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Đà Nẵng,63,2020,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Đà Nẵng,63,2021,2.02,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Đà Nẵng,63,2022,2.02,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đà Nẵng,63,2023,2.03,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đà Nẵng,63,2024,1.9,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đà Nẵng,63,2025,2.09,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Đắk Lắk,63,2019,2.37,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Đắk Lắk,63,2020,2.36,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Đắk Lắk,63,2021,2.15,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Đắk Lắk,63,2022,2.1,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Lắk,63,2023,2.19,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Lắk,63,2024,2.17,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Lắk,63,2025,2.62,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Đắk Nông,63,2019,2.68,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Đắk Nông,63,2020,2.61,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Đắk Nông,63,2021,2.68,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Đắk Nông,63,2022,2.54,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Nông,63,2023,2.51,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Nông,63,2024,2.56,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đắk Nông,63,2025,2.45,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Đồng Nai,63,2019,1.9,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Đồng Nai,63,2020,1.97,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Đồng Nai,63,2021,1.86,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Đồng Nai,63,2022,1.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đồng Nai,63,2023,1.52,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đồng Nai,63,2024,1.54,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đồng Nai,63,2025,1.52,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",prel
+Đồng Tháp,63,2019,1.78,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2019)",final
 Đồng Tháp,63,2020,1.87,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
+Đồng Tháp,63,2021,1.85,children per woman,"https://pxweb.nso.gov.vn/api/v1/vi/D%C3%A2n%20s%E1%BB%91%20v%C3%A0%20lao%20%C4%91%E1%BB%99ng/V02.16.px (PX-Web V02.16, 2021)",final
 Đồng Tháp,63,2022,1.64,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đồng Tháp,63,2023,1.83,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final
 Đồng Tháp,63,2024,1.74,children per woman,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.127-128)",final

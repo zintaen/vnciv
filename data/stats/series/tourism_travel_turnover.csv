@@ -1,304 +1,428 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,47.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 An Giang,63,2020,15.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+An Giang,63,2021,8.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 An Giang,63,2022,134.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 An Giang,63,2023,211.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 An Giang,63,2024,270.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 An Giang,63,2025,313.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bà Rịa - Vũng Tàu,63,2019,353.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bà Rịa - Vũng Tàu,63,2020,156.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bà Rịa - Vũng Tàu,63,2021,86.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bà Rịa - Vũng Tàu,63,2022,174.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bà Rịa - Vũng Tàu,63,2023,328.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bà Rịa - Vũng Tàu,63,2024,342.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bà Rịa - Vũng Tàu,63,2025,368.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bình Dương,63,2019,126.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bình Dương,63,2020,45.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bình Dương,63,2021,35.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bình Dương,63,2022,287.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Dương,63,2023,345.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Dương,63,2024,391.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Dương,63,2025,418.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bình Phước,63,2019,18.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bình Phước,63,2020,3.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bình Phước,63,2021,2.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bình Phước,63,2022,10.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Phước,63,2023,15.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Phước,63,2024,20.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Phước,63,2025,22.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bình Thuận,63,2019,67.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bình Thuận,63,2020,40.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bình Thuận,63,2021,33.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bình Thuận,63,2022,106.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Thuận,63,2023,173.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Thuận,63,2024,182.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Thuận,63,2025,210.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bình Định,63,2019,59.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bình Định,63,2020,36.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bình Định,63,2021,17.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bình Định,63,2022,206.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Định,63,2023,682.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Định,63,2024,234.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bình Định,63,2025,249.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bạc Liêu,63,2019,5.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bạc Liêu,63,2020,4.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bạc Liêu,63,2021,2.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bạc Liêu,63,2022,13.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bạc Liêu,63,2023,23.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bạc Liêu,63,2024,20.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bạc Liêu,63,2025,25.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bắc Giang,63,2019,46.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bắc Giang,63,2020,26.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bắc Giang,63,2021,8.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bắc Giang,63,2022,37.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Giang,63,2023,46.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Giang,63,2024,60.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Giang,63,2025,70.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bắc Kạn,63,2019,0.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bắc Kạn,63,2020,0.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bắc Kạn,63,2021,0.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bắc Kạn,63,2022,0.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Kạn,63,2023,2.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Kạn,63,2024,3.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bắc Ninh,63,2019,25.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bắc Ninh,63,2020,10.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bắc Ninh,63,2021,2.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bắc Ninh,63,2022,48.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Ninh,63,2023,181.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Ninh,63,2024,450.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bắc Ninh,63,2025,555.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Bến Tre,63,2019,72.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Bến Tre,63,2020,45.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Bến Tre,63,2021,24.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Bến Tre,63,2022,74.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bến Tre,63,2023,116.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bến Tre,63,2024,119.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Bến Tre,63,2025,131.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Cao Bằng,63,2019,7.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Cao Bằng,63,2020,2.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Cao Bằng,63,2021,2.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Cao Bằng,63,2022,6.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cao Bằng,63,2023,13.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cao Bằng,63,2024,21.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cao Bằng,63,2025,23.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Cà Mau,63,2019,20.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Cà Mau,63,2020,22.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Cà Mau,63,2021,11.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Cà Mau,63,2022,29.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cà Mau,63,2023,44.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cà Mau,63,2024,93.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cà Mau,63,2025,106.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Cần Thơ,63,2019,214.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Cần Thơ,63,2020,64.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Cần Thơ,63,2021,35.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Cần Thơ,63,2022,331.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cần Thơ,63,2023,585.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cần Thơ,63,2024,724.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Cần Thơ,63,2025,711.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Gia Lai,63,2019,33.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Gia Lai,63,2020,9.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Gia Lai,63,2021,10.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Gia Lai,63,2022,34.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Gia Lai,63,2023,56.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Gia Lai,63,2024,23.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Gia Lai,63,2025,25.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hà Giang,63,2019,50.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hà Giang,63,2020,23.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hà Giang,63,2021,6.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hà Giang,63,2022,21.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Giang,63,2023,25.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Giang,63,2024,22.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Giang,63,2025,31.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hà Nam,63,2019,23.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hà Nam,63,2020,18.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hà Nam,63,2021,9.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hà Nam,63,2022,354.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nam,63,2023,588.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nam,63,2024,722.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nam,63,2025,815.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hà Nội,63,2019,10145.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hà Nội,63,2020,5184.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hà Nội,63,2021,3382.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hà Nội,63,2022,14773.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nội,63,2023,20687.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nội,63,2024,27800.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Nội,63,2025,35227.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hà Tĩnh,63,2019,27.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hà Tĩnh,63,2020,12.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hà Tĩnh,63,2021,7.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hà Tĩnh,63,2022,16.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Tĩnh,63,2023,44.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Tĩnh,63,2024,65.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hà Tĩnh,63,2025,80.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hòa Bình,63,2019,2.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.653-654)",final
+Hòa Bình,63,2020,1.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.653-654)",final
+Hòa Bình,63,2021,1.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.653-654)",prel
+Hưng Yên,63,2019,6.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hưng Yên,63,2020,4.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hưng Yên,63,2021,3.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hưng Yên,63,2022,63.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hưng Yên,63,2023,35.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hưng Yên,63,2024,46.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hưng Yên,63,2025,51.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hải Dương,63,2019,45.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hải Dương,63,2020,10.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hải Dương,63,2021,4.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hải Dương,63,2022,77.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Dương,63,2023,118.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Dương,63,2024,164.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Dương,63,2025,193.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Hải Phòng,63,2019,250.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Hải Phòng,63,2020,183.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Hải Phòng,63,2021,89.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Hải Phòng,63,2022,509.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Phòng,63,2023,723.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Phòng,63,2024,795.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Hải Phòng,63,2025,875.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Khánh Hòa,63,2019,544.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Khánh Hòa,63,2020,245.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Khánh Hòa,63,2021,166.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Khánh Hòa,63,2022,1375.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Khánh Hòa,63,2023,3252.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Khánh Hòa,63,2024,4610.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Khánh Hòa,63,2025,4864.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Kiên Giang,63,2019,348.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Kiên Giang,63,2020,186.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Kiên Giang,63,2021,166.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Kiên Giang,63,2022,874.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kiên Giang,63,2023,747.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kiên Giang,63,2024,1006.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kiên Giang,63,2025,1064.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Kon Tum,63,2019,3.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Kon Tum,63,2020,1.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Kon Tum,63,2021,0.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Kon Tum,63,2022,6.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kon Tum,63,2023,2.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kon Tum,63,2024,1.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Kon Tum,63,2025,1.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Lai Châu,63,2019,2.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Lai Châu,63,2020,1.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Lai Châu,63,2021,3.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Lai Châu,63,2022,5.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lai Châu,63,2023,4.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lai Châu,63,2024,3.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lai Châu,63,2025,3.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Long An,63,2019,39.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Long An,63,2020,21.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Long An,63,2021,16.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Long An,63,2022,48.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Long An,63,2023,86.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Long An,63,2024,94.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Long An,63,2025,121.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Lào Cai,63,2019,189.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Lào Cai,63,2020,93.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Lào Cai,63,2021,60.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Lào Cai,63,2022,115.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lào Cai,63,2023,282.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lào Cai,63,2024,198.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lào Cai,63,2025,240.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Lâm Đồng,63,2019,54.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Lâm Đồng,63,2020,17.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Lâm Đồng,63,2021,16.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Lâm Đồng,63,2022,55.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lâm Đồng,63,2023,62.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lâm Đồng,63,2024,65.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lâm Đồng,63,2025,72.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Lạng Sơn,63,2019,9.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Lạng Sơn,63,2020,2.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Lạng Sơn,63,2021,9.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Lạng Sơn,63,2022,20.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lạng Sơn,63,2023,22.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lạng Sơn,63,2024,24.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Lạng Sơn,63,2025,26.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Nam Định,63,2019,20.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Nam Định,63,2020,11.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Nam Định,63,2021,10.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Nam Định,63,2022,64.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nam Định,63,2023,87.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nam Định,63,2024,111.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nam Định,63,2025,133.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Nghệ An,63,2019,109.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Nghệ An,63,2020,52.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Nghệ An,63,2021,13.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Nghệ An,63,2022,114.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nghệ An,63,2023,351.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nghệ An,63,2024,425.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Nghệ An,63,2025,508.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Ninh Bình,63,2019,13.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Ninh Bình,63,2020,4.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Ninh Bình,63,2021,1.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Ninh Bình,63,2022,97.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Bình,63,2023,144.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Bình,63,2024,134.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Bình,63,2025,127.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Ninh Thuận,63,2019,2.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Ninh Thuận,63,2020,1.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Ninh Thuận,63,2021,1.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Ninh Thuận,63,2022,7.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Thuận,63,2023,15.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Thuận,63,2024,18.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Ninh Thuận,63,2025,32.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Phú Thọ,63,2019,19.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Phú Thọ,63,2020,17.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Phú Thọ,63,2021,3.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Phú Thọ,63,2022,141.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Thọ,63,2023,244.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Thọ,63,2024,278.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Thọ,63,2025,311.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Phú Yên,63,2019,4.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Phú Yên,63,2020,2.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Phú Yên,63,2021,1.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Phú Yên,63,2022,9.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Yên,63,2023,6.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Yên,63,2024,20.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Phú Yên,63,2025,48.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Quảng Bình,63,2019,300.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Quảng Bình,63,2020,125.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Quảng Bình,63,2021,52.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Quảng Bình,63,2022,218.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Bình,63,2023,318.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Bình,63,2024,327.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Bình,63,2025,373.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Quảng Nam,63,2019,476.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Quảng Nam,63,2020,93.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Quảng Nam,63,2021,75.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Quảng Nam,63,2022,109.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Nam,63,2023,245.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Nam,63,2024,348.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Nam,63,2025,397.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Quảng Ngãi,63,2019,10.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Quảng Ngãi,63,2020,4.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Quảng Ngãi,63,2021,2.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Quảng Ngãi,63,2022,14.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ngãi,63,2023,31.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ngãi,63,2024,30.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ngãi,63,2025,34.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Quảng Ninh,63,2019,916.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Quảng Ninh,63,2020,622.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Quảng Ninh,63,2021,390.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Quảng Ninh,63,2022,713.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ninh,63,2023,1046.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ninh,63,2024,1187.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Ninh,63,2025,1417.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Quảng Trị,63,2019,37.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Quảng Trị,63,2020,6.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Quảng Trị,63,2021,6.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Quảng Trị,63,2022,20.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Trị,63,2023,28.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Trị,63,2024,29.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Quảng Trị,63,2025,25.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Sóc Trăng,63,2019,11.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Sóc Trăng,63,2020,7.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Sóc Trăng,63,2021,3.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Sóc Trăng,63,2022,21.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sóc Trăng,63,2023,35.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sóc Trăng,63,2024,54.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sóc Trăng,63,2025,62.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Sơn La,63,2019,15.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Sơn La,63,2020,14.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Sơn La,63,2021,6.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Sơn La,63,2022,13.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sơn La,63,2023,25.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sơn La,63,2024,69.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Sơn La,63,2025,82.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+TP. Hồ Chí Minh,63,2019,26834.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 TP. Hồ Chí Minh,63,2020,7996.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+TP. Hồ Chí Minh,63,2021,3350.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 TP. Hồ Chí Minh,63,2022,18540.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 TP. Hồ Chí Minh,63,2023,25580.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 TP. Hồ Chí Minh,63,2024,27361.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 TP. Hồ Chí Minh,63,2025,34147.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Thanh Hóa,63,2019,119.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Thanh Hóa,63,2020,80.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Thanh Hóa,63,2021,25.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Thanh Hóa,63,2022,197.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thanh Hóa,63,2023,231.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thanh Hóa,63,2024,268.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thanh Hóa,63,2025,299.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Thái Bình,63,2019,12.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Thái Bình,63,2020,4.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Thái Bình,63,2021,0.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Thái Bình,63,2022,60.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Bình,63,2023,44.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Bình,63,2024,34.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Bình,63,2025,37.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Thái Nguyên,63,2019,36.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Thái Nguyên,63,2020,18.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Thái Nguyên,63,2021,29.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Thái Nguyên,63,2022,160.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Nguyên,63,2023,219.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Nguyên,63,2024,329.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thái Nguyên,63,2025,344.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Thừa Thiên Huế,63,2019,238.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Thừa Thiên Huế,63,2020,104.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Thừa Thiên Huế,63,2021,21.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Thừa Thiên Huế,63,2022,188.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thừa Thiên Huế,63,2023,282.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thừa Thiên Huế,63,2024,498.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Thừa Thiên Huế,63,2025,572.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Tiền Giang,63,2019,127.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Tiền Giang,63,2020,33.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Tiền Giang,63,2021,6.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Tiền Giang,63,2022,131.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tiền Giang,63,2023,181.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tiền Giang,63,2024,244.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tiền Giang,63,2025,281.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Trà Vinh,63,2019,27.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Trà Vinh,63,2020,16.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Trà Vinh,63,2021,13.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Trà Vinh,63,2022,30.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Trà Vinh,63,2023,46.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Trà Vinh,63,2024,16.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Trà Vinh,63,2025,14.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Tuyên Quang,63,2019,6.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Tuyên Quang,63,2020,6.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Tuyên Quang,63,2021,1.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Tuyên Quang,63,2022,12.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tuyên Quang,63,2023,3.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tuyên Quang,63,2024,4.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tuyên Quang,63,2025,5.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Tây Ninh,63,2019,22.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Tây Ninh,63,2020,9.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Tây Ninh,63,2021,4.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Tây Ninh,63,2022,7.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tây Ninh,63,2023,16.1,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tây Ninh,63,2024,17.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Tây Ninh,63,2025,19.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Vĩnh Long,63,2019,43.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Vĩnh Long,63,2020,24.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Vĩnh Long,63,2021,15.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Vĩnh Long,63,2022,177.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Long,63,2023,146.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Long,63,2024,174.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Long,63,2025,213.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Vĩnh Phúc,63,2019,96.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Vĩnh Phúc,63,2020,73.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Vĩnh Phúc,63,2021,44.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Vĩnh Phúc,63,2022,110.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Phúc,63,2023,208.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Phúc,63,2024,177.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Vĩnh Phúc,63,2025,219.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Yên Bái,63,2019,3.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Yên Bái,63,2020,1.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Yên Bái,63,2021,0.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Yên Bái,63,2022,9.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Yên Bái,63,2023,1.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Yên Bái,63,2024,0.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Yên Bái,63,2025,0.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
 Điện Biên,63,2020,1.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Điện Biên,63,2021,0.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Điện Biên,63,2022,1.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Điện Biên,63,2023,2.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Điện Biên,63,2024,3.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Điện Biên,63,2025,4.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Đà Nẵng,63,2019,2113.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Đà Nẵng,63,2020,563.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Đà Nẵng,63,2021,635.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Đà Nẵng,63,2022,2394.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đà Nẵng,63,2023,4579.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đà Nẵng,63,2024,5702.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đà Nẵng,63,2025,6576.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Đắk Lắk,63,2019,53.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Đắk Lắk,63,2020,34.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Đắk Lắk,63,2021,22.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Đắk Lắk,63,2022,51.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Lắk,63,2023,64.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Lắk,63,2024,77.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Lắk,63,2025,89.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Đắk Nông,63,2019,0.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Đắk Nông,63,2020,0.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Đắk Nông,63,2021,1.2,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Đắk Nông,63,2022,9.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Nông,63,2023,1.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Nông,63,2024,0.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đắk Nông,63,2025,0.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Đồng Nai,63,2019,113.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Đồng Nai,63,2020,52.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Đồng Nai,63,2021,21.6,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Đồng Nai,63,2022,41.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đồng Nai,63,2023,218.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đồng Nai,63,2024,302.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đồng Nai,63,2025,372.9,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",prel
+Đồng Tháp,63,2019,43.7,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.752-753)",final
 Đồng Tháp,63,2020,16.0,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
+Đồng Tháp,63,2021,8.5,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (Statistical Yearbook 2024, table p.752-753)",final
 Đồng Tháp,63,2022,23.8,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đồng Tháp,63,2023,102.4,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final
 Đồng Tháp,63,2024,134.3,"billion VND (travel agency turnover, current prices)","https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Part I, table p.715-716)",final

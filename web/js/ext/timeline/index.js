@@ -8,9 +8,12 @@
 //  * before the 1 July 2025 merger the borders and names are the 63 former provinces (world.js adminBorders)
 //  * events (timeline.json + history.json) as slider markers (inside the range) and a History list
 // Hash key year= (absent = "now": the latest data, the lenses as published). [ and ] step; ▶ plays one year / 1.2 s.
+// Replays (replay.js): a storm along its track (▶ in the storms card), the 2025 merger (crossing into 2025 or the merger
+// card's button) and the forest loss accumulating 2001→2025 (the forest lens's ▶ button).
 import { t, lang } from "../../i18n.js";
 import { esc, compact, int } from "../../format.js";
 import { adminBorders } from "../../world.js";
+import { createReplay } from "./replay.js";
 
 const PLAY_MS = 1200;
 const STORM_LENS = "disasters";
@@ -31,6 +34,12 @@ export async function install(app) {
   const pop63 = T.series.population?.levels?.["63"] || {};
   let history = null, forest = null;
   app.loadData("history").then((h) => { history = h; renderMarks(); if (card?.kind === "history") showHistory(); });
+
+  // before the card: Esc closes a replay first. On phones the storms card steps aside while a storm replays.
+  let cardAside = false;
+  const replay = createReplay(app, T, { onClose: (kind) => {
+    if (kind === "storms" && cardAside) { cardAside = false; cardEl.hidden = !card; }
+  } });
 
   let year = null; // null = now
   let asked = null; // the year last asked for (hash, slider, keys) before clamping: a lens with a wider range gets it back
@@ -86,7 +95,7 @@ export async function install(app) {
     const description = lvl ? t("{name} in {year}, from NSO's yearly series ({level}).", { name: t(lens.name), year: y, level: lvlText })
       : t("{name}: NSO's yearly series has no figure for {year}.", { name: t(lens.name), year: y });
     return { ...lens, id: `${lens.id}@${y}`, values, domain: seriesDomain(lens, s), year: y, level: lvl || lens.level, description,
-      note: noteOf([t("Year {year}", { year: y }), lvl && statusText(s, String(y)), lvlText], lens) };
+      note: noteOf([t("Year {year}", { year: y }), lvl && statusText(s, String(y)), lvlText, s.note ? t(s.note) : ""], lens) };
   }
 
   let stormMax = 0;
@@ -169,7 +178,11 @@ export async function install(app) {
       if (!val) continue;
       if (val.dataset.latest == null) val.dataset.latest = val.textContent;
       const yearly = b.dataset.report === "population" && sum != null;
-      val.textContent = yearly ? compact(sum) : val.dataset.latest;
+      // app.motion.countTo counts the number to its new value (ui/topbar.js seeds data-motion-num with the latest).
+      const text = yearly ? compact(sum) : val.dataset.latest, num = yearly ? sum : parseFloat(val.dataset.latestNum ?? val.dataset.motionNum);
+      if (val.dataset.latestNum == null && val.dataset.motionNum != null) val.dataset.latestNum = val.dataset.motionNum;
+      if (app.motion && Number.isFinite(num)) app.motion.countTo(val, num, (v) => (v === num ? text : compact(v)));
+      else val.textContent = text;
       b.classList.toggle("tl-latest", year != null && !yearly);
       b.classList.toggle("tl-yearly", yearly);
       if (b.dataset.title == null) b.dataset.title = b.title;
@@ -184,7 +197,8 @@ export async function install(app) {
   let shown63 = false;
   function setBorders(want63, animate) {
     if (want63 === shown63) return false;
-    if (animate && !reduced()) fade();
+    // into the 34 the merger replay shows the change; back to the 63 the old map fades out
+    if (animate && want63 && !reduced() && app.motion?.enabled !== false) fade();
     const b = adminBorders(w, want63 ? "63" : "34");
     w.bands = b.bands; w.stateLines = b.stateLines; w.bandColor = b.bandColor; w.stateLabels = b.stateLabels;
     shown63 = want63;
@@ -235,6 +249,7 @@ export async function install(app) {
     return `<div class="tl-ev-date">${esc(fmtDate(e))}</div><div class="tl-ev-title">${esc(t(e.title))}</div>
       <div class="tl-ev-text">${esc(t(e.text || ""))}</div>
       ${cite ? `<a class="tl-ev-cite" href="${esc(cite)}" target="_blank" rel="noopener noreferrer">${esc(t("Source"))}: ${esc(host)}</a>` : ""}
+      ${e.id === "merger_2025" ? `<button type="button" class="tl-link rp-merge">▶ ${esc(t("Watch the merger"))}</button>` : ""}
       ${e.x != null ? `<button type="button" class="tl-link tl-fly" data-x="${esc(e.x)}" data-y="${esc(e.y)}">${esc(t("Show on the map"))}</button>` : ""}`;
   }
 
@@ -261,7 +276,8 @@ export async function install(app) {
     } else if (card.kind === "storms") {
       const list = stormsOf(year);
       head = t("Storms of {year}", { year });
-      body = list.length ? `<ul class="tl-storms">${list.map((s) => `<li><b>${esc(s.name && s.name !== "Unnamed" ? s.name : t("Unnamed"))}</b>
+      const go = (s) => `<button type="button" class="tl-link rp-go" data-i="${T.storms.indexOf(s)}" aria-label="${esc(t("Replay {name}", { name: s.name && s.name !== "Unnamed" ? s.name : t("Unnamed") }))}" title="${esc(t("Replay the track"))}">▶</button>`;
+      body = list.length ? `${list.length > 1 ? `<button type="button" class="tl-link rp-all">▶ ${esc(t("all storms of {year}", { year }))}</button>` : ""}<ul class="tl-storms">${list.map((s) => `<li class="rp-row">${go(s)}<b>${esc(s.name && s.name !== "Unnamed" ? s.name : t("Unnamed"))}</b>
           <span>${esc(fmtDate({ date: s.date, year: s.season }))}</span><span>${offshoreOnly(s) ? esc(t("only near Hoàng Sa or Trường Sa")) : s.max_kt ? esc(t("{kt} kt max", { kt: int(s.max_kt) })) : esc(t("wind not recorded"))}</span></li>`).join("")}</ul>`
         : `<div class="tl-ev-text">${esc(t("No storm touched Vietnam this year."))}</div>`;
       body += `<div class="tl-foot">${esc(t("IBTrACS best tracks passing within 100 km of a hex; max wind while within 100 km of the mainland (JMA 10-minute wind; JTWC 1-minute only where JMA has none)."))}</div>`;
@@ -294,6 +310,16 @@ export async function install(app) {
   });
   cardEl.addEventListener("click", (ev) => {
     if (ev.target.closest(".tl-card-close")) return closeCard();
+    const go = ev.target.closest(".rp-go");
+    const aside = () => { if (app.isMobile?.()) { cardAside = true; cardEl.hidden = true; } };
+    if (go) { aside(); return void replay.storms([+go.dataset.i], year); }
+    if (ev.target.closest(".rp-all")) { aside(); return void replay.storms(stormsOf(year).map((s) => T.storms.indexOf(s)), year); }
+    if (ev.target.closest(".rp-merge")) {
+      play(false);
+      if (shown63) setYear(mergerYear); // crossing into 2025 plays it
+      else replay.merger({ home: true });
+      return;
+    }
     const fly = ev.target.closest(".tl-fly");
     if (fly) app.flyTo(+fly.dataset.x, +fly.dataset.y, Math.max(app.cam.scale, 1.2));
     const item = ev.target.closest(".tl-hist-item");
@@ -313,6 +339,7 @@ export async function install(app) {
     <button type="button" class="tl-btn tl-next" aria-label="${esc(t("Next year (])"))}" title="${esc(t("Next year (])"))}">›</button>
     <span class="tl-track"><input type="range" class="tl-range" step="1" aria-label="${esc(t("Year"))}"><span class="tl-marks"></span></span>
     <button type="button" class="tl-btn tl-play" aria-pressed="false"></button>
+    <button type="button" class="tl-btn tl-fplay" hidden></button>
     <button type="button" class="tl-btn tl-hist-btn" aria-label="${esc(t("History"))}" title="${esc(t("History: dated events with sources"))}">📜</button>`;
   const $ = (s) => turn.querySelector(s);
   const rangeEl = $(".tl-range"), label = $(".tl-label"), playBtn = $(".tl-play"), marks = $(".tl-marks");
@@ -331,6 +358,13 @@ export async function install(app) {
     // A focused button that just became disabled would drop keyboard focus to <body>: hand it to its twin.
     if (had === prev && prev.disabled) next.focus();
     else if (had === next && next.disabled) prev.focus();
+    const fb = $(".tl-fplay");
+    fb.hidden = !(lensId() === FOREST_LENS && forest?.years?.length);
+    if (!fb.hidden) {
+      fb.textContent = `▶ ${forest.years[0]}→${forest.years.at(-1)}`;
+      const l = t("Play the forest loss adding up year by year, {a}→{b}", { a: forest.years[0], b: forest.years.at(-1) });
+      fb.title = l; fb.setAttribute("aria-label", l);
+    }
     playBtn.textContent = playing ? "❚❚" : "▶";
     playBtn.setAttribute("aria-pressed", String(!!playing));
     const pl = playing ? t("Pause") : t("Play the years");
@@ -361,11 +395,13 @@ export async function install(app) {
   });
 
   // --- year changes ---------------------------------------------------------------------------------------------
-  function setYear(y, { fromHash = false, reclamp = false } = {}) {
+  function setYear(y, { fromHash = false, reclamp = false, internal = false } = {}) {
     if (!reclamp) asked = y;
     y = clamp(y);
     const changed = y !== year;
+    if (changed && replay.kind && !internal) replay.close(); // a replay is for the year it started in
     year = y;
+    if (year != null && year < mergerYear) replay.prefetch(); // merger.json, so the replay starts on the crossing frame
     const want63 = year != null && year < mergerYear;
     const crossed = setBorders(want63, !fromHash);
     if (changed && (card?.kind === "storms" || card?.kind === "event")) card = null; // an event card is for the step that opened it
@@ -374,6 +410,7 @@ export async function install(app) {
     if (changed || crossed) app.refreshLens(); // also invalidates the static cache (borders, labels)
     app.perf.timelineStep = performance.now() - t0;
     if (crossed && !fromHash && lensId() !== STORM_LENS) card = { kind: "event", event: allEvents().find((e) => e.id === "merger_2025") || null };
+    if (crossed && !fromHash && !want63) replay.merger(); // 63 → 34: the merger plays (not under reduced motion / Effects off)
     if (card?.kind === "event" && !card.event) card = null;
     updateTopbar();
     renderControl();
@@ -394,6 +431,7 @@ export async function install(app) {
     if (on) {
       if (year == null) setYear(range()[0]);
       playing = setInterval(() => {
+        if (replay.kind === "merger") return; // the year play waits for the merger replay
         step(1);
         if (year == null) play(false);
       }, PLAY_MS);
@@ -404,6 +442,12 @@ export async function install(app) {
   $(".tl-prev").onclick = () => { play(false); step(-1); };
   $(".tl-next").onclick = () => { play(false); step(1); };
   playBtn.onclick = () => play(!playing);
+  $(".tl-fplay").onclick = () => {
+    play(false);
+    if (!forest) return;
+    setYear(null, { internal: true }); // the accumulation plays over the lens as published (its last year)
+    replay.forest(forest, app.state.lens);
+  };
   $(".tl-hist-btn").onclick = () => (card?.kind === "history" ? (card = null, renderCard()) : showHistory(-1));
   rangeEl.addEventListener("input", () => {
     const v = +rangeEl.value, [, b] = range(); // before play(false): its renderControl writes the old year back
@@ -425,6 +469,7 @@ export async function install(app) {
   }, true);
 
   function onLens() {
+    if (replay.kind === "storms" || replay.kind === "forest") replay.close();
     if (lensId() === FOREST_LENS && !forest) {
       app.loadData("forest_loss").then((d) => {
         if (!d || !Array.isArray(d.years) || forest) return;

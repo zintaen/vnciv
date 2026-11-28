@@ -1,50 +1,304 @@
 province_std,level,year,value,unit,source_url,status
+An Giang,63,2019,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+An Giang,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+An Giang,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+An Giang,63,2022,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bà Rịa - Vũng Tàu,63,2019,49.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bà Rịa - Vũng Tàu,63,2020,28.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bà Rịa - Vũng Tàu,63,2021,21.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bà Rịa - Vũng Tàu,63,2022,17.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bà Rịa - Vũng Tàu,63,2023,21.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bà Rịa - Vũng Tàu,63,2024,36.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bình Dương,63,2019,253.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bình Dương,63,2020,135.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bình Dương,63,2021,78.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bình Dương,63,2022,69.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bình Dương,63,2023,139.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bình Dương,63,2024,209.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bình Phước,63,2019,47.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bình Phước,63,2020,54.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bình Phước,63,2021,49.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bình Phước,63,2022,33.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bình Phước,63,2023,50.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bình Phước,63,2024,35.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bình Thuận,63,2019,9.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bình Thuận,63,2020,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bình Thuận,63,2021,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bình Thuận,63,2022,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bình Thuận,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bình Thuận,63,2024,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bình Định,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bình Định,63,2020,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bình Định,63,2021,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bình Định,63,2022,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bình Định,63,2023,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bình Định,63,2024,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bạc Liêu,63,2019,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bạc Liêu,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bạc Liêu,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bạc Liêu,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bạc Liêu,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bạc Liêu,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bắc Giang,63,2019,80.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bắc Giang,63,2020,38.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bắc Giang,63,2021,21.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bắc Giang,63,2022,37.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bắc Giang,63,2023,96.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bắc Giang,63,2024,71.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bắc Kạn,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bắc Kạn,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Bắc Ninh,63,2019,254.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bắc Ninh,63,2020,155.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bắc Ninh,63,2021,132.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bắc Ninh,63,2022,153.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bắc Ninh,63,2023,404.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bắc Ninh,63,2024,361.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Bến Tre,63,2019,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Bến Tre,63,2020,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Bến Tre,63,2021,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Bến Tre,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Bến Tre,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Bến Tre,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Cà Mau,63,2019,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Cà Mau,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Cà Mau,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Cà Mau,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Cà Mau,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Cần Thơ,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Cần Thơ,63,2020,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Cần Thơ,63,2021,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Cần Thơ,63,2022,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Cần Thơ,63,2023,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Cần Thơ,63,2024,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Gia Lai,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hà Nam,63,2019,63.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hà Nam,63,2020,34.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hà Nam,63,2021,21.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hà Nam,63,2022,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hà Nam,63,2023,36.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hà Nam,63,2024,39.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hà Nội,63,2019,919.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hà Nội,63,2020,514.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hà Nội,63,2021,380.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hà Nội,63,2022,375.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hà Nội,63,2023,427.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hà Nội,63,2024,293.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hà Tĩnh,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hà Tĩnh,63,2020,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hà Tĩnh,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hà Tĩnh,63,2023,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Hòa Bình,63,2019,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hòa Bình,63,2020,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hòa Bình,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hòa Bình,63,2024,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hưng Yên,63,2019,47.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hưng Yên,63,2020,24.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hưng Yên,63,2021,28.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hưng Yên,63,2022,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hưng Yên,63,2023,57.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hưng Yên,63,2024,71.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hải Dương,63,2019,71.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hải Dương,63,2020,36.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hải Dương,63,2021,17.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hải Dương,63,2022,19.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hải Dương,63,2023,83.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hải Dương,63,2024,70.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hải Phòng,63,2019,88.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hải Phòng,63,2020,80.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hải Phòng,63,2021,50.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hải Phòng,63,2022,93.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hải Phòng,63,2023,124.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hải Phòng,63,2024,121.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Hậu Giang,63,2019,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Hậu Giang,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Hậu Giang,63,2021,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Hậu Giang,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Hậu Giang,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Hậu Giang,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Khánh Hòa,63,2019,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Khánh Hòa,63,2020,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Khánh Hòa,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Khánh Hòa,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Khánh Hòa,63,2023,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Khánh Hòa,63,2024,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Kiên Giang,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Kiên Giang,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Kiên Giang,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Kiên Giang,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Kiên Giang,63,2024,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Kon Tum,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Kon Tum,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Long An,63,2019,152.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Long An,63,2020,117.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Long An,63,2021,56.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Long An,63,2022,63.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Long An,63,2023,122.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Long An,63,2024,124.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Lào Cai,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Lào Cai,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Lào Cai,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Lào Cai,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Lâm Đồng,63,2019,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Lâm Đồng,63,2020,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Lâm Đồng,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Lâm Đồng,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Lâm Đồng,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Lạng Sơn,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Nam Định,63,2019,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Nam Định,63,2020,16.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Nam Định,63,2021,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Nam Định,63,2022,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Nam Định,63,2023,21.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Nam Định,63,2024,24.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Nghệ An,63,2019,11.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Nghệ An,63,2020,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Nghệ An,63,2021,11.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Nghệ An,63,2022,22.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Nghệ An,63,2023,19.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Nghệ An,63,2024,19.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Ninh Bình,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Ninh Bình,63,2020,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Ninh Bình,63,2021,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Ninh Bình,63,2022,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Ninh Bình,63,2023,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Ninh Bình,63,2024,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Ninh Thuận,63,2019,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Ninh Thuận,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Ninh Thuận,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Ninh Thuận,63,2023,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Ninh Thuận,63,2024,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Phú Thọ,63,2019,33.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Phú Thọ,63,2020,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Phú Thọ,63,2021,15.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Phú Thọ,63,2022,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Phú Thọ,63,2023,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Phú Thọ,63,2024,16.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Phú Yên,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Phú Yên,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Phú Yên,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Phú Yên,63,2023,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Phú Yên,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Quảng Bình,63,2020,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Quảng Bình,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Quảng Nam,63,2019,26.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Quảng Nam,63,2020,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Quảng Nam,63,2021,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Quảng Nam,63,2022,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Quảng Nam,63,2023,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Quảng Nam,63,2024,12.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Quảng Ngãi,63,2019,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Quảng Ngãi,63,2020,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Quảng Ngãi,63,2021,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Quảng Ngãi,63,2022,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Quảng Ngãi,63,2023,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Quảng Ngãi,63,2024,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Quảng Ninh,63,2019,16.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Quảng Ninh,63,2020,16.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Quảng Ninh,63,2021,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Quảng Ninh,63,2022,9.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Quảng Ninh,63,2023,27.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Quảng Ninh,63,2024,45.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Quảng Trị,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Quảng Trị,63,2021,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Quảng Trị,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Quảng Trị,63,2024,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Sóc Trăng,63,2019,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Sóc Trăng,63,2020,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Sóc Trăng,63,2022,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Sóc Trăng,63,2023,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+TP. Hồ Chí Minh,63,2019,1365.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+TP. Hồ Chí Minh,63,2020,985.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+TP. Hồ Chí Minh,63,2021,665.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+TP. Hồ Chí Minh,63,2022,986.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+TP. Hồ Chí Minh,63,2023,1240.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 TP. Hồ Chí Minh,63,2024,1416.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Thanh Hóa,63,2019,26.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Thanh Hóa,63,2020,14.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Thanh Hóa,63,2021,13.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Thanh Hóa,63,2022,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Thanh Hóa,63,2023,19.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Thanh Hóa,63,2024,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Thái Bình,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Thái Bình,63,2020,12.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Thái Bình,63,2021,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Thái Bình,63,2022,11.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Thái Bình,63,2023,37.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Thái Bình,63,2024,46.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Thái Nguyên,63,2019,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Thái Nguyên,63,2020,20.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Thái Nguyên,63,2021,15.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Thái Nguyên,63,2022,5.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Thái Nguyên,63,2023,43.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Thái Nguyên,63,2024,29.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Thừa Thiên Huế,63,2019,14.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Thừa Thiên Huế,63,2020,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Thừa Thiên Huế,63,2021,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Thừa Thiên Huế,63,2022,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Thừa Thiên Huế,63,2023,10.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Thừa Thiên Huế,63,2024,16.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Tiền Giang,63,2019,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Tiền Giang,63,2020,9.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Tiền Giang,63,2021,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Tiền Giang,63,2022,9.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Tiền Giang,63,2023,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Tiền Giang,63,2024,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Trà Vinh,63,2019,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Trà Vinh,63,2020,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Trà Vinh,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Trà Vinh,63,2022,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Trà Vinh,63,2023,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
+Tuyên Quang,63,2019,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Tuyên Quang,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Tuyên Quang,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Tuyên Quang,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Tuyên Quang,63,2024,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Tây Ninh,63,2019,35.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Tây Ninh,63,2020,15.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Tây Ninh,63,2021,17.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Tây Ninh,63,2022,18.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Tây Ninh,63,2023,28.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Tây Ninh,63,2024,36.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Vĩnh Long,63,2019,18.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Vĩnh Long,63,2020,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Vĩnh Long,63,2021,6.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Vĩnh Long,63,2022,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Vĩnh Long,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Vĩnh Long,63,2024,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Vĩnh Phúc,63,2019,60.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Vĩnh Phúc,63,2020,31.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Vĩnh Phúc,63,2021,29.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Vĩnh Phúc,63,2022,28.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Vĩnh Phúc,63,2023,30.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Vĩnh Phúc,63,2024,33.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Yên Bái,63,2019,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Yên Bái,63,2020,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Yên Bái,63,2021,7.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Yên Bái,63,2022,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Yên Bái,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Yên Bái,63,2024,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Đà Nẵng,63,2019,132.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Đà Nẵng,63,2020,85.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Đà Nẵng,63,2021,42.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Đà Nẵng,63,2022,49.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Đà Nẵng,63,2023,110.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Đà Nẵng,63,2024,71.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Đắk Lắk,63,2020,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Đắk Lắk,63,2021,8.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Đắk Lắk,63,2022,3.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Đắk Lắk,63,2023,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Đắk Lắk,63,2024,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Đắk Nông,63,2019,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Đắk Nông,63,2020,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Đắk Nông,63,2021,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
 Đắk Nông,63,2024,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Đồng Nai,63,2019,124.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Đồng Nai,63,2020,71.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2021/07/Sach-NGTK-2020Ban-quyen.pdf (Statistical Yearbook 2020, table p.289-290)",prel
+Đồng Nai,63,2021,54.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
+Đồng Nai,63,2022,52.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2023/06/Sach-Nien-giam-TK-2022-final.pdf (Statistical Yearbook 2022, table p.358-359)",prel
+Đồng Nai,63,2023,87.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2024/06/NIEN-GIAM-THONG-KE-2023_Ban-quyen-1.pdf (Statistical Yearbook 2023, table p.354-355)",prel
 Đồng Nai,63,2024,102.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/01/NG-TONG-CUC-2024_OKIN_Final.pdf (T138, p.355-356)",final
+Đồng Tháp,63,2019,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2020/09/Nien-giam-thong-ke-day-du-2019.pdf (Statistical Yearbook 2019, table p.287-288)",prel
+Đồng Tháp,63,2021,4.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2022/08/Sach-Nien-giam-TK-2021-1.pdf (Statistical Yearbook 2021, table p.286-287)",prel
 An Giang,34,2025,1.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, 34 provinces) (table p.1244-1245)",final
 Bắc Ninh,34,2025,384.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, 34 provinces) (table p.1244-1245)",final
 Cần Thơ,34,2025,2.0,number of newly licensed projects,"https://www.nso.gov.vn/wp-content/uploads/2026/07/NG-TOAN-QUOC-2025-1.pdf (Appendix, 34 provinces) (table p.1244-1245)",final

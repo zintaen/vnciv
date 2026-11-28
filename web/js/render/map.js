@@ -643,10 +643,11 @@ const reducedMotion = (() => {
   }
 })();
 
-// The selected state's border pulses for a short while after it is selected, then rests on a still frame, so an
-// idle map draws nothing. The pulse period is 2π·420 ms; the animation stops 1.5 periods in, where the pulse is
-// back at 0.6 (the still / reduced-motion value), so the hand-off is seamless.
-const SELECT_ANIM_MS = Math.round(420 * (3 * Math.PI - Math.asin(0.2))); // ≈ 3.87 s
+// When a state is selected a bright glint sweeps once around its border (a conic gradient turning about the
+// province's middle), then the border rests on its still frame, so an idle map draws nothing. main.js passes
+// now = 0 (the still frame) when app.motion is off.
+const SELECT_ANIM_MS = 1100;
+const easeInOut = (p) => (p < 0.5 ? 4 * p * p * p : 1 - (-2 * p + 2) ** 3 / 2);
 let selAnim = { key: null, t0: 0 };
 
 /** True while the overlay animates (the selected state's border); main's draw loop keeps requesting frames. */
@@ -678,11 +679,25 @@ export function drawOverlay(ctx, cam, w, state, now = performance.now()) {
     ctx.stroke();
   }
   if (state.hoverCell >= 0) {
+    // state.hoverFade (0..1, main.js) fades the hover highlight in: a faint lift of the hex, then its outline.
+    const a = state.hoverFade ?? 1;
     hexPath(ctx, grid, state.hoverCell);
-    ctx.strokeStyle = "rgba(255,240,200,.9)";
+    ctx.fillStyle = `rgba(255,240,200,${0.09 * a})`;
+    ctx.fill();
+    ctx.strokeStyle = `rgba(255,240,200,${0.9 * a})`;
     ctx.lineWidth = 2 / s;
     ctx.stroke();
   }
+}
+
+// The bounding box of a state's longest outline loop (its mainland, not far islands): the sweep turns about it.
+function mainLoopBox(loops) {
+  const pts = loops.reduce((m, l) => (l.length > m.length ? l : m), []);
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  for (let k = 0; k < pts.length; k += 2) {
+    x0 = Math.min(x0, pts[k]); y0 = Math.min(y0, pts[k + 1]); x1 = Math.max(x1, pts[k]); y1 = Math.max(y1, pts[k + 1]);
+  }
+  return { x0, y0, x1, y1 };
 }
 
 let dimPath = null, dimFor = -1, dimWorld = null;
@@ -703,7 +718,7 @@ function drawSelectedState(ctx, cam, w, si, t) {
   ctx.fill(dimPath, "evenodd");
   ctx.lineJoin = "round";
   ctx.lineCap = "round";
-  const pulse = t >= 0 ? 0.5 + 0.5 * Math.sin(t / 420) : 0.6;
+  const pulse = 0.6;
   // Glow: wide soft strokes under a crisp line.
   ctx.strokeStyle = `rgba(255,200,90,${0.12 + 0.1 * pulse})`;
   ctx.lineWidth = 11 / s;
@@ -717,7 +732,23 @@ function drawSelectedState(ctx, cam, w, si, t) {
   ctx.strokeStyle = "#ffe7a3";
   ctx.lineWidth = 2 / s;
   ctx.setLineDash([9 / s, 6 / s]);
-  ctx.lineDashOffset = -((Math.max(0, t) / 1000) * 22) / s;
   ctx.stroke(o.path);
+  if (t >= 0 && t < SELECT_ANIM_MS && typeof ctx.createConicGradient === "function") {
+    // The sweep: a 60° glint whose head turns once clockwise around the box centre, fading in and out at the ends.
+    const p = t / SELECT_ANIM_MS, b = (o.mainBox ??= mainLoopBox(o.loops));
+    const env = Math.min(1, p / 0.12, (1 - p) / 0.2);
+    const WEDGE = 60 / 360;
+    const g = ctx.createConicGradient(-Math.PI / 2 + easeInOut(p) * Math.PI * 2 - WEDGE * Math.PI * 2, (b.x0 + b.x1) / 2, (b.y0 + b.y1) / 2);
+    g.addColorStop(0, "rgba(255,244,200,0)");
+    g.addColorStop(WEDGE, `rgba(255,244,200,${0.95 * env})`);
+    g.addColorStop(WEDGE + 0.004, "rgba(255,244,200,0)");
+    g.addColorStop(1, "rgba(255,244,200,0)");
+    ctx.setLineDash([]);
+    ctx.strokeStyle = g;
+    ctx.lineWidth = 6 / s;
+    ctx.stroke(o.path);
+    ctx.lineWidth = 2.5 / s;
+    ctx.stroke(o.path);
+  }
   ctx.restore();
 }

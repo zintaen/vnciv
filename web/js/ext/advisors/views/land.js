@@ -64,7 +64,7 @@ export function mount(ctx) {
   cBody.appendChild(pinInfo);
   const lensRow = document.createElement("div");
   lensRow.className = "adv-row";
-  for (const [id, label] of [["forest", tr("Forest lens")], ["farmland", tr("Farmland lens")], ["wetland", tr("Wetland lens")], ["developed", tr("Built-up lens")]]) {
+  for (const [id, label] of [["forest", tr("Forest lens")], ["farmland", tr("Farmland lens")], ["wetland", tr("Wetland & mangrove lens")], ["developed", tr("Built-up lens")]]) {
     const b = lensButton(app, id, label);
     if (b) lensRow.appendChild(b);
   }
@@ -150,7 +150,7 @@ export function mount(ctx) {
     const oCtl = document.createElement("div");
     oCtl.className = "adv-row";
     oBody.appendChild(oCtl);
-    for (const [id, label] of [["forest_cover", tr("Official forest lens")], ["forest", tr("Forest lens")]]) {
+    for (const [id, label] of [["forest_cover", tr("Forest cover (official) lens")], ["forest", tr("Forest lens")]]) {
       const b = lensButton(app, id, label);
       if (b) oCtl.appendChild(b);
     }
